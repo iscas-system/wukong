@@ -5,8 +5,10 @@ package com.github.wukong.core;
 
 import java.lang.reflect.Method;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.Set;
 
 import com.github.wukong.core.utils.StringUtils;
 
@@ -70,6 +72,8 @@ public abstract class ModelParameterAnalyzer {
 	 */
 	protected final static String DEFAULT_PARENT = "";
 	
+	protected final static Set<String> blacklist = new HashSet<String>();
+	
 	/**
 	 * 
 	 */
@@ -96,7 +100,7 @@ public abstract class ModelParameterAnalyzer {
 							String kind, 
 							String parent) throws Exception {
 		for (Method method : clazz.getMethods()) {
-			if(canReflect(method)) {
+			if(canReflect(method) && !blacklist.contains(clazz.getName())) {
 				addParametersToModel(kind, parent, method);
 				if(canNested(getParamType(method))) {
 					analyseParameters(Class.forName(getParamType(method)), kind, getParent(parent, method));
