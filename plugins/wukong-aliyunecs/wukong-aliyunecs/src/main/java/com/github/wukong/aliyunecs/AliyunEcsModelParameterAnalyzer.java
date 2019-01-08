@@ -5,7 +5,7 @@ package com.github.wukong.aliyunecs;
 
 import java.lang.reflect.Method;
 
-import com.github.wukong.core.KindModelAnalyzer;
+import com.github.wukong.core.KindAnalyzer;
 import com.github.wukong.core.ModelParameterAnalyzer;
 import com.github.wukong.core.utils.JavaUtils;
 import com.github.wukong.core.utils.ObjectUtils;
@@ -19,10 +19,11 @@ public class AliyunEcsModelParameterAnalyzer extends ModelParameterAnalyzer {
 
 	protected final static String MODEL_METHOD_SET = "set";
 	
-	protected final static AliyunEcsKindModelAnalyzer analyzer = new AliyunEcsKindModelAnalyzer();
+	protected final static AliyunEcsKindAnalyzer analyzer = new AliyunEcsKindAnalyzer();
 
-	public AliyunEcsModelParameterAnalyzer() {
-		super();
+	public AliyunEcsModelParameterAnalyzer(KindAnalyzer analyzer) {
+		super(analyzer);
+		// TODO Auto-generated constructor stub
 	}
 
 	@Override
@@ -42,8 +43,4 @@ public class AliyunEcsModelParameterAnalyzer extends ModelParameterAnalyzer {
 						&& !JavaUtils.ignoreMethod(method.getName())); // 可以人工指定过滤哪些方法
 	}
 
-	@Override
-	public KindModelAnalyzer getKindModelAnalyzer() {
-		return analyzer;
-	}
 }

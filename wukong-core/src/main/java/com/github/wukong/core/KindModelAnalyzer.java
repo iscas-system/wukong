@@ -9,19 +9,6 @@ import java.util.Set;
 
 import com.github.wukong.core.utils.StringUtils;
 
-/**
- * 发现kind对应fabric8的对象。
- * models是由key, value组成的Map <br>
- * 
- * 比如： <br> <br>
- * 
- * 对于ServiceAccount的kind，是通过如下方式实例化的：  <br>
- * io.fabric8.kubernetes.api.model.ServiceAccount <br>
- * 
- * @author wuheng@(otcaix.iscas.ac.cn)
- *
- * 2018年3月2日
- */
 public abstract class KindModelAnalyzer {
 
 	/************************************************************************************

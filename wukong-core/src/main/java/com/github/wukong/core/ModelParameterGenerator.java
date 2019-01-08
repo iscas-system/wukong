@@ -20,14 +20,6 @@ import com.github.wukong.core.utils.ObjectUtils;
  *
  *         2018年3月5日
  */
-/**
- * @author Henry
- *
- */
-/**
- * @author Henry
- *
- */
 public abstract class ModelParameterGenerator {
 
 	/************************************************************************************

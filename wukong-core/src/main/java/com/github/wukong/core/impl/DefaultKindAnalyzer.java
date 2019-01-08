@@ -39,4 +39,9 @@ public class DefaultKindAnalyzer extends KindAnalyzer {
 		return DefaultClient.class.getName();
 	}
 
+	@Override
+	protected String toModel(Method method) {
+		return null;
+	}
+
 }

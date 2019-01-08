@@ -5,7 +5,7 @@ package com.github.wukong.kubernetes;
 
 import java.lang.reflect.Method;
 
-import com.github.wukong.core.KindModelAnalyzer;
+import com.github.wukong.core.KindAnalyzer;
 import com.github.wukong.core.ModelParameterAnalyzer;
 import com.github.wukong.core.utils.JavaUtils;
 import com.github.wukong.core.utils.ObjectUtils;
@@ -21,16 +21,14 @@ public class KubernetesModelParameterAnalyzer extends ModelParameterAnalyzer {
 
 	protected final static String MODEL_METHOD_SET = "set";
 	
-	protected final static KubernetesKindModelAnalyzer analyzer = new KubernetesKindModelAnalyzer();
-
+	public KubernetesModelParameterAnalyzer(KindAnalyzer analyzer) {
+		super(analyzer);
+	}
 
 	static {
 		blacklist.add(JSONSchemaProps.class.getName());
 	}
 	
-	public KubernetesModelParameterAnalyzer() {
-		super();
-	}
 
 	@Override
 	protected boolean canNested(String typename) {
@@ -49,8 +47,4 @@ public class KubernetesModelParameterAnalyzer extends ModelParameterAnalyzer {
 						&& !JavaUtils.ignoreMethod(method.getName())); // 可以人工指定过滤哪些方法
 	}
 
-	@Override
-	public KindModelAnalyzer getKindModelAnalyzer() {
-		return analyzer;
-	}
 }

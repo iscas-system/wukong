@@ -4,8 +4,6 @@
 package com.github.wukong.kubernetes;
 
 import java.lang.reflect.Method;
-import java.util.HashMap;
-import java.util.Map;
 
 import com.github.wukong.core.KindAnalyzer;
 import com.github.wukong.core.utils.ObjectUtils;
@@ -16,13 +14,8 @@ import io.fabric8.kubernetes.client.dsl.MixedOperation;
 import io.fabric8.kubernetes.client.dsl.NonNamespaceOperation;
 
 /**
- * The {@code KubernetesKindAnalyzer} class represents the relationship between kind name and kind description.
- * All kind object literals in Java programs can be instantiated by kind description.
- * <p>
- * 
- * @author wuheng@otcaix.iscas.ac.cn
- *
- * 2018年3月2日
+ * @author wuheng@iscas.ac.cn
+ * @since  2019.1
  */
 public class KubernetesKindAnalyzer extends KindAnalyzer {
 
@@ -32,15 +25,6 @@ public class KubernetesKindAnalyzer extends KindAnalyzer {
 
 	protected static final String KIND_GROUP_TAG = "GroupDSL";
 	
-	protected final static Map<String, String> rules = new HashMap<String, String>();
-	
-	static {
-		rules.put("Componentstatuses", "Componentstatus");
-		rules.put("NetworkPolicies", "NetworkPolicy");
-		rules.put("Policies", "Policy");
-		rules.put("Ingresses", "Ingress");
-	}
-
 	/**
 	 * 
 	 */
@@ -54,7 +38,6 @@ public class KubernetesKindAnalyzer extends KindAnalyzer {
 	 * 为io.fabric8.kubernetes.client.dsl.MixedOperation， 则说明它是一种kind的类型. <br>
 	 * <br>
 	 * 
-	 * 更进一步，要求这些方法的没有参数，以及不是<code>Deprecated.class</code>的类型
 	 */
 	@Override
 	protected boolean isKind(Method method) {
@@ -77,28 +60,23 @@ public class KubernetesKindAnalyzer extends KindAnalyzer {
 						&& (!method.isAnnotationPresent(Deprecated.class)));
 	}
 
-	/**
-	 * 根据名字方法名返回kind类型，如果不存在，返回null
-	 * 
-	 */
 	@Override
 	protected String toKind(Method method) {
-		String name = method.getName()
-						.substring(0, 1).toUpperCase() 
-						+ method.getName().substring(1);
-		return rules.get(name) != null 
-						? rules.get(name) 
-						: name.substring(0, name.length() - 1);
+		String fullname = getFullname(method);
+		int idx = fullname.lastIndexOf(".");
+		return fullname.substring(idx + 1);
+		
 	}
 
-	/**
-	 * 如果传入的名字name不存在，返回null
-	 * 
-	 */
 	@Override
 	protected String toDesc(String parent, Method method) {
 		return StringUtils.isNull(method.getName()) ? null : 
 				(StringUtils.isNull(parent) ? method.getName() : parent + "-" + method.getName());
+	}
+	
+	@Override
+	protected String toModel(Method method) {
+		return getFullname(method);
 	}
 
 	@Override
@@ -106,4 +84,10 @@ public class KubernetesKindAnalyzer extends KindAnalyzer {
 		return DefaultKubernetesClient.class.getName();
 	}
 
+	private String getFullname(Method method) {
+		String typeName = method.getGenericReturnType().getTypeName();
+		int sIdx = typeName.indexOf("<");
+		int eIdx = typeName.indexOf(",");
+		return typeName.substring(sIdx + 1, eIdx).trim();
+	}
 }

@@ -21,6 +21,22 @@ import com.github.wukong.core.utils.StringUtils;
  */
 public abstract class ModelParameterAnalyzer {
 
+	protected final KindAnalyzer analyzer;
+	
+	public ModelParameterAnalyzer(KindAnalyzer analyzer) {
+		super();
+		this.analyzer = analyzer;
+		for (String kind : analyzer.getKinds()) {
+			try {
+				Class<?> modelClass = Class.forName(analyzer.getModel(kind));
+				parameters.put(kind, new LinkedHashMap<String, String>());
+				analyseParameters(modelClass, kind,  DEFAULT_PARENT);
+			} catch (Exception e) {
+				// ignore here
+			}
+		}
+	}
+
 	/************************************************************************************
 	 * 
 	 *                                    Cores
@@ -74,21 +90,6 @@ public abstract class ModelParameterAnalyzer {
 	
 	protected final static Set<String> blacklist = new HashSet<String>();
 	
-	/**
-	 * 
-	 */
-	public ModelParameterAnalyzer() {
-		for (String kind : getKindModels().keySet()) {
-			try {
-				Class<?> modelClass = Class.forName(getKindModels().get(kind));
-				parameters.put(kind, new LinkedHashMap<String, String>());
-				analyseParameters(modelClass, kind,  DEFAULT_PARENT);
-			} catch (Exception e) {
-				// ignore here
-			}
-		}
-	}
-
 	
 	/**
 	 * @param clazz class
@@ -157,12 +158,6 @@ public abstract class ModelParameterAnalyzer {
 	 * 
 	 ************************************************************************************/
 	
-	/**
-	 * @return 获取所有kind对应的模型
-	 */
-	public Map<String, String> getKindModels() {
-		return getKindModelAnalyzer().getKindModels();
-	}
 
 	/**
 	 * @return 获取所有模型
@@ -185,11 +180,6 @@ public abstract class ModelParameterAnalyzer {
 	 *                   You should implement it by yourself
 	 * 
 	 ************************************************************************************/
-	
-	/**
-	 * @return 分析器
- 	 */
-	public abstract KindModelAnalyzer getKindModelAnalyzer();
 	
 	/**
 	 * 根据fabric8的代码规范，只过滤add和set开头，且只有一个参数的方法

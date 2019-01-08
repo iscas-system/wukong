@@ -95,4 +95,10 @@ public class AliyunEcsKindAnalyzer extends KindAnalyzer {
 		return null;
 	}
 
+	@Override
+	protected String toModel(Method method) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }

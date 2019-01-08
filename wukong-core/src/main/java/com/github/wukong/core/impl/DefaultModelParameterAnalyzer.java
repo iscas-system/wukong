@@ -5,7 +5,7 @@ package com.github.wukong.core.impl;
 
 import java.lang.reflect.Method;
 
-import com.github.wukong.core.KindModelAnalyzer;
+import com.github.wukong.core.KindAnalyzer;
 import com.github.wukong.core.ModelParameterAnalyzer;
 
 /**
@@ -15,8 +15,10 @@ import com.github.wukong.core.ModelParameterAnalyzer;
  */
 public class DefaultModelParameterAnalyzer extends ModelParameterAnalyzer {
 
-	protected DefaultKindModelAnalyzer analyzer = new DefaultKindModelAnalyzer();
-	
+	public DefaultModelParameterAnalyzer(KindAnalyzer analyzer) {
+		super(analyzer);
+	}
+
 	@Override
 	protected boolean canReflect(Method method) {
 		return false;
@@ -25,11 +27,6 @@ public class DefaultModelParameterAnalyzer extends ModelParameterAnalyzer {
 	@Override
 	protected boolean canNested(String typename) {
 		return false;
-	}
-
-	@Override
-	public KindModelAnalyzer getKindModelAnalyzer() {
-		return analyzer;
 	}
 
 }
