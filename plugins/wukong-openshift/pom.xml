@@ -3,12 +3,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.github.qcase</groupId>
-	<artifactId>wukong-kubernetes</artifactId>
+	<groupId>com.github</groupId>
+	<artifactId>wukong-openshift</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>wukong-kubernetes</name>
+	<name>wukong-openshift</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
@@ -25,16 +25,16 @@
 
 		<dependency>
 			<groupId>com.github.qcase</groupId>
-			<artifactId>wukong-core</artifactId>
+			<artifactId>wukong-kubernetes</artifactId>
 			<version>1.0.0-SNAPSHOT</version>
 		</dependency>
-		
-		<!-- https://mvnrepository.com/artifact/io.fabric8/kubernetes-client -->
+
+		<!-- https://mvnrepository.com/artifact/io.fabric8/openshift-client -->
 		<dependency>
-		    <groupId>io.fabric8</groupId>
-		    <artifactId>kubernetes-client</artifactId>
-		    <version>4.1.1</version>
+			<groupId>io.fabric8</groupId>
+			<artifactId>openshift-client</artifactId>
+			<version>4.1.1</version>
 		</dependency>
-		
+
 	</dependencies>
 </project>

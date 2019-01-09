@@ -63,14 +63,18 @@ public abstract class KindAnalyzer {
 									  String parentDesc) {
 		Class<?> clazz = loadClass(classname);
     	for (Method method : clazz.getMethods()) {
-    		if (isKind(method)) {
-    			String kind = toKind(method);
-				descs.put(kind, toDesc(parentDesc, method));
-				models.put(kind, toModel(method));
-    		} else if (isKindGroup(method)) {
-    			analyseKinds(method.getReturnType().getName(), 
-    						method.getName());
-    		} 
+    		try {
+	    		if (isKind(method)) {
+	    			String kind = toKind(method);
+					descs.put(kind, toDesc(parentDesc, method));
+					models.put(kind, toModel(method));
+	    		} else if (isKindGroup(method)) {
+	    			analyseKinds(method.getReturnType().getName(), 
+	    						method.getName());
+	    		} 
+    		} catch (Exception e) {
+    			
+    		}
     	}
 	}
 
