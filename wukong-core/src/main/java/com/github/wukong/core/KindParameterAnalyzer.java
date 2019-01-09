@@ -31,6 +31,8 @@ public class KindParameterAnalyzer {
 	
 	protected final static String METHOD_STARTSWITH_ADD = "add";
 	
+	protected final static String METHOD_STARTSWITH_WITH = "with";
+	
 	protected final static String DEFAULT_PARENT = "";
 	
 	protected final KindAnalyzer analyzer;
@@ -131,7 +133,8 @@ public class KindParameterAnalyzer {
 	protected boolean canReflect(Method method) {
 		return ObjectUtils.isNull(method) ? false
 				: ((method.getName().startsWith(METHOD_STARTSWITH_SET) //  startswith set
-						|| (method.getName().startsWith(METHOD_STARTSWITH_ADD))) // startswith add
+						|| (method.getName().startsWith(METHOD_STARTSWITH_ADD))
+						|| (method.getName().startsWith(METHOD_STARTSWITH_WITH))) // startswith add
 						&& method.getParameterCount() == 1 // has only one parameter
 						&& !JavaUtils.ignoreMethod(method.getName())); // is not deprecated
 	}

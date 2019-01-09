@@ -13,7 +13,7 @@ import java.util.Set;
 /**
  * The {@code StringUtils} class provides some common functions for Java.
  * 
- * @author wuheng@iscas.ac.cn
+ * @author wuheng@otcaix.iscas.ac.cn
  * @since  2019.1
  */
 public class JavaUtils {

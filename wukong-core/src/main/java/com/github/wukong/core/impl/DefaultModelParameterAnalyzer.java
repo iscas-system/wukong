@@ -9,9 +9,8 @@ import com.github.wukong.core.KindAnalyzer;
 import com.github.wukong.core.KindParameterAnalyzer;
 
 /**
- * @author wuheng@(otcaix.iscas.ac.cn)
- *
- * 2018年3月2日
+ * @author wuheng@otcaix.iscas.ac.cn
+ * @since  2019.1
  */
 public class DefaultModelParameterAnalyzer extends KindParameterAnalyzer {
 

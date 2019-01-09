@@ -6,10 +6,6 @@ package com.github.wukong.core.docs;
 import java.util.Set;
 
 
-/**
- * @author root
- *
- */
 public class FeaturesUtils {
 
 	/**
