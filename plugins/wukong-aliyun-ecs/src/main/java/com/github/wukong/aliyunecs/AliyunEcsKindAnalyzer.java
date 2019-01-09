@@ -4,13 +4,13 @@
 package com.github.wukong.aliyunecs;
 
 import com.aliyuncs.RpcAcsRequest;
-import com.github.wukong.core.anas.CommonKindAnalyzer;
+import com.github.wukong.core.anas.ReqAndRespPatternAnalyzer;
 
 /**
  * @author wuheng@iscas.ac.cn
  * @since  2019.1
  */
-public class AliyunEcsKindAnalyzer extends CommonKindAnalyzer {
+public class AliyunEcsKindAnalyzer extends ReqAndRespPatternAnalyzer {
 
 	@Override
 	public String getClient() {
