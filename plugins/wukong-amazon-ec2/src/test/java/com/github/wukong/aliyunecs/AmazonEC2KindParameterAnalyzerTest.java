@@ -3,10 +3,10 @@ package com.github.wukong.aliyunecs;
 import com.github.wukong.core.KindParameterAnalyzer;
 import com.github.wukong.core.docs.ParametersUtils;
 
-public class AliyunEcsKindParameterAnalyzerTest {
+public class AmazonEC2KindParameterAnalyzerTest {
 
 	public static void main(String[] args) {
-		AliyunEcsKindAnalyzer ka = new AliyunEcsKindAnalyzer();
+		AmazonCE2KindAnalyzer ka = new AmazonCE2KindAnalyzer();
 		KindParameterAnalyzer mpa = new KindParameterAnalyzer(ka);
 		for (String kind : ka.getKinds()) {
 			ParametersUtils.showModelParametersWithNetstedStyle(kind, mpa.getParameters(kind));
