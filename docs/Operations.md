@@ -38,6 +38,60 @@ PersistentVolume
 StatefulSet
 ```
 
+### 1.2 OpenShift
+
+```
+ClusterRoleBinding
+Node
+KubernetesClusterRole
+ImageStreamTag
+ImageStream
+Deployment
+Build
+ReplicationController
+BuildConfig
+RoleBinding
+Job
+Route
+PriorityClass
+Pod
+NetworkPolicy
+Ingress
+Namespace
+OAuthAuthorizeToken
+KubernetesClusterRoleBinding
+Secret
+Role
+Project
+LimitRange
+CronJob
+ComponentStatus
+HorizontalPodAutoscaler
+PersistentVolumeClaim
+OAuthAccessToken
+DaemonSet
+DeploymentConfig
+StatefulSet
+ServiceAccount
+Group
+User
+PodDisruptionBudget
+OAuthClient
+KubernetesRole
+Endpoints
+ResourceQuota
+PodSecurityPolicy
+ReplicaSet
+ConfigMap
+CustomResourceDefinition
+StorageClass
+SecurityContextConstraints
+Service
+KubernetesRoleBinding
+Event
+PersistentVolume
+```
+
 ## 2. VM
 
 ### 2.1 Aliyun ECS
