@@ -1,4 +1,4 @@
-package com.github.wukong.aliyunecs;
+package com.github.wukong.awsec2;
 
 import com.amazonaws.ClientConfiguration;
 import com.amazonaws.services.ec2.AmazonEC2Client;

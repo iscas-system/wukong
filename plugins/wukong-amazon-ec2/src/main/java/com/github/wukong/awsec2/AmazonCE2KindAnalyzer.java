@@ -1,7 +1,7 @@
 /**
  * Copyright (2018-2019) Institute of Software, Chinese Academy of Sciences
  */
-package com.github.wukong.aliyunecs;
+package com.github.wukong.awsec2;
 
 
 import com.amazonaws.AmazonWebServiceRequest;
