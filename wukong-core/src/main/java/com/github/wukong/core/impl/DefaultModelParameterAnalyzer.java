@@ -6,14 +6,14 @@ package com.github.wukong.core.impl;
 import java.lang.reflect.Method;
 
 import com.github.wukong.core.KindAnalyzer;
-import com.github.wukong.core.ModelParameterAnalyzer;
+import com.github.wukong.core.KindParameterAnalyzer;
 
 /**
  * @author wuheng@(otcaix.iscas.ac.cn)
  *
  * 2018年3月2日
  */
-public class DefaultModelParameterAnalyzer extends ModelParameterAnalyzer {
+public class DefaultModelParameterAnalyzer extends KindParameterAnalyzer {
 
 	public DefaultModelParameterAnalyzer(KindAnalyzer analyzer) {
 		super(analyzer);

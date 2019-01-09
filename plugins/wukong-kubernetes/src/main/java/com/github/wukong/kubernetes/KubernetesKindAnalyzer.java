@@ -33,9 +33,9 @@ public class KubernetesKindAnalyzer extends KindAnalyzer {
 	}
 	
 	/**
-	 * 对于fabric8的DefaultKubernetesClient而言，如果返回值结果是
-	 * io.fabric8.kubernetes.client.dsl.NonNamespaceOperation，或者
-	 * 为io.fabric8.kubernetes.client.dsl.MixedOperation， 则说明它是一种kind的类型. <br>
+	 * for fabric8, the return value either 
+	 * io.fabric8.kubernetes.client.dsl.NonNamespaceOperation 
+	 * or io.fabric8.kubernetes.client.dsl.MixedOperation. <br>
 	 * <br>
 	 * 
 	 */
@@ -43,16 +43,11 @@ public class KubernetesKindAnalyzer extends KindAnalyzer {
 	protected boolean isKind(Method method) {
 		return ObjectUtils.isNull(method) ? false
 				: ((KIND_MIXED_TAG.equals(method.getReturnType().getName())
-						|| KIND_BASIC_TAG.equals(method.getReturnType().getName())) && (method.getParameterCount() == 0)
-						&& (!method.isAnnotationPresent(Deprecated.class)));
+							|| KIND_BASIC_TAG.equals(method.getReturnType().getName())) 
+						&& (method.getParameterCount() == 0)
+					&& (!method.isAnnotationPresent(Deprecated.class)));
 	}
 
-	/**
-	 * 对于fabric8的DefaultKubernetesClient而言，如果返回值是以GroupDSL结尾的， 则说明它是一种kind的类型. <br>
-	 * <br>
-	 * 
-	 * 更进一步，要求这些方法不是<code>Deprecated.class</code>的类型
-	 */
 	@Override
 	protected boolean isKindGroup(Method method) {
 		return ObjectUtils.isNull(method) ? false
@@ -71,7 +66,8 @@ public class KubernetesKindAnalyzer extends KindAnalyzer {
 	@Override
 	protected String toDesc(String parent, Method method) {
 		return StringUtils.isNull(method.getName()) ? null : 
-				(StringUtils.isNull(parent) ? method.getName() : parent + "-" + method.getName());
+				(StringUtils.isNull(parent) ? method.getName() 
+						: parent + "-" + method.getName());
 	}
 	
 	@Override
@@ -84,6 +80,13 @@ public class KubernetesKindAnalyzer extends KindAnalyzer {
 		return DefaultKubernetesClient.class.getName();
 	}
 
+	/**
+	 * for example, the GenericReturnType would be
+	 * MixedOperation<Event, EventList, DoneableEvent, Resource<Event, DoneableEvent>>
+	 * and fullname means the classname of object Event
+	 * @param method method
+	 * @return return typeName
+	 */
 	private String getFullname(Method method) {
 		String typeName = method.getGenericReturnType().getTypeName();
 		int sIdx = typeName.indexOf("<");

@@ -12,7 +12,6 @@ import java.util.*;
  *
  * 2018年3月2日
  */
-@Deprecated
 public class ParametersUtils {
 
 	/**
@@ -20,8 +19,8 @@ public class ParametersUtils {
 	 * @param kind kind
 	 * @param models models
 	 */
-	public static void showModelParametersWithKeyValueStyle(String type, String kind, Map<String, String> models) {
-		System.out.println("## " + type + " " + kind + " parameterss:");
+	public static void showModelParametersWithKeyValueStyle(String kind, Map<String, String> models) {
+		System.out.println("## " + kind + " parameterss:");
 		System.out.println();
 		System.out.println("```");
 		for (String key : models.keySet()) {
@@ -35,8 +34,8 @@ public class ParametersUtils {
 	 * @param kind kind
 	 * @param models models
 	 */
-	public static void showModelParametersWithNetstedStyle(String type, String kind, Map<String, String> models) {
-		System.out.println("## " + type + " " + kind + " parameterss:");
+	public static void showModelParametersWithNetstedStyle(String kind, Map<String, String> models) {
+		System.out.println("## " + kind + " parameterss:");
 		System.out.println();
 		System.out.println("```");
 		for (String key : models.keySet()) {
@@ -50,8 +49,8 @@ public class ParametersUtils {
 	 * @param kind kind
 	 * @param models models
 	 */
-	public static void showModelParametersWithJsonStyle(String type, String kind, Map<String, String> models) {
-		System.out.println("## " + type + " " + kind + " parameterss:");
+	public static void showModelParametersWithJsonStyle(String kind, Map<String, String> models) {
+		System.out.println("## " + kind + " parameterss:");
 		System.out.println();
 		System.out.println("```");
 		System.out.println(JSON.toJSONString(toJSonStyle(models)));
