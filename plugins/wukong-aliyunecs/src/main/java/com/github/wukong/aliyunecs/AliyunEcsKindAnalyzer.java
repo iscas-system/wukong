@@ -4,33 +4,21 @@
 package com.github.wukong.aliyunecs;
 
 import java.lang.reflect.Method;
-import java.util.HashMap;
-import java.util.Map;
 
+import com.aliyuncs.RpcAcsRequest;
 import com.github.wukong.core.KindAnalyzer;
-import com.github.wukong.core.utils.StringUtils;
+import com.github.wukong.core.utils.ObjectUtils;
 
 /**
- * The {@code KubernetesKindAnalyzer} class represents the relationship between kind name and kind description.
- * All kind object literals in Java programs can be instantiated by kind description.
- * <p>
- * 
- * @author wuheng@otcaix.iscas.ac.cn
- *
- * 2018年3月2日
+ * @author wuheng@iscas.ac.cn
+ * @since  2019.1
  */
 public class AliyunEcsKindAnalyzer extends KindAnalyzer {
 
+	public final static String REQUEST = RpcAcsRequest.class.getName();
 	
-	protected final static Map<String, String> rules = new HashMap<String, String>();
+	public final static String POSTFIX = "Request";
 	
-	static {
-		rules.put("Componentstatuses", "Componentstatus");
-		rules.put("NetworkPolicies", "NetworkPolicy");
-		rules.put("Policies", "Policy");
-		rules.put("Ingresses", "Ingress");
-	}
-
 	/**
 	 * 
 	 */
@@ -38,20 +26,33 @@ public class AliyunEcsKindAnalyzer extends KindAnalyzer {
 		super();
 	}
 	
-	/**
-	 * 对于fabric8的DefaultKubernetesClient而言，如果返回值结果是
-	 * io.fabric8.kubernetes.client.dsl.NonNamespaceOperation，或者
-	 * 为io.fabric8.kubernetes.client.dsl.MixedOperation， 则说明它是一种kind的类型. <br>
-	 * <br>
-	 * 
-	 * 更进一步，要求这些方法的没有参数，以及不是<code>Deprecated.class</code>的类型
-	 */
+	@SuppressWarnings("unused")
 	@Override
 	protected boolean isKind(Method method) {
-//		return ObjectUtils.isNull(method) ? false
-//				: ((KIND_MIXED_TAG.equals(method.getReturnType().getName())
-//						|| KIND_BASIC_TAG.equals(method.getReturnType().getName())) && (method.getParameterCount() == 0)
-//						&& (!method.isAnnotationPresent(Deprecated.class)));
+		if (ObjectUtils.isNull(method)) {
+			return false;
+		}
+		
+		if (method.isAnnotationPresent(Deprecated.class)) {
+			return false;
+		}
+		
+		if (method.getParameterCount() != 0) {
+			return false;
+		}
+
+		Class<?> returnType = method.getReturnType();
+		for (Class<?> clazz : returnType.getInterfaces()) {
+			if (REQUEST.equals(clazz.getName())) {
+				return true;
+			}
+		}
+		
+		if( returnType.getSuperclass() != null && REQUEST.equals(
+					returnType.getSuperclass().getName())) {
+			return true;
+		}
+		
 		return false;
 	}
 
@@ -72,33 +73,18 @@ public class AliyunEcsKindAnalyzer extends KindAnalyzer {
 	 */
 	@Override
 	protected String toKind(Method method) {
-		String name = method.getName()
-						.substring(0, 1).toUpperCase() 
-						+ method.getName().substring(1);
-		return rules.get(name) != null 
-						? rules.get(name) 
-						: name.substring(0, name.length() - 1);
-	}
-
-	/**
-	 * 如果传入的名字name不存在，返回null
-	 * 
-	 */
-	@Override
-	protected String toDesc(String parent, Method method) {
-		return StringUtils.isNull(method.getName()) ? null : 
-				(StringUtils.isNull(parent) ? method.getName() : parent + "-" + method.getName());
-	}
-
-	@Override
-	public String getClient() {
-		return null;
+		String simpleName = method.getReturnType().getSimpleName();
+		return simpleName.substring(0, simpleName.length() - POSTFIX.length());
 	}
 
 	@Override
 	protected String toModel(Method method) {
-		// TODO Auto-generated method stub
-		return null;
+		return method.getReturnType().getName();
+	}
+	
+	@Override
+	public String getClient() {
+		return AliyunDefaultAcsClient.class.getName();
 	}
 
 }

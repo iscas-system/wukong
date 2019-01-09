@@ -9,13 +9,12 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
+
 /**
- *  The {@code StringUtils} class provides some common functions for Java.
- * <p>
+ * The {@code StringUtils} class provides some common functions for Java.
  * 
- * @author wuheng@(otcaix.iscas.ac.cn)
- *
- * 2018年3月2日
+ * @author wuheng@iscas.ac.cn
+ * @since  2019.1
  */
 public class JavaUtils {
 

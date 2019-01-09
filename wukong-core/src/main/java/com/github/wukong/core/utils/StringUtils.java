@@ -5,11 +5,9 @@ package com.github.wukong.core.utils;
 
 /**
  * The {@code StringUtils} class provides some common String processing functions.
- * <p>
  * 
- * @author wuheng@(otcaix.iscas.ac.cn)
- *
- * 2018年3月2日
+ * @author wuheng@iscas.ac.cn
+ * @since  2019.1
  */
 public class StringUtils {
 	

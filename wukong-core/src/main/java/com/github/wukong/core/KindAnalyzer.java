@@ -9,6 +9,7 @@ import java.util.Map;
 import java.util.Set;
 
 import com.github.wukong.core.impl.DefaultClient;
+import com.github.wukong.core.utils.StringUtils;
 
 
 /**
@@ -97,6 +98,16 @@ public abstract class KindAnalyzer {
 	}
 	
 	/**
+	 * @param parent   parent class
+	 * @param method   method
+	 * @return         convert to description
+	 */
+	protected String  toDesc(String parent, Method method) {
+		return StringUtils.isNull(method.getName()) ? null : 
+			(StringUtils.isNull(parent) ? method.getName() : parent + "-" + method.getName());
+	}
+	
+	/**
 	 * @param classname   name
 	 * @return            class
 	 */
@@ -131,13 +142,6 @@ public abstract class KindAnalyzer {
 	 * @return         convert method to kind
 	 */
 	protected abstract String  toKind(Method method);
-	
-	/**
-	 * @param parent   parent class
-	 * @param method   method
-	 * @return         convert to description
-	 */
-	protected abstract String  toDesc(String parent, Method method);
 	
 	/**
 	 * @param method   method

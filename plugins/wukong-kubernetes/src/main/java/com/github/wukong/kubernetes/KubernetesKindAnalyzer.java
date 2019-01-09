@@ -7,7 +7,6 @@ import java.lang.reflect.Method;
 
 import com.github.wukong.core.KindAnalyzer;
 import com.github.wukong.core.utils.ObjectUtils;
-import com.github.wukong.core.utils.StringUtils;
 
 import io.fabric8.kubernetes.client.DefaultKubernetesClient;
 import io.fabric8.kubernetes.client.dsl.MixedOperation;
@@ -63,13 +62,6 @@ public class KubernetesKindAnalyzer extends KindAnalyzer {
 		
 	}
 
-	@Override
-	protected String toDesc(String parent, Method method) {
-		return StringUtils.isNull(method.getName()) ? null : 
-				(StringUtils.isNull(parent) ? method.getName() 
-						: parent + "-" + method.getName());
-	}
-	
 	@Override
 	protected String toModel(Method method) {
 		return getFullname(method);

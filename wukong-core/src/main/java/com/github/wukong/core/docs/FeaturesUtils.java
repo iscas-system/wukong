@@ -1,16 +1,15 @@
 /**
  * Copyright (2018, ) Institute of Software, Chinese Academy of Sciences
  */
-package com.github.wukong.core.utils;
+package com.github.wukong.core.docs;
 
 import java.util.Set;
 
+
 /**
- * @author wuheng@otcaix.iscas.ac.cn
+ * @author root
  *
- * 2018年3月2日
  */
-@Deprecated
 public class FeaturesUtils {
 
 	/**

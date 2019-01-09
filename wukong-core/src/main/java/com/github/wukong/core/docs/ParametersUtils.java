@@ -1,9 +1,10 @@
 /**
  * Copyright (2018, ) Institute of Software, Chinese Academy of Sciences
  */
-package com.github.wukong.core.utils;
+package com.github.wukong.core.docs;
 
 import com.alibaba.fastjson.JSON;
+import com.github.wukong.core.utils.JavaUtils;
 
 import java.util.*;
 
