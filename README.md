@@ -7,6 +7,7 @@ Then, we give the parameters of each system in detail.
 
 
 TABLE I: The list of supported System
+
 |  Country  |   Type    |   Name    |  Offical  |  Support  |
 | :-------: | :-------: | :-------: | :-------: | :-------: |
 |  ---      | Container | Kubernetes|    No     |    Yes    |
@@ -20,8 +21,9 @@ TABLE I: The list of supported System
 |  China    |     VM    |   Baidu   |    Yes    |    Yes    |
 |  China    |     VM    |   JD      |    Yes    |    Yes    |
 
-**Node that the value of "No" in column "Support" just means the related API
-of target system does not satisfy our assumptions**
+
+**Node that the value of "No" in column "Support" just means the related APIs
+of target system does not satisfy our assumptions, we should reengineer the APIs**
 
 
 ### Container
