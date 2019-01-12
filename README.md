@@ -5,6 +5,8 @@
 We describe the [operations](docs/Operations.md).suppoted by the system mentioned below.
 Then, we give the parameters of each system in detail.
 
+
+TABLE I: The list of supported System
 |  Country  |   Type    |   Name    |  Offical  |  Support  |
 | :-------: | :-------: | :-------: | :-------: | :-------: |
 |  ---      | Container | Kubernetes|    No     |    Yes    |
@@ -17,6 +19,10 @@ Then, we give the parameters of each system in detail.
 |  China    |     VM    |   Tencent |    Yes    |    Yes    |
 |  China    |     VM    |   Baidu   |    Yes    |    Yes    |
 |  China    |     VM    |   JD      |    Yes    |    Yes    |
+
+**Node that the value of "No" in column "Support" just means the related API
+of target system does not satisfy our assumptions**
+
 
 ### Container
 
