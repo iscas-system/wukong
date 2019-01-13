@@ -428,7 +428,11 @@ MonitorInstances
 CreateVpnGateway
 ```
 
-### 2.2 Aliyun ECS
+### 2.2 Azure VM
+
+### 2.3 Google GCE
+
+### 2.4 Aliyun ECS
 
 ```
 ModifySnapshotAttribute
@@ -673,4 +677,53 @@ GetInstanceScreenshot
 AttachInstanceRamRole
 InstallCloudAssistant
 ModifyVRouterAttribute
+```
+
+### 2.5 Tencent VM
+
+```
+```
+
+### 2.6 Baidu BCE
+
+```
+BindInstanceToTags
+AttachVolume
+DeleteImage
+GetVolume
+ModifyInstancePassword
+ModifyInstanceAttributes
+RebootInstance
+CreateInstance
+DeleteSnapshot
+ResizeInstance
+RollbackVolume
+DeleteSecurityGroup
+GetInstanceVnc
+PurchaseReservedVolume
+CreateImage
+ReleaseVolume
+PurchaseReservedInstance
+DetachVolume
+StopInstance
+GetSnapshot
+RebuildInstance
+ReleaseInstance
+UnbindInstanceFromTags
+ResizeVolume
+GetInstance
+CreateSecurityGroup
+AuthorizeSecurityGroupRule
+BindInstanceToSecurityGroup
+GetImage
+UnbindInstanceFromSecurityGroup
+CreateVolume
+RevokeSecurityGroupRule
+StartInstance
+CreateSnapshot
+```
+
+### 2.7 JDcloud VM
+
+```
 ```
