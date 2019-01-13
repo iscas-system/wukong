@@ -92,7 +92,8 @@ public class KindParameterAnalyzer {
 		int idx = fullname.indexOf(",") == -1 ? fullname.indexOf("<") : fullname.indexOf(",");
 		String typename = (idx == -1) ? fullname 
 				: fullname.substring(idx + 1, fullname.indexOf(">")).trim();
-		return typename;
+		return typename.endsWith("[]") ? typename.substring(
+				0, typename.length() - "[]".length()) : typename;
 	}
 
 	/**
