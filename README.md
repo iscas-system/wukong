@@ -34,4 +34,9 @@ of target system does not satisfy our assumptions, we should reengineer the APIs
 
 ### VM
 1. [Amazon EC2](docs/AmazonEc2-Analysis.md)
+2. [Azure VM]()
+3. [Google GCE]()
 2. [Aliyun ECS](docs/AliyunECS-Analysis.md)
+2. [Tencent VM](docs/TencentVM-Analysis.md)
+2. [Baidu BCE](docs/BaiduBCE-Analysis.md)
+2. [JDCloud VM](docs/JDCloudVN-Analysis.md)
