@@ -16,22 +16,22 @@ import com.github.wukong.core.utils.ObjectUtils;
  * @since  2019.1
  *
  */
-public class AliyunDefaultAcsClient extends DefaultAcsClient {
+public class WukongDefaultAcsClient extends DefaultAcsClient {
 
 	public final static Class<?> CLASSNAME = RpcAcsRequest.class;
 	
 	public final static String   PACKAGE   = CreateVpcRequest.class
 														.getPackage().getName();
 	
-	public AliyunDefaultAcsClient(IClientProfile profile, AlibabaCloudCredentials credentials) {
+	public WukongDefaultAcsClient(IClientProfile profile, AlibabaCloudCredentials credentials) {
 		super(profile, credentials);
 	}
 
-	public AliyunDefaultAcsClient(IClientProfile profile, AlibabaCloudCredentialsProvider credentialsProvider) {
+	public WukongDefaultAcsClient(IClientProfile profile, AlibabaCloudCredentialsProvider credentialsProvider) {
 		super(profile, credentialsProvider);
 	}
 
-	public AliyunDefaultAcsClient(IClientProfile profile) {
+	public WukongDefaultAcsClient(IClientProfile profile) {
 		super(profile);
 	}
 

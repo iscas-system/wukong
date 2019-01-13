@@ -16,7 +16,7 @@ public class AliyunEcsKindAnalyzer extends ReqAndRespPatternAnalyzer {
 
 	@Override
 	public String getClient() {
-		return AliyunDefaultAcsClient.class.getName();
+		return WukongDefaultAcsClient.class.getName();
 	}
 
 	@Override

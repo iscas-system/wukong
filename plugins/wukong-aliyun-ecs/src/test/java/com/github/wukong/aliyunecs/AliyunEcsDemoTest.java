@@ -8,7 +8,7 @@ public class AliyunEcsDemoTest {
 
 	public static void main(String[] args) throws Exception {
 		IClientProfile profile = DefaultProfile.getProfile("cn-hangzhou", "", "");
-		AliyunDefaultAcsClient client = new AliyunDefaultAcsClient(profile);
+		WukongDefaultAcsClient client = new WukongDefaultAcsClient(profile);
 		CreateVpcRequest req = client.createVpcRequest();
 		client.getAcsResponse(req);
 	}
