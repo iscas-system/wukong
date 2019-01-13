@@ -30,12 +30,13 @@ of target system does not satisfy our assumptions, we should reengineer the APIs
 
 1. [Kubernetes](docs/Kubernetes-Analysis.md)
 2. [OpenShift](docs/OpenShift-Analysis.md)
+3. Docker/Swarm
 
 
 ### VM
 1. [Amazon EC2](docs/AmazonEc2-Analysis.md)
-2. [Azure VM]()
-3. [Google GCE]()
+2. Azure VM
+3. Google GCE
 2. [Aliyun ECS](docs/AliyunECS-Analysis.md)
 2. [Tencent VM](docs/TencentVM-Analysis.md)
 2. [Baidu BCE](docs/BaiduBCE-Analysis.md)
