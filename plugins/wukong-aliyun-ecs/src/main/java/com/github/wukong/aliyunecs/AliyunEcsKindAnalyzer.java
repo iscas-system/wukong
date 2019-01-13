@@ -7,6 +7,8 @@ import com.aliyuncs.RpcAcsRequest;
 import com.github.wukong.core.anas.ReqAndRespPatternAnalyzer;
 
 /**
+ * https://help.aliyun.com/document_detail/25484.html
+ *
  * @author wuheng@iscas.ac.cn
  * @since  2019.1
  */
