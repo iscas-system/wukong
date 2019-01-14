@@ -4,15 +4,12 @@
 package com.github.wukong.azurevm;
 
 import java.io.File;
-import java.io.FileOutputStream;
 import java.lang.reflect.Method;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.springframework.core.LocalVariableTableParameterNameDiscoverer;
-import org.springframework.core.ParameterNameDiscoverer;
-
 import com.github.wukong.azurevm.models.AbstractAzureRequest;
+import com.github.wukong.core.tools.CodesTool;
 import com.microsoft.azure.management.compute.implementation.ComputeManagementClientImpl;
 import com.microsoft.rest.RestClient;
 import com.microsoft.rest.credentials.ServiceClientCredentials;
@@ -267,12 +264,12 @@ public class WukongComputeManagementClientImpl extends ComputeManagementClientIm
 		return this.images().getByResourceGroup(request.getResourceGroupName(),request.getImageName());
 	}
 
-	public com.microsoft.azure.management.compute.implementation.ImageInner createOrUpdate(com.github.wukong.azurevm.models.images.CreateOrUpdateRequest request) {
-		return this.images().createOrUpdate(request.getResourceGroupName(),request.getImageName(),request.getParameters());
-	}
-
 	public com.microsoft.azure.PagedList<com.microsoft.azure.management.compute.implementation.ImageInner> listNext(com.github.wukong.azurevm.models.images.ListNextRequest request) {
 		return this.images().listNext(request.getNextPageLink());
+	}
+
+	public com.microsoft.azure.management.compute.implementation.ImageInner createOrUpdate(com.github.wukong.azurevm.models.images.CreateOrUpdateRequest request) {
+		return this.images().createOrUpdate(request.getResourceGroupName(),request.getImageName(),request.getParameters());
 	}
 
 	public rx.Observable<com.microsoft.rest.ServiceResponse<java.lang.Void>> deleteWithServiceResponseAsync(com.github.wukong.azurevm.models.images.DeleteWithServiceResponseAsyncRequest request) {
@@ -623,12 +620,12 @@ public class WukongComputeManagementClientImpl extends ComputeManagementClientIm
 		return this.virtualMachineScaleSets().listSkusNextWithServiceResponseAsync(request.getNextPageLink());
 	}
 
-	public com.microsoft.azure.management.compute.implementation.VirtualMachineScaleSetExtensionInner createOrUpdate(com.github.wukong.azurevm.models.virtualMachineScaleSetExtensions.CreateOrUpdateRequest request) {
-		return this.virtualMachineScaleSetExtensions().createOrUpdate(request.getResourceGroupName(),request.getVmScaleSetName(),request.getVmssExtensionName(),request.getExtensionParameters());
-	}
-
 	public com.microsoft.azure.PagedList<com.microsoft.azure.management.compute.implementation.VirtualMachineScaleSetExtensionInner> listNext(com.github.wukong.azurevm.models.virtualMachineScaleSetExtensions.ListNextRequest request) {
 		return this.virtualMachineScaleSetExtensions().listNext(request.getNextPageLink());
+	}
+
+	public com.microsoft.azure.management.compute.implementation.VirtualMachineScaleSetExtensionInner createOrUpdate(com.github.wukong.azurevm.models.virtualMachineScaleSetExtensions.CreateOrUpdateRequest request) {
+		return this.virtualMachineScaleSetExtensions().createOrUpdate(request.getResourceGroupName(),request.getVmScaleSetName(),request.getVmssExtensionName(),request.getExtensionParameters());
 	}
 
 	public rx.Observable<com.microsoft.rest.ServiceResponse<java.lang.Void>> deleteWithServiceResponseAsync(com.github.wukong.azurevm.models.virtualMachineScaleSetExtensions.DeleteWithServiceResponseAsyncRequest request) {
@@ -1039,12 +1036,12 @@ public class WukongComputeManagementClientImpl extends ComputeManagementClientIm
 		return this.galleries().getByResourceGroup(request.getResourceGroupName(),request.getGalleryName());
 	}
 
-	public com.microsoft.azure.management.compute.implementation.GalleryInner createOrUpdate(com.github.wukong.azurevm.models.galleries.CreateOrUpdateRequest request) {
-		return this.galleries().createOrUpdate(request.getResourceGroupName(),request.getGalleryName(),request.getGallery());
-	}
-
 	public com.microsoft.azure.PagedList<com.microsoft.azure.management.compute.implementation.GalleryInner> listNext(com.github.wukong.azurevm.models.galleries.ListNextRequest request) {
 		return this.galleries().listNext(request.getNextPageLink());
+	}
+
+	public com.microsoft.azure.management.compute.implementation.GalleryInner createOrUpdate(com.github.wukong.azurevm.models.galleries.CreateOrUpdateRequest request) {
+		return this.galleries().createOrUpdate(request.getResourceGroupName(),request.getGalleryName(),request.getGallery());
 	}
 
 	public rx.Observable<com.microsoft.rest.ServiceResponse<java.lang.Void>> deleteWithServiceResponseAsync(com.github.wukong.azurevm.models.galleries.DeleteWithServiceResponseAsyncRequest request) {
@@ -1253,89 +1250,17 @@ public class WukongComputeManagementClientImpl extends ComputeManagementClientIm
 							}
 						}
 					}
-					
+				
 				}
-				generateRequest(method, method, map);
-			}
-		}
-	}
-
-	private static void generateRequest(Method classname, Method parent, Map<String, Method> allMethods) throws Exception {
-		File file = getBase(AbstractAzureRequest.class, parent);
-		for (Method thisMethod : allMethods.values()) {
-			String name = thisMethod.getName().substring(0, 1).toUpperCase() + thisMethod.getName().substring(1)
-					+ "Request";
-			FileOutputStream fileWriter = new FileOutputStream(new File(file, name + ".java"));
-
-			// class
-			StringBuffer sb = new StringBuffer();
-			sb.append("package " + AbstractAzureRequest.class.getPackage().getName() + "."
-					+ parent.getName() + ";");
-			sb.append("\n\n");
-			sb.append("public class " + name + " implements " + AbstractAzureRequest.class.getName()  + " {");
-			sb.append("\n");
-
-			ParameterNameDiscoverer pnd =  new LocalVariableTableParameterNameDiscoverer();
-			String[] filedNames = pnd.getParameterNames(thisMethod);
-			// filed
-         for (int i = 0; i < filedNames.length; i++) {
-        	 	sb.append("\t").append("protected ").append(thisMethod.getParameters()[i].getParameterizedType().getTypeName()).append(" ").append(filedNames[i])
-				.append(";\n\n");
-         	}
-			
-			// setter and getter
-         for (int i = 0; i < filedNames.length; i++) {
-				String pName = filedNames[i].substring(0, 1).toUpperCase() + filedNames[i].substring(1);
-				sb.append("\t").append("public void set").append(pName).append("(").append(thisMethod.getParameters()[i].getParameterizedType().getTypeName())
-						.append(" ").append(filedNames[i]).append(") {\n").append("\t\tthis.").append(filedNames[i])
-						.append(" = ").append(filedNames[i]).append(";\n").append("}\n");
-
-				sb.append("\t").append("public ").append(thisMethod.getParameters()[i].getParameterizedType().getTypeName())
-						.append(" get").append(pName).append("() {\n").append("\t\treturn this.")
-						.append(filedNames[i]).append(";\n").append("}\n");
-         	}
-
-			sb.append("}");
-
-			fileWriter.write(sb.toString().getBytes());
-			fileWriter.close();
-			
-			System.out.println("\tpublic " + thisMethod.getGenericReturnType().getTypeName() 
-										+ " " + thisMethod.getName()+ "(" + AbstractAzureRequest.class.getPackage().getName() + "." + parent.getName() + "." + name  +" request) {");
-			
-			if (thisMethod.getReturnType().getTypeName().equals("void")) {
-				System.out.print("\t\tthis." + classname.getName() + "()." +
-						thisMethod.getName()+ "(");
-			} else {
-				System.out.print("\t\treturn this." + classname.getName() + "()." +
-						thisMethod.getName()+ "(");
-			}
-			
-//			System.out.print("\t\treturn new " + classname + "()." +
-//										thisMethod.getName()+ "(");
-			for (int i = 0; i < filedNames.length; i++) {
-				String pName = filedNames[i].substring(0, 1).toUpperCase() + filedNames[i].substring(1);
-				if (i != filedNames.length - 1) {
-					System.out.print("request.get" + pName + "(),");
-				} else {
-					System.out.print("request.get" + pName + "()");
+				for (Method thisMethod : map.values()) {
+					File file = new File(CodesTool.getBase(AbstractAzureRequest.class), method.getName());
+					if (!file.exists()) {
+						file.mkdirs();
+					}
+					CodesTool.generateRequest(file, AbstractAzureRequest.class, method, thisMethod);
 				}
 			}
-			System.out.println(");");
-			System.out.println("\t}");
-			System.out.println();
-			
 		}
-	}
-
-	 
-	private static File getBase(Class<?> clazz, Method parent) {
-		File base = new File(clazz.getResource("").getPath().replace("/target/classes/", "/src/main/java/"));
-		File newBase = new File(base, parent.getName());
-		if (!newBase.exists()) {
-			newBase.mkdirs();
-		}
-		return newBase;
 	}
 
 }
