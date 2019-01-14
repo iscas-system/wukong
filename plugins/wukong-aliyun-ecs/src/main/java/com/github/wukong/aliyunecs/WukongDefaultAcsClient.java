@@ -1004,15 +1004,15 @@ public class WukongDefaultAcsClient extends DefaultAcsClient {
 	}
 	
 	public static void main(String[] args) throws Exception {
-      for (Class<?> clazz : ObjectUtils.getClassNameByJar(PACKAGE, CLASSNAME)) {
-    	  String classname = clazz.getName();
-    	  String simplename = classname.substring(classname.lastIndexOf(".") + 1);
-    	  String methodname = simplename.substring(0, 1).toLowerCase() + simplename.substring(1);
-    	  System.out.println("\tpublic " + classname + " " + methodname +"() {");
-    	  System.out.println("\t\treturn new " + classname + "();");
-    	  System.out.println("\t}");
-    	  System.out.println();
-      }
+		for (Class<?> clazz : ObjectUtils.getClassNameByJar(PACKAGE, CLASSNAME)) {
+			String classname = clazz.getName();
+			String simplename = classname.substring(classname.lastIndexOf(".") + 1);
+			String methodname = simplename.substring(0, 1).toLowerCase() + simplename.substring(1);
+			System.out.println("\tpublic " + classname + " " + methodname + "() {");
+			System.out.println("\t\treturn new " + classname + "();");
+			System.out.println("\t}");
+			System.out.println();
+		}
       	
 	}
 }
