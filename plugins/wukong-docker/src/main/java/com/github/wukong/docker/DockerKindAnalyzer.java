@@ -3,86 +3,28 @@
  */
 package com.github.wukong.docker;
 
-import java.lang.reflect.Method;
-
-import com.github.wukong.core.KindAnalyzer;
-import com.github.wukong.core.utils.ObjectUtils;
-
-import io.fabric8.kubernetes.client.DefaultKubernetesClient;
-import io.fabric8.kubernetes.client.dsl.MixedOperation;
-import io.fabric8.kubernetes.client.dsl.NonNamespaceOperation;
+import com.github.dockerjava.api.DockerClient;
+import com.github.dockerjava.api.command.SyncDockerCmd;
+import com.github.wukong.core.anas.ReqAndRespPatternAnalyzer;
 
 /**
  * @author wuheng@iscas.ac.cn
  * @since  2019.1
  */
-public class DockerKindAnalyzer extends KindAnalyzer {
-
-	protected static final String KIND_BASIC_TAG = NonNamespaceOperation.class.getName();
-
-	protected static final String KIND_MIXED_TAG = MixedOperation.class.getName();
-
-	protected static final String KIND_GROUP_TAG = "GroupDSL";
-	
-	/**
-	 * 
-	 */
-	public DockerKindAnalyzer() {
-		super();
-	}
-	
-	/**
-	 * for fabric8, the return value either 
-	 * io.fabric8.kubernetes.client.dsl.NonNamespaceOperation 
-	 * or io.fabric8.kubernetes.client.dsl.MixedOperation. <br>
-	 * <br>
-	 * 
-	 */
-	@Override
-	protected boolean isKind(Method method) {
-		return ObjectUtils.isNull(method) ? false
-				: ((KIND_MIXED_TAG.equals(method.getReturnType().getName())
-							|| KIND_BASIC_TAG.equals(method.getReturnType().getName())) 
-						&& (method.getParameterCount() == 0)
-					&& (!method.isAnnotationPresent(Deprecated.class)));
-	}
-
-	@Override
-	protected boolean isKindGroup(Method method) {
-		return ObjectUtils.isNull(method) ? false
-				: ((method.getReturnType().getName().endsWith(KIND_GROUP_TAG))
-						&& (!method.isAnnotationPresent(Deprecated.class)));
-	}
-
-	@Override
-	protected String toKind(Method method) {
-		String fullname = getFullname(method);
-		int idx = fullname.lastIndexOf(".");
-		return fullname.substring(idx + 1);
-		
-	}
-
-	@Override
-	protected String toModel(Method method) {
-		return getFullname(method);
-	}
+public class DockerKindAnalyzer extends ReqAndRespPatternAnalyzer {
 
 	@Override
 	public String getClient() {
-		return DefaultKubernetesClient.class.getName();
+		return DockerClient.class.getName();
 	}
 
-	/**
-	 * for example, the GenericReturnType would be
-	 * MixedOperation<Event, EventList, DoneableEvent, Resource<Event, DoneableEvent>>
-	 * and fullname means the classname of object Event
-	 * @param method method
-	 * @return return typeName
-	 */
-	private String getFullname(Method method) {
-		String typeName = method.getGenericReturnType().getTypeName();
-		int sIdx = typeName.indexOf("<");
-		int eIdx = typeName.indexOf(",");
-		return typeName.substring(sIdx + 1, eIdx).trim();
+	@Override
+	protected String getPostfix() {
+		return "Cmd";
+	}
+
+	@Override
+	protected String getSuperclass() {
+		return SyncDockerCmd.class.getName();
 	}
 }

@@ -1,13 +1,13 @@
-package com.github.wukong.awsec2;
+package com.github.wukong.googlece;
 
-import com.github.wukong.awsec2.AmazonCE2KindAnalyzer;
 import com.github.wukong.core.KindParameterAnalyzer;
 import com.github.wukong.core.tools.ParametersTool;
+import com.github.wukong.googlece.GoogleGCEKindAnalyzer;
 
-public class AmazonEC2KindParameterAnalyzerTest {
+public class GoogleGCEKindParameterAnalyzerTest {
 
 	public static void main(String[] args) {
-		AmazonCE2KindAnalyzer ka = new AmazonCE2KindAnalyzer();
+		GoogleGCEKindAnalyzer ka = new GoogleGCEKindAnalyzer();
 		KindParameterAnalyzer mpa = new KindParameterAnalyzer(ka);
 		for (String kind : ka.getKinds()) {
 			ParametersTool.showModelParametersWithNetstedStyle(kind, mpa.getParameters(kind));

@@ -1,7 +1,7 @@
 package com.github.wukong.tencentvm;
 
 import com.github.wukong.core.KindParameterAnalyzer;
-import com.github.wukong.core.docs.ParametersUtils;
+import com.github.wukong.core.tools.ParametersTool;
 import com.github.wukong.tencentvm.TencnetVMKindAnalyzer;
 
 public class TencentVMKindParameterAnalyzerTest {
@@ -11,7 +11,7 @@ public class TencentVMKindParameterAnalyzerTest {
 		TencnetVMKindAnalyzer ka = new TencnetVMKindAnalyzer();
 		KindParameterAnalyzer mpa = new KindParameterAnalyzer(ka);
 		for (String kind : ka.getKinds()) {
-			ParametersUtils.showModelParametersWithNetstedStyle(kind, mpa.getParameters(kind));
+			ParametersTool.showModelParametersWithNetstedStyle(kind, mpa.getParameters(kind));
 		}
 	}
 

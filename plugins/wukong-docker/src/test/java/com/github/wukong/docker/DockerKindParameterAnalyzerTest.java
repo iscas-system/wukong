@@ -1,16 +1,15 @@
 package com.github.wukong.docker;
 
-import com.github.wukong.core.docs.ParametersUtils;
-import com.github.wukong.docker.DockerKindAnalyzer;
-import com.github.wukong.docker.DockerKindParameterAnalyzer;
+import com.github.wukong.core.KindParameterAnalyzer;
+import com.github.wukong.core.tools.ParametersTool;
 
 public class DockerKindParameterAnalyzerTest {
 
 	public static void main(String[] args) {
 		DockerKindAnalyzer ka = new DockerKindAnalyzer();
-		DockerKindParameterAnalyzer mpa = new DockerKindParameterAnalyzer(ka);
+		KindParameterAnalyzer mpa = new KindParameterAnalyzer(ka);
 		for (String kind : ka.getKinds()) {
-			ParametersUtils.showModelParametersWithNetstedStyle(kind, mpa.getParameters(kind));
+			ParametersTool.showModelParametersWithNetstedStyle(kind, mpa.getParameters(kind));
 		}
 	}
 

@@ -2,7 +2,7 @@ package com.github.wukong.baidubce;
 
 import com.github.wukong.baidubce.BaiduBCEKindAnalyzer;
 import com.github.wukong.core.KindParameterAnalyzer;
-import com.github.wukong.core.docs.ParametersUtils;
+import com.github.wukong.core.tools.ParametersTool;
 
 public class BaiduBCEKindParameterAnalyzerTest {
 
@@ -10,7 +10,7 @@ public class BaiduBCEKindParameterAnalyzerTest {
 		BaiduBCEKindAnalyzer ka = new BaiduBCEKindAnalyzer();
 		KindParameterAnalyzer mpa = new KindParameterAnalyzer(ka);
 		for (String kind : ka.getKinds()) {
-			ParametersUtils.showModelParametersWithNetstedStyle(kind, mpa.getParameters(kind));
+			ParametersTool.showModelParametersWithNetstedStyle(kind, mpa.getParameters(kind));
 		}
 	}
 

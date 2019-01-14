@@ -1,6 +1,6 @@
 package com.github.wukong.kubernetes;
 
-import com.github.wukong.core.docs.ParametersUtils;
+import com.github.wukong.core.tools.ParametersTool;
 
 public class KubernetesKindParameterAnalyzerTest {
 
@@ -8,7 +8,7 @@ public class KubernetesKindParameterAnalyzerTest {
 		KubernetesKindAnalyzer ka = new KubernetesKindAnalyzer();
 		KubernetesKindParameterAnalyzer mpa = new KubernetesKindParameterAnalyzer(ka);
 		for (String kind : ka.getKinds()) {
-			ParametersUtils.showModelParametersWithNetstedStyle(kind, mpa.getParameters(kind));
+			ParametersTool.showModelParametersWithNetstedStyle(kind, mpa.getParameters(kind));
 		}
 	}
 

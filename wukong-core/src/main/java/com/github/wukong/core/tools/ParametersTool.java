@@ -1,7 +1,7 @@
 /**
  * Copyright (2018, ) Institute of Software, Chinese Academy of Sciences
  */
-package com.github.wukong.core.docs;
+package com.github.wukong.core.tools;
 
 import com.alibaba.fastjson.JSON;
 import com.github.wukong.core.utils.JavaUtils;
@@ -10,10 +10,9 @@ import java.util.*;
 
 /**
  * @author wuheng@otcaix.iscas.ac.cn
- *
- * 2018年3月2日
+ * @since  2019.1
  */
-public class ParametersUtils {
+public class ParametersTool {
 
 	/**
 	 * @param type type

@@ -1,7 +1,7 @@
 package com.github.wukong.aliyunecs;
 
 import com.github.wukong.core.KindParameterAnalyzer;
-import com.github.wukong.core.docs.ParametersUtils;
+import com.github.wukong.core.tools.ParametersTool;
 
 public class AliyunEcsKindParameterAnalyzerTest {
 
@@ -9,7 +9,7 @@ public class AliyunEcsKindParameterAnalyzerTest {
 		AliyunEcsKindAnalyzer ka = new AliyunEcsKindAnalyzer();
 		KindParameterAnalyzer mpa = new KindParameterAnalyzer(ka);
 		for (String kind : ka.getKinds()) {
-			ParametersUtils.showModelParametersWithNetstedStyle(kind, mpa.getParameters(kind));
+			ParametersTool.showModelParametersWithNetstedStyle(kind, mpa.getParameters(kind));
 		}
 	}
 

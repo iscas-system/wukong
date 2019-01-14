@@ -1,12 +1,12 @@
 /**
  * Copyright (2018, ) Institute of Software, Chinese Academy of Sciences
  */
-package com.github.wukong.core.docs;
+package com.github.wukong.core.tools;
 
 import java.util.Set;
 
 
-public class FeaturesUtils {
+public class FeaturesTool {
 
 	/**
 	 * @param name name

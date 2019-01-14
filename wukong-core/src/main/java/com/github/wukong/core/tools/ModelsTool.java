@@ -1,7 +1,7 @@
 /**
  * Copyright (2018, ) Institute of Software, Chinese Academy of Sciences
  */
-package com.github.wukong.core.docs;
+package com.github.wukong.core.tools;
 
 import java.util.Collection;
 import java.util.Map;
@@ -12,7 +12,7 @@ import java.util.Set;
  *
  * 2018年3月2日
  */
-public class ModelsUtils {
+public class ModelsTool {
 
 	/**
 	 * @param name name
