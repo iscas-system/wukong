@@ -8,6 +8,7 @@ public class AzureVMDemoTest {
 	public static void main(String[] args) throws Exception {
 		ComputeManagementClientImpl client = null;
 		client.disks().delete(null, null);
+		client.galleries().delete(null, null);
 	}
 
 }
