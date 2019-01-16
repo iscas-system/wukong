@@ -75,6 +75,7 @@ public class KindParameterAnalyzer {
 		for (Method method : clazz.getMethods()) {
 			if(canReflect(method) && !blacklist.contains(clazz.getName())) {
 				addParametersToModel(kind, parent, method);
+//				System.out.println(clazz.getName() + ":" + method.getName());
 				if(canNested(getParamType(method))) {
 					analyseParameters(Class.forName(getParamType(method)), kind, getParent(parent, method));
 				}

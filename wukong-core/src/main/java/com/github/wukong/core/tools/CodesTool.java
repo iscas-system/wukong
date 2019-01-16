@@ -13,12 +13,12 @@ public class CodesTool {
 			throws Exception {
 		generateRequest(file, superClass, parent, thisMethod, false, 0);
 	}
-	
-	public static void generateRequest(File file, Class<?> superClass, Method parent, Method thisMethod, boolean exception, int num)
-			throws Exception {
 
-		String name = thisMethod.getName().substring(0, 1).toUpperCase() 
-								+ thisMethod.getName().substring(1) + "Request";
+	public static void generateRequest(File file, Class<?> superClass, Method parent, Method thisMethod,
+			boolean exception, int num) throws Exception {
+
+		String name = thisMethod.getName().substring(0, 1).toUpperCase() + thisMethod.getName().substring(1)
+				+ "Request";
 		FileOutputStream fileWriter = new FileOutputStream(new File(file, name + ".java"));
 
 		// class
@@ -32,26 +32,25 @@ public class CodesTool {
 	}
 
 	private static void generateProxy(Class<?> superClass, Method method, Method thisMethod, String name,
-			String[] filedNames, boolean exception, int num) {
+			String[] filedNames, boolean exception, int indent) {
 		String returnType = thisMethod.getGenericReturnType().getTypeName().replace("$", ".");
-		String fakeType = returnType;
+		int index = returnType.indexOf("<");
 		String realname = "";
-		while (num-- > 0) {
-			int idx = fakeType.lastIndexOf(".");
-			String postfix = (idx == -1) ? fakeType : fakeType.substring(idx + 1);
-			realname = postfix.substring(0, 1).toUpperCase() + postfix.substring(1);
-			fakeType = fakeType.substring(0, idx);
-		}
-		
-		System.out.print("\tpublic " + returnType + " " + thisMethod.getName() + realname
-				+ "(" + superClass.getPackage().getName() + "." + method.getName() + "." + name + " request) ");
+		if (indent > 0) {
+			realname = getMethodName(indent, returnType, index);
+		} else if (indent == -1) {
+			realname = method.getName().substring(0, 1).toUpperCase() + method.getName().substring(1);
+		} 
+
+		System.out.print("\tpublic " + returnType + " " + thisMethod.getName() + realname + "("
+				+ superClass.getPackage().getName() + "." + method.getName() + "." + name + " request) ");
 
 		if (exception) {
 			System.out.println("throws Exception {");
 		} else {
 			System.out.println("{");
 		}
-		
+
 		if (thisMethod.getReturnType().getTypeName().equals("void")) {
 			System.out.print("\t\tthis." + method.getName() + "()." + thisMethod.getName() + "(");
 		} else {
@@ -73,6 +72,21 @@ public class CodesTool {
 		System.out.println();
 	}
 
+	private static String getMethodName(int indent, String returnType, int index) {
+		String fakeType = (index == -1) ? returnType : returnType.substring(0, index);
+		String realname = "";
+		while (indent-- > 0) {
+			int idx = fakeType.lastIndexOf(".");
+			String postfix = (idx == -1) ? fakeType : fakeType.substring(idx + 1);
+			realname = postfix.substring(0, 1).toUpperCase() + postfix.substring(1);
+			if (idx == -1) {
+				break;
+			}
+			fakeType = fakeType.substring(0, idx);
+		}
+		return realname;
+	}
+
 	private static void generateSetterAndGetter(Method thisMethod, StringBuffer sb, String[] filedNames) {
 		// setter and getter
 		if (filedNames != null) {
@@ -82,10 +96,11 @@ public class CodesTool {
 						.append(thisMethod.getParameters()[i].getParameterizedType().getTypeName()).append(" ")
 						.append(filedNames[i]).append(") {\n").append("\t\tthis.").append(filedNames[i]).append(" = ")
 						.append(filedNames[i]).append(";\n").append("}\n");
-	
-				sb.append("\t").append("public ").append(thisMethod.getParameters()[i].getParameterizedType().getTypeName())
-						.append(" get").append(pName).append("() {\n").append("\t\treturn this.").append(filedNames[i])
-						.append(";\n").append("}\n");
+
+				sb.append("\t").append("public ")
+						.append(thisMethod.getParameters()[i].getParameterizedType().getTypeName()).append(" get")
+						.append(pName).append("() {\n").append("\t\treturn this.").append(filedNames[i]).append(";\n")
+						.append("}\n");
 			}
 		}
 
@@ -96,7 +111,7 @@ public class CodesTool {
 		// filed
 		ParameterNameDiscoverer pnd = new LocalVariableTableParameterNameDiscoverer();
 		String[] filedNames = pnd.getParameterNames(thisMethod);
-		
+
 		if (filedNames == null) {
 			return null;
 		}
