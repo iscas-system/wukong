@@ -92,6 +92,49 @@ Event
 PersistentVolume
 ```
 
+### 1.3 Amazon ECS
+
+```
+37
+DescribeContainerInstances
+RegisterTaskDefinition
+DeleteService
+TagResource
+DescribeTasks
+DeregisterContainerInstance
+SubmitTaskStateChange
+DeleteAttributes
+DeleteCluster
+RunTask
+DeleteAccountSetting
+DeregisterTaskDefinition
+StopTask
+DescribeServices
+ListClusters
+DescribeClusters
+DiscoverPollEndpoint
+ListAccountSettings
+ListTaskDefinitions
+StartTask
+UpdateContainerInstancesState
+ListContainerInstances
+ListServices
+PutAttributes
+SubmitContainerStateChange
+ListTasks
+DescribeTaskDefinition
+UpdateContainerAgent
+PutAccountSetting
+CreateService
+UpdateService
+ListAttributes
+RegisterContainerInstance
+UntagResource
+ListTaskDefinitionFamilies
+CreateCluster
+ListTagsForResource
+```
+
 ## 2. VM
 
 ### 2.1 Amazon EC2
