@@ -43,4 +43,3 @@ of target system does not satisfy our assumptions, we should reengineer the APIs
 5. [Tencent VM](docs/TencentVM-Analysis.md)
 6. [Baidu BCE](docs/BaiduBCE-Analysis.md)
 7. [JDCloud VM](docs/JDCloudVM-Analysis.md)
-8. [OpenStack](docs/OpenStack-Analysis.md)
