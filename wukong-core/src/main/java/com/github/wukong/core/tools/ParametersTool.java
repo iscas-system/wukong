@@ -3,10 +3,15 @@
  */
 package com.github.wukong.core.tools;
 
-import com.alibaba.fastjson.JSON;
-import com.github.wukong.core.utils.JavaUtils;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
 
-import java.util.*;
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.serializer.SerializerFeature;
+import com.github.wukong.core.utils.JavaUtils;
 
 /**
  * @author wuheng@otcaix.iscas.ac.cn
@@ -53,7 +58,10 @@ public class ParametersTool {
 		System.out.println("## " + kind + " parameterss:");
 		System.out.println();
 		System.out.println("```");
-		System.out.println(JSON.toJSONString(toJSonStyle(models)));
+		System.out.println(JSON.toJSONString(toJSonStyle(models), 
+								SerializerFeature.PrettyFormat, 
+								SerializerFeature.WriteMapNullValue, 
+								SerializerFeature.WriteDateUseDateFormat));
 		System.out.println("```");
 	}
 	
