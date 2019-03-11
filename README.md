@@ -1,6 +1,6 @@
 # WuKong
 
-##  Analysis
+##  1. Analysis
 
 We describe the [operations](docs/Operations.md).suppoted by the system mentioned below.
 Then, we give the parameters of each system in detail.
@@ -45,7 +45,7 @@ of target system does not satisfy our assumptions, we should reengineer the APIs
 7. [JDCloud VM](docs/JDCloudVM-Analysis.md)
 
 
-##  JSON 
+##  2. JSON 
 
 ### VM
 1. [Amazon EC2](docs/AmazonEc2-json.md)
