@@ -1,0 +1,11375 @@
+## ModifySnapshotAttribute parameterss:
+
+```
+{
+	"main":{
+		"setSnapshotId":"java.lang.String",
+		"withSnapshotId":"java.lang.String",
+		"setAttribute":"java.lang.String",
+		"withOperationType":"java.lang.String",
+		"setCreateVolumePermission-setAdd-setGroup":"java.lang.String",
+		"setCreateVolumePermission-setAdd-withUserId":"java.lang.String",
+		"setCreateVolumePermission-setAdd-setUserId":"java.lang.String",
+		"setCreateVolumePermission-withAdd-setGroup":"java.lang.String",
+		"setCreateVolumePermission-withAdd-withUserId":"java.lang.String",
+		"setCreateVolumePermission-withAdd-setUserId":"java.lang.String",
+		"setCreateVolumePermission-setRemove-setGroup":"java.lang.String",
+		"setCreateVolumePermission-setRemove-withUserId":"java.lang.String",
+		"setCreateVolumePermission-setRemove-setUserId":"java.lang.String",
+		"setCreateVolumePermission-withRemove-setGroup":"java.lang.String",
+		"setCreateVolumePermission-withRemove-withUserId":"java.lang.String",
+		"setCreateVolumePermission-withRemove-setUserId":"java.lang.String",
+		"withCreateVolumePermission-setAdd-setGroup":"java.lang.String",
+		"withCreateVolumePermission-setAdd-withUserId":"java.lang.String",
+		"withCreateVolumePermission-setAdd-setUserId":"java.lang.String",
+		"withCreateVolumePermission-withAdd-setGroup":"java.lang.String",
+		"withCreateVolumePermission-withAdd-withUserId":"java.lang.String",
+		"withCreateVolumePermission-withAdd-setUserId":"java.lang.String",
+		"withCreateVolumePermission-setRemove-setGroup":"java.lang.String",
+		"withCreateVolumePermission-setRemove-withUserId":"java.lang.String",
+		"withCreateVolumePermission-setRemove-setUserId":"java.lang.String",
+		"withCreateVolumePermission-withRemove-setGroup":"java.lang.String",
+		"withCreateVolumePermission-withRemove-withUserId":"java.lang.String",
+		"withCreateVolumePermission-withRemove-setUserId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeSpotDatafeedSubscription parameterss:
+
+```
+{
+	"main":{
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## ModifyHosts parameterss:
+
+```
+{
+	"main":{
+		"withAutoPlacement":"java.lang.String",
+		"setAutoPlacement":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeSnapshots parameterss:
+
+```
+{
+	"main":{
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## CreateNatGateway parameterss:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"withClientToken":"java.lang.String",
+		"setAllocationId":"java.lang.String",
+		"withAllocationId":"java.lang.String",
+		"setSubnetId":"java.lang.String",
+		"withSubnetId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeVpcEndpointConnections parameterss:
+
+```
+{
+	"main":{
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## ResetInstanceAttribute parameterss:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"withInstanceId":"java.lang.String",
+		"setAttribute":"java.lang.String",
+		"withAttribute":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## PurchaseReservedInstancesOffering parameterss:
+
+```
+{
+	"main":{
+		"setInstanceCount":"java.lang.Integer",
+		"withInstanceCount":"java.lang.Integer",
+		"setReservedInstancesOfferingId":"java.lang.String",
+		"withReservedInstancesOfferingId":"java.lang.String",
+		"setLimitPrice-withAmount":"java.lang.Double",
+		"setLimitPrice-setAmount":"java.lang.Double",
+		"withLimitPrice-withAmount":"java.lang.Double",
+		"withLimitPrice-setAmount":"java.lang.Double",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## ResetSnapshotAttribute parameterss:
+
+```
+{
+	"main":{
+		"setSnapshotId":"java.lang.String",
+		"withSnapshotId":"java.lang.String",
+		"setAttribute":"java.lang.String",
+		"withAttribute":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## CreateClientVpnEndpoint parameterss:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"withClientToken":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"withDescription":"java.lang.String",
+		"setClientCidrBlock":"java.lang.String",
+		"withClientCidrBlock":"java.lang.String",
+		"setServerCertificateArn":"java.lang.String",
+		"withServerCertificateArn":"java.lang.String",
+		"setAuthenticationOptions-setType":"java.lang.String",
+		"setAuthenticationOptions-setActiveDirectory-setDirectoryId":"java.lang.String",
+		"setAuthenticationOptions-setActiveDirectory-withDirectoryId":"java.lang.String",
+		"setAuthenticationOptions-withActiveDirectory-setDirectoryId":"java.lang.String",
+		"setAuthenticationOptions-withActiveDirectory-withDirectoryId":"java.lang.String",
+		"setAuthenticationOptions-setMutualAuthentication-setClientRootCertificateChainArn":"java.lang.String",
+		"setAuthenticationOptions-setMutualAuthentication-withClientRootCertificateChainArn":"java.lang.String",
+		"setAuthenticationOptions-withMutualAuthentication-setClientRootCertificateChainArn":"java.lang.String",
+		"setAuthenticationOptions-withMutualAuthentication-withClientRootCertificateChainArn":"java.lang.String",
+		"withAuthenticationOptions-setType":"java.lang.String",
+		"withAuthenticationOptions-setActiveDirectory-setDirectoryId":"java.lang.String",
+		"withAuthenticationOptions-setActiveDirectory-withDirectoryId":"java.lang.String",
+		"withAuthenticationOptions-withActiveDirectory-setDirectoryId":"java.lang.String",
+		"withAuthenticationOptions-withActiveDirectory-withDirectoryId":"java.lang.String",
+		"withAuthenticationOptions-setMutualAuthentication-setClientRootCertificateChainArn":"java.lang.String",
+		"withAuthenticationOptions-setMutualAuthentication-withClientRootCertificateChainArn":"java.lang.String",
+		"withAuthenticationOptions-withMutualAuthentication-setClientRootCertificateChainArn":"java.lang.String",
+		"withAuthenticationOptions-withMutualAuthentication-withClientRootCertificateChainArn":"java.lang.String",
+		"setConnectionLogOptions-withEnabled":"java.lang.Boolean",
+		"setConnectionLogOptions-setEnabled":"java.lang.Boolean",
+		"setConnectionLogOptions-setCloudwatchLogGroup":"java.lang.String",
+		"setConnectionLogOptions-withCloudwatchLogGroup":"java.lang.String",
+		"setConnectionLogOptions-setCloudwatchLogStream":"java.lang.String",
+		"setConnectionLogOptions-withCloudwatchLogStream":"java.lang.String",
+		"withConnectionLogOptions-withEnabled":"java.lang.Boolean",
+		"withConnectionLogOptions-setEnabled":"java.lang.Boolean",
+		"withConnectionLogOptions-setCloudwatchLogGroup":"java.lang.String",
+		"withConnectionLogOptions-withCloudwatchLogGroup":"java.lang.String",
+		"withConnectionLogOptions-setCloudwatchLogStream":"java.lang.String",
+		"withConnectionLogOptions-withCloudwatchLogStream":"java.lang.String",
+		"setTransportProtocol":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## RevokeSecurityGroupEgress parameterss:
+
+```
+{
+	"main":{
+		"setGroupId":"java.lang.String",
+		"withGroupId":"java.lang.String",
+		"setIpPermissions-setFromPort":"java.lang.Integer",
+		"setIpPermissions-withFromPort":"java.lang.Integer",
+		"setIpPermissions-setIpProtocol":"java.lang.String",
+		"setIpPermissions-withIpProtocol":"java.lang.String",
+		"setIpPermissions-setToPort":"java.lang.Integer",
+		"setIpPermissions-withToPort":"java.lang.Integer",
+		"setIpPermissions-setPrefixListIds-setDescription":"java.lang.String",
+		"setIpPermissions-setPrefixListIds-withDescription":"java.lang.String",
+		"setIpPermissions-setPrefixListIds-setPrefixListId":"java.lang.String",
+		"setIpPermissions-setPrefixListIds-withPrefixListId":"java.lang.String",
+		"setIpPermissions-withPrefixListIds-setDescription":"java.lang.String",
+		"setIpPermissions-withPrefixListIds-withDescription":"java.lang.String",
+		"setIpPermissions-withPrefixListIds-setPrefixListId":"java.lang.String",
+		"setIpPermissions-withPrefixListIds-withPrefixListId":"java.lang.String",
+		"setIpPermissions-setIpv6Ranges-setDescription":"java.lang.String",
+		"setIpPermissions-setIpv6Ranges-withDescription":"java.lang.String",
+		"setIpPermissions-setIpv6Ranges-setCidrIpv6":"java.lang.String",
+		"setIpPermissions-setIpv6Ranges-withCidrIpv6":"java.lang.String",
+		"setIpPermissions-withIpv6Ranges-setDescription":"java.lang.String",
+		"setIpPermissions-withIpv6Ranges-withDescription":"java.lang.String",
+		"setIpPermissions-withIpv6Ranges-setCidrIpv6":"java.lang.String",
+		"setIpPermissions-withIpv6Ranges-withCidrIpv6":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-setVpcPeeringConnectionId":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-setVpcId":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-withVpcId":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-withVpcPeeringConnectionId":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-setDescription":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-withDescription":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-setGroupName":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-withGroupName":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-setGroupId":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-withGroupId":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-withUserId":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-setUserId":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-setPeeringStatus":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-withPeeringStatus":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-setVpcPeeringConnectionId":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-setVpcId":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-withVpcId":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-withVpcPeeringConnectionId":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-setDescription":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-withDescription":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-setGroupName":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-withGroupName":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-setGroupId":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-withGroupId":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-withUserId":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-setUserId":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-setPeeringStatus":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-withPeeringStatus":"java.lang.String",
+		"setIpPermissions-setIpv4Ranges-setDescription":"java.lang.String",
+		"setIpPermissions-setIpv4Ranges-withDescription":"java.lang.String",
+		"setIpPermissions-setIpv4Ranges-setCidrIp":"java.lang.String",
+		"setIpPermissions-setIpv4Ranges-withCidrIp":"java.lang.String",
+		"setIpPermissions-withIpv4Ranges-setDescription":"java.lang.String",
+		"setIpPermissions-withIpv4Ranges-withDescription":"java.lang.String",
+		"setIpPermissions-withIpv4Ranges-setCidrIp":"java.lang.String",
+		"setIpPermissions-withIpv4Ranges-withCidrIp":"java.lang.String",
+		"withIpPermissions-setFromPort":"java.lang.Integer",
+		"withIpPermissions-withFromPort":"java.lang.Integer",
+		"withIpPermissions-setIpProtocol":"java.lang.String",
+		"withIpPermissions-withIpProtocol":"java.lang.String",
+		"withIpPermissions-setToPort":"java.lang.Integer",
+		"withIpPermissions-withToPort":"java.lang.Integer",
+		"withIpPermissions-setPrefixListIds-setDescription":"java.lang.String",
+		"withIpPermissions-setPrefixListIds-withDescription":"java.lang.String",
+		"withIpPermissions-setPrefixListIds-setPrefixListId":"java.lang.String",
+		"withIpPermissions-setPrefixListIds-withPrefixListId":"java.lang.String",
+		"withIpPermissions-withPrefixListIds-setDescription":"java.lang.String",
+		"withIpPermissions-withPrefixListIds-withDescription":"java.lang.String",
+		"withIpPermissions-withPrefixListIds-setPrefixListId":"java.lang.String",
+		"withIpPermissions-withPrefixListIds-withPrefixListId":"java.lang.String",
+		"withIpPermissions-setIpv6Ranges-setDescription":"java.lang.String",
+		"withIpPermissions-setIpv6Ranges-withDescription":"java.lang.String",
+		"withIpPermissions-setIpv6Ranges-setCidrIpv6":"java.lang.String",
+		"withIpPermissions-setIpv6Ranges-withCidrIpv6":"java.lang.String",
+		"withIpPermissions-withIpv6Ranges-setDescription":"java.lang.String",
+		"withIpPermissions-withIpv6Ranges-withDescription":"java.lang.String",
+		"withIpPermissions-withIpv6Ranges-setCidrIpv6":"java.lang.String",
+		"withIpPermissions-withIpv6Ranges-withCidrIpv6":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-setVpcPeeringConnectionId":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-setVpcId":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-withVpcId":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-withVpcPeeringConnectionId":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-setDescription":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-withDescription":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-setGroupName":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-withGroupName":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-setGroupId":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-withGroupId":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-withUserId":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-setUserId":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-setPeeringStatus":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-withPeeringStatus":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-setVpcPeeringConnectionId":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-setVpcId":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-withVpcId":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-withVpcPeeringConnectionId":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-setDescription":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-withDescription":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-setGroupName":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-withGroupName":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-setGroupId":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-withGroupId":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-withUserId":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-setUserId":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-setPeeringStatus":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-withPeeringStatus":"java.lang.String",
+		"withIpPermissions-setIpv4Ranges-setDescription":"java.lang.String",
+		"withIpPermissions-setIpv4Ranges-withDescription":"java.lang.String",
+		"withIpPermissions-setIpv4Ranges-setCidrIp":"java.lang.String",
+		"withIpPermissions-setIpv4Ranges-withCidrIp":"java.lang.String",
+		"withIpPermissions-withIpv4Ranges-setDescription":"java.lang.String",
+		"withIpPermissions-withIpv4Ranges-withDescription":"java.lang.String",
+		"withIpPermissions-withIpv4Ranges-setCidrIp":"java.lang.String",
+		"withIpPermissions-withIpv4Ranges-withCidrIp":"java.lang.String",
+		"setCidrIp":"java.lang.String",
+		"withCidrIp":"java.lang.String",
+		"setFromPort":"java.lang.Integer",
+		"withFromPort":"java.lang.Integer",
+		"setIpProtocol":"java.lang.String",
+		"withIpProtocol":"java.lang.String",
+		"setToPort":"java.lang.Integer",
+		"withToPort":"java.lang.Integer",
+		"setSourceSecurityGroupName":"java.lang.String",
+		"withSourceSecurityGroupName":"java.lang.String",
+		"setSourceSecurityGroupOwnerId":"java.lang.String",
+		"withSourceSecurityGroupOwnerId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeSpotPriceHistory parameterss:
+
+```
+{
+	"main":{
+		"setAvailabilityZone":"java.lang.String",
+		"withAvailabilityZone":"java.lang.String",
+		"setEndTime-setDate":"int",
+		"setEndTime-setHours":"int",
+		"setEndTime-setMinutes":"int",
+		"setEndTime-setMonth":"int",
+		"setEndTime-setSeconds":"int",
+		"setEndTime-setYear":"int",
+		"setEndTime-setTime":"long",
+		"withEndTime-setDate":"int",
+		"withEndTime-setHours":"int",
+		"withEndTime-setMinutes":"int",
+		"withEndTime-setMonth":"int",
+		"withEndTime-setSeconds":"int",
+		"withEndTime-setYear":"int",
+		"withEndTime-setTime":"long",
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setStartTime-setDate":"int",
+		"setStartTime-setHours":"int",
+		"setStartTime-setMinutes":"int",
+		"setStartTime-setMonth":"int",
+		"setStartTime-setSeconds":"int",
+		"setStartTime-setYear":"int",
+		"setStartTime-setTime":"long",
+		"withStartTime-setDate":"int",
+		"withStartTime-setHours":"int",
+		"withStartTime-setMinutes":"int",
+		"withStartTime-setMonth":"int",
+		"withStartTime-setSeconds":"int",
+		"withStartTime-setYear":"int",
+		"withStartTime-setTime":"long",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## CreateDefaultVpc parameterss:
+
+```
+{
+	"main":{
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## CreateVpcPeeringConnection parameterss:
+
+```
+{
+	"main":{
+		"setVpcId":"java.lang.String",
+		"withVpcId":"java.lang.String",
+		"withPeerRegion":"java.lang.String",
+		"withPeerOwnerId":"java.lang.String",
+		"setPeerVpcId":"java.lang.String",
+		"withPeerVpcId":"java.lang.String",
+		"setPeerRegion":"java.lang.String",
+		"setPeerOwnerId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeHosts parameterss:
+
+```
+{
+	"main":{
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setFilter-withName":"java.lang.String",
+		"setFilter-setName":"java.lang.String",
+		"withFilter-withName":"java.lang.String",
+		"withFilter-setName":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## PurchaseScheduledInstances parameterss:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"withClientToken":"java.lang.String",
+		"setPurchaseRequests-setInstanceCount":"java.lang.Integer",
+		"setPurchaseRequests-withInstanceCount":"java.lang.Integer",
+		"setPurchaseRequests-setPurchaseToken":"java.lang.String",
+		"setPurchaseRequests-withPurchaseToken":"java.lang.String",
+		"withPurchaseRequests-setInstanceCount":"java.lang.Integer",
+		"withPurchaseRequests-withInstanceCount":"java.lang.Integer",
+		"withPurchaseRequests-setPurchaseToken":"java.lang.String",
+		"withPurchaseRequests-withPurchaseToken":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## CopyFpgaImage parameterss:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"withClientToken":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"withDescription":"java.lang.String",
+		"setSourceFpgaImageId":"java.lang.String",
+		"withName":"java.lang.String",
+		"withSourceFpgaImageId":"java.lang.String",
+		"setSourceRegion":"java.lang.String",
+		"withSourceRegion":"java.lang.String",
+		"setName":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeIdentityIdFormat parameterss:
+
+```
+{
+	"main":{
+		"setResource":"java.lang.String",
+		"withResource":"java.lang.String",
+		"setPrincipalArn":"java.lang.String",
+		"withPrincipalArn":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DeleteFlowLogs parameterss:
+
+```
+{
+	"main":{
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DeleteTransitGatewayRouteTable parameterss:
+
+```
+{
+	"main":{
+		"setTransitGatewayRouteTableId":"java.lang.String",
+		"withTransitGatewayRouteTableId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## CreateDefaultSubnet parameterss:
+
+```
+{
+	"main":{
+		"setAvailabilityZone":"java.lang.String",
+		"withAvailabilityZone":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeInstances parameterss:
+
+```
+{
+	"main":{
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeTransitGatewayAttachments parameterss:
+
+```
+{
+	"main":{
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## CreateReservedInstancesListing parameterss:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"withClientToken":"java.lang.String",
+		"setInstanceCount":"java.lang.Integer",
+		"withInstanceCount":"java.lang.Integer",
+		"setPriceSchedules-setCurrencyCode":"java.lang.String",
+		"setPriceSchedules-setPrice":"java.lang.Double",
+		"setPriceSchedules-withPrice":"java.lang.Double",
+		"setPriceSchedules-setTerm":"java.lang.Long",
+		"setPriceSchedules-withTerm":"java.lang.Long",
+		"withPriceSchedules-setCurrencyCode":"java.lang.String",
+		"withPriceSchedules-setPrice":"java.lang.Double",
+		"withPriceSchedules-withPrice":"java.lang.Double",
+		"withPriceSchedules-setTerm":"java.lang.Long",
+		"withPriceSchedules-withTerm":"java.lang.Long",
+		"setReservedInstancesId":"java.lang.String",
+		"withReservedInstancesId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeSecurityGroupReferences parameterss:
+
+```
+{
+	"main":{
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeDhcpOptions parameterss:
+
+```
+{
+	"main":{
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## AttachVolume parameterss:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"withInstanceId":"java.lang.String",
+		"setDevice":"java.lang.String",
+		"withDevice":"java.lang.String",
+		"setVolumeId":"java.lang.String",
+		"withVolumeId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## CreateVpcEndpointServiceConfiguration parameterss:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"withClientToken":"java.lang.String",
+		"setAcceptanceRequired":"java.lang.Boolean",
+		"withAcceptanceRequired":"java.lang.Boolean",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## ModifyReservedInstances parameterss:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"withClientToken":"java.lang.String",
+		"setTargetConfigurations-setAvailabilityZone":"java.lang.String",
+		"setTargetConfigurations-withAvailabilityZone":"java.lang.String",
+		"setTargetConfigurations-withInstanceType":"java.lang.String",
+		"setTargetConfigurations-setInstanceCount":"java.lang.Integer",
+		"setTargetConfigurations-withInstanceCount":"java.lang.Integer",
+		"setTargetConfigurations-setPlatform":"java.lang.String",
+		"setTargetConfigurations-withPlatform":"java.lang.String",
+		"setTargetConfigurations-setScope":"java.lang.String",
+		"withTargetConfigurations-setAvailabilityZone":"java.lang.String",
+		"withTargetConfigurations-withAvailabilityZone":"java.lang.String",
+		"withTargetConfigurations-withInstanceType":"java.lang.String",
+		"withTargetConfigurations-setInstanceCount":"java.lang.Integer",
+		"withTargetConfigurations-withInstanceCount":"java.lang.Integer",
+		"withTargetConfigurations-setPlatform":"java.lang.String",
+		"withTargetConfigurations-withPlatform":"java.lang.String",
+		"withTargetConfigurations-setScope":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## AllocateHosts parameterss:
+
+```
+{
+	"main":{
+		"setAvailabilityZone":"java.lang.String",
+		"withAvailabilityZone":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"withClientToken":"java.lang.String",
+		"setInstanceType":"java.lang.String",
+		"withInstanceType":"java.lang.String",
+		"setQuantity":"java.lang.Integer",
+		"withQuantity":"java.lang.Integer",
+		"setTagSpecifications-setResourceType":"java.lang.String",
+		"setTagSpecifications-withResourceType":"java.lang.String",
+		"setTagSpecifications-setTags-withValue":"java.lang.String",
+		"setTagSpecifications-setTags-setKey":"java.lang.String",
+		"setTagSpecifications-setTags-withKey":"java.lang.String",
+		"setTagSpecifications-setTags-setValue":"java.lang.String",
+		"setTagSpecifications-withTags-withValue":"java.lang.String",
+		"setTagSpecifications-withTags-setKey":"java.lang.String",
+		"setTagSpecifications-withTags-withKey":"java.lang.String",
+		"setTagSpecifications-withTags-setValue":"java.lang.String",
+		"withTagSpecifications-setResourceType":"java.lang.String",
+		"withTagSpecifications-withResourceType":"java.lang.String",
+		"withTagSpecifications-setTags-withValue":"java.lang.String",
+		"withTagSpecifications-setTags-setKey":"java.lang.String",
+		"withTagSpecifications-setTags-withKey":"java.lang.String",
+		"withTagSpecifications-setTags-setValue":"java.lang.String",
+		"withTagSpecifications-withTags-withValue":"java.lang.String",
+		"withTagSpecifications-withTags-setKey":"java.lang.String",
+		"withTagSpecifications-withTags-withKey":"java.lang.String",
+		"withTagSpecifications-withTags-setValue":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## CreateTransitGatewayVpcAttachment parameterss:
+
+```
+{
+	"main":{
+		"setTagSpecifications-setResourceType":"java.lang.String",
+		"setTagSpecifications-withResourceType":"java.lang.String",
+		"setTagSpecifications-setTags-withValue":"java.lang.String",
+		"setTagSpecifications-setTags-setKey":"java.lang.String",
+		"setTagSpecifications-setTags-withKey":"java.lang.String",
+		"setTagSpecifications-setTags-setValue":"java.lang.String",
+		"setTagSpecifications-withTags-withValue":"java.lang.String",
+		"setTagSpecifications-withTags-setKey":"java.lang.String",
+		"setTagSpecifications-withTags-withKey":"java.lang.String",
+		"setTagSpecifications-withTags-setValue":"java.lang.String",
+		"withTagSpecifications-setResourceType":"java.lang.String",
+		"withTagSpecifications-withResourceType":"java.lang.String",
+		"withTagSpecifications-setTags-withValue":"java.lang.String",
+		"withTagSpecifications-setTags-setKey":"java.lang.String",
+		"withTagSpecifications-setTags-withKey":"java.lang.String",
+		"withTagSpecifications-setTags-setValue":"java.lang.String",
+		"withTagSpecifications-withTags-withValue":"java.lang.String",
+		"withTagSpecifications-withTags-setKey":"java.lang.String",
+		"withTagSpecifications-withTags-withKey":"java.lang.String",
+		"withTagSpecifications-withTags-setValue":"java.lang.String",
+		"setVpcId":"java.lang.String",
+		"withVpcId":"java.lang.String",
+		"setTransitGatewayId":"java.lang.String",
+		"withTransitGatewayId":"java.lang.String",
+		"setOptions-withDnsSupport":"java.lang.String",
+		"setOptions-setIpv6Support":"java.lang.String",
+		"setOptions-withIpv6Support":"java.lang.String",
+		"setOptions-setDnsSupport":"java.lang.String",
+		"withOptions-withDnsSupport":"java.lang.String",
+		"withOptions-setIpv6Support":"java.lang.String",
+		"withOptions-withIpv6Support":"java.lang.String",
+		"withOptions-setDnsSupport":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DeleteNetworkInterface parameterss:
+
+```
+{
+	"main":{
+		"setNetworkInterfaceId":"java.lang.String",
+		"withNetworkInterfaceId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## GetConsoleScreenshot parameterss:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"withInstanceId":"java.lang.String",
+		"setWakeUp":"java.lang.Boolean",
+		"withWakeUp":"java.lang.Boolean",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## CreateClientVpnRoute parameterss:
+
+```
+{
+	"main":{
+		"setClientVpnEndpointId":"java.lang.String",
+		"withClientVpnEndpointId":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"withDescription":"java.lang.String",
+		"setDestinationCidrBlock":"java.lang.String",
+		"withDestinationCidrBlock":"java.lang.String",
+		"setTargetVpcSubnetId":"java.lang.String",
+		"withTargetVpcSubnetId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## AssignPrivateIpAddresses parameterss:
+
+```
+{
+	"main":{
+		"setNetworkInterfaceId":"java.lang.String",
+		"withNetworkInterfaceId":"java.lang.String",
+		"setAllowReassignment":"java.lang.Boolean",
+		"withAllowReassignment":"java.lang.Boolean",
+		"setSecondaryPrivateIpAddressCount":"java.lang.Integer",
+		"withSecondaryPrivateIpAddressCount":"java.lang.Integer",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DeleteSnapshot parameterss:
+
+```
+{
+	"main":{
+		"setSnapshotId":"java.lang.String",
+		"withSnapshotId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## ModifyVpcPeeringConnectionOptions parameterss:
+
+```
+{
+	"main":{
+		"setVpcPeeringConnectionId":"java.lang.String",
+		"withVpcPeeringConnectionId":"java.lang.String",
+		"setAccepterPeeringConnectionOptions-setAllowDnsResolutionFromRemoteVpc":"java.lang.Boolean",
+		"setAccepterPeeringConnectionOptions-withAllowDnsResolutionFromRemoteVpc":"java.lang.Boolean",
+		"setAccepterPeeringConnectionOptions-setAllowEgressFromLocalClassicLinkToRemoteVpc":"java.lang.Boolean",
+		"setAccepterPeeringConnectionOptions-withAllowEgressFromLocalClassicLinkToRemoteVpc":"java.lang.Boolean",
+		"setAccepterPeeringConnectionOptions-setAllowEgressFromLocalVpcToRemoteClassicLink":"java.lang.Boolean",
+		"setAccepterPeeringConnectionOptions-withAllowEgressFromLocalVpcToRemoteClassicLink":"java.lang.Boolean",
+		"withAccepterPeeringConnectionOptions-setAllowDnsResolutionFromRemoteVpc":"java.lang.Boolean",
+		"withAccepterPeeringConnectionOptions-withAllowDnsResolutionFromRemoteVpc":"java.lang.Boolean",
+		"withAccepterPeeringConnectionOptions-setAllowEgressFromLocalClassicLinkToRemoteVpc":"java.lang.Boolean",
+		"withAccepterPeeringConnectionOptions-withAllowEgressFromLocalClassicLinkToRemoteVpc":"java.lang.Boolean",
+		"withAccepterPeeringConnectionOptions-setAllowEgressFromLocalVpcToRemoteClassicLink":"java.lang.Boolean",
+		"withAccepterPeeringConnectionOptions-withAllowEgressFromLocalVpcToRemoteClassicLink":"java.lang.Boolean",
+		"setRequesterPeeringConnectionOptions-setAllowDnsResolutionFromRemoteVpc":"java.lang.Boolean",
+		"setRequesterPeeringConnectionOptions-withAllowDnsResolutionFromRemoteVpc":"java.lang.Boolean",
+		"setRequesterPeeringConnectionOptions-setAllowEgressFromLocalClassicLinkToRemoteVpc":"java.lang.Boolean",
+		"setRequesterPeeringConnectionOptions-withAllowEgressFromLocalClassicLinkToRemoteVpc":"java.lang.Boolean",
+		"setRequesterPeeringConnectionOptions-setAllowEgressFromLocalVpcToRemoteClassicLink":"java.lang.Boolean",
+		"setRequesterPeeringConnectionOptions-withAllowEgressFromLocalVpcToRemoteClassicLink":"java.lang.Boolean",
+		"withRequesterPeeringConnectionOptions-setAllowDnsResolutionFromRemoteVpc":"java.lang.Boolean",
+		"withRequesterPeeringConnectionOptions-withAllowDnsResolutionFromRemoteVpc":"java.lang.Boolean",
+		"withRequesterPeeringConnectionOptions-setAllowEgressFromLocalClassicLinkToRemoteVpc":"java.lang.Boolean",
+		"withRequesterPeeringConnectionOptions-withAllowEgressFromLocalClassicLinkToRemoteVpc":"java.lang.Boolean",
+		"withRequesterPeeringConnectionOptions-setAllowEgressFromLocalVpcToRemoteClassicLink":"java.lang.Boolean",
+		"withRequesterPeeringConnectionOptions-withAllowEgressFromLocalVpcToRemoteClassicLink":"java.lang.Boolean",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DeleteSecurityGroup parameterss:
+
+```
+{
+	"main":{
+		"setGroupName":"java.lang.String",
+		"withGroupName":"java.lang.String",
+		"setGroupId":"java.lang.String",
+		"withGroupId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## ModifyVpcEndpointServicePermissions parameterss:
+
+```
+{
+	"main":{
+		"withServiceId":"java.lang.String",
+		"setServiceId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## AllocateAddress parameterss:
+
+```
+{
+	"main":{
+		"setAddress":"java.lang.String",
+		"withAddress":"java.lang.String",
+		"setPublicIpv4Pool":"java.lang.String",
+		"withPublicIpv4Pool":"java.lang.String",
+		"setDomain":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## ResetFpgaImageAttribute parameterss:
+
+```
+{
+	"main":{
+		"setFpgaImageId":"java.lang.String",
+		"withFpgaImageId":"java.lang.String",
+		"setAttribute":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DeleteFpgaImage parameterss:
+
+```
+{
+	"main":{
+		"setFpgaImageId":"java.lang.String",
+		"withFpgaImageId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeVolumeAttribute parameterss:
+
+```
+{
+	"main":{
+		"setVolumeId":"java.lang.String",
+		"withVolumeId":"java.lang.String",
+		"setAttribute":"java.lang.String",
+		"withAttribute":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## ConfirmProductInstance parameterss:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"withInstanceId":"java.lang.String",
+		"setProductCode":"java.lang.String",
+		"withProductCode":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DeleteInternetGateway parameterss:
+
+```
+{
+	"main":{
+		"setInternetGatewayId":"java.lang.String",
+		"withInternetGatewayId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeImportSnapshotTasks parameterss:
+
+```
+{
+	"main":{
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeInstanceCreditSpecifications parameterss:
+
+```
+{
+	"main":{
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## ReportInstanceStatus parameterss:
+
+```
+{
+	"main":{
+		"setDescription":"java.lang.String",
+		"withDescription":"java.lang.String",
+		"setEndTime-setDate":"int",
+		"setEndTime-setHours":"int",
+		"setEndTime-setMinutes":"int",
+		"setEndTime-setMonth":"int",
+		"setEndTime-setSeconds":"int",
+		"setEndTime-setYear":"int",
+		"setEndTime-setTime":"long",
+		"withEndTime-setDate":"int",
+		"withEndTime-setHours":"int",
+		"withEndTime-setMinutes":"int",
+		"withEndTime-setMonth":"int",
+		"withEndTime-setSeconds":"int",
+		"withEndTime-setYear":"int",
+		"withEndTime-setTime":"long",
+		"setStartTime-setDate":"int",
+		"setStartTime-setHours":"int",
+		"setStartTime-setMinutes":"int",
+		"setStartTime-setMonth":"int",
+		"setStartTime-setSeconds":"int",
+		"setStartTime-setYear":"int",
+		"setStartTime-setTime":"long",
+		"withStartTime-setDate":"int",
+		"withStartTime-setHours":"int",
+		"withStartTime-setMinutes":"int",
+		"withStartTime-setMonth":"int",
+		"withStartTime-setSeconds":"int",
+		"withStartTime-setYear":"int",
+		"withStartTime-setTime":"long",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## RevokeSecurityGroupIngress parameterss:
+
+```
+{
+	"main":{
+		"setGroupName":"java.lang.String",
+		"withGroupName":"java.lang.String",
+		"setGroupId":"java.lang.String",
+		"withGroupId":"java.lang.String",
+		"setIpPermissions-setFromPort":"java.lang.Integer",
+		"setIpPermissions-withFromPort":"java.lang.Integer",
+		"setIpPermissions-setIpProtocol":"java.lang.String",
+		"setIpPermissions-withIpProtocol":"java.lang.String",
+		"setIpPermissions-setToPort":"java.lang.Integer",
+		"setIpPermissions-withToPort":"java.lang.Integer",
+		"setIpPermissions-setPrefixListIds-setDescription":"java.lang.String",
+		"setIpPermissions-setPrefixListIds-withDescription":"java.lang.String",
+		"setIpPermissions-setPrefixListIds-setPrefixListId":"java.lang.String",
+		"setIpPermissions-setPrefixListIds-withPrefixListId":"java.lang.String",
+		"setIpPermissions-withPrefixListIds-setDescription":"java.lang.String",
+		"setIpPermissions-withPrefixListIds-withDescription":"java.lang.String",
+		"setIpPermissions-withPrefixListIds-setPrefixListId":"java.lang.String",
+		"setIpPermissions-withPrefixListIds-withPrefixListId":"java.lang.String",
+		"setIpPermissions-setIpv6Ranges-setDescription":"java.lang.String",
+		"setIpPermissions-setIpv6Ranges-withDescription":"java.lang.String",
+		"setIpPermissions-setIpv6Ranges-setCidrIpv6":"java.lang.String",
+		"setIpPermissions-setIpv6Ranges-withCidrIpv6":"java.lang.String",
+		"setIpPermissions-withIpv6Ranges-setDescription":"java.lang.String",
+		"setIpPermissions-withIpv6Ranges-withDescription":"java.lang.String",
+		"setIpPermissions-withIpv6Ranges-setCidrIpv6":"java.lang.String",
+		"setIpPermissions-withIpv6Ranges-withCidrIpv6":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-setVpcPeeringConnectionId":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-setVpcId":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-withVpcId":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-withVpcPeeringConnectionId":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-setDescription":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-withDescription":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-setGroupName":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-withGroupName":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-setGroupId":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-withGroupId":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-withUserId":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-setUserId":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-setPeeringStatus":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-withPeeringStatus":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-setVpcPeeringConnectionId":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-setVpcId":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-withVpcId":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-withVpcPeeringConnectionId":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-setDescription":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-withDescription":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-setGroupName":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-withGroupName":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-setGroupId":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-withGroupId":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-withUserId":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-setUserId":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-setPeeringStatus":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-withPeeringStatus":"java.lang.String",
+		"setIpPermissions-setIpv4Ranges-setDescription":"java.lang.String",
+		"setIpPermissions-setIpv4Ranges-withDescription":"java.lang.String",
+		"setIpPermissions-setIpv4Ranges-setCidrIp":"java.lang.String",
+		"setIpPermissions-setIpv4Ranges-withCidrIp":"java.lang.String",
+		"setIpPermissions-withIpv4Ranges-setDescription":"java.lang.String",
+		"setIpPermissions-withIpv4Ranges-withDescription":"java.lang.String",
+		"setIpPermissions-withIpv4Ranges-setCidrIp":"java.lang.String",
+		"setIpPermissions-withIpv4Ranges-withCidrIp":"java.lang.String",
+		"withIpPermissions-setFromPort":"java.lang.Integer",
+		"withIpPermissions-withFromPort":"java.lang.Integer",
+		"withIpPermissions-setIpProtocol":"java.lang.String",
+		"withIpPermissions-withIpProtocol":"java.lang.String",
+		"withIpPermissions-setToPort":"java.lang.Integer",
+		"withIpPermissions-withToPort":"java.lang.Integer",
+		"withIpPermissions-setPrefixListIds-setDescription":"java.lang.String",
+		"withIpPermissions-setPrefixListIds-withDescription":"java.lang.String",
+		"withIpPermissions-setPrefixListIds-setPrefixListId":"java.lang.String",
+		"withIpPermissions-setPrefixListIds-withPrefixListId":"java.lang.String",
+		"withIpPermissions-withPrefixListIds-setDescription":"java.lang.String",
+		"withIpPermissions-withPrefixListIds-withDescription":"java.lang.String",
+		"withIpPermissions-withPrefixListIds-setPrefixListId":"java.lang.String",
+		"withIpPermissions-withPrefixListIds-withPrefixListId":"java.lang.String",
+		"withIpPermissions-setIpv6Ranges-setDescription":"java.lang.String",
+		"withIpPermissions-setIpv6Ranges-withDescription":"java.lang.String",
+		"withIpPermissions-setIpv6Ranges-setCidrIpv6":"java.lang.String",
+		"withIpPermissions-setIpv6Ranges-withCidrIpv6":"java.lang.String",
+		"withIpPermissions-withIpv6Ranges-setDescription":"java.lang.String",
+		"withIpPermissions-withIpv6Ranges-withDescription":"java.lang.String",
+		"withIpPermissions-withIpv6Ranges-setCidrIpv6":"java.lang.String",
+		"withIpPermissions-withIpv6Ranges-withCidrIpv6":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-setVpcPeeringConnectionId":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-setVpcId":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-withVpcId":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-withVpcPeeringConnectionId":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-setDescription":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-withDescription":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-setGroupName":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-withGroupName":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-setGroupId":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-withGroupId":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-withUserId":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-setUserId":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-setPeeringStatus":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-withPeeringStatus":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-setVpcPeeringConnectionId":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-setVpcId":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-withVpcId":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-withVpcPeeringConnectionId":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-setDescription":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-withDescription":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-setGroupName":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-withGroupName":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-setGroupId":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-withGroupId":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-withUserId":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-setUserId":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-setPeeringStatus":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-withPeeringStatus":"java.lang.String",
+		"withIpPermissions-setIpv4Ranges-setDescription":"java.lang.String",
+		"withIpPermissions-setIpv4Ranges-withDescription":"java.lang.String",
+		"withIpPermissions-setIpv4Ranges-setCidrIp":"java.lang.String",
+		"withIpPermissions-setIpv4Ranges-withCidrIp":"java.lang.String",
+		"withIpPermissions-withIpv4Ranges-setDescription":"java.lang.String",
+		"withIpPermissions-withIpv4Ranges-withDescription":"java.lang.String",
+		"withIpPermissions-withIpv4Ranges-setCidrIp":"java.lang.String",
+		"withIpPermissions-withIpv4Ranges-withCidrIp":"java.lang.String",
+		"setCidrIp":"java.lang.String",
+		"withCidrIp":"java.lang.String",
+		"setFromPort":"java.lang.Integer",
+		"withFromPort":"java.lang.Integer",
+		"setIpProtocol":"java.lang.String",
+		"withIpProtocol":"java.lang.String",
+		"setToPort":"java.lang.Integer",
+		"withToPort":"java.lang.Integer",
+		"setSourceSecurityGroupName":"java.lang.String",
+		"withSourceSecurityGroupName":"java.lang.String",
+		"setSourceSecurityGroupOwnerId":"java.lang.String",
+		"withSourceSecurityGroupOwnerId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## CreateCapacityReservation parameterss:
+
+```
+{
+	"main":{
+		"setAvailabilityZone":"java.lang.String",
+		"withAvailabilityZone":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"withClientToken":"java.lang.String",
+		"setInstanceType":"java.lang.String",
+		"withInstanceType":"java.lang.String",
+		"setTagSpecifications-setResourceType":"java.lang.String",
+		"setTagSpecifications-withResourceType":"java.lang.String",
+		"setTagSpecifications-setTags-withValue":"java.lang.String",
+		"setTagSpecifications-setTags-setKey":"java.lang.String",
+		"setTagSpecifications-setTags-withKey":"java.lang.String",
+		"setTagSpecifications-setTags-setValue":"java.lang.String",
+		"setTagSpecifications-withTags-withValue":"java.lang.String",
+		"setTagSpecifications-withTags-setKey":"java.lang.String",
+		"setTagSpecifications-withTags-withKey":"java.lang.String",
+		"setTagSpecifications-withTags-setValue":"java.lang.String",
+		"withTagSpecifications-setResourceType":"java.lang.String",
+		"withTagSpecifications-withResourceType":"java.lang.String",
+		"withTagSpecifications-setTags-withValue":"java.lang.String",
+		"withTagSpecifications-setTags-setKey":"java.lang.String",
+		"withTagSpecifications-setTags-withKey":"java.lang.String",
+		"withTagSpecifications-setTags-setValue":"java.lang.String",
+		"withTagSpecifications-withTags-withValue":"java.lang.String",
+		"withTagSpecifications-withTags-setKey":"java.lang.String",
+		"withTagSpecifications-withTags-withKey":"java.lang.String",
+		"withTagSpecifications-withTags-setValue":"java.lang.String",
+		"setInstancePlatform":"java.lang.String",
+		"withInstancePlatform":"java.lang.String",
+		"setTenancy":"java.lang.String",
+		"withTenancy":"java.lang.String",
+		"setInstanceCount":"java.lang.Integer",
+		"withInstanceCount":"java.lang.Integer",
+		"setEbsOptimized":"java.lang.Boolean",
+		"withEbsOptimized":"java.lang.Boolean",
+		"setEphemeralStorage":"java.lang.Boolean",
+		"withEphemeralStorage":"java.lang.Boolean",
+		"setEndDate-setDate":"int",
+		"setEndDate-setHours":"int",
+		"setEndDate-setMinutes":"int",
+		"setEndDate-setMonth":"int",
+		"setEndDate-setSeconds":"int",
+		"setEndDate-setYear":"int",
+		"setEndDate-setTime":"long",
+		"withEndDate-setDate":"int",
+		"withEndDate-setHours":"int",
+		"withEndDate-setMinutes":"int",
+		"withEndDate-setMonth":"int",
+		"withEndDate-setSeconds":"int",
+		"withEndDate-setYear":"int",
+		"withEndDate-setTime":"long",
+		"setEndDateType":"java.lang.String",
+		"withEndDateType":"java.lang.String",
+		"setInstanceMatchCriteria":"java.lang.String",
+		"withInstanceMatchCriteria":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## EnableVpcClassicLink parameterss:
+
+```
+{
+	"main":{
+		"setVpcId":"java.lang.String",
+		"withVpcId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## ModifyInstanceAttribute parameterss:
+
+```
+{
+	"main":{
+		"setInstanceType":"java.lang.String",
+		"withInstanceType":"java.lang.String",
+		"setInstanceId":"java.lang.String",
+		"withInstanceId":"java.lang.String",
+		"setEbsOptimized":"java.lang.Boolean",
+		"withEbsOptimized":"java.lang.Boolean",
+		"setBlockDeviceMappings-setEbs-setVolumeId":"java.lang.String",
+		"setBlockDeviceMappings-setEbs-withVolumeId":"java.lang.String",
+		"setBlockDeviceMappings-setEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"setBlockDeviceMappings-setEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"setBlockDeviceMappings-setDeviceName":"java.lang.String",
+		"setBlockDeviceMappings-withDeviceName":"java.lang.String",
+		"setBlockDeviceMappings-withEbs-setVolumeId":"java.lang.String",
+		"setBlockDeviceMappings-withEbs-withVolumeId":"java.lang.String",
+		"setBlockDeviceMappings-withEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"setBlockDeviceMappings-withEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"setBlockDeviceMappings-setNoDevice":"java.lang.String",
+		"setBlockDeviceMappings-withNoDevice":"java.lang.String",
+		"setBlockDeviceMappings-setVirtualName":"java.lang.String",
+		"setBlockDeviceMappings-withVirtualName":"java.lang.String",
+		"withBlockDeviceMappings-setEbs-setVolumeId":"java.lang.String",
+		"withBlockDeviceMappings-setEbs-withVolumeId":"java.lang.String",
+		"withBlockDeviceMappings-setEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"withBlockDeviceMappings-setEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"withBlockDeviceMappings-setDeviceName":"java.lang.String",
+		"withBlockDeviceMappings-withDeviceName":"java.lang.String",
+		"withBlockDeviceMappings-withEbs-setVolumeId":"java.lang.String",
+		"withBlockDeviceMappings-withEbs-withVolumeId":"java.lang.String",
+		"withBlockDeviceMappings-withEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"withBlockDeviceMappings-withEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"withBlockDeviceMappings-setNoDevice":"java.lang.String",
+		"withBlockDeviceMappings-withNoDevice":"java.lang.String",
+		"withBlockDeviceMappings-setVirtualName":"java.lang.String",
+		"withBlockDeviceMappings-withVirtualName":"java.lang.String",
+		"withAttribute":"java.lang.String",
+		"withValue":"java.lang.String",
+		"setSourceDestCheck":"java.lang.Boolean",
+		"withSourceDestCheck":"java.lang.Boolean",
+		"setDisableApiTermination":"java.lang.Boolean",
+		"withDisableApiTermination":"java.lang.Boolean",
+		"setEnaSupport":"java.lang.Boolean",
+		"withEnaSupport":"java.lang.Boolean",
+		"setInstanceInitiatedShutdownBehavior":"java.lang.String",
+		"withInstanceInitiatedShutdownBehavior":"java.lang.String",
+		"setKernel":"java.lang.String",
+		"withKernel":"java.lang.String",
+		"setRamdisk":"java.lang.String",
+		"withRamdisk":"java.lang.String",
+		"setSriovNetSupport":"java.lang.String",
+		"withSriovNetSupport":"java.lang.String",
+		"setUserData":"java.lang.String",
+		"withUserData":"java.lang.String",
+		"setValue":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DeleteVpnConnectionRoute parameterss:
+
+```
+{
+	"main":{
+		"setDestinationCidrBlock":"java.lang.String",
+		"withDestinationCidrBlock":"java.lang.String",
+		"setVpnConnectionId":"java.lang.String",
+		"withVpnConnectionId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeSecurityGroups parameterss:
+
+```
+{
+	"main":{
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## ModifySubnetAttribute parameterss:
+
+```
+{
+	"main":{
+		"setSubnetId":"java.lang.String",
+		"withSubnetId":"java.lang.String",
+		"setAssignIpv6AddressOnCreation":"java.lang.Boolean",
+		"withAssignIpv6AddressOnCreation":"java.lang.Boolean",
+		"setMapPublicIpOnLaunch":"java.lang.Boolean",
+		"withMapPublicIpOnLaunch":"java.lang.Boolean",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## ModifyFleet parameterss:
+
+```
+{
+	"main":{
+		"setExcessCapacityTerminationPolicy":"java.lang.String",
+		"withExcessCapacityTerminationPolicy":"java.lang.String",
+		"setTargetCapacitySpecification-setOnDemandTargetCapacity":"java.lang.Integer",
+		"setTargetCapacitySpecification-withOnDemandTargetCapacity":"java.lang.Integer",
+		"setTargetCapacitySpecification-setSpotTargetCapacity":"java.lang.Integer",
+		"setTargetCapacitySpecification-withSpotTargetCapacity":"java.lang.Integer",
+		"setTargetCapacitySpecification-setDefaultTargetCapacityType":"java.lang.String",
+		"setTargetCapacitySpecification-setTotalTargetCapacity":"java.lang.Integer",
+		"setTargetCapacitySpecification-withTotalTargetCapacity":"java.lang.Integer",
+		"withTargetCapacitySpecification-setOnDemandTargetCapacity":"java.lang.Integer",
+		"withTargetCapacitySpecification-withOnDemandTargetCapacity":"java.lang.Integer",
+		"withTargetCapacitySpecification-setSpotTargetCapacity":"java.lang.Integer",
+		"withTargetCapacitySpecification-withSpotTargetCapacity":"java.lang.Integer",
+		"withTargetCapacitySpecification-setDefaultTargetCapacityType":"java.lang.String",
+		"withTargetCapacitySpecification-setTotalTargetCapacity":"java.lang.Integer",
+		"withTargetCapacitySpecification-withTotalTargetCapacity":"java.lang.Integer",
+		"setFleetId":"java.lang.String",
+		"withFleetId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## CancelSpotFleetRequests parameterss:
+
+```
+{
+	"main":{
+		"setTerminateInstances":"java.lang.Boolean",
+		"withTerminateInstances":"java.lang.Boolean",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeIdFormat parameterss:
+
+```
+{
+	"main":{
+		"setResource":"java.lang.String",
+		"withResource":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## GetPasswordData parameterss:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"withInstanceId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DisableVpcClassicLink parameterss:
+
+```
+{
+	"main":{
+		"setVpcId":"java.lang.String",
+		"withVpcId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## ModifyVolumeAttribute parameterss:
+
+```
+{
+	"main":{
+		"setVolumeId":"java.lang.String",
+		"withVolumeId":"java.lang.String",
+		"setAutoEnableIO":"java.lang.Boolean",
+		"withAutoEnableIO":"java.lang.Boolean",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeSubnets parameterss:
+
+```
+{
+	"main":{
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## AssociateClientVpnTargetNetwork parameterss:
+
+```
+{
+	"main":{
+		"setClientVpnEndpointId":"java.lang.String",
+		"withClientVpnEndpointId":"java.lang.String",
+		"setSubnetId":"java.lang.String",
+		"withSubnetId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## CreateEgressOnlyInternetGateway parameterss:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"withClientToken":"java.lang.String",
+		"setVpcId":"java.lang.String",
+		"withVpcId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## CreateDhcpOptions parameterss:
+
+```
+{
+	"main":{
+		"setDhcpConfigurations-setKey":"java.lang.String",
+		"setDhcpConfigurations-withKey":"java.lang.String",
+		"withDhcpConfigurations-setKey":"java.lang.String",
+		"withDhcpConfigurations-withKey":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeFlowLogs parameterss:
+
+```
+{
+	"main":{
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setFilter-withName":"java.lang.String",
+		"setFilter-setName":"java.lang.String",
+		"withFilter-withName":"java.lang.String",
+		"withFilter-setName":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DeleteVpcEndpointConnectionNotifications parameterss:
+
+```
+{
+	"main":{
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeFpgaImages parameterss:
+
+```
+{
+	"main":{
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## RunInstances parameterss:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"withClientToken":"java.lang.String",
+		"setTagSpecifications-setResourceType":"java.lang.String",
+		"setTagSpecifications-withResourceType":"java.lang.String",
+		"setTagSpecifications-setTags-withValue":"java.lang.String",
+		"setTagSpecifications-setTags-setKey":"java.lang.String",
+		"setTagSpecifications-setTags-withKey":"java.lang.String",
+		"setTagSpecifications-setTags-setValue":"java.lang.String",
+		"setTagSpecifications-withTags-withValue":"java.lang.String",
+		"setTagSpecifications-withTags-setKey":"java.lang.String",
+		"setTagSpecifications-withTags-withKey":"java.lang.String",
+		"setTagSpecifications-withTags-setValue":"java.lang.String",
+		"withTagSpecifications-setResourceType":"java.lang.String",
+		"withTagSpecifications-withResourceType":"java.lang.String",
+		"withTagSpecifications-setTags-withValue":"java.lang.String",
+		"withTagSpecifications-setTags-setKey":"java.lang.String",
+		"withTagSpecifications-setTags-withKey":"java.lang.String",
+		"withTagSpecifications-setTags-setValue":"java.lang.String",
+		"withTagSpecifications-withTags-withValue":"java.lang.String",
+		"withTagSpecifications-withTags-setKey":"java.lang.String",
+		"withTagSpecifications-withTags-withKey":"java.lang.String",
+		"withTagSpecifications-withTags-setValue":"java.lang.String",
+		"setIpv6AddressCount":"java.lang.Integer",
+		"withIpv6AddressCount":"java.lang.Integer",
+		"setIpv6Addresses-setIpv6Address":"java.lang.String",
+		"setIpv6Addresses-withIpv6Address":"java.lang.String",
+		"withIpv6Addresses-setIpv6Address":"java.lang.String",
+		"withIpv6Addresses-withIpv6Address":"java.lang.String",
+		"setPrivateIpAddress":"java.lang.String",
+		"withPrivateIpAddress":"java.lang.String",
+		"withIamInstanceProfile-withName":"java.lang.String",
+		"withIamInstanceProfile-setArn":"java.lang.String",
+		"withIamInstanceProfile-withArn":"java.lang.String",
+		"withIamInstanceProfile-setName":"java.lang.String",
+		"setSubnetId":"java.lang.String",
+		"withSubnetId":"java.lang.String",
+		"setIamInstanceProfile-withName":"java.lang.String",
+		"setIamInstanceProfile-setArn":"java.lang.String",
+		"setIamInstanceProfile-withArn":"java.lang.String",
+		"setIamInstanceProfile-setName":"java.lang.String",
+		"setEbsOptimized":"java.lang.Boolean",
+		"withEbsOptimized":"java.lang.Boolean",
+		"withKeyName":"java.lang.String",
+		"setKeyName":"java.lang.String",
+		"setBlockDeviceMappings-setEbs-setEncrypted":"java.lang.Boolean",
+		"setBlockDeviceMappings-setEbs-withEncrypted":"java.lang.Boolean",
+		"setBlockDeviceMappings-setEbs-setKmsKeyId":"java.lang.String",
+		"setBlockDeviceMappings-setEbs-withKmsKeyId":"java.lang.String",
+		"setBlockDeviceMappings-setEbs-setIops":"java.lang.Integer",
+		"setBlockDeviceMappings-setEbs-withIops":"java.lang.Integer",
+		"setBlockDeviceMappings-setEbs-setSnapshotId":"java.lang.String",
+		"setBlockDeviceMappings-setEbs-withSnapshotId":"java.lang.String",
+		"setBlockDeviceMappings-setEbs-withVolumeType":"java.lang.String",
+		"setBlockDeviceMappings-setEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"setBlockDeviceMappings-setEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"setBlockDeviceMappings-setEbs-setVolumeSize":"java.lang.Integer",
+		"setBlockDeviceMappings-setEbs-withVolumeSize":"java.lang.Integer",
+		"setBlockDeviceMappings-setDeviceName":"java.lang.String",
+		"setBlockDeviceMappings-withDeviceName":"java.lang.String",
+		"setBlockDeviceMappings-withEbs-setEncrypted":"java.lang.Boolean",
+		"setBlockDeviceMappings-withEbs-withEncrypted":"java.lang.Boolean",
+		"setBlockDeviceMappings-withEbs-setKmsKeyId":"java.lang.String",
+		"setBlockDeviceMappings-withEbs-withKmsKeyId":"java.lang.String",
+		"setBlockDeviceMappings-withEbs-setIops":"java.lang.Integer",
+		"setBlockDeviceMappings-withEbs-withIops":"java.lang.Integer",
+		"setBlockDeviceMappings-withEbs-setSnapshotId":"java.lang.String",
+		"setBlockDeviceMappings-withEbs-withSnapshotId":"java.lang.String",
+		"setBlockDeviceMappings-withEbs-withVolumeType":"java.lang.String",
+		"setBlockDeviceMappings-withEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"setBlockDeviceMappings-withEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"setBlockDeviceMappings-withEbs-setVolumeSize":"java.lang.Integer",
+		"setBlockDeviceMappings-withEbs-withVolumeSize":"java.lang.Integer",
+		"setBlockDeviceMappings-setNoDevice":"java.lang.String",
+		"setBlockDeviceMappings-withNoDevice":"java.lang.String",
+		"setBlockDeviceMappings-setVirtualName":"java.lang.String",
+		"setBlockDeviceMappings-withVirtualName":"java.lang.String",
+		"withBlockDeviceMappings-setEbs-setEncrypted":"java.lang.Boolean",
+		"withBlockDeviceMappings-setEbs-withEncrypted":"java.lang.Boolean",
+		"withBlockDeviceMappings-setEbs-setKmsKeyId":"java.lang.String",
+		"withBlockDeviceMappings-setEbs-withKmsKeyId":"java.lang.String",
+		"withBlockDeviceMappings-setEbs-setIops":"java.lang.Integer",
+		"withBlockDeviceMappings-setEbs-withIops":"java.lang.Integer",
+		"withBlockDeviceMappings-setEbs-setSnapshotId":"java.lang.String",
+		"withBlockDeviceMappings-setEbs-withSnapshotId":"java.lang.String",
+		"withBlockDeviceMappings-setEbs-withVolumeType":"java.lang.String",
+		"withBlockDeviceMappings-setEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"withBlockDeviceMappings-setEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"withBlockDeviceMappings-setEbs-setVolumeSize":"java.lang.Integer",
+		"withBlockDeviceMappings-setEbs-withVolumeSize":"java.lang.Integer",
+		"withBlockDeviceMappings-setDeviceName":"java.lang.String",
+		"withBlockDeviceMappings-withDeviceName":"java.lang.String",
+		"withBlockDeviceMappings-withEbs-setEncrypted":"java.lang.Boolean",
+		"withBlockDeviceMappings-withEbs-withEncrypted":"java.lang.Boolean",
+		"withBlockDeviceMappings-withEbs-setKmsKeyId":"java.lang.String",
+		"withBlockDeviceMappings-withEbs-withKmsKeyId":"java.lang.String",
+		"withBlockDeviceMappings-withEbs-setIops":"java.lang.Integer",
+		"withBlockDeviceMappings-withEbs-withIops":"java.lang.Integer",
+		"withBlockDeviceMappings-withEbs-setSnapshotId":"java.lang.String",
+		"withBlockDeviceMappings-withEbs-withSnapshotId":"java.lang.String",
+		"withBlockDeviceMappings-withEbs-withVolumeType":"java.lang.String",
+		"withBlockDeviceMappings-withEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"withBlockDeviceMappings-withEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"withBlockDeviceMappings-withEbs-setVolumeSize":"java.lang.Integer",
+		"withBlockDeviceMappings-withEbs-withVolumeSize":"java.lang.Integer",
+		"withBlockDeviceMappings-setNoDevice":"java.lang.String",
+		"withBlockDeviceMappings-withNoDevice":"java.lang.String",
+		"withBlockDeviceMappings-setVirtualName":"java.lang.String",
+		"withBlockDeviceMappings-withVirtualName":"java.lang.String",
+		"setImageId":"java.lang.String",
+		"withImageId":"java.lang.String",
+		"setDisableApiTermination":"java.lang.Boolean",
+		"setCapacityReservationSpecification-withCapacityReservationPreference":"java.lang.String",
+		"setCapacityReservationSpecification-setCapacityReservationTarget-withCapacityReservationId":"java.lang.String",
+		"setCapacityReservationSpecification-setCapacityReservationTarget-setCapacityReservationId":"java.lang.String",
+		"setCapacityReservationSpecification-withCapacityReservationTarget-withCapacityReservationId":"java.lang.String",
+		"setCapacityReservationSpecification-withCapacityReservationTarget-setCapacityReservationId":"java.lang.String",
+		"setCapacityReservationSpecification-setCapacityReservationPreference":"java.lang.String",
+		"withCapacityReservationSpecification-withCapacityReservationPreference":"java.lang.String",
+		"withCapacityReservationSpecification-setCapacityReservationTarget-withCapacityReservationId":"java.lang.String",
+		"withCapacityReservationSpecification-setCapacityReservationTarget-setCapacityReservationId":"java.lang.String",
+		"withCapacityReservationSpecification-withCapacityReservationTarget-withCapacityReservationId":"java.lang.String",
+		"withCapacityReservationSpecification-withCapacityReservationTarget-setCapacityReservationId":"java.lang.String",
+		"withCapacityReservationSpecification-setCapacityReservationPreference":"java.lang.String",
+		"withDisableApiTermination":"java.lang.Boolean",
+		"setInstanceInitiatedShutdownBehavior":"java.lang.String",
+		"withInstanceInitiatedShutdownBehavior":"java.lang.String",
+		"setUserData":"java.lang.String",
+		"withUserData":"java.lang.String",
+		"setKernelId":"java.lang.String",
+		"withKernelId":"java.lang.String",
+		"setRamdiskId":"java.lang.String",
+		"withRamdiskId":"java.lang.String",
+		"setMaxCount":"java.lang.Integer",
+		"withMaxCount":"java.lang.Integer",
+		"setMinCount":"java.lang.Integer",
+		"withMinCount":"java.lang.Integer",
+		"setMonitoring":"java.lang.Boolean",
+		"withMonitoring":"java.lang.Boolean",
+		"setPlacement-setAvailabilityZone":"java.lang.String",
+		"setPlacement-withAvailabilityZone":"java.lang.String",
+		"setPlacement-setGroupName":"java.lang.String",
+		"setPlacement-withGroupName":"java.lang.String",
+		"setPlacement-withAffinity":"java.lang.String",
+		"setPlacement-setHostId":"java.lang.String",
+		"setPlacement-withHostId":"java.lang.String",
+		"setPlacement-setPartitionNumber":"java.lang.Integer",
+		"setPlacement-withPartitionNumber":"java.lang.Integer",
+		"setPlacement-setAffinity":"java.lang.String",
+		"setPlacement-setSpreadDomain":"java.lang.String",
+		"setPlacement-withSpreadDomain":"java.lang.String",
+		"withPlacement-setAvailabilityZone":"java.lang.String",
+		"withPlacement-withAvailabilityZone":"java.lang.String",
+		"withPlacement-setGroupName":"java.lang.String",
+		"withPlacement-withGroupName":"java.lang.String",
+		"withPlacement-withAffinity":"java.lang.String",
+		"withPlacement-setHostId":"java.lang.String",
+		"withPlacement-withHostId":"java.lang.String",
+		"withPlacement-setPartitionNumber":"java.lang.Integer",
+		"withPlacement-withPartitionNumber":"java.lang.Integer",
+		"withPlacement-setAffinity":"java.lang.String",
+		"withPlacement-setSpreadDomain":"java.lang.String",
+		"withPlacement-withSpreadDomain":"java.lang.String",
+		"setAdditionalInfo":"java.lang.String",
+		"withAdditionalInfo":"java.lang.String",
+		"setNetworkInterfaces-setIpv6AddressCount":"java.lang.Integer",
+		"setNetworkInterfaces-withIpv6AddressCount":"java.lang.Integer",
+		"setNetworkInterfaces-setIpv6Addresses-setIpv6Address":"java.lang.String",
+		"setNetworkInterfaces-setIpv6Addresses-withIpv6Address":"java.lang.String",
+		"setNetworkInterfaces-withIpv6Addresses-setIpv6Address":"java.lang.String",
+		"setNetworkInterfaces-withIpv6Addresses-withIpv6Address":"java.lang.String",
+		"setNetworkInterfaces-setNetworkInterfaceId":"java.lang.String",
+		"setNetworkInterfaces-withNetworkInterfaceId":"java.lang.String",
+		"setNetworkInterfaces-setPrivateIpAddresses-setPrivateIpAddress":"java.lang.String",
+		"setNetworkInterfaces-setPrivateIpAddresses-withPrivateIpAddress":"java.lang.String",
+		"setNetworkInterfaces-setPrivateIpAddresses-setPrimary":"java.lang.Boolean",
+		"setNetworkInterfaces-setPrivateIpAddresses-withPrimary":"java.lang.Boolean",
+		"setNetworkInterfaces-withPrivateIpAddresses-setPrivateIpAddress":"java.lang.String",
+		"setNetworkInterfaces-withPrivateIpAddresses-withPrivateIpAddress":"java.lang.String",
+		"setNetworkInterfaces-withPrivateIpAddresses-setPrimary":"java.lang.Boolean",
+		"setNetworkInterfaces-withPrivateIpAddresses-withPrimary":"java.lang.Boolean",
+		"setNetworkInterfaces-setSecondaryPrivateIpAddressCount":"java.lang.Integer",
+		"setNetworkInterfaces-withSecondaryPrivateIpAddressCount":"java.lang.Integer",
+		"setNetworkInterfaces-setPrivateIpAddress":"java.lang.String",
+		"setNetworkInterfaces-withPrivateIpAddress":"java.lang.String",
+		"setNetworkInterfaces-setDeviceIndex":"java.lang.Integer",
+		"setNetworkInterfaces-setSubnetId":"java.lang.String",
+		"setNetworkInterfaces-withSubnetId":"java.lang.String",
+		"setNetworkInterfaces-withDeviceIndex":"java.lang.Integer",
+		"setNetworkInterfaces-setDescription":"java.lang.String",
+		"setNetworkInterfaces-withDescription":"java.lang.String",
+		"setNetworkInterfaces-setDeleteOnTermination":"java.lang.Boolean",
+		"setNetworkInterfaces-withDeleteOnTermination":"java.lang.Boolean",
+		"setNetworkInterfaces-setAssociatePublicIpAddress":"java.lang.Boolean",
+		"setNetworkInterfaces-withAssociatePublicIpAddress":"java.lang.Boolean",
+		"withNetworkInterfaces-setIpv6AddressCount":"java.lang.Integer",
+		"withNetworkInterfaces-withIpv6AddressCount":"java.lang.Integer",
+		"withNetworkInterfaces-setIpv6Addresses-setIpv6Address":"java.lang.String",
+		"withNetworkInterfaces-setIpv6Addresses-withIpv6Address":"java.lang.String",
+		"withNetworkInterfaces-withIpv6Addresses-setIpv6Address":"java.lang.String",
+		"withNetworkInterfaces-withIpv6Addresses-withIpv6Address":"java.lang.String",
+		"withNetworkInterfaces-setNetworkInterfaceId":"java.lang.String",
+		"withNetworkInterfaces-withNetworkInterfaceId":"java.lang.String",
+		"withNetworkInterfaces-setPrivateIpAddresses-setPrivateIpAddress":"java.lang.String",
+		"withNetworkInterfaces-setPrivateIpAddresses-withPrivateIpAddress":"java.lang.String",
+		"withNetworkInterfaces-setPrivateIpAddresses-setPrimary":"java.lang.Boolean",
+		"withNetworkInterfaces-setPrivateIpAddresses-withPrimary":"java.lang.Boolean",
+		"withNetworkInterfaces-withPrivateIpAddresses-setPrivateIpAddress":"java.lang.String",
+		"withNetworkInterfaces-withPrivateIpAddresses-withPrivateIpAddress":"java.lang.String",
+		"withNetworkInterfaces-withPrivateIpAddresses-setPrimary":"java.lang.Boolean",
+		"withNetworkInterfaces-withPrivateIpAddresses-withPrimary":"java.lang.Boolean",
+		"withNetworkInterfaces-setSecondaryPrivateIpAddressCount":"java.lang.Integer",
+		"withNetworkInterfaces-withSecondaryPrivateIpAddressCount":"java.lang.Integer",
+		"withNetworkInterfaces-setPrivateIpAddress":"java.lang.String",
+		"withNetworkInterfaces-withPrivateIpAddress":"java.lang.String",
+		"withNetworkInterfaces-setDeviceIndex":"java.lang.Integer",
+		"withNetworkInterfaces-setSubnetId":"java.lang.String",
+		"withNetworkInterfaces-withSubnetId":"java.lang.String",
+		"withNetworkInterfaces-withDeviceIndex":"java.lang.Integer",
+		"withNetworkInterfaces-setDescription":"java.lang.String",
+		"withNetworkInterfaces-withDescription":"java.lang.String",
+		"withNetworkInterfaces-setDeleteOnTermination":"java.lang.Boolean",
+		"withNetworkInterfaces-withDeleteOnTermination":"java.lang.Boolean",
+		"withNetworkInterfaces-setAssociatePublicIpAddress":"java.lang.Boolean",
+		"withNetworkInterfaces-withAssociatePublicIpAddress":"java.lang.Boolean",
+		"setElasticGpuSpecification-setType":"java.lang.String",
+		"setElasticGpuSpecification-withType":"java.lang.String",
+		"withElasticGpuSpecification-setType":"java.lang.String",
+		"withElasticGpuSpecification-withType":"java.lang.String",
+		"setElasticInferenceAccelerators-setType":"java.lang.String",
+		"setElasticInferenceAccelerators-withType":"java.lang.String",
+		"withElasticInferenceAccelerators-setType":"java.lang.String",
+		"withElasticInferenceAccelerators-withType":"java.lang.String",
+		"setLaunchTemplate-withLaunchTemplateName":"java.lang.String",
+		"setLaunchTemplate-setLaunchTemplateName":"java.lang.String",
+		"setLaunchTemplate-setLaunchTemplateId":"java.lang.String",
+		"setLaunchTemplate-withLaunchTemplateId":"java.lang.String",
+		"setLaunchTemplate-setVersion":"java.lang.String",
+		"setLaunchTemplate-withVersion":"java.lang.String",
+		"withLaunchTemplate-withLaunchTemplateName":"java.lang.String",
+		"withLaunchTemplate-setLaunchTemplateName":"java.lang.String",
+		"withLaunchTemplate-setLaunchTemplateId":"java.lang.String",
+		"withLaunchTemplate-withLaunchTemplateId":"java.lang.String",
+		"withLaunchTemplate-setVersion":"java.lang.String",
+		"withLaunchTemplate-withVersion":"java.lang.String",
+		"setInstanceMarketOptions-setSpotOptions-setValidUntil-setDate":"int",
+		"setInstanceMarketOptions-setSpotOptions-setValidUntil-setHours":"int",
+		"setInstanceMarketOptions-setSpotOptions-setValidUntil-setMinutes":"int",
+		"setInstanceMarketOptions-setSpotOptions-setValidUntil-setMonth":"int",
+		"setInstanceMarketOptions-setSpotOptions-setValidUntil-setSeconds":"int",
+		"setInstanceMarketOptions-setSpotOptions-setValidUntil-setYear":"int",
+		"setInstanceMarketOptions-setSpotOptions-setValidUntil-setTime":"long",
+		"setInstanceMarketOptions-setSpotOptions-withValidUntil-setDate":"int",
+		"setInstanceMarketOptions-setSpotOptions-withValidUntil-setHours":"int",
+		"setInstanceMarketOptions-setSpotOptions-withValidUntil-setMinutes":"int",
+		"setInstanceMarketOptions-setSpotOptions-withValidUntil-setMonth":"int",
+		"setInstanceMarketOptions-setSpotOptions-withValidUntil-setSeconds":"int",
+		"setInstanceMarketOptions-setSpotOptions-withValidUntil-setYear":"int",
+		"setInstanceMarketOptions-setSpotOptions-withValidUntil-setTime":"long",
+		"setInstanceMarketOptions-setSpotOptions-setBlockDurationMinutes":"java.lang.Integer",
+		"setInstanceMarketOptions-setSpotOptions-withBlockDurationMinutes":"java.lang.Integer",
+		"setInstanceMarketOptions-setSpotOptions-setInstanceInterruptionBehavior":"java.lang.String",
+		"setInstanceMarketOptions-setSpotOptions-withInstanceInterruptionBehavior":"java.lang.String",
+		"setInstanceMarketOptions-setSpotOptions-withMaxPrice":"java.lang.String",
+		"setInstanceMarketOptions-setSpotOptions-setSpotInstanceType":"java.lang.String",
+		"setInstanceMarketOptions-setSpotOptions-withSpotInstanceType":"java.lang.String",
+		"setInstanceMarketOptions-setSpotOptions-setMaxPrice":"java.lang.String",
+		"setInstanceMarketOptions-withSpotOptions-setValidUntil-setDate":"int",
+		"setInstanceMarketOptions-withSpotOptions-setValidUntil-setHours":"int",
+		"setInstanceMarketOptions-withSpotOptions-setValidUntil-setMinutes":"int",
+		"setInstanceMarketOptions-withSpotOptions-setValidUntil-setMonth":"int",
+		"setInstanceMarketOptions-withSpotOptions-setValidUntil-setSeconds":"int",
+		"setInstanceMarketOptions-withSpotOptions-setValidUntil-setYear":"int",
+		"setInstanceMarketOptions-withSpotOptions-setValidUntil-setTime":"long",
+		"setInstanceMarketOptions-withSpotOptions-withValidUntil-setDate":"int",
+		"setInstanceMarketOptions-withSpotOptions-withValidUntil-setHours":"int",
+		"setInstanceMarketOptions-withSpotOptions-withValidUntil-setMinutes":"int",
+		"setInstanceMarketOptions-withSpotOptions-withValidUntil-setMonth":"int",
+		"setInstanceMarketOptions-withSpotOptions-withValidUntil-setSeconds":"int",
+		"setInstanceMarketOptions-withSpotOptions-withValidUntil-setYear":"int",
+		"setInstanceMarketOptions-withSpotOptions-withValidUntil-setTime":"long",
+		"setInstanceMarketOptions-withSpotOptions-setBlockDurationMinutes":"java.lang.Integer",
+		"setInstanceMarketOptions-withSpotOptions-withBlockDurationMinutes":"java.lang.Integer",
+		"setInstanceMarketOptions-withSpotOptions-setInstanceInterruptionBehavior":"java.lang.String",
+		"setInstanceMarketOptions-withSpotOptions-withInstanceInterruptionBehavior":"java.lang.String",
+		"setInstanceMarketOptions-withSpotOptions-withMaxPrice":"java.lang.String",
+		"setInstanceMarketOptions-withSpotOptions-setSpotInstanceType":"java.lang.String",
+		"setInstanceMarketOptions-withSpotOptions-withSpotInstanceType":"java.lang.String",
+		"setInstanceMarketOptions-withSpotOptions-setMaxPrice":"java.lang.String",
+		"setInstanceMarketOptions-setMarketType":"java.lang.String",
+		"setInstanceMarketOptions-withMarketType":"java.lang.String",
+		"withInstanceMarketOptions-setSpotOptions-setValidUntil-setDate":"int",
+		"withInstanceMarketOptions-setSpotOptions-setValidUntil-setHours":"int",
+		"withInstanceMarketOptions-setSpotOptions-setValidUntil-setMinutes":"int",
+		"withInstanceMarketOptions-setSpotOptions-setValidUntil-setMonth":"int",
+		"withInstanceMarketOptions-setSpotOptions-setValidUntil-setSeconds":"int",
+		"withInstanceMarketOptions-setSpotOptions-setValidUntil-setYear":"int",
+		"withInstanceMarketOptions-setSpotOptions-setValidUntil-setTime":"long",
+		"withInstanceMarketOptions-setSpotOptions-withValidUntil-setDate":"int",
+		"withInstanceMarketOptions-setSpotOptions-withValidUntil-setHours":"int",
+		"withInstanceMarketOptions-setSpotOptions-withValidUntil-setMinutes":"int",
+		"withInstanceMarketOptions-setSpotOptions-withValidUntil-setMonth":"int",
+		"withInstanceMarketOptions-setSpotOptions-withValidUntil-setSeconds":"int",
+		"withInstanceMarketOptions-setSpotOptions-withValidUntil-setYear":"int",
+		"withInstanceMarketOptions-setSpotOptions-withValidUntil-setTime":"long",
+		"withInstanceMarketOptions-setSpotOptions-setBlockDurationMinutes":"java.lang.Integer",
+		"withInstanceMarketOptions-setSpotOptions-withBlockDurationMinutes":"java.lang.Integer",
+		"withInstanceMarketOptions-setSpotOptions-setInstanceInterruptionBehavior":"java.lang.String",
+		"withInstanceMarketOptions-setSpotOptions-withInstanceInterruptionBehavior":"java.lang.String",
+		"withInstanceMarketOptions-setSpotOptions-withMaxPrice":"java.lang.String",
+		"withInstanceMarketOptions-setSpotOptions-setSpotInstanceType":"java.lang.String",
+		"withInstanceMarketOptions-setSpotOptions-withSpotInstanceType":"java.lang.String",
+		"withInstanceMarketOptions-setSpotOptions-setMaxPrice":"java.lang.String",
+		"withInstanceMarketOptions-withSpotOptions-setValidUntil-setDate":"int",
+		"withInstanceMarketOptions-withSpotOptions-setValidUntil-setHours":"int",
+		"withInstanceMarketOptions-withSpotOptions-setValidUntil-setMinutes":"int",
+		"withInstanceMarketOptions-withSpotOptions-setValidUntil-setMonth":"int",
+		"withInstanceMarketOptions-withSpotOptions-setValidUntil-setSeconds":"int",
+		"withInstanceMarketOptions-withSpotOptions-setValidUntil-setYear":"int",
+		"withInstanceMarketOptions-withSpotOptions-setValidUntil-setTime":"long",
+		"withInstanceMarketOptions-withSpotOptions-withValidUntil-setDate":"int",
+		"withInstanceMarketOptions-withSpotOptions-withValidUntil-setHours":"int",
+		"withInstanceMarketOptions-withSpotOptions-withValidUntil-setMinutes":"int",
+		"withInstanceMarketOptions-withSpotOptions-withValidUntil-setMonth":"int",
+		"withInstanceMarketOptions-withSpotOptions-withValidUntil-setSeconds":"int",
+		"withInstanceMarketOptions-withSpotOptions-withValidUntil-setYear":"int",
+		"withInstanceMarketOptions-withSpotOptions-withValidUntil-setTime":"long",
+		"withInstanceMarketOptions-withSpotOptions-setBlockDurationMinutes":"java.lang.Integer",
+		"withInstanceMarketOptions-withSpotOptions-withBlockDurationMinutes":"java.lang.Integer",
+		"withInstanceMarketOptions-withSpotOptions-setInstanceInterruptionBehavior":"java.lang.String",
+		"withInstanceMarketOptions-withSpotOptions-withInstanceInterruptionBehavior":"java.lang.String",
+		"withInstanceMarketOptions-withSpotOptions-withMaxPrice":"java.lang.String",
+		"withInstanceMarketOptions-withSpotOptions-setSpotInstanceType":"java.lang.String",
+		"withInstanceMarketOptions-withSpotOptions-withSpotInstanceType":"java.lang.String",
+		"withInstanceMarketOptions-withSpotOptions-setMaxPrice":"java.lang.String",
+		"withInstanceMarketOptions-setMarketType":"java.lang.String",
+		"withInstanceMarketOptions-withMarketType":"java.lang.String",
+		"setCreditSpecification-setCpuCredits":"java.lang.String",
+		"setCreditSpecification-withCpuCredits":"java.lang.String",
+		"withCreditSpecification-setCpuCredits":"java.lang.String",
+		"withCreditSpecification-withCpuCredits":"java.lang.String",
+		"setCpuOptions-setCoreCount":"java.lang.Integer",
+		"setCpuOptions-withCoreCount":"java.lang.Integer",
+		"setCpuOptions-setThreadsPerCore":"java.lang.Integer",
+		"setCpuOptions-withThreadsPerCore":"java.lang.Integer",
+		"withCpuOptions-setCoreCount":"java.lang.Integer",
+		"withCpuOptions-withCoreCount":"java.lang.Integer",
+		"withCpuOptions-setThreadsPerCore":"java.lang.Integer",
+		"withCpuOptions-withThreadsPerCore":"java.lang.Integer",
+		"setHibernationOptions-setConfigured":"java.lang.Boolean",
+		"setHibernationOptions-withConfigured":"java.lang.Boolean",
+		"withHibernationOptions-setConfigured":"java.lang.Boolean",
+		"withHibernationOptions-withConfigured":"java.lang.Boolean",
+		"setLicenseSpecifications-setLicenseConfigurationArn":"java.lang.String",
+		"setLicenseSpecifications-withLicenseConfigurationArn":"java.lang.String",
+		"withLicenseSpecifications-setLicenseConfigurationArn":"java.lang.String",
+		"withLicenseSpecifications-withLicenseConfigurationArn":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## CreateLaunchTemplateVersion parameterss:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"withClientToken":"java.lang.String",
+		"withLaunchTemplateName":"java.lang.String",
+		"setVersionDescription":"java.lang.String",
+		"withVersionDescription":"java.lang.String",
+		"setLaunchTemplateData-setInstanceType":"java.lang.String",
+		"setLaunchTemplateData-withInstanceType":"java.lang.String",
+		"setLaunchTemplateData-setTagSpecifications-setResourceType":"java.lang.String",
+		"setLaunchTemplateData-setTagSpecifications-setTags-withValue":"java.lang.String",
+		"setLaunchTemplateData-setTagSpecifications-setTags-setKey":"java.lang.String",
+		"setLaunchTemplateData-setTagSpecifications-setTags-withKey":"java.lang.String",
+		"setLaunchTemplateData-setTagSpecifications-setTags-setValue":"java.lang.String",
+		"setLaunchTemplateData-setTagSpecifications-withTags-withValue":"java.lang.String",
+		"setLaunchTemplateData-setTagSpecifications-withTags-setKey":"java.lang.String",
+		"setLaunchTemplateData-setTagSpecifications-withTags-withKey":"java.lang.String",
+		"setLaunchTemplateData-setTagSpecifications-withTags-setValue":"java.lang.String",
+		"setLaunchTemplateData-withTagSpecifications-setResourceType":"java.lang.String",
+		"setLaunchTemplateData-withTagSpecifications-setTags-withValue":"java.lang.String",
+		"setLaunchTemplateData-withTagSpecifications-setTags-setKey":"java.lang.String",
+		"setLaunchTemplateData-withTagSpecifications-setTags-withKey":"java.lang.String",
+		"setLaunchTemplateData-withTagSpecifications-setTags-setValue":"java.lang.String",
+		"setLaunchTemplateData-withTagSpecifications-withTags-withValue":"java.lang.String",
+		"setLaunchTemplateData-withTagSpecifications-withTags-setKey":"java.lang.String",
+		"setLaunchTemplateData-withTagSpecifications-withTags-withKey":"java.lang.String",
+		"setLaunchTemplateData-withTagSpecifications-withTags-setValue":"java.lang.String",
+		"setLaunchTemplateData-withIamInstanceProfile-withName":"java.lang.String",
+		"setLaunchTemplateData-withIamInstanceProfile-setArn":"java.lang.String",
+		"setLaunchTemplateData-withIamInstanceProfile-withArn":"java.lang.String",
+		"setLaunchTemplateData-withIamInstanceProfile-setName":"java.lang.String",
+		"setLaunchTemplateData-setIamInstanceProfile-withName":"java.lang.String",
+		"setLaunchTemplateData-setIamInstanceProfile-setArn":"java.lang.String",
+		"setLaunchTemplateData-setIamInstanceProfile-withArn":"java.lang.String",
+		"setLaunchTemplateData-setIamInstanceProfile-setName":"java.lang.String",
+		"setLaunchTemplateData-setEbsOptimized":"java.lang.Boolean",
+		"setLaunchTemplateData-withEbsOptimized":"java.lang.Boolean",
+		"setLaunchTemplateData-withKeyName":"java.lang.String",
+		"setLaunchTemplateData-setKeyName":"java.lang.String",
+		"setLaunchTemplateData-setBlockDeviceMappings-setEbs-setEncrypted":"java.lang.Boolean",
+		"setLaunchTemplateData-setBlockDeviceMappings-setEbs-withEncrypted":"java.lang.Boolean",
+		"setLaunchTemplateData-setBlockDeviceMappings-setEbs-setKmsKeyId":"java.lang.String",
+		"setLaunchTemplateData-setBlockDeviceMappings-setEbs-withKmsKeyId":"java.lang.String",
+		"setLaunchTemplateData-setBlockDeviceMappings-setEbs-setIops":"java.lang.Integer",
+		"setLaunchTemplateData-setBlockDeviceMappings-setEbs-withIops":"java.lang.Integer",
+		"setLaunchTemplateData-setBlockDeviceMappings-setEbs-setSnapshotId":"java.lang.String",
+		"setLaunchTemplateData-setBlockDeviceMappings-setEbs-withSnapshotId":"java.lang.String",
+		"setLaunchTemplateData-setBlockDeviceMappings-setEbs-setVolumeType":"java.lang.String",
+		"setLaunchTemplateData-setBlockDeviceMappings-setEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"setLaunchTemplateData-setBlockDeviceMappings-setEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"setLaunchTemplateData-setBlockDeviceMappings-setEbs-setVolumeSize":"java.lang.Integer",
+		"setLaunchTemplateData-setBlockDeviceMappings-setEbs-withVolumeSize":"java.lang.Integer",
+		"setLaunchTemplateData-setBlockDeviceMappings-setDeviceName":"java.lang.String",
+		"setLaunchTemplateData-setBlockDeviceMappings-withDeviceName":"java.lang.String",
+		"setLaunchTemplateData-setBlockDeviceMappings-withEbs-setEncrypted":"java.lang.Boolean",
+		"setLaunchTemplateData-setBlockDeviceMappings-withEbs-withEncrypted":"java.lang.Boolean",
+		"setLaunchTemplateData-setBlockDeviceMappings-withEbs-setKmsKeyId":"java.lang.String",
+		"setLaunchTemplateData-setBlockDeviceMappings-withEbs-withKmsKeyId":"java.lang.String",
+		"setLaunchTemplateData-setBlockDeviceMappings-withEbs-setIops":"java.lang.Integer",
+		"setLaunchTemplateData-setBlockDeviceMappings-withEbs-withIops":"java.lang.Integer",
+		"setLaunchTemplateData-setBlockDeviceMappings-withEbs-setSnapshotId":"java.lang.String",
+		"setLaunchTemplateData-setBlockDeviceMappings-withEbs-withSnapshotId":"java.lang.String",
+		"setLaunchTemplateData-setBlockDeviceMappings-withEbs-setVolumeType":"java.lang.String",
+		"setLaunchTemplateData-setBlockDeviceMappings-withEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"setLaunchTemplateData-setBlockDeviceMappings-withEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"setLaunchTemplateData-setBlockDeviceMappings-withEbs-setVolumeSize":"java.lang.Integer",
+		"setLaunchTemplateData-setBlockDeviceMappings-withEbs-withVolumeSize":"java.lang.Integer",
+		"setLaunchTemplateData-setBlockDeviceMappings-setNoDevice":"java.lang.String",
+		"setLaunchTemplateData-setBlockDeviceMappings-withNoDevice":"java.lang.String",
+		"setLaunchTemplateData-setBlockDeviceMappings-setVirtualName":"java.lang.String",
+		"setLaunchTemplateData-setBlockDeviceMappings-withVirtualName":"java.lang.String",
+		"setLaunchTemplateData-withBlockDeviceMappings-setEbs-setEncrypted":"java.lang.Boolean",
+		"setLaunchTemplateData-withBlockDeviceMappings-setEbs-withEncrypted":"java.lang.Boolean",
+		"setLaunchTemplateData-withBlockDeviceMappings-setEbs-setKmsKeyId":"java.lang.String",
+		"setLaunchTemplateData-withBlockDeviceMappings-setEbs-withKmsKeyId":"java.lang.String",
+		"setLaunchTemplateData-withBlockDeviceMappings-setEbs-setIops":"java.lang.Integer",
+		"setLaunchTemplateData-withBlockDeviceMappings-setEbs-withIops":"java.lang.Integer",
+		"setLaunchTemplateData-withBlockDeviceMappings-setEbs-setSnapshotId":"java.lang.String",
+		"setLaunchTemplateData-withBlockDeviceMappings-setEbs-withSnapshotId":"java.lang.String",
+		"setLaunchTemplateData-withBlockDeviceMappings-setEbs-setVolumeType":"java.lang.String",
+		"setLaunchTemplateData-withBlockDeviceMappings-setEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"setLaunchTemplateData-withBlockDeviceMappings-setEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"setLaunchTemplateData-withBlockDeviceMappings-setEbs-setVolumeSize":"java.lang.Integer",
+		"setLaunchTemplateData-withBlockDeviceMappings-setEbs-withVolumeSize":"java.lang.Integer",
+		"setLaunchTemplateData-withBlockDeviceMappings-setDeviceName":"java.lang.String",
+		"setLaunchTemplateData-withBlockDeviceMappings-withDeviceName":"java.lang.String",
+		"setLaunchTemplateData-withBlockDeviceMappings-withEbs-setEncrypted":"java.lang.Boolean",
+		"setLaunchTemplateData-withBlockDeviceMappings-withEbs-withEncrypted":"java.lang.Boolean",
+		"setLaunchTemplateData-withBlockDeviceMappings-withEbs-setKmsKeyId":"java.lang.String",
+		"setLaunchTemplateData-withBlockDeviceMappings-withEbs-withKmsKeyId":"java.lang.String",
+		"setLaunchTemplateData-withBlockDeviceMappings-withEbs-setIops":"java.lang.Integer",
+		"setLaunchTemplateData-withBlockDeviceMappings-withEbs-withIops":"java.lang.Integer",
+		"setLaunchTemplateData-withBlockDeviceMappings-withEbs-setSnapshotId":"java.lang.String",
+		"setLaunchTemplateData-withBlockDeviceMappings-withEbs-withSnapshotId":"java.lang.String",
+		"setLaunchTemplateData-withBlockDeviceMappings-withEbs-setVolumeType":"java.lang.String",
+		"setLaunchTemplateData-withBlockDeviceMappings-withEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"setLaunchTemplateData-withBlockDeviceMappings-withEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"setLaunchTemplateData-withBlockDeviceMappings-withEbs-setVolumeSize":"java.lang.Integer",
+		"setLaunchTemplateData-withBlockDeviceMappings-withEbs-withVolumeSize":"java.lang.Integer",
+		"setLaunchTemplateData-withBlockDeviceMappings-setNoDevice":"java.lang.String",
+		"setLaunchTemplateData-withBlockDeviceMappings-withNoDevice":"java.lang.String",
+		"setLaunchTemplateData-withBlockDeviceMappings-setVirtualName":"java.lang.String",
+		"setLaunchTemplateData-withBlockDeviceMappings-withVirtualName":"java.lang.String",
+		"setLaunchTemplateData-setImageId":"java.lang.String",
+		"setLaunchTemplateData-withImageId":"java.lang.String",
+		"setLaunchTemplateData-setDisableApiTermination":"java.lang.Boolean",
+		"setLaunchTemplateData-setCapacityReservationSpecification-withCapacityReservationPreference":"java.lang.String",
+		"setLaunchTemplateData-setCapacityReservationSpecification-setCapacityReservationTarget-withCapacityReservationId":"java.lang.String",
+		"setLaunchTemplateData-setCapacityReservationSpecification-setCapacityReservationTarget-setCapacityReservationId":"java.lang.String",
+		"setLaunchTemplateData-setCapacityReservationSpecification-withCapacityReservationTarget-withCapacityReservationId":"java.lang.String",
+		"setLaunchTemplateData-setCapacityReservationSpecification-withCapacityReservationTarget-setCapacityReservationId":"java.lang.String",
+		"setLaunchTemplateData-setCapacityReservationSpecification-setCapacityReservationPreference":"java.lang.String",
+		"setLaunchTemplateData-withCapacityReservationSpecification-withCapacityReservationPreference":"java.lang.String",
+		"setLaunchTemplateData-withCapacityReservationSpecification-setCapacityReservationTarget-withCapacityReservationId":"java.lang.String",
+		"setLaunchTemplateData-withCapacityReservationSpecification-setCapacityReservationTarget-setCapacityReservationId":"java.lang.String",
+		"setLaunchTemplateData-withCapacityReservationSpecification-withCapacityReservationTarget-withCapacityReservationId":"java.lang.String",
+		"setLaunchTemplateData-withCapacityReservationSpecification-withCapacityReservationTarget-setCapacityReservationId":"java.lang.String",
+		"setLaunchTemplateData-withCapacityReservationSpecification-setCapacityReservationPreference":"java.lang.String",
+		"setLaunchTemplateData-withDisableApiTermination":"java.lang.Boolean",
+		"setLaunchTemplateData-setInstanceInitiatedShutdownBehavior":"java.lang.String",
+		"setLaunchTemplateData-withInstanceInitiatedShutdownBehavior":"java.lang.String",
+		"setLaunchTemplateData-setUserData":"java.lang.String",
+		"setLaunchTemplateData-withUserData":"java.lang.String",
+		"setLaunchTemplateData-setKernelId":"java.lang.String",
+		"setLaunchTemplateData-withKernelId":"java.lang.String",
+		"setLaunchTemplateData-setMonitoring-withEnabled":"java.lang.Boolean",
+		"setLaunchTemplateData-setMonitoring-setEnabled":"java.lang.Boolean",
+		"setLaunchTemplateData-withMonitoring-withEnabled":"java.lang.Boolean",
+		"setLaunchTemplateData-withMonitoring-setEnabled":"java.lang.Boolean",
+		"setLaunchTemplateData-setPlacement-setAvailabilityZone":"java.lang.String",
+		"setLaunchTemplateData-setPlacement-withAvailabilityZone":"java.lang.String",
+		"setLaunchTemplateData-setPlacement-setGroupName":"java.lang.String",
+		"setLaunchTemplateData-setPlacement-withGroupName":"java.lang.String",
+		"setLaunchTemplateData-setPlacement-setTenancy":"java.lang.String",
+		"setLaunchTemplateData-setPlacement-withAffinity":"java.lang.String",
+		"setLaunchTemplateData-setPlacement-setHostId":"java.lang.String",
+		"setLaunchTemplateData-setPlacement-withHostId":"java.lang.String",
+		"setLaunchTemplateData-setPlacement-setAffinity":"java.lang.String",
+		"setLaunchTemplateData-setPlacement-setSpreadDomain":"java.lang.String",
+		"setLaunchTemplateData-setPlacement-withSpreadDomain":"java.lang.String",
+		"setLaunchTemplateData-withPlacement-setAvailabilityZone":"java.lang.String",
+		"setLaunchTemplateData-withPlacement-withAvailabilityZone":"java.lang.String",
+		"setLaunchTemplateData-withPlacement-setGroupName":"java.lang.String",
+		"setLaunchTemplateData-withPlacement-withGroupName":"java.lang.String",
+		"setLaunchTemplateData-withPlacement-setTenancy":"java.lang.String",
+		"setLaunchTemplateData-withPlacement-withAffinity":"java.lang.String",
+		"setLaunchTemplateData-withPlacement-setHostId":"java.lang.String",
+		"setLaunchTemplateData-withPlacement-withHostId":"java.lang.String",
+		"setLaunchTemplateData-withPlacement-setAffinity":"java.lang.String",
+		"setLaunchTemplateData-withPlacement-setSpreadDomain":"java.lang.String",
+		"setLaunchTemplateData-withPlacement-withSpreadDomain":"java.lang.String",
+		"setLaunchTemplateData-setNetworkInterfaces-setIpv6AddressCount":"java.lang.Integer",
+		"setLaunchTemplateData-setNetworkInterfaces-withIpv6AddressCount":"java.lang.Integer",
+		"setLaunchTemplateData-setNetworkInterfaces-setIpv6Addresses-setIpv6Address":"java.lang.String",
+		"setLaunchTemplateData-setNetworkInterfaces-setIpv6Addresses-withIpv6Address":"java.lang.String",
+		"setLaunchTemplateData-setNetworkInterfaces-withIpv6Addresses-setIpv6Address":"java.lang.String",
+		"setLaunchTemplateData-setNetworkInterfaces-withIpv6Addresses-withIpv6Address":"java.lang.String",
+		"setLaunchTemplateData-setNetworkInterfaces-setNetworkInterfaceId":"java.lang.String",
+		"setLaunchTemplateData-setNetworkInterfaces-withNetworkInterfaceId":"java.lang.String",
+		"setLaunchTemplateData-setNetworkInterfaces-setPrivateIpAddresses-setPrivateIpAddress":"java.lang.String",
+		"setLaunchTemplateData-setNetworkInterfaces-setPrivateIpAddresses-withPrivateIpAddress":"java.lang.String",
+		"setLaunchTemplateData-setNetworkInterfaces-setPrivateIpAddresses-setPrimary":"java.lang.Boolean",
+		"setLaunchTemplateData-setNetworkInterfaces-setPrivateIpAddresses-withPrimary":"java.lang.Boolean",
+		"setLaunchTemplateData-setNetworkInterfaces-withPrivateIpAddresses-setPrivateIpAddress":"java.lang.String",
+		"setLaunchTemplateData-setNetworkInterfaces-withPrivateIpAddresses-withPrivateIpAddress":"java.lang.String",
+		"setLaunchTemplateData-setNetworkInterfaces-withPrivateIpAddresses-setPrimary":"java.lang.Boolean",
+		"setLaunchTemplateData-setNetworkInterfaces-withPrivateIpAddresses-withPrimary":"java.lang.Boolean",
+		"setLaunchTemplateData-setNetworkInterfaces-setSecondaryPrivateIpAddressCount":"java.lang.Integer",
+		"setLaunchTemplateData-setNetworkInterfaces-withSecondaryPrivateIpAddressCount":"java.lang.Integer",
+		"setLaunchTemplateData-setNetworkInterfaces-setPrivateIpAddress":"java.lang.String",
+		"setLaunchTemplateData-setNetworkInterfaces-withPrivateIpAddress":"java.lang.String",
+		"setLaunchTemplateData-setNetworkInterfaces-setDeviceIndex":"java.lang.Integer",
+		"setLaunchTemplateData-setNetworkInterfaces-setSubnetId":"java.lang.String",
+		"setLaunchTemplateData-setNetworkInterfaces-withSubnetId":"java.lang.String",
+		"setLaunchTemplateData-setNetworkInterfaces-withDeviceIndex":"java.lang.Integer",
+		"setLaunchTemplateData-setNetworkInterfaces-setDescription":"java.lang.String",
+		"setLaunchTemplateData-setNetworkInterfaces-withDescription":"java.lang.String",
+		"setLaunchTemplateData-setNetworkInterfaces-setDeleteOnTermination":"java.lang.Boolean",
+		"setLaunchTemplateData-setNetworkInterfaces-withDeleteOnTermination":"java.lang.Boolean",
+		"setLaunchTemplateData-setNetworkInterfaces-setAssociatePublicIpAddress":"java.lang.Boolean",
+		"setLaunchTemplateData-setNetworkInterfaces-withAssociatePublicIpAddress":"java.lang.Boolean",
+		"setLaunchTemplateData-withNetworkInterfaces-setIpv6AddressCount":"java.lang.Integer",
+		"setLaunchTemplateData-withNetworkInterfaces-withIpv6AddressCount":"java.lang.Integer",
+		"setLaunchTemplateData-withNetworkInterfaces-setIpv6Addresses-setIpv6Address":"java.lang.String",
+		"setLaunchTemplateData-withNetworkInterfaces-setIpv6Addresses-withIpv6Address":"java.lang.String",
+		"setLaunchTemplateData-withNetworkInterfaces-withIpv6Addresses-setIpv6Address":"java.lang.String",
+		"setLaunchTemplateData-withNetworkInterfaces-withIpv6Addresses-withIpv6Address":"java.lang.String",
+		"setLaunchTemplateData-withNetworkInterfaces-setNetworkInterfaceId":"java.lang.String",
+		"setLaunchTemplateData-withNetworkInterfaces-withNetworkInterfaceId":"java.lang.String",
+		"setLaunchTemplateData-withNetworkInterfaces-setPrivateIpAddresses-setPrivateIpAddress":"java.lang.String",
+		"setLaunchTemplateData-withNetworkInterfaces-setPrivateIpAddresses-withPrivateIpAddress":"java.lang.String",
+		"setLaunchTemplateData-withNetworkInterfaces-setPrivateIpAddresses-setPrimary":"java.lang.Boolean",
+		"setLaunchTemplateData-withNetworkInterfaces-setPrivateIpAddresses-withPrimary":"java.lang.Boolean",
+		"setLaunchTemplateData-withNetworkInterfaces-withPrivateIpAddresses-setPrivateIpAddress":"java.lang.String",
+		"setLaunchTemplateData-withNetworkInterfaces-withPrivateIpAddresses-withPrivateIpAddress":"java.lang.String",
+		"setLaunchTemplateData-withNetworkInterfaces-withPrivateIpAddresses-setPrimary":"java.lang.Boolean",
+		"setLaunchTemplateData-withNetworkInterfaces-withPrivateIpAddresses-withPrimary":"java.lang.Boolean",
+		"setLaunchTemplateData-withNetworkInterfaces-setSecondaryPrivateIpAddressCount":"java.lang.Integer",
+		"setLaunchTemplateData-withNetworkInterfaces-withSecondaryPrivateIpAddressCount":"java.lang.Integer",
+		"setLaunchTemplateData-withNetworkInterfaces-setPrivateIpAddress":"java.lang.String",
+		"setLaunchTemplateData-withNetworkInterfaces-withPrivateIpAddress":"java.lang.String",
+		"setLaunchTemplateData-withNetworkInterfaces-setDeviceIndex":"java.lang.Integer",
+		"setLaunchTemplateData-withNetworkInterfaces-setSubnetId":"java.lang.String",
+		"setLaunchTemplateData-withNetworkInterfaces-withSubnetId":"java.lang.String",
+		"setLaunchTemplateData-withNetworkInterfaces-withDeviceIndex":"java.lang.Integer",
+		"setLaunchTemplateData-withNetworkInterfaces-setDescription":"java.lang.String",
+		"setLaunchTemplateData-withNetworkInterfaces-withDescription":"java.lang.String",
+		"setLaunchTemplateData-withNetworkInterfaces-setDeleteOnTermination":"java.lang.Boolean",
+		"setLaunchTemplateData-withNetworkInterfaces-withDeleteOnTermination":"java.lang.Boolean",
+		"setLaunchTemplateData-withNetworkInterfaces-setAssociatePublicIpAddress":"java.lang.Boolean",
+		"setLaunchTemplateData-withNetworkInterfaces-withAssociatePublicIpAddress":"java.lang.Boolean",
+		"setLaunchTemplateData-setElasticInferenceAccelerators-setType":"java.lang.String",
+		"setLaunchTemplateData-setElasticInferenceAccelerators-withType":"java.lang.String",
+		"setLaunchTemplateData-withElasticInferenceAccelerators-setType":"java.lang.String",
+		"setLaunchTemplateData-withElasticInferenceAccelerators-withType":"java.lang.String",
+		"setLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-setValidUntil-setDate":"int",
+		"setLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-setValidUntil-setHours":"int",
+		"setLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-setValidUntil-setMinutes":"int",
+		"setLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-setValidUntil-setMonth":"int",
+		"setLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-setValidUntil-setSeconds":"int",
+		"setLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-setValidUntil-setYear":"int",
+		"setLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-setValidUntil-setTime":"long",
+		"setLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-withValidUntil-setDate":"int",
+		"setLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-withValidUntil-setHours":"int",
+		"setLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-withValidUntil-setMinutes":"int",
+		"setLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-withValidUntil-setMonth":"int",
+		"setLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-withValidUntil-setSeconds":"int",
+		"setLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-withValidUntil-setYear":"int",
+		"setLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-withValidUntil-setTime":"long",
+		"setLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-setBlockDurationMinutes":"java.lang.Integer",
+		"setLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-withBlockDurationMinutes":"java.lang.Integer",
+		"setLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-setInstanceInterruptionBehavior":"java.lang.String",
+		"setLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-withInstanceInterruptionBehavior":"java.lang.String",
+		"setLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-withMaxPrice":"java.lang.String",
+		"setLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-setSpotInstanceType":"java.lang.String",
+		"setLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-withSpotInstanceType":"java.lang.String",
+		"setLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-setMaxPrice":"java.lang.String",
+		"setLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-setValidUntil-setDate":"int",
+		"setLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-setValidUntil-setHours":"int",
+		"setLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-setValidUntil-setMinutes":"int",
+		"setLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-setValidUntil-setMonth":"int",
+		"setLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-setValidUntil-setSeconds":"int",
+		"setLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-setValidUntil-setYear":"int",
+		"setLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-setValidUntil-setTime":"long",
+		"setLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-withValidUntil-setDate":"int",
+		"setLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-withValidUntil-setHours":"int",
+		"setLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-withValidUntil-setMinutes":"int",
+		"setLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-withValidUntil-setMonth":"int",
+		"setLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-withValidUntil-setSeconds":"int",
+		"setLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-withValidUntil-setYear":"int",
+		"setLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-withValidUntil-setTime":"long",
+		"setLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-setBlockDurationMinutes":"java.lang.Integer",
+		"setLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-withBlockDurationMinutes":"java.lang.Integer",
+		"setLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-setInstanceInterruptionBehavior":"java.lang.String",
+		"setLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-withInstanceInterruptionBehavior":"java.lang.String",
+		"setLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-withMaxPrice":"java.lang.String",
+		"setLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-setSpotInstanceType":"java.lang.String",
+		"setLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-withSpotInstanceType":"java.lang.String",
+		"setLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-setMaxPrice":"java.lang.String",
+		"setLaunchTemplateData-setInstanceMarketOptions-setMarketType":"java.lang.String",
+		"setLaunchTemplateData-setInstanceMarketOptions-withMarketType":"java.lang.String",
+		"setLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-setValidUntil-setDate":"int",
+		"setLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-setValidUntil-setHours":"int",
+		"setLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-setValidUntil-setMinutes":"int",
+		"setLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-setValidUntil-setMonth":"int",
+		"setLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-setValidUntil-setSeconds":"int",
+		"setLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-setValidUntil-setYear":"int",
+		"setLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-setValidUntil-setTime":"long",
+		"setLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-withValidUntil-setDate":"int",
+		"setLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-withValidUntil-setHours":"int",
+		"setLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-withValidUntil-setMinutes":"int",
+		"setLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-withValidUntil-setMonth":"int",
+		"setLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-withValidUntil-setSeconds":"int",
+		"setLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-withValidUntil-setYear":"int",
+		"setLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-withValidUntil-setTime":"long",
+		"setLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-setBlockDurationMinutes":"java.lang.Integer",
+		"setLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-withBlockDurationMinutes":"java.lang.Integer",
+		"setLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-setInstanceInterruptionBehavior":"java.lang.String",
+		"setLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-withInstanceInterruptionBehavior":"java.lang.String",
+		"setLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-withMaxPrice":"java.lang.String",
+		"setLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-setSpotInstanceType":"java.lang.String",
+		"setLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-withSpotInstanceType":"java.lang.String",
+		"setLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-setMaxPrice":"java.lang.String",
+		"setLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-setValidUntil-setDate":"int",
+		"setLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-setValidUntil-setHours":"int",
+		"setLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-setValidUntil-setMinutes":"int",
+		"setLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-setValidUntil-setMonth":"int",
+		"setLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-setValidUntil-setSeconds":"int",
+		"setLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-setValidUntil-setYear":"int",
+		"setLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-setValidUntil-setTime":"long",
+		"setLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-withValidUntil-setDate":"int",
+		"setLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-withValidUntil-setHours":"int",
+		"setLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-withValidUntil-setMinutes":"int",
+		"setLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-withValidUntil-setMonth":"int",
+		"setLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-withValidUntil-setSeconds":"int",
+		"setLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-withValidUntil-setYear":"int",
+		"setLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-withValidUntil-setTime":"long",
+		"setLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-setBlockDurationMinutes":"java.lang.Integer",
+		"setLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-withBlockDurationMinutes":"java.lang.Integer",
+		"setLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-setInstanceInterruptionBehavior":"java.lang.String",
+		"setLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-withInstanceInterruptionBehavior":"java.lang.String",
+		"setLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-withMaxPrice":"java.lang.String",
+		"setLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-setSpotInstanceType":"java.lang.String",
+		"setLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-withSpotInstanceType":"java.lang.String",
+		"setLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-setMaxPrice":"java.lang.String",
+		"setLaunchTemplateData-withInstanceMarketOptions-setMarketType":"java.lang.String",
+		"setLaunchTemplateData-withInstanceMarketOptions-withMarketType":"java.lang.String",
+		"setLaunchTemplateData-setCreditSpecification-setCpuCredits":"java.lang.String",
+		"setLaunchTemplateData-setCreditSpecification-withCpuCredits":"java.lang.String",
+		"setLaunchTemplateData-withCreditSpecification-setCpuCredits":"java.lang.String",
+		"setLaunchTemplateData-withCreditSpecification-withCpuCredits":"java.lang.String",
+		"setLaunchTemplateData-setCpuOptions-setCoreCount":"java.lang.Integer",
+		"setLaunchTemplateData-setCpuOptions-withCoreCount":"java.lang.Integer",
+		"setLaunchTemplateData-setCpuOptions-setThreadsPerCore":"java.lang.Integer",
+		"setLaunchTemplateData-setCpuOptions-withThreadsPerCore":"java.lang.Integer",
+		"setLaunchTemplateData-withCpuOptions-setCoreCount":"java.lang.Integer",
+		"setLaunchTemplateData-withCpuOptions-withCoreCount":"java.lang.Integer",
+		"setLaunchTemplateData-withCpuOptions-setThreadsPerCore":"java.lang.Integer",
+		"setLaunchTemplateData-withCpuOptions-withThreadsPerCore":"java.lang.Integer",
+		"setLaunchTemplateData-setHibernationOptions-setConfigured":"java.lang.Boolean",
+		"setLaunchTemplateData-setHibernationOptions-withConfigured":"java.lang.Boolean",
+		"setLaunchTemplateData-withHibernationOptions-setConfigured":"java.lang.Boolean",
+		"setLaunchTemplateData-withHibernationOptions-withConfigured":"java.lang.Boolean",
+		"setLaunchTemplateData-setLicenseSpecifications-setLicenseConfigurationArn":"java.lang.String",
+		"setLaunchTemplateData-setLicenseSpecifications-withLicenseConfigurationArn":"java.lang.String",
+		"setLaunchTemplateData-withLicenseSpecifications-setLicenseConfigurationArn":"java.lang.String",
+		"setLaunchTemplateData-withLicenseSpecifications-withLicenseConfigurationArn":"java.lang.String",
+		"setLaunchTemplateData-setRamDiskId":"java.lang.String",
+		"setLaunchTemplateData-withRamDiskId":"java.lang.String",
+		"setLaunchTemplateData-setElasticGpuSpecifications-setType":"java.lang.String",
+		"setLaunchTemplateData-setElasticGpuSpecifications-withType":"java.lang.String",
+		"setLaunchTemplateData-withElasticGpuSpecifications-setType":"java.lang.String",
+		"setLaunchTemplateData-withElasticGpuSpecifications-withType":"java.lang.String",
+		"withLaunchTemplateData-setInstanceType":"java.lang.String",
+		"withLaunchTemplateData-withInstanceType":"java.lang.String",
+		"withLaunchTemplateData-setTagSpecifications-setResourceType":"java.lang.String",
+		"withLaunchTemplateData-setTagSpecifications-setTags-withValue":"java.lang.String",
+		"withLaunchTemplateData-setTagSpecifications-setTags-setKey":"java.lang.String",
+		"withLaunchTemplateData-setTagSpecifications-setTags-withKey":"java.lang.String",
+		"withLaunchTemplateData-setTagSpecifications-setTags-setValue":"java.lang.String",
+		"withLaunchTemplateData-setTagSpecifications-withTags-withValue":"java.lang.String",
+		"withLaunchTemplateData-setTagSpecifications-withTags-setKey":"java.lang.String",
+		"withLaunchTemplateData-setTagSpecifications-withTags-withKey":"java.lang.String",
+		"withLaunchTemplateData-setTagSpecifications-withTags-setValue":"java.lang.String",
+		"withLaunchTemplateData-withTagSpecifications-setResourceType":"java.lang.String",
+		"withLaunchTemplateData-withTagSpecifications-setTags-withValue":"java.lang.String",
+		"withLaunchTemplateData-withTagSpecifications-setTags-setKey":"java.lang.String",
+		"withLaunchTemplateData-withTagSpecifications-setTags-withKey":"java.lang.String",
+		"withLaunchTemplateData-withTagSpecifications-setTags-setValue":"java.lang.String",
+		"withLaunchTemplateData-withTagSpecifications-withTags-withValue":"java.lang.String",
+		"withLaunchTemplateData-withTagSpecifications-withTags-setKey":"java.lang.String",
+		"withLaunchTemplateData-withTagSpecifications-withTags-withKey":"java.lang.String",
+		"withLaunchTemplateData-withTagSpecifications-withTags-setValue":"java.lang.String",
+		"withLaunchTemplateData-withIamInstanceProfile-withName":"java.lang.String",
+		"withLaunchTemplateData-withIamInstanceProfile-setArn":"java.lang.String",
+		"withLaunchTemplateData-withIamInstanceProfile-withArn":"java.lang.String",
+		"withLaunchTemplateData-withIamInstanceProfile-setName":"java.lang.String",
+		"withLaunchTemplateData-setIamInstanceProfile-withName":"java.lang.String",
+		"withLaunchTemplateData-setIamInstanceProfile-setArn":"java.lang.String",
+		"withLaunchTemplateData-setIamInstanceProfile-withArn":"java.lang.String",
+		"withLaunchTemplateData-setIamInstanceProfile-setName":"java.lang.String",
+		"withLaunchTemplateData-setEbsOptimized":"java.lang.Boolean",
+		"withLaunchTemplateData-withEbsOptimized":"java.lang.Boolean",
+		"withLaunchTemplateData-withKeyName":"java.lang.String",
+		"withLaunchTemplateData-setKeyName":"java.lang.String",
+		"withLaunchTemplateData-setBlockDeviceMappings-setEbs-setEncrypted":"java.lang.Boolean",
+		"withLaunchTemplateData-setBlockDeviceMappings-setEbs-withEncrypted":"java.lang.Boolean",
+		"withLaunchTemplateData-setBlockDeviceMappings-setEbs-setKmsKeyId":"java.lang.String",
+		"withLaunchTemplateData-setBlockDeviceMappings-setEbs-withKmsKeyId":"java.lang.String",
+		"withLaunchTemplateData-setBlockDeviceMappings-setEbs-setIops":"java.lang.Integer",
+		"withLaunchTemplateData-setBlockDeviceMappings-setEbs-withIops":"java.lang.Integer",
+		"withLaunchTemplateData-setBlockDeviceMappings-setEbs-setSnapshotId":"java.lang.String",
+		"withLaunchTemplateData-setBlockDeviceMappings-setEbs-withSnapshotId":"java.lang.String",
+		"withLaunchTemplateData-setBlockDeviceMappings-setEbs-setVolumeType":"java.lang.String",
+		"withLaunchTemplateData-setBlockDeviceMappings-setEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"withLaunchTemplateData-setBlockDeviceMappings-setEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"withLaunchTemplateData-setBlockDeviceMappings-setEbs-setVolumeSize":"java.lang.Integer",
+		"withLaunchTemplateData-setBlockDeviceMappings-setEbs-withVolumeSize":"java.lang.Integer",
+		"withLaunchTemplateData-setBlockDeviceMappings-setDeviceName":"java.lang.String",
+		"withLaunchTemplateData-setBlockDeviceMappings-withDeviceName":"java.lang.String",
+		"withLaunchTemplateData-setBlockDeviceMappings-withEbs-setEncrypted":"java.lang.Boolean",
+		"withLaunchTemplateData-setBlockDeviceMappings-withEbs-withEncrypted":"java.lang.Boolean",
+		"withLaunchTemplateData-setBlockDeviceMappings-withEbs-setKmsKeyId":"java.lang.String",
+		"withLaunchTemplateData-setBlockDeviceMappings-withEbs-withKmsKeyId":"java.lang.String",
+		"withLaunchTemplateData-setBlockDeviceMappings-withEbs-setIops":"java.lang.Integer",
+		"withLaunchTemplateData-setBlockDeviceMappings-withEbs-withIops":"java.lang.Integer",
+		"withLaunchTemplateData-setBlockDeviceMappings-withEbs-setSnapshotId":"java.lang.String",
+		"withLaunchTemplateData-setBlockDeviceMappings-withEbs-withSnapshotId":"java.lang.String",
+		"withLaunchTemplateData-setBlockDeviceMappings-withEbs-setVolumeType":"java.lang.String",
+		"withLaunchTemplateData-setBlockDeviceMappings-withEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"withLaunchTemplateData-setBlockDeviceMappings-withEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"withLaunchTemplateData-setBlockDeviceMappings-withEbs-setVolumeSize":"java.lang.Integer",
+		"withLaunchTemplateData-setBlockDeviceMappings-withEbs-withVolumeSize":"java.lang.Integer",
+		"withLaunchTemplateData-setBlockDeviceMappings-setNoDevice":"java.lang.String",
+		"withLaunchTemplateData-setBlockDeviceMappings-withNoDevice":"java.lang.String",
+		"withLaunchTemplateData-setBlockDeviceMappings-setVirtualName":"java.lang.String",
+		"withLaunchTemplateData-setBlockDeviceMappings-withVirtualName":"java.lang.String",
+		"withLaunchTemplateData-withBlockDeviceMappings-setEbs-setEncrypted":"java.lang.Boolean",
+		"withLaunchTemplateData-withBlockDeviceMappings-setEbs-withEncrypted":"java.lang.Boolean",
+		"withLaunchTemplateData-withBlockDeviceMappings-setEbs-setKmsKeyId":"java.lang.String",
+		"withLaunchTemplateData-withBlockDeviceMappings-setEbs-withKmsKeyId":"java.lang.String",
+		"withLaunchTemplateData-withBlockDeviceMappings-setEbs-setIops":"java.lang.Integer",
+		"withLaunchTemplateData-withBlockDeviceMappings-setEbs-withIops":"java.lang.Integer",
+		"withLaunchTemplateData-withBlockDeviceMappings-setEbs-setSnapshotId":"java.lang.String",
+		"withLaunchTemplateData-withBlockDeviceMappings-setEbs-withSnapshotId":"java.lang.String",
+		"withLaunchTemplateData-withBlockDeviceMappings-setEbs-setVolumeType":"java.lang.String",
+		"withLaunchTemplateData-withBlockDeviceMappings-setEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"withLaunchTemplateData-withBlockDeviceMappings-setEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"withLaunchTemplateData-withBlockDeviceMappings-setEbs-setVolumeSize":"java.lang.Integer",
+		"withLaunchTemplateData-withBlockDeviceMappings-setEbs-withVolumeSize":"java.lang.Integer",
+		"withLaunchTemplateData-withBlockDeviceMappings-setDeviceName":"java.lang.String",
+		"withLaunchTemplateData-withBlockDeviceMappings-withDeviceName":"java.lang.String",
+		"withLaunchTemplateData-withBlockDeviceMappings-withEbs-setEncrypted":"java.lang.Boolean",
+		"withLaunchTemplateData-withBlockDeviceMappings-withEbs-withEncrypted":"java.lang.Boolean",
+		"withLaunchTemplateData-withBlockDeviceMappings-withEbs-setKmsKeyId":"java.lang.String",
+		"withLaunchTemplateData-withBlockDeviceMappings-withEbs-withKmsKeyId":"java.lang.String",
+		"withLaunchTemplateData-withBlockDeviceMappings-withEbs-setIops":"java.lang.Integer",
+		"withLaunchTemplateData-withBlockDeviceMappings-withEbs-withIops":"java.lang.Integer",
+		"withLaunchTemplateData-withBlockDeviceMappings-withEbs-setSnapshotId":"java.lang.String",
+		"withLaunchTemplateData-withBlockDeviceMappings-withEbs-withSnapshotId":"java.lang.String",
+		"withLaunchTemplateData-withBlockDeviceMappings-withEbs-setVolumeType":"java.lang.String",
+		"withLaunchTemplateData-withBlockDeviceMappings-withEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"withLaunchTemplateData-withBlockDeviceMappings-withEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"withLaunchTemplateData-withBlockDeviceMappings-withEbs-setVolumeSize":"java.lang.Integer",
+		"withLaunchTemplateData-withBlockDeviceMappings-withEbs-withVolumeSize":"java.lang.Integer",
+		"withLaunchTemplateData-withBlockDeviceMappings-setNoDevice":"java.lang.String",
+		"withLaunchTemplateData-withBlockDeviceMappings-withNoDevice":"java.lang.String",
+		"withLaunchTemplateData-withBlockDeviceMappings-setVirtualName":"java.lang.String",
+		"withLaunchTemplateData-withBlockDeviceMappings-withVirtualName":"java.lang.String",
+		"withLaunchTemplateData-setImageId":"java.lang.String",
+		"withLaunchTemplateData-withImageId":"java.lang.String",
+		"withLaunchTemplateData-setDisableApiTermination":"java.lang.Boolean",
+		"withLaunchTemplateData-setCapacityReservationSpecification-withCapacityReservationPreference":"java.lang.String",
+		"withLaunchTemplateData-setCapacityReservationSpecification-setCapacityReservationTarget-withCapacityReservationId":"java.lang.String",
+		"withLaunchTemplateData-setCapacityReservationSpecification-setCapacityReservationTarget-setCapacityReservationId":"java.lang.String",
+		"withLaunchTemplateData-setCapacityReservationSpecification-withCapacityReservationTarget-withCapacityReservationId":"java.lang.String",
+		"withLaunchTemplateData-setCapacityReservationSpecification-withCapacityReservationTarget-setCapacityReservationId":"java.lang.String",
+		"withLaunchTemplateData-setCapacityReservationSpecification-setCapacityReservationPreference":"java.lang.String",
+		"withLaunchTemplateData-withCapacityReservationSpecification-withCapacityReservationPreference":"java.lang.String",
+		"withLaunchTemplateData-withCapacityReservationSpecification-setCapacityReservationTarget-withCapacityReservationId":"java.lang.String",
+		"withLaunchTemplateData-withCapacityReservationSpecification-setCapacityReservationTarget-setCapacityReservationId":"java.lang.String",
+		"withLaunchTemplateData-withCapacityReservationSpecification-withCapacityReservationTarget-withCapacityReservationId":"java.lang.String",
+		"withLaunchTemplateData-withCapacityReservationSpecification-withCapacityReservationTarget-setCapacityReservationId":"java.lang.String",
+		"withLaunchTemplateData-withCapacityReservationSpecification-setCapacityReservationPreference":"java.lang.String",
+		"withLaunchTemplateData-withDisableApiTermination":"java.lang.Boolean",
+		"withLaunchTemplateData-setInstanceInitiatedShutdownBehavior":"java.lang.String",
+		"withLaunchTemplateData-withInstanceInitiatedShutdownBehavior":"java.lang.String",
+		"withLaunchTemplateData-setUserData":"java.lang.String",
+		"withLaunchTemplateData-withUserData":"java.lang.String",
+		"withLaunchTemplateData-setKernelId":"java.lang.String",
+		"withLaunchTemplateData-withKernelId":"java.lang.String",
+		"withLaunchTemplateData-setMonitoring-withEnabled":"java.lang.Boolean",
+		"withLaunchTemplateData-setMonitoring-setEnabled":"java.lang.Boolean",
+		"withLaunchTemplateData-withMonitoring-withEnabled":"java.lang.Boolean",
+		"withLaunchTemplateData-withMonitoring-setEnabled":"java.lang.Boolean",
+		"withLaunchTemplateData-setPlacement-setAvailabilityZone":"java.lang.String",
+		"withLaunchTemplateData-setPlacement-withAvailabilityZone":"java.lang.String",
+		"withLaunchTemplateData-setPlacement-setGroupName":"java.lang.String",
+		"withLaunchTemplateData-setPlacement-withGroupName":"java.lang.String",
+		"withLaunchTemplateData-setPlacement-setTenancy":"java.lang.String",
+		"withLaunchTemplateData-setPlacement-withAffinity":"java.lang.String",
+		"withLaunchTemplateData-setPlacement-setHostId":"java.lang.String",
+		"withLaunchTemplateData-setPlacement-withHostId":"java.lang.String",
+		"withLaunchTemplateData-setPlacement-setAffinity":"java.lang.String",
+		"withLaunchTemplateData-setPlacement-setSpreadDomain":"java.lang.String",
+		"withLaunchTemplateData-setPlacement-withSpreadDomain":"java.lang.String",
+		"withLaunchTemplateData-withPlacement-setAvailabilityZone":"java.lang.String",
+		"withLaunchTemplateData-withPlacement-withAvailabilityZone":"java.lang.String",
+		"withLaunchTemplateData-withPlacement-setGroupName":"java.lang.String",
+		"withLaunchTemplateData-withPlacement-withGroupName":"java.lang.String",
+		"withLaunchTemplateData-withPlacement-setTenancy":"java.lang.String",
+		"withLaunchTemplateData-withPlacement-withAffinity":"java.lang.String",
+		"withLaunchTemplateData-withPlacement-setHostId":"java.lang.String",
+		"withLaunchTemplateData-withPlacement-withHostId":"java.lang.String",
+		"withLaunchTemplateData-withPlacement-setAffinity":"java.lang.String",
+		"withLaunchTemplateData-withPlacement-setSpreadDomain":"java.lang.String",
+		"withLaunchTemplateData-withPlacement-withSpreadDomain":"java.lang.String",
+		"withLaunchTemplateData-setNetworkInterfaces-setIpv6AddressCount":"java.lang.Integer",
+		"withLaunchTemplateData-setNetworkInterfaces-withIpv6AddressCount":"java.lang.Integer",
+		"withLaunchTemplateData-setNetworkInterfaces-setIpv6Addresses-setIpv6Address":"java.lang.String",
+		"withLaunchTemplateData-setNetworkInterfaces-setIpv6Addresses-withIpv6Address":"java.lang.String",
+		"withLaunchTemplateData-setNetworkInterfaces-withIpv6Addresses-setIpv6Address":"java.lang.String",
+		"withLaunchTemplateData-setNetworkInterfaces-withIpv6Addresses-withIpv6Address":"java.lang.String",
+		"withLaunchTemplateData-setNetworkInterfaces-setNetworkInterfaceId":"java.lang.String",
+		"withLaunchTemplateData-setNetworkInterfaces-withNetworkInterfaceId":"java.lang.String",
+		"withLaunchTemplateData-setNetworkInterfaces-setPrivateIpAddresses-setPrivateIpAddress":"java.lang.String",
+		"withLaunchTemplateData-setNetworkInterfaces-setPrivateIpAddresses-withPrivateIpAddress":"java.lang.String",
+		"withLaunchTemplateData-setNetworkInterfaces-setPrivateIpAddresses-setPrimary":"java.lang.Boolean",
+		"withLaunchTemplateData-setNetworkInterfaces-setPrivateIpAddresses-withPrimary":"java.lang.Boolean",
+		"withLaunchTemplateData-setNetworkInterfaces-withPrivateIpAddresses-setPrivateIpAddress":"java.lang.String",
+		"withLaunchTemplateData-setNetworkInterfaces-withPrivateIpAddresses-withPrivateIpAddress":"java.lang.String",
+		"withLaunchTemplateData-setNetworkInterfaces-withPrivateIpAddresses-setPrimary":"java.lang.Boolean",
+		"withLaunchTemplateData-setNetworkInterfaces-withPrivateIpAddresses-withPrimary":"java.lang.Boolean",
+		"withLaunchTemplateData-setNetworkInterfaces-setSecondaryPrivateIpAddressCount":"java.lang.Integer",
+		"withLaunchTemplateData-setNetworkInterfaces-withSecondaryPrivateIpAddressCount":"java.lang.Integer",
+		"withLaunchTemplateData-setNetworkInterfaces-setPrivateIpAddress":"java.lang.String",
+		"withLaunchTemplateData-setNetworkInterfaces-withPrivateIpAddress":"java.lang.String",
+		"withLaunchTemplateData-setNetworkInterfaces-setDeviceIndex":"java.lang.Integer",
+		"withLaunchTemplateData-setNetworkInterfaces-setSubnetId":"java.lang.String",
+		"withLaunchTemplateData-setNetworkInterfaces-withSubnetId":"java.lang.String",
+		"withLaunchTemplateData-setNetworkInterfaces-withDeviceIndex":"java.lang.Integer",
+		"withLaunchTemplateData-setNetworkInterfaces-setDescription":"java.lang.String",
+		"withLaunchTemplateData-setNetworkInterfaces-withDescription":"java.lang.String",
+		"withLaunchTemplateData-setNetworkInterfaces-setDeleteOnTermination":"java.lang.Boolean",
+		"withLaunchTemplateData-setNetworkInterfaces-withDeleteOnTermination":"java.lang.Boolean",
+		"withLaunchTemplateData-setNetworkInterfaces-setAssociatePublicIpAddress":"java.lang.Boolean",
+		"withLaunchTemplateData-setNetworkInterfaces-withAssociatePublicIpAddress":"java.lang.Boolean",
+		"withLaunchTemplateData-withNetworkInterfaces-setIpv6AddressCount":"java.lang.Integer",
+		"withLaunchTemplateData-withNetworkInterfaces-withIpv6AddressCount":"java.lang.Integer",
+		"withLaunchTemplateData-withNetworkInterfaces-setIpv6Addresses-setIpv6Address":"java.lang.String",
+		"withLaunchTemplateData-withNetworkInterfaces-setIpv6Addresses-withIpv6Address":"java.lang.String",
+		"withLaunchTemplateData-withNetworkInterfaces-withIpv6Addresses-setIpv6Address":"java.lang.String",
+		"withLaunchTemplateData-withNetworkInterfaces-withIpv6Addresses-withIpv6Address":"java.lang.String",
+		"withLaunchTemplateData-withNetworkInterfaces-setNetworkInterfaceId":"java.lang.String",
+		"withLaunchTemplateData-withNetworkInterfaces-withNetworkInterfaceId":"java.lang.String",
+		"withLaunchTemplateData-withNetworkInterfaces-setPrivateIpAddresses-setPrivateIpAddress":"java.lang.String",
+		"withLaunchTemplateData-withNetworkInterfaces-setPrivateIpAddresses-withPrivateIpAddress":"java.lang.String",
+		"withLaunchTemplateData-withNetworkInterfaces-setPrivateIpAddresses-setPrimary":"java.lang.Boolean",
+		"withLaunchTemplateData-withNetworkInterfaces-setPrivateIpAddresses-withPrimary":"java.lang.Boolean",
+		"withLaunchTemplateData-withNetworkInterfaces-withPrivateIpAddresses-setPrivateIpAddress":"java.lang.String",
+		"withLaunchTemplateData-withNetworkInterfaces-withPrivateIpAddresses-withPrivateIpAddress":"java.lang.String",
+		"withLaunchTemplateData-withNetworkInterfaces-withPrivateIpAddresses-setPrimary":"java.lang.Boolean",
+		"withLaunchTemplateData-withNetworkInterfaces-withPrivateIpAddresses-withPrimary":"java.lang.Boolean",
+		"withLaunchTemplateData-withNetworkInterfaces-setSecondaryPrivateIpAddressCount":"java.lang.Integer",
+		"withLaunchTemplateData-withNetworkInterfaces-withSecondaryPrivateIpAddressCount":"java.lang.Integer",
+		"withLaunchTemplateData-withNetworkInterfaces-setPrivateIpAddress":"java.lang.String",
+		"withLaunchTemplateData-withNetworkInterfaces-withPrivateIpAddress":"java.lang.String",
+		"withLaunchTemplateData-withNetworkInterfaces-setDeviceIndex":"java.lang.Integer",
+		"withLaunchTemplateData-withNetworkInterfaces-setSubnetId":"java.lang.String",
+		"withLaunchTemplateData-withNetworkInterfaces-withSubnetId":"java.lang.String",
+		"withLaunchTemplateData-withNetworkInterfaces-withDeviceIndex":"java.lang.Integer",
+		"withLaunchTemplateData-withNetworkInterfaces-setDescription":"java.lang.String",
+		"withLaunchTemplateData-withNetworkInterfaces-withDescription":"java.lang.String",
+		"withLaunchTemplateData-withNetworkInterfaces-setDeleteOnTermination":"java.lang.Boolean",
+		"withLaunchTemplateData-withNetworkInterfaces-withDeleteOnTermination":"java.lang.Boolean",
+		"withLaunchTemplateData-withNetworkInterfaces-setAssociatePublicIpAddress":"java.lang.Boolean",
+		"withLaunchTemplateData-withNetworkInterfaces-withAssociatePublicIpAddress":"java.lang.Boolean",
+		"withLaunchTemplateData-setElasticInferenceAccelerators-setType":"java.lang.String",
+		"withLaunchTemplateData-setElasticInferenceAccelerators-withType":"java.lang.String",
+		"withLaunchTemplateData-withElasticInferenceAccelerators-setType":"java.lang.String",
+		"withLaunchTemplateData-withElasticInferenceAccelerators-withType":"java.lang.String",
+		"withLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-setValidUntil-setDate":"int",
+		"withLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-setValidUntil-setHours":"int",
+		"withLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-setValidUntil-setMinutes":"int",
+		"withLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-setValidUntil-setMonth":"int",
+		"withLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-setValidUntil-setSeconds":"int",
+		"withLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-setValidUntil-setYear":"int",
+		"withLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-setValidUntil-setTime":"long",
+		"withLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-withValidUntil-setDate":"int",
+		"withLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-withValidUntil-setHours":"int",
+		"withLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-withValidUntil-setMinutes":"int",
+		"withLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-withValidUntil-setMonth":"int",
+		"withLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-withValidUntil-setSeconds":"int",
+		"withLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-withValidUntil-setYear":"int",
+		"withLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-withValidUntil-setTime":"long",
+		"withLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-setBlockDurationMinutes":"java.lang.Integer",
+		"withLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-withBlockDurationMinutes":"java.lang.Integer",
+		"withLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-setInstanceInterruptionBehavior":"java.lang.String",
+		"withLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-withInstanceInterruptionBehavior":"java.lang.String",
+		"withLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-withMaxPrice":"java.lang.String",
+		"withLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-setSpotInstanceType":"java.lang.String",
+		"withLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-withSpotInstanceType":"java.lang.String",
+		"withLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-setMaxPrice":"java.lang.String",
+		"withLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-setValidUntil-setDate":"int",
+		"withLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-setValidUntil-setHours":"int",
+		"withLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-setValidUntil-setMinutes":"int",
+		"withLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-setValidUntil-setMonth":"int",
+		"withLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-setValidUntil-setSeconds":"int",
+		"withLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-setValidUntil-setYear":"int",
+		"withLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-setValidUntil-setTime":"long",
+		"withLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-withValidUntil-setDate":"int",
+		"withLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-withValidUntil-setHours":"int",
+		"withLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-withValidUntil-setMinutes":"int",
+		"withLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-withValidUntil-setMonth":"int",
+		"withLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-withValidUntil-setSeconds":"int",
+		"withLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-withValidUntil-setYear":"int",
+		"withLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-withValidUntil-setTime":"long",
+		"withLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-setBlockDurationMinutes":"java.lang.Integer",
+		"withLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-withBlockDurationMinutes":"java.lang.Integer",
+		"withLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-setInstanceInterruptionBehavior":"java.lang.String",
+		"withLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-withInstanceInterruptionBehavior":"java.lang.String",
+		"withLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-withMaxPrice":"java.lang.String",
+		"withLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-setSpotInstanceType":"java.lang.String",
+		"withLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-withSpotInstanceType":"java.lang.String",
+		"withLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-setMaxPrice":"java.lang.String",
+		"withLaunchTemplateData-setInstanceMarketOptions-setMarketType":"java.lang.String",
+		"withLaunchTemplateData-setInstanceMarketOptions-withMarketType":"java.lang.String",
+		"withLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-setValidUntil-setDate":"int",
+		"withLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-setValidUntil-setHours":"int",
+		"withLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-setValidUntil-setMinutes":"int",
+		"withLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-setValidUntil-setMonth":"int",
+		"withLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-setValidUntil-setSeconds":"int",
+		"withLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-setValidUntil-setYear":"int",
+		"withLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-setValidUntil-setTime":"long",
+		"withLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-withValidUntil-setDate":"int",
+		"withLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-withValidUntil-setHours":"int",
+		"withLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-withValidUntil-setMinutes":"int",
+		"withLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-withValidUntil-setMonth":"int",
+		"withLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-withValidUntil-setSeconds":"int",
+		"withLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-withValidUntil-setYear":"int",
+		"withLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-withValidUntil-setTime":"long",
+		"withLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-setBlockDurationMinutes":"java.lang.Integer",
+		"withLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-withBlockDurationMinutes":"java.lang.Integer",
+		"withLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-setInstanceInterruptionBehavior":"java.lang.String",
+		"withLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-withInstanceInterruptionBehavior":"java.lang.String",
+		"withLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-withMaxPrice":"java.lang.String",
+		"withLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-setSpotInstanceType":"java.lang.String",
+		"withLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-withSpotInstanceType":"java.lang.String",
+		"withLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-setMaxPrice":"java.lang.String",
+		"withLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-setValidUntil-setDate":"int",
+		"withLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-setValidUntil-setHours":"int",
+		"withLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-setValidUntil-setMinutes":"int",
+		"withLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-setValidUntil-setMonth":"int",
+		"withLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-setValidUntil-setSeconds":"int",
+		"withLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-setValidUntil-setYear":"int",
+		"withLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-setValidUntil-setTime":"long",
+		"withLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-withValidUntil-setDate":"int",
+		"withLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-withValidUntil-setHours":"int",
+		"withLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-withValidUntil-setMinutes":"int",
+		"withLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-withValidUntil-setMonth":"int",
+		"withLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-withValidUntil-setSeconds":"int",
+		"withLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-withValidUntil-setYear":"int",
+		"withLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-withValidUntil-setTime":"long",
+		"withLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-setBlockDurationMinutes":"java.lang.Integer",
+		"withLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-withBlockDurationMinutes":"java.lang.Integer",
+		"withLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-setInstanceInterruptionBehavior":"java.lang.String",
+		"withLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-withInstanceInterruptionBehavior":"java.lang.String",
+		"withLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-withMaxPrice":"java.lang.String",
+		"withLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-setSpotInstanceType":"java.lang.String",
+		"withLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-withSpotInstanceType":"java.lang.String",
+		"withLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-setMaxPrice":"java.lang.String",
+		"withLaunchTemplateData-withInstanceMarketOptions-setMarketType":"java.lang.String",
+		"withLaunchTemplateData-withInstanceMarketOptions-withMarketType":"java.lang.String",
+		"withLaunchTemplateData-setCreditSpecification-setCpuCredits":"java.lang.String",
+		"withLaunchTemplateData-setCreditSpecification-withCpuCredits":"java.lang.String",
+		"withLaunchTemplateData-withCreditSpecification-setCpuCredits":"java.lang.String",
+		"withLaunchTemplateData-withCreditSpecification-withCpuCredits":"java.lang.String",
+		"withLaunchTemplateData-setCpuOptions-setCoreCount":"java.lang.Integer",
+		"withLaunchTemplateData-setCpuOptions-withCoreCount":"java.lang.Integer",
+		"withLaunchTemplateData-setCpuOptions-setThreadsPerCore":"java.lang.Integer",
+		"withLaunchTemplateData-setCpuOptions-withThreadsPerCore":"java.lang.Integer",
+		"withLaunchTemplateData-withCpuOptions-setCoreCount":"java.lang.Integer",
+		"withLaunchTemplateData-withCpuOptions-withCoreCount":"java.lang.Integer",
+		"withLaunchTemplateData-withCpuOptions-setThreadsPerCore":"java.lang.Integer",
+		"withLaunchTemplateData-withCpuOptions-withThreadsPerCore":"java.lang.Integer",
+		"withLaunchTemplateData-setHibernationOptions-setConfigured":"java.lang.Boolean",
+		"withLaunchTemplateData-setHibernationOptions-withConfigured":"java.lang.Boolean",
+		"withLaunchTemplateData-withHibernationOptions-setConfigured":"java.lang.Boolean",
+		"withLaunchTemplateData-withHibernationOptions-withConfigured":"java.lang.Boolean",
+		"withLaunchTemplateData-setLicenseSpecifications-setLicenseConfigurationArn":"java.lang.String",
+		"withLaunchTemplateData-setLicenseSpecifications-withLicenseConfigurationArn":"java.lang.String",
+		"withLaunchTemplateData-withLicenseSpecifications-setLicenseConfigurationArn":"java.lang.String",
+		"withLaunchTemplateData-withLicenseSpecifications-withLicenseConfigurationArn":"java.lang.String",
+		"withLaunchTemplateData-setRamDiskId":"java.lang.String",
+		"withLaunchTemplateData-withRamDiskId":"java.lang.String",
+		"withLaunchTemplateData-setElasticGpuSpecifications-setType":"java.lang.String",
+		"withLaunchTemplateData-setElasticGpuSpecifications-withType":"java.lang.String",
+		"withLaunchTemplateData-withElasticGpuSpecifications-setType":"java.lang.String",
+		"withLaunchTemplateData-withElasticGpuSpecifications-withType":"java.lang.String",
+		"setSourceVersion":"java.lang.String",
+		"setLaunchTemplateName":"java.lang.String",
+		"setLaunchTemplateId":"java.lang.String",
+		"withLaunchTemplateId":"java.lang.String",
+		"withSourceVersion":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeVpcPeeringConnections parameterss:
+
+```
+{
+	"main":{
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeCapacityReservations parameterss:
+
+```
+{
+	"main":{
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DeleteClientVpnRoute parameterss:
+
+```
+{
+	"main":{
+		"setClientVpnEndpointId":"java.lang.String",
+		"withClientVpnEndpointId":"java.lang.String",
+		"setDestinationCidrBlock":"java.lang.String",
+		"withDestinationCidrBlock":"java.lang.String",
+		"setTargetVpcSubnetId":"java.lang.String",
+		"withTargetVpcSubnetId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeVpcEndpointServicePermissions parameterss:
+
+```
+{
+	"main":{
+		"withServiceId":"java.lang.String",
+		"setServiceId":"java.lang.String",
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## CancelSpotInstanceRequests parameterss:
+
+```
+{
+	"main":{
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeHostReservationOfferings parameterss:
+
+```
+{
+	"main":{
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setFilter-withName":"java.lang.String",
+		"setFilter-setName":"java.lang.String",
+		"withFilter-withName":"java.lang.String",
+		"withFilter-setName":"java.lang.String",
+		"setMaxDuration":"java.lang.Integer",
+		"withMaxDuration":"java.lang.Integer",
+		"setMinDuration":"java.lang.Integer",
+		"withMinDuration":"java.lang.Integer",
+		"setOfferingId":"java.lang.String",
+		"withOfferingId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## ModifyVpcEndpointConnectionNotification parameterss:
+
+```
+{
+	"main":{
+		"setConnectionNotificationArn":"java.lang.String",
+		"withConnectionNotificationArn":"java.lang.String",
+		"setConnectionNotificationId":"java.lang.String",
+		"withConnectionNotificationId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## AssociateDhcpOptions parameterss:
+
+```
+{
+	"main":{
+		"setVpcId":"java.lang.String",
+		"withVpcId":"java.lang.String",
+		"setDhcpOptionsId":"java.lang.String",
+		"withDhcpOptionsId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## ReplaceNetworkAclEntry parameterss:
+
+```
+{
+	"main":{
+		"withIpv6CidrBlock":"java.lang.String",
+		"setIpv6CidrBlock":"java.lang.String",
+		"setCidrBlock":"java.lang.String",
+		"withCidrBlock":"java.lang.String",
+		"setEgress":"java.lang.Boolean",
+		"withEgress":"java.lang.Boolean",
+		"setIcmpTypeCode-setType":"java.lang.Integer",
+		"setIcmpTypeCode-withType":"java.lang.Integer",
+		"setIcmpTypeCode-setCode":"java.lang.Integer",
+		"setIcmpTypeCode-withCode":"java.lang.Integer",
+		"withIcmpTypeCode-setType":"java.lang.Integer",
+		"withIcmpTypeCode-withType":"java.lang.Integer",
+		"withIcmpTypeCode-setCode":"java.lang.Integer",
+		"withIcmpTypeCode-withCode":"java.lang.Integer",
+		"setNetworkAclId":"java.lang.String",
+		"withNetworkAclId":"java.lang.String",
+		"setPortRange-withFrom":"java.lang.Integer",
+		"setPortRange-setFrom":"java.lang.Integer",
+		"setPortRange-setTo":"java.lang.Integer",
+		"setPortRange-withTo":"java.lang.Integer",
+		"withPortRange-withFrom":"java.lang.Integer",
+		"withPortRange-setFrom":"java.lang.Integer",
+		"withPortRange-setTo":"java.lang.Integer",
+		"withPortRange-withTo":"java.lang.Integer",
+		"setProtocol":"java.lang.String",
+		"withProtocol":"java.lang.String",
+		"setRuleAction":"java.lang.String",
+		"withRuleAction":"java.lang.String",
+		"setRuleNumber":"java.lang.Integer",
+		"withRuleNumber":"java.lang.Integer",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeFleets parameterss:
+
+```
+{
+	"main":{
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeVpcEndpoints parameterss:
+
+```
+{
+	"main":{
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeStaleSecurityGroups parameterss:
+
+```
+{
+	"main":{
+		"setVpcId":"java.lang.String",
+		"withVpcId":"java.lang.String",
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## CreateVpnConnectionRoute parameterss:
+
+```
+{
+	"main":{
+		"setDestinationCidrBlock":"java.lang.String",
+		"withDestinationCidrBlock":"java.lang.String",
+		"setVpnConnectionId":"java.lang.String",
+		"withVpnConnectionId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeClientVpnAuthorizationRules parameterss:
+
+```
+{
+	"main":{
+		"setClientVpnEndpointId":"java.lang.String",
+		"withClientVpnEndpointId":"java.lang.String",
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## RevokeClientVpnIngress parameterss:
+
+```
+{
+	"main":{
+		"setClientVpnEndpointId":"java.lang.String",
+		"withClientVpnEndpointId":"java.lang.String",
+		"setTargetNetworkCidr":"java.lang.String",
+		"withTargetNetworkCidr":"java.lang.String",
+		"setAccessGroupId":"java.lang.String",
+		"withAccessGroupId":"java.lang.String",
+		"withRevokeAllGroups":"java.lang.Boolean",
+		"setRevokeAllGroups":"java.lang.Boolean",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeVpcClassicLinkDnsSupport parameterss:
+
+```
+{
+	"main":{
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## UpdateSecurityGroupRuleDescriptionsEgress parameterss:
+
+```
+{
+	"main":{
+		"setGroupName":"java.lang.String",
+		"withGroupName":"java.lang.String",
+		"setGroupId":"java.lang.String",
+		"withGroupId":"java.lang.String",
+		"setIpPermissions-setFromPort":"java.lang.Integer",
+		"setIpPermissions-withFromPort":"java.lang.Integer",
+		"setIpPermissions-setIpProtocol":"java.lang.String",
+		"setIpPermissions-withIpProtocol":"java.lang.String",
+		"setIpPermissions-setToPort":"java.lang.Integer",
+		"setIpPermissions-withToPort":"java.lang.Integer",
+		"setIpPermissions-setPrefixListIds-setDescription":"java.lang.String",
+		"setIpPermissions-setPrefixListIds-withDescription":"java.lang.String",
+		"setIpPermissions-setPrefixListIds-setPrefixListId":"java.lang.String",
+		"setIpPermissions-setPrefixListIds-withPrefixListId":"java.lang.String",
+		"setIpPermissions-withPrefixListIds-setDescription":"java.lang.String",
+		"setIpPermissions-withPrefixListIds-withDescription":"java.lang.String",
+		"setIpPermissions-withPrefixListIds-setPrefixListId":"java.lang.String",
+		"setIpPermissions-withPrefixListIds-withPrefixListId":"java.lang.String",
+		"setIpPermissions-setIpv6Ranges-setDescription":"java.lang.String",
+		"setIpPermissions-setIpv6Ranges-withDescription":"java.lang.String",
+		"setIpPermissions-setIpv6Ranges-setCidrIpv6":"java.lang.String",
+		"setIpPermissions-setIpv6Ranges-withCidrIpv6":"java.lang.String",
+		"setIpPermissions-withIpv6Ranges-setDescription":"java.lang.String",
+		"setIpPermissions-withIpv6Ranges-withDescription":"java.lang.String",
+		"setIpPermissions-withIpv6Ranges-setCidrIpv6":"java.lang.String",
+		"setIpPermissions-withIpv6Ranges-withCidrIpv6":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-setVpcPeeringConnectionId":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-setVpcId":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-withVpcId":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-withVpcPeeringConnectionId":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-setDescription":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-withDescription":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-setGroupName":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-withGroupName":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-setGroupId":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-withGroupId":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-withUserId":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-setUserId":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-setPeeringStatus":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-withPeeringStatus":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-setVpcPeeringConnectionId":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-setVpcId":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-withVpcId":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-withVpcPeeringConnectionId":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-setDescription":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-withDescription":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-setGroupName":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-withGroupName":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-setGroupId":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-withGroupId":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-withUserId":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-setUserId":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-setPeeringStatus":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-withPeeringStatus":"java.lang.String",
+		"setIpPermissions-setIpv4Ranges-setDescription":"java.lang.String",
+		"setIpPermissions-setIpv4Ranges-withDescription":"java.lang.String",
+		"setIpPermissions-setIpv4Ranges-setCidrIp":"java.lang.String",
+		"setIpPermissions-setIpv4Ranges-withCidrIp":"java.lang.String",
+		"setIpPermissions-withIpv4Ranges-setDescription":"java.lang.String",
+		"setIpPermissions-withIpv4Ranges-withDescription":"java.lang.String",
+		"setIpPermissions-withIpv4Ranges-setCidrIp":"java.lang.String",
+		"setIpPermissions-withIpv4Ranges-withCidrIp":"java.lang.String",
+		"withIpPermissions-setFromPort":"java.lang.Integer",
+		"withIpPermissions-withFromPort":"java.lang.Integer",
+		"withIpPermissions-setIpProtocol":"java.lang.String",
+		"withIpPermissions-withIpProtocol":"java.lang.String",
+		"withIpPermissions-setToPort":"java.lang.Integer",
+		"withIpPermissions-withToPort":"java.lang.Integer",
+		"withIpPermissions-setPrefixListIds-setDescription":"java.lang.String",
+		"withIpPermissions-setPrefixListIds-withDescription":"java.lang.String",
+		"withIpPermissions-setPrefixListIds-setPrefixListId":"java.lang.String",
+		"withIpPermissions-setPrefixListIds-withPrefixListId":"java.lang.String",
+		"withIpPermissions-withPrefixListIds-setDescription":"java.lang.String",
+		"withIpPermissions-withPrefixListIds-withDescription":"java.lang.String",
+		"withIpPermissions-withPrefixListIds-setPrefixListId":"java.lang.String",
+		"withIpPermissions-withPrefixListIds-withPrefixListId":"java.lang.String",
+		"withIpPermissions-setIpv6Ranges-setDescription":"java.lang.String",
+		"withIpPermissions-setIpv6Ranges-withDescription":"java.lang.String",
+		"withIpPermissions-setIpv6Ranges-setCidrIpv6":"java.lang.String",
+		"withIpPermissions-setIpv6Ranges-withCidrIpv6":"java.lang.String",
+		"withIpPermissions-withIpv6Ranges-setDescription":"java.lang.String",
+		"withIpPermissions-withIpv6Ranges-withDescription":"java.lang.String",
+		"withIpPermissions-withIpv6Ranges-setCidrIpv6":"java.lang.String",
+		"withIpPermissions-withIpv6Ranges-withCidrIpv6":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-setVpcPeeringConnectionId":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-setVpcId":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-withVpcId":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-withVpcPeeringConnectionId":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-setDescription":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-withDescription":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-setGroupName":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-withGroupName":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-setGroupId":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-withGroupId":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-withUserId":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-setUserId":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-setPeeringStatus":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-withPeeringStatus":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-setVpcPeeringConnectionId":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-setVpcId":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-withVpcId":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-withVpcPeeringConnectionId":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-setDescription":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-withDescription":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-setGroupName":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-withGroupName":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-setGroupId":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-withGroupId":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-withUserId":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-setUserId":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-setPeeringStatus":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-withPeeringStatus":"java.lang.String",
+		"withIpPermissions-setIpv4Ranges-setDescription":"java.lang.String",
+		"withIpPermissions-setIpv4Ranges-withDescription":"java.lang.String",
+		"withIpPermissions-setIpv4Ranges-setCidrIp":"java.lang.String",
+		"withIpPermissions-setIpv4Ranges-withCidrIp":"java.lang.String",
+		"withIpPermissions-withIpv4Ranges-setDescription":"java.lang.String",
+		"withIpPermissions-withIpv4Ranges-withDescription":"java.lang.String",
+		"withIpPermissions-withIpv4Ranges-setCidrIp":"java.lang.String",
+		"withIpPermissions-withIpv4Ranges-withCidrIp":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## ModifyInstanceCreditSpecification parameterss:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"withClientToken":"java.lang.String",
+		"setInstanceCreditSpecifications-setInstanceId":"java.lang.String",
+		"setInstanceCreditSpecifications-withInstanceId":"java.lang.String",
+		"setInstanceCreditSpecifications-setCpuCredits":"java.lang.String",
+		"setInstanceCreditSpecifications-withCpuCredits":"java.lang.String",
+		"withInstanceCreditSpecifications-setInstanceId":"java.lang.String",
+		"withInstanceCreditSpecifications-withInstanceId":"java.lang.String",
+		"withInstanceCreditSpecifications-setCpuCredits":"java.lang.String",
+		"withInstanceCreditSpecifications-withCpuCredits":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## RunScheduledInstances parameterss:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"withClientToken":"java.lang.String",
+		"setInstanceCount":"java.lang.Integer",
+		"withInstanceCount":"java.lang.Integer",
+		"setLaunchSpecification-setInstanceType":"java.lang.String",
+		"setLaunchSpecification-withInstanceType":"java.lang.String",
+		"setLaunchSpecification-withIamInstanceProfile-withName":"java.lang.String",
+		"setLaunchSpecification-withIamInstanceProfile-setArn":"java.lang.String",
+		"setLaunchSpecification-withIamInstanceProfile-withArn":"java.lang.String",
+		"setLaunchSpecification-withIamInstanceProfile-setName":"java.lang.String",
+		"setLaunchSpecification-setSubnetId":"java.lang.String",
+		"setLaunchSpecification-withSubnetId":"java.lang.String",
+		"setLaunchSpecification-setIamInstanceProfile-withName":"java.lang.String",
+		"setLaunchSpecification-setIamInstanceProfile-setArn":"java.lang.String",
+		"setLaunchSpecification-setIamInstanceProfile-withArn":"java.lang.String",
+		"setLaunchSpecification-setIamInstanceProfile-setName":"java.lang.String",
+		"setLaunchSpecification-setEbsOptimized":"java.lang.Boolean",
+		"setLaunchSpecification-withEbsOptimized":"java.lang.Boolean",
+		"setLaunchSpecification-withKeyName":"java.lang.String",
+		"setLaunchSpecification-setKeyName":"java.lang.String",
+		"setLaunchSpecification-setBlockDeviceMappings-setEbs-setEncrypted":"java.lang.Boolean",
+		"setLaunchSpecification-setBlockDeviceMappings-setEbs-withEncrypted":"java.lang.Boolean",
+		"setLaunchSpecification-setBlockDeviceMappings-setEbs-setIops":"java.lang.Integer",
+		"setLaunchSpecification-setBlockDeviceMappings-setEbs-withIops":"java.lang.Integer",
+		"setLaunchSpecification-setBlockDeviceMappings-setEbs-setSnapshotId":"java.lang.String",
+		"setLaunchSpecification-setBlockDeviceMappings-setEbs-withSnapshotId":"java.lang.String",
+		"setLaunchSpecification-setBlockDeviceMappings-setEbs-setVolumeType":"java.lang.String",
+		"setLaunchSpecification-setBlockDeviceMappings-setEbs-withVolumeType":"java.lang.String",
+		"setLaunchSpecification-setBlockDeviceMappings-setEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"setLaunchSpecification-setBlockDeviceMappings-setEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"setLaunchSpecification-setBlockDeviceMappings-setEbs-setVolumeSize":"java.lang.Integer",
+		"setLaunchSpecification-setBlockDeviceMappings-setEbs-withVolumeSize":"java.lang.Integer",
+		"setLaunchSpecification-setBlockDeviceMappings-setDeviceName":"java.lang.String",
+		"setLaunchSpecification-setBlockDeviceMappings-withDeviceName":"java.lang.String",
+		"setLaunchSpecification-setBlockDeviceMappings-withEbs-setEncrypted":"java.lang.Boolean",
+		"setLaunchSpecification-setBlockDeviceMappings-withEbs-withEncrypted":"java.lang.Boolean",
+		"setLaunchSpecification-setBlockDeviceMappings-withEbs-setIops":"java.lang.Integer",
+		"setLaunchSpecification-setBlockDeviceMappings-withEbs-withIops":"java.lang.Integer",
+		"setLaunchSpecification-setBlockDeviceMappings-withEbs-setSnapshotId":"java.lang.String",
+		"setLaunchSpecification-setBlockDeviceMappings-withEbs-withSnapshotId":"java.lang.String",
+		"setLaunchSpecification-setBlockDeviceMappings-withEbs-setVolumeType":"java.lang.String",
+		"setLaunchSpecification-setBlockDeviceMappings-withEbs-withVolumeType":"java.lang.String",
+		"setLaunchSpecification-setBlockDeviceMappings-withEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"setLaunchSpecification-setBlockDeviceMappings-withEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"setLaunchSpecification-setBlockDeviceMappings-withEbs-setVolumeSize":"java.lang.Integer",
+		"setLaunchSpecification-setBlockDeviceMappings-withEbs-withVolumeSize":"java.lang.Integer",
+		"setLaunchSpecification-setBlockDeviceMappings-setNoDevice":"java.lang.String",
+		"setLaunchSpecification-setBlockDeviceMappings-withNoDevice":"java.lang.String",
+		"setLaunchSpecification-setBlockDeviceMappings-setVirtualName":"java.lang.String",
+		"setLaunchSpecification-setBlockDeviceMappings-withVirtualName":"java.lang.String",
+		"setLaunchSpecification-withBlockDeviceMappings-setEbs-setEncrypted":"java.lang.Boolean",
+		"setLaunchSpecification-withBlockDeviceMappings-setEbs-withEncrypted":"java.lang.Boolean",
+		"setLaunchSpecification-withBlockDeviceMappings-setEbs-setIops":"java.lang.Integer",
+		"setLaunchSpecification-withBlockDeviceMappings-setEbs-withIops":"java.lang.Integer",
+		"setLaunchSpecification-withBlockDeviceMappings-setEbs-setSnapshotId":"java.lang.String",
+		"setLaunchSpecification-withBlockDeviceMappings-setEbs-withSnapshotId":"java.lang.String",
+		"setLaunchSpecification-withBlockDeviceMappings-setEbs-setVolumeType":"java.lang.String",
+		"setLaunchSpecification-withBlockDeviceMappings-setEbs-withVolumeType":"java.lang.String",
+		"setLaunchSpecification-withBlockDeviceMappings-setEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"setLaunchSpecification-withBlockDeviceMappings-setEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"setLaunchSpecification-withBlockDeviceMappings-setEbs-setVolumeSize":"java.lang.Integer",
+		"setLaunchSpecification-withBlockDeviceMappings-setEbs-withVolumeSize":"java.lang.Integer",
+		"setLaunchSpecification-withBlockDeviceMappings-setDeviceName":"java.lang.String",
+		"setLaunchSpecification-withBlockDeviceMappings-withDeviceName":"java.lang.String",
+		"setLaunchSpecification-withBlockDeviceMappings-withEbs-setEncrypted":"java.lang.Boolean",
+		"setLaunchSpecification-withBlockDeviceMappings-withEbs-withEncrypted":"java.lang.Boolean",
+		"setLaunchSpecification-withBlockDeviceMappings-withEbs-setIops":"java.lang.Integer",
+		"setLaunchSpecification-withBlockDeviceMappings-withEbs-withIops":"java.lang.Integer",
+		"setLaunchSpecification-withBlockDeviceMappings-withEbs-setSnapshotId":"java.lang.String",
+		"setLaunchSpecification-withBlockDeviceMappings-withEbs-withSnapshotId":"java.lang.String",
+		"setLaunchSpecification-withBlockDeviceMappings-withEbs-setVolumeType":"java.lang.String",
+		"setLaunchSpecification-withBlockDeviceMappings-withEbs-withVolumeType":"java.lang.String",
+		"setLaunchSpecification-withBlockDeviceMappings-withEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"setLaunchSpecification-withBlockDeviceMappings-withEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"setLaunchSpecification-withBlockDeviceMappings-withEbs-setVolumeSize":"java.lang.Integer",
+		"setLaunchSpecification-withBlockDeviceMappings-withEbs-withVolumeSize":"java.lang.Integer",
+		"setLaunchSpecification-withBlockDeviceMappings-setNoDevice":"java.lang.String",
+		"setLaunchSpecification-withBlockDeviceMappings-withNoDevice":"java.lang.String",
+		"setLaunchSpecification-withBlockDeviceMappings-setVirtualName":"java.lang.String",
+		"setLaunchSpecification-withBlockDeviceMappings-withVirtualName":"java.lang.String",
+		"setLaunchSpecification-setImageId":"java.lang.String",
+		"setLaunchSpecification-withImageId":"java.lang.String",
+		"setLaunchSpecification-setUserData":"java.lang.String",
+		"setLaunchSpecification-withUserData":"java.lang.String",
+		"setLaunchSpecification-setKernelId":"java.lang.String",
+		"setLaunchSpecification-withKernelId":"java.lang.String",
+		"setLaunchSpecification-setRamdiskId":"java.lang.String",
+		"setLaunchSpecification-withRamdiskId":"java.lang.String",
+		"setLaunchSpecification-setMonitoring-withEnabled":"java.lang.Boolean",
+		"setLaunchSpecification-setMonitoring-setEnabled":"java.lang.Boolean",
+		"setLaunchSpecification-withMonitoring-withEnabled":"java.lang.Boolean",
+		"setLaunchSpecification-withMonitoring-setEnabled":"java.lang.Boolean",
+		"setLaunchSpecification-setPlacement-setAvailabilityZone":"java.lang.String",
+		"setLaunchSpecification-setPlacement-withAvailabilityZone":"java.lang.String",
+		"setLaunchSpecification-setPlacement-setGroupName":"java.lang.String",
+		"setLaunchSpecification-setPlacement-withGroupName":"java.lang.String",
+		"setLaunchSpecification-withPlacement-setAvailabilityZone":"java.lang.String",
+		"setLaunchSpecification-withPlacement-withAvailabilityZone":"java.lang.String",
+		"setLaunchSpecification-withPlacement-setGroupName":"java.lang.String",
+		"setLaunchSpecification-withPlacement-withGroupName":"java.lang.String",
+		"setLaunchSpecification-setNetworkInterfaces-setIpv6AddressCount":"java.lang.Integer",
+		"setLaunchSpecification-setNetworkInterfaces-withIpv6AddressCount":"java.lang.Integer",
+		"setLaunchSpecification-setNetworkInterfaces-setIpv6Addresses-setIpv6Address":"java.lang.String",
+		"setLaunchSpecification-setNetworkInterfaces-setIpv6Addresses-withIpv6Address":"java.lang.String",
+		"setLaunchSpecification-setNetworkInterfaces-withIpv6Addresses-setIpv6Address":"java.lang.String",
+		"setLaunchSpecification-setNetworkInterfaces-withIpv6Addresses-withIpv6Address":"java.lang.String",
+		"setLaunchSpecification-setNetworkInterfaces-setNetworkInterfaceId":"java.lang.String",
+		"setLaunchSpecification-setNetworkInterfaces-withNetworkInterfaceId":"java.lang.String",
+		"setLaunchSpecification-setNetworkInterfaces-setSecondaryPrivateIpAddressCount":"java.lang.Integer",
+		"setLaunchSpecification-setNetworkInterfaces-withSecondaryPrivateIpAddressCount":"java.lang.Integer",
+		"setLaunchSpecification-setNetworkInterfaces-setPrivateIpAddress":"java.lang.String",
+		"setLaunchSpecification-setNetworkInterfaces-withPrivateIpAddress":"java.lang.String",
+		"setLaunchSpecification-setNetworkInterfaces-setDeviceIndex":"java.lang.Integer",
+		"setLaunchSpecification-setNetworkInterfaces-setSubnetId":"java.lang.String",
+		"setLaunchSpecification-setNetworkInterfaces-withSubnetId":"java.lang.String",
+		"setLaunchSpecification-setNetworkInterfaces-withDeviceIndex":"java.lang.Integer",
+		"setLaunchSpecification-setNetworkInterfaces-setDescription":"java.lang.String",
+		"setLaunchSpecification-setNetworkInterfaces-withDescription":"java.lang.String",
+		"setLaunchSpecification-setNetworkInterfaces-setDeleteOnTermination":"java.lang.Boolean",
+		"setLaunchSpecification-setNetworkInterfaces-withDeleteOnTermination":"java.lang.Boolean",
+		"setLaunchSpecification-setNetworkInterfaces-setAssociatePublicIpAddress":"java.lang.Boolean",
+		"setLaunchSpecification-setNetworkInterfaces-withAssociatePublicIpAddress":"java.lang.Boolean",
+		"setLaunchSpecification-setNetworkInterfaces-setPrivateIpAddressConfigs-setPrivateIpAddress":"java.lang.String",
+		"setLaunchSpecification-setNetworkInterfaces-setPrivateIpAddressConfigs-withPrivateIpAddress":"java.lang.String",
+		"setLaunchSpecification-setNetworkInterfaces-setPrivateIpAddressConfigs-setPrimary":"java.lang.Boolean",
+		"setLaunchSpecification-setNetworkInterfaces-setPrivateIpAddressConfigs-withPrimary":"java.lang.Boolean",
+		"setLaunchSpecification-setNetworkInterfaces-withPrivateIpAddressConfigs-setPrivateIpAddress":"java.lang.String",
+		"setLaunchSpecification-setNetworkInterfaces-withPrivateIpAddressConfigs-withPrivateIpAddress":"java.lang.String",
+		"setLaunchSpecification-setNetworkInterfaces-withPrivateIpAddressConfigs-setPrimary":"java.lang.Boolean",
+		"setLaunchSpecification-setNetworkInterfaces-withPrivateIpAddressConfigs-withPrimary":"java.lang.Boolean",
+		"setLaunchSpecification-withNetworkInterfaces-setIpv6AddressCount":"java.lang.Integer",
+		"setLaunchSpecification-withNetworkInterfaces-withIpv6AddressCount":"java.lang.Integer",
+		"setLaunchSpecification-withNetworkInterfaces-setIpv6Addresses-setIpv6Address":"java.lang.String",
+		"setLaunchSpecification-withNetworkInterfaces-setIpv6Addresses-withIpv6Address":"java.lang.String",
+		"setLaunchSpecification-withNetworkInterfaces-withIpv6Addresses-setIpv6Address":"java.lang.String",
+		"setLaunchSpecification-withNetworkInterfaces-withIpv6Addresses-withIpv6Address":"java.lang.String",
+		"setLaunchSpecification-withNetworkInterfaces-setNetworkInterfaceId":"java.lang.String",
+		"setLaunchSpecification-withNetworkInterfaces-withNetworkInterfaceId":"java.lang.String",
+		"setLaunchSpecification-withNetworkInterfaces-setSecondaryPrivateIpAddressCount":"java.lang.Integer",
+		"setLaunchSpecification-withNetworkInterfaces-withSecondaryPrivateIpAddressCount":"java.lang.Integer",
+		"setLaunchSpecification-withNetworkInterfaces-setPrivateIpAddress":"java.lang.String",
+		"setLaunchSpecification-withNetworkInterfaces-withPrivateIpAddress":"java.lang.String",
+		"setLaunchSpecification-withNetworkInterfaces-setDeviceIndex":"java.lang.Integer",
+		"setLaunchSpecification-withNetworkInterfaces-setSubnetId":"java.lang.String",
+		"setLaunchSpecification-withNetworkInterfaces-withSubnetId":"java.lang.String",
+		"setLaunchSpecification-withNetworkInterfaces-withDeviceIndex":"java.lang.Integer",
+		"setLaunchSpecification-withNetworkInterfaces-setDescription":"java.lang.String",
+		"setLaunchSpecification-withNetworkInterfaces-withDescription":"java.lang.String",
+		"setLaunchSpecification-withNetworkInterfaces-setDeleteOnTermination":"java.lang.Boolean",
+		"setLaunchSpecification-withNetworkInterfaces-withDeleteOnTermination":"java.lang.Boolean",
+		"setLaunchSpecification-withNetworkInterfaces-setAssociatePublicIpAddress":"java.lang.Boolean",
+		"setLaunchSpecification-withNetworkInterfaces-withAssociatePublicIpAddress":"java.lang.Boolean",
+		"setLaunchSpecification-withNetworkInterfaces-setPrivateIpAddressConfigs-setPrivateIpAddress":"java.lang.String",
+		"setLaunchSpecification-withNetworkInterfaces-setPrivateIpAddressConfigs-withPrivateIpAddress":"java.lang.String",
+		"setLaunchSpecification-withNetworkInterfaces-setPrivateIpAddressConfigs-setPrimary":"java.lang.Boolean",
+		"setLaunchSpecification-withNetworkInterfaces-setPrivateIpAddressConfigs-withPrimary":"java.lang.Boolean",
+		"setLaunchSpecification-withNetworkInterfaces-withPrivateIpAddressConfigs-setPrivateIpAddress":"java.lang.String",
+		"setLaunchSpecification-withNetworkInterfaces-withPrivateIpAddressConfigs-withPrivateIpAddress":"java.lang.String",
+		"setLaunchSpecification-withNetworkInterfaces-withPrivateIpAddressConfigs-setPrimary":"java.lang.Boolean",
+		"setLaunchSpecification-withNetworkInterfaces-withPrivateIpAddressConfigs-withPrimary":"java.lang.Boolean",
+		"withLaunchSpecification-setInstanceType":"java.lang.String",
+		"withLaunchSpecification-withInstanceType":"java.lang.String",
+		"withLaunchSpecification-withIamInstanceProfile-withName":"java.lang.String",
+		"withLaunchSpecification-withIamInstanceProfile-setArn":"java.lang.String",
+		"withLaunchSpecification-withIamInstanceProfile-withArn":"java.lang.String",
+		"withLaunchSpecification-withIamInstanceProfile-setName":"java.lang.String",
+		"withLaunchSpecification-setSubnetId":"java.lang.String",
+		"withLaunchSpecification-withSubnetId":"java.lang.String",
+		"withLaunchSpecification-setIamInstanceProfile-withName":"java.lang.String",
+		"withLaunchSpecification-setIamInstanceProfile-setArn":"java.lang.String",
+		"withLaunchSpecification-setIamInstanceProfile-withArn":"java.lang.String",
+		"withLaunchSpecification-setIamInstanceProfile-setName":"java.lang.String",
+		"withLaunchSpecification-setEbsOptimized":"java.lang.Boolean",
+		"withLaunchSpecification-withEbsOptimized":"java.lang.Boolean",
+		"withLaunchSpecification-withKeyName":"java.lang.String",
+		"withLaunchSpecification-setKeyName":"java.lang.String",
+		"withLaunchSpecification-setBlockDeviceMappings-setEbs-setEncrypted":"java.lang.Boolean",
+		"withLaunchSpecification-setBlockDeviceMappings-setEbs-withEncrypted":"java.lang.Boolean",
+		"withLaunchSpecification-setBlockDeviceMappings-setEbs-setIops":"java.lang.Integer",
+		"withLaunchSpecification-setBlockDeviceMappings-setEbs-withIops":"java.lang.Integer",
+		"withLaunchSpecification-setBlockDeviceMappings-setEbs-setSnapshotId":"java.lang.String",
+		"withLaunchSpecification-setBlockDeviceMappings-setEbs-withSnapshotId":"java.lang.String",
+		"withLaunchSpecification-setBlockDeviceMappings-setEbs-setVolumeType":"java.lang.String",
+		"withLaunchSpecification-setBlockDeviceMappings-setEbs-withVolumeType":"java.lang.String",
+		"withLaunchSpecification-setBlockDeviceMappings-setEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"withLaunchSpecification-setBlockDeviceMappings-setEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"withLaunchSpecification-setBlockDeviceMappings-setEbs-setVolumeSize":"java.lang.Integer",
+		"withLaunchSpecification-setBlockDeviceMappings-setEbs-withVolumeSize":"java.lang.Integer",
+		"withLaunchSpecification-setBlockDeviceMappings-setDeviceName":"java.lang.String",
+		"withLaunchSpecification-setBlockDeviceMappings-withDeviceName":"java.lang.String",
+		"withLaunchSpecification-setBlockDeviceMappings-withEbs-setEncrypted":"java.lang.Boolean",
+		"withLaunchSpecification-setBlockDeviceMappings-withEbs-withEncrypted":"java.lang.Boolean",
+		"withLaunchSpecification-setBlockDeviceMappings-withEbs-setIops":"java.lang.Integer",
+		"withLaunchSpecification-setBlockDeviceMappings-withEbs-withIops":"java.lang.Integer",
+		"withLaunchSpecification-setBlockDeviceMappings-withEbs-setSnapshotId":"java.lang.String",
+		"withLaunchSpecification-setBlockDeviceMappings-withEbs-withSnapshotId":"java.lang.String",
+		"withLaunchSpecification-setBlockDeviceMappings-withEbs-setVolumeType":"java.lang.String",
+		"withLaunchSpecification-setBlockDeviceMappings-withEbs-withVolumeType":"java.lang.String",
+		"withLaunchSpecification-setBlockDeviceMappings-withEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"withLaunchSpecification-setBlockDeviceMappings-withEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"withLaunchSpecification-setBlockDeviceMappings-withEbs-setVolumeSize":"java.lang.Integer",
+		"withLaunchSpecification-setBlockDeviceMappings-withEbs-withVolumeSize":"java.lang.Integer",
+		"withLaunchSpecification-setBlockDeviceMappings-setNoDevice":"java.lang.String",
+		"withLaunchSpecification-setBlockDeviceMappings-withNoDevice":"java.lang.String",
+		"withLaunchSpecification-setBlockDeviceMappings-setVirtualName":"java.lang.String",
+		"withLaunchSpecification-setBlockDeviceMappings-withVirtualName":"java.lang.String",
+		"withLaunchSpecification-withBlockDeviceMappings-setEbs-setEncrypted":"java.lang.Boolean",
+		"withLaunchSpecification-withBlockDeviceMappings-setEbs-withEncrypted":"java.lang.Boolean",
+		"withLaunchSpecification-withBlockDeviceMappings-setEbs-setIops":"java.lang.Integer",
+		"withLaunchSpecification-withBlockDeviceMappings-setEbs-withIops":"java.lang.Integer",
+		"withLaunchSpecification-withBlockDeviceMappings-setEbs-setSnapshotId":"java.lang.String",
+		"withLaunchSpecification-withBlockDeviceMappings-setEbs-withSnapshotId":"java.lang.String",
+		"withLaunchSpecification-withBlockDeviceMappings-setEbs-setVolumeType":"java.lang.String",
+		"withLaunchSpecification-withBlockDeviceMappings-setEbs-withVolumeType":"java.lang.String",
+		"withLaunchSpecification-withBlockDeviceMappings-setEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"withLaunchSpecification-withBlockDeviceMappings-setEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"withLaunchSpecification-withBlockDeviceMappings-setEbs-setVolumeSize":"java.lang.Integer",
+		"withLaunchSpecification-withBlockDeviceMappings-setEbs-withVolumeSize":"java.lang.Integer",
+		"withLaunchSpecification-withBlockDeviceMappings-setDeviceName":"java.lang.String",
+		"withLaunchSpecification-withBlockDeviceMappings-withDeviceName":"java.lang.String",
+		"withLaunchSpecification-withBlockDeviceMappings-withEbs-setEncrypted":"java.lang.Boolean",
+		"withLaunchSpecification-withBlockDeviceMappings-withEbs-withEncrypted":"java.lang.Boolean",
+		"withLaunchSpecification-withBlockDeviceMappings-withEbs-setIops":"java.lang.Integer",
+		"withLaunchSpecification-withBlockDeviceMappings-withEbs-withIops":"java.lang.Integer",
+		"withLaunchSpecification-withBlockDeviceMappings-withEbs-setSnapshotId":"java.lang.String",
+		"withLaunchSpecification-withBlockDeviceMappings-withEbs-withSnapshotId":"java.lang.String",
+		"withLaunchSpecification-withBlockDeviceMappings-withEbs-setVolumeType":"java.lang.String",
+		"withLaunchSpecification-withBlockDeviceMappings-withEbs-withVolumeType":"java.lang.String",
+		"withLaunchSpecification-withBlockDeviceMappings-withEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"withLaunchSpecification-withBlockDeviceMappings-withEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"withLaunchSpecification-withBlockDeviceMappings-withEbs-setVolumeSize":"java.lang.Integer",
+		"withLaunchSpecification-withBlockDeviceMappings-withEbs-withVolumeSize":"java.lang.Integer",
+		"withLaunchSpecification-withBlockDeviceMappings-setNoDevice":"java.lang.String",
+		"withLaunchSpecification-withBlockDeviceMappings-withNoDevice":"java.lang.String",
+		"withLaunchSpecification-withBlockDeviceMappings-setVirtualName":"java.lang.String",
+		"withLaunchSpecification-withBlockDeviceMappings-withVirtualName":"java.lang.String",
+		"withLaunchSpecification-setImageId":"java.lang.String",
+		"withLaunchSpecification-withImageId":"java.lang.String",
+		"withLaunchSpecification-setUserData":"java.lang.String",
+		"withLaunchSpecification-withUserData":"java.lang.String",
+		"withLaunchSpecification-setKernelId":"java.lang.String",
+		"withLaunchSpecification-withKernelId":"java.lang.String",
+		"withLaunchSpecification-setRamdiskId":"java.lang.String",
+		"withLaunchSpecification-withRamdiskId":"java.lang.String",
+		"withLaunchSpecification-setMonitoring-withEnabled":"java.lang.Boolean",
+		"withLaunchSpecification-setMonitoring-setEnabled":"java.lang.Boolean",
+		"withLaunchSpecification-withMonitoring-withEnabled":"java.lang.Boolean",
+		"withLaunchSpecification-withMonitoring-setEnabled":"java.lang.Boolean",
+		"withLaunchSpecification-setPlacement-setAvailabilityZone":"java.lang.String",
+		"withLaunchSpecification-setPlacement-withAvailabilityZone":"java.lang.String",
+		"withLaunchSpecification-setPlacement-setGroupName":"java.lang.String",
+		"withLaunchSpecification-setPlacement-withGroupName":"java.lang.String",
+		"withLaunchSpecification-withPlacement-setAvailabilityZone":"java.lang.String",
+		"withLaunchSpecification-withPlacement-withAvailabilityZone":"java.lang.String",
+		"withLaunchSpecification-withPlacement-setGroupName":"java.lang.String",
+		"withLaunchSpecification-withPlacement-withGroupName":"java.lang.String",
+		"withLaunchSpecification-setNetworkInterfaces-setIpv6AddressCount":"java.lang.Integer",
+		"withLaunchSpecification-setNetworkInterfaces-withIpv6AddressCount":"java.lang.Integer",
+		"withLaunchSpecification-setNetworkInterfaces-setIpv6Addresses-setIpv6Address":"java.lang.String",
+		"withLaunchSpecification-setNetworkInterfaces-setIpv6Addresses-withIpv6Address":"java.lang.String",
+		"withLaunchSpecification-setNetworkInterfaces-withIpv6Addresses-setIpv6Address":"java.lang.String",
+		"withLaunchSpecification-setNetworkInterfaces-withIpv6Addresses-withIpv6Address":"java.lang.String",
+		"withLaunchSpecification-setNetworkInterfaces-setNetworkInterfaceId":"java.lang.String",
+		"withLaunchSpecification-setNetworkInterfaces-withNetworkInterfaceId":"java.lang.String",
+		"withLaunchSpecification-setNetworkInterfaces-setSecondaryPrivateIpAddressCount":"java.lang.Integer",
+		"withLaunchSpecification-setNetworkInterfaces-withSecondaryPrivateIpAddressCount":"java.lang.Integer",
+		"withLaunchSpecification-setNetworkInterfaces-setPrivateIpAddress":"java.lang.String",
+		"withLaunchSpecification-setNetworkInterfaces-withPrivateIpAddress":"java.lang.String",
+		"withLaunchSpecification-setNetworkInterfaces-setDeviceIndex":"java.lang.Integer",
+		"withLaunchSpecification-setNetworkInterfaces-setSubnetId":"java.lang.String",
+		"withLaunchSpecification-setNetworkInterfaces-withSubnetId":"java.lang.String",
+		"withLaunchSpecification-setNetworkInterfaces-withDeviceIndex":"java.lang.Integer",
+		"withLaunchSpecification-setNetworkInterfaces-setDescription":"java.lang.String",
+		"withLaunchSpecification-setNetworkInterfaces-withDescription":"java.lang.String",
+		"withLaunchSpecification-setNetworkInterfaces-setDeleteOnTermination":"java.lang.Boolean",
+		"withLaunchSpecification-setNetworkInterfaces-withDeleteOnTermination":"java.lang.Boolean",
+		"withLaunchSpecification-setNetworkInterfaces-setAssociatePublicIpAddress":"java.lang.Boolean",
+		"withLaunchSpecification-setNetworkInterfaces-withAssociatePublicIpAddress":"java.lang.Boolean",
+		"withLaunchSpecification-setNetworkInterfaces-setPrivateIpAddressConfigs-setPrivateIpAddress":"java.lang.String",
+		"withLaunchSpecification-setNetworkInterfaces-setPrivateIpAddressConfigs-withPrivateIpAddress":"java.lang.String",
+		"withLaunchSpecification-setNetworkInterfaces-setPrivateIpAddressConfigs-setPrimary":"java.lang.Boolean",
+		"withLaunchSpecification-setNetworkInterfaces-setPrivateIpAddressConfigs-withPrimary":"java.lang.Boolean",
+		"withLaunchSpecification-setNetworkInterfaces-withPrivateIpAddressConfigs-setPrivateIpAddress":"java.lang.String",
+		"withLaunchSpecification-setNetworkInterfaces-withPrivateIpAddressConfigs-withPrivateIpAddress":"java.lang.String",
+		"withLaunchSpecification-setNetworkInterfaces-withPrivateIpAddressConfigs-setPrimary":"java.lang.Boolean",
+		"withLaunchSpecification-setNetworkInterfaces-withPrivateIpAddressConfigs-withPrimary":"java.lang.Boolean",
+		"withLaunchSpecification-withNetworkInterfaces-setIpv6AddressCount":"java.lang.Integer",
+		"withLaunchSpecification-withNetworkInterfaces-withIpv6AddressCount":"java.lang.Integer",
+		"withLaunchSpecification-withNetworkInterfaces-setIpv6Addresses-setIpv6Address":"java.lang.String",
+		"withLaunchSpecification-withNetworkInterfaces-setIpv6Addresses-withIpv6Address":"java.lang.String",
+		"withLaunchSpecification-withNetworkInterfaces-withIpv6Addresses-setIpv6Address":"java.lang.String",
+		"withLaunchSpecification-withNetworkInterfaces-withIpv6Addresses-withIpv6Address":"java.lang.String",
+		"withLaunchSpecification-withNetworkInterfaces-setNetworkInterfaceId":"java.lang.String",
+		"withLaunchSpecification-withNetworkInterfaces-withNetworkInterfaceId":"java.lang.String",
+		"withLaunchSpecification-withNetworkInterfaces-setSecondaryPrivateIpAddressCount":"java.lang.Integer",
+		"withLaunchSpecification-withNetworkInterfaces-withSecondaryPrivateIpAddressCount":"java.lang.Integer",
+		"withLaunchSpecification-withNetworkInterfaces-setPrivateIpAddress":"java.lang.String",
+		"withLaunchSpecification-withNetworkInterfaces-withPrivateIpAddress":"java.lang.String",
+		"withLaunchSpecification-withNetworkInterfaces-setDeviceIndex":"java.lang.Integer",
+		"withLaunchSpecification-withNetworkInterfaces-setSubnetId":"java.lang.String",
+		"withLaunchSpecification-withNetworkInterfaces-withSubnetId":"java.lang.String",
+		"withLaunchSpecification-withNetworkInterfaces-withDeviceIndex":"java.lang.Integer",
+		"withLaunchSpecification-withNetworkInterfaces-setDescription":"java.lang.String",
+		"withLaunchSpecification-withNetworkInterfaces-withDescription":"java.lang.String",
+		"withLaunchSpecification-withNetworkInterfaces-setDeleteOnTermination":"java.lang.Boolean",
+		"withLaunchSpecification-withNetworkInterfaces-withDeleteOnTermination":"java.lang.Boolean",
+		"withLaunchSpecification-withNetworkInterfaces-setAssociatePublicIpAddress":"java.lang.Boolean",
+		"withLaunchSpecification-withNetworkInterfaces-withAssociatePublicIpAddress":"java.lang.Boolean",
+		"withLaunchSpecification-withNetworkInterfaces-setPrivateIpAddressConfigs-setPrivateIpAddress":"java.lang.String",
+		"withLaunchSpecification-withNetworkInterfaces-setPrivateIpAddressConfigs-withPrivateIpAddress":"java.lang.String",
+		"withLaunchSpecification-withNetworkInterfaces-setPrivateIpAddressConfigs-setPrimary":"java.lang.Boolean",
+		"withLaunchSpecification-withNetworkInterfaces-setPrivateIpAddressConfigs-withPrimary":"java.lang.Boolean",
+		"withLaunchSpecification-withNetworkInterfaces-withPrivateIpAddressConfigs-setPrivateIpAddress":"java.lang.String",
+		"withLaunchSpecification-withNetworkInterfaces-withPrivateIpAddressConfigs-withPrivateIpAddress":"java.lang.String",
+		"withLaunchSpecification-withNetworkInterfaces-withPrivateIpAddressConfigs-setPrimary":"java.lang.Boolean",
+		"withLaunchSpecification-withNetworkInterfaces-withPrivateIpAddressConfigs-withPrimary":"java.lang.Boolean",
+		"setScheduledInstanceId":"java.lang.String",
+		"withScheduledInstanceId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## ReplaceRoute parameterss:
+
+```
+{
+	"main":{
+		"setVpcPeeringConnectionId":"java.lang.String",
+		"withVpcPeeringConnectionId":"java.lang.String",
+		"setNetworkInterfaceId":"java.lang.String",
+		"withNetworkInterfaceId":"java.lang.String",
+		"setInstanceId":"java.lang.String",
+		"withInstanceId":"java.lang.String",
+		"setRouteTableId":"java.lang.String",
+		"withRouteTableId":"java.lang.String",
+		"setDestinationCidrBlock":"java.lang.String",
+		"withDestinationCidrBlock":"java.lang.String",
+		"setDestinationIpv6CidrBlock":"java.lang.String",
+		"withDestinationIpv6CidrBlock":"java.lang.String",
+		"setEgressOnlyInternetGatewayId":"java.lang.String",
+		"withEgressOnlyInternetGatewayId":"java.lang.String",
+		"setGatewayId":"java.lang.String",
+		"withGatewayId":"java.lang.String",
+		"setNatGatewayId":"java.lang.String",
+		"withNatGatewayId":"java.lang.String",
+		"setTransitGatewayId":"java.lang.String",
+		"withTransitGatewayId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DeleteNatGateway parameterss:
+
+```
+{
+	"main":{
+		"setNatGatewayId":"java.lang.String",
+		"withNatGatewayId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribePlacementGroups parameterss:
+
+```
+{
+	"main":{
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## CreateSpotDatafeedSubscription parameterss:
+
+```
+{
+	"main":{
+		"withBucket":"java.lang.String",
+		"setPrefix":"java.lang.String",
+		"setBucket":"java.lang.String",
+		"withPrefix":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## ProvisionByoipCidr parameterss:
+
+```
+{
+	"main":{
+		"setCidr":"java.lang.String",
+		"withCidr":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"withDescription":"java.lang.String",
+		"setCidrAuthorizationContext-setMessage":"java.lang.String",
+		"setCidrAuthorizationContext-withMessage":"java.lang.String",
+		"setCidrAuthorizationContext-setSignature":"java.lang.String",
+		"setCidrAuthorizationContext-withSignature":"java.lang.String",
+		"withCidrAuthorizationContext-setMessage":"java.lang.String",
+		"withCidrAuthorizationContext-withMessage":"java.lang.String",
+		"withCidrAuthorizationContext-setSignature":"java.lang.String",
+		"withCidrAuthorizationContext-withSignature":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeReservedInstancesOfferings parameterss:
+
+```
+{
+	"main":{
+		"setAvailabilityZone":"java.lang.String",
+		"withAvailabilityZone":"java.lang.String",
+		"setInstanceType":"java.lang.String",
+		"withInstanceTenancy":"java.lang.String",
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setMaxDuration":"java.lang.Long",
+		"withMaxDuration":"java.lang.Long",
+		"setMinDuration":"java.lang.Long",
+		"withMinDuration":"java.lang.Long",
+		"setIncludeMarketplace":"java.lang.Boolean",
+		"withIncludeMarketplace":"java.lang.Boolean",
+		"setMaxInstanceCount":"java.lang.Integer",
+		"withMaxInstanceCount":"java.lang.Integer",
+		"setProductDescription":"java.lang.String",
+		"setOfferingClass":"java.lang.String",
+		"withOfferingClass":"java.lang.String",
+		"setOfferingType":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DisassociateClientVpnTargetNetwork parameterss:
+
+```
+{
+	"main":{
+		"setClientVpnEndpointId":"java.lang.String",
+		"withClientVpnEndpointId":"java.lang.String",
+		"setAssociationId":"java.lang.String",
+		"withAssociationId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## CreateTransitGateway parameterss:
+
+```
+{
+	"main":{
+		"setTagSpecifications-setResourceType":"java.lang.String",
+		"setTagSpecifications-withResourceType":"java.lang.String",
+		"setTagSpecifications-setTags-withValue":"java.lang.String",
+		"setTagSpecifications-setTags-setKey":"java.lang.String",
+		"setTagSpecifications-setTags-withKey":"java.lang.String",
+		"setTagSpecifications-setTags-setValue":"java.lang.String",
+		"setTagSpecifications-withTags-withValue":"java.lang.String",
+		"setTagSpecifications-withTags-setKey":"java.lang.String",
+		"setTagSpecifications-withTags-withKey":"java.lang.String",
+		"setTagSpecifications-withTags-setValue":"java.lang.String",
+		"withTagSpecifications-setResourceType":"java.lang.String",
+		"withTagSpecifications-withResourceType":"java.lang.String",
+		"withTagSpecifications-setTags-withValue":"java.lang.String",
+		"withTagSpecifications-setTags-setKey":"java.lang.String",
+		"withTagSpecifications-setTags-withKey":"java.lang.String",
+		"withTagSpecifications-setTags-setValue":"java.lang.String",
+		"withTagSpecifications-withTags-withValue":"java.lang.String",
+		"withTagSpecifications-withTags-setKey":"java.lang.String",
+		"withTagSpecifications-withTags-withKey":"java.lang.String",
+		"withTagSpecifications-withTags-setValue":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"withDescription":"java.lang.String",
+		"setOptions-setAmazonSideAsn":"java.lang.Long",
+		"setOptions-withAmazonSideAsn":"java.lang.Long",
+		"setOptions-withDnsSupport":"java.lang.String",
+		"setOptions-setDnsSupport":"java.lang.String",
+		"setOptions-setAutoAcceptSharedAttachments":"java.lang.String",
+		"setOptions-withAutoAcceptSharedAttachments":"java.lang.String",
+		"setOptions-setDefaultRouteTableAssociation":"java.lang.String",
+		"setOptions-setDefaultRouteTablePropagation":"java.lang.String",
+		"setOptions-setVpnEcmpSupport":"java.lang.String",
+		"setOptions-withVpnEcmpSupport":"java.lang.String",
+		"withOptions-setAmazonSideAsn":"java.lang.Long",
+		"withOptions-withAmazonSideAsn":"java.lang.Long",
+		"withOptions-withDnsSupport":"java.lang.String",
+		"withOptions-setDnsSupport":"java.lang.String",
+		"withOptions-setAutoAcceptSharedAttachments":"java.lang.String",
+		"withOptions-withAutoAcceptSharedAttachments":"java.lang.String",
+		"withOptions-setDefaultRouteTableAssociation":"java.lang.String",
+		"withOptions-setDefaultRouteTablePropagation":"java.lang.String",
+		"withOptions-setVpnEcmpSupport":"java.lang.String",
+		"withOptions-withVpnEcmpSupport":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## CancelBundleTask parameterss:
+
+```
+{
+	"main":{
+		"setBundleId":"java.lang.String",
+		"withBundleId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DetachVpnGateway parameterss:
+
+```
+{
+	"main":{
+		"setVpcId":"java.lang.String",
+		"withVpcId":"java.lang.String",
+		"setVpnGatewayId":"java.lang.String",
+		"withVpnGatewayId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DisableVpcClassicLinkDnsSupport parameterss:
+
+```
+{
+	"main":{
+		"setVpcId":"java.lang.String",
+		"withVpcId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeSpotFleetInstances parameterss:
+
+```
+{
+	"main":{
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setSpotFleetRequestId":"java.lang.String",
+		"withSpotFleetRequestId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeFpgaImageAttribute parameterss:
+
+```
+{
+	"main":{
+		"setFpgaImageId":"java.lang.String",
+		"withFpgaImageId":"java.lang.String",
+		"setAttribute":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeFleetInstances parameterss:
+
+```
+{
+	"main":{
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setFleetId":"java.lang.String",
+		"withFleetId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## UpdateSecurityGroupRuleDescriptionsIngress parameterss:
+
+```
+{
+	"main":{
+		"setGroupName":"java.lang.String",
+		"withGroupName":"java.lang.String",
+		"setGroupId":"java.lang.String",
+		"withGroupId":"java.lang.String",
+		"setIpPermissions-setFromPort":"java.lang.Integer",
+		"setIpPermissions-withFromPort":"java.lang.Integer",
+		"setIpPermissions-setIpProtocol":"java.lang.String",
+		"setIpPermissions-withIpProtocol":"java.lang.String",
+		"setIpPermissions-setToPort":"java.lang.Integer",
+		"setIpPermissions-withToPort":"java.lang.Integer",
+		"setIpPermissions-setPrefixListIds-setDescription":"java.lang.String",
+		"setIpPermissions-setPrefixListIds-withDescription":"java.lang.String",
+		"setIpPermissions-setPrefixListIds-setPrefixListId":"java.lang.String",
+		"setIpPermissions-setPrefixListIds-withPrefixListId":"java.lang.String",
+		"setIpPermissions-withPrefixListIds-setDescription":"java.lang.String",
+		"setIpPermissions-withPrefixListIds-withDescription":"java.lang.String",
+		"setIpPermissions-withPrefixListIds-setPrefixListId":"java.lang.String",
+		"setIpPermissions-withPrefixListIds-withPrefixListId":"java.lang.String",
+		"setIpPermissions-setIpv6Ranges-setDescription":"java.lang.String",
+		"setIpPermissions-setIpv6Ranges-withDescription":"java.lang.String",
+		"setIpPermissions-setIpv6Ranges-setCidrIpv6":"java.lang.String",
+		"setIpPermissions-setIpv6Ranges-withCidrIpv6":"java.lang.String",
+		"setIpPermissions-withIpv6Ranges-setDescription":"java.lang.String",
+		"setIpPermissions-withIpv6Ranges-withDescription":"java.lang.String",
+		"setIpPermissions-withIpv6Ranges-setCidrIpv6":"java.lang.String",
+		"setIpPermissions-withIpv6Ranges-withCidrIpv6":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-setVpcPeeringConnectionId":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-setVpcId":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-withVpcId":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-withVpcPeeringConnectionId":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-setDescription":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-withDescription":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-setGroupName":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-withGroupName":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-setGroupId":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-withGroupId":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-withUserId":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-setUserId":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-setPeeringStatus":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-withPeeringStatus":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-setVpcPeeringConnectionId":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-setVpcId":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-withVpcId":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-withVpcPeeringConnectionId":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-setDescription":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-withDescription":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-setGroupName":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-withGroupName":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-setGroupId":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-withGroupId":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-withUserId":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-setUserId":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-setPeeringStatus":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-withPeeringStatus":"java.lang.String",
+		"setIpPermissions-setIpv4Ranges-setDescription":"java.lang.String",
+		"setIpPermissions-setIpv4Ranges-withDescription":"java.lang.String",
+		"setIpPermissions-setIpv4Ranges-setCidrIp":"java.lang.String",
+		"setIpPermissions-setIpv4Ranges-withCidrIp":"java.lang.String",
+		"setIpPermissions-withIpv4Ranges-setDescription":"java.lang.String",
+		"setIpPermissions-withIpv4Ranges-withDescription":"java.lang.String",
+		"setIpPermissions-withIpv4Ranges-setCidrIp":"java.lang.String",
+		"setIpPermissions-withIpv4Ranges-withCidrIp":"java.lang.String",
+		"withIpPermissions-setFromPort":"java.lang.Integer",
+		"withIpPermissions-withFromPort":"java.lang.Integer",
+		"withIpPermissions-setIpProtocol":"java.lang.String",
+		"withIpPermissions-withIpProtocol":"java.lang.String",
+		"withIpPermissions-setToPort":"java.lang.Integer",
+		"withIpPermissions-withToPort":"java.lang.Integer",
+		"withIpPermissions-setPrefixListIds-setDescription":"java.lang.String",
+		"withIpPermissions-setPrefixListIds-withDescription":"java.lang.String",
+		"withIpPermissions-setPrefixListIds-setPrefixListId":"java.lang.String",
+		"withIpPermissions-setPrefixListIds-withPrefixListId":"java.lang.String",
+		"withIpPermissions-withPrefixListIds-setDescription":"java.lang.String",
+		"withIpPermissions-withPrefixListIds-withDescription":"java.lang.String",
+		"withIpPermissions-withPrefixListIds-setPrefixListId":"java.lang.String",
+		"withIpPermissions-withPrefixListIds-withPrefixListId":"java.lang.String",
+		"withIpPermissions-setIpv6Ranges-setDescription":"java.lang.String",
+		"withIpPermissions-setIpv6Ranges-withDescription":"java.lang.String",
+		"withIpPermissions-setIpv6Ranges-setCidrIpv6":"java.lang.String",
+		"withIpPermissions-setIpv6Ranges-withCidrIpv6":"java.lang.String",
+		"withIpPermissions-withIpv6Ranges-setDescription":"java.lang.String",
+		"withIpPermissions-withIpv6Ranges-withDescription":"java.lang.String",
+		"withIpPermissions-withIpv6Ranges-setCidrIpv6":"java.lang.String",
+		"withIpPermissions-withIpv6Ranges-withCidrIpv6":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-setVpcPeeringConnectionId":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-setVpcId":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-withVpcId":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-withVpcPeeringConnectionId":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-setDescription":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-withDescription":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-setGroupName":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-withGroupName":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-setGroupId":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-withGroupId":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-withUserId":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-setUserId":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-setPeeringStatus":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-withPeeringStatus":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-setVpcPeeringConnectionId":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-setVpcId":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-withVpcId":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-withVpcPeeringConnectionId":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-setDescription":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-withDescription":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-setGroupName":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-withGroupName":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-setGroupId":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-withGroupId":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-withUserId":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-setUserId":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-setPeeringStatus":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-withPeeringStatus":"java.lang.String",
+		"withIpPermissions-setIpv4Ranges-setDescription":"java.lang.String",
+		"withIpPermissions-setIpv4Ranges-withDescription":"java.lang.String",
+		"withIpPermissions-setIpv4Ranges-setCidrIp":"java.lang.String",
+		"withIpPermissions-setIpv4Ranges-withCidrIp":"java.lang.String",
+		"withIpPermissions-withIpv4Ranges-setDescription":"java.lang.String",
+		"withIpPermissions-withIpv4Ranges-withDescription":"java.lang.String",
+		"withIpPermissions-withIpv4Ranges-setCidrIp":"java.lang.String",
+		"withIpPermissions-withIpv4Ranges-withCidrIp":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## ReplaceIamInstanceProfileAssociation parameterss:
+
+```
+{
+	"main":{
+		"withIamInstanceProfile-withName":"java.lang.String",
+		"withIamInstanceProfile-setArn":"java.lang.String",
+		"withIamInstanceProfile-withArn":"java.lang.String",
+		"withIamInstanceProfile-setName":"java.lang.String",
+		"setIamInstanceProfile-withName":"java.lang.String",
+		"setIamInstanceProfile-setArn":"java.lang.String",
+		"setIamInstanceProfile-withArn":"java.lang.String",
+		"setIamInstanceProfile-setName":"java.lang.String",
+		"setAssociationId":"java.lang.String",
+		"withAssociationId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DisassociateIamInstanceProfile parameterss:
+
+```
+{
+	"main":{
+		"setAssociationId":"java.lang.String",
+		"withAssociationId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## RebootInstances parameterss:
+
+```
+{
+	"main":{
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeAggregateIdFormat parameterss:
+
+```
+{
+	"main":{
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DetachClassicLinkVpc parameterss:
+
+```
+{
+	"main":{
+		"setVpcId":"java.lang.String",
+		"withVpcId":"java.lang.String",
+		"setInstanceId":"java.lang.String",
+		"withInstanceId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## ModifyFpgaImageAttribute parameterss:
+
+```
+{
+	"main":{
+		"setDescription":"java.lang.String",
+		"withDescription":"java.lang.String",
+		"withName":"java.lang.String",
+		"setFpgaImageId":"java.lang.String",
+		"withFpgaImageId":"java.lang.String",
+		"setAttribute":"java.lang.String",
+		"setOperationType":"java.lang.String",
+		"setLoadPermission-setAdd-setGroup":"java.lang.String",
+		"setLoadPermission-setAdd-withGroup":"java.lang.String",
+		"setLoadPermission-setAdd-withUserId":"java.lang.String",
+		"setLoadPermission-setAdd-setUserId":"java.lang.String",
+		"setLoadPermission-withAdd-setGroup":"java.lang.String",
+		"setLoadPermission-withAdd-withGroup":"java.lang.String",
+		"setLoadPermission-withAdd-withUserId":"java.lang.String",
+		"setLoadPermission-withAdd-setUserId":"java.lang.String",
+		"setLoadPermission-setRemove-setGroup":"java.lang.String",
+		"setLoadPermission-setRemove-withGroup":"java.lang.String",
+		"setLoadPermission-setRemove-withUserId":"java.lang.String",
+		"setLoadPermission-setRemove-setUserId":"java.lang.String",
+		"setLoadPermission-withRemove-setGroup":"java.lang.String",
+		"setLoadPermission-withRemove-withGroup":"java.lang.String",
+		"setLoadPermission-withRemove-withUserId":"java.lang.String",
+		"setLoadPermission-withRemove-setUserId":"java.lang.String",
+		"withLoadPermission-setAdd-setGroup":"java.lang.String",
+		"withLoadPermission-setAdd-withGroup":"java.lang.String",
+		"withLoadPermission-setAdd-withUserId":"java.lang.String",
+		"withLoadPermission-setAdd-setUserId":"java.lang.String",
+		"withLoadPermission-withAdd-setGroup":"java.lang.String",
+		"withLoadPermission-withAdd-withGroup":"java.lang.String",
+		"withLoadPermission-withAdd-withUserId":"java.lang.String",
+		"withLoadPermission-withAdd-setUserId":"java.lang.String",
+		"withLoadPermission-setRemove-setGroup":"java.lang.String",
+		"withLoadPermission-setRemove-withGroup":"java.lang.String",
+		"withLoadPermission-setRemove-withUserId":"java.lang.String",
+		"withLoadPermission-setRemove-setUserId":"java.lang.String",
+		"withLoadPermission-withRemove-setGroup":"java.lang.String",
+		"withLoadPermission-withRemove-withGroup":"java.lang.String",
+		"withLoadPermission-withRemove-withUserId":"java.lang.String",
+		"withLoadPermission-withRemove-setUserId":"java.lang.String",
+		"setName":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeVpcs parameterss:
+
+```
+{
+	"main":{
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## GetReservedInstancesExchangeQuote parameterss:
+
+```
+{
+	"main":{
+		"setTargetConfigurations-setInstanceCount":"java.lang.Integer",
+		"setTargetConfigurations-withInstanceCount":"java.lang.Integer",
+		"setTargetConfigurations-setOfferingId":"java.lang.String",
+		"setTargetConfigurations-withOfferingId":"java.lang.String",
+		"withTargetConfigurations-setInstanceCount":"java.lang.Integer",
+		"withTargetConfigurations-withInstanceCount":"java.lang.Integer",
+		"withTargetConfigurations-setOfferingId":"java.lang.String",
+		"withTargetConfigurations-withOfferingId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## MoveAddressToVpc parameterss:
+
+```
+{
+	"main":{
+		"setPublicIp":"java.lang.String",
+		"withPublicIp":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeAddresses parameterss:
+
+```
+{
+	"main":{
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeTransitGatewayVpcAttachments parameterss:
+
+```
+{
+	"main":{
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## AuthorizeClientVpnIngress parameterss:
+
+```
+{
+	"main":{
+		"setClientVpnEndpointId":"java.lang.String",
+		"withClientVpnEndpointId":"java.lang.String",
+		"setTargetNetworkCidr":"java.lang.String",
+		"withTargetNetworkCidr":"java.lang.String",
+		"setAccessGroupId":"java.lang.String",
+		"withAccessGroupId":"java.lang.String",
+		"setAuthorizeAllGroups":"java.lang.Boolean",
+		"withAuthorizeAllGroups":"java.lang.Boolean",
+		"setDescription":"java.lang.String",
+		"withDescription":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## StartInstances parameterss:
+
+```
+{
+	"main":{
+		"setAdditionalInfo":"java.lang.String",
+		"withAdditionalInfo":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## ModifyCapacityReservation parameterss:
+
+```
+{
+	"main":{
+		"withCapacityReservationId":"java.lang.String",
+		"setCapacityReservationId":"java.lang.String",
+		"setInstanceCount":"java.lang.Integer",
+		"withInstanceCount":"java.lang.Integer",
+		"setEndDate-setDate":"int",
+		"setEndDate-setHours":"int",
+		"setEndDate-setMinutes":"int",
+		"setEndDate-setMonth":"int",
+		"setEndDate-setSeconds":"int",
+		"setEndDate-setYear":"int",
+		"setEndDate-setTime":"long",
+		"withEndDate-setDate":"int",
+		"withEndDate-setHours":"int",
+		"withEndDate-setMinutes":"int",
+		"withEndDate-setMonth":"int",
+		"withEndDate-setSeconds":"int",
+		"withEndDate-setYear":"int",
+		"withEndDate-setTime":"long",
+		"setEndDateType":"java.lang.String",
+		"withEndDateType":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## CreateSubnet parameterss:
+
+```
+{
+	"main":{
+		"setAvailabilityZone":"java.lang.String",
+		"withAvailabilityZone":"java.lang.String",
+		"setVpcId":"java.lang.String",
+		"withVpcId":"java.lang.String",
+		"withIpv6CidrBlock":"java.lang.String",
+		"setIpv6CidrBlock":"java.lang.String",
+		"setCidrBlock":"java.lang.String",
+		"withCidrBlock":"java.lang.String",
+		"setAvailabilityZoneId":"java.lang.String",
+		"withAvailabilityZoneId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## CreateTransitGatewayRoute parameterss:
+
+```
+{
+	"main":{
+		"withTransitGatewayAttachmentId":"java.lang.String",
+		"setTransitGatewayAttachmentId":"java.lang.String",
+		"setTransitGatewayRouteTableId":"java.lang.String",
+		"withTransitGatewayRouteTableId":"java.lang.String",
+		"setDestinationCidrBlock":"java.lang.String",
+		"withDestinationCidrBlock":"java.lang.String",
+		"setBlackhole":"java.lang.Boolean",
+		"withBlackhole":"java.lang.Boolean",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DisassociateAddress parameterss:
+
+```
+{
+	"main":{
+		"setPublicIp":"java.lang.String",
+		"withPublicIp":"java.lang.String",
+		"setAssociationId":"java.lang.String",
+		"withAssociationId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DeleteLaunchTemplateVersions parameterss:
+
+```
+{
+	"main":{
+		"withLaunchTemplateName":"java.lang.String",
+		"setLaunchTemplateName":"java.lang.String",
+		"setLaunchTemplateId":"java.lang.String",
+		"withLaunchTemplateId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## RestoreAddressToClassic parameterss:
+
+```
+{
+	"main":{
+		"setPublicIp":"java.lang.String",
+		"withPublicIp":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## AcceptVpcEndpointConnections parameterss:
+
+```
+{
+	"main":{
+		"withServiceId":"java.lang.String",
+		"setServiceId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeScheduledInstances parameterss:
+
+```
+{
+	"main":{
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setSlotStartTimeRange-setEarliestTime-setDate":"int",
+		"setSlotStartTimeRange-setEarliestTime-setHours":"int",
+		"setSlotStartTimeRange-setEarliestTime-setMinutes":"int",
+		"setSlotStartTimeRange-setEarliestTime-setMonth":"int",
+		"setSlotStartTimeRange-setEarliestTime-setSeconds":"int",
+		"setSlotStartTimeRange-setEarliestTime-setYear":"int",
+		"setSlotStartTimeRange-setEarliestTime-setTime":"long",
+		"setSlotStartTimeRange-withEarliestTime-setDate":"int",
+		"setSlotStartTimeRange-withEarliestTime-setHours":"int",
+		"setSlotStartTimeRange-withEarliestTime-setMinutes":"int",
+		"setSlotStartTimeRange-withEarliestTime-setMonth":"int",
+		"setSlotStartTimeRange-withEarliestTime-setSeconds":"int",
+		"setSlotStartTimeRange-withEarliestTime-setYear":"int",
+		"setSlotStartTimeRange-withEarliestTime-setTime":"long",
+		"setSlotStartTimeRange-setLatestTime-setDate":"int",
+		"setSlotStartTimeRange-setLatestTime-setHours":"int",
+		"setSlotStartTimeRange-setLatestTime-setMinutes":"int",
+		"setSlotStartTimeRange-setLatestTime-setMonth":"int",
+		"setSlotStartTimeRange-setLatestTime-setSeconds":"int",
+		"setSlotStartTimeRange-setLatestTime-setYear":"int",
+		"setSlotStartTimeRange-setLatestTime-setTime":"long",
+		"setSlotStartTimeRange-withLatestTime-setDate":"int",
+		"setSlotStartTimeRange-withLatestTime-setHours":"int",
+		"setSlotStartTimeRange-withLatestTime-setMinutes":"int",
+		"setSlotStartTimeRange-withLatestTime-setMonth":"int",
+		"setSlotStartTimeRange-withLatestTime-setSeconds":"int",
+		"setSlotStartTimeRange-withLatestTime-setYear":"int",
+		"setSlotStartTimeRange-withLatestTime-setTime":"long",
+		"withSlotStartTimeRange-setEarliestTime-setDate":"int",
+		"withSlotStartTimeRange-setEarliestTime-setHours":"int",
+		"withSlotStartTimeRange-setEarliestTime-setMinutes":"int",
+		"withSlotStartTimeRange-setEarliestTime-setMonth":"int",
+		"withSlotStartTimeRange-setEarliestTime-setSeconds":"int",
+		"withSlotStartTimeRange-setEarliestTime-setYear":"int",
+		"withSlotStartTimeRange-setEarliestTime-setTime":"long",
+		"withSlotStartTimeRange-withEarliestTime-setDate":"int",
+		"withSlotStartTimeRange-withEarliestTime-setHours":"int",
+		"withSlotStartTimeRange-withEarliestTime-setMinutes":"int",
+		"withSlotStartTimeRange-withEarliestTime-setMonth":"int",
+		"withSlotStartTimeRange-withEarliestTime-setSeconds":"int",
+		"withSlotStartTimeRange-withEarliestTime-setYear":"int",
+		"withSlotStartTimeRange-withEarliestTime-setTime":"long",
+		"withSlotStartTimeRange-setLatestTime-setDate":"int",
+		"withSlotStartTimeRange-setLatestTime-setHours":"int",
+		"withSlotStartTimeRange-setLatestTime-setMinutes":"int",
+		"withSlotStartTimeRange-setLatestTime-setMonth":"int",
+		"withSlotStartTimeRange-setLatestTime-setSeconds":"int",
+		"withSlotStartTimeRange-setLatestTime-setYear":"int",
+		"withSlotStartTimeRange-setLatestTime-setTime":"long",
+		"withSlotStartTimeRange-withLatestTime-setDate":"int",
+		"withSlotStartTimeRange-withLatestTime-setHours":"int",
+		"withSlotStartTimeRange-withLatestTime-setMinutes":"int",
+		"withSlotStartTimeRange-withLatestTime-setMonth":"int",
+		"withSlotStartTimeRange-withLatestTime-setSeconds":"int",
+		"withSlotStartTimeRange-withLatestTime-setYear":"int",
+		"withSlotStartTimeRange-withLatestTime-setTime":"long",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DeprovisionByoipCidr parameterss:
+
+```
+{
+	"main":{
+		"setCidr":"java.lang.String",
+		"withCidr":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeIamInstanceProfileAssociations parameterss:
+
+```
+{
+	"main":{
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## ImportInstance parameterss:
+
+```
+{
+	"main":{
+		"setDescription":"java.lang.String",
+		"withDescription":"java.lang.String",
+		"setPlatform":"java.lang.String",
+		"withPlatform":"java.lang.String",
+		"setDiskImages-setDescription":"java.lang.String",
+		"setDiskImages-withDescription":"java.lang.String",
+		"setDiskImages-withImage-withBytes":"java.lang.Long",
+		"setDiskImages-withImage-setBytes":"java.lang.Long",
+		"setDiskImages-withImage-setFormat":"java.lang.String",
+		"setDiskImages-withImage-setImportManifestUrl":"java.lang.String",
+		"setDiskImages-withImage-withImportManifestUrl":"java.lang.String",
+		"setDiskImages-setVolume-withSize":"java.lang.Long",
+		"setDiskImages-setVolume-setSize":"java.lang.Long",
+		"setDiskImages-withVolume-withSize":"java.lang.Long",
+		"setDiskImages-withVolume-setSize":"java.lang.Long",
+		"setDiskImages-setImage-withBytes":"java.lang.Long",
+		"setDiskImages-setImage-setBytes":"java.lang.Long",
+		"setDiskImages-setImage-setFormat":"java.lang.String",
+		"setDiskImages-setImage-setImportManifestUrl":"java.lang.String",
+		"setDiskImages-setImage-withImportManifestUrl":"java.lang.String",
+		"withDiskImages-setDescription":"java.lang.String",
+		"withDiskImages-withDescription":"java.lang.String",
+		"withDiskImages-withImage-withBytes":"java.lang.Long",
+		"withDiskImages-withImage-setBytes":"java.lang.Long",
+		"withDiskImages-withImage-setFormat":"java.lang.String",
+		"withDiskImages-withImage-setImportManifestUrl":"java.lang.String",
+		"withDiskImages-withImage-withImportManifestUrl":"java.lang.String",
+		"withDiskImages-setVolume-withSize":"java.lang.Long",
+		"withDiskImages-setVolume-setSize":"java.lang.Long",
+		"withDiskImages-withVolume-withSize":"java.lang.Long",
+		"withDiskImages-withVolume-setSize":"java.lang.Long",
+		"withDiskImages-setImage-withBytes":"java.lang.Long",
+		"withDiskImages-setImage-setBytes":"java.lang.Long",
+		"withDiskImages-setImage-setFormat":"java.lang.String",
+		"withDiskImages-setImage-setImportManifestUrl":"java.lang.String",
+		"withDiskImages-setImage-withImportManifestUrl":"java.lang.String",
+		"setLaunchSpecification-withInstanceType":"java.lang.String",
+		"setLaunchSpecification-setPrivateIpAddress":"java.lang.String",
+		"setLaunchSpecification-withPrivateIpAddress":"java.lang.String",
+		"setLaunchSpecification-setSubnetId":"java.lang.String",
+		"setLaunchSpecification-withSubnetId":"java.lang.String",
+		"setLaunchSpecification-setArchitecture":"java.lang.String",
+		"setLaunchSpecification-setUserData-setData":"java.lang.String",
+		"setLaunchSpecification-setUserData-withData":"java.lang.String",
+		"setLaunchSpecification-withUserData-setData":"java.lang.String",
+		"setLaunchSpecification-withUserData-withData":"java.lang.String",
+		"setLaunchSpecification-setMonitoring":"java.lang.Boolean",
+		"setLaunchSpecification-withMonitoring":"java.lang.Boolean",
+		"setLaunchSpecification-setPlacement-setAvailabilityZone":"java.lang.String",
+		"setLaunchSpecification-setPlacement-withAvailabilityZone":"java.lang.String",
+		"setLaunchSpecification-setPlacement-setGroupName":"java.lang.String",
+		"setLaunchSpecification-setPlacement-withGroupName":"java.lang.String",
+		"setLaunchSpecification-setPlacement-withAffinity":"java.lang.String",
+		"setLaunchSpecification-setPlacement-setHostId":"java.lang.String",
+		"setLaunchSpecification-setPlacement-withHostId":"java.lang.String",
+		"setLaunchSpecification-setPlacement-setPartitionNumber":"java.lang.Integer",
+		"setLaunchSpecification-setPlacement-withPartitionNumber":"java.lang.Integer",
+		"setLaunchSpecification-setPlacement-setAffinity":"java.lang.String",
+		"setLaunchSpecification-setPlacement-setSpreadDomain":"java.lang.String",
+		"setLaunchSpecification-setPlacement-withSpreadDomain":"java.lang.String",
+		"setLaunchSpecification-withPlacement-setAvailabilityZone":"java.lang.String",
+		"setLaunchSpecification-withPlacement-withAvailabilityZone":"java.lang.String",
+		"setLaunchSpecification-withPlacement-setGroupName":"java.lang.String",
+		"setLaunchSpecification-withPlacement-withGroupName":"java.lang.String",
+		"setLaunchSpecification-withPlacement-withAffinity":"java.lang.String",
+		"setLaunchSpecification-withPlacement-setHostId":"java.lang.String",
+		"setLaunchSpecification-withPlacement-withHostId":"java.lang.String",
+		"setLaunchSpecification-withPlacement-setPartitionNumber":"java.lang.Integer",
+		"setLaunchSpecification-withPlacement-withPartitionNumber":"java.lang.Integer",
+		"setLaunchSpecification-withPlacement-setAffinity":"java.lang.String",
+		"setLaunchSpecification-withPlacement-setSpreadDomain":"java.lang.String",
+		"setLaunchSpecification-withPlacement-withSpreadDomain":"java.lang.String",
+		"setLaunchSpecification-setAdditionalInfo":"java.lang.String",
+		"setLaunchSpecification-withAdditionalInfo":"java.lang.String",
+		"withLaunchSpecification-withInstanceType":"java.lang.String",
+		"withLaunchSpecification-setPrivateIpAddress":"java.lang.String",
+		"withLaunchSpecification-withPrivateIpAddress":"java.lang.String",
+		"withLaunchSpecification-setSubnetId":"java.lang.String",
+		"withLaunchSpecification-withSubnetId":"java.lang.String",
+		"withLaunchSpecification-setArchitecture":"java.lang.String",
+		"withLaunchSpecification-setUserData-setData":"java.lang.String",
+		"withLaunchSpecification-setUserData-withData":"java.lang.String",
+		"withLaunchSpecification-withUserData-setData":"java.lang.String",
+		"withLaunchSpecification-withUserData-withData":"java.lang.String",
+		"withLaunchSpecification-setMonitoring":"java.lang.Boolean",
+		"withLaunchSpecification-withMonitoring":"java.lang.Boolean",
+		"withLaunchSpecification-setPlacement-setAvailabilityZone":"java.lang.String",
+		"withLaunchSpecification-setPlacement-withAvailabilityZone":"java.lang.String",
+		"withLaunchSpecification-setPlacement-setGroupName":"java.lang.String",
+		"withLaunchSpecification-setPlacement-withGroupName":"java.lang.String",
+		"withLaunchSpecification-setPlacement-withAffinity":"java.lang.String",
+		"withLaunchSpecification-setPlacement-setHostId":"java.lang.String",
+		"withLaunchSpecification-setPlacement-withHostId":"java.lang.String",
+		"withLaunchSpecification-setPlacement-setPartitionNumber":"java.lang.Integer",
+		"withLaunchSpecification-setPlacement-withPartitionNumber":"java.lang.Integer",
+		"withLaunchSpecification-setPlacement-setAffinity":"java.lang.String",
+		"withLaunchSpecification-setPlacement-setSpreadDomain":"java.lang.String",
+		"withLaunchSpecification-setPlacement-withSpreadDomain":"java.lang.String",
+		"withLaunchSpecification-withPlacement-setAvailabilityZone":"java.lang.String",
+		"withLaunchSpecification-withPlacement-withAvailabilityZone":"java.lang.String",
+		"withLaunchSpecification-withPlacement-setGroupName":"java.lang.String",
+		"withLaunchSpecification-withPlacement-withGroupName":"java.lang.String",
+		"withLaunchSpecification-withPlacement-withAffinity":"java.lang.String",
+		"withLaunchSpecification-withPlacement-setHostId":"java.lang.String",
+		"withLaunchSpecification-withPlacement-withHostId":"java.lang.String",
+		"withLaunchSpecification-withPlacement-setPartitionNumber":"java.lang.Integer",
+		"withLaunchSpecification-withPlacement-withPartitionNumber":"java.lang.Integer",
+		"withLaunchSpecification-withPlacement-setAffinity":"java.lang.String",
+		"withLaunchSpecification-withPlacement-setSpreadDomain":"java.lang.String",
+		"withLaunchSpecification-withPlacement-withSpreadDomain":"java.lang.String",
+		"withLaunchSpecification-setAdditionalInfo":"java.lang.String",
+		"withLaunchSpecification-withAdditionalInfo":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DeleteRoute parameterss:
+
+```
+{
+	"main":{
+		"setRouteTableId":"java.lang.String",
+		"withRouteTableId":"java.lang.String",
+		"setDestinationCidrBlock":"java.lang.String",
+		"withDestinationCidrBlock":"java.lang.String",
+		"setDestinationIpv6CidrBlock":"java.lang.String",
+		"withDestinationIpv6CidrBlock":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeElasticGpus parameterss:
+
+```
+{
+	"main":{
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## BundleInstance parameterss:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"withInstanceId":"java.lang.String",
+		"setStorage-withS3-withBucket":"java.lang.String",
+		"setStorage-withS3-setPrefix":"java.lang.String",
+		"setStorage-withS3-setBucket":"java.lang.String",
+		"setStorage-withS3-withPrefix":"java.lang.String",
+		"setStorage-withS3-setAWSAccessKeyId":"java.lang.String",
+		"setStorage-withS3-setUploadPolicy":"java.lang.String",
+		"setStorage-withS3-withUploadPolicy":"java.lang.String",
+		"setStorage-withS3-setUploadPolicySignature":"java.lang.String",
+		"setStorage-withS3-withUploadPolicySignature":"java.lang.String",
+		"setStorage-withS3-withAWSAccessKeyId":"java.lang.String",
+		"setStorage-setS3-withBucket":"java.lang.String",
+		"setStorage-setS3-setPrefix":"java.lang.String",
+		"setStorage-setS3-setBucket":"java.lang.String",
+		"setStorage-setS3-withPrefix":"java.lang.String",
+		"setStorage-setS3-setAWSAccessKeyId":"java.lang.String",
+		"setStorage-setS3-setUploadPolicy":"java.lang.String",
+		"setStorage-setS3-withUploadPolicy":"java.lang.String",
+		"setStorage-setS3-setUploadPolicySignature":"java.lang.String",
+		"setStorage-setS3-withUploadPolicySignature":"java.lang.String",
+		"setStorage-setS3-withAWSAccessKeyId":"java.lang.String",
+		"withStorage-withS3-withBucket":"java.lang.String",
+		"withStorage-withS3-setPrefix":"java.lang.String",
+		"withStorage-withS3-setBucket":"java.lang.String",
+		"withStorage-withS3-withPrefix":"java.lang.String",
+		"withStorage-withS3-setAWSAccessKeyId":"java.lang.String",
+		"withStorage-withS3-setUploadPolicy":"java.lang.String",
+		"withStorage-withS3-withUploadPolicy":"java.lang.String",
+		"withStorage-withS3-setUploadPolicySignature":"java.lang.String",
+		"withStorage-withS3-withUploadPolicySignature":"java.lang.String",
+		"withStorage-withS3-withAWSAccessKeyId":"java.lang.String",
+		"withStorage-setS3-withBucket":"java.lang.String",
+		"withStorage-setS3-setPrefix":"java.lang.String",
+		"withStorage-setS3-setBucket":"java.lang.String",
+		"withStorage-setS3-withPrefix":"java.lang.String",
+		"withStorage-setS3-setAWSAccessKeyId":"java.lang.String",
+		"withStorage-setS3-setUploadPolicy":"java.lang.String",
+		"withStorage-setS3-withUploadPolicy":"java.lang.String",
+		"withStorage-setS3-setUploadPolicySignature":"java.lang.String",
+		"withStorage-setS3-withUploadPolicySignature":"java.lang.String",
+		"withStorage-setS3-withAWSAccessKeyId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DeletePlacementGroup parameterss:
+
+```
+{
+	"main":{
+		"setGroupName":"java.lang.String",
+		"withGroupName":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeClientVpnTargetNetworks parameterss:
+
+```
+{
+	"main":{
+		"setClientVpnEndpointId":"java.lang.String",
+		"withClientVpnEndpointId":"java.lang.String",
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DisassociateVpcCidrBlock parameterss:
+
+```
+{
+	"main":{
+		"setAssociationId":"java.lang.String",
+		"withAssociationId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DisableVgwRoutePropagation parameterss:
+
+```
+{
+	"main":{
+		"setRouteTableId":"java.lang.String",
+		"withRouteTableId":"java.lang.String",
+		"setGatewayId":"java.lang.String",
+		"withGatewayId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## CreateNetworkAclEntry parameterss:
+
+```
+{
+	"main":{
+		"withIpv6CidrBlock":"java.lang.String",
+		"setIpv6CidrBlock":"java.lang.String",
+		"setCidrBlock":"java.lang.String",
+		"withCidrBlock":"java.lang.String",
+		"setEgress":"java.lang.Boolean",
+		"withEgress":"java.lang.Boolean",
+		"setIcmpTypeCode-setType":"java.lang.Integer",
+		"setIcmpTypeCode-withType":"java.lang.Integer",
+		"setIcmpTypeCode-setCode":"java.lang.Integer",
+		"setIcmpTypeCode-withCode":"java.lang.Integer",
+		"withIcmpTypeCode-setType":"java.lang.Integer",
+		"withIcmpTypeCode-withType":"java.lang.Integer",
+		"withIcmpTypeCode-setCode":"java.lang.Integer",
+		"withIcmpTypeCode-withCode":"java.lang.Integer",
+		"setNetworkAclId":"java.lang.String",
+		"withNetworkAclId":"java.lang.String",
+		"setPortRange-withFrom":"java.lang.Integer",
+		"setPortRange-setFrom":"java.lang.Integer",
+		"setPortRange-setTo":"java.lang.Integer",
+		"setPortRange-withTo":"java.lang.Integer",
+		"withPortRange-withFrom":"java.lang.Integer",
+		"withPortRange-setFrom":"java.lang.Integer",
+		"withPortRange-setTo":"java.lang.Integer",
+		"withPortRange-withTo":"java.lang.Integer",
+		"setProtocol":"java.lang.String",
+		"withProtocol":"java.lang.String",
+		"setRuleAction":"java.lang.String",
+		"withRuleAction":"java.lang.String",
+		"setRuleNumber":"java.lang.Integer",
+		"withRuleNumber":"java.lang.Integer",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## AuthorizeSecurityGroupIngress parameterss:
+
+```
+{
+	"main":{
+		"setGroupName":"java.lang.String",
+		"withGroupName":"java.lang.String",
+		"setGroupId":"java.lang.String",
+		"withGroupId":"java.lang.String",
+		"setIpPermissions-setFromPort":"java.lang.Integer",
+		"setIpPermissions-withFromPort":"java.lang.Integer",
+		"setIpPermissions-setIpProtocol":"java.lang.String",
+		"setIpPermissions-withIpProtocol":"java.lang.String",
+		"setIpPermissions-setToPort":"java.lang.Integer",
+		"setIpPermissions-withToPort":"java.lang.Integer",
+		"setIpPermissions-setPrefixListIds-setDescription":"java.lang.String",
+		"setIpPermissions-setPrefixListIds-withDescription":"java.lang.String",
+		"setIpPermissions-setPrefixListIds-setPrefixListId":"java.lang.String",
+		"setIpPermissions-setPrefixListIds-withPrefixListId":"java.lang.String",
+		"setIpPermissions-withPrefixListIds-setDescription":"java.lang.String",
+		"setIpPermissions-withPrefixListIds-withDescription":"java.lang.String",
+		"setIpPermissions-withPrefixListIds-setPrefixListId":"java.lang.String",
+		"setIpPermissions-withPrefixListIds-withPrefixListId":"java.lang.String",
+		"setIpPermissions-setIpv6Ranges-setDescription":"java.lang.String",
+		"setIpPermissions-setIpv6Ranges-withDescription":"java.lang.String",
+		"setIpPermissions-setIpv6Ranges-setCidrIpv6":"java.lang.String",
+		"setIpPermissions-setIpv6Ranges-withCidrIpv6":"java.lang.String",
+		"setIpPermissions-withIpv6Ranges-setDescription":"java.lang.String",
+		"setIpPermissions-withIpv6Ranges-withDescription":"java.lang.String",
+		"setIpPermissions-withIpv6Ranges-setCidrIpv6":"java.lang.String",
+		"setIpPermissions-withIpv6Ranges-withCidrIpv6":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-setVpcPeeringConnectionId":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-setVpcId":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-withVpcId":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-withVpcPeeringConnectionId":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-setDescription":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-withDescription":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-setGroupName":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-withGroupName":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-setGroupId":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-withGroupId":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-withUserId":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-setUserId":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-setPeeringStatus":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-withPeeringStatus":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-setVpcPeeringConnectionId":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-setVpcId":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-withVpcId":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-withVpcPeeringConnectionId":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-setDescription":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-withDescription":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-setGroupName":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-withGroupName":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-setGroupId":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-withGroupId":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-withUserId":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-setUserId":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-setPeeringStatus":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-withPeeringStatus":"java.lang.String",
+		"setIpPermissions-setIpv4Ranges-setDescription":"java.lang.String",
+		"setIpPermissions-setIpv4Ranges-withDescription":"java.lang.String",
+		"setIpPermissions-setIpv4Ranges-setCidrIp":"java.lang.String",
+		"setIpPermissions-setIpv4Ranges-withCidrIp":"java.lang.String",
+		"setIpPermissions-withIpv4Ranges-setDescription":"java.lang.String",
+		"setIpPermissions-withIpv4Ranges-withDescription":"java.lang.String",
+		"setIpPermissions-withIpv4Ranges-setCidrIp":"java.lang.String",
+		"setIpPermissions-withIpv4Ranges-withCidrIp":"java.lang.String",
+		"withIpPermissions-setFromPort":"java.lang.Integer",
+		"withIpPermissions-withFromPort":"java.lang.Integer",
+		"withIpPermissions-setIpProtocol":"java.lang.String",
+		"withIpPermissions-withIpProtocol":"java.lang.String",
+		"withIpPermissions-setToPort":"java.lang.Integer",
+		"withIpPermissions-withToPort":"java.lang.Integer",
+		"withIpPermissions-setPrefixListIds-setDescription":"java.lang.String",
+		"withIpPermissions-setPrefixListIds-withDescription":"java.lang.String",
+		"withIpPermissions-setPrefixListIds-setPrefixListId":"java.lang.String",
+		"withIpPermissions-setPrefixListIds-withPrefixListId":"java.lang.String",
+		"withIpPermissions-withPrefixListIds-setDescription":"java.lang.String",
+		"withIpPermissions-withPrefixListIds-withDescription":"java.lang.String",
+		"withIpPermissions-withPrefixListIds-setPrefixListId":"java.lang.String",
+		"withIpPermissions-withPrefixListIds-withPrefixListId":"java.lang.String",
+		"withIpPermissions-setIpv6Ranges-setDescription":"java.lang.String",
+		"withIpPermissions-setIpv6Ranges-withDescription":"java.lang.String",
+		"withIpPermissions-setIpv6Ranges-setCidrIpv6":"java.lang.String",
+		"withIpPermissions-setIpv6Ranges-withCidrIpv6":"java.lang.String",
+		"withIpPermissions-withIpv6Ranges-setDescription":"java.lang.String",
+		"withIpPermissions-withIpv6Ranges-withDescription":"java.lang.String",
+		"withIpPermissions-withIpv6Ranges-setCidrIpv6":"java.lang.String",
+		"withIpPermissions-withIpv6Ranges-withCidrIpv6":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-setVpcPeeringConnectionId":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-setVpcId":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-withVpcId":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-withVpcPeeringConnectionId":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-setDescription":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-withDescription":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-setGroupName":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-withGroupName":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-setGroupId":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-withGroupId":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-withUserId":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-setUserId":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-setPeeringStatus":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-withPeeringStatus":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-setVpcPeeringConnectionId":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-setVpcId":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-withVpcId":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-withVpcPeeringConnectionId":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-setDescription":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-withDescription":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-setGroupName":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-withGroupName":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-setGroupId":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-withGroupId":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-withUserId":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-setUserId":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-setPeeringStatus":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-withPeeringStatus":"java.lang.String",
+		"withIpPermissions-setIpv4Ranges-setDescription":"java.lang.String",
+		"withIpPermissions-setIpv4Ranges-withDescription":"java.lang.String",
+		"withIpPermissions-setIpv4Ranges-setCidrIp":"java.lang.String",
+		"withIpPermissions-setIpv4Ranges-withCidrIp":"java.lang.String",
+		"withIpPermissions-withIpv4Ranges-setDescription":"java.lang.String",
+		"withIpPermissions-withIpv4Ranges-withDescription":"java.lang.String",
+		"withIpPermissions-withIpv4Ranges-setCidrIp":"java.lang.String",
+		"withIpPermissions-withIpv4Ranges-withCidrIp":"java.lang.String",
+		"setCidrIp":"java.lang.String",
+		"withCidrIp":"java.lang.String",
+		"setFromPort":"java.lang.Integer",
+		"withFromPort":"java.lang.Integer",
+		"setIpProtocol":"java.lang.String",
+		"withIpProtocol":"java.lang.String",
+		"setToPort":"java.lang.Integer",
+		"withToPort":"java.lang.Integer",
+		"setSourceSecurityGroupName":"java.lang.String",
+		"withSourceSecurityGroupName":"java.lang.String",
+		"setSourceSecurityGroupOwnerId":"java.lang.String",
+		"withSourceSecurityGroupOwnerId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DeleteCustomerGateway parameterss:
+
+```
+{
+	"main":{
+		"setCustomerGatewayId":"java.lang.String",
+		"withCustomerGatewayId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## CreateFlowLogs parameterss:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"withClientToken":"java.lang.String",
+		"setDeliverLogsPermissionArn":"java.lang.String",
+		"withDeliverLogsPermissionArn":"java.lang.String",
+		"setLogGroupName":"java.lang.String",
+		"withLogGroupName":"java.lang.String",
+		"setTrafficType":"java.lang.String",
+		"setLogDestinationType":"java.lang.String",
+		"withLogDestinationType":"java.lang.String",
+		"setLogDestination":"java.lang.String",
+		"withLogDestination":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## ModifyClientVpnEndpoint parameterss:
+
+```
+{
+	"main":{
+		"setClientVpnEndpointId":"java.lang.String",
+		"withClientVpnEndpointId":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"withDescription":"java.lang.String",
+		"setServerCertificateArn":"java.lang.String",
+		"withServerCertificateArn":"java.lang.String",
+		"setConnectionLogOptions-withEnabled":"java.lang.Boolean",
+		"setConnectionLogOptions-setEnabled":"java.lang.Boolean",
+		"setConnectionLogOptions-setCloudwatchLogGroup":"java.lang.String",
+		"setConnectionLogOptions-withCloudwatchLogGroup":"java.lang.String",
+		"setConnectionLogOptions-setCloudwatchLogStream":"java.lang.String",
+		"setConnectionLogOptions-withCloudwatchLogStream":"java.lang.String",
+		"withConnectionLogOptions-withEnabled":"java.lang.Boolean",
+		"withConnectionLogOptions-setEnabled":"java.lang.Boolean",
+		"withConnectionLogOptions-setCloudwatchLogGroup":"java.lang.String",
+		"withConnectionLogOptions-withCloudwatchLogGroup":"java.lang.String",
+		"withConnectionLogOptions-setCloudwatchLogStream":"java.lang.String",
+		"withConnectionLogOptions-withCloudwatchLogStream":"java.lang.String",
+		"setDnsServers-withEnabled":"java.lang.Boolean",
+		"setDnsServers-setEnabled":"java.lang.Boolean",
+		"withDnsServers-withEnabled":"java.lang.Boolean",
+		"withDnsServers-setEnabled":"java.lang.Boolean",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeNetworkInterfaceAttribute parameterss:
+
+```
+{
+	"main":{
+		"setNetworkInterfaceId":"java.lang.String",
+		"withNetworkInterfaceId":"java.lang.String",
+		"setAttribute":"java.lang.String",
+		"withAttribute":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## CancelCapacityReservation parameterss:
+
+```
+{
+	"main":{
+		"withCapacityReservationId":"java.lang.String",
+		"setCapacityReservationId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeConversionTasks parameterss:
+
+```
+{
+	"main":{
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeClientVpnConnections parameterss:
+
+```
+{
+	"main":{
+		"setClientVpnEndpointId":"java.lang.String",
+		"withClientVpnEndpointId":"java.lang.String",
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeCustomerGateways parameterss:
+
+```
+{
+	"main":{
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeSpotFleetRequests parameterss:
+
+```
+{
+	"main":{
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## ModifySpotFleetRequest parameterss:
+
+```
+{
+	"main":{
+		"setExcessCapacityTerminationPolicy":"java.lang.String",
+		"withExcessCapacityTerminationPolicy":"java.lang.String",
+		"setSpotFleetRequestId":"java.lang.String",
+		"withSpotFleetRequestId":"java.lang.String",
+		"setTargetCapacity":"java.lang.Integer",
+		"withTargetCapacity":"java.lang.Integer",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## CreateFleet parameterss:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"withClientToken":"java.lang.String",
+		"setTagSpecifications-setResourceType":"java.lang.String",
+		"setTagSpecifications-withResourceType":"java.lang.String",
+		"setTagSpecifications-setTags-withValue":"java.lang.String",
+		"setTagSpecifications-setTags-setKey":"java.lang.String",
+		"setTagSpecifications-setTags-withKey":"java.lang.String",
+		"setTagSpecifications-setTags-setValue":"java.lang.String",
+		"setTagSpecifications-withTags-withValue":"java.lang.String",
+		"setTagSpecifications-withTags-setKey":"java.lang.String",
+		"setTagSpecifications-withTags-withKey":"java.lang.String",
+		"setTagSpecifications-withTags-setValue":"java.lang.String",
+		"withTagSpecifications-setResourceType":"java.lang.String",
+		"withTagSpecifications-withResourceType":"java.lang.String",
+		"withTagSpecifications-setTags-withValue":"java.lang.String",
+		"withTagSpecifications-setTags-setKey":"java.lang.String",
+		"withTagSpecifications-setTags-withKey":"java.lang.String",
+		"withTagSpecifications-setTags-setValue":"java.lang.String",
+		"withTagSpecifications-withTags-withValue":"java.lang.String",
+		"withTagSpecifications-withTags-setKey":"java.lang.String",
+		"withTagSpecifications-withTags-withKey":"java.lang.String",
+		"withTagSpecifications-withTags-setValue":"java.lang.String",
+		"setType":"java.lang.String",
+		"setSpotOptions-setAllocationStrategy":"java.lang.String",
+		"setSpotOptions-setInstancePoolsToUseCount":"java.lang.Integer",
+		"setSpotOptions-withInstancePoolsToUseCount":"java.lang.Integer",
+		"setSpotOptions-setSingleInstanceType":"java.lang.Boolean",
+		"setSpotOptions-withSingleInstanceType":"java.lang.Boolean",
+		"setSpotOptions-setMinTargetCapacity":"java.lang.Integer",
+		"setSpotOptions-withMinTargetCapacity":"java.lang.Integer",
+		"setSpotOptions-setInstanceInterruptionBehavior":"java.lang.String",
+		"withSpotOptions-setAllocationStrategy":"java.lang.String",
+		"withSpotOptions-setInstancePoolsToUseCount":"java.lang.Integer",
+		"withSpotOptions-withInstancePoolsToUseCount":"java.lang.Integer",
+		"withSpotOptions-setSingleInstanceType":"java.lang.Boolean",
+		"withSpotOptions-withSingleInstanceType":"java.lang.Boolean",
+		"withSpotOptions-setMinTargetCapacity":"java.lang.Integer",
+		"withSpotOptions-withMinTargetCapacity":"java.lang.Integer",
+		"withSpotOptions-setInstanceInterruptionBehavior":"java.lang.String",
+		"setOnDemandOptions-setAllocationStrategy":"java.lang.String",
+		"setOnDemandOptions-withAllocationStrategy":"java.lang.String",
+		"setOnDemandOptions-setSingleInstanceType":"java.lang.Boolean",
+		"setOnDemandOptions-withSingleInstanceType":"java.lang.Boolean",
+		"setOnDemandOptions-setMinTargetCapacity":"java.lang.Integer",
+		"setOnDemandOptions-withMinTargetCapacity":"java.lang.Integer",
+		"withOnDemandOptions-setAllocationStrategy":"java.lang.String",
+		"withOnDemandOptions-withAllocationStrategy":"java.lang.String",
+		"withOnDemandOptions-setSingleInstanceType":"java.lang.Boolean",
+		"withOnDemandOptions-withSingleInstanceType":"java.lang.Boolean",
+		"withOnDemandOptions-setMinTargetCapacity":"java.lang.Integer",
+		"withOnDemandOptions-withMinTargetCapacity":"java.lang.Integer",
+		"setExcessCapacityTerminationPolicy":"java.lang.String",
+		"withExcessCapacityTerminationPolicy":"java.lang.String",
+		"setLaunchTemplateConfigs-withOverrides-setWeightedCapacity":"java.lang.Double",
+		"setLaunchTemplateConfigs-withOverrides-withWeightedCapacity":"java.lang.Double",
+		"setLaunchTemplateConfigs-withOverrides-withPriority":"java.lang.Double",
+		"setLaunchTemplateConfigs-withOverrides-setAvailabilityZone":"java.lang.String",
+		"setLaunchTemplateConfigs-withOverrides-withAvailabilityZone":"java.lang.String",
+		"setLaunchTemplateConfigs-withOverrides-setInstanceType":"java.lang.String",
+		"setLaunchTemplateConfigs-withOverrides-withInstanceType":"java.lang.String",
+		"setLaunchTemplateConfigs-withOverrides-setSubnetId":"java.lang.String",
+		"setLaunchTemplateConfigs-withOverrides-withSubnetId":"java.lang.String",
+		"setLaunchTemplateConfigs-withOverrides-setPlacement-setAvailabilityZone":"java.lang.String",
+		"setLaunchTemplateConfigs-withOverrides-setPlacement-withAvailabilityZone":"java.lang.String",
+		"setLaunchTemplateConfigs-withOverrides-setPlacement-setGroupName":"java.lang.String",
+		"setLaunchTemplateConfigs-withOverrides-setPlacement-withGroupName":"java.lang.String",
+		"setLaunchTemplateConfigs-withOverrides-setPlacement-withAffinity":"java.lang.String",
+		"setLaunchTemplateConfigs-withOverrides-setPlacement-setHostId":"java.lang.String",
+		"setLaunchTemplateConfigs-withOverrides-setPlacement-withHostId":"java.lang.String",
+		"setLaunchTemplateConfigs-withOverrides-setPlacement-setPartitionNumber":"java.lang.Integer",
+		"setLaunchTemplateConfigs-withOverrides-setPlacement-withPartitionNumber":"java.lang.Integer",
+		"setLaunchTemplateConfigs-withOverrides-setPlacement-setAffinity":"java.lang.String",
+		"setLaunchTemplateConfigs-withOverrides-setPlacement-setSpreadDomain":"java.lang.String",
+		"setLaunchTemplateConfigs-withOverrides-setPlacement-withSpreadDomain":"java.lang.String",
+		"setLaunchTemplateConfigs-withOverrides-withPlacement-setAvailabilityZone":"java.lang.String",
+		"setLaunchTemplateConfigs-withOverrides-withPlacement-withAvailabilityZone":"java.lang.String",
+		"setLaunchTemplateConfigs-withOverrides-withPlacement-setGroupName":"java.lang.String",
+		"setLaunchTemplateConfigs-withOverrides-withPlacement-withGroupName":"java.lang.String",
+		"setLaunchTemplateConfigs-withOverrides-withPlacement-withAffinity":"java.lang.String",
+		"setLaunchTemplateConfigs-withOverrides-withPlacement-setHostId":"java.lang.String",
+		"setLaunchTemplateConfigs-withOverrides-withPlacement-withHostId":"java.lang.String",
+		"setLaunchTemplateConfigs-withOverrides-withPlacement-setPartitionNumber":"java.lang.Integer",
+		"setLaunchTemplateConfigs-withOverrides-withPlacement-withPartitionNumber":"java.lang.Integer",
+		"setLaunchTemplateConfigs-withOverrides-withPlacement-setAffinity":"java.lang.String",
+		"setLaunchTemplateConfigs-withOverrides-withPlacement-setSpreadDomain":"java.lang.String",
+		"setLaunchTemplateConfigs-withOverrides-withPlacement-withSpreadDomain":"java.lang.String",
+		"setLaunchTemplateConfigs-withOverrides-withMaxPrice":"java.lang.String",
+		"setLaunchTemplateConfigs-withOverrides-setMaxPrice":"java.lang.String",
+		"setLaunchTemplateConfigs-withOverrides-setPriority":"java.lang.Double",
+		"setLaunchTemplateConfigs-setOverrides-setWeightedCapacity":"java.lang.Double",
+		"setLaunchTemplateConfigs-setOverrides-withWeightedCapacity":"java.lang.Double",
+		"setLaunchTemplateConfigs-setOverrides-withPriority":"java.lang.Double",
+		"setLaunchTemplateConfigs-setOverrides-setAvailabilityZone":"java.lang.String",
+		"setLaunchTemplateConfigs-setOverrides-withAvailabilityZone":"java.lang.String",
+		"setLaunchTemplateConfigs-setOverrides-setInstanceType":"java.lang.String",
+		"setLaunchTemplateConfigs-setOverrides-withInstanceType":"java.lang.String",
+		"setLaunchTemplateConfigs-setOverrides-setSubnetId":"java.lang.String",
+		"setLaunchTemplateConfigs-setOverrides-withSubnetId":"java.lang.String",
+		"setLaunchTemplateConfigs-setOverrides-setPlacement-setAvailabilityZone":"java.lang.String",
+		"setLaunchTemplateConfigs-setOverrides-setPlacement-withAvailabilityZone":"java.lang.String",
+		"setLaunchTemplateConfigs-setOverrides-setPlacement-setGroupName":"java.lang.String",
+		"setLaunchTemplateConfigs-setOverrides-setPlacement-withGroupName":"java.lang.String",
+		"setLaunchTemplateConfigs-setOverrides-setPlacement-withAffinity":"java.lang.String",
+		"setLaunchTemplateConfigs-setOverrides-setPlacement-setHostId":"java.lang.String",
+		"setLaunchTemplateConfigs-setOverrides-setPlacement-withHostId":"java.lang.String",
+		"setLaunchTemplateConfigs-setOverrides-setPlacement-setPartitionNumber":"java.lang.Integer",
+		"setLaunchTemplateConfigs-setOverrides-setPlacement-withPartitionNumber":"java.lang.Integer",
+		"setLaunchTemplateConfigs-setOverrides-setPlacement-setAffinity":"java.lang.String",
+		"setLaunchTemplateConfigs-setOverrides-setPlacement-setSpreadDomain":"java.lang.String",
+		"setLaunchTemplateConfigs-setOverrides-setPlacement-withSpreadDomain":"java.lang.String",
+		"setLaunchTemplateConfigs-setOverrides-withPlacement-setAvailabilityZone":"java.lang.String",
+		"setLaunchTemplateConfigs-setOverrides-withPlacement-withAvailabilityZone":"java.lang.String",
+		"setLaunchTemplateConfigs-setOverrides-withPlacement-setGroupName":"java.lang.String",
+		"setLaunchTemplateConfigs-setOverrides-withPlacement-withGroupName":"java.lang.String",
+		"setLaunchTemplateConfigs-setOverrides-withPlacement-withAffinity":"java.lang.String",
+		"setLaunchTemplateConfigs-setOverrides-withPlacement-setHostId":"java.lang.String",
+		"setLaunchTemplateConfigs-setOverrides-withPlacement-withHostId":"java.lang.String",
+		"setLaunchTemplateConfigs-setOverrides-withPlacement-setPartitionNumber":"java.lang.Integer",
+		"setLaunchTemplateConfigs-setOverrides-withPlacement-withPartitionNumber":"java.lang.Integer",
+		"setLaunchTemplateConfigs-setOverrides-withPlacement-setAffinity":"java.lang.String",
+		"setLaunchTemplateConfigs-setOverrides-withPlacement-setSpreadDomain":"java.lang.String",
+		"setLaunchTemplateConfigs-setOverrides-withPlacement-withSpreadDomain":"java.lang.String",
+		"setLaunchTemplateConfigs-setOverrides-withMaxPrice":"java.lang.String",
+		"setLaunchTemplateConfigs-setOverrides-setMaxPrice":"java.lang.String",
+		"setLaunchTemplateConfigs-setOverrides-setPriority":"java.lang.Double",
+		"setLaunchTemplateConfigs-setLaunchTemplateSpecification-withLaunchTemplateName":"java.lang.String",
+		"setLaunchTemplateConfigs-setLaunchTemplateSpecification-setLaunchTemplateName":"java.lang.String",
+		"setLaunchTemplateConfigs-setLaunchTemplateSpecification-setLaunchTemplateId":"java.lang.String",
+		"setLaunchTemplateConfigs-setLaunchTemplateSpecification-withLaunchTemplateId":"java.lang.String",
+		"setLaunchTemplateConfigs-setLaunchTemplateSpecification-setVersion":"java.lang.String",
+		"setLaunchTemplateConfigs-setLaunchTemplateSpecification-withVersion":"java.lang.String",
+		"setLaunchTemplateConfigs-withLaunchTemplateSpecification-withLaunchTemplateName":"java.lang.String",
+		"setLaunchTemplateConfigs-withLaunchTemplateSpecification-setLaunchTemplateName":"java.lang.String",
+		"setLaunchTemplateConfigs-withLaunchTemplateSpecification-setLaunchTemplateId":"java.lang.String",
+		"setLaunchTemplateConfigs-withLaunchTemplateSpecification-withLaunchTemplateId":"java.lang.String",
+		"setLaunchTemplateConfigs-withLaunchTemplateSpecification-setVersion":"java.lang.String",
+		"setLaunchTemplateConfigs-withLaunchTemplateSpecification-withVersion":"java.lang.String",
+		"withLaunchTemplateConfigs-withOverrides-setWeightedCapacity":"java.lang.Double",
+		"withLaunchTemplateConfigs-withOverrides-withWeightedCapacity":"java.lang.Double",
+		"withLaunchTemplateConfigs-withOverrides-withPriority":"java.lang.Double",
+		"withLaunchTemplateConfigs-withOverrides-setAvailabilityZone":"java.lang.String",
+		"withLaunchTemplateConfigs-withOverrides-withAvailabilityZone":"java.lang.String",
+		"withLaunchTemplateConfigs-withOverrides-setInstanceType":"java.lang.String",
+		"withLaunchTemplateConfigs-withOverrides-withInstanceType":"java.lang.String",
+		"withLaunchTemplateConfigs-withOverrides-setSubnetId":"java.lang.String",
+		"withLaunchTemplateConfigs-withOverrides-withSubnetId":"java.lang.String",
+		"withLaunchTemplateConfigs-withOverrides-setPlacement-setAvailabilityZone":"java.lang.String",
+		"withLaunchTemplateConfigs-withOverrides-setPlacement-withAvailabilityZone":"java.lang.String",
+		"withLaunchTemplateConfigs-withOverrides-setPlacement-setGroupName":"java.lang.String",
+		"withLaunchTemplateConfigs-withOverrides-setPlacement-withGroupName":"java.lang.String",
+		"withLaunchTemplateConfigs-withOverrides-setPlacement-withAffinity":"java.lang.String",
+		"withLaunchTemplateConfigs-withOverrides-setPlacement-setHostId":"java.lang.String",
+		"withLaunchTemplateConfigs-withOverrides-setPlacement-withHostId":"java.lang.String",
+		"withLaunchTemplateConfigs-withOverrides-setPlacement-setPartitionNumber":"java.lang.Integer",
+		"withLaunchTemplateConfigs-withOverrides-setPlacement-withPartitionNumber":"java.lang.Integer",
+		"withLaunchTemplateConfigs-withOverrides-setPlacement-setAffinity":"java.lang.String",
+		"withLaunchTemplateConfigs-withOverrides-setPlacement-setSpreadDomain":"java.lang.String",
+		"withLaunchTemplateConfigs-withOverrides-setPlacement-withSpreadDomain":"java.lang.String",
+		"withLaunchTemplateConfigs-withOverrides-withPlacement-setAvailabilityZone":"java.lang.String",
+		"withLaunchTemplateConfigs-withOverrides-withPlacement-withAvailabilityZone":"java.lang.String",
+		"withLaunchTemplateConfigs-withOverrides-withPlacement-setGroupName":"java.lang.String",
+		"withLaunchTemplateConfigs-withOverrides-withPlacement-withGroupName":"java.lang.String",
+		"withLaunchTemplateConfigs-withOverrides-withPlacement-withAffinity":"java.lang.String",
+		"withLaunchTemplateConfigs-withOverrides-withPlacement-setHostId":"java.lang.String",
+		"withLaunchTemplateConfigs-withOverrides-withPlacement-withHostId":"java.lang.String",
+		"withLaunchTemplateConfigs-withOverrides-withPlacement-setPartitionNumber":"java.lang.Integer",
+		"withLaunchTemplateConfigs-withOverrides-withPlacement-withPartitionNumber":"java.lang.Integer",
+		"withLaunchTemplateConfigs-withOverrides-withPlacement-setAffinity":"java.lang.String",
+		"withLaunchTemplateConfigs-withOverrides-withPlacement-setSpreadDomain":"java.lang.String",
+		"withLaunchTemplateConfigs-withOverrides-withPlacement-withSpreadDomain":"java.lang.String",
+		"withLaunchTemplateConfigs-withOverrides-withMaxPrice":"java.lang.String",
+		"withLaunchTemplateConfigs-withOverrides-setMaxPrice":"java.lang.String",
+		"withLaunchTemplateConfigs-withOverrides-setPriority":"java.lang.Double",
+		"withLaunchTemplateConfigs-setOverrides-setWeightedCapacity":"java.lang.Double",
+		"withLaunchTemplateConfigs-setOverrides-withWeightedCapacity":"java.lang.Double",
+		"withLaunchTemplateConfigs-setOverrides-withPriority":"java.lang.Double",
+		"withLaunchTemplateConfigs-setOverrides-setAvailabilityZone":"java.lang.String",
+		"withLaunchTemplateConfigs-setOverrides-withAvailabilityZone":"java.lang.String",
+		"withLaunchTemplateConfigs-setOverrides-setInstanceType":"java.lang.String",
+		"withLaunchTemplateConfigs-setOverrides-withInstanceType":"java.lang.String",
+		"withLaunchTemplateConfigs-setOverrides-setSubnetId":"java.lang.String",
+		"withLaunchTemplateConfigs-setOverrides-withSubnetId":"java.lang.String",
+		"withLaunchTemplateConfigs-setOverrides-setPlacement-setAvailabilityZone":"java.lang.String",
+		"withLaunchTemplateConfigs-setOverrides-setPlacement-withAvailabilityZone":"java.lang.String",
+		"withLaunchTemplateConfigs-setOverrides-setPlacement-setGroupName":"java.lang.String",
+		"withLaunchTemplateConfigs-setOverrides-setPlacement-withGroupName":"java.lang.String",
+		"withLaunchTemplateConfigs-setOverrides-setPlacement-withAffinity":"java.lang.String",
+		"withLaunchTemplateConfigs-setOverrides-setPlacement-setHostId":"java.lang.String",
+		"withLaunchTemplateConfigs-setOverrides-setPlacement-withHostId":"java.lang.String",
+		"withLaunchTemplateConfigs-setOverrides-setPlacement-setPartitionNumber":"java.lang.Integer",
+		"withLaunchTemplateConfigs-setOverrides-setPlacement-withPartitionNumber":"java.lang.Integer",
+		"withLaunchTemplateConfigs-setOverrides-setPlacement-setAffinity":"java.lang.String",
+		"withLaunchTemplateConfigs-setOverrides-setPlacement-setSpreadDomain":"java.lang.String",
+		"withLaunchTemplateConfigs-setOverrides-setPlacement-withSpreadDomain":"java.lang.String",
+		"withLaunchTemplateConfigs-setOverrides-withPlacement-setAvailabilityZone":"java.lang.String",
+		"withLaunchTemplateConfigs-setOverrides-withPlacement-withAvailabilityZone":"java.lang.String",
+		"withLaunchTemplateConfigs-setOverrides-withPlacement-setGroupName":"java.lang.String",
+		"withLaunchTemplateConfigs-setOverrides-withPlacement-withGroupName":"java.lang.String",
+		"withLaunchTemplateConfigs-setOverrides-withPlacement-withAffinity":"java.lang.String",
+		"withLaunchTemplateConfigs-setOverrides-withPlacement-setHostId":"java.lang.String",
+		"withLaunchTemplateConfigs-setOverrides-withPlacement-withHostId":"java.lang.String",
+		"withLaunchTemplateConfigs-setOverrides-withPlacement-setPartitionNumber":"java.lang.Integer",
+		"withLaunchTemplateConfigs-setOverrides-withPlacement-withPartitionNumber":"java.lang.Integer",
+		"withLaunchTemplateConfigs-setOverrides-withPlacement-setAffinity":"java.lang.String",
+		"withLaunchTemplateConfigs-setOverrides-withPlacement-setSpreadDomain":"java.lang.String",
+		"withLaunchTemplateConfigs-setOverrides-withPlacement-withSpreadDomain":"java.lang.String",
+		"withLaunchTemplateConfigs-setOverrides-withMaxPrice":"java.lang.String",
+		"withLaunchTemplateConfigs-setOverrides-setMaxPrice":"java.lang.String",
+		"withLaunchTemplateConfigs-setOverrides-setPriority":"java.lang.Double",
+		"withLaunchTemplateConfigs-setLaunchTemplateSpecification-withLaunchTemplateName":"java.lang.String",
+		"withLaunchTemplateConfigs-setLaunchTemplateSpecification-setLaunchTemplateName":"java.lang.String",
+		"withLaunchTemplateConfigs-setLaunchTemplateSpecification-setLaunchTemplateId":"java.lang.String",
+		"withLaunchTemplateConfigs-setLaunchTemplateSpecification-withLaunchTemplateId":"java.lang.String",
+		"withLaunchTemplateConfigs-setLaunchTemplateSpecification-setVersion":"java.lang.String",
+		"withLaunchTemplateConfigs-setLaunchTemplateSpecification-withVersion":"java.lang.String",
+		"withLaunchTemplateConfigs-withLaunchTemplateSpecification-withLaunchTemplateName":"java.lang.String",
+		"withLaunchTemplateConfigs-withLaunchTemplateSpecification-setLaunchTemplateName":"java.lang.String",
+		"withLaunchTemplateConfigs-withLaunchTemplateSpecification-setLaunchTemplateId":"java.lang.String",
+		"withLaunchTemplateConfigs-withLaunchTemplateSpecification-withLaunchTemplateId":"java.lang.String",
+		"withLaunchTemplateConfigs-withLaunchTemplateSpecification-setVersion":"java.lang.String",
+		"withLaunchTemplateConfigs-withLaunchTemplateSpecification-withVersion":"java.lang.String",
+		"setTargetCapacitySpecification-setOnDemandTargetCapacity":"java.lang.Integer",
+		"setTargetCapacitySpecification-withOnDemandTargetCapacity":"java.lang.Integer",
+		"setTargetCapacitySpecification-setSpotTargetCapacity":"java.lang.Integer",
+		"setTargetCapacitySpecification-withSpotTargetCapacity":"java.lang.Integer",
+		"setTargetCapacitySpecification-setDefaultTargetCapacityType":"java.lang.String",
+		"setTargetCapacitySpecification-setTotalTargetCapacity":"java.lang.Integer",
+		"setTargetCapacitySpecification-withTotalTargetCapacity":"java.lang.Integer",
+		"withTargetCapacitySpecification-setOnDemandTargetCapacity":"java.lang.Integer",
+		"withTargetCapacitySpecification-withOnDemandTargetCapacity":"java.lang.Integer",
+		"withTargetCapacitySpecification-setSpotTargetCapacity":"java.lang.Integer",
+		"withTargetCapacitySpecification-withSpotTargetCapacity":"java.lang.Integer",
+		"withTargetCapacitySpecification-setDefaultTargetCapacityType":"java.lang.String",
+		"withTargetCapacitySpecification-setTotalTargetCapacity":"java.lang.Integer",
+		"withTargetCapacitySpecification-withTotalTargetCapacity":"java.lang.Integer",
+		"setTerminateInstancesWithExpiration":"java.lang.Boolean",
+		"withTerminateInstancesWithExpiration":"java.lang.Boolean",
+		"setValidFrom-setDate":"int",
+		"setValidFrom-setHours":"int",
+		"setValidFrom-setMinutes":"int",
+		"setValidFrom-setMonth":"int",
+		"setValidFrom-setSeconds":"int",
+		"setValidFrom-setYear":"int",
+		"setValidFrom-setTime":"long",
+		"withValidFrom-setDate":"int",
+		"withValidFrom-setHours":"int",
+		"withValidFrom-setMinutes":"int",
+		"withValidFrom-setMonth":"int",
+		"withValidFrom-setSeconds":"int",
+		"withValidFrom-setYear":"int",
+		"withValidFrom-setTime":"long",
+		"setValidUntil-setDate":"int",
+		"setValidUntil-setHours":"int",
+		"setValidUntil-setMinutes":"int",
+		"setValidUntil-setMonth":"int",
+		"setValidUntil-setSeconds":"int",
+		"setValidUntil-setYear":"int",
+		"setValidUntil-setTime":"long",
+		"withValidUntil-setDate":"int",
+		"withValidUntil-setHours":"int",
+		"withValidUntil-setMinutes":"int",
+		"withValidUntil-setMonth":"int",
+		"withValidUntil-setSeconds":"int",
+		"withValidUntil-setYear":"int",
+		"withValidUntil-setTime":"long",
+		"setReplaceUnhealthyInstances":"java.lang.Boolean",
+		"withReplaceUnhealthyInstances":"java.lang.Boolean",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DeleteClientVpnEndpoint parameterss:
+
+```
+{
+	"main":{
+		"setClientVpnEndpointId":"java.lang.String",
+		"withClientVpnEndpointId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## ModifyTransitGatewayVpcAttachment parameterss:
+
+```
+{
+	"main":{
+		"withTransitGatewayAttachmentId":"java.lang.String",
+		"setTransitGatewayAttachmentId":"java.lang.String",
+		"setOptions-withDnsSupport":"java.lang.String",
+		"setOptions-setIpv6Support":"java.lang.String",
+		"setOptions-withIpv6Support":"java.lang.String",
+		"setOptions-setDnsSupport":"java.lang.String",
+		"withOptions-withDnsSupport":"java.lang.String",
+		"withOptions-setIpv6Support":"java.lang.String",
+		"withOptions-withIpv6Support":"java.lang.String",
+		"withOptions-setDnsSupport":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeNetworkInterfacePermissions parameterss:
+
+```
+{
+	"main":{
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeVolumesModifications parameterss:
+
+```
+{
+	"main":{
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DetachInternetGateway parameterss:
+
+```
+{
+	"main":{
+		"setVpcId":"java.lang.String",
+		"withVpcId":"java.lang.String",
+		"setInternetGatewayId":"java.lang.String",
+		"withInternetGatewayId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DeleteVpc parameterss:
+
+```
+{
+	"main":{
+		"setVpcId":"java.lang.String",
+		"withVpcId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## RequestSpotFleet parameterss:
+
+```
+{
+	"main":{
+		"withSpotFleetRequestConfig-setAllocationStrategy":"java.lang.String",
+		"withSpotFleetRequestConfig-setInstancePoolsToUseCount":"java.lang.Integer",
+		"withSpotFleetRequestConfig-withInstancePoolsToUseCount":"java.lang.Integer",
+		"withSpotFleetRequestConfig-setClientToken":"java.lang.String",
+		"withSpotFleetRequestConfig-withClientToken":"java.lang.String",
+		"withSpotFleetRequestConfig-withType":"java.lang.String",
+		"withSpotFleetRequestConfig-setExcessCapacityTerminationPolicy":"java.lang.String",
+		"withSpotFleetRequestConfig-withExcessCapacityTerminationPolicy":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchTemplateConfigs-withOverrides-setWeightedCapacity":"java.lang.Double",
+		"withSpotFleetRequestConfig-setLaunchTemplateConfigs-withOverrides-withWeightedCapacity":"java.lang.Double",
+		"withSpotFleetRequestConfig-setLaunchTemplateConfigs-withOverrides-withPriority":"java.lang.Double",
+		"withSpotFleetRequestConfig-setLaunchTemplateConfigs-withOverrides-setAvailabilityZone":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchTemplateConfigs-withOverrides-withAvailabilityZone":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchTemplateConfigs-withOverrides-setInstanceType":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchTemplateConfigs-withOverrides-setSubnetId":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchTemplateConfigs-withOverrides-withSubnetId":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchTemplateConfigs-withOverrides-setSpotPrice":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchTemplateConfigs-withOverrides-withSpotPrice":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchTemplateConfigs-withOverrides-setPriority":"java.lang.Double",
+		"withSpotFleetRequestConfig-setLaunchTemplateConfigs-setOverrides-setWeightedCapacity":"java.lang.Double",
+		"withSpotFleetRequestConfig-setLaunchTemplateConfigs-setOverrides-withWeightedCapacity":"java.lang.Double",
+		"withSpotFleetRequestConfig-setLaunchTemplateConfigs-setOverrides-withPriority":"java.lang.Double",
+		"withSpotFleetRequestConfig-setLaunchTemplateConfigs-setOverrides-setAvailabilityZone":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchTemplateConfigs-setOverrides-withAvailabilityZone":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchTemplateConfigs-setOverrides-setInstanceType":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchTemplateConfigs-setOverrides-setSubnetId":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchTemplateConfigs-setOverrides-withSubnetId":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchTemplateConfigs-setOverrides-setSpotPrice":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchTemplateConfigs-setOverrides-withSpotPrice":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchTemplateConfigs-setOverrides-setPriority":"java.lang.Double",
+		"withSpotFleetRequestConfig-setLaunchTemplateConfigs-setLaunchTemplateSpecification-withLaunchTemplateName":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchTemplateConfigs-setLaunchTemplateSpecification-setLaunchTemplateName":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchTemplateConfigs-setLaunchTemplateSpecification-setLaunchTemplateId":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchTemplateConfigs-setLaunchTemplateSpecification-withLaunchTemplateId":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchTemplateConfigs-setLaunchTemplateSpecification-setVersion":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchTemplateConfigs-setLaunchTemplateSpecification-withVersion":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchTemplateConfigs-withLaunchTemplateSpecification-withLaunchTemplateName":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchTemplateConfigs-withLaunchTemplateSpecification-setLaunchTemplateName":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchTemplateConfigs-withLaunchTemplateSpecification-setLaunchTemplateId":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchTemplateConfigs-withLaunchTemplateSpecification-withLaunchTemplateId":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchTemplateConfigs-withLaunchTemplateSpecification-setVersion":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchTemplateConfigs-withLaunchTemplateSpecification-withVersion":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchTemplateConfigs-withOverrides-setWeightedCapacity":"java.lang.Double",
+		"withSpotFleetRequestConfig-withLaunchTemplateConfigs-withOverrides-withWeightedCapacity":"java.lang.Double",
+		"withSpotFleetRequestConfig-withLaunchTemplateConfigs-withOverrides-withPriority":"java.lang.Double",
+		"withSpotFleetRequestConfig-withLaunchTemplateConfigs-withOverrides-setAvailabilityZone":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchTemplateConfigs-withOverrides-withAvailabilityZone":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchTemplateConfigs-withOverrides-setInstanceType":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchTemplateConfigs-withOverrides-setSubnetId":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchTemplateConfigs-withOverrides-withSubnetId":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchTemplateConfigs-withOverrides-setSpotPrice":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchTemplateConfigs-withOverrides-withSpotPrice":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchTemplateConfigs-withOverrides-setPriority":"java.lang.Double",
+		"withSpotFleetRequestConfig-withLaunchTemplateConfigs-setOverrides-setWeightedCapacity":"java.lang.Double",
+		"withSpotFleetRequestConfig-withLaunchTemplateConfigs-setOverrides-withWeightedCapacity":"java.lang.Double",
+		"withSpotFleetRequestConfig-withLaunchTemplateConfigs-setOverrides-withPriority":"java.lang.Double",
+		"withSpotFleetRequestConfig-withLaunchTemplateConfigs-setOverrides-setAvailabilityZone":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchTemplateConfigs-setOverrides-withAvailabilityZone":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchTemplateConfigs-setOverrides-setInstanceType":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchTemplateConfigs-setOverrides-setSubnetId":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchTemplateConfigs-setOverrides-withSubnetId":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchTemplateConfigs-setOverrides-setSpotPrice":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchTemplateConfigs-setOverrides-withSpotPrice":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchTemplateConfigs-setOverrides-setPriority":"java.lang.Double",
+		"withSpotFleetRequestConfig-withLaunchTemplateConfigs-setLaunchTemplateSpecification-withLaunchTemplateName":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchTemplateConfigs-setLaunchTemplateSpecification-setLaunchTemplateName":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchTemplateConfigs-setLaunchTemplateSpecification-setLaunchTemplateId":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchTemplateConfigs-setLaunchTemplateSpecification-withLaunchTemplateId":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchTemplateConfigs-setLaunchTemplateSpecification-setVersion":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchTemplateConfigs-setLaunchTemplateSpecification-withVersion":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchTemplateConfigs-withLaunchTemplateSpecification-withLaunchTemplateName":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchTemplateConfigs-withLaunchTemplateSpecification-setLaunchTemplateName":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchTemplateConfigs-withLaunchTemplateSpecification-setLaunchTemplateId":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchTemplateConfigs-withLaunchTemplateSpecification-withLaunchTemplateId":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchTemplateConfigs-withLaunchTemplateSpecification-setVersion":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchTemplateConfigs-withLaunchTemplateSpecification-withVersion":"java.lang.String",
+		"withSpotFleetRequestConfig-setTerminateInstancesWithExpiration":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-withTerminateInstancesWithExpiration":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-setValidFrom-setDate":"int",
+		"withSpotFleetRequestConfig-setValidFrom-setHours":"int",
+		"withSpotFleetRequestConfig-setValidFrom-setMinutes":"int",
+		"withSpotFleetRequestConfig-setValidFrom-setMonth":"int",
+		"withSpotFleetRequestConfig-setValidFrom-setSeconds":"int",
+		"withSpotFleetRequestConfig-setValidFrom-setYear":"int",
+		"withSpotFleetRequestConfig-setValidFrom-setTime":"long",
+		"withSpotFleetRequestConfig-withValidFrom-setDate":"int",
+		"withSpotFleetRequestConfig-withValidFrom-setHours":"int",
+		"withSpotFleetRequestConfig-withValidFrom-setMinutes":"int",
+		"withSpotFleetRequestConfig-withValidFrom-setMonth":"int",
+		"withSpotFleetRequestConfig-withValidFrom-setSeconds":"int",
+		"withSpotFleetRequestConfig-withValidFrom-setYear":"int",
+		"withSpotFleetRequestConfig-withValidFrom-setTime":"long",
+		"withSpotFleetRequestConfig-setValidUntil-setDate":"int",
+		"withSpotFleetRequestConfig-setValidUntil-setHours":"int",
+		"withSpotFleetRequestConfig-setValidUntil-setMinutes":"int",
+		"withSpotFleetRequestConfig-setValidUntil-setMonth":"int",
+		"withSpotFleetRequestConfig-setValidUntil-setSeconds":"int",
+		"withSpotFleetRequestConfig-setValidUntil-setYear":"int",
+		"withSpotFleetRequestConfig-setValidUntil-setTime":"long",
+		"withSpotFleetRequestConfig-withValidUntil-setDate":"int",
+		"withSpotFleetRequestConfig-withValidUntil-setHours":"int",
+		"withSpotFleetRequestConfig-withValidUntil-setMinutes":"int",
+		"withSpotFleetRequestConfig-withValidUntil-setMonth":"int",
+		"withSpotFleetRequestConfig-withValidUntil-setSeconds":"int",
+		"withSpotFleetRequestConfig-withValidUntil-setYear":"int",
+		"withSpotFleetRequestConfig-withValidUntil-setTime":"long",
+		"withSpotFleetRequestConfig-setReplaceUnhealthyInstances":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-withReplaceUnhealthyInstances":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-setTargetCapacity":"java.lang.Integer",
+		"withSpotFleetRequestConfig-withTargetCapacity":"java.lang.Integer",
+		"withSpotFleetRequestConfig-setSpotPrice":"java.lang.String",
+		"withSpotFleetRequestConfig-withSpotPrice":"java.lang.String",
+		"withSpotFleetRequestConfig-withInstanceInterruptionBehavior":"java.lang.String",
+		"withSpotFleetRequestConfig-setOnDemandTargetCapacity":"java.lang.Integer",
+		"withSpotFleetRequestConfig-withOnDemandTargetCapacity":"java.lang.Integer",
+		"withSpotFleetRequestConfig-setOnDemandAllocationStrategy":"java.lang.String",
+		"withSpotFleetRequestConfig-withOnDemandAllocationStrategy":"java.lang.String",
+		"withSpotFleetRequestConfig-setFulfilledCapacity":"java.lang.Double",
+		"withSpotFleetRequestConfig-withFulfilledCapacity":"java.lang.Double",
+		"withSpotFleetRequestConfig-setOnDemandFulfilledCapacity":"java.lang.Double",
+		"withSpotFleetRequestConfig-withOnDemandFulfilledCapacity":"java.lang.Double",
+		"withSpotFleetRequestConfig-setIamFleetRole":"java.lang.String",
+		"withSpotFleetRequestConfig-withIamFleetRole":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setWeightedCapacity":"java.lang.Double",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withWeightedCapacity":"java.lang.Double",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withInstanceType":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setTagSpecifications-setResourceType":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setTagSpecifications-withResourceType":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setTagSpecifications-setTags-withValue":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setTagSpecifications-setTags-setKey":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setTagSpecifications-setTags-withKey":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setTagSpecifications-setTags-setValue":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setTagSpecifications-withTags-withValue":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setTagSpecifications-withTags-setKey":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setTagSpecifications-withTags-withKey":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setTagSpecifications-withTags-setValue":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withTagSpecifications-setResourceType":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withTagSpecifications-withResourceType":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withTagSpecifications-setTags-withValue":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withTagSpecifications-setTags-setKey":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withTagSpecifications-setTags-withKey":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withTagSpecifications-setTags-setValue":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withTagSpecifications-withTags-withValue":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withTagSpecifications-withTags-setKey":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withTagSpecifications-withTags-withKey":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withTagSpecifications-withTags-setValue":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withIamInstanceProfile-withName":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withIamInstanceProfile-setArn":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withIamInstanceProfile-withArn":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withIamInstanceProfile-setName":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setSubnetId":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withSubnetId":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setIamInstanceProfile-withName":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setIamInstanceProfile-setArn":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setIamInstanceProfile-withArn":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setIamInstanceProfile-setName":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setEbsOptimized":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withEbsOptimized":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withKeyName":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setKeyName":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-setEbs-setEncrypted":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-setEbs-withEncrypted":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-setEbs-setKmsKeyId":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-setEbs-withKmsKeyId":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-setEbs-setIops":"java.lang.Integer",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-setEbs-withIops":"java.lang.Integer",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-setEbs-setSnapshotId":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-setEbs-withSnapshotId":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-setEbs-withVolumeType":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-setEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-setEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-setEbs-setVolumeSize":"java.lang.Integer",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-setEbs-withVolumeSize":"java.lang.Integer",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-setDeviceName":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-withDeviceName":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-withEbs-setEncrypted":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-withEbs-withEncrypted":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-withEbs-setKmsKeyId":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-withEbs-withKmsKeyId":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-withEbs-setIops":"java.lang.Integer",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-withEbs-withIops":"java.lang.Integer",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-withEbs-setSnapshotId":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-withEbs-withSnapshotId":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-withEbs-withVolumeType":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-withEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-withEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-withEbs-setVolumeSize":"java.lang.Integer",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-withEbs-withVolumeSize":"java.lang.Integer",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-setNoDevice":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-withNoDevice":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-setVirtualName":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-withVirtualName":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-setEbs-setEncrypted":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-setEbs-withEncrypted":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-setEbs-setKmsKeyId":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-setEbs-withKmsKeyId":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-setEbs-setIops":"java.lang.Integer",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-setEbs-withIops":"java.lang.Integer",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-setEbs-setSnapshotId":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-setEbs-withSnapshotId":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-setEbs-withVolumeType":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-setEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-setEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-setEbs-setVolumeSize":"java.lang.Integer",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-setEbs-withVolumeSize":"java.lang.Integer",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-setDeviceName":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-withDeviceName":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-withEbs-setEncrypted":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-withEbs-withEncrypted":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-withEbs-setKmsKeyId":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-withEbs-withKmsKeyId":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-withEbs-setIops":"java.lang.Integer",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-withEbs-withIops":"java.lang.Integer",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-withEbs-setSnapshotId":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-withEbs-withSnapshotId":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-withEbs-withVolumeType":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-withEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-withEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-withEbs-setVolumeSize":"java.lang.Integer",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-withEbs-withVolumeSize":"java.lang.Integer",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-setNoDevice":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-withNoDevice":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-setVirtualName":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-withVirtualName":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setImageId":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withImageId":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setUserData":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withUserData":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setKernelId":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withKernelId":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setRamdiskId":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withRamdiskId":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setSpotPrice":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withSpotPrice":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setMonitoring-withEnabled":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setMonitoring-setEnabled":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withMonitoring-withEnabled":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withMonitoring-setEnabled":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setPlacement-setAvailabilityZone":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setPlacement-withAvailabilityZone":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setPlacement-setGroupName":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setPlacement-withGroupName":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setPlacement-withTenancy":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withPlacement-setAvailabilityZone":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withPlacement-withAvailabilityZone":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withPlacement-setGroupName":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withPlacement-withGroupName":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withPlacement-withTenancy":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setSecurityGroups-setGroupName":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setSecurityGroups-withGroupName":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setSecurityGroups-setGroupId":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setSecurityGroups-withGroupId":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withSecurityGroups-setGroupName":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withSecurityGroups-withGroupName":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withSecurityGroups-setGroupId":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withSecurityGroups-withGroupId":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-setIpv6AddressCount":"java.lang.Integer",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-withIpv6AddressCount":"java.lang.Integer",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-setIpv6Addresses-setIpv6Address":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-setIpv6Addresses-withIpv6Address":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-withIpv6Addresses-setIpv6Address":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-withIpv6Addresses-withIpv6Address":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-setNetworkInterfaceId":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-withNetworkInterfaceId":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-setPrivateIpAddresses-setPrivateIpAddress":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-setPrivateIpAddresses-withPrivateIpAddress":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-setPrivateIpAddresses-setPrimary":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-setPrivateIpAddresses-withPrimary":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-withPrivateIpAddresses-setPrivateIpAddress":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-withPrivateIpAddresses-withPrivateIpAddress":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-withPrivateIpAddresses-setPrimary":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-withPrivateIpAddresses-withPrimary":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-setSecondaryPrivateIpAddressCount":"java.lang.Integer",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-withSecondaryPrivateIpAddressCount":"java.lang.Integer",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-setPrivateIpAddress":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-withPrivateIpAddress":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-setDeviceIndex":"java.lang.Integer",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-setSubnetId":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-withSubnetId":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-withDeviceIndex":"java.lang.Integer",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-setDescription":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-withDescription":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-setDeleteOnTermination":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-withDeleteOnTermination":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-setAssociatePublicIpAddress":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-withAssociatePublicIpAddress":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-setIpv6AddressCount":"java.lang.Integer",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-withIpv6AddressCount":"java.lang.Integer",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-setIpv6Addresses-setIpv6Address":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-setIpv6Addresses-withIpv6Address":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-withIpv6Addresses-setIpv6Address":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-withIpv6Addresses-withIpv6Address":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-setNetworkInterfaceId":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-withNetworkInterfaceId":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-setPrivateIpAddresses-setPrivateIpAddress":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-setPrivateIpAddresses-withPrivateIpAddress":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-setPrivateIpAddresses-setPrimary":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-setPrivateIpAddresses-withPrimary":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-withPrivateIpAddresses-setPrivateIpAddress":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-withPrivateIpAddresses-withPrivateIpAddress":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-withPrivateIpAddresses-setPrimary":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-withPrivateIpAddresses-withPrimary":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-setSecondaryPrivateIpAddressCount":"java.lang.Integer",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-withSecondaryPrivateIpAddressCount":"java.lang.Integer",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-setPrivateIpAddress":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-withPrivateIpAddress":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-setDeviceIndex":"java.lang.Integer",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-setSubnetId":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-withSubnetId":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-withDeviceIndex":"java.lang.Integer",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-setDescription":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-withDescription":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-setDeleteOnTermination":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-withDeleteOnTermination":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-setAssociatePublicIpAddress":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-withAssociatePublicIpAddress":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-setAddressingType":"java.lang.String",
+		"withSpotFleetRequestConfig-setLaunchSpecifications-withAddressingType":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setWeightedCapacity":"java.lang.Double",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withWeightedCapacity":"java.lang.Double",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withInstanceType":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setTagSpecifications-setResourceType":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setTagSpecifications-withResourceType":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setTagSpecifications-setTags-withValue":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setTagSpecifications-setTags-setKey":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setTagSpecifications-setTags-withKey":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setTagSpecifications-setTags-setValue":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setTagSpecifications-withTags-withValue":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setTagSpecifications-withTags-setKey":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setTagSpecifications-withTags-withKey":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setTagSpecifications-withTags-setValue":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withTagSpecifications-setResourceType":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withTagSpecifications-withResourceType":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withTagSpecifications-setTags-withValue":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withTagSpecifications-setTags-setKey":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withTagSpecifications-setTags-withKey":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withTagSpecifications-setTags-setValue":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withTagSpecifications-withTags-withValue":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withTagSpecifications-withTags-setKey":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withTagSpecifications-withTags-withKey":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withTagSpecifications-withTags-setValue":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withIamInstanceProfile-withName":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withIamInstanceProfile-setArn":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withIamInstanceProfile-withArn":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withIamInstanceProfile-setName":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setSubnetId":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withSubnetId":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setIamInstanceProfile-withName":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setIamInstanceProfile-setArn":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setIamInstanceProfile-withArn":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setIamInstanceProfile-setName":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setEbsOptimized":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withEbsOptimized":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withKeyName":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setKeyName":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-setEbs-setEncrypted":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-setEbs-withEncrypted":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-setEbs-setKmsKeyId":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-setEbs-withKmsKeyId":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-setEbs-setIops":"java.lang.Integer",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-setEbs-withIops":"java.lang.Integer",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-setEbs-setSnapshotId":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-setEbs-withSnapshotId":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-setEbs-withVolumeType":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-setEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-setEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-setEbs-setVolumeSize":"java.lang.Integer",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-setEbs-withVolumeSize":"java.lang.Integer",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-setDeviceName":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-withDeviceName":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-withEbs-setEncrypted":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-withEbs-withEncrypted":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-withEbs-setKmsKeyId":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-withEbs-withKmsKeyId":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-withEbs-setIops":"java.lang.Integer",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-withEbs-withIops":"java.lang.Integer",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-withEbs-setSnapshotId":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-withEbs-withSnapshotId":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-withEbs-withVolumeType":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-withEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-withEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-withEbs-setVolumeSize":"java.lang.Integer",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-withEbs-withVolumeSize":"java.lang.Integer",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-setNoDevice":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-withNoDevice":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-setVirtualName":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-withVirtualName":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-setEbs-setEncrypted":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-setEbs-withEncrypted":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-setEbs-setKmsKeyId":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-setEbs-withKmsKeyId":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-setEbs-setIops":"java.lang.Integer",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-setEbs-withIops":"java.lang.Integer",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-setEbs-setSnapshotId":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-setEbs-withSnapshotId":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-setEbs-withVolumeType":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-setEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-setEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-setEbs-setVolumeSize":"java.lang.Integer",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-setEbs-withVolumeSize":"java.lang.Integer",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-setDeviceName":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-withDeviceName":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-withEbs-setEncrypted":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-withEbs-withEncrypted":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-withEbs-setKmsKeyId":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-withEbs-withKmsKeyId":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-withEbs-setIops":"java.lang.Integer",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-withEbs-withIops":"java.lang.Integer",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-withEbs-setSnapshotId":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-withEbs-withSnapshotId":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-withEbs-withVolumeType":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-withEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-withEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-withEbs-setVolumeSize":"java.lang.Integer",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-withEbs-withVolumeSize":"java.lang.Integer",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-setNoDevice":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-withNoDevice":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-setVirtualName":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-withVirtualName":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setImageId":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withImageId":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setUserData":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withUserData":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setKernelId":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withKernelId":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setRamdiskId":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withRamdiskId":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setSpotPrice":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withSpotPrice":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setMonitoring-withEnabled":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setMonitoring-setEnabled":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withMonitoring-withEnabled":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withMonitoring-setEnabled":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setPlacement-setAvailabilityZone":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setPlacement-withAvailabilityZone":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setPlacement-setGroupName":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setPlacement-withGroupName":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setPlacement-withTenancy":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withPlacement-setAvailabilityZone":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withPlacement-withAvailabilityZone":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withPlacement-setGroupName":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withPlacement-withGroupName":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withPlacement-withTenancy":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setSecurityGroups-setGroupName":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setSecurityGroups-withGroupName":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setSecurityGroups-setGroupId":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setSecurityGroups-withGroupId":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withSecurityGroups-setGroupName":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withSecurityGroups-withGroupName":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withSecurityGroups-setGroupId":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withSecurityGroups-withGroupId":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-setIpv6AddressCount":"java.lang.Integer",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-withIpv6AddressCount":"java.lang.Integer",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-setIpv6Addresses-setIpv6Address":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-setIpv6Addresses-withIpv6Address":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-withIpv6Addresses-setIpv6Address":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-withIpv6Addresses-withIpv6Address":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-setNetworkInterfaceId":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-withNetworkInterfaceId":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-setPrivateIpAddresses-setPrivateIpAddress":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-setPrivateIpAddresses-withPrivateIpAddress":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-setPrivateIpAddresses-setPrimary":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-setPrivateIpAddresses-withPrimary":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-withPrivateIpAddresses-setPrivateIpAddress":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-withPrivateIpAddresses-withPrivateIpAddress":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-withPrivateIpAddresses-setPrimary":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-withPrivateIpAddresses-withPrimary":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-setSecondaryPrivateIpAddressCount":"java.lang.Integer",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-withSecondaryPrivateIpAddressCount":"java.lang.Integer",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-setPrivateIpAddress":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-withPrivateIpAddress":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-setDeviceIndex":"java.lang.Integer",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-setSubnetId":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-withSubnetId":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-withDeviceIndex":"java.lang.Integer",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-setDescription":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-withDescription":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-setDeleteOnTermination":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-withDeleteOnTermination":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-setAssociatePublicIpAddress":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-withAssociatePublicIpAddress":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-setIpv6AddressCount":"java.lang.Integer",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-withIpv6AddressCount":"java.lang.Integer",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-setIpv6Addresses-setIpv6Address":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-setIpv6Addresses-withIpv6Address":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-withIpv6Addresses-setIpv6Address":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-withIpv6Addresses-withIpv6Address":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-setNetworkInterfaceId":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-withNetworkInterfaceId":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-setPrivateIpAddresses-setPrivateIpAddress":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-setPrivateIpAddresses-withPrivateIpAddress":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-setPrivateIpAddresses-setPrimary":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-setPrivateIpAddresses-withPrimary":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-withPrivateIpAddresses-setPrivateIpAddress":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-withPrivateIpAddresses-withPrivateIpAddress":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-withPrivateIpAddresses-setPrimary":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-withPrivateIpAddresses-withPrimary":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-setSecondaryPrivateIpAddressCount":"java.lang.Integer",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-withSecondaryPrivateIpAddressCount":"java.lang.Integer",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-setPrivateIpAddress":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-withPrivateIpAddress":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-setDeviceIndex":"java.lang.Integer",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-setSubnetId":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-withSubnetId":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-withDeviceIndex":"java.lang.Integer",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-setDescription":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-withDescription":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-setDeleteOnTermination":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-withDeleteOnTermination":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-setAssociatePublicIpAddress":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-withAssociatePublicIpAddress":"java.lang.Boolean",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-setAddressingType":"java.lang.String",
+		"withSpotFleetRequestConfig-withLaunchSpecifications-withAddressingType":"java.lang.String",
+		"withSpotFleetRequestConfig-setLoadBalancersConfig-setClassicLoadBalancersConfig-setClassicLoadBalancers-withName":"java.lang.String",
+		"withSpotFleetRequestConfig-setLoadBalancersConfig-setClassicLoadBalancersConfig-setClassicLoadBalancers-setName":"java.lang.String",
+		"withSpotFleetRequestConfig-setLoadBalancersConfig-setClassicLoadBalancersConfig-withClassicLoadBalancers-withName":"java.lang.String",
+		"withSpotFleetRequestConfig-setLoadBalancersConfig-setClassicLoadBalancersConfig-withClassicLoadBalancers-setName":"java.lang.String",
+		"withSpotFleetRequestConfig-setLoadBalancersConfig-withClassicLoadBalancersConfig-setClassicLoadBalancers-withName":"java.lang.String",
+		"withSpotFleetRequestConfig-setLoadBalancersConfig-withClassicLoadBalancersConfig-setClassicLoadBalancers-setName":"java.lang.String",
+		"withSpotFleetRequestConfig-setLoadBalancersConfig-withClassicLoadBalancersConfig-withClassicLoadBalancers-withName":"java.lang.String",
+		"withSpotFleetRequestConfig-setLoadBalancersConfig-withClassicLoadBalancersConfig-withClassicLoadBalancers-setName":"java.lang.String",
+		"withSpotFleetRequestConfig-setLoadBalancersConfig-setTargetGroupsConfig-setTargetGroups-setArn":"java.lang.String",
+		"withSpotFleetRequestConfig-setLoadBalancersConfig-setTargetGroupsConfig-setTargetGroups-withArn":"java.lang.String",
+		"withSpotFleetRequestConfig-setLoadBalancersConfig-setTargetGroupsConfig-withTargetGroups-setArn":"java.lang.String",
+		"withSpotFleetRequestConfig-setLoadBalancersConfig-setTargetGroupsConfig-withTargetGroups-withArn":"java.lang.String",
+		"withSpotFleetRequestConfig-setLoadBalancersConfig-withTargetGroupsConfig-setTargetGroups-setArn":"java.lang.String",
+		"withSpotFleetRequestConfig-setLoadBalancersConfig-withTargetGroupsConfig-setTargetGroups-withArn":"java.lang.String",
+		"withSpotFleetRequestConfig-setLoadBalancersConfig-withTargetGroupsConfig-withTargetGroups-setArn":"java.lang.String",
+		"withSpotFleetRequestConfig-setLoadBalancersConfig-withTargetGroupsConfig-withTargetGroups-withArn":"java.lang.String",
+		"withSpotFleetRequestConfig-withLoadBalancersConfig-setClassicLoadBalancersConfig-setClassicLoadBalancers-withName":"java.lang.String",
+		"withSpotFleetRequestConfig-withLoadBalancersConfig-setClassicLoadBalancersConfig-setClassicLoadBalancers-setName":"java.lang.String",
+		"withSpotFleetRequestConfig-withLoadBalancersConfig-setClassicLoadBalancersConfig-withClassicLoadBalancers-withName":"java.lang.String",
+		"withSpotFleetRequestConfig-withLoadBalancersConfig-setClassicLoadBalancersConfig-withClassicLoadBalancers-setName":"java.lang.String",
+		"withSpotFleetRequestConfig-withLoadBalancersConfig-withClassicLoadBalancersConfig-setClassicLoadBalancers-withName":"java.lang.String",
+		"withSpotFleetRequestConfig-withLoadBalancersConfig-withClassicLoadBalancersConfig-setClassicLoadBalancers-setName":"java.lang.String",
+		"withSpotFleetRequestConfig-withLoadBalancersConfig-withClassicLoadBalancersConfig-withClassicLoadBalancers-withName":"java.lang.String",
+		"withSpotFleetRequestConfig-withLoadBalancersConfig-withClassicLoadBalancersConfig-withClassicLoadBalancers-setName":"java.lang.String",
+		"withSpotFleetRequestConfig-withLoadBalancersConfig-setTargetGroupsConfig-setTargetGroups-setArn":"java.lang.String",
+		"withSpotFleetRequestConfig-withLoadBalancersConfig-setTargetGroupsConfig-setTargetGroups-withArn":"java.lang.String",
+		"withSpotFleetRequestConfig-withLoadBalancersConfig-setTargetGroupsConfig-withTargetGroups-setArn":"java.lang.String",
+		"withSpotFleetRequestConfig-withLoadBalancersConfig-setTargetGroupsConfig-withTargetGroups-withArn":"java.lang.String",
+		"withSpotFleetRequestConfig-withLoadBalancersConfig-withTargetGroupsConfig-setTargetGroups-setArn":"java.lang.String",
+		"withSpotFleetRequestConfig-withLoadBalancersConfig-withTargetGroupsConfig-setTargetGroups-withArn":"java.lang.String",
+		"withSpotFleetRequestConfig-withLoadBalancersConfig-withTargetGroupsConfig-withTargetGroups-setArn":"java.lang.String",
+		"withSpotFleetRequestConfig-withLoadBalancersConfig-withTargetGroupsConfig-withTargetGroups-withArn":"java.lang.String",
+		"setSpotFleetRequestConfig-setAllocationStrategy":"java.lang.String",
+		"setSpotFleetRequestConfig-setInstancePoolsToUseCount":"java.lang.Integer",
+		"setSpotFleetRequestConfig-withInstancePoolsToUseCount":"java.lang.Integer",
+		"setSpotFleetRequestConfig-setClientToken":"java.lang.String",
+		"setSpotFleetRequestConfig-withClientToken":"java.lang.String",
+		"setSpotFleetRequestConfig-withType":"java.lang.String",
+		"setSpotFleetRequestConfig-setExcessCapacityTerminationPolicy":"java.lang.String",
+		"setSpotFleetRequestConfig-withExcessCapacityTerminationPolicy":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchTemplateConfigs-withOverrides-setWeightedCapacity":"java.lang.Double",
+		"setSpotFleetRequestConfig-setLaunchTemplateConfigs-withOverrides-withWeightedCapacity":"java.lang.Double",
+		"setSpotFleetRequestConfig-setLaunchTemplateConfigs-withOverrides-withPriority":"java.lang.Double",
+		"setSpotFleetRequestConfig-setLaunchTemplateConfigs-withOverrides-setAvailabilityZone":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchTemplateConfigs-withOverrides-withAvailabilityZone":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchTemplateConfigs-withOverrides-setInstanceType":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchTemplateConfigs-withOverrides-setSubnetId":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchTemplateConfigs-withOverrides-withSubnetId":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchTemplateConfigs-withOverrides-setSpotPrice":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchTemplateConfigs-withOverrides-withSpotPrice":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchTemplateConfigs-withOverrides-setPriority":"java.lang.Double",
+		"setSpotFleetRequestConfig-setLaunchTemplateConfigs-setOverrides-setWeightedCapacity":"java.lang.Double",
+		"setSpotFleetRequestConfig-setLaunchTemplateConfigs-setOverrides-withWeightedCapacity":"java.lang.Double",
+		"setSpotFleetRequestConfig-setLaunchTemplateConfigs-setOverrides-withPriority":"java.lang.Double",
+		"setSpotFleetRequestConfig-setLaunchTemplateConfigs-setOverrides-setAvailabilityZone":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchTemplateConfigs-setOverrides-withAvailabilityZone":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchTemplateConfigs-setOverrides-setInstanceType":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchTemplateConfigs-setOverrides-setSubnetId":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchTemplateConfigs-setOverrides-withSubnetId":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchTemplateConfigs-setOverrides-setSpotPrice":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchTemplateConfigs-setOverrides-withSpotPrice":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchTemplateConfigs-setOverrides-setPriority":"java.lang.Double",
+		"setSpotFleetRequestConfig-setLaunchTemplateConfigs-setLaunchTemplateSpecification-withLaunchTemplateName":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchTemplateConfigs-setLaunchTemplateSpecification-setLaunchTemplateName":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchTemplateConfigs-setLaunchTemplateSpecification-setLaunchTemplateId":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchTemplateConfigs-setLaunchTemplateSpecification-withLaunchTemplateId":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchTemplateConfigs-setLaunchTemplateSpecification-setVersion":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchTemplateConfigs-setLaunchTemplateSpecification-withVersion":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchTemplateConfigs-withLaunchTemplateSpecification-withLaunchTemplateName":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchTemplateConfigs-withLaunchTemplateSpecification-setLaunchTemplateName":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchTemplateConfigs-withLaunchTemplateSpecification-setLaunchTemplateId":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchTemplateConfigs-withLaunchTemplateSpecification-withLaunchTemplateId":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchTemplateConfigs-withLaunchTemplateSpecification-setVersion":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchTemplateConfigs-withLaunchTemplateSpecification-withVersion":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchTemplateConfigs-withOverrides-setWeightedCapacity":"java.lang.Double",
+		"setSpotFleetRequestConfig-withLaunchTemplateConfigs-withOverrides-withWeightedCapacity":"java.lang.Double",
+		"setSpotFleetRequestConfig-withLaunchTemplateConfigs-withOverrides-withPriority":"java.lang.Double",
+		"setSpotFleetRequestConfig-withLaunchTemplateConfigs-withOverrides-setAvailabilityZone":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchTemplateConfigs-withOverrides-withAvailabilityZone":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchTemplateConfigs-withOverrides-setInstanceType":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchTemplateConfigs-withOverrides-setSubnetId":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchTemplateConfigs-withOverrides-withSubnetId":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchTemplateConfigs-withOverrides-setSpotPrice":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchTemplateConfigs-withOverrides-withSpotPrice":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchTemplateConfigs-withOverrides-setPriority":"java.lang.Double",
+		"setSpotFleetRequestConfig-withLaunchTemplateConfigs-setOverrides-setWeightedCapacity":"java.lang.Double",
+		"setSpotFleetRequestConfig-withLaunchTemplateConfigs-setOverrides-withWeightedCapacity":"java.lang.Double",
+		"setSpotFleetRequestConfig-withLaunchTemplateConfigs-setOverrides-withPriority":"java.lang.Double",
+		"setSpotFleetRequestConfig-withLaunchTemplateConfigs-setOverrides-setAvailabilityZone":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchTemplateConfigs-setOverrides-withAvailabilityZone":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchTemplateConfigs-setOverrides-setInstanceType":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchTemplateConfigs-setOverrides-setSubnetId":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchTemplateConfigs-setOverrides-withSubnetId":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchTemplateConfigs-setOverrides-setSpotPrice":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchTemplateConfigs-setOverrides-withSpotPrice":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchTemplateConfigs-setOverrides-setPriority":"java.lang.Double",
+		"setSpotFleetRequestConfig-withLaunchTemplateConfigs-setLaunchTemplateSpecification-withLaunchTemplateName":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchTemplateConfigs-setLaunchTemplateSpecification-setLaunchTemplateName":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchTemplateConfigs-setLaunchTemplateSpecification-setLaunchTemplateId":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchTemplateConfigs-setLaunchTemplateSpecification-withLaunchTemplateId":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchTemplateConfigs-setLaunchTemplateSpecification-setVersion":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchTemplateConfigs-setLaunchTemplateSpecification-withVersion":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchTemplateConfigs-withLaunchTemplateSpecification-withLaunchTemplateName":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchTemplateConfigs-withLaunchTemplateSpecification-setLaunchTemplateName":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchTemplateConfigs-withLaunchTemplateSpecification-setLaunchTemplateId":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchTemplateConfigs-withLaunchTemplateSpecification-withLaunchTemplateId":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchTemplateConfigs-withLaunchTemplateSpecification-setVersion":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchTemplateConfigs-withLaunchTemplateSpecification-withVersion":"java.lang.String",
+		"setSpotFleetRequestConfig-setTerminateInstancesWithExpiration":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-withTerminateInstancesWithExpiration":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-setValidFrom-setDate":"int",
+		"setSpotFleetRequestConfig-setValidFrom-setHours":"int",
+		"setSpotFleetRequestConfig-setValidFrom-setMinutes":"int",
+		"setSpotFleetRequestConfig-setValidFrom-setMonth":"int",
+		"setSpotFleetRequestConfig-setValidFrom-setSeconds":"int",
+		"setSpotFleetRequestConfig-setValidFrom-setYear":"int",
+		"setSpotFleetRequestConfig-setValidFrom-setTime":"long",
+		"setSpotFleetRequestConfig-withValidFrom-setDate":"int",
+		"setSpotFleetRequestConfig-withValidFrom-setHours":"int",
+		"setSpotFleetRequestConfig-withValidFrom-setMinutes":"int",
+		"setSpotFleetRequestConfig-withValidFrom-setMonth":"int",
+		"setSpotFleetRequestConfig-withValidFrom-setSeconds":"int",
+		"setSpotFleetRequestConfig-withValidFrom-setYear":"int",
+		"setSpotFleetRequestConfig-withValidFrom-setTime":"long",
+		"setSpotFleetRequestConfig-setValidUntil-setDate":"int",
+		"setSpotFleetRequestConfig-setValidUntil-setHours":"int",
+		"setSpotFleetRequestConfig-setValidUntil-setMinutes":"int",
+		"setSpotFleetRequestConfig-setValidUntil-setMonth":"int",
+		"setSpotFleetRequestConfig-setValidUntil-setSeconds":"int",
+		"setSpotFleetRequestConfig-setValidUntil-setYear":"int",
+		"setSpotFleetRequestConfig-setValidUntil-setTime":"long",
+		"setSpotFleetRequestConfig-withValidUntil-setDate":"int",
+		"setSpotFleetRequestConfig-withValidUntil-setHours":"int",
+		"setSpotFleetRequestConfig-withValidUntil-setMinutes":"int",
+		"setSpotFleetRequestConfig-withValidUntil-setMonth":"int",
+		"setSpotFleetRequestConfig-withValidUntil-setSeconds":"int",
+		"setSpotFleetRequestConfig-withValidUntil-setYear":"int",
+		"setSpotFleetRequestConfig-withValidUntil-setTime":"long",
+		"setSpotFleetRequestConfig-setReplaceUnhealthyInstances":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-withReplaceUnhealthyInstances":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-setTargetCapacity":"java.lang.Integer",
+		"setSpotFleetRequestConfig-withTargetCapacity":"java.lang.Integer",
+		"setSpotFleetRequestConfig-setSpotPrice":"java.lang.String",
+		"setSpotFleetRequestConfig-withSpotPrice":"java.lang.String",
+		"setSpotFleetRequestConfig-withInstanceInterruptionBehavior":"java.lang.String",
+		"setSpotFleetRequestConfig-setOnDemandTargetCapacity":"java.lang.Integer",
+		"setSpotFleetRequestConfig-withOnDemandTargetCapacity":"java.lang.Integer",
+		"setSpotFleetRequestConfig-setOnDemandAllocationStrategy":"java.lang.String",
+		"setSpotFleetRequestConfig-withOnDemandAllocationStrategy":"java.lang.String",
+		"setSpotFleetRequestConfig-setFulfilledCapacity":"java.lang.Double",
+		"setSpotFleetRequestConfig-withFulfilledCapacity":"java.lang.Double",
+		"setSpotFleetRequestConfig-setOnDemandFulfilledCapacity":"java.lang.Double",
+		"setSpotFleetRequestConfig-withOnDemandFulfilledCapacity":"java.lang.Double",
+		"setSpotFleetRequestConfig-setIamFleetRole":"java.lang.String",
+		"setSpotFleetRequestConfig-withIamFleetRole":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setWeightedCapacity":"java.lang.Double",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withWeightedCapacity":"java.lang.Double",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withInstanceType":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setTagSpecifications-setResourceType":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setTagSpecifications-withResourceType":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setTagSpecifications-setTags-withValue":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setTagSpecifications-setTags-setKey":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setTagSpecifications-setTags-withKey":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setTagSpecifications-setTags-setValue":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setTagSpecifications-withTags-withValue":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setTagSpecifications-withTags-setKey":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setTagSpecifications-withTags-withKey":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setTagSpecifications-withTags-setValue":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withTagSpecifications-setResourceType":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withTagSpecifications-withResourceType":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withTagSpecifications-setTags-withValue":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withTagSpecifications-setTags-setKey":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withTagSpecifications-setTags-withKey":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withTagSpecifications-setTags-setValue":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withTagSpecifications-withTags-withValue":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withTagSpecifications-withTags-setKey":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withTagSpecifications-withTags-withKey":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withTagSpecifications-withTags-setValue":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withIamInstanceProfile-withName":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withIamInstanceProfile-setArn":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withIamInstanceProfile-withArn":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withIamInstanceProfile-setName":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setSubnetId":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withSubnetId":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setIamInstanceProfile-withName":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setIamInstanceProfile-setArn":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setIamInstanceProfile-withArn":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setIamInstanceProfile-setName":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setEbsOptimized":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withEbsOptimized":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withKeyName":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setKeyName":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-setEbs-setEncrypted":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-setEbs-withEncrypted":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-setEbs-setKmsKeyId":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-setEbs-withKmsKeyId":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-setEbs-setIops":"java.lang.Integer",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-setEbs-withIops":"java.lang.Integer",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-setEbs-setSnapshotId":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-setEbs-withSnapshotId":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-setEbs-withVolumeType":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-setEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-setEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-setEbs-setVolumeSize":"java.lang.Integer",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-setEbs-withVolumeSize":"java.lang.Integer",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-setDeviceName":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-withDeviceName":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-withEbs-setEncrypted":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-withEbs-withEncrypted":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-withEbs-setKmsKeyId":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-withEbs-withKmsKeyId":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-withEbs-setIops":"java.lang.Integer",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-withEbs-withIops":"java.lang.Integer",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-withEbs-setSnapshotId":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-withEbs-withSnapshotId":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-withEbs-withVolumeType":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-withEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-withEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-withEbs-setVolumeSize":"java.lang.Integer",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-withEbs-withVolumeSize":"java.lang.Integer",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-setNoDevice":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-withNoDevice":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-setVirtualName":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setBlockDeviceMappings-withVirtualName":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-setEbs-setEncrypted":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-setEbs-withEncrypted":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-setEbs-setKmsKeyId":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-setEbs-withKmsKeyId":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-setEbs-setIops":"java.lang.Integer",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-setEbs-withIops":"java.lang.Integer",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-setEbs-setSnapshotId":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-setEbs-withSnapshotId":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-setEbs-withVolumeType":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-setEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-setEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-setEbs-setVolumeSize":"java.lang.Integer",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-setEbs-withVolumeSize":"java.lang.Integer",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-setDeviceName":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-withDeviceName":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-withEbs-setEncrypted":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-withEbs-withEncrypted":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-withEbs-setKmsKeyId":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-withEbs-withKmsKeyId":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-withEbs-setIops":"java.lang.Integer",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-withEbs-withIops":"java.lang.Integer",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-withEbs-setSnapshotId":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-withEbs-withSnapshotId":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-withEbs-withVolumeType":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-withEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-withEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-withEbs-setVolumeSize":"java.lang.Integer",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-withEbs-withVolumeSize":"java.lang.Integer",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-setNoDevice":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-withNoDevice":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-setVirtualName":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withBlockDeviceMappings-withVirtualName":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setImageId":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withImageId":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setUserData":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withUserData":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setKernelId":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withKernelId":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setRamdiskId":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withRamdiskId":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setSpotPrice":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withSpotPrice":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setMonitoring-withEnabled":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setMonitoring-setEnabled":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withMonitoring-withEnabled":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withMonitoring-setEnabled":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setPlacement-setAvailabilityZone":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setPlacement-withAvailabilityZone":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setPlacement-setGroupName":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setPlacement-withGroupName":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setPlacement-withTenancy":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withPlacement-setAvailabilityZone":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withPlacement-withAvailabilityZone":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withPlacement-setGroupName":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withPlacement-withGroupName":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withPlacement-withTenancy":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setSecurityGroups-setGroupName":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setSecurityGroups-withGroupName":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setSecurityGroups-setGroupId":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setSecurityGroups-withGroupId":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withSecurityGroups-setGroupName":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withSecurityGroups-withGroupName":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withSecurityGroups-setGroupId":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withSecurityGroups-withGroupId":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-setIpv6AddressCount":"java.lang.Integer",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-withIpv6AddressCount":"java.lang.Integer",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-setIpv6Addresses-setIpv6Address":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-setIpv6Addresses-withIpv6Address":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-withIpv6Addresses-setIpv6Address":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-withIpv6Addresses-withIpv6Address":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-setNetworkInterfaceId":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-withNetworkInterfaceId":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-setPrivateIpAddresses-setPrivateIpAddress":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-setPrivateIpAddresses-withPrivateIpAddress":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-setPrivateIpAddresses-setPrimary":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-setPrivateIpAddresses-withPrimary":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-withPrivateIpAddresses-setPrivateIpAddress":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-withPrivateIpAddresses-withPrivateIpAddress":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-withPrivateIpAddresses-setPrimary":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-withPrivateIpAddresses-withPrimary":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-setSecondaryPrivateIpAddressCount":"java.lang.Integer",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-withSecondaryPrivateIpAddressCount":"java.lang.Integer",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-setPrivateIpAddress":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-withPrivateIpAddress":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-setDeviceIndex":"java.lang.Integer",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-setSubnetId":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-withSubnetId":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-withDeviceIndex":"java.lang.Integer",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-setDescription":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-withDescription":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-setDeleteOnTermination":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-withDeleteOnTermination":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-setAssociatePublicIpAddress":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setNetworkInterfaces-withAssociatePublicIpAddress":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-setIpv6AddressCount":"java.lang.Integer",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-withIpv6AddressCount":"java.lang.Integer",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-setIpv6Addresses-setIpv6Address":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-setIpv6Addresses-withIpv6Address":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-withIpv6Addresses-setIpv6Address":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-withIpv6Addresses-withIpv6Address":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-setNetworkInterfaceId":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-withNetworkInterfaceId":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-setPrivateIpAddresses-setPrivateIpAddress":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-setPrivateIpAddresses-withPrivateIpAddress":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-setPrivateIpAddresses-setPrimary":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-setPrivateIpAddresses-withPrimary":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-withPrivateIpAddresses-setPrivateIpAddress":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-withPrivateIpAddresses-withPrivateIpAddress":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-withPrivateIpAddresses-setPrimary":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-withPrivateIpAddresses-withPrimary":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-setSecondaryPrivateIpAddressCount":"java.lang.Integer",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-withSecondaryPrivateIpAddressCount":"java.lang.Integer",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-setPrivateIpAddress":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-withPrivateIpAddress":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-setDeviceIndex":"java.lang.Integer",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-setSubnetId":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-withSubnetId":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-withDeviceIndex":"java.lang.Integer",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-setDescription":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-withDescription":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-setDeleteOnTermination":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-withDeleteOnTermination":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-setAssociatePublicIpAddress":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withNetworkInterfaces-withAssociatePublicIpAddress":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-setAddressingType":"java.lang.String",
+		"setSpotFleetRequestConfig-setLaunchSpecifications-withAddressingType":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setWeightedCapacity":"java.lang.Double",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withWeightedCapacity":"java.lang.Double",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withInstanceType":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setTagSpecifications-setResourceType":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setTagSpecifications-withResourceType":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setTagSpecifications-setTags-withValue":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setTagSpecifications-setTags-setKey":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setTagSpecifications-setTags-withKey":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setTagSpecifications-setTags-setValue":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setTagSpecifications-withTags-withValue":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setTagSpecifications-withTags-setKey":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setTagSpecifications-withTags-withKey":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setTagSpecifications-withTags-setValue":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withTagSpecifications-setResourceType":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withTagSpecifications-withResourceType":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withTagSpecifications-setTags-withValue":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withTagSpecifications-setTags-setKey":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withTagSpecifications-setTags-withKey":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withTagSpecifications-setTags-setValue":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withTagSpecifications-withTags-withValue":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withTagSpecifications-withTags-setKey":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withTagSpecifications-withTags-withKey":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withTagSpecifications-withTags-setValue":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withIamInstanceProfile-withName":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withIamInstanceProfile-setArn":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withIamInstanceProfile-withArn":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withIamInstanceProfile-setName":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setSubnetId":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withSubnetId":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setIamInstanceProfile-withName":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setIamInstanceProfile-setArn":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setIamInstanceProfile-withArn":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setIamInstanceProfile-setName":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setEbsOptimized":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withEbsOptimized":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withKeyName":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setKeyName":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-setEbs-setEncrypted":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-setEbs-withEncrypted":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-setEbs-setKmsKeyId":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-setEbs-withKmsKeyId":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-setEbs-setIops":"java.lang.Integer",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-setEbs-withIops":"java.lang.Integer",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-setEbs-setSnapshotId":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-setEbs-withSnapshotId":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-setEbs-withVolumeType":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-setEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-setEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-setEbs-setVolumeSize":"java.lang.Integer",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-setEbs-withVolumeSize":"java.lang.Integer",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-setDeviceName":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-withDeviceName":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-withEbs-setEncrypted":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-withEbs-withEncrypted":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-withEbs-setKmsKeyId":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-withEbs-withKmsKeyId":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-withEbs-setIops":"java.lang.Integer",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-withEbs-withIops":"java.lang.Integer",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-withEbs-setSnapshotId":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-withEbs-withSnapshotId":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-withEbs-withVolumeType":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-withEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-withEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-withEbs-setVolumeSize":"java.lang.Integer",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-withEbs-withVolumeSize":"java.lang.Integer",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-setNoDevice":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-withNoDevice":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-setVirtualName":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setBlockDeviceMappings-withVirtualName":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-setEbs-setEncrypted":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-setEbs-withEncrypted":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-setEbs-setKmsKeyId":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-setEbs-withKmsKeyId":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-setEbs-setIops":"java.lang.Integer",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-setEbs-withIops":"java.lang.Integer",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-setEbs-setSnapshotId":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-setEbs-withSnapshotId":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-setEbs-withVolumeType":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-setEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-setEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-setEbs-setVolumeSize":"java.lang.Integer",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-setEbs-withVolumeSize":"java.lang.Integer",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-setDeviceName":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-withDeviceName":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-withEbs-setEncrypted":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-withEbs-withEncrypted":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-withEbs-setKmsKeyId":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-withEbs-withKmsKeyId":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-withEbs-setIops":"java.lang.Integer",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-withEbs-withIops":"java.lang.Integer",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-withEbs-setSnapshotId":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-withEbs-withSnapshotId":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-withEbs-withVolumeType":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-withEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-withEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-withEbs-setVolumeSize":"java.lang.Integer",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-withEbs-withVolumeSize":"java.lang.Integer",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-setNoDevice":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-withNoDevice":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-setVirtualName":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withBlockDeviceMappings-withVirtualName":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setImageId":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withImageId":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setUserData":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withUserData":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setKernelId":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withKernelId":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setRamdiskId":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withRamdiskId":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setSpotPrice":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withSpotPrice":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setMonitoring-withEnabled":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setMonitoring-setEnabled":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withMonitoring-withEnabled":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withMonitoring-setEnabled":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setPlacement-setAvailabilityZone":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setPlacement-withAvailabilityZone":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setPlacement-setGroupName":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setPlacement-withGroupName":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setPlacement-withTenancy":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withPlacement-setAvailabilityZone":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withPlacement-withAvailabilityZone":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withPlacement-setGroupName":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withPlacement-withGroupName":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withPlacement-withTenancy":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setSecurityGroups-setGroupName":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setSecurityGroups-withGroupName":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setSecurityGroups-setGroupId":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setSecurityGroups-withGroupId":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withSecurityGroups-setGroupName":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withSecurityGroups-withGroupName":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withSecurityGroups-setGroupId":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withSecurityGroups-withGroupId":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-setIpv6AddressCount":"java.lang.Integer",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-withIpv6AddressCount":"java.lang.Integer",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-setIpv6Addresses-setIpv6Address":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-setIpv6Addresses-withIpv6Address":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-withIpv6Addresses-setIpv6Address":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-withIpv6Addresses-withIpv6Address":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-setNetworkInterfaceId":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-withNetworkInterfaceId":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-setPrivateIpAddresses-setPrivateIpAddress":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-setPrivateIpAddresses-withPrivateIpAddress":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-setPrivateIpAddresses-setPrimary":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-setPrivateIpAddresses-withPrimary":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-withPrivateIpAddresses-setPrivateIpAddress":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-withPrivateIpAddresses-withPrivateIpAddress":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-withPrivateIpAddresses-setPrimary":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-withPrivateIpAddresses-withPrimary":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-setSecondaryPrivateIpAddressCount":"java.lang.Integer",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-withSecondaryPrivateIpAddressCount":"java.lang.Integer",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-setPrivateIpAddress":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-withPrivateIpAddress":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-setDeviceIndex":"java.lang.Integer",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-setSubnetId":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-withSubnetId":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-withDeviceIndex":"java.lang.Integer",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-setDescription":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-withDescription":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-setDeleteOnTermination":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-withDeleteOnTermination":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-setAssociatePublicIpAddress":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setNetworkInterfaces-withAssociatePublicIpAddress":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-setIpv6AddressCount":"java.lang.Integer",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-withIpv6AddressCount":"java.lang.Integer",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-setIpv6Addresses-setIpv6Address":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-setIpv6Addresses-withIpv6Address":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-withIpv6Addresses-setIpv6Address":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-withIpv6Addresses-withIpv6Address":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-setNetworkInterfaceId":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-withNetworkInterfaceId":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-setPrivateIpAddresses-setPrivateIpAddress":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-setPrivateIpAddresses-withPrivateIpAddress":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-setPrivateIpAddresses-setPrimary":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-setPrivateIpAddresses-withPrimary":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-withPrivateIpAddresses-setPrivateIpAddress":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-withPrivateIpAddresses-withPrivateIpAddress":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-withPrivateIpAddresses-setPrimary":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-withPrivateIpAddresses-withPrimary":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-setSecondaryPrivateIpAddressCount":"java.lang.Integer",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-withSecondaryPrivateIpAddressCount":"java.lang.Integer",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-setPrivateIpAddress":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-withPrivateIpAddress":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-setDeviceIndex":"java.lang.Integer",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-setSubnetId":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-withSubnetId":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-withDeviceIndex":"java.lang.Integer",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-setDescription":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-withDescription":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-setDeleteOnTermination":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-withDeleteOnTermination":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-setAssociatePublicIpAddress":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withNetworkInterfaces-withAssociatePublicIpAddress":"java.lang.Boolean",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-setAddressingType":"java.lang.String",
+		"setSpotFleetRequestConfig-withLaunchSpecifications-withAddressingType":"java.lang.String",
+		"setSpotFleetRequestConfig-setLoadBalancersConfig-setClassicLoadBalancersConfig-setClassicLoadBalancers-withName":"java.lang.String",
+		"setSpotFleetRequestConfig-setLoadBalancersConfig-setClassicLoadBalancersConfig-setClassicLoadBalancers-setName":"java.lang.String",
+		"setSpotFleetRequestConfig-setLoadBalancersConfig-setClassicLoadBalancersConfig-withClassicLoadBalancers-withName":"java.lang.String",
+		"setSpotFleetRequestConfig-setLoadBalancersConfig-setClassicLoadBalancersConfig-withClassicLoadBalancers-setName":"java.lang.String",
+		"setSpotFleetRequestConfig-setLoadBalancersConfig-withClassicLoadBalancersConfig-setClassicLoadBalancers-withName":"java.lang.String",
+		"setSpotFleetRequestConfig-setLoadBalancersConfig-withClassicLoadBalancersConfig-setClassicLoadBalancers-setName":"java.lang.String",
+		"setSpotFleetRequestConfig-setLoadBalancersConfig-withClassicLoadBalancersConfig-withClassicLoadBalancers-withName":"java.lang.String",
+		"setSpotFleetRequestConfig-setLoadBalancersConfig-withClassicLoadBalancersConfig-withClassicLoadBalancers-setName":"java.lang.String",
+		"setSpotFleetRequestConfig-setLoadBalancersConfig-setTargetGroupsConfig-setTargetGroups-setArn":"java.lang.String",
+		"setSpotFleetRequestConfig-setLoadBalancersConfig-setTargetGroupsConfig-setTargetGroups-withArn":"java.lang.String",
+		"setSpotFleetRequestConfig-setLoadBalancersConfig-setTargetGroupsConfig-withTargetGroups-setArn":"java.lang.String",
+		"setSpotFleetRequestConfig-setLoadBalancersConfig-setTargetGroupsConfig-withTargetGroups-withArn":"java.lang.String",
+		"setSpotFleetRequestConfig-setLoadBalancersConfig-withTargetGroupsConfig-setTargetGroups-setArn":"java.lang.String",
+		"setSpotFleetRequestConfig-setLoadBalancersConfig-withTargetGroupsConfig-setTargetGroups-withArn":"java.lang.String",
+		"setSpotFleetRequestConfig-setLoadBalancersConfig-withTargetGroupsConfig-withTargetGroups-setArn":"java.lang.String",
+		"setSpotFleetRequestConfig-setLoadBalancersConfig-withTargetGroupsConfig-withTargetGroups-withArn":"java.lang.String",
+		"setSpotFleetRequestConfig-withLoadBalancersConfig-setClassicLoadBalancersConfig-setClassicLoadBalancers-withName":"java.lang.String",
+		"setSpotFleetRequestConfig-withLoadBalancersConfig-setClassicLoadBalancersConfig-setClassicLoadBalancers-setName":"java.lang.String",
+		"setSpotFleetRequestConfig-withLoadBalancersConfig-setClassicLoadBalancersConfig-withClassicLoadBalancers-withName":"java.lang.String",
+		"setSpotFleetRequestConfig-withLoadBalancersConfig-setClassicLoadBalancersConfig-withClassicLoadBalancers-setName":"java.lang.String",
+		"setSpotFleetRequestConfig-withLoadBalancersConfig-withClassicLoadBalancersConfig-setClassicLoadBalancers-withName":"java.lang.String",
+		"setSpotFleetRequestConfig-withLoadBalancersConfig-withClassicLoadBalancersConfig-setClassicLoadBalancers-setName":"java.lang.String",
+		"setSpotFleetRequestConfig-withLoadBalancersConfig-withClassicLoadBalancersConfig-withClassicLoadBalancers-withName":"java.lang.String",
+		"setSpotFleetRequestConfig-withLoadBalancersConfig-withClassicLoadBalancersConfig-withClassicLoadBalancers-setName":"java.lang.String",
+		"setSpotFleetRequestConfig-withLoadBalancersConfig-setTargetGroupsConfig-setTargetGroups-setArn":"java.lang.String",
+		"setSpotFleetRequestConfig-withLoadBalancersConfig-setTargetGroupsConfig-setTargetGroups-withArn":"java.lang.String",
+		"setSpotFleetRequestConfig-withLoadBalancersConfig-setTargetGroupsConfig-withTargetGroups-setArn":"java.lang.String",
+		"setSpotFleetRequestConfig-withLoadBalancersConfig-setTargetGroupsConfig-withTargetGroups-withArn":"java.lang.String",
+		"setSpotFleetRequestConfig-withLoadBalancersConfig-withTargetGroupsConfig-setTargetGroups-setArn":"java.lang.String",
+		"setSpotFleetRequestConfig-withLoadBalancersConfig-withTargetGroupsConfig-setTargetGroups-withArn":"java.lang.String",
+		"setSpotFleetRequestConfig-withLoadBalancersConfig-withTargetGroupsConfig-withTargetGroups-setArn":"java.lang.String",
+		"setSpotFleetRequestConfig-withLoadBalancersConfig-withTargetGroupsConfig-withTargetGroups-withArn":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## StopInstances parameterss:
+
+```
+{
+	"main":{
+		"setForce":"java.lang.Boolean",
+		"withForce":"java.lang.Boolean",
+		"setHibernate":"java.lang.Boolean",
+		"withHibernate":"java.lang.Boolean",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## EnableTransitGatewayRouteTablePropagation parameterss:
+
+```
+{
+	"main":{
+		"withTransitGatewayAttachmentId":"java.lang.String",
+		"setTransitGatewayAttachmentId":"java.lang.String",
+		"setTransitGatewayRouteTableId":"java.lang.String",
+		"withTransitGatewayRouteTableId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeExportTasks parameterss:
+
+```
+{
+	"main":{
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## CreateRouteTable parameterss:
+
+```
+{
+	"main":{
+		"setVpcId":"java.lang.String",
+		"withVpcId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## AssociateAddress parameterss:
+
+```
+{
+	"main":{
+		"setNetworkInterfaceId":"java.lang.String",
+		"withNetworkInterfaceId":"java.lang.String",
+		"setAllocationId":"java.lang.String",
+		"withAllocationId":"java.lang.String",
+		"setInstanceId":"java.lang.String",
+		"withInstanceId":"java.lang.String",
+		"setPublicIp":"java.lang.String",
+		"withPublicIp":"java.lang.String",
+		"setAllowReassociation":"java.lang.Boolean",
+		"withAllowReassociation":"java.lang.Boolean",
+		"setPrivateIpAddress":"java.lang.String",
+		"withPrivateIpAddress":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## CreateCustomerGateway parameterss:
+
+```
+{
+	"main":{
+		"setPublicIp":"java.lang.String",
+		"withPublicIp":"java.lang.String",
+		"setBgpAsn":"java.lang.Integer",
+		"withBgpAsn":"java.lang.Integer",
+		"setType":"java.lang.String",
+		"withType":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeReservedInstancesListings parameterss:
+
+```
+{
+	"main":{
+		"setReservedInstancesListingId":"java.lang.String",
+		"withReservedInstancesListingId":"java.lang.String",
+		"setReservedInstancesId":"java.lang.String",
+		"withReservedInstancesId":"java.lang.String",
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribePublicIpv4Pools parameterss:
+
+```
+{
+	"main":{
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeTags parameterss:
+
+```
+{
+	"main":{
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DeleteEgressOnlyInternetGateway parameterss:
+
+```
+{
+	"main":{
+		"setEgressOnlyInternetGatewayId":"java.lang.String",
+		"withEgressOnlyInternetGatewayId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DeleteDhcpOptions parameterss:
+
+```
+{
+	"main":{
+		"setDhcpOptionsId":"java.lang.String",
+		"withDhcpOptionsId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeImages parameterss:
+
+```
+{
+	"main":{
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## AuthorizeSecurityGroupEgress parameterss:
+
+```
+{
+	"main":{
+		"setGroupId":"java.lang.String",
+		"withGroupId":"java.lang.String",
+		"setIpPermissions-setFromPort":"java.lang.Integer",
+		"setIpPermissions-withFromPort":"java.lang.Integer",
+		"setIpPermissions-setIpProtocol":"java.lang.String",
+		"setIpPermissions-withIpProtocol":"java.lang.String",
+		"setIpPermissions-setToPort":"java.lang.Integer",
+		"setIpPermissions-withToPort":"java.lang.Integer",
+		"setIpPermissions-setPrefixListIds-setDescription":"java.lang.String",
+		"setIpPermissions-setPrefixListIds-withDescription":"java.lang.String",
+		"setIpPermissions-setPrefixListIds-setPrefixListId":"java.lang.String",
+		"setIpPermissions-setPrefixListIds-withPrefixListId":"java.lang.String",
+		"setIpPermissions-withPrefixListIds-setDescription":"java.lang.String",
+		"setIpPermissions-withPrefixListIds-withDescription":"java.lang.String",
+		"setIpPermissions-withPrefixListIds-setPrefixListId":"java.lang.String",
+		"setIpPermissions-withPrefixListIds-withPrefixListId":"java.lang.String",
+		"setIpPermissions-setIpv6Ranges-setDescription":"java.lang.String",
+		"setIpPermissions-setIpv6Ranges-withDescription":"java.lang.String",
+		"setIpPermissions-setIpv6Ranges-setCidrIpv6":"java.lang.String",
+		"setIpPermissions-setIpv6Ranges-withCidrIpv6":"java.lang.String",
+		"setIpPermissions-withIpv6Ranges-setDescription":"java.lang.String",
+		"setIpPermissions-withIpv6Ranges-withDescription":"java.lang.String",
+		"setIpPermissions-withIpv6Ranges-setCidrIpv6":"java.lang.String",
+		"setIpPermissions-withIpv6Ranges-withCidrIpv6":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-setVpcPeeringConnectionId":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-setVpcId":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-withVpcId":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-withVpcPeeringConnectionId":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-setDescription":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-withDescription":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-setGroupName":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-withGroupName":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-setGroupId":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-withGroupId":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-withUserId":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-setUserId":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-setPeeringStatus":"java.lang.String",
+		"setIpPermissions-setUserIdGroupPairs-withPeeringStatus":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-setVpcPeeringConnectionId":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-setVpcId":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-withVpcId":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-withVpcPeeringConnectionId":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-setDescription":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-withDescription":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-setGroupName":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-withGroupName":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-setGroupId":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-withGroupId":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-withUserId":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-setUserId":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-setPeeringStatus":"java.lang.String",
+		"setIpPermissions-withUserIdGroupPairs-withPeeringStatus":"java.lang.String",
+		"setIpPermissions-setIpv4Ranges-setDescription":"java.lang.String",
+		"setIpPermissions-setIpv4Ranges-withDescription":"java.lang.String",
+		"setIpPermissions-setIpv4Ranges-setCidrIp":"java.lang.String",
+		"setIpPermissions-setIpv4Ranges-withCidrIp":"java.lang.String",
+		"setIpPermissions-withIpv4Ranges-setDescription":"java.lang.String",
+		"setIpPermissions-withIpv4Ranges-withDescription":"java.lang.String",
+		"setIpPermissions-withIpv4Ranges-setCidrIp":"java.lang.String",
+		"setIpPermissions-withIpv4Ranges-withCidrIp":"java.lang.String",
+		"withIpPermissions-setFromPort":"java.lang.Integer",
+		"withIpPermissions-withFromPort":"java.lang.Integer",
+		"withIpPermissions-setIpProtocol":"java.lang.String",
+		"withIpPermissions-withIpProtocol":"java.lang.String",
+		"withIpPermissions-setToPort":"java.lang.Integer",
+		"withIpPermissions-withToPort":"java.lang.Integer",
+		"withIpPermissions-setPrefixListIds-setDescription":"java.lang.String",
+		"withIpPermissions-setPrefixListIds-withDescription":"java.lang.String",
+		"withIpPermissions-setPrefixListIds-setPrefixListId":"java.lang.String",
+		"withIpPermissions-setPrefixListIds-withPrefixListId":"java.lang.String",
+		"withIpPermissions-withPrefixListIds-setDescription":"java.lang.String",
+		"withIpPermissions-withPrefixListIds-withDescription":"java.lang.String",
+		"withIpPermissions-withPrefixListIds-setPrefixListId":"java.lang.String",
+		"withIpPermissions-withPrefixListIds-withPrefixListId":"java.lang.String",
+		"withIpPermissions-setIpv6Ranges-setDescription":"java.lang.String",
+		"withIpPermissions-setIpv6Ranges-withDescription":"java.lang.String",
+		"withIpPermissions-setIpv6Ranges-setCidrIpv6":"java.lang.String",
+		"withIpPermissions-setIpv6Ranges-withCidrIpv6":"java.lang.String",
+		"withIpPermissions-withIpv6Ranges-setDescription":"java.lang.String",
+		"withIpPermissions-withIpv6Ranges-withDescription":"java.lang.String",
+		"withIpPermissions-withIpv6Ranges-setCidrIpv6":"java.lang.String",
+		"withIpPermissions-withIpv6Ranges-withCidrIpv6":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-setVpcPeeringConnectionId":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-setVpcId":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-withVpcId":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-withVpcPeeringConnectionId":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-setDescription":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-withDescription":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-setGroupName":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-withGroupName":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-setGroupId":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-withGroupId":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-withUserId":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-setUserId":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-setPeeringStatus":"java.lang.String",
+		"withIpPermissions-setUserIdGroupPairs-withPeeringStatus":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-setVpcPeeringConnectionId":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-setVpcId":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-withVpcId":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-withVpcPeeringConnectionId":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-setDescription":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-withDescription":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-setGroupName":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-withGroupName":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-setGroupId":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-withGroupId":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-withUserId":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-setUserId":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-setPeeringStatus":"java.lang.String",
+		"withIpPermissions-withUserIdGroupPairs-withPeeringStatus":"java.lang.String",
+		"withIpPermissions-setIpv4Ranges-setDescription":"java.lang.String",
+		"withIpPermissions-setIpv4Ranges-withDescription":"java.lang.String",
+		"withIpPermissions-setIpv4Ranges-setCidrIp":"java.lang.String",
+		"withIpPermissions-setIpv4Ranges-withCidrIp":"java.lang.String",
+		"withIpPermissions-withIpv4Ranges-setDescription":"java.lang.String",
+		"withIpPermissions-withIpv4Ranges-withDescription":"java.lang.String",
+		"withIpPermissions-withIpv4Ranges-setCidrIp":"java.lang.String",
+		"withIpPermissions-withIpv4Ranges-withCidrIp":"java.lang.String",
+		"setCidrIp":"java.lang.String",
+		"withCidrIp":"java.lang.String",
+		"setFromPort":"java.lang.Integer",
+		"withFromPort":"java.lang.Integer",
+		"setIpProtocol":"java.lang.String",
+		"withIpProtocol":"java.lang.String",
+		"setToPort":"java.lang.Integer",
+		"withToPort":"java.lang.Integer",
+		"setSourceSecurityGroupName":"java.lang.String",
+		"withSourceSecurityGroupName":"java.lang.String",
+		"setSourceSecurityGroupOwnerId":"java.lang.String",
+		"withSourceSecurityGroupOwnerId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## ImportImage parameterss:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"withClientToken":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"withDescription":"java.lang.String",
+		"setEncrypted":"java.lang.Boolean",
+		"withEncrypted":"java.lang.Boolean",
+		"setKmsKeyId":"java.lang.String",
+		"withKmsKeyId":"java.lang.String",
+		"setArchitecture":"java.lang.String",
+		"withArchitecture":"java.lang.String",
+		"setClientData-setComment":"java.lang.String",
+		"setClientData-withComment":"java.lang.String",
+		"setClientData-setUploadEnd-setDate":"int",
+		"setClientData-setUploadEnd-setHours":"int",
+		"setClientData-setUploadEnd-setMinutes":"int",
+		"setClientData-setUploadEnd-setMonth":"int",
+		"setClientData-setUploadEnd-setSeconds":"int",
+		"setClientData-setUploadEnd-setYear":"int",
+		"setClientData-setUploadEnd-setTime":"long",
+		"setClientData-withUploadEnd-setDate":"int",
+		"setClientData-withUploadEnd-setHours":"int",
+		"setClientData-withUploadEnd-setMinutes":"int",
+		"setClientData-withUploadEnd-setMonth":"int",
+		"setClientData-withUploadEnd-setSeconds":"int",
+		"setClientData-withUploadEnd-setYear":"int",
+		"setClientData-withUploadEnd-setTime":"long",
+		"setClientData-setUploadSize":"java.lang.Double",
+		"setClientData-withUploadSize":"java.lang.Double",
+		"setClientData-setUploadStart-setDate":"int",
+		"setClientData-setUploadStart-setHours":"int",
+		"setClientData-setUploadStart-setMinutes":"int",
+		"setClientData-setUploadStart-setMonth":"int",
+		"setClientData-setUploadStart-setSeconds":"int",
+		"setClientData-setUploadStart-setYear":"int",
+		"setClientData-setUploadStart-setTime":"long",
+		"setClientData-withUploadStart-setDate":"int",
+		"setClientData-withUploadStart-setHours":"int",
+		"setClientData-withUploadStart-setMinutes":"int",
+		"setClientData-withUploadStart-setMonth":"int",
+		"setClientData-withUploadStart-setSeconds":"int",
+		"setClientData-withUploadStart-setYear":"int",
+		"setClientData-withUploadStart-setTime":"long",
+		"withClientData-setComment":"java.lang.String",
+		"withClientData-withComment":"java.lang.String",
+		"withClientData-setUploadEnd-setDate":"int",
+		"withClientData-setUploadEnd-setHours":"int",
+		"withClientData-setUploadEnd-setMinutes":"int",
+		"withClientData-setUploadEnd-setMonth":"int",
+		"withClientData-setUploadEnd-setSeconds":"int",
+		"withClientData-setUploadEnd-setYear":"int",
+		"withClientData-setUploadEnd-setTime":"long",
+		"withClientData-withUploadEnd-setDate":"int",
+		"withClientData-withUploadEnd-setHours":"int",
+		"withClientData-withUploadEnd-setMinutes":"int",
+		"withClientData-withUploadEnd-setMonth":"int",
+		"withClientData-withUploadEnd-setSeconds":"int",
+		"withClientData-withUploadEnd-setYear":"int",
+		"withClientData-withUploadEnd-setTime":"long",
+		"withClientData-setUploadSize":"java.lang.Double",
+		"withClientData-withUploadSize":"java.lang.Double",
+		"withClientData-setUploadStart-setDate":"int",
+		"withClientData-setUploadStart-setHours":"int",
+		"withClientData-setUploadStart-setMinutes":"int",
+		"withClientData-setUploadStart-setMonth":"int",
+		"withClientData-setUploadStart-setSeconds":"int",
+		"withClientData-setUploadStart-setYear":"int",
+		"withClientData-setUploadStart-setTime":"long",
+		"withClientData-withUploadStart-setDate":"int",
+		"withClientData-withUploadStart-setHours":"int",
+		"withClientData-withUploadStart-setMinutes":"int",
+		"withClientData-withUploadStart-setMonth":"int",
+		"withClientData-withUploadStart-setSeconds":"int",
+		"withClientData-withUploadStart-setYear":"int",
+		"withClientData-withUploadStart-setTime":"long",
+		"setDiskContainers-setDescription":"java.lang.String",
+		"setDiskContainers-withDescription":"java.lang.String",
+		"setDiskContainers-setSnapshotId":"java.lang.String",
+		"setDiskContainers-withSnapshotId":"java.lang.String",
+		"setDiskContainers-setDeviceName":"java.lang.String",
+		"setDiskContainers-withDeviceName":"java.lang.String",
+		"setDiskContainers-withFormat":"java.lang.String",
+		"setDiskContainers-setFormat":"java.lang.String",
+		"setDiskContainers-setUrl":"java.lang.String",
+		"setDiskContainers-withUrl":"java.lang.String",
+		"setDiskContainers-setUserBucket-setS3Bucket":"java.lang.String",
+		"setDiskContainers-setUserBucket-withS3Bucket":"java.lang.String",
+		"setDiskContainers-setUserBucket-setS3Key":"java.lang.String",
+		"setDiskContainers-setUserBucket-withS3Key":"java.lang.String",
+		"setDiskContainers-withUserBucket-setS3Bucket":"java.lang.String",
+		"setDiskContainers-withUserBucket-withS3Bucket":"java.lang.String",
+		"setDiskContainers-withUserBucket-setS3Key":"java.lang.String",
+		"setDiskContainers-withUserBucket-withS3Key":"java.lang.String",
+		"withDiskContainers-setDescription":"java.lang.String",
+		"withDiskContainers-withDescription":"java.lang.String",
+		"withDiskContainers-setSnapshotId":"java.lang.String",
+		"withDiskContainers-withSnapshotId":"java.lang.String",
+		"withDiskContainers-setDeviceName":"java.lang.String",
+		"withDiskContainers-withDeviceName":"java.lang.String",
+		"withDiskContainers-withFormat":"java.lang.String",
+		"withDiskContainers-setFormat":"java.lang.String",
+		"withDiskContainers-setUrl":"java.lang.String",
+		"withDiskContainers-withUrl":"java.lang.String",
+		"withDiskContainers-setUserBucket-setS3Bucket":"java.lang.String",
+		"withDiskContainers-setUserBucket-withS3Bucket":"java.lang.String",
+		"withDiskContainers-setUserBucket-setS3Key":"java.lang.String",
+		"withDiskContainers-setUserBucket-withS3Key":"java.lang.String",
+		"withDiskContainers-withUserBucket-setS3Bucket":"java.lang.String",
+		"withDiskContainers-withUserBucket-withS3Bucket":"java.lang.String",
+		"withDiskContainers-withUserBucket-setS3Key":"java.lang.String",
+		"withDiskContainers-withUserBucket-withS3Key":"java.lang.String",
+		"setHypervisor":"java.lang.String",
+		"withHypervisor":"java.lang.String",
+		"setLicenseType":"java.lang.String",
+		"withLicenseType":"java.lang.String",
+		"setPlatform":"java.lang.String",
+		"withPlatform":"java.lang.String",
+		"setRoleName":"java.lang.String",
+		"withRoleName":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## RejectVpcEndpointConnections parameterss:
+
+```
+{
+	"main":{
+		"withServiceId":"java.lang.String",
+		"setServiceId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DeleteVpcPeeringConnection parameterss:
+
+```
+{
+	"main":{
+		"setVpcPeeringConnectionId":"java.lang.String",
+		"withVpcPeeringConnectionId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## ModifyVpcEndpointServiceConfiguration parameterss:
+
+```
+{
+	"main":{
+		"withServiceId":"java.lang.String",
+		"setServiceId":"java.lang.String",
+		"setAcceptanceRequired":"java.lang.Boolean",
+		"withAcceptanceRequired":"java.lang.Boolean",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## ReleaseAddress parameterss:
+
+```
+{
+	"main":{
+		"setAllocationId":"java.lang.String",
+		"withAllocationId":"java.lang.String",
+		"setPublicIp":"java.lang.String",
+		"withPublicIp":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## GetTransitGatewayAttachmentPropagations parameterss:
+
+```
+{
+	"main":{
+		"withTransitGatewayAttachmentId":"java.lang.String",
+		"setTransitGatewayAttachmentId":"java.lang.String",
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## ResetNetworkInterfaceAttribute parameterss:
+
+```
+{
+	"main":{
+		"setNetworkInterfaceId":"java.lang.String",
+		"withNetworkInterfaceId":"java.lang.String",
+		"setSourceDestCheck":"java.lang.String",
+		"withSourceDestCheck":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## CopyImage parameterss:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"withClientToken":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"withDescription":"java.lang.String",
+		"withName":"java.lang.String",
+		"setSourceRegion":"java.lang.String",
+		"withSourceRegion":"java.lang.String",
+		"setEncrypted":"java.lang.Boolean",
+		"withEncrypted":"java.lang.Boolean",
+		"setKmsKeyId":"java.lang.String",
+		"withKmsKeyId":"java.lang.String",
+		"setSourceImageId":"java.lang.String",
+		"withSourceImageId":"java.lang.String",
+		"setName":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## CreateVpc parameterss:
+
+```
+{
+	"main":{
+		"setAmazonProvidedIpv6CidrBlock":"java.lang.Boolean",
+		"withAmazonProvidedIpv6CidrBlock":"java.lang.Boolean",
+		"setCidrBlock":"java.lang.String",
+		"withCidrBlock":"java.lang.String",
+		"withInstanceTenancy":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeHostReservations parameterss:
+
+```
+{
+	"main":{
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setFilter-withName":"java.lang.String",
+		"setFilter-setName":"java.lang.String",
+		"withFilter-withName":"java.lang.String",
+		"withFilter-setName":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## CreateTags parameterss:
+
+```
+{
+	"main":{
+		"setTags-withValue":"java.lang.String",
+		"setTags-setKey":"java.lang.String",
+		"setTags-withKey":"java.lang.String",
+		"setTags-setValue":"java.lang.String",
+		"withTags-withValue":"java.lang.String",
+		"withTags-setKey":"java.lang.String",
+		"withTags-withKey":"java.lang.String",
+		"withTags-setValue":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DeleteNetworkAcl parameterss:
+
+```
+{
+	"main":{
+		"setNetworkAclId":"java.lang.String",
+		"withNetworkAclId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## CreateSnapshot parameterss:
+
+```
+{
+	"main":{
+		"setTagSpecifications-setResourceType":"java.lang.String",
+		"setTagSpecifications-withResourceType":"java.lang.String",
+		"setTagSpecifications-setTags-withValue":"java.lang.String",
+		"setTagSpecifications-setTags-setKey":"java.lang.String",
+		"setTagSpecifications-setTags-withKey":"java.lang.String",
+		"setTagSpecifications-setTags-setValue":"java.lang.String",
+		"setTagSpecifications-withTags-withValue":"java.lang.String",
+		"setTagSpecifications-withTags-setKey":"java.lang.String",
+		"setTagSpecifications-withTags-withKey":"java.lang.String",
+		"setTagSpecifications-withTags-setValue":"java.lang.String",
+		"withTagSpecifications-setResourceType":"java.lang.String",
+		"withTagSpecifications-withResourceType":"java.lang.String",
+		"withTagSpecifications-setTags-withValue":"java.lang.String",
+		"withTagSpecifications-setTags-setKey":"java.lang.String",
+		"withTagSpecifications-setTags-withKey":"java.lang.String",
+		"withTagSpecifications-setTags-setValue":"java.lang.String",
+		"withTagSpecifications-withTags-withValue":"java.lang.String",
+		"withTagSpecifications-withTags-setKey":"java.lang.String",
+		"withTagSpecifications-withTags-withKey":"java.lang.String",
+		"withTagSpecifications-withTags-setValue":"java.lang.String",
+		"setVolumeId":"java.lang.String",
+		"withVolumeId":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"withDescription":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeClientVpnEndpoints parameterss:
+
+```
+{
+	"main":{
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## ImportVolume parameterss:
+
+```
+{
+	"main":{
+		"setAvailabilityZone":"java.lang.String",
+		"withAvailabilityZone":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"withDescription":"java.lang.String",
+		"withImage-withBytes":"java.lang.Long",
+		"withImage-setBytes":"java.lang.Long",
+		"withImage-setFormat":"java.lang.String",
+		"withImage-setImportManifestUrl":"java.lang.String",
+		"withImage-withImportManifestUrl":"java.lang.String",
+		"setVolume-withSize":"java.lang.Long",
+		"setVolume-setSize":"java.lang.Long",
+		"withVolume-withSize":"java.lang.Long",
+		"withVolume-setSize":"java.lang.Long",
+		"setImage-withBytes":"java.lang.Long",
+		"setImage-setBytes":"java.lang.Long",
+		"setImage-setFormat":"java.lang.String",
+		"setImage-setImportManifestUrl":"java.lang.String",
+		"setImage-withImportManifestUrl":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DeleteKeyPair parameterss:
+
+```
+{
+	"main":{
+		"withKeyName":"java.lang.String",
+		"setKeyName":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeImageAttribute parameterss:
+
+```
+{
+	"main":{
+		"setImageId":"java.lang.String",
+		"withImageId":"java.lang.String",
+		"setAttribute":"java.lang.String",
+		"withAttribute":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## ModifyVpcTenancy parameterss:
+
+```
+{
+	"main":{
+		"setVpcId":"java.lang.String",
+		"withVpcId":"java.lang.String",
+		"setInstanceTenancy":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DeleteVpnGateway parameterss:
+
+```
+{
+	"main":{
+		"setVpnGatewayId":"java.lang.String",
+		"withVpnGatewayId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## SearchTransitGatewayRoutes parameterss:
+
+```
+{
+	"main":{
+		"setTransitGatewayRouteTableId":"java.lang.String",
+		"withTransitGatewayRouteTableId":"java.lang.String",
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## UnassignPrivateIpAddresses parameterss:
+
+```
+{
+	"main":{
+		"setNetworkInterfaceId":"java.lang.String",
+		"withNetworkInterfaceId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DeleteFleets parameterss:
+
+```
+{
+	"main":{
+		"setTerminateInstances":"java.lang.Boolean",
+		"withTerminateInstances":"java.lang.Boolean",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## CreateTransitGatewayRouteTable parameterss:
+
+```
+{
+	"main":{
+		"setTagSpecifications-setResourceType":"java.lang.String",
+		"setTagSpecifications-withResourceType":"java.lang.String",
+		"setTagSpecifications-setTags-withValue":"java.lang.String",
+		"setTagSpecifications-setTags-setKey":"java.lang.String",
+		"setTagSpecifications-setTags-withKey":"java.lang.String",
+		"setTagSpecifications-setTags-setValue":"java.lang.String",
+		"setTagSpecifications-withTags-withValue":"java.lang.String",
+		"setTagSpecifications-withTags-setKey":"java.lang.String",
+		"setTagSpecifications-withTags-withKey":"java.lang.String",
+		"setTagSpecifications-withTags-setValue":"java.lang.String",
+		"withTagSpecifications-setResourceType":"java.lang.String",
+		"withTagSpecifications-withResourceType":"java.lang.String",
+		"withTagSpecifications-setTags-withValue":"java.lang.String",
+		"withTagSpecifications-setTags-setKey":"java.lang.String",
+		"withTagSpecifications-setTags-withKey":"java.lang.String",
+		"withTagSpecifications-setTags-setValue":"java.lang.String",
+		"withTagSpecifications-withTags-withValue":"java.lang.String",
+		"withTagSpecifications-withTags-setKey":"java.lang.String",
+		"withTagSpecifications-withTags-withKey":"java.lang.String",
+		"withTagSpecifications-withTags-setValue":"java.lang.String",
+		"setTransitGatewayId":"java.lang.String",
+		"withTransitGatewayId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeImportImageTasks parameterss:
+
+```
+{
+	"main":{
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DisableTransitGatewayRouteTablePropagation parameterss:
+
+```
+{
+	"main":{
+		"withTransitGatewayAttachmentId":"java.lang.String",
+		"setTransitGatewayAttachmentId":"java.lang.String",
+		"setTransitGatewayRouteTableId":"java.lang.String",
+		"withTransitGatewayRouteTableId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## AssociateVpcCidrBlock parameterss:
+
+```
+{
+	"main":{
+		"setVpcId":"java.lang.String",
+		"withVpcId":"java.lang.String",
+		"setAmazonProvidedIpv6CidrBlock":"java.lang.Boolean",
+		"withAmazonProvidedIpv6CidrBlock":"java.lang.Boolean",
+		"setCidrBlock":"java.lang.String",
+		"withCidrBlock":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## ExportClientVpnClientCertificateRevocationList parameterss:
+
+```
+{
+	"main":{
+		"setClientVpnEndpointId":"java.lang.String",
+		"withClientVpnEndpointId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## ImportKeyPair parameterss:
+
+```
+{
+	"main":{
+		"withKeyName":"java.lang.String",
+		"setKeyName":"java.lang.String",
+		"setPublicKeyMaterial":"java.lang.String",
+		"withPublicKeyMaterial":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## AcceptVpcPeeringConnection parameterss:
+
+```
+{
+	"main":{
+		"setVpcPeeringConnectionId":"java.lang.String",
+		"withVpcPeeringConnectionId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## AssociateTransitGatewayRouteTable parameterss:
+
+```
+{
+	"main":{
+		"withTransitGatewayAttachmentId":"java.lang.String",
+		"setTransitGatewayAttachmentId":"java.lang.String",
+		"setTransitGatewayRouteTableId":"java.lang.String",
+		"withTransitGatewayRouteTableId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DeleteLaunchTemplate parameterss:
+
+```
+{
+	"main":{
+		"withLaunchTemplateName":"java.lang.String",
+		"setLaunchTemplateName":"java.lang.String",
+		"setLaunchTemplateId":"java.lang.String",
+		"withLaunchTemplateId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeVpnConnections parameterss:
+
+```
+{
+	"main":{
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## ModifyVpcEndpoint parameterss:
+
+```
+{
+	"main":{
+		"setPolicyDocument":"java.lang.String",
+		"withPolicyDocument":"java.lang.String",
+		"setPrivateDnsEnabled":"java.lang.Boolean",
+		"withPrivateDnsEnabled":"java.lang.Boolean",
+		"setVpcEndpointId":"java.lang.String",
+		"withVpcEndpointId":"java.lang.String",
+		"setResetPolicy":"java.lang.Boolean",
+		"withResetPolicy":"java.lang.Boolean",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## TerminateClientVpnConnections parameterss:
+
+```
+{
+	"main":{
+		"setClientVpnEndpointId":"java.lang.String",
+		"withClientVpnEndpointId":"java.lang.String",
+		"setConnectionId":"java.lang.String",
+		"withConnectionId":"java.lang.String",
+		"setUsername":"java.lang.String",
+		"withUsername":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## CreateImage parameterss:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"withInstanceId":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"withDescription":"java.lang.String",
+		"withName":"java.lang.String",
+		"setNoReboot":"java.lang.Boolean",
+		"withNoReboot":"java.lang.Boolean",
+		"setBlockDeviceMappings-setEbs-setEncrypted":"java.lang.Boolean",
+		"setBlockDeviceMappings-setEbs-withEncrypted":"java.lang.Boolean",
+		"setBlockDeviceMappings-setEbs-setKmsKeyId":"java.lang.String",
+		"setBlockDeviceMappings-setEbs-withKmsKeyId":"java.lang.String",
+		"setBlockDeviceMappings-setEbs-setIops":"java.lang.Integer",
+		"setBlockDeviceMappings-setEbs-withIops":"java.lang.Integer",
+		"setBlockDeviceMappings-setEbs-setSnapshotId":"java.lang.String",
+		"setBlockDeviceMappings-setEbs-withSnapshotId":"java.lang.String",
+		"setBlockDeviceMappings-setEbs-withVolumeType":"java.lang.String",
+		"setBlockDeviceMappings-setEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"setBlockDeviceMappings-setEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"setBlockDeviceMappings-setEbs-setVolumeSize":"java.lang.Integer",
+		"setBlockDeviceMappings-setEbs-withVolumeSize":"java.lang.Integer",
+		"setBlockDeviceMappings-setDeviceName":"java.lang.String",
+		"setBlockDeviceMappings-withDeviceName":"java.lang.String",
+		"setBlockDeviceMappings-withEbs-setEncrypted":"java.lang.Boolean",
+		"setBlockDeviceMappings-withEbs-withEncrypted":"java.lang.Boolean",
+		"setBlockDeviceMappings-withEbs-setKmsKeyId":"java.lang.String",
+		"setBlockDeviceMappings-withEbs-withKmsKeyId":"java.lang.String",
+		"setBlockDeviceMappings-withEbs-setIops":"java.lang.Integer",
+		"setBlockDeviceMappings-withEbs-withIops":"java.lang.Integer",
+		"setBlockDeviceMappings-withEbs-setSnapshotId":"java.lang.String",
+		"setBlockDeviceMappings-withEbs-withSnapshotId":"java.lang.String",
+		"setBlockDeviceMappings-withEbs-withVolumeType":"java.lang.String",
+		"setBlockDeviceMappings-withEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"setBlockDeviceMappings-withEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"setBlockDeviceMappings-withEbs-setVolumeSize":"java.lang.Integer",
+		"setBlockDeviceMappings-withEbs-withVolumeSize":"java.lang.Integer",
+		"setBlockDeviceMappings-setNoDevice":"java.lang.String",
+		"setBlockDeviceMappings-withNoDevice":"java.lang.String",
+		"setBlockDeviceMappings-setVirtualName":"java.lang.String",
+		"setBlockDeviceMappings-withVirtualName":"java.lang.String",
+		"withBlockDeviceMappings-setEbs-setEncrypted":"java.lang.Boolean",
+		"withBlockDeviceMappings-setEbs-withEncrypted":"java.lang.Boolean",
+		"withBlockDeviceMappings-setEbs-setKmsKeyId":"java.lang.String",
+		"withBlockDeviceMappings-setEbs-withKmsKeyId":"java.lang.String",
+		"withBlockDeviceMappings-setEbs-setIops":"java.lang.Integer",
+		"withBlockDeviceMappings-setEbs-withIops":"java.lang.Integer",
+		"withBlockDeviceMappings-setEbs-setSnapshotId":"java.lang.String",
+		"withBlockDeviceMappings-setEbs-withSnapshotId":"java.lang.String",
+		"withBlockDeviceMappings-setEbs-withVolumeType":"java.lang.String",
+		"withBlockDeviceMappings-setEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"withBlockDeviceMappings-setEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"withBlockDeviceMappings-setEbs-setVolumeSize":"java.lang.Integer",
+		"withBlockDeviceMappings-setEbs-withVolumeSize":"java.lang.Integer",
+		"withBlockDeviceMappings-setDeviceName":"java.lang.String",
+		"withBlockDeviceMappings-withDeviceName":"java.lang.String",
+		"withBlockDeviceMappings-withEbs-setEncrypted":"java.lang.Boolean",
+		"withBlockDeviceMappings-withEbs-withEncrypted":"java.lang.Boolean",
+		"withBlockDeviceMappings-withEbs-setKmsKeyId":"java.lang.String",
+		"withBlockDeviceMappings-withEbs-withKmsKeyId":"java.lang.String",
+		"withBlockDeviceMappings-withEbs-setIops":"java.lang.Integer",
+		"withBlockDeviceMappings-withEbs-withIops":"java.lang.Integer",
+		"withBlockDeviceMappings-withEbs-setSnapshotId":"java.lang.String",
+		"withBlockDeviceMappings-withEbs-withSnapshotId":"java.lang.String",
+		"withBlockDeviceMappings-withEbs-withVolumeType":"java.lang.String",
+		"withBlockDeviceMappings-withEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"withBlockDeviceMappings-withEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"withBlockDeviceMappings-withEbs-setVolumeSize":"java.lang.Integer",
+		"withBlockDeviceMappings-withEbs-withVolumeSize":"java.lang.Integer",
+		"withBlockDeviceMappings-setNoDevice":"java.lang.String",
+		"withBlockDeviceMappings-withNoDevice":"java.lang.String",
+		"withBlockDeviceMappings-setVirtualName":"java.lang.String",
+		"withBlockDeviceMappings-withVirtualName":"java.lang.String",
+		"setName":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## CancelImportTask parameterss:
+
+```
+{
+	"main":{
+		"setCancelReason":"java.lang.String",
+		"withCancelReason":"java.lang.String",
+		"setImportTaskId":"java.lang.String",
+		"withImportTaskId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## CancelConversionTask parameterss:
+
+```
+{
+	"main":{
+		"withConversionTaskId":"java.lang.String",
+		"withReasonMessage":"java.lang.String",
+		"setConversionTaskId":"java.lang.String",
+		"setReasonMessage":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeInstanceAttribute parameterss:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"withInstanceId":"java.lang.String",
+		"setAttribute":"java.lang.String",
+		"withAttribute":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeSpotFleetRequestHistory parameterss:
+
+```
+{
+	"main":{
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setEventType":"java.lang.String",
+		"setStartTime-setDate":"int",
+		"setStartTime-setHours":"int",
+		"setStartTime-setMinutes":"int",
+		"setStartTime-setMonth":"int",
+		"setStartTime-setSeconds":"int",
+		"setStartTime-setYear":"int",
+		"setStartTime-setTime":"long",
+		"withStartTime-setDate":"int",
+		"withStartTime-setHours":"int",
+		"withStartTime-setMinutes":"int",
+		"withStartTime-setMonth":"int",
+		"withStartTime-setSeconds":"int",
+		"withStartTime-setYear":"int",
+		"withStartTime-setTime":"long",
+		"setSpotFleetRequestId":"java.lang.String",
+		"withSpotFleetRequestId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## ModifyImageAttribute parameterss:
+
+```
+{
+	"main":{
+		"setDescription":"java.lang.String",
+		"withDescription":"java.lang.String",
+		"setImageId":"java.lang.String",
+		"withImageId":"java.lang.String",
+		"setAttribute":"java.lang.String",
+		"withAttribute":"java.lang.String",
+		"withOperationType":"java.lang.String",
+		"setLaunchPermission-setAdd-setGroup":"java.lang.String",
+		"setLaunchPermission-setAdd-withUserId":"java.lang.String",
+		"setLaunchPermission-setAdd-setUserId":"java.lang.String",
+		"setLaunchPermission-withAdd-setGroup":"java.lang.String",
+		"setLaunchPermission-withAdd-withUserId":"java.lang.String",
+		"setLaunchPermission-withAdd-setUserId":"java.lang.String",
+		"setLaunchPermission-setRemove-setGroup":"java.lang.String",
+		"setLaunchPermission-setRemove-withUserId":"java.lang.String",
+		"setLaunchPermission-setRemove-setUserId":"java.lang.String",
+		"setLaunchPermission-withRemove-setGroup":"java.lang.String",
+		"setLaunchPermission-withRemove-withUserId":"java.lang.String",
+		"setLaunchPermission-withRemove-setUserId":"java.lang.String",
+		"withLaunchPermission-setAdd-setGroup":"java.lang.String",
+		"withLaunchPermission-setAdd-withUserId":"java.lang.String",
+		"withLaunchPermission-setAdd-setUserId":"java.lang.String",
+		"withLaunchPermission-withAdd-setGroup":"java.lang.String",
+		"withLaunchPermission-withAdd-withUserId":"java.lang.String",
+		"withLaunchPermission-withAdd-setUserId":"java.lang.String",
+		"withLaunchPermission-setRemove-setGroup":"java.lang.String",
+		"withLaunchPermission-setRemove-withUserId":"java.lang.String",
+		"withLaunchPermission-setRemove-setUserId":"java.lang.String",
+		"withLaunchPermission-withRemove-setGroup":"java.lang.String",
+		"withLaunchPermission-withRemove-withUserId":"java.lang.String",
+		"withLaunchPermission-withRemove-setUserId":"java.lang.String",
+		"withValue":"java.lang.String",
+		"setValue":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeInstanceStatus parameterss:
+
+```
+{
+	"main":{
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setIncludeAllInstances":"java.lang.Boolean",
+		"withIncludeAllInstances":"java.lang.Boolean",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## AcceptTransitGatewayVpcAttachment parameterss:
+
+```
+{
+	"main":{
+		"withTransitGatewayAttachmentId":"java.lang.String",
+		"setTransitGatewayAttachmentId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## CreateVpcEndpoint parameterss:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"withClientToken":"java.lang.String",
+		"setVpcId":"java.lang.String",
+		"withVpcId":"java.lang.String",
+		"setVpcEndpointType":"java.lang.String",
+		"withVpcEndpointType":"java.lang.String",
+		"setServiceName":"java.lang.String",
+		"withServiceName":"java.lang.String",
+		"setPolicyDocument":"java.lang.String",
+		"withPolicyDocument":"java.lang.String",
+		"setPrivateDnsEnabled":"java.lang.Boolean",
+		"withPrivateDnsEnabled":"java.lang.Boolean",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DeleteTransitGatewayRoute parameterss:
+
+```
+{
+	"main":{
+		"setTransitGatewayRouteTableId":"java.lang.String",
+		"withTransitGatewayRouteTableId":"java.lang.String",
+		"setDestinationCidrBlock":"java.lang.String",
+		"withDestinationCidrBlock":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeNatGateways parameterss:
+
+```
+{
+	"main":{
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setFilter-withName":"java.lang.String",
+		"setFilter-setName":"java.lang.String",
+		"withFilter-withName":"java.lang.String",
+		"withFilter-setName":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## RejectTransitGatewayVpcAttachment parameterss:
+
+```
+{
+	"main":{
+		"withTransitGatewayAttachmentId":"java.lang.String",
+		"setTransitGatewayAttachmentId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## ModifyVolume parameterss:
+
+```
+{
+	"main":{
+		"setVolumeId":"java.lang.String",
+		"withVolumeId":"java.lang.String",
+		"setIops":"java.lang.Integer",
+		"withIops":"java.lang.Integer",
+		"withSize":"java.lang.Integer",
+		"setVolumeType":"java.lang.String",
+		"withVolumeType":"java.lang.String",
+		"setSize":"java.lang.Integer",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## AssociateIamInstanceProfile parameterss:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"withInstanceId":"java.lang.String",
+		"withIamInstanceProfile-withName":"java.lang.String",
+		"withIamInstanceProfile-setArn":"java.lang.String",
+		"withIamInstanceProfile-withArn":"java.lang.String",
+		"withIamInstanceProfile-setName":"java.lang.String",
+		"setIamInstanceProfile-withName":"java.lang.String",
+		"setIamInstanceProfile-setArn":"java.lang.String",
+		"setIamInstanceProfile-withArn":"java.lang.String",
+		"setIamInstanceProfile-setName":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## ResetImageAttribute parameterss:
+
+```
+{
+	"main":{
+		"setImageId":"java.lang.String",
+		"withImageId":"java.lang.String",
+		"setAttribute":"java.lang.String",
+		"withAttribute":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeVpcAttribute parameterss:
+
+```
+{
+	"main":{
+		"setVpcId":"java.lang.String",
+		"withVpcId":"java.lang.String",
+		"setAttribute":"java.lang.String",
+		"withAttribute":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## CreateVpnConnection parameterss:
+
+```
+{
+	"main":{
+		"setVpnGatewayId":"java.lang.String",
+		"withVpnGatewayId":"java.lang.String",
+		"setType":"java.lang.String",
+		"withType":"java.lang.String",
+		"setTransitGatewayId":"java.lang.String",
+		"withTransitGatewayId":"java.lang.String",
+		"setOptions-setStaticRoutesOnly":"java.lang.Boolean",
+		"setOptions-withStaticRoutesOnly":"java.lang.Boolean",
+		"setOptions-setTunnelOptions-setTunnelInsideCidr":"java.lang.String",
+		"setOptions-setTunnelOptions-withTunnelInsideCidr":"java.lang.String",
+		"setOptions-setTunnelOptions-setPreSharedKey":"java.lang.String",
+		"setOptions-setTunnelOptions-withPreSharedKey":"java.lang.String",
+		"setOptions-withTunnelOptions-setTunnelInsideCidr":"java.lang.String",
+		"setOptions-withTunnelOptions-withTunnelInsideCidr":"java.lang.String",
+		"setOptions-withTunnelOptions-setPreSharedKey":"java.lang.String",
+		"setOptions-withTunnelOptions-withPreSharedKey":"java.lang.String",
+		"withOptions-setStaticRoutesOnly":"java.lang.Boolean",
+		"withOptions-withStaticRoutesOnly":"java.lang.Boolean",
+		"withOptions-setTunnelOptions-setTunnelInsideCidr":"java.lang.String",
+		"withOptions-setTunnelOptions-withTunnelInsideCidr":"java.lang.String",
+		"withOptions-setTunnelOptions-setPreSharedKey":"java.lang.String",
+		"withOptions-setTunnelOptions-withPreSharedKey":"java.lang.String",
+		"withOptions-withTunnelOptions-setTunnelInsideCidr":"java.lang.String",
+		"withOptions-withTunnelOptions-withTunnelInsideCidr":"java.lang.String",
+		"withOptions-withTunnelOptions-setPreSharedKey":"java.lang.String",
+		"withOptions-withTunnelOptions-withPreSharedKey":"java.lang.String",
+		"setCustomerGatewayId":"java.lang.String",
+		"withCustomerGatewayId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## RejectVpcPeeringConnection parameterss:
+
+```
+{
+	"main":{
+		"setVpcPeeringConnectionId":"java.lang.String",
+		"withVpcPeeringConnectionId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeVolumes parameterss:
+
+```
+{
+	"main":{
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DeleteVpnConnection parameterss:
+
+```
+{
+	"main":{
+		"setVpnConnectionId":"java.lang.String",
+		"withVpnConnectionId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeFleetHistory parameterss:
+
+```
+{
+	"main":{
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setEventType":"java.lang.String",
+		"withEventType":"java.lang.String",
+		"setFleetId":"java.lang.String",
+		"withFleetId":"java.lang.String",
+		"setStartTime-setDate":"int",
+		"setStartTime-setHours":"int",
+		"setStartTime-setMinutes":"int",
+		"setStartTime-setMonth":"int",
+		"setStartTime-setSeconds":"int",
+		"setStartTime-setYear":"int",
+		"setStartTime-setTime":"long",
+		"withStartTime-setDate":"int",
+		"withStartTime-setHours":"int",
+		"withStartTime-setMinutes":"int",
+		"withStartTime-setMonth":"int",
+		"withStartTime-setSeconds":"int",
+		"withStartTime-setYear":"int",
+		"withStartTime-setTime":"long",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## AttachVpnGateway parameterss:
+
+```
+{
+	"main":{
+		"setVpcId":"java.lang.String",
+		"withVpcId":"java.lang.String",
+		"setVpnGatewayId":"java.lang.String",
+		"withVpnGatewayId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## CreateSecurityGroup parameterss:
+
+```
+{
+	"main":{
+		"setVpcId":"java.lang.String",
+		"withVpcId":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"withDescription":"java.lang.String",
+		"setGroupName":"java.lang.String",
+		"withGroupName":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## ExportTransitGatewayRoutes parameterss:
+
+```
+{
+	"main":{
+		"setTransitGatewayRouteTableId":"java.lang.String",
+		"withTransitGatewayRouteTableId":"java.lang.String",
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setS3Bucket":"java.lang.String",
+		"withS3Bucket":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DeleteTags parameterss:
+
+```
+{
+	"main":{
+		"setTags-withValue":"java.lang.String",
+		"setTags-setKey":"java.lang.String",
+		"setTags-withKey":"java.lang.String",
+		"setTags-setValue":"java.lang.String",
+		"withTags-withValue":"java.lang.String",
+		"withTags-setKey":"java.lang.String",
+		"withTags-withKey":"java.lang.String",
+		"withTags-setValue":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## ReleaseHosts parameterss:
+
+```
+{
+	"main":{
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## CreateVolume parameterss:
+
+```
+{
+	"main":{
+		"setAvailabilityZone":"java.lang.String",
+		"withAvailabilityZone":"java.lang.String",
+		"setTagSpecifications-setResourceType":"java.lang.String",
+		"setTagSpecifications-withResourceType":"java.lang.String",
+		"setTagSpecifications-setTags-withValue":"java.lang.String",
+		"setTagSpecifications-setTags-setKey":"java.lang.String",
+		"setTagSpecifications-setTags-withKey":"java.lang.String",
+		"setTagSpecifications-setTags-setValue":"java.lang.String",
+		"setTagSpecifications-withTags-withValue":"java.lang.String",
+		"setTagSpecifications-withTags-setKey":"java.lang.String",
+		"setTagSpecifications-withTags-withKey":"java.lang.String",
+		"setTagSpecifications-withTags-setValue":"java.lang.String",
+		"withTagSpecifications-setResourceType":"java.lang.String",
+		"withTagSpecifications-withResourceType":"java.lang.String",
+		"withTagSpecifications-setTags-withValue":"java.lang.String",
+		"withTagSpecifications-setTags-setKey":"java.lang.String",
+		"withTagSpecifications-setTags-withKey":"java.lang.String",
+		"withTagSpecifications-setTags-setValue":"java.lang.String",
+		"withTagSpecifications-withTags-withValue":"java.lang.String",
+		"withTagSpecifications-withTags-setKey":"java.lang.String",
+		"withTagSpecifications-withTags-withKey":"java.lang.String",
+		"withTagSpecifications-withTags-setValue":"java.lang.String",
+		"setEncrypted":"java.lang.Boolean",
+		"withEncrypted":"java.lang.Boolean",
+		"setKmsKeyId":"java.lang.String",
+		"withKmsKeyId":"java.lang.String",
+		"setIops":"java.lang.Integer",
+		"withIops":"java.lang.Integer",
+		"withSize":"java.lang.Integer",
+		"setSnapshotId":"java.lang.String",
+		"withSnapshotId":"java.lang.String",
+		"setSize":"java.lang.Integer",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## CreateLaunchTemplate parameterss:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"withClientToken":"java.lang.String",
+		"withLaunchTemplateName":"java.lang.String",
+		"setVersionDescription":"java.lang.String",
+		"withVersionDescription":"java.lang.String",
+		"setLaunchTemplateData-setInstanceType":"java.lang.String",
+		"setLaunchTemplateData-withInstanceType":"java.lang.String",
+		"setLaunchTemplateData-setTagSpecifications-setResourceType":"java.lang.String",
+		"setLaunchTemplateData-setTagSpecifications-setTags-withValue":"java.lang.String",
+		"setLaunchTemplateData-setTagSpecifications-setTags-setKey":"java.lang.String",
+		"setLaunchTemplateData-setTagSpecifications-setTags-withKey":"java.lang.String",
+		"setLaunchTemplateData-setTagSpecifications-setTags-setValue":"java.lang.String",
+		"setLaunchTemplateData-setTagSpecifications-withTags-withValue":"java.lang.String",
+		"setLaunchTemplateData-setTagSpecifications-withTags-setKey":"java.lang.String",
+		"setLaunchTemplateData-setTagSpecifications-withTags-withKey":"java.lang.String",
+		"setLaunchTemplateData-setTagSpecifications-withTags-setValue":"java.lang.String",
+		"setLaunchTemplateData-withTagSpecifications-setResourceType":"java.lang.String",
+		"setLaunchTemplateData-withTagSpecifications-setTags-withValue":"java.lang.String",
+		"setLaunchTemplateData-withTagSpecifications-setTags-setKey":"java.lang.String",
+		"setLaunchTemplateData-withTagSpecifications-setTags-withKey":"java.lang.String",
+		"setLaunchTemplateData-withTagSpecifications-setTags-setValue":"java.lang.String",
+		"setLaunchTemplateData-withTagSpecifications-withTags-withValue":"java.lang.String",
+		"setLaunchTemplateData-withTagSpecifications-withTags-setKey":"java.lang.String",
+		"setLaunchTemplateData-withTagSpecifications-withTags-withKey":"java.lang.String",
+		"setLaunchTemplateData-withTagSpecifications-withTags-setValue":"java.lang.String",
+		"setLaunchTemplateData-withIamInstanceProfile-withName":"java.lang.String",
+		"setLaunchTemplateData-withIamInstanceProfile-setArn":"java.lang.String",
+		"setLaunchTemplateData-withIamInstanceProfile-withArn":"java.lang.String",
+		"setLaunchTemplateData-withIamInstanceProfile-setName":"java.lang.String",
+		"setLaunchTemplateData-setIamInstanceProfile-withName":"java.lang.String",
+		"setLaunchTemplateData-setIamInstanceProfile-setArn":"java.lang.String",
+		"setLaunchTemplateData-setIamInstanceProfile-withArn":"java.lang.String",
+		"setLaunchTemplateData-setIamInstanceProfile-setName":"java.lang.String",
+		"setLaunchTemplateData-setEbsOptimized":"java.lang.Boolean",
+		"setLaunchTemplateData-withEbsOptimized":"java.lang.Boolean",
+		"setLaunchTemplateData-withKeyName":"java.lang.String",
+		"setLaunchTemplateData-setKeyName":"java.lang.String",
+		"setLaunchTemplateData-setBlockDeviceMappings-setEbs-setEncrypted":"java.lang.Boolean",
+		"setLaunchTemplateData-setBlockDeviceMappings-setEbs-withEncrypted":"java.lang.Boolean",
+		"setLaunchTemplateData-setBlockDeviceMappings-setEbs-setKmsKeyId":"java.lang.String",
+		"setLaunchTemplateData-setBlockDeviceMappings-setEbs-withKmsKeyId":"java.lang.String",
+		"setLaunchTemplateData-setBlockDeviceMappings-setEbs-setIops":"java.lang.Integer",
+		"setLaunchTemplateData-setBlockDeviceMappings-setEbs-withIops":"java.lang.Integer",
+		"setLaunchTemplateData-setBlockDeviceMappings-setEbs-setSnapshotId":"java.lang.String",
+		"setLaunchTemplateData-setBlockDeviceMappings-setEbs-withSnapshotId":"java.lang.String",
+		"setLaunchTemplateData-setBlockDeviceMappings-setEbs-setVolumeType":"java.lang.String",
+		"setLaunchTemplateData-setBlockDeviceMappings-setEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"setLaunchTemplateData-setBlockDeviceMappings-setEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"setLaunchTemplateData-setBlockDeviceMappings-setEbs-setVolumeSize":"java.lang.Integer",
+		"setLaunchTemplateData-setBlockDeviceMappings-setEbs-withVolumeSize":"java.lang.Integer",
+		"setLaunchTemplateData-setBlockDeviceMappings-setDeviceName":"java.lang.String",
+		"setLaunchTemplateData-setBlockDeviceMappings-withDeviceName":"java.lang.String",
+		"setLaunchTemplateData-setBlockDeviceMappings-withEbs-setEncrypted":"java.lang.Boolean",
+		"setLaunchTemplateData-setBlockDeviceMappings-withEbs-withEncrypted":"java.lang.Boolean",
+		"setLaunchTemplateData-setBlockDeviceMappings-withEbs-setKmsKeyId":"java.lang.String",
+		"setLaunchTemplateData-setBlockDeviceMappings-withEbs-withKmsKeyId":"java.lang.String",
+		"setLaunchTemplateData-setBlockDeviceMappings-withEbs-setIops":"java.lang.Integer",
+		"setLaunchTemplateData-setBlockDeviceMappings-withEbs-withIops":"java.lang.Integer",
+		"setLaunchTemplateData-setBlockDeviceMappings-withEbs-setSnapshotId":"java.lang.String",
+		"setLaunchTemplateData-setBlockDeviceMappings-withEbs-withSnapshotId":"java.lang.String",
+		"setLaunchTemplateData-setBlockDeviceMappings-withEbs-setVolumeType":"java.lang.String",
+		"setLaunchTemplateData-setBlockDeviceMappings-withEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"setLaunchTemplateData-setBlockDeviceMappings-withEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"setLaunchTemplateData-setBlockDeviceMappings-withEbs-setVolumeSize":"java.lang.Integer",
+		"setLaunchTemplateData-setBlockDeviceMappings-withEbs-withVolumeSize":"java.lang.Integer",
+		"setLaunchTemplateData-setBlockDeviceMappings-setNoDevice":"java.lang.String",
+		"setLaunchTemplateData-setBlockDeviceMappings-withNoDevice":"java.lang.String",
+		"setLaunchTemplateData-setBlockDeviceMappings-setVirtualName":"java.lang.String",
+		"setLaunchTemplateData-setBlockDeviceMappings-withVirtualName":"java.lang.String",
+		"setLaunchTemplateData-withBlockDeviceMappings-setEbs-setEncrypted":"java.lang.Boolean",
+		"setLaunchTemplateData-withBlockDeviceMappings-setEbs-withEncrypted":"java.lang.Boolean",
+		"setLaunchTemplateData-withBlockDeviceMappings-setEbs-setKmsKeyId":"java.lang.String",
+		"setLaunchTemplateData-withBlockDeviceMappings-setEbs-withKmsKeyId":"java.lang.String",
+		"setLaunchTemplateData-withBlockDeviceMappings-setEbs-setIops":"java.lang.Integer",
+		"setLaunchTemplateData-withBlockDeviceMappings-setEbs-withIops":"java.lang.Integer",
+		"setLaunchTemplateData-withBlockDeviceMappings-setEbs-setSnapshotId":"java.lang.String",
+		"setLaunchTemplateData-withBlockDeviceMappings-setEbs-withSnapshotId":"java.lang.String",
+		"setLaunchTemplateData-withBlockDeviceMappings-setEbs-setVolumeType":"java.lang.String",
+		"setLaunchTemplateData-withBlockDeviceMappings-setEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"setLaunchTemplateData-withBlockDeviceMappings-setEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"setLaunchTemplateData-withBlockDeviceMappings-setEbs-setVolumeSize":"java.lang.Integer",
+		"setLaunchTemplateData-withBlockDeviceMappings-setEbs-withVolumeSize":"java.lang.Integer",
+		"setLaunchTemplateData-withBlockDeviceMappings-setDeviceName":"java.lang.String",
+		"setLaunchTemplateData-withBlockDeviceMappings-withDeviceName":"java.lang.String",
+		"setLaunchTemplateData-withBlockDeviceMappings-withEbs-setEncrypted":"java.lang.Boolean",
+		"setLaunchTemplateData-withBlockDeviceMappings-withEbs-withEncrypted":"java.lang.Boolean",
+		"setLaunchTemplateData-withBlockDeviceMappings-withEbs-setKmsKeyId":"java.lang.String",
+		"setLaunchTemplateData-withBlockDeviceMappings-withEbs-withKmsKeyId":"java.lang.String",
+		"setLaunchTemplateData-withBlockDeviceMappings-withEbs-setIops":"java.lang.Integer",
+		"setLaunchTemplateData-withBlockDeviceMappings-withEbs-withIops":"java.lang.Integer",
+		"setLaunchTemplateData-withBlockDeviceMappings-withEbs-setSnapshotId":"java.lang.String",
+		"setLaunchTemplateData-withBlockDeviceMappings-withEbs-withSnapshotId":"java.lang.String",
+		"setLaunchTemplateData-withBlockDeviceMappings-withEbs-setVolumeType":"java.lang.String",
+		"setLaunchTemplateData-withBlockDeviceMappings-withEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"setLaunchTemplateData-withBlockDeviceMappings-withEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"setLaunchTemplateData-withBlockDeviceMappings-withEbs-setVolumeSize":"java.lang.Integer",
+		"setLaunchTemplateData-withBlockDeviceMappings-withEbs-withVolumeSize":"java.lang.Integer",
+		"setLaunchTemplateData-withBlockDeviceMappings-setNoDevice":"java.lang.String",
+		"setLaunchTemplateData-withBlockDeviceMappings-withNoDevice":"java.lang.String",
+		"setLaunchTemplateData-withBlockDeviceMappings-setVirtualName":"java.lang.String",
+		"setLaunchTemplateData-withBlockDeviceMappings-withVirtualName":"java.lang.String",
+		"setLaunchTemplateData-setImageId":"java.lang.String",
+		"setLaunchTemplateData-withImageId":"java.lang.String",
+		"setLaunchTemplateData-setDisableApiTermination":"java.lang.Boolean",
+		"setLaunchTemplateData-setCapacityReservationSpecification-withCapacityReservationPreference":"java.lang.String",
+		"setLaunchTemplateData-setCapacityReservationSpecification-setCapacityReservationTarget-withCapacityReservationId":"java.lang.String",
+		"setLaunchTemplateData-setCapacityReservationSpecification-setCapacityReservationTarget-setCapacityReservationId":"java.lang.String",
+		"setLaunchTemplateData-setCapacityReservationSpecification-withCapacityReservationTarget-withCapacityReservationId":"java.lang.String",
+		"setLaunchTemplateData-setCapacityReservationSpecification-withCapacityReservationTarget-setCapacityReservationId":"java.lang.String",
+		"setLaunchTemplateData-setCapacityReservationSpecification-setCapacityReservationPreference":"java.lang.String",
+		"setLaunchTemplateData-withCapacityReservationSpecification-withCapacityReservationPreference":"java.lang.String",
+		"setLaunchTemplateData-withCapacityReservationSpecification-setCapacityReservationTarget-withCapacityReservationId":"java.lang.String",
+		"setLaunchTemplateData-withCapacityReservationSpecification-setCapacityReservationTarget-setCapacityReservationId":"java.lang.String",
+		"setLaunchTemplateData-withCapacityReservationSpecification-withCapacityReservationTarget-withCapacityReservationId":"java.lang.String",
+		"setLaunchTemplateData-withCapacityReservationSpecification-withCapacityReservationTarget-setCapacityReservationId":"java.lang.String",
+		"setLaunchTemplateData-withCapacityReservationSpecification-setCapacityReservationPreference":"java.lang.String",
+		"setLaunchTemplateData-withDisableApiTermination":"java.lang.Boolean",
+		"setLaunchTemplateData-setInstanceInitiatedShutdownBehavior":"java.lang.String",
+		"setLaunchTemplateData-withInstanceInitiatedShutdownBehavior":"java.lang.String",
+		"setLaunchTemplateData-setUserData":"java.lang.String",
+		"setLaunchTemplateData-withUserData":"java.lang.String",
+		"setLaunchTemplateData-setKernelId":"java.lang.String",
+		"setLaunchTemplateData-withKernelId":"java.lang.String",
+		"setLaunchTemplateData-setMonitoring-withEnabled":"java.lang.Boolean",
+		"setLaunchTemplateData-setMonitoring-setEnabled":"java.lang.Boolean",
+		"setLaunchTemplateData-withMonitoring-withEnabled":"java.lang.Boolean",
+		"setLaunchTemplateData-withMonitoring-setEnabled":"java.lang.Boolean",
+		"setLaunchTemplateData-setPlacement-setAvailabilityZone":"java.lang.String",
+		"setLaunchTemplateData-setPlacement-withAvailabilityZone":"java.lang.String",
+		"setLaunchTemplateData-setPlacement-setGroupName":"java.lang.String",
+		"setLaunchTemplateData-setPlacement-withGroupName":"java.lang.String",
+		"setLaunchTemplateData-setPlacement-setTenancy":"java.lang.String",
+		"setLaunchTemplateData-setPlacement-withAffinity":"java.lang.String",
+		"setLaunchTemplateData-setPlacement-setHostId":"java.lang.String",
+		"setLaunchTemplateData-setPlacement-withHostId":"java.lang.String",
+		"setLaunchTemplateData-setPlacement-setAffinity":"java.lang.String",
+		"setLaunchTemplateData-setPlacement-setSpreadDomain":"java.lang.String",
+		"setLaunchTemplateData-setPlacement-withSpreadDomain":"java.lang.String",
+		"setLaunchTemplateData-withPlacement-setAvailabilityZone":"java.lang.String",
+		"setLaunchTemplateData-withPlacement-withAvailabilityZone":"java.lang.String",
+		"setLaunchTemplateData-withPlacement-setGroupName":"java.lang.String",
+		"setLaunchTemplateData-withPlacement-withGroupName":"java.lang.String",
+		"setLaunchTemplateData-withPlacement-setTenancy":"java.lang.String",
+		"setLaunchTemplateData-withPlacement-withAffinity":"java.lang.String",
+		"setLaunchTemplateData-withPlacement-setHostId":"java.lang.String",
+		"setLaunchTemplateData-withPlacement-withHostId":"java.lang.String",
+		"setLaunchTemplateData-withPlacement-setAffinity":"java.lang.String",
+		"setLaunchTemplateData-withPlacement-setSpreadDomain":"java.lang.String",
+		"setLaunchTemplateData-withPlacement-withSpreadDomain":"java.lang.String",
+		"setLaunchTemplateData-setNetworkInterfaces-setIpv6AddressCount":"java.lang.Integer",
+		"setLaunchTemplateData-setNetworkInterfaces-withIpv6AddressCount":"java.lang.Integer",
+		"setLaunchTemplateData-setNetworkInterfaces-setIpv6Addresses-setIpv6Address":"java.lang.String",
+		"setLaunchTemplateData-setNetworkInterfaces-setIpv6Addresses-withIpv6Address":"java.lang.String",
+		"setLaunchTemplateData-setNetworkInterfaces-withIpv6Addresses-setIpv6Address":"java.lang.String",
+		"setLaunchTemplateData-setNetworkInterfaces-withIpv6Addresses-withIpv6Address":"java.lang.String",
+		"setLaunchTemplateData-setNetworkInterfaces-setNetworkInterfaceId":"java.lang.String",
+		"setLaunchTemplateData-setNetworkInterfaces-withNetworkInterfaceId":"java.lang.String",
+		"setLaunchTemplateData-setNetworkInterfaces-setPrivateIpAddresses-setPrivateIpAddress":"java.lang.String",
+		"setLaunchTemplateData-setNetworkInterfaces-setPrivateIpAddresses-withPrivateIpAddress":"java.lang.String",
+		"setLaunchTemplateData-setNetworkInterfaces-setPrivateIpAddresses-setPrimary":"java.lang.Boolean",
+		"setLaunchTemplateData-setNetworkInterfaces-setPrivateIpAddresses-withPrimary":"java.lang.Boolean",
+		"setLaunchTemplateData-setNetworkInterfaces-withPrivateIpAddresses-setPrivateIpAddress":"java.lang.String",
+		"setLaunchTemplateData-setNetworkInterfaces-withPrivateIpAddresses-withPrivateIpAddress":"java.lang.String",
+		"setLaunchTemplateData-setNetworkInterfaces-withPrivateIpAddresses-setPrimary":"java.lang.Boolean",
+		"setLaunchTemplateData-setNetworkInterfaces-withPrivateIpAddresses-withPrimary":"java.lang.Boolean",
+		"setLaunchTemplateData-setNetworkInterfaces-setSecondaryPrivateIpAddressCount":"java.lang.Integer",
+		"setLaunchTemplateData-setNetworkInterfaces-withSecondaryPrivateIpAddressCount":"java.lang.Integer",
+		"setLaunchTemplateData-setNetworkInterfaces-setPrivateIpAddress":"java.lang.String",
+		"setLaunchTemplateData-setNetworkInterfaces-withPrivateIpAddress":"java.lang.String",
+		"setLaunchTemplateData-setNetworkInterfaces-setDeviceIndex":"java.lang.Integer",
+		"setLaunchTemplateData-setNetworkInterfaces-setSubnetId":"java.lang.String",
+		"setLaunchTemplateData-setNetworkInterfaces-withSubnetId":"java.lang.String",
+		"setLaunchTemplateData-setNetworkInterfaces-withDeviceIndex":"java.lang.Integer",
+		"setLaunchTemplateData-setNetworkInterfaces-setDescription":"java.lang.String",
+		"setLaunchTemplateData-setNetworkInterfaces-withDescription":"java.lang.String",
+		"setLaunchTemplateData-setNetworkInterfaces-setDeleteOnTermination":"java.lang.Boolean",
+		"setLaunchTemplateData-setNetworkInterfaces-withDeleteOnTermination":"java.lang.Boolean",
+		"setLaunchTemplateData-setNetworkInterfaces-setAssociatePublicIpAddress":"java.lang.Boolean",
+		"setLaunchTemplateData-setNetworkInterfaces-withAssociatePublicIpAddress":"java.lang.Boolean",
+		"setLaunchTemplateData-withNetworkInterfaces-setIpv6AddressCount":"java.lang.Integer",
+		"setLaunchTemplateData-withNetworkInterfaces-withIpv6AddressCount":"java.lang.Integer",
+		"setLaunchTemplateData-withNetworkInterfaces-setIpv6Addresses-setIpv6Address":"java.lang.String",
+		"setLaunchTemplateData-withNetworkInterfaces-setIpv6Addresses-withIpv6Address":"java.lang.String",
+		"setLaunchTemplateData-withNetworkInterfaces-withIpv6Addresses-setIpv6Address":"java.lang.String",
+		"setLaunchTemplateData-withNetworkInterfaces-withIpv6Addresses-withIpv6Address":"java.lang.String",
+		"setLaunchTemplateData-withNetworkInterfaces-setNetworkInterfaceId":"java.lang.String",
+		"setLaunchTemplateData-withNetworkInterfaces-withNetworkInterfaceId":"java.lang.String",
+		"setLaunchTemplateData-withNetworkInterfaces-setPrivateIpAddresses-setPrivateIpAddress":"java.lang.String",
+		"setLaunchTemplateData-withNetworkInterfaces-setPrivateIpAddresses-withPrivateIpAddress":"java.lang.String",
+		"setLaunchTemplateData-withNetworkInterfaces-setPrivateIpAddresses-setPrimary":"java.lang.Boolean",
+		"setLaunchTemplateData-withNetworkInterfaces-setPrivateIpAddresses-withPrimary":"java.lang.Boolean",
+		"setLaunchTemplateData-withNetworkInterfaces-withPrivateIpAddresses-setPrivateIpAddress":"java.lang.String",
+		"setLaunchTemplateData-withNetworkInterfaces-withPrivateIpAddresses-withPrivateIpAddress":"java.lang.String",
+		"setLaunchTemplateData-withNetworkInterfaces-withPrivateIpAddresses-setPrimary":"java.lang.Boolean",
+		"setLaunchTemplateData-withNetworkInterfaces-withPrivateIpAddresses-withPrimary":"java.lang.Boolean",
+		"setLaunchTemplateData-withNetworkInterfaces-setSecondaryPrivateIpAddressCount":"java.lang.Integer",
+		"setLaunchTemplateData-withNetworkInterfaces-withSecondaryPrivateIpAddressCount":"java.lang.Integer",
+		"setLaunchTemplateData-withNetworkInterfaces-setPrivateIpAddress":"java.lang.String",
+		"setLaunchTemplateData-withNetworkInterfaces-withPrivateIpAddress":"java.lang.String",
+		"setLaunchTemplateData-withNetworkInterfaces-setDeviceIndex":"java.lang.Integer",
+		"setLaunchTemplateData-withNetworkInterfaces-setSubnetId":"java.lang.String",
+		"setLaunchTemplateData-withNetworkInterfaces-withSubnetId":"java.lang.String",
+		"setLaunchTemplateData-withNetworkInterfaces-withDeviceIndex":"java.lang.Integer",
+		"setLaunchTemplateData-withNetworkInterfaces-setDescription":"java.lang.String",
+		"setLaunchTemplateData-withNetworkInterfaces-withDescription":"java.lang.String",
+		"setLaunchTemplateData-withNetworkInterfaces-setDeleteOnTermination":"java.lang.Boolean",
+		"setLaunchTemplateData-withNetworkInterfaces-withDeleteOnTermination":"java.lang.Boolean",
+		"setLaunchTemplateData-withNetworkInterfaces-setAssociatePublicIpAddress":"java.lang.Boolean",
+		"setLaunchTemplateData-withNetworkInterfaces-withAssociatePublicIpAddress":"java.lang.Boolean",
+		"setLaunchTemplateData-setElasticInferenceAccelerators-setType":"java.lang.String",
+		"setLaunchTemplateData-setElasticInferenceAccelerators-withType":"java.lang.String",
+		"setLaunchTemplateData-withElasticInferenceAccelerators-setType":"java.lang.String",
+		"setLaunchTemplateData-withElasticInferenceAccelerators-withType":"java.lang.String",
+		"setLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-setValidUntil-setDate":"int",
+		"setLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-setValidUntil-setHours":"int",
+		"setLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-setValidUntil-setMinutes":"int",
+		"setLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-setValidUntil-setMonth":"int",
+		"setLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-setValidUntil-setSeconds":"int",
+		"setLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-setValidUntil-setYear":"int",
+		"setLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-setValidUntil-setTime":"long",
+		"setLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-withValidUntil-setDate":"int",
+		"setLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-withValidUntil-setHours":"int",
+		"setLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-withValidUntil-setMinutes":"int",
+		"setLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-withValidUntil-setMonth":"int",
+		"setLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-withValidUntil-setSeconds":"int",
+		"setLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-withValidUntil-setYear":"int",
+		"setLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-withValidUntil-setTime":"long",
+		"setLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-setBlockDurationMinutes":"java.lang.Integer",
+		"setLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-withBlockDurationMinutes":"java.lang.Integer",
+		"setLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-setInstanceInterruptionBehavior":"java.lang.String",
+		"setLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-withInstanceInterruptionBehavior":"java.lang.String",
+		"setLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-withMaxPrice":"java.lang.String",
+		"setLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-setSpotInstanceType":"java.lang.String",
+		"setLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-withSpotInstanceType":"java.lang.String",
+		"setLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-setMaxPrice":"java.lang.String",
+		"setLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-setValidUntil-setDate":"int",
+		"setLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-setValidUntil-setHours":"int",
+		"setLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-setValidUntil-setMinutes":"int",
+		"setLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-setValidUntil-setMonth":"int",
+		"setLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-setValidUntil-setSeconds":"int",
+		"setLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-setValidUntil-setYear":"int",
+		"setLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-setValidUntil-setTime":"long",
+		"setLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-withValidUntil-setDate":"int",
+		"setLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-withValidUntil-setHours":"int",
+		"setLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-withValidUntil-setMinutes":"int",
+		"setLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-withValidUntil-setMonth":"int",
+		"setLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-withValidUntil-setSeconds":"int",
+		"setLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-withValidUntil-setYear":"int",
+		"setLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-withValidUntil-setTime":"long",
+		"setLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-setBlockDurationMinutes":"java.lang.Integer",
+		"setLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-withBlockDurationMinutes":"java.lang.Integer",
+		"setLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-setInstanceInterruptionBehavior":"java.lang.String",
+		"setLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-withInstanceInterruptionBehavior":"java.lang.String",
+		"setLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-withMaxPrice":"java.lang.String",
+		"setLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-setSpotInstanceType":"java.lang.String",
+		"setLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-withSpotInstanceType":"java.lang.String",
+		"setLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-setMaxPrice":"java.lang.String",
+		"setLaunchTemplateData-setInstanceMarketOptions-setMarketType":"java.lang.String",
+		"setLaunchTemplateData-setInstanceMarketOptions-withMarketType":"java.lang.String",
+		"setLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-setValidUntil-setDate":"int",
+		"setLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-setValidUntil-setHours":"int",
+		"setLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-setValidUntil-setMinutes":"int",
+		"setLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-setValidUntil-setMonth":"int",
+		"setLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-setValidUntil-setSeconds":"int",
+		"setLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-setValidUntil-setYear":"int",
+		"setLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-setValidUntil-setTime":"long",
+		"setLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-withValidUntil-setDate":"int",
+		"setLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-withValidUntil-setHours":"int",
+		"setLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-withValidUntil-setMinutes":"int",
+		"setLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-withValidUntil-setMonth":"int",
+		"setLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-withValidUntil-setSeconds":"int",
+		"setLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-withValidUntil-setYear":"int",
+		"setLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-withValidUntil-setTime":"long",
+		"setLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-setBlockDurationMinutes":"java.lang.Integer",
+		"setLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-withBlockDurationMinutes":"java.lang.Integer",
+		"setLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-setInstanceInterruptionBehavior":"java.lang.String",
+		"setLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-withInstanceInterruptionBehavior":"java.lang.String",
+		"setLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-withMaxPrice":"java.lang.String",
+		"setLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-setSpotInstanceType":"java.lang.String",
+		"setLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-withSpotInstanceType":"java.lang.String",
+		"setLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-setMaxPrice":"java.lang.String",
+		"setLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-setValidUntil-setDate":"int",
+		"setLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-setValidUntil-setHours":"int",
+		"setLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-setValidUntil-setMinutes":"int",
+		"setLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-setValidUntil-setMonth":"int",
+		"setLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-setValidUntil-setSeconds":"int",
+		"setLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-setValidUntil-setYear":"int",
+		"setLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-setValidUntil-setTime":"long",
+		"setLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-withValidUntil-setDate":"int",
+		"setLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-withValidUntil-setHours":"int",
+		"setLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-withValidUntil-setMinutes":"int",
+		"setLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-withValidUntil-setMonth":"int",
+		"setLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-withValidUntil-setSeconds":"int",
+		"setLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-withValidUntil-setYear":"int",
+		"setLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-withValidUntil-setTime":"long",
+		"setLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-setBlockDurationMinutes":"java.lang.Integer",
+		"setLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-withBlockDurationMinutes":"java.lang.Integer",
+		"setLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-setInstanceInterruptionBehavior":"java.lang.String",
+		"setLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-withInstanceInterruptionBehavior":"java.lang.String",
+		"setLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-withMaxPrice":"java.lang.String",
+		"setLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-setSpotInstanceType":"java.lang.String",
+		"setLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-withSpotInstanceType":"java.lang.String",
+		"setLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-setMaxPrice":"java.lang.String",
+		"setLaunchTemplateData-withInstanceMarketOptions-setMarketType":"java.lang.String",
+		"setLaunchTemplateData-withInstanceMarketOptions-withMarketType":"java.lang.String",
+		"setLaunchTemplateData-setCreditSpecification-setCpuCredits":"java.lang.String",
+		"setLaunchTemplateData-setCreditSpecification-withCpuCredits":"java.lang.String",
+		"setLaunchTemplateData-withCreditSpecification-setCpuCredits":"java.lang.String",
+		"setLaunchTemplateData-withCreditSpecification-withCpuCredits":"java.lang.String",
+		"setLaunchTemplateData-setCpuOptions-setCoreCount":"java.lang.Integer",
+		"setLaunchTemplateData-setCpuOptions-withCoreCount":"java.lang.Integer",
+		"setLaunchTemplateData-setCpuOptions-setThreadsPerCore":"java.lang.Integer",
+		"setLaunchTemplateData-setCpuOptions-withThreadsPerCore":"java.lang.Integer",
+		"setLaunchTemplateData-withCpuOptions-setCoreCount":"java.lang.Integer",
+		"setLaunchTemplateData-withCpuOptions-withCoreCount":"java.lang.Integer",
+		"setLaunchTemplateData-withCpuOptions-setThreadsPerCore":"java.lang.Integer",
+		"setLaunchTemplateData-withCpuOptions-withThreadsPerCore":"java.lang.Integer",
+		"setLaunchTemplateData-setHibernationOptions-setConfigured":"java.lang.Boolean",
+		"setLaunchTemplateData-setHibernationOptions-withConfigured":"java.lang.Boolean",
+		"setLaunchTemplateData-withHibernationOptions-setConfigured":"java.lang.Boolean",
+		"setLaunchTemplateData-withHibernationOptions-withConfigured":"java.lang.Boolean",
+		"setLaunchTemplateData-setLicenseSpecifications-setLicenseConfigurationArn":"java.lang.String",
+		"setLaunchTemplateData-setLicenseSpecifications-withLicenseConfigurationArn":"java.lang.String",
+		"setLaunchTemplateData-withLicenseSpecifications-setLicenseConfigurationArn":"java.lang.String",
+		"setLaunchTemplateData-withLicenseSpecifications-withLicenseConfigurationArn":"java.lang.String",
+		"setLaunchTemplateData-setRamDiskId":"java.lang.String",
+		"setLaunchTemplateData-withRamDiskId":"java.lang.String",
+		"setLaunchTemplateData-setElasticGpuSpecifications-setType":"java.lang.String",
+		"setLaunchTemplateData-setElasticGpuSpecifications-withType":"java.lang.String",
+		"setLaunchTemplateData-withElasticGpuSpecifications-setType":"java.lang.String",
+		"setLaunchTemplateData-withElasticGpuSpecifications-withType":"java.lang.String",
+		"withLaunchTemplateData-setInstanceType":"java.lang.String",
+		"withLaunchTemplateData-withInstanceType":"java.lang.String",
+		"withLaunchTemplateData-setTagSpecifications-setResourceType":"java.lang.String",
+		"withLaunchTemplateData-setTagSpecifications-setTags-withValue":"java.lang.String",
+		"withLaunchTemplateData-setTagSpecifications-setTags-setKey":"java.lang.String",
+		"withLaunchTemplateData-setTagSpecifications-setTags-withKey":"java.lang.String",
+		"withLaunchTemplateData-setTagSpecifications-setTags-setValue":"java.lang.String",
+		"withLaunchTemplateData-setTagSpecifications-withTags-withValue":"java.lang.String",
+		"withLaunchTemplateData-setTagSpecifications-withTags-setKey":"java.lang.String",
+		"withLaunchTemplateData-setTagSpecifications-withTags-withKey":"java.lang.String",
+		"withLaunchTemplateData-setTagSpecifications-withTags-setValue":"java.lang.String",
+		"withLaunchTemplateData-withTagSpecifications-setResourceType":"java.lang.String",
+		"withLaunchTemplateData-withTagSpecifications-setTags-withValue":"java.lang.String",
+		"withLaunchTemplateData-withTagSpecifications-setTags-setKey":"java.lang.String",
+		"withLaunchTemplateData-withTagSpecifications-setTags-withKey":"java.lang.String",
+		"withLaunchTemplateData-withTagSpecifications-setTags-setValue":"java.lang.String",
+		"withLaunchTemplateData-withTagSpecifications-withTags-withValue":"java.lang.String",
+		"withLaunchTemplateData-withTagSpecifications-withTags-setKey":"java.lang.String",
+		"withLaunchTemplateData-withTagSpecifications-withTags-withKey":"java.lang.String",
+		"withLaunchTemplateData-withTagSpecifications-withTags-setValue":"java.lang.String",
+		"withLaunchTemplateData-withIamInstanceProfile-withName":"java.lang.String",
+		"withLaunchTemplateData-withIamInstanceProfile-setArn":"java.lang.String",
+		"withLaunchTemplateData-withIamInstanceProfile-withArn":"java.lang.String",
+		"withLaunchTemplateData-withIamInstanceProfile-setName":"java.lang.String",
+		"withLaunchTemplateData-setIamInstanceProfile-withName":"java.lang.String",
+		"withLaunchTemplateData-setIamInstanceProfile-setArn":"java.lang.String",
+		"withLaunchTemplateData-setIamInstanceProfile-withArn":"java.lang.String",
+		"withLaunchTemplateData-setIamInstanceProfile-setName":"java.lang.String",
+		"withLaunchTemplateData-setEbsOptimized":"java.lang.Boolean",
+		"withLaunchTemplateData-withEbsOptimized":"java.lang.Boolean",
+		"withLaunchTemplateData-withKeyName":"java.lang.String",
+		"withLaunchTemplateData-setKeyName":"java.lang.String",
+		"withLaunchTemplateData-setBlockDeviceMappings-setEbs-setEncrypted":"java.lang.Boolean",
+		"withLaunchTemplateData-setBlockDeviceMappings-setEbs-withEncrypted":"java.lang.Boolean",
+		"withLaunchTemplateData-setBlockDeviceMappings-setEbs-setKmsKeyId":"java.lang.String",
+		"withLaunchTemplateData-setBlockDeviceMappings-setEbs-withKmsKeyId":"java.lang.String",
+		"withLaunchTemplateData-setBlockDeviceMappings-setEbs-setIops":"java.lang.Integer",
+		"withLaunchTemplateData-setBlockDeviceMappings-setEbs-withIops":"java.lang.Integer",
+		"withLaunchTemplateData-setBlockDeviceMappings-setEbs-setSnapshotId":"java.lang.String",
+		"withLaunchTemplateData-setBlockDeviceMappings-setEbs-withSnapshotId":"java.lang.String",
+		"withLaunchTemplateData-setBlockDeviceMappings-setEbs-setVolumeType":"java.lang.String",
+		"withLaunchTemplateData-setBlockDeviceMappings-setEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"withLaunchTemplateData-setBlockDeviceMappings-setEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"withLaunchTemplateData-setBlockDeviceMappings-setEbs-setVolumeSize":"java.lang.Integer",
+		"withLaunchTemplateData-setBlockDeviceMappings-setEbs-withVolumeSize":"java.lang.Integer",
+		"withLaunchTemplateData-setBlockDeviceMappings-setDeviceName":"java.lang.String",
+		"withLaunchTemplateData-setBlockDeviceMappings-withDeviceName":"java.lang.String",
+		"withLaunchTemplateData-setBlockDeviceMappings-withEbs-setEncrypted":"java.lang.Boolean",
+		"withLaunchTemplateData-setBlockDeviceMappings-withEbs-withEncrypted":"java.lang.Boolean",
+		"withLaunchTemplateData-setBlockDeviceMappings-withEbs-setKmsKeyId":"java.lang.String",
+		"withLaunchTemplateData-setBlockDeviceMappings-withEbs-withKmsKeyId":"java.lang.String",
+		"withLaunchTemplateData-setBlockDeviceMappings-withEbs-setIops":"java.lang.Integer",
+		"withLaunchTemplateData-setBlockDeviceMappings-withEbs-withIops":"java.lang.Integer",
+		"withLaunchTemplateData-setBlockDeviceMappings-withEbs-setSnapshotId":"java.lang.String",
+		"withLaunchTemplateData-setBlockDeviceMappings-withEbs-withSnapshotId":"java.lang.String",
+		"withLaunchTemplateData-setBlockDeviceMappings-withEbs-setVolumeType":"java.lang.String",
+		"withLaunchTemplateData-setBlockDeviceMappings-withEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"withLaunchTemplateData-setBlockDeviceMappings-withEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"withLaunchTemplateData-setBlockDeviceMappings-withEbs-setVolumeSize":"java.lang.Integer",
+		"withLaunchTemplateData-setBlockDeviceMappings-withEbs-withVolumeSize":"java.lang.Integer",
+		"withLaunchTemplateData-setBlockDeviceMappings-setNoDevice":"java.lang.String",
+		"withLaunchTemplateData-setBlockDeviceMappings-withNoDevice":"java.lang.String",
+		"withLaunchTemplateData-setBlockDeviceMappings-setVirtualName":"java.lang.String",
+		"withLaunchTemplateData-setBlockDeviceMappings-withVirtualName":"java.lang.String",
+		"withLaunchTemplateData-withBlockDeviceMappings-setEbs-setEncrypted":"java.lang.Boolean",
+		"withLaunchTemplateData-withBlockDeviceMappings-setEbs-withEncrypted":"java.lang.Boolean",
+		"withLaunchTemplateData-withBlockDeviceMappings-setEbs-setKmsKeyId":"java.lang.String",
+		"withLaunchTemplateData-withBlockDeviceMappings-setEbs-withKmsKeyId":"java.lang.String",
+		"withLaunchTemplateData-withBlockDeviceMappings-setEbs-setIops":"java.lang.Integer",
+		"withLaunchTemplateData-withBlockDeviceMappings-setEbs-withIops":"java.lang.Integer",
+		"withLaunchTemplateData-withBlockDeviceMappings-setEbs-setSnapshotId":"java.lang.String",
+		"withLaunchTemplateData-withBlockDeviceMappings-setEbs-withSnapshotId":"java.lang.String",
+		"withLaunchTemplateData-withBlockDeviceMappings-setEbs-setVolumeType":"java.lang.String",
+		"withLaunchTemplateData-withBlockDeviceMappings-setEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"withLaunchTemplateData-withBlockDeviceMappings-setEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"withLaunchTemplateData-withBlockDeviceMappings-setEbs-setVolumeSize":"java.lang.Integer",
+		"withLaunchTemplateData-withBlockDeviceMappings-setEbs-withVolumeSize":"java.lang.Integer",
+		"withLaunchTemplateData-withBlockDeviceMappings-setDeviceName":"java.lang.String",
+		"withLaunchTemplateData-withBlockDeviceMappings-withDeviceName":"java.lang.String",
+		"withLaunchTemplateData-withBlockDeviceMappings-withEbs-setEncrypted":"java.lang.Boolean",
+		"withLaunchTemplateData-withBlockDeviceMappings-withEbs-withEncrypted":"java.lang.Boolean",
+		"withLaunchTemplateData-withBlockDeviceMappings-withEbs-setKmsKeyId":"java.lang.String",
+		"withLaunchTemplateData-withBlockDeviceMappings-withEbs-withKmsKeyId":"java.lang.String",
+		"withLaunchTemplateData-withBlockDeviceMappings-withEbs-setIops":"java.lang.Integer",
+		"withLaunchTemplateData-withBlockDeviceMappings-withEbs-withIops":"java.lang.Integer",
+		"withLaunchTemplateData-withBlockDeviceMappings-withEbs-setSnapshotId":"java.lang.String",
+		"withLaunchTemplateData-withBlockDeviceMappings-withEbs-withSnapshotId":"java.lang.String",
+		"withLaunchTemplateData-withBlockDeviceMappings-withEbs-setVolumeType":"java.lang.String",
+		"withLaunchTemplateData-withBlockDeviceMappings-withEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"withLaunchTemplateData-withBlockDeviceMappings-withEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"withLaunchTemplateData-withBlockDeviceMappings-withEbs-setVolumeSize":"java.lang.Integer",
+		"withLaunchTemplateData-withBlockDeviceMappings-withEbs-withVolumeSize":"java.lang.Integer",
+		"withLaunchTemplateData-withBlockDeviceMappings-setNoDevice":"java.lang.String",
+		"withLaunchTemplateData-withBlockDeviceMappings-withNoDevice":"java.lang.String",
+		"withLaunchTemplateData-withBlockDeviceMappings-setVirtualName":"java.lang.String",
+		"withLaunchTemplateData-withBlockDeviceMappings-withVirtualName":"java.lang.String",
+		"withLaunchTemplateData-setImageId":"java.lang.String",
+		"withLaunchTemplateData-withImageId":"java.lang.String",
+		"withLaunchTemplateData-setDisableApiTermination":"java.lang.Boolean",
+		"withLaunchTemplateData-setCapacityReservationSpecification-withCapacityReservationPreference":"java.lang.String",
+		"withLaunchTemplateData-setCapacityReservationSpecification-setCapacityReservationTarget-withCapacityReservationId":"java.lang.String",
+		"withLaunchTemplateData-setCapacityReservationSpecification-setCapacityReservationTarget-setCapacityReservationId":"java.lang.String",
+		"withLaunchTemplateData-setCapacityReservationSpecification-withCapacityReservationTarget-withCapacityReservationId":"java.lang.String",
+		"withLaunchTemplateData-setCapacityReservationSpecification-withCapacityReservationTarget-setCapacityReservationId":"java.lang.String",
+		"withLaunchTemplateData-setCapacityReservationSpecification-setCapacityReservationPreference":"java.lang.String",
+		"withLaunchTemplateData-withCapacityReservationSpecification-withCapacityReservationPreference":"java.lang.String",
+		"withLaunchTemplateData-withCapacityReservationSpecification-setCapacityReservationTarget-withCapacityReservationId":"java.lang.String",
+		"withLaunchTemplateData-withCapacityReservationSpecification-setCapacityReservationTarget-setCapacityReservationId":"java.lang.String",
+		"withLaunchTemplateData-withCapacityReservationSpecification-withCapacityReservationTarget-withCapacityReservationId":"java.lang.String",
+		"withLaunchTemplateData-withCapacityReservationSpecification-withCapacityReservationTarget-setCapacityReservationId":"java.lang.String",
+		"withLaunchTemplateData-withCapacityReservationSpecification-setCapacityReservationPreference":"java.lang.String",
+		"withLaunchTemplateData-withDisableApiTermination":"java.lang.Boolean",
+		"withLaunchTemplateData-setInstanceInitiatedShutdownBehavior":"java.lang.String",
+		"withLaunchTemplateData-withInstanceInitiatedShutdownBehavior":"java.lang.String",
+		"withLaunchTemplateData-setUserData":"java.lang.String",
+		"withLaunchTemplateData-withUserData":"java.lang.String",
+		"withLaunchTemplateData-setKernelId":"java.lang.String",
+		"withLaunchTemplateData-withKernelId":"java.lang.String",
+		"withLaunchTemplateData-setMonitoring-withEnabled":"java.lang.Boolean",
+		"withLaunchTemplateData-setMonitoring-setEnabled":"java.lang.Boolean",
+		"withLaunchTemplateData-withMonitoring-withEnabled":"java.lang.Boolean",
+		"withLaunchTemplateData-withMonitoring-setEnabled":"java.lang.Boolean",
+		"withLaunchTemplateData-setPlacement-setAvailabilityZone":"java.lang.String",
+		"withLaunchTemplateData-setPlacement-withAvailabilityZone":"java.lang.String",
+		"withLaunchTemplateData-setPlacement-setGroupName":"java.lang.String",
+		"withLaunchTemplateData-setPlacement-withGroupName":"java.lang.String",
+		"withLaunchTemplateData-setPlacement-setTenancy":"java.lang.String",
+		"withLaunchTemplateData-setPlacement-withAffinity":"java.lang.String",
+		"withLaunchTemplateData-setPlacement-setHostId":"java.lang.String",
+		"withLaunchTemplateData-setPlacement-withHostId":"java.lang.String",
+		"withLaunchTemplateData-setPlacement-setAffinity":"java.lang.String",
+		"withLaunchTemplateData-setPlacement-setSpreadDomain":"java.lang.String",
+		"withLaunchTemplateData-setPlacement-withSpreadDomain":"java.lang.String",
+		"withLaunchTemplateData-withPlacement-setAvailabilityZone":"java.lang.String",
+		"withLaunchTemplateData-withPlacement-withAvailabilityZone":"java.lang.String",
+		"withLaunchTemplateData-withPlacement-setGroupName":"java.lang.String",
+		"withLaunchTemplateData-withPlacement-withGroupName":"java.lang.String",
+		"withLaunchTemplateData-withPlacement-setTenancy":"java.lang.String",
+		"withLaunchTemplateData-withPlacement-withAffinity":"java.lang.String",
+		"withLaunchTemplateData-withPlacement-setHostId":"java.lang.String",
+		"withLaunchTemplateData-withPlacement-withHostId":"java.lang.String",
+		"withLaunchTemplateData-withPlacement-setAffinity":"java.lang.String",
+		"withLaunchTemplateData-withPlacement-setSpreadDomain":"java.lang.String",
+		"withLaunchTemplateData-withPlacement-withSpreadDomain":"java.lang.String",
+		"withLaunchTemplateData-setNetworkInterfaces-setIpv6AddressCount":"java.lang.Integer",
+		"withLaunchTemplateData-setNetworkInterfaces-withIpv6AddressCount":"java.lang.Integer",
+		"withLaunchTemplateData-setNetworkInterfaces-setIpv6Addresses-setIpv6Address":"java.lang.String",
+		"withLaunchTemplateData-setNetworkInterfaces-setIpv6Addresses-withIpv6Address":"java.lang.String",
+		"withLaunchTemplateData-setNetworkInterfaces-withIpv6Addresses-setIpv6Address":"java.lang.String",
+		"withLaunchTemplateData-setNetworkInterfaces-withIpv6Addresses-withIpv6Address":"java.lang.String",
+		"withLaunchTemplateData-setNetworkInterfaces-setNetworkInterfaceId":"java.lang.String",
+		"withLaunchTemplateData-setNetworkInterfaces-withNetworkInterfaceId":"java.lang.String",
+		"withLaunchTemplateData-setNetworkInterfaces-setPrivateIpAddresses-setPrivateIpAddress":"java.lang.String",
+		"withLaunchTemplateData-setNetworkInterfaces-setPrivateIpAddresses-withPrivateIpAddress":"java.lang.String",
+		"withLaunchTemplateData-setNetworkInterfaces-setPrivateIpAddresses-setPrimary":"java.lang.Boolean",
+		"withLaunchTemplateData-setNetworkInterfaces-setPrivateIpAddresses-withPrimary":"java.lang.Boolean",
+		"withLaunchTemplateData-setNetworkInterfaces-withPrivateIpAddresses-setPrivateIpAddress":"java.lang.String",
+		"withLaunchTemplateData-setNetworkInterfaces-withPrivateIpAddresses-withPrivateIpAddress":"java.lang.String",
+		"withLaunchTemplateData-setNetworkInterfaces-withPrivateIpAddresses-setPrimary":"java.lang.Boolean",
+		"withLaunchTemplateData-setNetworkInterfaces-withPrivateIpAddresses-withPrimary":"java.lang.Boolean",
+		"withLaunchTemplateData-setNetworkInterfaces-setSecondaryPrivateIpAddressCount":"java.lang.Integer",
+		"withLaunchTemplateData-setNetworkInterfaces-withSecondaryPrivateIpAddressCount":"java.lang.Integer",
+		"withLaunchTemplateData-setNetworkInterfaces-setPrivateIpAddress":"java.lang.String",
+		"withLaunchTemplateData-setNetworkInterfaces-withPrivateIpAddress":"java.lang.String",
+		"withLaunchTemplateData-setNetworkInterfaces-setDeviceIndex":"java.lang.Integer",
+		"withLaunchTemplateData-setNetworkInterfaces-setSubnetId":"java.lang.String",
+		"withLaunchTemplateData-setNetworkInterfaces-withSubnetId":"java.lang.String",
+		"withLaunchTemplateData-setNetworkInterfaces-withDeviceIndex":"java.lang.Integer",
+		"withLaunchTemplateData-setNetworkInterfaces-setDescription":"java.lang.String",
+		"withLaunchTemplateData-setNetworkInterfaces-withDescription":"java.lang.String",
+		"withLaunchTemplateData-setNetworkInterfaces-setDeleteOnTermination":"java.lang.Boolean",
+		"withLaunchTemplateData-setNetworkInterfaces-withDeleteOnTermination":"java.lang.Boolean",
+		"withLaunchTemplateData-setNetworkInterfaces-setAssociatePublicIpAddress":"java.lang.Boolean",
+		"withLaunchTemplateData-setNetworkInterfaces-withAssociatePublicIpAddress":"java.lang.Boolean",
+		"withLaunchTemplateData-withNetworkInterfaces-setIpv6AddressCount":"java.lang.Integer",
+		"withLaunchTemplateData-withNetworkInterfaces-withIpv6AddressCount":"java.lang.Integer",
+		"withLaunchTemplateData-withNetworkInterfaces-setIpv6Addresses-setIpv6Address":"java.lang.String",
+		"withLaunchTemplateData-withNetworkInterfaces-setIpv6Addresses-withIpv6Address":"java.lang.String",
+		"withLaunchTemplateData-withNetworkInterfaces-withIpv6Addresses-setIpv6Address":"java.lang.String",
+		"withLaunchTemplateData-withNetworkInterfaces-withIpv6Addresses-withIpv6Address":"java.lang.String",
+		"withLaunchTemplateData-withNetworkInterfaces-setNetworkInterfaceId":"java.lang.String",
+		"withLaunchTemplateData-withNetworkInterfaces-withNetworkInterfaceId":"java.lang.String",
+		"withLaunchTemplateData-withNetworkInterfaces-setPrivateIpAddresses-setPrivateIpAddress":"java.lang.String",
+		"withLaunchTemplateData-withNetworkInterfaces-setPrivateIpAddresses-withPrivateIpAddress":"java.lang.String",
+		"withLaunchTemplateData-withNetworkInterfaces-setPrivateIpAddresses-setPrimary":"java.lang.Boolean",
+		"withLaunchTemplateData-withNetworkInterfaces-setPrivateIpAddresses-withPrimary":"java.lang.Boolean",
+		"withLaunchTemplateData-withNetworkInterfaces-withPrivateIpAddresses-setPrivateIpAddress":"java.lang.String",
+		"withLaunchTemplateData-withNetworkInterfaces-withPrivateIpAddresses-withPrivateIpAddress":"java.lang.String",
+		"withLaunchTemplateData-withNetworkInterfaces-withPrivateIpAddresses-setPrimary":"java.lang.Boolean",
+		"withLaunchTemplateData-withNetworkInterfaces-withPrivateIpAddresses-withPrimary":"java.lang.Boolean",
+		"withLaunchTemplateData-withNetworkInterfaces-setSecondaryPrivateIpAddressCount":"java.lang.Integer",
+		"withLaunchTemplateData-withNetworkInterfaces-withSecondaryPrivateIpAddressCount":"java.lang.Integer",
+		"withLaunchTemplateData-withNetworkInterfaces-setPrivateIpAddress":"java.lang.String",
+		"withLaunchTemplateData-withNetworkInterfaces-withPrivateIpAddress":"java.lang.String",
+		"withLaunchTemplateData-withNetworkInterfaces-setDeviceIndex":"java.lang.Integer",
+		"withLaunchTemplateData-withNetworkInterfaces-setSubnetId":"java.lang.String",
+		"withLaunchTemplateData-withNetworkInterfaces-withSubnetId":"java.lang.String",
+		"withLaunchTemplateData-withNetworkInterfaces-withDeviceIndex":"java.lang.Integer",
+		"withLaunchTemplateData-withNetworkInterfaces-setDescription":"java.lang.String",
+		"withLaunchTemplateData-withNetworkInterfaces-withDescription":"java.lang.String",
+		"withLaunchTemplateData-withNetworkInterfaces-setDeleteOnTermination":"java.lang.Boolean",
+		"withLaunchTemplateData-withNetworkInterfaces-withDeleteOnTermination":"java.lang.Boolean",
+		"withLaunchTemplateData-withNetworkInterfaces-setAssociatePublicIpAddress":"java.lang.Boolean",
+		"withLaunchTemplateData-withNetworkInterfaces-withAssociatePublicIpAddress":"java.lang.Boolean",
+		"withLaunchTemplateData-setElasticInferenceAccelerators-setType":"java.lang.String",
+		"withLaunchTemplateData-setElasticInferenceAccelerators-withType":"java.lang.String",
+		"withLaunchTemplateData-withElasticInferenceAccelerators-setType":"java.lang.String",
+		"withLaunchTemplateData-withElasticInferenceAccelerators-withType":"java.lang.String",
+		"withLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-setValidUntil-setDate":"int",
+		"withLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-setValidUntil-setHours":"int",
+		"withLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-setValidUntil-setMinutes":"int",
+		"withLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-setValidUntil-setMonth":"int",
+		"withLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-setValidUntil-setSeconds":"int",
+		"withLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-setValidUntil-setYear":"int",
+		"withLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-setValidUntil-setTime":"long",
+		"withLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-withValidUntil-setDate":"int",
+		"withLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-withValidUntil-setHours":"int",
+		"withLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-withValidUntil-setMinutes":"int",
+		"withLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-withValidUntil-setMonth":"int",
+		"withLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-withValidUntil-setSeconds":"int",
+		"withLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-withValidUntil-setYear":"int",
+		"withLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-withValidUntil-setTime":"long",
+		"withLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-setBlockDurationMinutes":"java.lang.Integer",
+		"withLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-withBlockDurationMinutes":"java.lang.Integer",
+		"withLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-setInstanceInterruptionBehavior":"java.lang.String",
+		"withLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-withInstanceInterruptionBehavior":"java.lang.String",
+		"withLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-withMaxPrice":"java.lang.String",
+		"withLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-setSpotInstanceType":"java.lang.String",
+		"withLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-withSpotInstanceType":"java.lang.String",
+		"withLaunchTemplateData-setInstanceMarketOptions-setSpotOptions-setMaxPrice":"java.lang.String",
+		"withLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-setValidUntil-setDate":"int",
+		"withLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-setValidUntil-setHours":"int",
+		"withLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-setValidUntil-setMinutes":"int",
+		"withLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-setValidUntil-setMonth":"int",
+		"withLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-setValidUntil-setSeconds":"int",
+		"withLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-setValidUntil-setYear":"int",
+		"withLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-setValidUntil-setTime":"long",
+		"withLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-withValidUntil-setDate":"int",
+		"withLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-withValidUntil-setHours":"int",
+		"withLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-withValidUntil-setMinutes":"int",
+		"withLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-withValidUntil-setMonth":"int",
+		"withLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-withValidUntil-setSeconds":"int",
+		"withLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-withValidUntil-setYear":"int",
+		"withLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-withValidUntil-setTime":"long",
+		"withLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-setBlockDurationMinutes":"java.lang.Integer",
+		"withLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-withBlockDurationMinutes":"java.lang.Integer",
+		"withLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-setInstanceInterruptionBehavior":"java.lang.String",
+		"withLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-withInstanceInterruptionBehavior":"java.lang.String",
+		"withLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-withMaxPrice":"java.lang.String",
+		"withLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-setSpotInstanceType":"java.lang.String",
+		"withLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-withSpotInstanceType":"java.lang.String",
+		"withLaunchTemplateData-setInstanceMarketOptions-withSpotOptions-setMaxPrice":"java.lang.String",
+		"withLaunchTemplateData-setInstanceMarketOptions-setMarketType":"java.lang.String",
+		"withLaunchTemplateData-setInstanceMarketOptions-withMarketType":"java.lang.String",
+		"withLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-setValidUntil-setDate":"int",
+		"withLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-setValidUntil-setHours":"int",
+		"withLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-setValidUntil-setMinutes":"int",
+		"withLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-setValidUntil-setMonth":"int",
+		"withLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-setValidUntil-setSeconds":"int",
+		"withLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-setValidUntil-setYear":"int",
+		"withLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-setValidUntil-setTime":"long",
+		"withLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-withValidUntil-setDate":"int",
+		"withLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-withValidUntil-setHours":"int",
+		"withLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-withValidUntil-setMinutes":"int",
+		"withLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-withValidUntil-setMonth":"int",
+		"withLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-withValidUntil-setSeconds":"int",
+		"withLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-withValidUntil-setYear":"int",
+		"withLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-withValidUntil-setTime":"long",
+		"withLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-setBlockDurationMinutes":"java.lang.Integer",
+		"withLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-withBlockDurationMinutes":"java.lang.Integer",
+		"withLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-setInstanceInterruptionBehavior":"java.lang.String",
+		"withLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-withInstanceInterruptionBehavior":"java.lang.String",
+		"withLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-withMaxPrice":"java.lang.String",
+		"withLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-setSpotInstanceType":"java.lang.String",
+		"withLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-withSpotInstanceType":"java.lang.String",
+		"withLaunchTemplateData-withInstanceMarketOptions-setSpotOptions-setMaxPrice":"java.lang.String",
+		"withLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-setValidUntil-setDate":"int",
+		"withLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-setValidUntil-setHours":"int",
+		"withLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-setValidUntil-setMinutes":"int",
+		"withLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-setValidUntil-setMonth":"int",
+		"withLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-setValidUntil-setSeconds":"int",
+		"withLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-setValidUntil-setYear":"int",
+		"withLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-setValidUntil-setTime":"long",
+		"withLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-withValidUntil-setDate":"int",
+		"withLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-withValidUntil-setHours":"int",
+		"withLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-withValidUntil-setMinutes":"int",
+		"withLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-withValidUntil-setMonth":"int",
+		"withLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-withValidUntil-setSeconds":"int",
+		"withLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-withValidUntil-setYear":"int",
+		"withLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-withValidUntil-setTime":"long",
+		"withLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-setBlockDurationMinutes":"java.lang.Integer",
+		"withLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-withBlockDurationMinutes":"java.lang.Integer",
+		"withLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-setInstanceInterruptionBehavior":"java.lang.String",
+		"withLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-withInstanceInterruptionBehavior":"java.lang.String",
+		"withLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-withMaxPrice":"java.lang.String",
+		"withLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-setSpotInstanceType":"java.lang.String",
+		"withLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-withSpotInstanceType":"java.lang.String",
+		"withLaunchTemplateData-withInstanceMarketOptions-withSpotOptions-setMaxPrice":"java.lang.String",
+		"withLaunchTemplateData-withInstanceMarketOptions-setMarketType":"java.lang.String",
+		"withLaunchTemplateData-withInstanceMarketOptions-withMarketType":"java.lang.String",
+		"withLaunchTemplateData-setCreditSpecification-setCpuCredits":"java.lang.String",
+		"withLaunchTemplateData-setCreditSpecification-withCpuCredits":"java.lang.String",
+		"withLaunchTemplateData-withCreditSpecification-setCpuCredits":"java.lang.String",
+		"withLaunchTemplateData-withCreditSpecification-withCpuCredits":"java.lang.String",
+		"withLaunchTemplateData-setCpuOptions-setCoreCount":"java.lang.Integer",
+		"withLaunchTemplateData-setCpuOptions-withCoreCount":"java.lang.Integer",
+		"withLaunchTemplateData-setCpuOptions-setThreadsPerCore":"java.lang.Integer",
+		"withLaunchTemplateData-setCpuOptions-withThreadsPerCore":"java.lang.Integer",
+		"withLaunchTemplateData-withCpuOptions-setCoreCount":"java.lang.Integer",
+		"withLaunchTemplateData-withCpuOptions-withCoreCount":"java.lang.Integer",
+		"withLaunchTemplateData-withCpuOptions-setThreadsPerCore":"java.lang.Integer",
+		"withLaunchTemplateData-withCpuOptions-withThreadsPerCore":"java.lang.Integer",
+		"withLaunchTemplateData-setHibernationOptions-setConfigured":"java.lang.Boolean",
+		"withLaunchTemplateData-setHibernationOptions-withConfigured":"java.lang.Boolean",
+		"withLaunchTemplateData-withHibernationOptions-setConfigured":"java.lang.Boolean",
+		"withLaunchTemplateData-withHibernationOptions-withConfigured":"java.lang.Boolean",
+		"withLaunchTemplateData-setLicenseSpecifications-setLicenseConfigurationArn":"java.lang.String",
+		"withLaunchTemplateData-setLicenseSpecifications-withLicenseConfigurationArn":"java.lang.String",
+		"withLaunchTemplateData-withLicenseSpecifications-setLicenseConfigurationArn":"java.lang.String",
+		"withLaunchTemplateData-withLicenseSpecifications-withLicenseConfigurationArn":"java.lang.String",
+		"withLaunchTemplateData-setRamDiskId":"java.lang.String",
+		"withLaunchTemplateData-withRamDiskId":"java.lang.String",
+		"withLaunchTemplateData-setElasticGpuSpecifications-setType":"java.lang.String",
+		"withLaunchTemplateData-setElasticGpuSpecifications-withType":"java.lang.String",
+		"withLaunchTemplateData-withElasticGpuSpecifications-setType":"java.lang.String",
+		"withLaunchTemplateData-withElasticGpuSpecifications-withType":"java.lang.String",
+		"setLaunchTemplateName":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## ModifyLaunchTemplate parameterss:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"withClientToken":"java.lang.String",
+		"withLaunchTemplateName":"java.lang.String",
+		"setLaunchTemplateName":"java.lang.String",
+		"setLaunchTemplateId":"java.lang.String",
+		"withLaunchTemplateId":"java.lang.String",
+		"setDefaultVersion":"java.lang.String",
+		"withDefaultVersion":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## ReplaceRouteTableAssociation parameterss:
+
+```
+{
+	"main":{
+		"setRouteTableId":"java.lang.String",
+		"withRouteTableId":"java.lang.String",
+		"setAssociationId":"java.lang.String",
+		"withAssociationId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## GetTransitGatewayRouteTablePropagations parameterss:
+
+```
+{
+	"main":{
+		"setTransitGatewayRouteTableId":"java.lang.String",
+		"withTransitGatewayRouteTableId":"java.lang.String",
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## PurchaseHostReservation parameterss:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"withClientToken":"java.lang.String",
+		"setOfferingId":"java.lang.String",
+		"withOfferingId":"java.lang.String",
+		"setLimitPrice":"java.lang.String",
+		"withLimitPrice":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## CreateNetworkInterfacePermission parameterss:
+
+```
+{
+	"main":{
+		"setNetworkInterfaceId":"java.lang.String",
+		"withNetworkInterfaceId":"java.lang.String",
+		"setAwsAccountId":"java.lang.String",
+		"withAwsAccountId":"java.lang.String",
+		"setAwsService":"java.lang.String",
+		"withAwsService":"java.lang.String",
+		"withPermission":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## ModifyVpcAttribute parameterss:
+
+```
+{
+	"main":{
+		"setVpcId":"java.lang.String",
+		"withVpcId":"java.lang.String",
+		"setEnableDnsHostnames":"java.lang.Boolean",
+		"withEnableDnsHostnames":"java.lang.Boolean",
+		"setEnableDnsSupport":"java.lang.Boolean",
+		"withEnableDnsSupport":"java.lang.Boolean",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DeleteSpotDatafeedSubscription parameterss:
+
+```
+{
+	"main":{
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## CreateVpcEndpointConnectionNotification parameterss:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"withClientToken":"java.lang.String",
+		"withServiceId":"java.lang.String",
+		"setServiceId":"java.lang.String",
+		"setVpcEndpointId":"java.lang.String",
+		"withVpcEndpointId":"java.lang.String",
+		"setConnectionNotificationArn":"java.lang.String",
+		"withConnectionNotificationArn":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DeleteSubnet parameterss:
+
+```
+{
+	"main":{
+		"setSubnetId":"java.lang.String",
+		"withSubnetId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## CopySnapshot parameterss:
+
+```
+{
+	"main":{
+		"setDescription":"java.lang.String",
+		"withDescription":"java.lang.String",
+		"setSourceRegion":"java.lang.String",
+		"withSourceRegion":"java.lang.String",
+		"setEncrypted":"java.lang.Boolean",
+		"withEncrypted":"java.lang.Boolean",
+		"setKmsKeyId":"java.lang.String",
+		"withKmsKeyId":"java.lang.String",
+		"setDestinationRegion":"java.lang.String",
+		"withDestinationRegion":"java.lang.String",
+		"setPresignedUrl":"java.lang.String",
+		"withPresignedUrl":"java.lang.String",
+		"setSourceSnapshotId":"java.lang.String",
+		"withSourceSnapshotId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeVpcEndpointServiceConfigurations parameterss:
+
+```
+{
+	"main":{
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DeleteVolume parameterss:
+
+```
+{
+	"main":{
+		"setVolumeId":"java.lang.String",
+		"withVolumeId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeReservedInstances parameterss:
+
+```
+{
+	"main":{
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setOfferingType":"java.lang.String",
+		"withOfferingType":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeTransitGatewayRouteTables parameterss:
+
+```
+{
+	"main":{
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeLaunchTemplates parameterss:
+
+```
+{
+	"main":{
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeVpcEndpointServices parameterss:
+
+```
+{
+	"main":{
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## TerminateInstances parameterss:
+
+```
+{
+	"main":{
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## ExportClientVpnClientConfiguration parameterss:
+
+```
+{
+	"main":{
+		"setClientVpnEndpointId":"java.lang.String",
+		"withClientVpnEndpointId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeAvailabilityZones parameterss:
+
+```
+{
+	"main":{
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeNetworkAcls parameterss:
+
+```
+{
+	"main":{
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeAccountAttributes parameterss:
+
+```
+{
+	"main":{
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## AdvertiseByoipCidr parameterss:
+
+```
+{
+	"main":{
+		"setCidr":"java.lang.String",
+		"withCidr":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## CreateNetworkAcl parameterss:
+
+```
+{
+	"main":{
+		"setVpcId":"java.lang.String",
+		"withVpcId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribePrincipalIdFormat parameterss:
+
+```
+{
+	"main":{
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## EnableVgwRoutePropagation parameterss:
+
+```
+{
+	"main":{
+		"setRouteTableId":"java.lang.String",
+		"withRouteTableId":"java.lang.String",
+		"setGatewayId":"java.lang.String",
+		"withGatewayId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeVpcEndpointConnectionNotifications parameterss:
+
+```
+{
+	"main":{
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setConnectionNotificationId":"java.lang.String",
+		"withConnectionNotificationId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## GetConsoleOutput parameterss:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"withInstanceId":"java.lang.String",
+		"setLatest":"java.lang.Boolean",
+		"withLatest":"java.lang.Boolean",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeRouteTables parameterss:
+
+```
+{
+	"main":{
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## WithdrawByoipCidr parameterss:
+
+```
+{
+	"main":{
+		"setCidr":"java.lang.String",
+		"withCidr":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## CancelExportTask parameterss:
+
+```
+{
+	"main":{
+		"withExportTaskId":"java.lang.String",
+		"setExportTaskId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DeleteTransitGateway parameterss:
+
+```
+{
+	"main":{
+		"setTransitGatewayId":"java.lang.String",
+		"withTransitGatewayId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## ReplaceTransitGatewayRoute parameterss:
+
+```
+{
+	"main":{
+		"withTransitGatewayAttachmentId":"java.lang.String",
+		"setTransitGatewayAttachmentId":"java.lang.String",
+		"setTransitGatewayRouteTableId":"java.lang.String",
+		"withTransitGatewayRouteTableId":"java.lang.String",
+		"setDestinationCidrBlock":"java.lang.String",
+		"withDestinationCidrBlock":"java.lang.String",
+		"setBlackhole":"java.lang.Boolean",
+		"withBlackhole":"java.lang.Boolean",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeKeyPairs parameterss:
+
+```
+{
+	"main":{
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## AcceptReservedInstancesExchangeQuote parameterss:
+
+```
+{
+	"main":{
+		"setTargetConfigurations-setInstanceCount":"java.lang.Integer",
+		"setTargetConfigurations-withInstanceCount":"java.lang.Integer",
+		"setTargetConfigurations-setOfferingId":"java.lang.String",
+		"setTargetConfigurations-withOfferingId":"java.lang.String",
+		"withTargetConfigurations-setInstanceCount":"java.lang.Integer",
+		"withTargetConfigurations-withInstanceCount":"java.lang.Integer",
+		"withTargetConfigurations-setOfferingId":"java.lang.String",
+		"withTargetConfigurations-withOfferingId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## AssociateRouteTable parameterss:
+
+```
+{
+	"main":{
+		"setRouteTableId":"java.lang.String",
+		"withRouteTableId":"java.lang.String",
+		"setSubnetId":"java.lang.String",
+		"withSubnetId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## UnmonitorInstances parameterss:
+
+```
+{
+	"main":{
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## CreateFpgaImage parameterss:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"withClientToken":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"withDescription":"java.lang.String",
+		"withName":"java.lang.String",
+		"setInputStorageLocation-withBucket":"java.lang.String",
+		"setInputStorageLocation-setBucket":"java.lang.String",
+		"setInputStorageLocation-setKey":"java.lang.String",
+		"setInputStorageLocation-withKey":"java.lang.String",
+		"withInputStorageLocation-withBucket":"java.lang.String",
+		"withInputStorageLocation-setBucket":"java.lang.String",
+		"withInputStorageLocation-setKey":"java.lang.String",
+		"withInputStorageLocation-withKey":"java.lang.String",
+		"setLogsStorageLocation-withBucket":"java.lang.String",
+		"setLogsStorageLocation-setBucket":"java.lang.String",
+		"setLogsStorageLocation-setKey":"java.lang.String",
+		"setLogsStorageLocation-withKey":"java.lang.String",
+		"withLogsStorageLocation-withBucket":"java.lang.String",
+		"withLogsStorageLocation-setBucket":"java.lang.String",
+		"withLogsStorageLocation-setKey":"java.lang.String",
+		"withLogsStorageLocation-withKey":"java.lang.String",
+		"setName":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DeleteNetworkAclEntry parameterss:
+
+```
+{
+	"main":{
+		"setEgress":"java.lang.Boolean",
+		"withEgress":"java.lang.Boolean",
+		"setNetworkAclId":"java.lang.String",
+		"withNetworkAclId":"java.lang.String",
+		"setRuleNumber":"java.lang.Integer",
+		"withRuleNumber":"java.lang.Integer",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## ImportClientVpnClientCertificateRevocationList parameterss:
+
+```
+{
+	"main":{
+		"setClientVpnEndpointId":"java.lang.String",
+		"withClientVpnEndpointId":"java.lang.String",
+		"setCertificateRevocationList":"java.lang.String",
+		"withCertificateRevocationList":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## AssignIpv6Addresses parameterss:
+
+```
+{
+	"main":{
+		"setIpv6AddressCount":"java.lang.Integer",
+		"withIpv6AddressCount":"java.lang.Integer",
+		"setNetworkInterfaceId":"java.lang.String",
+		"withNetworkInterfaceId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## ApplySecurityGroupsToClientVpnTargetNetwork parameterss:
+
+```
+{
+	"main":{
+		"setClientVpnEndpointId":"java.lang.String",
+		"withClientVpnEndpointId":"java.lang.String",
+		"setVpcId":"java.lang.String",
+		"withVpcId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeTransitGateways parameterss:
+
+```
+{
+	"main":{
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## GetTransitGatewayRouteTableAssociations parameterss:
+
+```
+{
+	"main":{
+		"setTransitGatewayRouteTableId":"java.lang.String",
+		"withTransitGatewayRouteTableId":"java.lang.String",
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## CreatePlacementGroup parameterss:
+
+```
+{
+	"main":{
+		"setGroupName":"java.lang.String",
+		"withGroupName":"java.lang.String",
+		"setPartitionCount":"java.lang.Integer",
+		"withPartitionCount":"java.lang.Integer",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DeleteVpcEndpoints parameterss:
+
+```
+{
+	"main":{
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DeregisterImage parameterss:
+
+```
+{
+	"main":{
+		"setImageId":"java.lang.String",
+		"withImageId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## UnassignIpv6Addresses parameterss:
+
+```
+{
+	"main":{
+		"setNetworkInterfaceId":"java.lang.String",
+		"withNetworkInterfaceId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## GetLaunchTemplateData parameterss:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"withInstanceId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeSpotInstanceRequests parameterss:
+
+```
+{
+	"main":{
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## AttachNetworkInterface parameterss:
+
+```
+{
+	"main":{
+		"setNetworkInterfaceId":"java.lang.String",
+		"withNetworkInterfaceId":"java.lang.String",
+		"setInstanceId":"java.lang.String",
+		"withInstanceId":"java.lang.String",
+		"setDeviceIndex":"java.lang.Integer",
+		"withDeviceIndex":"java.lang.Integer",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DeleteVpcEndpointServiceConfigurations parameterss:
+
+```
+{
+	"main":{
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeInternetGateways parameterss:
+
+```
+{
+	"main":{
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## CreateRoute parameterss:
+
+```
+{
+	"main":{
+		"setVpcPeeringConnectionId":"java.lang.String",
+		"withVpcPeeringConnectionId":"java.lang.String",
+		"setNetworkInterfaceId":"java.lang.String",
+		"withNetworkInterfaceId":"java.lang.String",
+		"setInstanceId":"java.lang.String",
+		"withInstanceId":"java.lang.String",
+		"setRouteTableId":"java.lang.String",
+		"withRouteTableId":"java.lang.String",
+		"setDestinationCidrBlock":"java.lang.String",
+		"withDestinationCidrBlock":"java.lang.String",
+		"setDestinationIpv6CidrBlock":"java.lang.String",
+		"withDestinationIpv6CidrBlock":"java.lang.String",
+		"setEgressOnlyInternetGatewayId":"java.lang.String",
+		"withEgressOnlyInternetGatewayId":"java.lang.String",
+		"setGatewayId":"java.lang.String",
+		"withGatewayId":"java.lang.String",
+		"setNatGatewayId":"java.lang.String",
+		"withNatGatewayId":"java.lang.String",
+		"setTransitGatewayId":"java.lang.String",
+		"withTransitGatewayId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## ModifyIdentityIdFormat parameterss:
+
+```
+{
+	"main":{
+		"setResource":"java.lang.String",
+		"withResource":"java.lang.String",
+		"setPrincipalArn":"java.lang.String",
+		"withPrincipalArn":"java.lang.String",
+		"setUseLongIds":"java.lang.Boolean",
+		"withUseLongIds":"java.lang.Boolean",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeVolumeStatus parameterss:
+
+```
+{
+	"main":{
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## CreateInstanceExportTask parameterss:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"withInstanceId":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"withDescription":"java.lang.String",
+		"setExportToS3Task-setS3Bucket":"java.lang.String",
+		"setExportToS3Task-withS3Bucket":"java.lang.String",
+		"setExportToS3Task-setContainerFormat":"java.lang.String",
+		"setExportToS3Task-withContainerFormat":"java.lang.String",
+		"setExportToS3Task-setS3Prefix":"java.lang.String",
+		"setExportToS3Task-withS3Prefix":"java.lang.String",
+		"withExportToS3Task-setS3Bucket":"java.lang.String",
+		"withExportToS3Task-withS3Bucket":"java.lang.String",
+		"withExportToS3Task-setContainerFormat":"java.lang.String",
+		"withExportToS3Task-withContainerFormat":"java.lang.String",
+		"withExportToS3Task-setS3Prefix":"java.lang.String",
+		"withExportToS3Task-withS3Prefix":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeByoipCidrs parameterss:
+
+```
+{
+	"main":{
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## EnableVolumeIO parameterss:
+
+```
+{
+	"main":{
+		"setVolumeId":"java.lang.String",
+		"withVolumeId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## ModifyIdFormat parameterss:
+
+```
+{
+	"main":{
+		"setResource":"java.lang.String",
+		"withResource":"java.lang.String",
+		"setUseLongIds":"java.lang.Boolean",
+		"withUseLongIds":"java.lang.Boolean",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DeleteRouteTable parameterss:
+
+```
+{
+	"main":{
+		"setRouteTableId":"java.lang.String",
+		"withRouteTableId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## AttachInternetGateway parameterss:
+
+```
+{
+	"main":{
+		"setVpcId":"java.lang.String",
+		"withVpcId":"java.lang.String",
+		"setInternetGatewayId":"java.lang.String",
+		"withInternetGatewayId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribePrefixLists parameterss:
+
+```
+{
+	"main":{
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## GetHostReservationPurchasePreview parameterss:
+
+```
+{
+	"main":{
+		"setOfferingId":"java.lang.String",
+		"withOfferingId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## CreateInternetGateway parameterss:
+
+```
+{
+	"main":{
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeReservedInstancesModifications parameterss:
+
+```
+{
+	"main":{
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## RegisterImage parameterss:
+
+```
+{
+	"main":{
+		"setDescription":"java.lang.String",
+		"withDescription":"java.lang.String",
+		"withName":"java.lang.String",
+		"setBlockDeviceMappings-setEbs-setEncrypted":"java.lang.Boolean",
+		"setBlockDeviceMappings-setEbs-withEncrypted":"java.lang.Boolean",
+		"setBlockDeviceMappings-setEbs-setKmsKeyId":"java.lang.String",
+		"setBlockDeviceMappings-setEbs-withKmsKeyId":"java.lang.String",
+		"setBlockDeviceMappings-setEbs-setIops":"java.lang.Integer",
+		"setBlockDeviceMappings-setEbs-withIops":"java.lang.Integer",
+		"setBlockDeviceMappings-setEbs-setSnapshotId":"java.lang.String",
+		"setBlockDeviceMappings-setEbs-withSnapshotId":"java.lang.String",
+		"setBlockDeviceMappings-setEbs-withVolumeType":"java.lang.String",
+		"setBlockDeviceMappings-setEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"setBlockDeviceMappings-setEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"setBlockDeviceMappings-setEbs-setVolumeSize":"java.lang.Integer",
+		"setBlockDeviceMappings-setEbs-withVolumeSize":"java.lang.Integer",
+		"setBlockDeviceMappings-setDeviceName":"java.lang.String",
+		"setBlockDeviceMappings-withDeviceName":"java.lang.String",
+		"setBlockDeviceMappings-withEbs-setEncrypted":"java.lang.Boolean",
+		"setBlockDeviceMappings-withEbs-withEncrypted":"java.lang.Boolean",
+		"setBlockDeviceMappings-withEbs-setKmsKeyId":"java.lang.String",
+		"setBlockDeviceMappings-withEbs-withKmsKeyId":"java.lang.String",
+		"setBlockDeviceMappings-withEbs-setIops":"java.lang.Integer",
+		"setBlockDeviceMappings-withEbs-withIops":"java.lang.Integer",
+		"setBlockDeviceMappings-withEbs-setSnapshotId":"java.lang.String",
+		"setBlockDeviceMappings-withEbs-withSnapshotId":"java.lang.String",
+		"setBlockDeviceMappings-withEbs-withVolumeType":"java.lang.String",
+		"setBlockDeviceMappings-withEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"setBlockDeviceMappings-withEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"setBlockDeviceMappings-withEbs-setVolumeSize":"java.lang.Integer",
+		"setBlockDeviceMappings-withEbs-withVolumeSize":"java.lang.Integer",
+		"setBlockDeviceMappings-setNoDevice":"java.lang.String",
+		"setBlockDeviceMappings-withNoDevice":"java.lang.String",
+		"setBlockDeviceMappings-setVirtualName":"java.lang.String",
+		"setBlockDeviceMappings-withVirtualName":"java.lang.String",
+		"withBlockDeviceMappings-setEbs-setEncrypted":"java.lang.Boolean",
+		"withBlockDeviceMappings-setEbs-withEncrypted":"java.lang.Boolean",
+		"withBlockDeviceMappings-setEbs-setKmsKeyId":"java.lang.String",
+		"withBlockDeviceMappings-setEbs-withKmsKeyId":"java.lang.String",
+		"withBlockDeviceMappings-setEbs-setIops":"java.lang.Integer",
+		"withBlockDeviceMappings-setEbs-withIops":"java.lang.Integer",
+		"withBlockDeviceMappings-setEbs-setSnapshotId":"java.lang.String",
+		"withBlockDeviceMappings-setEbs-withSnapshotId":"java.lang.String",
+		"withBlockDeviceMappings-setEbs-withVolumeType":"java.lang.String",
+		"withBlockDeviceMappings-setEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"withBlockDeviceMappings-setEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"withBlockDeviceMappings-setEbs-setVolumeSize":"java.lang.Integer",
+		"withBlockDeviceMappings-setEbs-withVolumeSize":"java.lang.Integer",
+		"withBlockDeviceMappings-setDeviceName":"java.lang.String",
+		"withBlockDeviceMappings-withDeviceName":"java.lang.String",
+		"withBlockDeviceMappings-withEbs-setEncrypted":"java.lang.Boolean",
+		"withBlockDeviceMappings-withEbs-withEncrypted":"java.lang.Boolean",
+		"withBlockDeviceMappings-withEbs-setKmsKeyId":"java.lang.String",
+		"withBlockDeviceMappings-withEbs-withKmsKeyId":"java.lang.String",
+		"withBlockDeviceMappings-withEbs-setIops":"java.lang.Integer",
+		"withBlockDeviceMappings-withEbs-withIops":"java.lang.Integer",
+		"withBlockDeviceMappings-withEbs-setSnapshotId":"java.lang.String",
+		"withBlockDeviceMappings-withEbs-withSnapshotId":"java.lang.String",
+		"withBlockDeviceMappings-withEbs-withVolumeType":"java.lang.String",
+		"withBlockDeviceMappings-withEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"withBlockDeviceMappings-withEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"withBlockDeviceMappings-withEbs-setVolumeSize":"java.lang.Integer",
+		"withBlockDeviceMappings-withEbs-withVolumeSize":"java.lang.Integer",
+		"withBlockDeviceMappings-setNoDevice":"java.lang.String",
+		"withBlockDeviceMappings-withNoDevice":"java.lang.String",
+		"withBlockDeviceMappings-setVirtualName":"java.lang.String",
+		"withBlockDeviceMappings-withVirtualName":"java.lang.String",
+		"setArchitecture":"java.lang.String",
+		"withArchitecture":"java.lang.String",
+		"setEnaSupport":"java.lang.Boolean",
+		"withEnaSupport":"java.lang.Boolean",
+		"setSriovNetSupport":"java.lang.String",
+		"withSriovNetSupport":"java.lang.String",
+		"setImageLocation":"java.lang.String",
+		"withImageLocation":"java.lang.String",
+		"setKernelId":"java.lang.String",
+		"withKernelId":"java.lang.String",
+		"setRamdiskId":"java.lang.String",
+		"withRamdiskId":"java.lang.String",
+		"setRootDeviceName":"java.lang.String",
+		"withRootDeviceName":"java.lang.String",
+		"setVirtualizationType":"java.lang.String",
+		"withVirtualizationType":"java.lang.String",
+		"setName":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## ModifyInstancePlacement parameterss:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"withInstanceId":"java.lang.String",
+		"setGroupName":"java.lang.String",
+		"withGroupName":"java.lang.String",
+		"withTenancy":"java.lang.String",
+		"withAffinity":"java.lang.String",
+		"setHostId":"java.lang.String",
+		"withHostId":"java.lang.String",
+		"setPartitionNumber":"java.lang.Integer",
+		"withPartitionNumber":"java.lang.Integer",
+		"setAffinity":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## AssociateSubnetCidrBlock parameterss:
+
+```
+{
+	"main":{
+		"withIpv6CidrBlock":"java.lang.String",
+		"setSubnetId":"java.lang.String",
+		"withSubnetId":"java.lang.String",
+		"setIpv6CidrBlock":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeRegions parameterss:
+
+```
+{
+	"main":{
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeSnapshotAttribute parameterss:
+
+```
+{
+	"main":{
+		"setSnapshotId":"java.lang.String",
+		"withSnapshotId":"java.lang.String",
+		"setAttribute":"java.lang.String",
+		"withAttribute":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeClassicLinkInstances parameterss:
+
+```
+{
+	"main":{
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeMovingAddresses parameterss:
+
+```
+{
+	"main":{
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DeleteTransitGatewayVpcAttachment parameterss:
+
+```
+{
+	"main":{
+		"withTransitGatewayAttachmentId":"java.lang.String",
+		"setTransitGatewayAttachmentId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeBundleTasks parameterss:
+
+```
+{
+	"main":{
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeScheduledInstanceAvailability parameterss:
+
+```
+{
+	"main":{
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setFirstSlotStartTimeRange-setEarliestTime-setDate":"int",
+		"setFirstSlotStartTimeRange-setEarliestTime-setHours":"int",
+		"setFirstSlotStartTimeRange-setEarliestTime-setMinutes":"int",
+		"setFirstSlotStartTimeRange-setEarliestTime-setMonth":"int",
+		"setFirstSlotStartTimeRange-setEarliestTime-setSeconds":"int",
+		"setFirstSlotStartTimeRange-setEarliestTime-setYear":"int",
+		"setFirstSlotStartTimeRange-setEarliestTime-setTime":"long",
+		"setFirstSlotStartTimeRange-withEarliestTime-setDate":"int",
+		"setFirstSlotStartTimeRange-withEarliestTime-setHours":"int",
+		"setFirstSlotStartTimeRange-withEarliestTime-setMinutes":"int",
+		"setFirstSlotStartTimeRange-withEarliestTime-setMonth":"int",
+		"setFirstSlotStartTimeRange-withEarliestTime-setSeconds":"int",
+		"setFirstSlotStartTimeRange-withEarliestTime-setYear":"int",
+		"setFirstSlotStartTimeRange-withEarliestTime-setTime":"long",
+		"setFirstSlotStartTimeRange-setLatestTime-setDate":"int",
+		"setFirstSlotStartTimeRange-setLatestTime-setHours":"int",
+		"setFirstSlotStartTimeRange-setLatestTime-setMinutes":"int",
+		"setFirstSlotStartTimeRange-setLatestTime-setMonth":"int",
+		"setFirstSlotStartTimeRange-setLatestTime-setSeconds":"int",
+		"setFirstSlotStartTimeRange-setLatestTime-setYear":"int",
+		"setFirstSlotStartTimeRange-setLatestTime-setTime":"long",
+		"setFirstSlotStartTimeRange-withLatestTime-setDate":"int",
+		"setFirstSlotStartTimeRange-withLatestTime-setHours":"int",
+		"setFirstSlotStartTimeRange-withLatestTime-setMinutes":"int",
+		"setFirstSlotStartTimeRange-withLatestTime-setMonth":"int",
+		"setFirstSlotStartTimeRange-withLatestTime-setSeconds":"int",
+		"setFirstSlotStartTimeRange-withLatestTime-setYear":"int",
+		"setFirstSlotStartTimeRange-withLatestTime-setTime":"long",
+		"withFirstSlotStartTimeRange-setEarliestTime-setDate":"int",
+		"withFirstSlotStartTimeRange-setEarliestTime-setHours":"int",
+		"withFirstSlotStartTimeRange-setEarliestTime-setMinutes":"int",
+		"withFirstSlotStartTimeRange-setEarliestTime-setMonth":"int",
+		"withFirstSlotStartTimeRange-setEarliestTime-setSeconds":"int",
+		"withFirstSlotStartTimeRange-setEarliestTime-setYear":"int",
+		"withFirstSlotStartTimeRange-setEarliestTime-setTime":"long",
+		"withFirstSlotStartTimeRange-withEarliestTime-setDate":"int",
+		"withFirstSlotStartTimeRange-withEarliestTime-setHours":"int",
+		"withFirstSlotStartTimeRange-withEarliestTime-setMinutes":"int",
+		"withFirstSlotStartTimeRange-withEarliestTime-setMonth":"int",
+		"withFirstSlotStartTimeRange-withEarliestTime-setSeconds":"int",
+		"withFirstSlotStartTimeRange-withEarliestTime-setYear":"int",
+		"withFirstSlotStartTimeRange-withEarliestTime-setTime":"long",
+		"withFirstSlotStartTimeRange-setLatestTime-setDate":"int",
+		"withFirstSlotStartTimeRange-setLatestTime-setHours":"int",
+		"withFirstSlotStartTimeRange-setLatestTime-setMinutes":"int",
+		"withFirstSlotStartTimeRange-setLatestTime-setMonth":"int",
+		"withFirstSlotStartTimeRange-setLatestTime-setSeconds":"int",
+		"withFirstSlotStartTimeRange-setLatestTime-setYear":"int",
+		"withFirstSlotStartTimeRange-setLatestTime-setTime":"long",
+		"withFirstSlotStartTimeRange-withLatestTime-setDate":"int",
+		"withFirstSlotStartTimeRange-withLatestTime-setHours":"int",
+		"withFirstSlotStartTimeRange-withLatestTime-setMinutes":"int",
+		"withFirstSlotStartTimeRange-withLatestTime-setMonth":"int",
+		"withFirstSlotStartTimeRange-withLatestTime-setSeconds":"int",
+		"withFirstSlotStartTimeRange-withLatestTime-setYear":"int",
+		"withFirstSlotStartTimeRange-withLatestTime-setTime":"long",
+		"setMaxSlotDurationInHours":"java.lang.Integer",
+		"withMaxSlotDurationInHours":"java.lang.Integer",
+		"setMinSlotDurationInHours":"java.lang.Integer",
+		"withMinSlotDurationInHours":"java.lang.Integer",
+		"setRecurrence-setFrequency":"java.lang.String",
+		"setRecurrence-withFrequency":"java.lang.String",
+		"setRecurrence-setInterval":"java.lang.Integer",
+		"setRecurrence-withInterval":"java.lang.Integer",
+		"setRecurrence-setOccurrenceRelativeToEnd":"java.lang.Boolean",
+		"setRecurrence-withOccurrenceRelativeToEnd":"java.lang.Boolean",
+		"setRecurrence-setOccurrenceUnit":"java.lang.String",
+		"setRecurrence-withOccurrenceUnit":"java.lang.String",
+		"withRecurrence-setFrequency":"java.lang.String",
+		"withRecurrence-withFrequency":"java.lang.String",
+		"withRecurrence-setInterval":"java.lang.Integer",
+		"withRecurrence-withInterval":"java.lang.Integer",
+		"withRecurrence-setOccurrenceRelativeToEnd":"java.lang.Boolean",
+		"withRecurrence-withOccurrenceRelativeToEnd":"java.lang.Boolean",
+		"withRecurrence-setOccurrenceUnit":"java.lang.String",
+		"withRecurrence-withOccurrenceUnit":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## ImportSnapshot parameterss:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"withClientToken":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"withDescription":"java.lang.String",
+		"setEncrypted":"java.lang.Boolean",
+		"withEncrypted":"java.lang.Boolean",
+		"setKmsKeyId":"java.lang.String",
+		"withKmsKeyId":"java.lang.String",
+		"setClientData-setComment":"java.lang.String",
+		"setClientData-withComment":"java.lang.String",
+		"setClientData-setUploadEnd-setDate":"int",
+		"setClientData-setUploadEnd-setHours":"int",
+		"setClientData-setUploadEnd-setMinutes":"int",
+		"setClientData-setUploadEnd-setMonth":"int",
+		"setClientData-setUploadEnd-setSeconds":"int",
+		"setClientData-setUploadEnd-setYear":"int",
+		"setClientData-setUploadEnd-setTime":"long",
+		"setClientData-withUploadEnd-setDate":"int",
+		"setClientData-withUploadEnd-setHours":"int",
+		"setClientData-withUploadEnd-setMinutes":"int",
+		"setClientData-withUploadEnd-setMonth":"int",
+		"setClientData-withUploadEnd-setSeconds":"int",
+		"setClientData-withUploadEnd-setYear":"int",
+		"setClientData-withUploadEnd-setTime":"long",
+		"setClientData-setUploadSize":"java.lang.Double",
+		"setClientData-withUploadSize":"java.lang.Double",
+		"setClientData-setUploadStart-setDate":"int",
+		"setClientData-setUploadStart-setHours":"int",
+		"setClientData-setUploadStart-setMinutes":"int",
+		"setClientData-setUploadStart-setMonth":"int",
+		"setClientData-setUploadStart-setSeconds":"int",
+		"setClientData-setUploadStart-setYear":"int",
+		"setClientData-setUploadStart-setTime":"long",
+		"setClientData-withUploadStart-setDate":"int",
+		"setClientData-withUploadStart-setHours":"int",
+		"setClientData-withUploadStart-setMinutes":"int",
+		"setClientData-withUploadStart-setMonth":"int",
+		"setClientData-withUploadStart-setSeconds":"int",
+		"setClientData-withUploadStart-setYear":"int",
+		"setClientData-withUploadStart-setTime":"long",
+		"withClientData-setComment":"java.lang.String",
+		"withClientData-withComment":"java.lang.String",
+		"withClientData-setUploadEnd-setDate":"int",
+		"withClientData-setUploadEnd-setHours":"int",
+		"withClientData-setUploadEnd-setMinutes":"int",
+		"withClientData-setUploadEnd-setMonth":"int",
+		"withClientData-setUploadEnd-setSeconds":"int",
+		"withClientData-setUploadEnd-setYear":"int",
+		"withClientData-setUploadEnd-setTime":"long",
+		"withClientData-withUploadEnd-setDate":"int",
+		"withClientData-withUploadEnd-setHours":"int",
+		"withClientData-withUploadEnd-setMinutes":"int",
+		"withClientData-withUploadEnd-setMonth":"int",
+		"withClientData-withUploadEnd-setSeconds":"int",
+		"withClientData-withUploadEnd-setYear":"int",
+		"withClientData-withUploadEnd-setTime":"long",
+		"withClientData-setUploadSize":"java.lang.Double",
+		"withClientData-withUploadSize":"java.lang.Double",
+		"withClientData-setUploadStart-setDate":"int",
+		"withClientData-setUploadStart-setHours":"int",
+		"withClientData-setUploadStart-setMinutes":"int",
+		"withClientData-setUploadStart-setMonth":"int",
+		"withClientData-setUploadStart-setSeconds":"int",
+		"withClientData-setUploadStart-setYear":"int",
+		"withClientData-setUploadStart-setTime":"long",
+		"withClientData-withUploadStart-setDate":"int",
+		"withClientData-withUploadStart-setHours":"int",
+		"withClientData-withUploadStart-setMinutes":"int",
+		"withClientData-withUploadStart-setMonth":"int",
+		"withClientData-withUploadStart-setSeconds":"int",
+		"withClientData-withUploadStart-setYear":"int",
+		"withClientData-withUploadStart-setTime":"long",
+		"setRoleName":"java.lang.String",
+		"withRoleName":"java.lang.String",
+		"setDiskContainer-setDescription":"java.lang.String",
+		"setDiskContainer-withDescription":"java.lang.String",
+		"setDiskContainer-withFormat":"java.lang.String",
+		"setDiskContainer-setFormat":"java.lang.String",
+		"setDiskContainer-setUrl":"java.lang.String",
+		"setDiskContainer-withUrl":"java.lang.String",
+		"setDiskContainer-setUserBucket-setS3Bucket":"java.lang.String",
+		"setDiskContainer-setUserBucket-withS3Bucket":"java.lang.String",
+		"setDiskContainer-setUserBucket-setS3Key":"java.lang.String",
+		"setDiskContainer-setUserBucket-withS3Key":"java.lang.String",
+		"setDiskContainer-withUserBucket-setS3Bucket":"java.lang.String",
+		"setDiskContainer-withUserBucket-withS3Bucket":"java.lang.String",
+		"setDiskContainer-withUserBucket-setS3Key":"java.lang.String",
+		"setDiskContainer-withUserBucket-withS3Key":"java.lang.String",
+		"withDiskContainer-setDescription":"java.lang.String",
+		"withDiskContainer-withDescription":"java.lang.String",
+		"withDiskContainer-withFormat":"java.lang.String",
+		"withDiskContainer-setFormat":"java.lang.String",
+		"withDiskContainer-setUrl":"java.lang.String",
+		"withDiskContainer-withUrl":"java.lang.String",
+		"withDiskContainer-setUserBucket-setS3Bucket":"java.lang.String",
+		"withDiskContainer-setUserBucket-withS3Bucket":"java.lang.String",
+		"withDiskContainer-setUserBucket-setS3Key":"java.lang.String",
+		"withDiskContainer-setUserBucket-withS3Key":"java.lang.String",
+		"withDiskContainer-withUserBucket-setS3Bucket":"java.lang.String",
+		"withDiskContainer-withUserBucket-withS3Bucket":"java.lang.String",
+		"withDiskContainer-withUserBucket-setS3Key":"java.lang.String",
+		"withDiskContainer-withUserBucket-withS3Key":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## CreateNetworkInterface parameterss:
+
+```
+{
+	"main":{
+		"setIpv6AddressCount":"java.lang.Integer",
+		"withIpv6AddressCount":"java.lang.Integer",
+		"setIpv6Addresses-setIpv6Address":"java.lang.String",
+		"setIpv6Addresses-withIpv6Address":"java.lang.String",
+		"withIpv6Addresses-setIpv6Address":"java.lang.String",
+		"withIpv6Addresses-withIpv6Address":"java.lang.String",
+		"setPrivateIpAddresses-setPrivateIpAddress":"java.lang.String",
+		"setPrivateIpAddresses-withPrivateIpAddress":"java.lang.String",
+		"setPrivateIpAddresses-setPrimary":"java.lang.Boolean",
+		"setPrivateIpAddresses-withPrimary":"java.lang.Boolean",
+		"withPrivateIpAddresses-setPrivateIpAddress":"java.lang.String",
+		"withPrivateIpAddresses-withPrivateIpAddress":"java.lang.String",
+		"withPrivateIpAddresses-setPrimary":"java.lang.Boolean",
+		"withPrivateIpAddresses-withPrimary":"java.lang.Boolean",
+		"setSecondaryPrivateIpAddressCount":"java.lang.Integer",
+		"withSecondaryPrivateIpAddressCount":"java.lang.Integer",
+		"setPrivateIpAddress":"java.lang.String",
+		"withPrivateIpAddress":"java.lang.String",
+		"setSubnetId":"java.lang.String",
+		"withSubnetId":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"withDescription":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeVpnGateways parameterss:
+
+```
+{
+	"main":{
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DetachVolume parameterss:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"withInstanceId":"java.lang.String",
+		"setDevice":"java.lang.String",
+		"withDevice":"java.lang.String",
+		"setVolumeId":"java.lang.String",
+		"withVolumeId":"java.lang.String",
+		"setForce":"java.lang.Boolean",
+		"withForce":"java.lang.Boolean",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DeleteNetworkInterfacePermission parameterss:
+
+```
+{
+	"main":{
+		"setForce":"java.lang.Boolean",
+		"withForce":"java.lang.Boolean",
+		"setNetworkInterfacePermissionId":"java.lang.String",
+		"withNetworkInterfacePermissionId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## EnableVpcClassicLinkDnsSupport parameterss:
+
+```
+{
+	"main":{
+		"setVpcId":"java.lang.String",
+		"withVpcId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## ReplaceNetworkAclAssociation parameterss:
+
+```
+{
+	"main":{
+		"setNetworkAclId":"java.lang.String",
+		"withNetworkAclId":"java.lang.String",
+		"setAssociationId":"java.lang.String",
+		"withAssociationId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## RequestSpotInstances parameterss:
+
+```
+{
+	"main":{
+		"setClientToken":"java.lang.String",
+		"withClientToken":"java.lang.String",
+		"setInstanceCount":"java.lang.Integer",
+		"withInstanceCount":"java.lang.Integer",
+		"withType":"java.lang.String",
+		"setValidFrom-setDate":"int",
+		"setValidFrom-setHours":"int",
+		"setValidFrom-setMinutes":"int",
+		"setValidFrom-setMonth":"int",
+		"setValidFrom-setSeconds":"int",
+		"setValidFrom-setYear":"int",
+		"setValidFrom-setTime":"long",
+		"withValidFrom-setDate":"int",
+		"withValidFrom-setHours":"int",
+		"withValidFrom-setMinutes":"int",
+		"withValidFrom-setMonth":"int",
+		"withValidFrom-setSeconds":"int",
+		"withValidFrom-setYear":"int",
+		"withValidFrom-setTime":"long",
+		"setValidUntil-setDate":"int",
+		"setValidUntil-setHours":"int",
+		"setValidUntil-setMinutes":"int",
+		"setValidUntil-setMonth":"int",
+		"setValidUntil-setSeconds":"int",
+		"setValidUntil-setYear":"int",
+		"setValidUntil-setTime":"long",
+		"withValidUntil-setDate":"int",
+		"withValidUntil-setHours":"int",
+		"withValidUntil-setMinutes":"int",
+		"withValidUntil-setMonth":"int",
+		"withValidUntil-setSeconds":"int",
+		"withValidUntil-setYear":"int",
+		"withValidUntil-setTime":"long",
+		"setLaunchSpecification-withIamInstanceProfile-withName":"java.lang.String",
+		"setLaunchSpecification-withIamInstanceProfile-setArn":"java.lang.String",
+		"setLaunchSpecification-withIamInstanceProfile-withArn":"java.lang.String",
+		"setLaunchSpecification-withIamInstanceProfile-setName":"java.lang.String",
+		"setLaunchSpecification-setSubnetId":"java.lang.String",
+		"setLaunchSpecification-withSubnetId":"java.lang.String",
+		"setLaunchSpecification-setIamInstanceProfile-withName":"java.lang.String",
+		"setLaunchSpecification-setIamInstanceProfile-setArn":"java.lang.String",
+		"setLaunchSpecification-setIamInstanceProfile-withArn":"java.lang.String",
+		"setLaunchSpecification-setIamInstanceProfile-setName":"java.lang.String",
+		"setLaunchSpecification-setEbsOptimized":"java.lang.Boolean",
+		"setLaunchSpecification-withEbsOptimized":"java.lang.Boolean",
+		"setLaunchSpecification-withKeyName":"java.lang.String",
+		"setLaunchSpecification-setKeyName":"java.lang.String",
+		"setLaunchSpecification-setBlockDeviceMappings-setEbs-setEncrypted":"java.lang.Boolean",
+		"setLaunchSpecification-setBlockDeviceMappings-setEbs-withEncrypted":"java.lang.Boolean",
+		"setLaunchSpecification-setBlockDeviceMappings-setEbs-setKmsKeyId":"java.lang.String",
+		"setLaunchSpecification-setBlockDeviceMappings-setEbs-withKmsKeyId":"java.lang.String",
+		"setLaunchSpecification-setBlockDeviceMappings-setEbs-setIops":"java.lang.Integer",
+		"setLaunchSpecification-setBlockDeviceMappings-setEbs-withIops":"java.lang.Integer",
+		"setLaunchSpecification-setBlockDeviceMappings-setEbs-setSnapshotId":"java.lang.String",
+		"setLaunchSpecification-setBlockDeviceMappings-setEbs-withSnapshotId":"java.lang.String",
+		"setLaunchSpecification-setBlockDeviceMappings-setEbs-withVolumeType":"java.lang.String",
+		"setLaunchSpecification-setBlockDeviceMappings-setEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"setLaunchSpecification-setBlockDeviceMappings-setEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"setLaunchSpecification-setBlockDeviceMappings-setEbs-setVolumeSize":"java.lang.Integer",
+		"setLaunchSpecification-setBlockDeviceMappings-setEbs-withVolumeSize":"java.lang.Integer",
+		"setLaunchSpecification-setBlockDeviceMappings-setDeviceName":"java.lang.String",
+		"setLaunchSpecification-setBlockDeviceMappings-withDeviceName":"java.lang.String",
+		"setLaunchSpecification-setBlockDeviceMappings-withEbs-setEncrypted":"java.lang.Boolean",
+		"setLaunchSpecification-setBlockDeviceMappings-withEbs-withEncrypted":"java.lang.Boolean",
+		"setLaunchSpecification-setBlockDeviceMappings-withEbs-setKmsKeyId":"java.lang.String",
+		"setLaunchSpecification-setBlockDeviceMappings-withEbs-withKmsKeyId":"java.lang.String",
+		"setLaunchSpecification-setBlockDeviceMappings-withEbs-setIops":"java.lang.Integer",
+		"setLaunchSpecification-setBlockDeviceMappings-withEbs-withIops":"java.lang.Integer",
+		"setLaunchSpecification-setBlockDeviceMappings-withEbs-setSnapshotId":"java.lang.String",
+		"setLaunchSpecification-setBlockDeviceMappings-withEbs-withSnapshotId":"java.lang.String",
+		"setLaunchSpecification-setBlockDeviceMappings-withEbs-withVolumeType":"java.lang.String",
+		"setLaunchSpecification-setBlockDeviceMappings-withEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"setLaunchSpecification-setBlockDeviceMappings-withEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"setLaunchSpecification-setBlockDeviceMappings-withEbs-setVolumeSize":"java.lang.Integer",
+		"setLaunchSpecification-setBlockDeviceMappings-withEbs-withVolumeSize":"java.lang.Integer",
+		"setLaunchSpecification-setBlockDeviceMappings-setNoDevice":"java.lang.String",
+		"setLaunchSpecification-setBlockDeviceMappings-withNoDevice":"java.lang.String",
+		"setLaunchSpecification-setBlockDeviceMappings-setVirtualName":"java.lang.String",
+		"setLaunchSpecification-setBlockDeviceMappings-withVirtualName":"java.lang.String",
+		"setLaunchSpecification-withBlockDeviceMappings-setEbs-setEncrypted":"java.lang.Boolean",
+		"setLaunchSpecification-withBlockDeviceMappings-setEbs-withEncrypted":"java.lang.Boolean",
+		"setLaunchSpecification-withBlockDeviceMappings-setEbs-setKmsKeyId":"java.lang.String",
+		"setLaunchSpecification-withBlockDeviceMappings-setEbs-withKmsKeyId":"java.lang.String",
+		"setLaunchSpecification-withBlockDeviceMappings-setEbs-setIops":"java.lang.Integer",
+		"setLaunchSpecification-withBlockDeviceMappings-setEbs-withIops":"java.lang.Integer",
+		"setLaunchSpecification-withBlockDeviceMappings-setEbs-setSnapshotId":"java.lang.String",
+		"setLaunchSpecification-withBlockDeviceMappings-setEbs-withSnapshotId":"java.lang.String",
+		"setLaunchSpecification-withBlockDeviceMappings-setEbs-withVolumeType":"java.lang.String",
+		"setLaunchSpecification-withBlockDeviceMappings-setEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"setLaunchSpecification-withBlockDeviceMappings-setEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"setLaunchSpecification-withBlockDeviceMappings-setEbs-setVolumeSize":"java.lang.Integer",
+		"setLaunchSpecification-withBlockDeviceMappings-setEbs-withVolumeSize":"java.lang.Integer",
+		"setLaunchSpecification-withBlockDeviceMappings-setDeviceName":"java.lang.String",
+		"setLaunchSpecification-withBlockDeviceMappings-withDeviceName":"java.lang.String",
+		"setLaunchSpecification-withBlockDeviceMappings-withEbs-setEncrypted":"java.lang.Boolean",
+		"setLaunchSpecification-withBlockDeviceMappings-withEbs-withEncrypted":"java.lang.Boolean",
+		"setLaunchSpecification-withBlockDeviceMappings-withEbs-setKmsKeyId":"java.lang.String",
+		"setLaunchSpecification-withBlockDeviceMappings-withEbs-withKmsKeyId":"java.lang.String",
+		"setLaunchSpecification-withBlockDeviceMappings-withEbs-setIops":"java.lang.Integer",
+		"setLaunchSpecification-withBlockDeviceMappings-withEbs-withIops":"java.lang.Integer",
+		"setLaunchSpecification-withBlockDeviceMappings-withEbs-setSnapshotId":"java.lang.String",
+		"setLaunchSpecification-withBlockDeviceMappings-withEbs-withSnapshotId":"java.lang.String",
+		"setLaunchSpecification-withBlockDeviceMappings-withEbs-withVolumeType":"java.lang.String",
+		"setLaunchSpecification-withBlockDeviceMappings-withEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"setLaunchSpecification-withBlockDeviceMappings-withEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"setLaunchSpecification-withBlockDeviceMappings-withEbs-setVolumeSize":"java.lang.Integer",
+		"setLaunchSpecification-withBlockDeviceMappings-withEbs-withVolumeSize":"java.lang.Integer",
+		"setLaunchSpecification-withBlockDeviceMappings-setNoDevice":"java.lang.String",
+		"setLaunchSpecification-withBlockDeviceMappings-withNoDevice":"java.lang.String",
+		"setLaunchSpecification-withBlockDeviceMappings-setVirtualName":"java.lang.String",
+		"setLaunchSpecification-withBlockDeviceMappings-withVirtualName":"java.lang.String",
+		"setLaunchSpecification-setImageId":"java.lang.String",
+		"setLaunchSpecification-withImageId":"java.lang.String",
+		"setLaunchSpecification-setUserData":"java.lang.String",
+		"setLaunchSpecification-withUserData":"java.lang.String",
+		"setLaunchSpecification-setKernelId":"java.lang.String",
+		"setLaunchSpecification-withKernelId":"java.lang.String",
+		"setLaunchSpecification-setRamdiskId":"java.lang.String",
+		"setLaunchSpecification-withRamdiskId":"java.lang.String",
+		"setLaunchSpecification-setPlacement-setAvailabilityZone":"java.lang.String",
+		"setLaunchSpecification-setPlacement-withAvailabilityZone":"java.lang.String",
+		"setLaunchSpecification-setPlacement-setGroupName":"java.lang.String",
+		"setLaunchSpecification-setPlacement-withGroupName":"java.lang.String",
+		"setLaunchSpecification-setPlacement-withTenancy":"java.lang.String",
+		"setLaunchSpecification-withPlacement-setAvailabilityZone":"java.lang.String",
+		"setLaunchSpecification-withPlacement-withAvailabilityZone":"java.lang.String",
+		"setLaunchSpecification-withPlacement-setGroupName":"java.lang.String",
+		"setLaunchSpecification-withPlacement-withGroupName":"java.lang.String",
+		"setLaunchSpecification-withPlacement-withTenancy":"java.lang.String",
+		"setLaunchSpecification-setNetworkInterfaces-setIpv6AddressCount":"java.lang.Integer",
+		"setLaunchSpecification-setNetworkInterfaces-withIpv6AddressCount":"java.lang.Integer",
+		"setLaunchSpecification-setNetworkInterfaces-setIpv6Addresses-setIpv6Address":"java.lang.String",
+		"setLaunchSpecification-setNetworkInterfaces-setIpv6Addresses-withIpv6Address":"java.lang.String",
+		"setLaunchSpecification-setNetworkInterfaces-withIpv6Addresses-setIpv6Address":"java.lang.String",
+		"setLaunchSpecification-setNetworkInterfaces-withIpv6Addresses-withIpv6Address":"java.lang.String",
+		"setLaunchSpecification-setNetworkInterfaces-setNetworkInterfaceId":"java.lang.String",
+		"setLaunchSpecification-setNetworkInterfaces-withNetworkInterfaceId":"java.lang.String",
+		"setLaunchSpecification-setNetworkInterfaces-setPrivateIpAddresses-setPrivateIpAddress":"java.lang.String",
+		"setLaunchSpecification-setNetworkInterfaces-setPrivateIpAddresses-withPrivateIpAddress":"java.lang.String",
+		"setLaunchSpecification-setNetworkInterfaces-setPrivateIpAddresses-setPrimary":"java.lang.Boolean",
+		"setLaunchSpecification-setNetworkInterfaces-setPrivateIpAddresses-withPrimary":"java.lang.Boolean",
+		"setLaunchSpecification-setNetworkInterfaces-withPrivateIpAddresses-setPrivateIpAddress":"java.lang.String",
+		"setLaunchSpecification-setNetworkInterfaces-withPrivateIpAddresses-withPrivateIpAddress":"java.lang.String",
+		"setLaunchSpecification-setNetworkInterfaces-withPrivateIpAddresses-setPrimary":"java.lang.Boolean",
+		"setLaunchSpecification-setNetworkInterfaces-withPrivateIpAddresses-withPrimary":"java.lang.Boolean",
+		"setLaunchSpecification-setNetworkInterfaces-setSecondaryPrivateIpAddressCount":"java.lang.Integer",
+		"setLaunchSpecification-setNetworkInterfaces-withSecondaryPrivateIpAddressCount":"java.lang.Integer",
+		"setLaunchSpecification-setNetworkInterfaces-setPrivateIpAddress":"java.lang.String",
+		"setLaunchSpecification-setNetworkInterfaces-withPrivateIpAddress":"java.lang.String",
+		"setLaunchSpecification-setNetworkInterfaces-setDeviceIndex":"java.lang.Integer",
+		"setLaunchSpecification-setNetworkInterfaces-setSubnetId":"java.lang.String",
+		"setLaunchSpecification-setNetworkInterfaces-withSubnetId":"java.lang.String",
+		"setLaunchSpecification-setNetworkInterfaces-withDeviceIndex":"java.lang.Integer",
+		"setLaunchSpecification-setNetworkInterfaces-setDescription":"java.lang.String",
+		"setLaunchSpecification-setNetworkInterfaces-withDescription":"java.lang.String",
+		"setLaunchSpecification-setNetworkInterfaces-setDeleteOnTermination":"java.lang.Boolean",
+		"setLaunchSpecification-setNetworkInterfaces-withDeleteOnTermination":"java.lang.Boolean",
+		"setLaunchSpecification-setNetworkInterfaces-setAssociatePublicIpAddress":"java.lang.Boolean",
+		"setLaunchSpecification-setNetworkInterfaces-withAssociatePublicIpAddress":"java.lang.Boolean",
+		"setLaunchSpecification-withNetworkInterfaces-setIpv6AddressCount":"java.lang.Integer",
+		"setLaunchSpecification-withNetworkInterfaces-withIpv6AddressCount":"java.lang.Integer",
+		"setLaunchSpecification-withNetworkInterfaces-setIpv6Addresses-setIpv6Address":"java.lang.String",
+		"setLaunchSpecification-withNetworkInterfaces-setIpv6Addresses-withIpv6Address":"java.lang.String",
+		"setLaunchSpecification-withNetworkInterfaces-withIpv6Addresses-setIpv6Address":"java.lang.String",
+		"setLaunchSpecification-withNetworkInterfaces-withIpv6Addresses-withIpv6Address":"java.lang.String",
+		"setLaunchSpecification-withNetworkInterfaces-setNetworkInterfaceId":"java.lang.String",
+		"setLaunchSpecification-withNetworkInterfaces-withNetworkInterfaceId":"java.lang.String",
+		"setLaunchSpecification-withNetworkInterfaces-setPrivateIpAddresses-setPrivateIpAddress":"java.lang.String",
+		"setLaunchSpecification-withNetworkInterfaces-setPrivateIpAddresses-withPrivateIpAddress":"java.lang.String",
+		"setLaunchSpecification-withNetworkInterfaces-setPrivateIpAddresses-setPrimary":"java.lang.Boolean",
+		"setLaunchSpecification-withNetworkInterfaces-setPrivateIpAddresses-withPrimary":"java.lang.Boolean",
+		"setLaunchSpecification-withNetworkInterfaces-withPrivateIpAddresses-setPrivateIpAddress":"java.lang.String",
+		"setLaunchSpecification-withNetworkInterfaces-withPrivateIpAddresses-withPrivateIpAddress":"java.lang.String",
+		"setLaunchSpecification-withNetworkInterfaces-withPrivateIpAddresses-setPrimary":"java.lang.Boolean",
+		"setLaunchSpecification-withNetworkInterfaces-withPrivateIpAddresses-withPrimary":"java.lang.Boolean",
+		"setLaunchSpecification-withNetworkInterfaces-setSecondaryPrivateIpAddressCount":"java.lang.Integer",
+		"setLaunchSpecification-withNetworkInterfaces-withSecondaryPrivateIpAddressCount":"java.lang.Integer",
+		"setLaunchSpecification-withNetworkInterfaces-setPrivateIpAddress":"java.lang.String",
+		"setLaunchSpecification-withNetworkInterfaces-withPrivateIpAddress":"java.lang.String",
+		"setLaunchSpecification-withNetworkInterfaces-setDeviceIndex":"java.lang.Integer",
+		"setLaunchSpecification-withNetworkInterfaces-setSubnetId":"java.lang.String",
+		"setLaunchSpecification-withNetworkInterfaces-withSubnetId":"java.lang.String",
+		"setLaunchSpecification-withNetworkInterfaces-withDeviceIndex":"java.lang.Integer",
+		"setLaunchSpecification-withNetworkInterfaces-setDescription":"java.lang.String",
+		"setLaunchSpecification-withNetworkInterfaces-withDescription":"java.lang.String",
+		"setLaunchSpecification-withNetworkInterfaces-setDeleteOnTermination":"java.lang.Boolean",
+		"setLaunchSpecification-withNetworkInterfaces-withDeleteOnTermination":"java.lang.Boolean",
+		"setLaunchSpecification-withNetworkInterfaces-setAssociatePublicIpAddress":"java.lang.Boolean",
+		"setLaunchSpecification-withNetworkInterfaces-withAssociatePublicIpAddress":"java.lang.Boolean",
+		"setLaunchSpecification-setAddressingType":"java.lang.String",
+		"setLaunchSpecification-withAddressingType":"java.lang.String",
+		"setLaunchSpecification-setAllSecurityGroups-setGroupName":"java.lang.String",
+		"setLaunchSpecification-setAllSecurityGroups-withGroupName":"java.lang.String",
+		"setLaunchSpecification-setAllSecurityGroups-setGroupId":"java.lang.String",
+		"setLaunchSpecification-setAllSecurityGroups-withGroupId":"java.lang.String",
+		"setLaunchSpecification-withAllSecurityGroups-setGroupName":"java.lang.String",
+		"setLaunchSpecification-withAllSecurityGroups-withGroupName":"java.lang.String",
+		"setLaunchSpecification-withAllSecurityGroups-setGroupId":"java.lang.String",
+		"setLaunchSpecification-withAllSecurityGroups-withGroupId":"java.lang.String",
+		"setLaunchSpecification-setMonitoringEnabled":"java.lang.Boolean",
+		"setLaunchSpecification-withMonitoringEnabled":"java.lang.Boolean",
+		"withLaunchSpecification-withIamInstanceProfile-withName":"java.lang.String",
+		"withLaunchSpecification-withIamInstanceProfile-setArn":"java.lang.String",
+		"withLaunchSpecification-withIamInstanceProfile-withArn":"java.lang.String",
+		"withLaunchSpecification-withIamInstanceProfile-setName":"java.lang.String",
+		"withLaunchSpecification-setSubnetId":"java.lang.String",
+		"withLaunchSpecification-withSubnetId":"java.lang.String",
+		"withLaunchSpecification-setIamInstanceProfile-withName":"java.lang.String",
+		"withLaunchSpecification-setIamInstanceProfile-setArn":"java.lang.String",
+		"withLaunchSpecification-setIamInstanceProfile-withArn":"java.lang.String",
+		"withLaunchSpecification-setIamInstanceProfile-setName":"java.lang.String",
+		"withLaunchSpecification-setEbsOptimized":"java.lang.Boolean",
+		"withLaunchSpecification-withEbsOptimized":"java.lang.Boolean",
+		"withLaunchSpecification-withKeyName":"java.lang.String",
+		"withLaunchSpecification-setKeyName":"java.lang.String",
+		"withLaunchSpecification-setBlockDeviceMappings-setEbs-setEncrypted":"java.lang.Boolean",
+		"withLaunchSpecification-setBlockDeviceMappings-setEbs-withEncrypted":"java.lang.Boolean",
+		"withLaunchSpecification-setBlockDeviceMappings-setEbs-setKmsKeyId":"java.lang.String",
+		"withLaunchSpecification-setBlockDeviceMappings-setEbs-withKmsKeyId":"java.lang.String",
+		"withLaunchSpecification-setBlockDeviceMappings-setEbs-setIops":"java.lang.Integer",
+		"withLaunchSpecification-setBlockDeviceMappings-setEbs-withIops":"java.lang.Integer",
+		"withLaunchSpecification-setBlockDeviceMappings-setEbs-setSnapshotId":"java.lang.String",
+		"withLaunchSpecification-setBlockDeviceMappings-setEbs-withSnapshotId":"java.lang.String",
+		"withLaunchSpecification-setBlockDeviceMappings-setEbs-withVolumeType":"java.lang.String",
+		"withLaunchSpecification-setBlockDeviceMappings-setEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"withLaunchSpecification-setBlockDeviceMappings-setEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"withLaunchSpecification-setBlockDeviceMappings-setEbs-setVolumeSize":"java.lang.Integer",
+		"withLaunchSpecification-setBlockDeviceMappings-setEbs-withVolumeSize":"java.lang.Integer",
+		"withLaunchSpecification-setBlockDeviceMappings-setDeviceName":"java.lang.String",
+		"withLaunchSpecification-setBlockDeviceMappings-withDeviceName":"java.lang.String",
+		"withLaunchSpecification-setBlockDeviceMappings-withEbs-setEncrypted":"java.lang.Boolean",
+		"withLaunchSpecification-setBlockDeviceMappings-withEbs-withEncrypted":"java.lang.Boolean",
+		"withLaunchSpecification-setBlockDeviceMappings-withEbs-setKmsKeyId":"java.lang.String",
+		"withLaunchSpecification-setBlockDeviceMappings-withEbs-withKmsKeyId":"java.lang.String",
+		"withLaunchSpecification-setBlockDeviceMappings-withEbs-setIops":"java.lang.Integer",
+		"withLaunchSpecification-setBlockDeviceMappings-withEbs-withIops":"java.lang.Integer",
+		"withLaunchSpecification-setBlockDeviceMappings-withEbs-setSnapshotId":"java.lang.String",
+		"withLaunchSpecification-setBlockDeviceMappings-withEbs-withSnapshotId":"java.lang.String",
+		"withLaunchSpecification-setBlockDeviceMappings-withEbs-withVolumeType":"java.lang.String",
+		"withLaunchSpecification-setBlockDeviceMappings-withEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"withLaunchSpecification-setBlockDeviceMappings-withEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"withLaunchSpecification-setBlockDeviceMappings-withEbs-setVolumeSize":"java.lang.Integer",
+		"withLaunchSpecification-setBlockDeviceMappings-withEbs-withVolumeSize":"java.lang.Integer",
+		"withLaunchSpecification-setBlockDeviceMappings-setNoDevice":"java.lang.String",
+		"withLaunchSpecification-setBlockDeviceMappings-withNoDevice":"java.lang.String",
+		"withLaunchSpecification-setBlockDeviceMappings-setVirtualName":"java.lang.String",
+		"withLaunchSpecification-setBlockDeviceMappings-withVirtualName":"java.lang.String",
+		"withLaunchSpecification-withBlockDeviceMappings-setEbs-setEncrypted":"java.lang.Boolean",
+		"withLaunchSpecification-withBlockDeviceMappings-setEbs-withEncrypted":"java.lang.Boolean",
+		"withLaunchSpecification-withBlockDeviceMappings-setEbs-setKmsKeyId":"java.lang.String",
+		"withLaunchSpecification-withBlockDeviceMappings-setEbs-withKmsKeyId":"java.lang.String",
+		"withLaunchSpecification-withBlockDeviceMappings-setEbs-setIops":"java.lang.Integer",
+		"withLaunchSpecification-withBlockDeviceMappings-setEbs-withIops":"java.lang.Integer",
+		"withLaunchSpecification-withBlockDeviceMappings-setEbs-setSnapshotId":"java.lang.String",
+		"withLaunchSpecification-withBlockDeviceMappings-setEbs-withSnapshotId":"java.lang.String",
+		"withLaunchSpecification-withBlockDeviceMappings-setEbs-withVolumeType":"java.lang.String",
+		"withLaunchSpecification-withBlockDeviceMappings-setEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"withLaunchSpecification-withBlockDeviceMappings-setEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"withLaunchSpecification-withBlockDeviceMappings-setEbs-setVolumeSize":"java.lang.Integer",
+		"withLaunchSpecification-withBlockDeviceMappings-setEbs-withVolumeSize":"java.lang.Integer",
+		"withLaunchSpecification-withBlockDeviceMappings-setDeviceName":"java.lang.String",
+		"withLaunchSpecification-withBlockDeviceMappings-withDeviceName":"java.lang.String",
+		"withLaunchSpecification-withBlockDeviceMappings-withEbs-setEncrypted":"java.lang.Boolean",
+		"withLaunchSpecification-withBlockDeviceMappings-withEbs-withEncrypted":"java.lang.Boolean",
+		"withLaunchSpecification-withBlockDeviceMappings-withEbs-setKmsKeyId":"java.lang.String",
+		"withLaunchSpecification-withBlockDeviceMappings-withEbs-withKmsKeyId":"java.lang.String",
+		"withLaunchSpecification-withBlockDeviceMappings-withEbs-setIops":"java.lang.Integer",
+		"withLaunchSpecification-withBlockDeviceMappings-withEbs-withIops":"java.lang.Integer",
+		"withLaunchSpecification-withBlockDeviceMappings-withEbs-setSnapshotId":"java.lang.String",
+		"withLaunchSpecification-withBlockDeviceMappings-withEbs-withSnapshotId":"java.lang.String",
+		"withLaunchSpecification-withBlockDeviceMappings-withEbs-withVolumeType":"java.lang.String",
+		"withLaunchSpecification-withBlockDeviceMappings-withEbs-setDeleteOnTermination":"java.lang.Boolean",
+		"withLaunchSpecification-withBlockDeviceMappings-withEbs-withDeleteOnTermination":"java.lang.Boolean",
+		"withLaunchSpecification-withBlockDeviceMappings-withEbs-setVolumeSize":"java.lang.Integer",
+		"withLaunchSpecification-withBlockDeviceMappings-withEbs-withVolumeSize":"java.lang.Integer",
+		"withLaunchSpecification-withBlockDeviceMappings-setNoDevice":"java.lang.String",
+		"withLaunchSpecification-withBlockDeviceMappings-withNoDevice":"java.lang.String",
+		"withLaunchSpecification-withBlockDeviceMappings-setVirtualName":"java.lang.String",
+		"withLaunchSpecification-withBlockDeviceMappings-withVirtualName":"java.lang.String",
+		"withLaunchSpecification-setImageId":"java.lang.String",
+		"withLaunchSpecification-withImageId":"java.lang.String",
+		"withLaunchSpecification-setUserData":"java.lang.String",
+		"withLaunchSpecification-withUserData":"java.lang.String",
+		"withLaunchSpecification-setKernelId":"java.lang.String",
+		"withLaunchSpecification-withKernelId":"java.lang.String",
+		"withLaunchSpecification-setRamdiskId":"java.lang.String",
+		"withLaunchSpecification-withRamdiskId":"java.lang.String",
+		"withLaunchSpecification-setPlacement-setAvailabilityZone":"java.lang.String",
+		"withLaunchSpecification-setPlacement-withAvailabilityZone":"java.lang.String",
+		"withLaunchSpecification-setPlacement-setGroupName":"java.lang.String",
+		"withLaunchSpecification-setPlacement-withGroupName":"java.lang.String",
+		"withLaunchSpecification-setPlacement-withTenancy":"java.lang.String",
+		"withLaunchSpecification-withPlacement-setAvailabilityZone":"java.lang.String",
+		"withLaunchSpecification-withPlacement-withAvailabilityZone":"java.lang.String",
+		"withLaunchSpecification-withPlacement-setGroupName":"java.lang.String",
+		"withLaunchSpecification-withPlacement-withGroupName":"java.lang.String",
+		"withLaunchSpecification-withPlacement-withTenancy":"java.lang.String",
+		"withLaunchSpecification-setNetworkInterfaces-setIpv6AddressCount":"java.lang.Integer",
+		"withLaunchSpecification-setNetworkInterfaces-withIpv6AddressCount":"java.lang.Integer",
+		"withLaunchSpecification-setNetworkInterfaces-setIpv6Addresses-setIpv6Address":"java.lang.String",
+		"withLaunchSpecification-setNetworkInterfaces-setIpv6Addresses-withIpv6Address":"java.lang.String",
+		"withLaunchSpecification-setNetworkInterfaces-withIpv6Addresses-setIpv6Address":"java.lang.String",
+		"withLaunchSpecification-setNetworkInterfaces-withIpv6Addresses-withIpv6Address":"java.lang.String",
+		"withLaunchSpecification-setNetworkInterfaces-setNetworkInterfaceId":"java.lang.String",
+		"withLaunchSpecification-setNetworkInterfaces-withNetworkInterfaceId":"java.lang.String",
+		"withLaunchSpecification-setNetworkInterfaces-setPrivateIpAddresses-setPrivateIpAddress":"java.lang.String",
+		"withLaunchSpecification-setNetworkInterfaces-setPrivateIpAddresses-withPrivateIpAddress":"java.lang.String",
+		"withLaunchSpecification-setNetworkInterfaces-setPrivateIpAddresses-setPrimary":"java.lang.Boolean",
+		"withLaunchSpecification-setNetworkInterfaces-setPrivateIpAddresses-withPrimary":"java.lang.Boolean",
+		"withLaunchSpecification-setNetworkInterfaces-withPrivateIpAddresses-setPrivateIpAddress":"java.lang.String",
+		"withLaunchSpecification-setNetworkInterfaces-withPrivateIpAddresses-withPrivateIpAddress":"java.lang.String",
+		"withLaunchSpecification-setNetworkInterfaces-withPrivateIpAddresses-setPrimary":"java.lang.Boolean",
+		"withLaunchSpecification-setNetworkInterfaces-withPrivateIpAddresses-withPrimary":"java.lang.Boolean",
+		"withLaunchSpecification-setNetworkInterfaces-setSecondaryPrivateIpAddressCount":"java.lang.Integer",
+		"withLaunchSpecification-setNetworkInterfaces-withSecondaryPrivateIpAddressCount":"java.lang.Integer",
+		"withLaunchSpecification-setNetworkInterfaces-setPrivateIpAddress":"java.lang.String",
+		"withLaunchSpecification-setNetworkInterfaces-withPrivateIpAddress":"java.lang.String",
+		"withLaunchSpecification-setNetworkInterfaces-setDeviceIndex":"java.lang.Integer",
+		"withLaunchSpecification-setNetworkInterfaces-setSubnetId":"java.lang.String",
+		"withLaunchSpecification-setNetworkInterfaces-withSubnetId":"java.lang.String",
+		"withLaunchSpecification-setNetworkInterfaces-withDeviceIndex":"java.lang.Integer",
+		"withLaunchSpecification-setNetworkInterfaces-setDescription":"java.lang.String",
+		"withLaunchSpecification-setNetworkInterfaces-withDescription":"java.lang.String",
+		"withLaunchSpecification-setNetworkInterfaces-setDeleteOnTermination":"java.lang.Boolean",
+		"withLaunchSpecification-setNetworkInterfaces-withDeleteOnTermination":"java.lang.Boolean",
+		"withLaunchSpecification-setNetworkInterfaces-setAssociatePublicIpAddress":"java.lang.Boolean",
+		"withLaunchSpecification-setNetworkInterfaces-withAssociatePublicIpAddress":"java.lang.Boolean",
+		"withLaunchSpecification-withNetworkInterfaces-setIpv6AddressCount":"java.lang.Integer",
+		"withLaunchSpecification-withNetworkInterfaces-withIpv6AddressCount":"java.lang.Integer",
+		"withLaunchSpecification-withNetworkInterfaces-setIpv6Addresses-setIpv6Address":"java.lang.String",
+		"withLaunchSpecification-withNetworkInterfaces-setIpv6Addresses-withIpv6Address":"java.lang.String",
+		"withLaunchSpecification-withNetworkInterfaces-withIpv6Addresses-setIpv6Address":"java.lang.String",
+		"withLaunchSpecification-withNetworkInterfaces-withIpv6Addresses-withIpv6Address":"java.lang.String",
+		"withLaunchSpecification-withNetworkInterfaces-setNetworkInterfaceId":"java.lang.String",
+		"withLaunchSpecification-withNetworkInterfaces-withNetworkInterfaceId":"java.lang.String",
+		"withLaunchSpecification-withNetworkInterfaces-setPrivateIpAddresses-setPrivateIpAddress":"java.lang.String",
+		"withLaunchSpecification-withNetworkInterfaces-setPrivateIpAddresses-withPrivateIpAddress":"java.lang.String",
+		"withLaunchSpecification-withNetworkInterfaces-setPrivateIpAddresses-setPrimary":"java.lang.Boolean",
+		"withLaunchSpecification-withNetworkInterfaces-setPrivateIpAddresses-withPrimary":"java.lang.Boolean",
+		"withLaunchSpecification-withNetworkInterfaces-withPrivateIpAddresses-setPrivateIpAddress":"java.lang.String",
+		"withLaunchSpecification-withNetworkInterfaces-withPrivateIpAddresses-withPrivateIpAddress":"java.lang.String",
+		"withLaunchSpecification-withNetworkInterfaces-withPrivateIpAddresses-setPrimary":"java.lang.Boolean",
+		"withLaunchSpecification-withNetworkInterfaces-withPrivateIpAddresses-withPrimary":"java.lang.Boolean",
+		"withLaunchSpecification-withNetworkInterfaces-setSecondaryPrivateIpAddressCount":"java.lang.Integer",
+		"withLaunchSpecification-withNetworkInterfaces-withSecondaryPrivateIpAddressCount":"java.lang.Integer",
+		"withLaunchSpecification-withNetworkInterfaces-setPrivateIpAddress":"java.lang.String",
+		"withLaunchSpecification-withNetworkInterfaces-withPrivateIpAddress":"java.lang.String",
+		"withLaunchSpecification-withNetworkInterfaces-setDeviceIndex":"java.lang.Integer",
+		"withLaunchSpecification-withNetworkInterfaces-setSubnetId":"java.lang.String",
+		"withLaunchSpecification-withNetworkInterfaces-withSubnetId":"java.lang.String",
+		"withLaunchSpecification-withNetworkInterfaces-withDeviceIndex":"java.lang.Integer",
+		"withLaunchSpecification-withNetworkInterfaces-setDescription":"java.lang.String",
+		"withLaunchSpecification-withNetworkInterfaces-withDescription":"java.lang.String",
+		"withLaunchSpecification-withNetworkInterfaces-setDeleteOnTermination":"java.lang.Boolean",
+		"withLaunchSpecification-withNetworkInterfaces-withDeleteOnTermination":"java.lang.Boolean",
+		"withLaunchSpecification-withNetworkInterfaces-setAssociatePublicIpAddress":"java.lang.Boolean",
+		"withLaunchSpecification-withNetworkInterfaces-withAssociatePublicIpAddress":"java.lang.Boolean",
+		"withLaunchSpecification-setAddressingType":"java.lang.String",
+		"withLaunchSpecification-withAddressingType":"java.lang.String",
+		"withLaunchSpecification-setAllSecurityGroups-setGroupName":"java.lang.String",
+		"withLaunchSpecification-setAllSecurityGroups-withGroupName":"java.lang.String",
+		"withLaunchSpecification-setAllSecurityGroups-setGroupId":"java.lang.String",
+		"withLaunchSpecification-setAllSecurityGroups-withGroupId":"java.lang.String",
+		"withLaunchSpecification-withAllSecurityGroups-setGroupName":"java.lang.String",
+		"withLaunchSpecification-withAllSecurityGroups-withGroupName":"java.lang.String",
+		"withLaunchSpecification-withAllSecurityGroups-setGroupId":"java.lang.String",
+		"withLaunchSpecification-withAllSecurityGroups-withGroupId":"java.lang.String",
+		"withLaunchSpecification-setMonitoringEnabled":"java.lang.Boolean",
+		"withLaunchSpecification-withMonitoringEnabled":"java.lang.Boolean",
+		"setAvailabilityZoneGroup":"java.lang.String",
+		"withAvailabilityZoneGroup":"java.lang.String",
+		"setBlockDurationMinutes":"java.lang.Integer",
+		"withBlockDurationMinutes":"java.lang.Integer",
+		"setLaunchGroup":"java.lang.String",
+		"withLaunchGroup":"java.lang.String",
+		"setSpotPrice":"java.lang.String",
+		"withSpotPrice":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeVpcClassicLink parameterss:
+
+```
+{
+	"main":{
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeNetworkInterfaces parameterss:
+
+```
+{
+	"main":{
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeLaunchTemplateVersions parameterss:
+
+```
+{
+	"main":{
+		"withLaunchTemplateName":"java.lang.String",
+		"setLaunchTemplateName":"java.lang.String",
+		"setLaunchTemplateId":"java.lang.String",
+		"withLaunchTemplateId":"java.lang.String",
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setMinVersion":"java.lang.String",
+		"withMinVersion":"java.lang.String",
+		"setMaxVersion":"java.lang.String",
+		"withMaxVersion":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DetachNetworkInterface parameterss:
+
+```
+{
+	"main":{
+		"setForce":"java.lang.Boolean",
+		"withForce":"java.lang.Boolean",
+		"setAttachmentId":"java.lang.String",
+		"withAttachmentId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## ModifyNetworkInterfaceAttribute parameterss:
+
+```
+{
+	"main":{
+		"setNetworkInterfaceId":"java.lang.String",
+		"withNetworkInterfaceId":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"withDescription":"java.lang.String",
+		"setSourceDestCheck":"java.lang.Boolean",
+		"withSourceDestCheck":"java.lang.Boolean",
+		"setAttachment-setAttachmentId":"java.lang.String",
+		"setAttachment-withAttachmentId":"java.lang.String",
+		"setAttachment-setDeleteOnTermination":"java.lang.Boolean",
+		"setAttachment-withDeleteOnTermination":"java.lang.Boolean",
+		"withAttachment-setAttachmentId":"java.lang.String",
+		"withAttachment-withAttachmentId":"java.lang.String",
+		"withAttachment-setDeleteOnTermination":"java.lang.Boolean",
+		"withAttachment-withDeleteOnTermination":"java.lang.Boolean",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DisassociateTransitGatewayRouteTable parameterss:
+
+```
+{
+	"main":{
+		"withTransitGatewayAttachmentId":"java.lang.String",
+		"setTransitGatewayAttachmentId":"java.lang.String",
+		"setTransitGatewayRouteTableId":"java.lang.String",
+		"withTransitGatewayRouteTableId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## ModifyInstanceCapacityReservationAttributes parameterss:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"withInstanceId":"java.lang.String",
+		"setCapacityReservationSpecification-withCapacityReservationPreference":"java.lang.String",
+		"setCapacityReservationSpecification-setCapacityReservationTarget-withCapacityReservationId":"java.lang.String",
+		"setCapacityReservationSpecification-setCapacityReservationTarget-setCapacityReservationId":"java.lang.String",
+		"setCapacityReservationSpecification-withCapacityReservationTarget-withCapacityReservationId":"java.lang.String",
+		"setCapacityReservationSpecification-withCapacityReservationTarget-setCapacityReservationId":"java.lang.String",
+		"setCapacityReservationSpecification-setCapacityReservationPreference":"java.lang.String",
+		"withCapacityReservationSpecification-withCapacityReservationPreference":"java.lang.String",
+		"withCapacityReservationSpecification-setCapacityReservationTarget-withCapacityReservationId":"java.lang.String",
+		"withCapacityReservationSpecification-setCapacityReservationTarget-setCapacityReservationId":"java.lang.String",
+		"withCapacityReservationSpecification-withCapacityReservationTarget-withCapacityReservationId":"java.lang.String",
+		"withCapacityReservationSpecification-withCapacityReservationTarget-setCapacityReservationId":"java.lang.String",
+		"withCapacityReservationSpecification-setCapacityReservationPreference":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## CreateKeyPair parameterss:
+
+```
+{
+	"main":{
+		"withKeyName":"java.lang.String",
+		"setKeyName":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DisassociateRouteTable parameterss:
+
+```
+{
+	"main":{
+		"setAssociationId":"java.lang.String",
+		"withAssociationId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## AttachClassicLinkVpc parameterss:
+
+```
+{
+	"main":{
+		"setVpcId":"java.lang.String",
+		"withVpcId":"java.lang.String",
+		"setInstanceId":"java.lang.String",
+		"withInstanceId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeEgressOnlyInternetGateways parameterss:
+
+```
+{
+	"main":{
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DescribeClientVpnRoutes parameterss:
+
+```
+{
+	"main":{
+		"setClientVpnEndpointId":"java.lang.String",
+		"withClientVpnEndpointId":"java.lang.String",
+		"setFilters-withName":"java.lang.String",
+		"setFilters-setName":"java.lang.String",
+		"withFilters-withName":"java.lang.String",
+		"withFilters-setName":"java.lang.String",
+		"setMaxResults":"java.lang.Integer",
+		"withMaxResults":"java.lang.Integer",
+		"setNextToken":"java.lang.String",
+		"withNextToken":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## CancelReservedInstancesListing parameterss:
+
+```
+{
+	"main":{
+		"setReservedInstancesListingId":"java.lang.String",
+		"withReservedInstancesListingId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## DisassociateSubnetCidrBlock parameterss:
+
+```
+{
+	"main":{
+		"setAssociationId":"java.lang.String",
+		"withAssociationId":"java.lang.String",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## MonitorInstances parameterss:
+
+```
+{
+	"main":{
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
+## CreateVpnGateway parameterss:
+
+```
+{
+	"main":{
+		"setAvailabilityZone":"java.lang.String",
+		"withAvailabilityZone":"java.lang.String",
+		"setType":"java.lang.String",
+		"setAmazonSideAsn":"java.lang.Long",
+		"withAmazonSideAsn":"java.lang.Long",
+		"setSdkRequestTimeout":"int",
+		"withSdkRequestTimeout":"int",
+		"setSdkClientExecutionTimeout":"int",
+		"withSdkClientExecutionTimeout":"int"
+	}
+}
+```
