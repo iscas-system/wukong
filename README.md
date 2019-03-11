@@ -43,3 +43,15 @@ of target system does not satisfy our assumptions, we should reengineer the APIs
 5. [Tencent VM](docs/TencentVM-Analysis.md)
 6. [Baidu BCE](docs/BaiduBCE-Analysis.md)
 7. [JDCloud VM](docs/JDCloudVM-Analysis.md)
+
+
+##  JSON 
+
+### VM
+1. [Amazon EC2](docs/AmazonEc2-json.md)
+2. [Azure VM](docs/AzureVM-json.md)
+3. [Google GCE](docs/GoogleCCE-json.md)
+4. [Aliyun ECS](docs/AliyunECS-json.md)
+5. [Tencent VM](docs/TencentVM-json.md)
+6. [Baidu BCE](docs/BaiduBCE-json.md)
+7. [JDCloud VM](docs/JDCloudVM-json.md)
