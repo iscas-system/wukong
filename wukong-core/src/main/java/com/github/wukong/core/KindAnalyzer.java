@@ -101,6 +101,10 @@ public abstract class KindAnalyzer {
 		return models.get(kind);
 	}
 	
+	protected Map<String, String> getAllKinds() {
+		return models;
+	}
+	
 	/**
 	 * @param parent   parent class
 	 * @param method   method
@@ -156,4 +160,6 @@ public abstract class KindAnalyzer {
 	 * @return          client name
 	 */
 	protected abstract String  getClient();
+
+	
 }

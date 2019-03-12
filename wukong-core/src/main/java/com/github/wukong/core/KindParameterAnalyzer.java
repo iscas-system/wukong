@@ -154,4 +154,8 @@ public class KindParameterAnalyzer {
 //				&& typename.split(",").length < 2; // it may be Map<String, String>, then the length is 2 if we splits the string by ','
 	}
 
+	public Map<String, String> getAllKinds() {
+		return analyzer.getAllKinds();
+	}
+
 }
