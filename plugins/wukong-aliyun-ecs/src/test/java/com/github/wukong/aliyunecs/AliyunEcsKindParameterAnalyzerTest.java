@@ -9,7 +9,7 @@ public class AliyunEcsKindParameterAnalyzerTest {
 		AliyunEcsKindAnalyzer ka = new AliyunEcsKindAnalyzer();
 		KindParameterAnalyzer mpa = new KindParameterAnalyzer(ka);
 		for (String kind : ka.getKinds()) {
-			ParametersTool.showModelParametersWithNetstedStyle(kind, mpa.getParameters(kind));
+			ParametersTool.showModelParametersWithJsonStyle(kind, mpa.getParameters(kind));
 		}
 	}
 
