@@ -1,6 +1,12 @@
 # WuKong
 
-##  1. Analysis
+##  1. Backgroud
+
+  We plan to use a heuristic-based method for generating adapters of service-based generic-API for hybrid clouds
+  
+  - [Wukong@SOSE19](): feasibility analysis
+
+##  2. Analysis
 
 We describe the [operations](docs/Operations.md).suppoted by the system mentioned below.
 Then, we give the parameters of each system in detail.
@@ -45,7 +51,7 @@ of target system does not satisfy our assumptions, we should reengineer the APIs
 7. [JDCloud VM](docs/JDCloudVM-Analysis.md)
 
 
-##  2. JSON 
+##  3. JSON 
 
 ### VM
 1. [Amazon EC2](docs/AmazonEc2-json.md)
