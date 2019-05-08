@@ -14,34 +14,23 @@ Then, we give the parameters of each system in detail.
 
 TABLE I: The list of supported System
 
-|  Country  |   Type    |   Name    |  Offical  |  Support  |
+|  Country  |   Type    |   Name    |  Offical  |  Version  |
 | :-------: | :-------: | :-------: | :-------: | :-------: |
-|  ---      | Container | Kubernetes|    No     |    Yes    |
-|  ---      | Container | OpenShift |    No     |    Yes    |
-|  ---      | Container |   Docker  |    No     |    Yes    |
-|  America  |     VM    |   Amazon  |    Yes    |    Yes    |
-|  America  |     VM    |   Azure   |    Yes    |  **No**   |
-|  America  |     VM    |   Google  |    Yes    |  **No**   |
-|  China    |     VM    |   Aliyun  |    Yes    |    Yes    |
-|  China    |     VM    |   Tencent |    Yes    |    Yes    |
-|  China    |     VM    |   Baidu   |    Yes    |    Yes    |
-|  China    |     VM    |   JD      |    Yes    |    Yes    |
-|  ---      |     VM    | OpenStack |    No     |    Yes    |
-|  ---      |     VM    |   VMWare  |    No     |  **No**   |
+|  America  |     VM    |   Amazon  |    Yes    |   -                             |
+|  America  |     VM    |   Azure   |    Yes    |  -                              |
+|  America  |     VM    |   Google  |    Yes    |  -                              |
+|  China    |     VM    |   Baidu   |    Yes    |   -                             |
+|  China    |     VM    |   Aliyun  |    Yes    |  aliyun-java-sdk-ecs(4.16.7)    |
+|  China    |     VM    |   Tencent |    Yes    |   -                             |
+|  China    |     VM    |   JD      |    Yes    |   -                             |
+|  China    |     VM    | Qingcloud |    Yes    |    qingcloud-sdk-java(1.1.0)    |
 
 
 **Node that the value of "No" in column "Support" just means the related APIs
 of target system does not satisfy our assumptions, we should reengineer the APIs**
 
 
-### Container
-
-1. [Kubernetes](docs/Kubernetes-Analysis.md)
-2. [OpenShift](docs/OpenShift-Analysis.md)
-3. Docker/Swarm
-4. [Amazon ECS](docs/AmazonEcs-Analysis.md)
-
-### VM
+### Clouds
 1. [Amazon EC2](docs/AmazonEc2-Analysis.md)
 2. [Azure VM](docs/AzureVM-Analysis.md)
 3. [Google GCE](docs/GoogleCCE-Analysis.md)
@@ -49,6 +38,7 @@ of target system does not satisfy our assumptions, we should reengineer the APIs
 5. [Tencent VM](docs/TencentVM-Analysis.md)
 6. [Baidu BCE](docs/BaiduBCE-Analysis.md)
 7. [JDCloud VM](docs/JDCloudVM-Analysis.md)
+8. [Qingcloud VM](docs/QingcloudVM-Analysis.md)
 
 
 ##  3. JSON 
@@ -61,3 +51,4 @@ of target system does not satisfy our assumptions, we should reengineer the APIs
 5. [Tencent VM](docs/TencentVM-json.md)
 6. [Baidu BCE](docs/BaiduBCE-json.md)
 7. [JDCloud VM](docs/JDCloudVM-json.md)
+8. [Qingcloud VM](docs/QingcloudVM-json.md)
