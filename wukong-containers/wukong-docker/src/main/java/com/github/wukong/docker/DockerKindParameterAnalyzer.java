@@ -3,10 +3,8 @@
  */
 package com.github.wukong.docker;
 
-import com.github.wukong.core.KindAnalyzer;
-import com.github.wukong.core.KindParameterAnalyzer;
-
-import io.fabric8.kubernetes.api.model.apiextensions.JSONSchemaProps;
+import io.github.wukong.core.KindAnalyzer;
+import io.github.wukong.core.KindParameterAnalyzer;
 
 
 /**
@@ -18,10 +16,5 @@ public class DockerKindParameterAnalyzer extends KindParameterAnalyzer {
 	public DockerKindParameterAnalyzer(KindAnalyzer analyzer) {
 		super(analyzer);
 	}
-
-	static {
-		blacklist.add(JSONSchemaProps.class.getName());
-	}
-	
 
 }

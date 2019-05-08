@@ -1,6 +1,6 @@
-package com.github.wukong.azurevm.models.virtualMachineScaleSets;
+package io.github.wukong.azure_vm.models.virtualMachineScaleSets;
 
-public class ListByResourceGroupSinglePageAsyncRequest implements com.github.wukong.azurevm.models.AbstractAzureRequest {
+public class ListByResourceGroupSinglePageAsyncRequest implements io.github.wukong.azure_vm.models.AbstractAzureRequest {
 	protected java.lang.String resourceGroupName;
 
 	public void setResourceGroupName(java.lang.String resourceGroupName) {

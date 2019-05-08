@@ -1,9 +1,9 @@
-package com.github.wukong.azurevm;
+package io.github.wukong.azure_vm;
 
 import org.joda.time.DateTimeZone;
 
-import com.github.wukong.core.KindAnalyzer;
-import com.github.wukong.core.KindParameterAnalyzer;
+import io.github.wukong.core.KindAnalyzer;
+import io.github.wukong.core.KindParameterAnalyzer;
 
 public class AzureVMKindParameterAnalyzer extends KindParameterAnalyzer {
 

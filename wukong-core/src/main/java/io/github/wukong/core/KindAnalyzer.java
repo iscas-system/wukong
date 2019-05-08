@@ -1,15 +1,16 @@
 /**
  * Copyright (2018-2019) Institute of Software, Chinese Academy of Sciences 
  */
-package com.github.wukong.core;
+package io.github.wukong.core;
 
 import java.lang.reflect.Method;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
-import com.github.wukong.core.impl.DefaultClient;
-import com.github.wukong.core.utils.StringUtils;
+import com.github.kubesys.tool.utils.ObjectUtils;
+
+import io.github.wukong.core.impl.DefaultClient;
 
 
 /**
@@ -19,38 +20,36 @@ import com.github.wukong.core.utils.StringUtils;
  * instantiated by kind description.
  * <p>
  * 
- * @author wuheng@iscas.ac.cn
+ * @author wuheng@otcaix.iscas.ac.cn
  * @since 2019.1
  *
  */
 public abstract class KindAnalyzer {
 
-	/************************************************************************************
+	
+	/**
+	 * for example, we want to create VM ('VM' is a type),
+	 * and the code is as below <p>
 	 * 
-	 *                            Cores 
+	 * <p>
+	 * client.Vms().createVM(VMObject obj)
+	 * <p>
 	 * 
-	 ************************************************************************************/
-	
-	/**
-	 * kind and how it is instantiated
+	 * In this case, the key and value of methodDescs is <'VM', 'VMs-createVM'>,
+	 * VMs the the parent of createVM.
+	 * while the key and value of paramDescs is <'VM', 'VMObject'>,
 	 */
-	protected final Map<String, String> descs = new HashMap<String, String>();
+	protected final Map<String, String> methodDescs = new HashMap<String, String>();
 	
-	/**
-	 * kind and how it is instantiated
-	 */
-	protected final Map<String, String> models = new HashMap<String, String>();
+	protected final Map<String, String> paramDescs  = new HashMap<String, String>();
 	
-	/**
-	 * default description
-	 */
-	private   final static String DEFAULT_DESC = "";
+	protected final static String DEFAULT_METHOD_PARENT_DESC = "";
 	
 	/**
 	 * init
 	 */
 	public KindAnalyzer() {
-		analyseKinds(getClient(), DEFAULT_DESC);
+		analyseKinds(getClient(), DEFAULT_METHOD_PARENT_DESC);
 	}
 	
 	/**
@@ -66,9 +65,11 @@ public abstract class KindAnalyzer {
     		try {
 	    		if (isKind(method)) {
 	    			String kind = toKind(method);
-					descs.put(kind, toDesc(parentDesc, method));
-					models.put(kind, toModel(method));
+					methodDescs.put(kind, toMethodDesc(parentDesc, method));
+					paramDescs.put(kind, toParamDesc(method));
 	    		} else if (isKindGroup(method)) {
+	    			// take client.Vms().createVM(VMObject obj) for examples
+	    			// the term 'Vms' means a set of operators
 	    			analyseKinds(method.getReturnType().getName(), 
 	    						method.getName());
 	    		} 
@@ -82,7 +83,7 @@ public abstract class KindAnalyzer {
 	 * @return all kinds
 	 */
 	public Set<String> getKinds() {
-		return descs.keySet();
+		return methodDescs.keySet();
 	}
 	
 	/**
@@ -90,7 +91,7 @@ public abstract class KindAnalyzer {
 	 * @return       kind description
 	 */
 	public String getDesc(String kind) {
-		return descs.get(kind);
+		return methodDescs.get(kind);
 	}
 	
 	/**
@@ -98,11 +99,11 @@ public abstract class KindAnalyzer {
 	 * @return       kind model
 	 */
 	public String getModel(String kind) {
-		return models.get(kind);
+		return paramDescs.get(kind);
 	}
 	
 	protected Map<String, String> getAllKinds() {
-		return models;
+		return paramDescs;
 	}
 	
 	/**
@@ -110,9 +111,9 @@ public abstract class KindAnalyzer {
 	 * @param method   method
 	 * @return         convert to description
 	 */
-	protected String  toDesc(String parent, Method method) {
-		return StringUtils.isNull(method.getName()) ? null : 
-			(StringUtils.isNull(parent) ? method.getName() : parent + "-" + method.getName());
+	protected String toMethodDesc(String parent, Method method) {
+		return ObjectUtils.isNullString(method.getName()) ? null : 
+			(ObjectUtils.isNullString(parent) ? method.getName() : parent + "-" + method.getName());
 	}
 	
 	/**
@@ -134,32 +135,28 @@ public abstract class KindAnalyzer {
 	 ************************************************************************************/
 	
 	/**
+	 * @return          client name
+	 */
+	protected abstract String  getClient();
+	/**
 	 * @param method  method
 	 * @return        return true if this method is a kind 
 	 */
 	protected abstract boolean isKind(Method method);
-	
-	/**
-	 * @param method   method
-	 * @return         return true if this method is a kind group
-	 */
-	protected abstract boolean isKindGroup(Method method);
-	
 	/**
 	 * @param method   method
 	 * @return         convert method to kind
 	 */
 	protected abstract String  toKind(Method method);
-	
 	/**
 	 * @param method   method
 	 * @return         convert to model
 	 */
-	protected abstract String  toModel(Method method);
+	protected abstract String  toParamDesc(Method method);
 	/**
-	 * @return          client name
+	 * @param method   method
+	 * @return         return true if this method is a kind group
 	 */
-	protected abstract String  getClient();
-
+	protected abstract boolean isKindGroup(Method method);
 	
 }

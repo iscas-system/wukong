@@ -1,6 +1,6 @@
-package com.github.wukong.azurevm.models.logAnalytics;
+package io.github.wukong.azure_vm.models.logAnalytics;
 
-public class BeginExportRequestRateByIntervalRequest implements com.github.wukong.azurevm.models.AbstractAzureRequest {
+public class BeginExportRequestRateByIntervalRequest implements io.github.wukong.azure_vm.models.AbstractAzureRequest {
 	protected java.lang.String location;
 
 	protected com.microsoft.azure.management.compute.RequestRateByIntervalInput parameters;

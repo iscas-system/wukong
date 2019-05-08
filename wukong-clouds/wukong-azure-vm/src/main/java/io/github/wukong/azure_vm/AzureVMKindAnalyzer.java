@@ -1,11 +1,11 @@
 /**
  * Copyright (2018-2019) Institute of Software, Chinese Academy of Sciences
  */
-package com.github.wukong.azurevm;
+package io.github.wukong.azure_vm;
 
 
-import com.github.wukong.azurevm.models.AbstractAzureRequest;
-import com.github.wukong.core.anas.ParamAndRespPatternAnalyzer;
+import io.github.wukong.azure_vm.models.AbstractAzureRequest;
+import io.github.wukong.core.anas.ParamAndRespPatternAnalyzer;
 
 /**
  * @author wuheng@iscas.ac.cn

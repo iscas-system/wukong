@@ -1,7 +1,8 @@
-package com.github.wukong.aliyunecs;
+package io.github.wukong.aliyun_ecs;
 
-import com.github.wukong.core.KindParameterAnalyzer;
-import com.github.wukong.core.tools.ParametersTool;
+import com.github.kubesys.tool.generators.ParamterStyleGenerator;
+
+import io.github.wukong.core.KindParameterAnalyzer;
 
 public class AliyunEcsKindParameterAnalyzerTest {
 
@@ -9,7 +10,7 @@ public class AliyunEcsKindParameterAnalyzerTest {
 		AliyunEcsKindAnalyzer ka = new AliyunEcsKindAnalyzer();
 		KindParameterAnalyzer mpa = new KindParameterAnalyzer(ka);
 		for (String kind : ka.getKinds()) {
-			ParametersTool.showModelParametersWithJsonStyle(kind, mpa.getParameters(kind));
+			ParamterStyleGenerator.showModelParametersWithJsonStyle(kind, mpa.getParameters(kind));
 		}
 	}
 

@@ -1,6 +1,6 @@
-package com.github.wukong.azurevm.models.virtualMachineScaleSets;
+package io.github.wukong.azure_vm.models.virtualMachineScaleSets;
 
-public class ForceRecoveryServiceFabricPlatformUpdateDomainWalkRequest implements com.github.wukong.azurevm.models.AbstractAzureRequest {
+public class ForceRecoveryServiceFabricPlatformUpdateDomainWalkRequest implements io.github.wukong.azure_vm.models.AbstractAzureRequest {
 	protected java.lang.String resourceGroupName;
 
 	protected java.lang.String vmScaleSetName;

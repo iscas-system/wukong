@@ -1,11 +1,11 @@
 /**
  * Copyright (2018-2019) Institute of Software, Chinese Academy of Sciences 
  */
-package com.github.wukong.core.impl;
+package io.github.wukong.core.impl;
 
 import java.lang.reflect.Method;
 
-import com.github.wukong.core.KindAnalyzer;
+import io.github.wukong.core.KindAnalyzer;
 
 /**
  * @author wuheng@otcaix.iscas.ac.cn
@@ -29,7 +29,7 @@ public class DefaultKindAnalyzer extends KindAnalyzer {
 	}
 
 	@Override
-	protected String toDesc(String parent, Method method) {
+	protected String toMethodDesc(String parent, Method method) {
 		return null;
 	}
 
@@ -39,7 +39,7 @@ public class DefaultKindAnalyzer extends KindAnalyzer {
 	}
 
 	@Override
-	protected String toModel(Method method) {
+	protected String toParamDesc(Method method) {
 		return null;
 	}
 

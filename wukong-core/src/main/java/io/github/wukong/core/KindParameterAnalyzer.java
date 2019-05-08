@@ -1,7 +1,7 @@
 /**
  * Copyright (2018-2019) Institute of Software, Chinese Academy of Sciences 
  */
-package com.github.wukong.core;
+package io.github.wukong.core;
 
 import java.lang.reflect.Method;
 import java.util.HashMap;
@@ -10,8 +10,9 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Set;
 
-import com.github.wukong.core.utils.JavaUtils;
-import com.github.wukong.core.utils.ObjectUtils;
+import com.github.kubesys.tool.utils.JavaUtils;
+import com.github.kubesys.tool.utils.ObjectUtils;
+
 
 
 /**
@@ -27,24 +28,23 @@ import com.github.wukong.core.utils.ObjectUtils;
  */
 public class KindParameterAnalyzer {
 
-	protected final static String METHOD_STARTSWITH_SET = "set";
+	public    final static String METHOD_STARTSWITH_SET  = "set";
 	
-	protected final static String METHOD_STARTSWITH_ADD = "add";
+	public    final static String METHOD_STARTSWITH_ADD  = "add";
 	
-	protected final static String METHOD_STARTSWITH_WITH = "with";
+	public    final static String METHOD_STARTSWITH_WITH = "with";
 	
-	protected final static String DEFAULT_PARENT = "";
+	protected final static String DEFAULT_PARAM_PARENT   = "";
 	
 	protected final KindAnalyzer analyzer;
 	
 	public KindParameterAnalyzer(KindAnalyzer analyzer) {
-		super();
 		this.analyzer = analyzer;
 		for (String kind : analyzer.getKinds()) {
 			try {
-				Class<?> modelClass = Class.forName(analyzer.getModel(kind));
+				Class<?> paramClass = Class.forName(analyzer.getModel(kind));
 				parameters.put(kind, new LinkedHashMap<String, String>());
-				analyseParameters(modelClass, kind,  DEFAULT_PARENT);
+				analyseParameters(paramClass, kind,  DEFAULT_PARAM_PARENT);
 			} catch (Exception e) {
 				// ignore here
 			}
@@ -115,7 +115,7 @@ public class KindParameterAnalyzer {
 	 * @return       fullname
 	 */
 	protected String getParent(String parent, Method method) {
-		return DEFAULT_PARENT.equals(parent) 
+		return DEFAULT_PARAM_PARENT.equals(parent) 
 				? method.getName() : parent + "-" + method.getName();
 	}
 

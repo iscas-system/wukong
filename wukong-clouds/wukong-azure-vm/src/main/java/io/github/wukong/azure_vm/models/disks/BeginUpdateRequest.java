@@ -1,6 +1,6 @@
-package com.github.wukong.azurevm.models.disks;
+package io.github.wukong.azure_vm.models.disks;
 
-public class BeginUpdateRequest implements com.github.wukong.azurevm.models.AbstractAzureRequest {
+public class BeginUpdateRequest implements io.github.wukong.azure_vm.models.AbstractAzureRequest {
 	protected java.lang.String resourceGroupName;
 
 	protected java.lang.String diskName;

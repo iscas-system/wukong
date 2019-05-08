@@ -1,5 +1,6 @@
-package com.github.wukong.aliyunecs;
+package io.github.wukong.aliyun_ecs;
 
+import io.github.wukong.aliyun_ecs.AliyunEcsKindAnalyzer;
 
 public class AliyunEcsAnalyzerTest {
 

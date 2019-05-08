@@ -1,8 +1,6 @@
 package com.github.wukong.openshift;
 
-import com.github.wukong.core.tools.ParametersTool;
-import com.github.wukong.openshift.OpenShiftKindAnalyzer;
-import com.github.wukong.openshift.OpenShiftKindParameterAnalyzer;
+import com.github.kubesys.tool.generators.ParamterStyleGenerator;
 
 public class OpenShiftKindParameterAnalyzerTest {
 
@@ -15,7 +13,7 @@ public class OpenShiftKindParameterAnalyzerTest {
 		}
 		
 		for (String kind : ka.getKinds()) {
-			ParametersTool.showModelParametersWithNetstedStyle(kind, mpa.getParameters(kind));
+			ParamterStyleGenerator.showModelParametersWithNetstedStyle(kind, mpa.getParameters(kind));
 		}
 	}
 

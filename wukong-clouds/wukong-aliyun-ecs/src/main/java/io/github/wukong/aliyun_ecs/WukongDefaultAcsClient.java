@@ -1,7 +1,7 @@
 /**
  * Copyright (2019, ) Institute of Software, Chinese Academy of Sciences
  */
-package com.github.wukong.aliyunecs;
+package io.github.wukong.aliyun_ecs;
 
 import com.aliyuncs.DefaultAcsClient;
 import com.aliyuncs.RpcAcsRequest;
@@ -9,7 +9,7 @@ import com.aliyuncs.auth.AlibabaCloudCredentials;
 import com.aliyuncs.auth.AlibabaCloudCredentialsProvider;
 import com.aliyuncs.ecs.model.v20140526.CreateVpcRequest;
 import com.aliyuncs.profile.IClientProfile;
-import com.github.wukong.core.utils.ObjectUtils;
+import com.github.kubesys.tool.searchers.ClassSearcher;
 
 /**
  * @author wuheng@iscas.ac.cn
@@ -1004,8 +1004,7 @@ public class WukongDefaultAcsClient extends DefaultAcsClient {
 	}
 	
 	public static void main(String[] args) throws Exception {
-		for (Class<?> clazz : ObjectUtils.getClassNameByJar(PACKAGE, CLASSNAME)) {
-			String classname = clazz.getName();
+		for (String classname : ClassSearcher.getAllClasses(PACKAGE, false)) {
 			String simplename = classname.substring(classname.lastIndexOf(".") + 1);
 			String methodname = simplename.substring(0, 1).toLowerCase() + simplename.substring(1);
 			System.out.println("\tpublic " + classname + " " + methodname + "() {");

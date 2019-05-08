@@ -1,6 +1,6 @@
-package com.github.wukong.azurevm.models.virtualMachines;
+package io.github.wukong.azure_vm.models.virtualMachines;
 
-public class DeleteAsyncRequest implements com.github.wukong.azurevm.models.AbstractAzureRequest {
+public class DeleteAsyncRequest implements io.github.wukong.azure_vm.models.AbstractAzureRequest {
 	protected java.lang.String resourceGroupName;
 
 	protected java.lang.String vmName;

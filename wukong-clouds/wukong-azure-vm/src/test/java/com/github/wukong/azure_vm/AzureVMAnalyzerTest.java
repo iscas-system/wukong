@@ -1,6 +1,6 @@
-package com.github.wukong.azurevm;
+package com.github.wukong.azure_vm;
 
-import com.github.wukong.azurevm.AzureVMKindAnalyzer;
+import io.github.wukong.azure_vm.AzureVMKindAnalyzer;
 
 public class AzureVMAnalyzerTest {
 

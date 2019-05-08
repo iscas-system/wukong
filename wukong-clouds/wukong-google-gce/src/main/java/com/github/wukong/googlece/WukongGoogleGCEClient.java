@@ -8,7 +8,7 @@ import java.lang.reflect.Method;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.github.wukong.core.tools.CodesTool;
+import com.github.kubesys.tool.generators.CodesTool;
 import com.github.wukong.googlece.models.AbstractGoogleRequest;
 import com.google.api.client.http.HttpRequestInitializer;
 import com.google.api.client.http.HttpTransport;

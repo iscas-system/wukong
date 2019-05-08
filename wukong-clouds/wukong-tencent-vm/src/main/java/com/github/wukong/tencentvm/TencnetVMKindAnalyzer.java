@@ -3,9 +3,10 @@
  */
 package com.github.wukong.tencentvm;
 
-import com.github.wukong.core.anas.ParamAndRespPatternAnalyzer;
 import com.tencentcloudapi.common.AbstractModel;
 import com.tencentcloudapi.cvm.v20170312.CvmClient;
+
+import io.github.wukong.core.anas.ParamAndRespPatternAnalyzer;
 
 /**
  * https://cloud.tencent.com/document/api/213/15730

@@ -1,6 +1,6 @@
-package com.github.wukong.azurevm.models.virtualMachineScaleSetRollingUpgrades;
+package io.github.wukong.azure_vm.models.virtualMachineScaleSetRollingUpgrades;
 
-public class GetLatestRequest implements com.github.wukong.azurevm.models.AbstractAzureRequest {
+public class GetLatestRequest implements io.github.wukong.azure_vm.models.AbstractAzureRequest {
 	protected java.lang.String resourceGroupName;
 
 	protected java.lang.String vmScaleSetName;

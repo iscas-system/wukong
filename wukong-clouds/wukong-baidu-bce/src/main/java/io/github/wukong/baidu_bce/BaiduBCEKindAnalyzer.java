@@ -1,11 +1,12 @@
 /**
  * Copyright (2018-2019) Institute of Software, Chinese Academy of Sciences
  */
-package com.github.wukong.baidubce;
+package io.github.wukong.baidu_bce;
 
 import com.baidubce.model.AbstractBceRequest;
 import com.baidubce.services.bcc.BccClient;
-import com.github.wukong.core.anas.ParamAndRespPatternAnalyzer;
+
+import io.github.wukong.core.anas.ParamAndRespPatternAnalyzer;
 
 /**
  * https://cloud.baidu.com/doc/BCC/API.html

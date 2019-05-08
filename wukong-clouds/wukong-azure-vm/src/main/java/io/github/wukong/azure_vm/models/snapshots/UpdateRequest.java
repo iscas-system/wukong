@@ -1,6 +1,6 @@
-package com.github.wukong.azurevm.models.snapshots;
+package io.github.wukong.azure_vm.models.snapshots;
 
-public class UpdateRequest implements com.github.wukong.azurevm.models.AbstractAzureRequest {
+public class UpdateRequest implements io.github.wukong.azure_vm.models.AbstractAzureRequest {
 	protected java.lang.String resourceGroupName;
 
 	protected java.lang.String snapshotName;

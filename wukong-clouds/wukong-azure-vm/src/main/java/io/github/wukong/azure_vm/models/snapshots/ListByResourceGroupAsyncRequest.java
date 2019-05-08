@@ -1,6 +1,6 @@
-package com.github.wukong.azurevm.models.snapshots;
+package io.github.wukong.azure_vm.models.snapshots;
 
-public class ListByResourceGroupAsyncRequest implements com.github.wukong.azurevm.models.AbstractAzureRequest {
+public class ListByResourceGroupAsyncRequest implements io.github.wukong.azure_vm.models.AbstractAzureRequest {
 	protected java.lang.String resourceGroupName;
 
 	public void setResourceGroupName(java.lang.String resourceGroupName) {

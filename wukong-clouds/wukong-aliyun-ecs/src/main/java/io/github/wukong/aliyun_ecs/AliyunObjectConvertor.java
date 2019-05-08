@@ -1,9 +1,9 @@
-package com.github.wukong.aliyunecs;
+package io.github.wukong.aliyun_ecs;
 
-import com.github.wukong.core.KindParameterAnalyzer;
-import com.github.wukong.core.ObjectConvertor;
+import io.github.wukong.core.KindParameterAnalyzer;
+import io.github.wukong.core.KindParser;
 
-public class AliyunObjectConvertor extends ObjectConvertor {
+public class AliyunObjectConvertor extends KindParser {
 
 	public AliyunObjectConvertor() {
 		super();

@@ -1,6 +1,6 @@
-package com.github.wukong.azurevm.models.virtualMachineImages;
+package io.github.wukong.azure_vm.models.virtualMachineImages;
 
-public class ListAsyncRequest implements com.github.wukong.azurevm.models.AbstractAzureRequest {
+public class ListAsyncRequest implements io.github.wukong.azure_vm.models.AbstractAzureRequest {
 	protected java.lang.String location;
 
 	protected java.lang.String publisherName;

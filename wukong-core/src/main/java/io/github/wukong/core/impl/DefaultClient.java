@@ -1,7 +1,7 @@
 /**
  * Copyright (2018-2019) Institute of Software, Chinese Academy of Sciences 
  */
-package com.github.wukong.core.impl;
+package io.github.wukong.core.impl;
 
 /**
  * @author wuheng@otcaix.iscas.ac.cn

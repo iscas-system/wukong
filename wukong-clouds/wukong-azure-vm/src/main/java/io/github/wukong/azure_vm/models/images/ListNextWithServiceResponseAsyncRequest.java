@@ -1,6 +1,6 @@
-package com.github.wukong.azurevm.models.images;
+package io.github.wukong.azure_vm.models.images;
 
-public class ListNextWithServiceResponseAsyncRequest implements com.github.wukong.azurevm.models.AbstractAzureRequest {
+public class ListNextWithServiceResponseAsyncRequest implements io.github.wukong.azure_vm.models.AbstractAzureRequest {
 	protected java.lang.String nextPageLink;
 
 	public void setNextPageLink(java.lang.String nextPageLink) {

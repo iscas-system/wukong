@@ -1,6 +1,6 @@
-package com.github.wukong.azurevm.models.galleries;
+package io.github.wukong.azure_vm.models.galleries;
 
-public class DeleteRequest implements com.github.wukong.azurevm.models.AbstractAzureRequest {
+public class DeleteRequest implements io.github.wukong.azure_vm.models.AbstractAzureRequest {
 	protected java.lang.String resourceGroupName;
 
 	protected java.lang.String galleryName;

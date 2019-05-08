@@ -1,10 +1,11 @@
 /**
  * Copyright (2018-2019) Institute of Software, Chinese Academy of Sciences
  */
-package com.github.wukong.aliyunecs;
+package io.github.wukong.aliyun_ecs;
 
 import com.aliyuncs.RpcAcsRequest;
-import com.github.wukong.core.anas.ReqAndRespPatternAnalyzer;
+
+import io.github.wukong.core.anas.ReqAndRespPatternAnalyzer;
 
 /**
  * https://help.aliyun.com/document_detail/25484.html

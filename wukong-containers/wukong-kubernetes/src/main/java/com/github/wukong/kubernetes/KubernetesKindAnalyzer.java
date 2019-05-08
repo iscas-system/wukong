@@ -5,12 +5,12 @@ package com.github.wukong.kubernetes;
 
 import java.lang.reflect.Method;
 
-import com.github.wukong.core.KindAnalyzer;
-import com.github.wukong.core.utils.ObjectUtils;
+import com.github.kubesys.tool.utils.ObjectUtils;
 
 import io.fabric8.kubernetes.client.DefaultKubernetesClient;
 import io.fabric8.kubernetes.client.dsl.MixedOperation;
 import io.fabric8.kubernetes.client.dsl.NonNamespaceOperation;
+import io.github.wukong.core.KindAnalyzer;
 
 /**
  * @author wuheng@iscas.ac.cn
@@ -63,7 +63,7 @@ public class KubernetesKindAnalyzer extends KindAnalyzer {
 	}
 
 	@Override
-	protected String toModel(Method method) {
+	protected String toParamDesc(Method method) {
 		return getFullname(method);
 	}
 

@@ -1,8 +1,10 @@
-package com.github.wukong.aliyunecs;
+package io.github.wukong.aliyun_ecs;
 
 import com.aliyuncs.ecs.model.v20140526.CreateVpcRequest;
 import com.aliyuncs.profile.DefaultProfile;
 import com.aliyuncs.profile.IClientProfile;
+
+import io.github.wukong.aliyun_ecs.WukongDefaultAcsClient;
 
 public class AliyunEcsDemoTest {
 

@@ -6,7 +6,8 @@ package com.github.wukong.awsecs;
 
 import com.amazonaws.AmazonWebServiceRequest;
 import com.amazonaws.services.ecs.AmazonECSClient;
-import com.github.wukong.core.anas.ParamAndRespPatternAnalyzer;
+
+import io.github.wukong.core.anas.ParamAndRespPatternAnalyzer;
 
 /**
  * @author wuheng@iscas.ac.cn

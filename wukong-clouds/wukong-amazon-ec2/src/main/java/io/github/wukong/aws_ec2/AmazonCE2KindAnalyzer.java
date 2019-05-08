@@ -1,12 +1,13 @@
 /**
  * Copyright (2018-2019) Institute of Software, Chinese Academy of Sciences
  */
-package com.github.wukong.awsec2;
+package io.github.wukong.aws_ec2;
 
 
 import com.amazonaws.AmazonWebServiceRequest;
 import com.amazonaws.services.ec2.AmazonEC2Client;
-import com.github.wukong.core.anas.ParamAndRespPatternAnalyzer;
+
+import io.github.wukong.core.anas.ParamAndRespPatternAnalyzer;
 
 /**
  * @author wuheng@iscas.ac.cn

@@ -3,10 +3,9 @@
  */
 package com.github.wukong.kubernetes;
 
-import com.github.wukong.core.KindAnalyzer;
-import com.github.wukong.core.KindParameterAnalyzer;
-
 import io.fabric8.kubernetes.api.model.apiextensions.JSONSchemaProps;
+import io.github.wukong.core.KindAnalyzer;
+import io.github.wukong.core.KindParameterAnalyzer;
 
 
 /**

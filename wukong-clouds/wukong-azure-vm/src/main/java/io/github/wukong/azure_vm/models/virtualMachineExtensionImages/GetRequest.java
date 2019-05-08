@@ -1,6 +1,6 @@
-package com.github.wukong.azurevm.models.virtualMachineExtensionImages;
+package io.github.wukong.azure_vm.models.virtualMachineExtensionImages;
 
-public class GetRequest implements com.github.wukong.azurevm.models.AbstractAzureRequest {
+public class GetRequest implements io.github.wukong.azure_vm.models.AbstractAzureRequest {
 	protected java.lang.String location;
 
 	protected java.lang.String publisherName;

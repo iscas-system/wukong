@@ -1,4 +1,4 @@
-package com.github.wukong.azurevm.models.snapshots;
+package io.github.wukong.azure_vm.models.snapshots;
 
-public class ListWithServiceResponseAsyncRequest implements com.github.wukong.azurevm.models.AbstractAzureRequest {
+public class ListWithServiceResponseAsyncRequest implements io.github.wukong.azure_vm.models.AbstractAzureRequest {
 }

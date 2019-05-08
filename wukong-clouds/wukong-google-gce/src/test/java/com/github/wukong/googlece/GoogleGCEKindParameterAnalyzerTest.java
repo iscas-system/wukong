@@ -1,6 +1,6 @@
 package com.github.wukong.googlece;
 
-import com.github.wukong.core.tools.ParametersTool;
+import com.github.kubesys.tool.generators.ParamterStyleGenerator;
 
 public class GoogleGCEKindParameterAnalyzerTest {
 
@@ -8,7 +8,7 @@ public class GoogleGCEKindParameterAnalyzerTest {
 		GoogleGCEKindAnalyzer ka = new GoogleGCEKindAnalyzer();
 		GoogleKindParameterAnalyzer mpa = new GoogleKindParameterAnalyzer(ka);
 		for (String kind : ka.getKinds()) {
-			ParametersTool.showModelParametersWithNetstedStyle(kind, mpa.getParameters(kind));
+			ParamterStyleGenerator.showModelParametersWithNetstedStyle(kind, mpa.getParameters(kind));
 		}
 	}
 

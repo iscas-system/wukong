@@ -1,6 +1,6 @@
-package com.github.wukong.azurevm.models.galleries;
+package io.github.wukong.azure_vm.models.galleries;
 
-public class ListByResourceGroupNextRequest implements com.github.wukong.azurevm.models.AbstractAzureRequest {
+public class ListByResourceGroupNextRequest implements io.github.wukong.azure_vm.models.AbstractAzureRequest {
 	protected java.lang.String nextPageLink;
 
 	public void setNextPageLink(java.lang.String nextPageLink) {

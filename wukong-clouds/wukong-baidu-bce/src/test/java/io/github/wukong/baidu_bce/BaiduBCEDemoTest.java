@@ -1,4 +1,4 @@
-package com.github.wukong.baidubce;
+package io.github.wukong.baidu_bce;
 
 import com.baidubce.services.bcc.BccClient;
 import com.baidubce.services.bcc.model.volume.AttachVolumeRequest;

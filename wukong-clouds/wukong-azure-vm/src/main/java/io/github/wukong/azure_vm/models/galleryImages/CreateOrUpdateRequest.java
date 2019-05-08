@@ -1,6 +1,6 @@
-package com.github.wukong.azurevm.models.galleryImages;
+package io.github.wukong.azure_vm.models.galleryImages;
 
-public class CreateOrUpdateRequest implements com.github.wukong.azurevm.models.AbstractAzureRequest {
+public class CreateOrUpdateRequest implements io.github.wukong.azure_vm.models.AbstractAzureRequest {
 	protected java.lang.String resourceGroupName;
 
 	protected java.lang.String galleryName;

@@ -3,9 +3,10 @@
  */
 package com.github.wukong.jdcloudvm;
 
-import com.github.wukong.core.anas.ParamAndRespPatternAnalyzer;
 import com.jdcloud.sdk.service.JdcloudRequest;
 import com.jdcloud.sdk.service.vm.client.VmClient;
+
+import io.github.wukong.core.anas.ParamAndRespPatternAnalyzer;
 
 /**
  * https://docs.jdcloud.com/cn/virtual-machines/api/overview

@@ -1,12 +1,12 @@
 /**
  * Copyright (2018-2019) Institute of Software, Chinese Academy of Sciences 
  */
-package com.github.wukong.core.impl;
+package io.github.wukong.core.impl;
 
 import java.lang.reflect.Method;
 
-import com.github.wukong.core.KindAnalyzer;
-import com.github.wukong.core.KindParameterAnalyzer;
+import io.github.wukong.core.KindAnalyzer;
+import io.github.wukong.core.KindParameterAnalyzer;
 
 /**
  * @author wuheng@otcaix.iscas.ac.cn

@@ -1,6 +1,6 @@
-package com.github.wukong.azurevm.models.virtualMachineRunCommands;
+package io.github.wukong.azure_vm.models.virtualMachineRunCommands;
 
-public class ListSinglePageAsyncRequest implements com.github.wukong.azurevm.models.AbstractAzureRequest {
+public class ListSinglePageAsyncRequest implements io.github.wukong.azure_vm.models.AbstractAzureRequest {
 	protected java.lang.String location;
 
 	public void setLocation(java.lang.String location) {

@@ -1,6 +1,6 @@
-package com.github.wukong.baidubce;
+package io.github.wukong.baidu_bce;
 
-import com.github.wukong.baidubce.BaiduBCEKindAnalyzer;
+import io.github.wukong.baidu_bce.BaiduBCEKindAnalyzer;
 
 public class BaiduBCEKindAnalyzerTest {
 

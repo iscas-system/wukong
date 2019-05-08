@@ -1,8 +1,8 @@
 package com.github.wukong.jdcloudvm;
 
-import com.github.wukong.core.KindParameterAnalyzer;
-import com.github.wukong.core.tools.ParametersTool;
-import com.github.wukong.jdcloudvm.JDcloudVMEKindAnalyzer;
+import com.github.kubesys.tool.generators.ParamterStyleGenerator;
+
+import io.github.wukong.core.KindParameterAnalyzer;
 
 public class JDcloudVMKindParameterAnalyzerTest {
 
@@ -10,7 +10,7 @@ public class JDcloudVMKindParameterAnalyzerTest {
 		JDcloudVMEKindAnalyzer ka = new JDcloudVMEKindAnalyzer();
 		KindParameterAnalyzer mpa = new KindParameterAnalyzer(ka);
 		for (String kind : ka.getKinds()) {
-			ParametersTool.showModelParametersWithNetstedStyle(kind, mpa.getParameters(kind));
+			ParamterStyleGenerator.showModelParametersWithNetstedStyle(kind, mpa.getParameters(kind));
 		}
 	}
 

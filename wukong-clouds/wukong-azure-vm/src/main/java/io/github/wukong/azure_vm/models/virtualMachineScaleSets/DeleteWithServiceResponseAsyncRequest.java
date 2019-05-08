@@ -1,6 +1,6 @@
-package com.github.wukong.azurevm.models.virtualMachineScaleSets;
+package io.github.wukong.azure_vm.models.virtualMachineScaleSets;
 
-public class DeleteWithServiceResponseAsyncRequest implements com.github.wukong.azurevm.models.AbstractAzureRequest {
+public class DeleteWithServiceResponseAsyncRequest implements io.github.wukong.azure_vm.models.AbstractAzureRequest {
 	protected java.lang.String resourceGroupName;
 
 	protected java.lang.String vmScaleSetName;

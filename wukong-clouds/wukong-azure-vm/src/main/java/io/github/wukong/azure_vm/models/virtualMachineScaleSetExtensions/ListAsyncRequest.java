@@ -1,6 +1,6 @@
-package com.github.wukong.azurevm.models.virtualMachineScaleSetExtensions;
+package io.github.wukong.azure_vm.models.virtualMachineScaleSetExtensions;
 
-public class ListAsyncRequest implements com.github.wukong.azurevm.models.AbstractAzureRequest {
+public class ListAsyncRequest implements io.github.wukong.azure_vm.models.AbstractAzureRequest {
 	protected java.lang.String resourceGroupName;
 
 	protected java.lang.String vmScaleSetName;

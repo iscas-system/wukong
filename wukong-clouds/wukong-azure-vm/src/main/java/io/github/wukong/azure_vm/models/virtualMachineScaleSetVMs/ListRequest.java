@@ -1,6 +1,6 @@
-package com.github.wukong.azurevm.models.virtualMachineScaleSetVMs;
+package io.github.wukong.azure_vm.models.virtualMachineScaleSetVMs;
 
-public class ListRequest implements com.github.wukong.azurevm.models.AbstractAzureRequest {
+public class ListRequest implements io.github.wukong.azure_vm.models.AbstractAzureRequest {
 	protected java.lang.String resourceGroupName;
 
 	protected java.lang.String virtualMachineScaleSetName;

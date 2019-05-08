@@ -1,4 +1,4 @@
-package com.github.wukong.azurevm;
+package com.github.wukong.azure_vm;
 
 import com.microsoft.azure.management.compute.implementation.ComputeManagementClientImpl;
 

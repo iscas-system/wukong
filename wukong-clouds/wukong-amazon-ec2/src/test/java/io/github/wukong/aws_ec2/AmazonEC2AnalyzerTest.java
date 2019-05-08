@@ -1,6 +1,6 @@
-package com.github.wukong.awsec2;
+package io.github.wukong.aws_ec2;
 
-import com.github.wukong.awsec2.AmazonCE2KindAnalyzer;
+import io.github.wukong.aws_ec2.AmazonCE2KindAnalyzer;
 
 public class AmazonEC2AnalyzerTest {
 

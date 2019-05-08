@@ -1,7 +1,7 @@
 /**
  * Copyright (2018-2019) Institute of Software, Chinese Academy of Sciences
  */
-package com.github.wukong.azurevm.models;
+package io.github.wukong.azure_vm.models;
 
 /**
  * @author wuheng@iscas.ac.cn

@@ -1,8 +1,8 @@
-package com.github.wukong.awsec2;
+package io.github.wukong.aws_ec2;
 
-import com.github.wukong.awsec2.AmazonCE2KindAnalyzer;
-import com.github.wukong.core.KindParameterAnalyzer;
-import com.github.wukong.core.tools.ParametersTool;
+import com.github.kubesys.tool.generators.ParamterStyleGenerator;
+
+import io.github.wukong.core.KindParameterAnalyzer;
 
 public class AmazonEC2KindParameterAnalyzerTest {
 
@@ -10,7 +10,7 @@ public class AmazonEC2KindParameterAnalyzerTest {
 		AmazonCE2KindAnalyzer ka = new AmazonCE2KindAnalyzer();
 		KindParameterAnalyzer mpa = new KindParameterAnalyzer(ka);
 		for (String kind : ka.getKinds()) {
-			ParametersTool.showModelParametersWithNetstedStyle(kind, mpa.getParameters(kind));
+			ParamterStyleGenerator.showModelParametersWithNetstedStyle(kind, mpa.getParameters(kind));
 		}
 	}
 

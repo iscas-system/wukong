@@ -24,9 +24,9 @@
 		</dependency>
 
 		<dependency>
-			<groupId>com.github.qcase</groupId>
+			<groupId>io.github.cloudplus</groupId>
 			<artifactId>wukong-core</artifactId>
-			<version>1.0.0-SNAPSHOT</version>
+			<version>2.0.0-SNAPSHOT</version>
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-ecs -->

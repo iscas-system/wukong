@@ -1,4 +1,4 @@
-package com.github.wukong.azurevm.models.resourceSkus;
+package io.github.wukong.azure_vm.models.resourceSkus;
 
-public class ListRequest implements com.github.wukong.azurevm.models.AbstractAzureRequest {
+public class ListRequest implements io.github.wukong.azure_vm.models.AbstractAzureRequest {
 }

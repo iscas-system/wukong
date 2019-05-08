@@ -1,11 +1,11 @@
 /**
  * Copyright (2018-2019) Institute of Software, Chinese Academy of Sciences 
  */
-package com.github.wukong.core.anas;
+package io.github.wukong.core.anas;
 
 import java.lang.reflect.Method;
 
-import com.github.wukong.core.KindAnalyzer;
+import io.github.wukong.core.KindAnalyzer;
 
 /**
  * @author wuheng@otcaix.iscas.ac.cn
@@ -56,7 +56,7 @@ public abstract class ReqAndRespPatternAnalyzer extends KindAnalyzer {
 	}
 
 	@Override
-	protected String toModel(Method method) {
+	protected String toParamDesc(Method method) {
 		return method.getReturnType().getName();
 	}
 	

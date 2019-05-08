@@ -1,4 +1,4 @@
-package com.github.wukong.azurevm.models.virtualMachineScaleSets;
+package io.github.wukong.azure_vm.models.virtualMachineScaleSets;
 
-public class ListSinglePageAsyncRequest implements com.github.wukong.azurevm.models.AbstractAzureRequest {
+public class ListSinglePageAsyncRequest implements io.github.wukong.azure_vm.models.AbstractAzureRequest {
 }

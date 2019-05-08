@@ -1,6 +1,8 @@
-package com.github.wukong.aliyunecs;
+package io.github.wukong.aliyun_ecs;
 
 import com.aliyuncs.ecs.model.v20140526.CreateImageRequest;
+
+import io.github.wukong.aliyun_ecs.AliyunObjectConvertor;
 
 public class AliyunObjectConvertorTest {
 
@@ -51,7 +53,7 @@ public class AliyunObjectConvertorTest {
 	
 	public static void main(String[] args) throws Exception {
 		AliyunObjectConvertor aoc = new AliyunObjectConvertor();
-		CreateImageRequest cir = (CreateImageRequest) aoc.toObject(JSON, "CreateImage");
+		CreateImageRequest cir = (CreateImageRequest) aoc.mapToKind(JSON, "CreateImage");
 		System.out.println(cir.getClientToken());
 		System.out.println(cir.getArchitecture());
 		System.out.println(cir.getOwnerId());

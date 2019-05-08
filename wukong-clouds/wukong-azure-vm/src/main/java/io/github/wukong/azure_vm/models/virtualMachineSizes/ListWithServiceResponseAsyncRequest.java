@@ -1,6 +1,6 @@
-package com.github.wukong.azurevm.models.virtualMachineSizes;
+package io.github.wukong.azure_vm.models.virtualMachineSizes;
 
-public class ListWithServiceResponseAsyncRequest implements com.github.wukong.azurevm.models.AbstractAzureRequest {
+public class ListWithServiceResponseAsyncRequest implements io.github.wukong.azure_vm.models.AbstractAzureRequest {
 	protected java.lang.String location;
 
 	public void setLocation(java.lang.String location) {

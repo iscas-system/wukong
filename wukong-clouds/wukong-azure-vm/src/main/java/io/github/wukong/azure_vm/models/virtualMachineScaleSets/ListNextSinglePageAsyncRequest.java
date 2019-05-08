@@ -1,6 +1,6 @@
-package com.github.wukong.azurevm.models.virtualMachineScaleSets;
+package io.github.wukong.azure_vm.models.virtualMachineScaleSets;
 
-public class ListNextSinglePageAsyncRequest implements com.github.wukong.azurevm.models.AbstractAzureRequest {
+public class ListNextSinglePageAsyncRequest implements io.github.wukong.azure_vm.models.AbstractAzureRequest {
 	protected java.lang.String nextPageLink;
 
 	public void setNextPageLink(java.lang.String nextPageLink) {

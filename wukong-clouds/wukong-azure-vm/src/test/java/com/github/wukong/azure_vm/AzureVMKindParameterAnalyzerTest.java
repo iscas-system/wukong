@@ -1,6 +1,9 @@
-package com.github.wukong.azurevm;
+package com.github.wukong.azure_vm;
 
-import com.github.wukong.core.tools.ParametersTool;
+import com.github.kubesys.tool.generators.ParamterStyleGenerator;
+
+import io.github.wukong.azure_vm.AzureVMKindAnalyzer;
+import io.github.wukong.azure_vm.AzureVMKindParameterAnalyzer;
 
 public class AzureVMKindParameterAnalyzerTest {
 
@@ -8,7 +11,7 @@ public class AzureVMKindParameterAnalyzerTest {
 		AzureVMKindAnalyzer ka = new AzureVMKindAnalyzer();
 		AzureVMKindParameterAnalyzer mpa = new AzureVMKindParameterAnalyzer(ka);
 		for (String kind : ka.getKinds()) {
-			ParametersTool.showModelParametersWithNetstedStyle(kind, mpa.getParameters(kind));
+			ParamterStyleGenerator.showModelParametersWithNetstedStyle(kind, mpa.getParameters(kind));
 		}
 	}
 

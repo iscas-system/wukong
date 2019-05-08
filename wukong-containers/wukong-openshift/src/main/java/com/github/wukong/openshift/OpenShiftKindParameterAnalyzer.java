@@ -3,8 +3,9 @@
  */
 package com.github.wukong.openshift;
 
-import com.github.wukong.core.KindAnalyzer;
 import com.github.wukong.kubernetes.KubernetesKindParameterAnalyzer;
+
+import io.github.wukong.core.KindAnalyzer;
 
 /**
  * @author wuheng@iscas.ac.cn

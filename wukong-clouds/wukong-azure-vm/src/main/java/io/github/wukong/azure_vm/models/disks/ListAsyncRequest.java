@@ -1,4 +1,4 @@
-package com.github.wukong.azurevm.models.disks;
+package io.github.wukong.azure_vm.models.disks;
 
-public class ListAsyncRequest implements com.github.wukong.azurevm.models.AbstractAzureRequest {
+public class ListAsyncRequest implements io.github.wukong.azure_vm.models.AbstractAzureRequest {
 }

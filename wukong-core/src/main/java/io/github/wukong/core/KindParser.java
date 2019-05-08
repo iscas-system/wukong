@@ -1,7 +1,7 @@
 /**
  * Copyright (2018-2019) Institute of Software, Chinese Academy of Sciences 
  */
-package com.github.wukong.core;
+package io.github.wukong.core;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
@@ -14,14 +14,14 @@ import java.util.Map;
 import java.util.Stack;
 
 import com.alibaba.fastjson.JSON;
-import com.github.wukong.core.utils.JavaUtils;
-import com.github.wukong.core.utils.ObjectUtils;
+import com.github.kubesys.tool.utils.JavaUtils;
+import com.github.kubesys.tool.utils.ObjectUtils;
 
 /**
  * @author wuheng@(otcaix.iscas.ac.cn)
  *
  */
-public abstract class ObjectConvertor {
+public abstract class KindParser {
 
 	/************************************************************************************
 	 *
@@ -42,7 +42,7 @@ public abstract class ObjectConvertor {
 	/**
 	*
 	*/
-	public final static String SET_METHOD = "set";
+	public final static String SET_METHOD  = "set";
 
 	/**
 	*
@@ -87,24 +87,24 @@ public abstract class ObjectConvertor {
 	/**
 	*
 	*/
-	public ObjectConvertor() {
+	public KindParser() {
 		this(JOINTWARE);
 	}
 
 	/**
 	 * @param objectRef ref
 	 */
-	public ObjectConvertor(String objectRef) {
+	public KindParser(String objectRef) {
 		super();
 		this.objectRef = objectRef;
 	}
 
 	
-	public Object toObject(String json, String kind) throws Exception {
+	public Object mapToKind(String json, String kind) throws Exception {
 		@SuppressWarnings("unchecked")
 		Map<String, Map<String, Object>> javaObject = (Map<String, Map<String, Object>>) 
 														JSON.parseObject(json, Map.class);
-		return toObject(javaObject, kind);
+		return mapToKind(javaObject, kind);
 	}
 	
 	/**
@@ -113,7 +113,7 @@ public abstract class ObjectConvertor {
 	 * @return Object
 	 * @throws Exception fail reason
 	 */
-	public Object toObject(Map<String, Map<String, Object>> inputValues, String kind) throws Exception {
+	public Object mapToKind(Map<String, Map<String, Object>> inputValues, String kind) throws Exception {
 
 		if (ObjectUtils.isNull(inputValues) || ObjectUtils.isNull(kind)) {
 			return null;
