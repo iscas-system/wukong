@@ -4,7 +4,7 @@
 
   We plan to use a heuristic-based method for generating adapters of service-based generic-API for hybrid clouds
   
-  - [Wukong@SOSE19](): feasibility analysis
+  - [Wukong@SOSE19](): [Heuristic-Based Framework for Generating Generic-API for JointCloud](https://ieeexplore.ieee.org/document/8705827)
 
 ##  2. Analysis
 
