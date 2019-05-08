@@ -3,13 +3,13 @@ package io.github.wukong.aliyun_ecs;
 import io.github.wukong.core.KindParameterAnalyzer;
 import io.github.wukong.core.KindParser;
 
-public class AliyunObjectConvertor extends KindParser {
+public class AliyunParserConvertor extends KindParser {
 
-	public AliyunObjectConvertor() {
+	public AliyunParserConvertor() {
 		super();
 	}
 
-	public AliyunObjectConvertor(String objectRef) {
+	public AliyunParserConvertor(String objectRef) {
 		super(objectRef);
 	}
 

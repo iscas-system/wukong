@@ -1,10 +1,18 @@
+/**
+ * Copyright (2019, ) Institute of Software, Chinese Academy of Sciences
+ */
 package io.github.wukong.aliyun_ecs;
 
 import com.aliyuncs.ecs.model.v20140526.CreateImageRequest;
 
-import io.github.wukong.aliyun_ecs.AliyunObjectConvertor;
+import io.github.wukong.aliyun_ecs.AliyunParserConvertor;
 
-public class AliyunObjectConvertorTest {
+/**
+ * @author wuheng@otcaix.iscas.ac.cn
+ * @since 2019/5/8
+ * 
+ */
+public class AliyunEcsParserTest {
 
 	
 	static final String JSON = "{\n" + 
@@ -52,7 +60,7 @@ public class AliyunObjectConvertorTest {
 			"}";
 	
 	public static void main(String[] args) throws Exception {
-		AliyunObjectConvertor aoc = new AliyunObjectConvertor();
+		AliyunParserConvertor aoc = new AliyunParserConvertor();
 		CreateImageRequest cir = (CreateImageRequest) aoc.mapToKind(JSON, "CreateImage");
 		System.out.println(cir.getClientToken());
 		System.out.println(cir.getArchitecture());

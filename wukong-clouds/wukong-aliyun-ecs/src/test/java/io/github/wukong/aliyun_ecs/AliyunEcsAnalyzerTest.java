@@ -1,7 +1,15 @@
+/**
+ * Copyright (2019, ) Institute of Software, Chinese Academy of Sciences
+ */
 package io.github.wukong.aliyun_ecs;
 
 import io.github.wukong.aliyun_ecs.AliyunEcsKindAnalyzer;
 
+/**
+ * @author wuheng@otcaix.iscas.ac.cn
+ * @since 2019/5/8
+ * 
+ */
 public class AliyunEcsAnalyzerTest {
 
 	public static void main(String[] args) {

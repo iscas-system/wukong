@@ -33,14 +33,14 @@
 		<dependency>
 			<groupId>com.aliyun</groupId>
 			<artifactId>aliyun-java-sdk-core</artifactId>
-			<version>4.2.5</version>
+			<version>4.4.1</version>
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/com.aliyun/aliyun-java-sdk-ecs -->
 		<dependency>
 			<groupId>com.aliyun</groupId>
 			<artifactId>aliyun-java-sdk-ecs</artifactId>
-			<version>4.15.0</version>
+			<version>4.16.7</version>
 		</dependency>
 
 	</dependencies>
