@@ -15,41 +15,19 @@ Then, we give the parameters of each system in detail.
 
 TABLE I: The list of supported System
 
-|  Country  |   Type    |   Name    |  Offical  |  Version  |
-| :-------: | :-------: | :-------: | :-------: | :-------: |
-|  America  |     VM    |   Amazon  |    Yes    |   -                             |
-|  America  |     VM    |   Azure   |    Yes    |  -                              |
-|  America  |     VM    |   Google  |    Yes    |  -                              |
-|  China    |     VM    |   Baidu   |    Yes    |   -                             |
-|  China    |     VM    |   Aliyun  |    Yes    |  aliyun-java-sdk-ecs(4.16.7)    |
-|  China    |     VM    |   Tencent |    Yes    |   -                             |
-|  China    |     VM    |   JD      |    Yes    |   -                             |
-|  China    |     VM    | Qingcloud |    Yes    |    qingcloud-sdk-java(1.1.0)    |
+|  Country  |   Type    |   Name      |  Offical  |  Version                                           |
+| :-------: | :-------: | :-------:   | :-------: | :-------:                                          |
+|  USA      |     VM    |   Amazon    |    Yes    |   aws-java-sdk-ec2(1.11.656)                       |
+|  USA      |     VM    |   Azure     |    Yes    |   azure(1.27.0)                                    |
+|  USA      |     VM    |   Google    |    Yes    |   google-api-services-compute(v1-rev204-1.25.0）   |
+|  China    |     VM    |   Baidu     |    Yes    |   bce-java-sdk(0.10.78)                            |
+|  China    |     VM    |   Aliyun    |    Yes    |   aliyun-java-sdk-ecs(4.17.5)                      |
+|  China    |     VM    |   Tencent   |    Yes    |   tencentcloud-sdk-java(3.0.98)                    |
+|  China    |     VM    |   JD        |    Yes    |   vm(1.2.2)                                        |
+|  China    |     VM    |   Qingcloud |    Yes    |   qingcloud-sdk-java(1.1.0)                        |
 
 
 **Node that the value of "No" in column "Support" just means the related APIs
 of target system does not satisfy our assumptions, we should reengineer the APIs**
 
 
-### Clouds
-1. [Amazon EC2](docs/AmazonEc2-Analysis.md)
-2. [Azure VM](docs/AzureVM-Analysis.md)
-3. [Google GCE](docs/GoogleCCE-Analysis.md)
-4. [Aliyun ECS](docs/AliyunECS-Analysis.md)
-5. [Tencent VM](docs/TencentVM-Analysis.md)
-6. [Baidu BCE](docs/BaiduBCE-Analysis.md)
-7. [JDCloud VM](docs/JDCloudVM-Analysis.md)
-8. [Qingcloud VM](docs/QingcloudVM-Analysis.md)
-
-
-##  3. JSON 
-
-### VM
-1. [Amazon EC2](docs/AmazonEc2-json.md)
-2. [Azure VM](docs/AzureVM-json.md)
-3. [Google GCE](docs/GoogleCCE-json.md)
-4. [Aliyun ECS](docs/AliyunECS-json.md)
-5. [Tencent VM](docs/TencentVM-json.md)
-6. [Baidu BCE](docs/BaiduBCE-json.md)
-7. [JDCloud VM](docs/JDCloudVM-json.md)
-8. [Qingcloud VM](docs/QingcloudVM-json.md)
