@@ -1,6 +1,6 @@
 package com.github.wukong.googlece;
 
-import com.github.kubesys.tool.generators.ParamterStyleGenerator;
+import io.github.wukong.core.gens.ParamterStyleGenerator;
 
 public class GoogleGCEKindParameterAnalyzerTest {
 

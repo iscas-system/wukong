@@ -3,30 +3,24 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.github.qcase</groupId>
+	<groupId>io.github.cloudplus</groupId>
 	<artifactId>wukong-docker</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>3.0.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>wukong-docker</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<wukong.version>3.0.0-SNAPSHOT</wukong.version>
 	</properties>
 
 	<dependencies>
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>3.8.1</version>
-			<scope>test</scope>
-		</dependency>
 
 		<dependency>
 			<groupId>io.github.cloudplus</groupId>
 			<artifactId>wukong-core</artifactId>
-			<version>2.0.0-SNAPSHOT</version>
+			<version>${wukong.version}</version>
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/com.github.docker-java/docker-java -->
@@ -35,7 +29,6 @@
 			<artifactId>docker-java</artifactId>
 			<version>3.1.0-rc-7</version>
 		</dependency>
-
 
 	</dependencies>
 </project>

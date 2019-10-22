@@ -5,35 +5,29 @@
 
 	<groupId>io.github.cloudplus</groupId>
 	<artifactId>wukong-qingcloud-vm</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>3.0.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>wukong-qingcloud-vm</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<wukong.version>3.0.0-SNAPSHOT</wukong.version>
+		<qingcloud.vm.version>1.1.0</qingcloud.vm.version>
 	</properties>
 
 	<dependencies>
 		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>3.8.1</version>
-			<scope>test</scope>
-		</dependency>
-
-		<dependency>
 			<groupId>io.github.cloudplus</groupId>
 			<artifactId>wukong-core</artifactId>
-			<version>2.0.0-SNAPSHOT</version>
+			<version>${wukong.version}</version>
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/com.qingcloud/qingcloud-sdk-java -->
 		<dependency>
 			<groupId>com.qingcloud</groupId>
 			<artifactId>qingcloud-sdk-java</artifactId>
-			<version>1.1.0</version>
+			<version>${qingcloud.vm.version}</version>
 		</dependency>
 
 

@@ -3,9 +3,8 @@
  */
 package io.github.wukong.qingcloud_vm;
 
-import com.github.kubesys.tool.generators.ParamterStyleGenerator;
-
 import io.github.wukong.core.KindParameterAnalyzer;
+import io.github.wukong.core.gens.ParamterStyleGenerator;
 
 /**
  * @author wuheng@otcaix.iscas.ac.cn

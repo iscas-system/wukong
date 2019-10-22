@@ -5,42 +5,37 @@
 
 	<groupId>io.github.cloudplus</groupId>
 	<artifactId>wukong-jdcloud-vm</artifactId>
-	<version>2.0.0-SNAPSHOT</version>
+	<version>3.0.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>wukong-jdcloud-vm</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<wukong.version>3.0.0-SNAPSHOT</wukong.version>
+		<jdcoud.core.version>2.2.2</jdcoud.core.version>
+		<jdcloud.vm.version>1.2.2</jdcloud.vm.version>
 	</properties>
 
 	<dependencies>
 		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>3.8.1</version>
-			<scope>test</scope>
-		</dependency>
-
-		<dependency>
 			<groupId>io.github.cloudplus</groupId>
 			<artifactId>wukong-core</artifactId>
-			<version>2.0.0-SNAPSHOT</version>
+			<version>${wukong.version}</version>
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/com.jdcloud.sdk/vm -->
 		<dependency>
 			<groupId>com.jdcloud.sdk</groupId>
 			<artifactId>vm</artifactId>
-			<version>1.0.8</version>
+			<version>${jdcloud.vm.version}</version>
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/com.jdcloud.sdk/core -->
 		<dependency>
 			<groupId>com.jdcloud.sdk</groupId>
 			<artifactId>core</artifactId>
-			<version>2.0.3</version>
+			<version>${jdcoud.core.version}</version>
 		</dependency>
 	</dependencies>
 

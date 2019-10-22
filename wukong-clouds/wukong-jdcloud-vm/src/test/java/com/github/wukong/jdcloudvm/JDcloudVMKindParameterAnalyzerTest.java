@@ -1,8 +1,7 @@
 package com.github.wukong.jdcloudvm;
 
-import com.github.kubesys.tool.generators.ParamterStyleGenerator;
-
 import io.github.wukong.core.KindParameterAnalyzer;
+import io.github.wukong.core.gens.ParamterStyleGenerator;
 
 public class JDcloudVMKindParameterAnalyzerTest {
 

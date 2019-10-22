@@ -9,6 +9,7 @@ import io.github.wukong.core.KindAnalyzer;
 
 /**
  * @author wuheng@otcaix.iscas.ac.cn
+ * 
  * @since  2019.1
  */
 public class DefaultKindAnalyzer extends KindAnalyzer {

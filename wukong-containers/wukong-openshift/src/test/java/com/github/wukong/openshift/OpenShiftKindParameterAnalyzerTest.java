@@ -1,6 +1,6 @@
 package com.github.wukong.openshift;
 
-import com.github.kubesys.tool.generators.ParamterStyleGenerator;
+import io.github.wukong.core.gens.ParamterStyleGenerator;
 
 public class OpenShiftKindParameterAnalyzerTest {
 

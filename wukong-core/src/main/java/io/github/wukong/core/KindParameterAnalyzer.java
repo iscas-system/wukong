@@ -10,9 +10,8 @@ import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Set;
 
-import com.github.kubesys.tool.utils.JavaUtils;
-import com.github.kubesys.tool.utils.ObjectUtils;
-
+import io.github.wukong.core.utils.JavaUtils;
+import io.github.wukong.core.utils.ObjectUtils;
 
 
 /**
@@ -133,7 +132,7 @@ public class KindParameterAnalyzer {
 	 * @return          true of if this parameter need to be reflected
 	 */
 	protected boolean canReflect(Method method) {
-		return ObjectUtils.isNull(method) ? false
+		return ObjectUtils.isNullObject(method) ? false
 				: ((method.getName().startsWith(METHOD_STARTSWITH_SET) //  startswith set
 						|| (method.getName().startsWith(METHOD_STARTSWITH_ADD))
 						|| (method.getName().startsWith(METHOD_STARTSWITH_WITH))) // startswith add

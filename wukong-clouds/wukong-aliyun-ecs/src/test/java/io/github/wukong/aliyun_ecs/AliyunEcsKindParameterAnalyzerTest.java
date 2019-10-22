@@ -3,9 +3,9 @@
  */
 package io.github.wukong.aliyun_ecs;
 
-import com.github.kubesys.tool.generators.ParamterStyleGenerator;
 
 import io.github.wukong.core.KindParameterAnalyzer;
+import io.github.wukong.core.gens.ParamterStyleGenerator;
 
 /**
  * @author wuheng@otcaix.iscas.ac.cn

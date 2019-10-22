@@ -8,7 +8,6 @@ import java.lang.reflect.Method;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.github.kubesys.tool.generators.CodesTool;
 import com.github.wukong.googlece.models.AbstractGoogleRequest;
 import com.google.api.client.http.HttpRequestInitializer;
 import com.google.api.client.http.HttpTransport;
@@ -1501,42 +1500,6 @@ public class WukongGoogleGCEClient extends Compute {
 
 	public com.google.api.services.compute.Compute.Zones.List listZones(com.github.wukong.googlece.models.zones.ListRequest request) throws Exception {
 		return this.zones().list(request.getProject());
-	}
-
-	public static void main(String[] args) throws Exception {
-		Class<?> clazz = Class.forName(WukongGoogleGCEClient.class.getName());
-		for (Method method : clazz.getMethods()) {
-				String targetPkg = method.getReturnType().getName();
-				String pkgName = Compute.class.getPackage().getName();
-				if (targetPkg.startsWith(pkgName)
-						&& (method.getParameterCount() == 0)) {
-					Class<?> objcls = method.getReturnType();
-					Map<String, Method> map = new HashMap<String, Method>();
-					for (Method om : objcls.getMethods()) {
-						if (om.getReturnType().getSuperclass() != null 
-								&& om.getReturnType().getSuperclass().getName()
-								.startsWith(ComputeRequest.class.getName())
-								|| om.getReturnType().getSimpleName().startsWith("List")) {
-							if (!map.containsKey(om.getName())) {
-								map.put(om.getName(), om);
-							} else {
-								Method m = map.get(om.getName());
-								if (om.getParameterCount() < m.getParameterCount()) {
-									map.put(om.getName(), om);
-								}
-							}
-						}
-					}
-					for (Method thisMethod : map.values()) {
-						File file = new File(CodesTool.getBase(AbstractGoogleRequest.class), method.getName());
-						if (!file.exists()) {
-							file.mkdirs();
-						}
-						CodesTool.generateRequest(file, AbstractGoogleRequest.class, method, thisMethod, true, 2);
-					}
-				}
-				
-		}
 	}
 
 }

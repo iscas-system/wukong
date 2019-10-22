@@ -5,35 +5,37 @@
 
 	<groupId>io.github.cloudplus</groupId>
 	<artifactId>wukong-google-gce</artifactId>
-	<version>2.0.0-SNAPSHOT</version>
+	<version>3.0.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>wukong-amazon-google-gce</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<wukong.version>3.0.0-SNAPSHOT</wukong.version>
+		<spring.core.version>5.2.0.RELEASE</spring.core.version>
+		<google.vm.version>v1-rev214-1.25.0</google.vm.version>
 	</properties>
 
 	<dependencies>
 		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<version>3.8.1</version>
-			<scope>test</scope>
-		</dependency>
-
-		<dependency>
 			<groupId>io.github.cloudplus</groupId>
 			<artifactId>wukong-core</artifactId>
-			<version>2.0.0-SNAPSHOT</version>
+			<version>${wukong.version}</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.springframework/spring-core -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-core</artifactId>
+			<version>${spring.core.version}</version>
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/com.google.apis/google-api-services-compute -->
 		<dependency>
 			<groupId>com.google.apis</groupId>
 			<artifactId>google-api-services-compute</artifactId>
-			<version>v1-rev201-1.24.1</version>
+			<version>${google.vm.version}</version>
 		</dependency>
 	</dependencies>
 

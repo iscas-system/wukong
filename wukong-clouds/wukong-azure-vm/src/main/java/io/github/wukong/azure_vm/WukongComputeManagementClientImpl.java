@@ -3,17 +3,9 @@
  */
 package io.github.wukong.azure_vm;
 
-import java.io.File;
-import java.lang.reflect.Method;
-import java.util.HashMap;
-import java.util.Map;
-
-import com.github.kubesys.tool.generators.CodesTool;
 import com.microsoft.azure.management.compute.implementation.ComputeManagementClientImpl;
 import com.microsoft.rest.RestClient;
 import com.microsoft.rest.credentials.ServiceClientCredentials;
-
-import io.github.wukong.azure_vm.models.AbstractAzureRequest;
 
 /**
  * @author wuheng@iscas.ac.cn
@@ -99,10 +91,6 @@ public class WukongComputeManagementClientImpl extends ComputeManagementClientIm
 
 	public rx.Observable<com.microsoft.rest.ServiceResponse<java.util.List<com.microsoft.azure.management.compute.implementation.VirtualMachineSizeInner>>> listAvailableSizesWithServiceResponseAsyncAvailabilitySets(io.github.wukong.azure_vm.models.availabilitySets.ListAvailableSizesWithServiceResponseAsyncRequest request) {
 		return this.availabilitySets().listAvailableSizesWithServiceResponseAsync(request.getResourceGroupName(),request.getAvailabilitySetName());
-	}
-
-	public rx.Observable<com.microsoft.rest.ServiceResponse<java.util.List<com.microsoft.azure.management.compute.implementation.AvailabilitySetInner>>> listByResourceGroupWithServiceResponseAsyncAvailabilitySets(io.github.wukong.azure_vm.models.availabilitySets.ListByResourceGroupWithServiceResponseAsyncRequest request) {
-		return this.availabilitySets().listByResourceGroupWithServiceResponseAsync(request.getResourceGroupName());
 	}
 
 	public com.microsoft.azure.management.compute.implementation.AvailabilitySetInner updateAvailabilitySets(io.github.wukong.azure_vm.models.availabilitySets.UpdateRequest request) {
@@ -1233,35 +1221,4 @@ public class WukongComputeManagementClientImpl extends ComputeManagementClientIm
 		return this.galleryImageVersions().listByGalleryImageSinglePageAsync(request.getResourceGroupName(),request.getGalleryName(),request.getGalleryImageName());
 	}
 	
-	public static void main(String[] args) throws Exception {
-		Class<?> clazz = Class.forName(WukongComputeManagementClientImpl.class.getName());
-		for (Method method : clazz.getMethods()) {
-			if (method.getReturnType().getName().endsWith("Inner")) {
-				Class<?> objcls = method.getReturnType();
-				Map<String, Method> map = new HashMap<String, Method>();
-				for (Method om : objcls.getMethods()) {
-					if (om.getName().startsWith("list") || om.getName().startsWith("delete")
-							|| om.getReturnType().getName().endsWith("Inner")) {
-						if (!map.containsKey(om.getName())) {
-							map.put(om.getName(), om);
-						} else {
-							Method m = map.get(om.getName());
-							if (om.getParameterCount() < m.getParameterCount()) {
-								map.put(om.getName(), om);
-							}
-						}
-					}
-				
-				}
-				for (Method thisMethod : map.values()) {
-					File file = new File(CodesTool.getBase(AbstractAzureRequest.class), method.getName());
-					if (!file.exists()) {
-						file.mkdirs();
-					}
-					CodesTool.generateRequest(file, AbstractAzureRequest.class, method, thisMethod, false, -1);
-				}
-			}
-		}
-	}
-
 }

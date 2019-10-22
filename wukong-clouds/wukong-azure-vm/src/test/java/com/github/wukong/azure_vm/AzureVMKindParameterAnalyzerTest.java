@@ -1,9 +1,8 @@
 package com.github.wukong.azure_vm;
 
-import com.github.kubesys.tool.generators.ParamterStyleGenerator;
-
 import io.github.wukong.azure_vm.AzureVMKindAnalyzer;
 import io.github.wukong.azure_vm.AzureVMKindParameterAnalyzer;
+import io.github.wukong.core.gens.ParamterStyleGenerator;
 
 public class AzureVMKindParameterAnalyzerTest {
 

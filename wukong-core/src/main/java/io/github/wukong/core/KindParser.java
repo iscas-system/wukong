@@ -14,8 +14,9 @@ import java.util.Map;
 import java.util.Stack;
 
 import com.alibaba.fastjson.JSON;
-import com.github.kubesys.tool.utils.JavaUtils;
-import com.github.kubesys.tool.utils.ObjectUtils;
+
+import io.github.wukong.core.utils.JavaUtils;
+import io.github.wukong.core.utils.ObjectUtils;
 
 /**
  * @author wuheng@(otcaix.iscas.ac.cn)
@@ -115,7 +116,7 @@ public abstract class KindParser {
 	 */
 	public Object mapToKind(Map<String, Map<String, Object>> inputValues, String kind) throws Exception {
 
-		if (ObjectUtils.isNull(inputValues) || ObjectUtils.isNull(kind)) {
+		if (ObjectUtils.isNullObject(inputValues) || ObjectUtils.isNullObject(kind)) {
 			return null;
 		}
 

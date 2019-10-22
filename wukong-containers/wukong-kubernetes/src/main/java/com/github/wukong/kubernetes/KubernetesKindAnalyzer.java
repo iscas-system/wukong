@@ -5,12 +5,11 @@ package com.github.wukong.kubernetes;
 
 import java.lang.reflect.Method;
 
-import com.github.kubesys.tool.utils.ObjectUtils;
-
 import io.fabric8.kubernetes.client.DefaultKubernetesClient;
 import io.fabric8.kubernetes.client.dsl.MixedOperation;
 import io.fabric8.kubernetes.client.dsl.NonNamespaceOperation;
 import io.github.wukong.core.KindAnalyzer;
+import io.github.wukong.core.utils.ObjectUtils;
 
 /**
  * @author wuheng@iscas.ac.cn
@@ -40,7 +39,7 @@ public class KubernetesKindAnalyzer extends KindAnalyzer {
 	 */
 	@Override
 	protected boolean isKind(Method method) {
-		return ObjectUtils.isNull(method) ? false
+		return ObjectUtils.isNullObject(method) ? false
 				: ((KIND_MIXED_TAG.equals(method.getReturnType().getName())
 							|| KIND_BASIC_TAG.equals(method.getReturnType().getName())) 
 						&& (method.getParameterCount() == 0)
@@ -49,7 +48,7 @@ public class KubernetesKindAnalyzer extends KindAnalyzer {
 
 	@Override
 	protected boolean isKindGroup(Method method) {
-		return ObjectUtils.isNull(method) ? false
+		return ObjectUtils.isNullObject(method) ? false
 				: ((method.getReturnType().getName().endsWith(KIND_GROUP_TAG))
 						&& (!method.isAnnotationPresent(Deprecated.class)));
 	}

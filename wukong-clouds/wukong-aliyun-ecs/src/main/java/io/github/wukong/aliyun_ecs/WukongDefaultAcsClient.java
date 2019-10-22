@@ -9,7 +9,8 @@ import com.aliyuncs.auth.AlibabaCloudCredentials;
 import com.aliyuncs.auth.AlibabaCloudCredentialsProvider;
 import com.aliyuncs.ecs.model.v20140526.CreateVpcRequest;
 import com.aliyuncs.profile.IClientProfile;
-import com.github.kubesys.tool.searchers.ClassSearcher;
+
+import io.github.wukong.core.anas.ClassesInPackageAnalyzer;
 
 /**
  * @author wuheng@iscas.ac.cn
@@ -531,10 +532,6 @@ public class WukongDefaultAcsClient extends DefaultAcsClient {
 		return new com.aliyuncs.ecs.model.v20140526.ModifyInstanceChargeTypeRequest();
 	}
 
-	public com.aliyuncs.ecs.model.v20140526.DescribeInstancePhysicalAttributeRequest describeInstancePhysicalAttributeRequest() {
-		return new com.aliyuncs.ecs.model.v20140526.DescribeInstancePhysicalAttributeRequest();
-	}
-
 	public com.aliyuncs.ecs.model.v20140526.DescribeUserDataRequest describeUserDataRequest() {
 		return new com.aliyuncs.ecs.model.v20140526.DescribeUserDataRequest();
 	}
@@ -1004,7 +1001,7 @@ public class WukongDefaultAcsClient extends DefaultAcsClient {
 	}
 	
 	public static void main(String[] args) throws Exception {
-		for (String classname : ClassSearcher.getAllClasses(PACKAGE, false)) {
+		for (String classname : ClassesInPackageAnalyzer.getAllClasses(PACKAGE, false)) {
 			String simplename = classname.substring(classname.lastIndexOf(".") + 1);
 			String methodname = simplename.substring(0, 1).toLowerCase() + simplename.substring(1);
 			System.out.println("\tpublic " + classname + " " + methodname + "() {");
