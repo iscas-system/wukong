@@ -18,7 +18,7 @@ TABLE I: The list of supported System
 |  Country  |   Type    |   Name    |  Offical  |  Version  |      Document       |
 | :-------: | :-------: | :-------: | :-------: | :-------: |      :-------:      |
 |  USA      |     VM    |   Amazon    |    Yes    |   aws-java-sdk-ec2(1.11.668)                       | [AWS](https://docs.aws.amazon.com/zh_cn/AmazonECS/latest/developerguide/logging-using-cloudtrail.html) |
-|  USA      |     VM    |   Azure     |    Yes    |   azure(1.27.0)                                    |  |
+|  USA      |     VM    |   Azure     |    Yes    |   azure(1.28.0)                                    |  [Azure](https://docs.azure.cn/zh-cn/virtual-machines/linux/quick-create-portal?toc=%2Fvirtual-machines%2Flinux%2Ftoc.json)|
 |  USA      |     VM    |   Google    |    Yes    |   google-api-services-compute(v1-rev204-1.25.0）   |  |
 |  China    |     VM    |   Baidu     |    Yes    |   bce-java-sdk(0.10.78)                            |  |
 |  China    |     VM    |   Aliyun    |    Yes    |   aliyun-java-sdk-ecs(4.17.8)                      | [aliyun](https://help.aliyun.com/document_detail/25484.html) |
