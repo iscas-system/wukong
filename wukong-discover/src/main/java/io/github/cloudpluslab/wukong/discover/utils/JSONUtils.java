@@ -119,7 +119,11 @@ public class JSONUtils {
 				}
 
 			} else {
-				obj.put(key, objInfo(Class.forName(type)));
+				try {
+					obj.put(key, objInfo(Class.forName(type)));
+				} catch (Exception ex) {
+					// ignore here
+				}
 			}
 		}
 

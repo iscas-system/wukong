@@ -7,12 +7,11 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
-import java.util.ArrayList;
+import java.lang.reflect.Parameter;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
@@ -28,10 +27,12 @@ import io.github.cloudpluslab.wukong.discover.utils.JSONUtils;
  * @since 2019.12.10
  */
 public class Main {
+	
 	public final static String JDKINFO_FILE = "conf/jdkinfo.conf";
 
 	public final static StringBuffer sb = new StringBuffer();
 	
+	@SuppressWarnings("unchecked")
 	public static void main(String[] args) throws Exception {
 		
 		JDKInfo info = JSON.parseObject(new FileInputStream(new File(JDKINFO_FILE)), JDKInfo.class);
@@ -42,22 +43,22 @@ public class Main {
 		sb.append(JSONUtils.metaInfo(info.getKind()));
 		sb.append("\n");
 		
-		Set<Class<?>> thisCls = null;
-		
-		for (Method method : filter(clientClass.getMethods())) {
-
-			if (isGenericStyle(method)) {
-				thisCls = genericStyleDiscover(method);
-			} else {
-				continue;
-			}
-
+		Set<Class<?>> thisCls = new HashSet<Class<?>>();
+	
+		String superclassBySearch    = search(clientClass.getDeclaredMethods());
+		String superclassByFrequency = frequency(clientClass.getDeclaredMethods());
+		if (superclassBySearch != null) {
+			String thispkg = getPackage(superclassBySearch);
+			thisCls.addAll(searchingSuperclass(superclassBySearch, ClassScan.scan(thispkg)));
+		} else if (superclassByFrequency != null) {
+			thisCls.addAll(frequentSuperclass(superclassByFrequency, clientClass.getDeclaredMethods()));
 		}
 		
 		for (Class<?> cls : thisCls) {
 			if (Modifier.isAbstract(cls.getModifiers())) {
 				continue;
 			}
+			
 			sb.append("---\n");
 			sb.append(JSONUtils.objInfo(info.getKind(), cls));
 			sb.append("\n");
@@ -66,30 +67,31 @@ public class Main {
 		System.out.println(sb);
 	}
 
-	private static List<Method> filter(Method[] methods) {
-		List<Method> list = new ArrayList<Method>();
-		for (Method method : methods) {
-			if (method.getParameterCount() != 1) {
-				continue;
-			} 
-			list.add(method);
-		}
-		return list;
-	}
-	
 	/*************************************************************
 	 * 
 	 * Discover with Generic Style
 	 * 
 	 *************************************************************/
-	@SuppressWarnings("unchecked")
-	private static Set<Class<?>> genericStyleDiscover(Method method) {
-		String superclass = genericStyleSuperClass(method.getGenericParameterTypes()[0].getTypeName());
-		String thispkg = genericStylePackage(superclass);
-		return genericStyleExtra(superclass, ClassScan.scan(thispkg));
-	}
 
-	private static Set<Class<?>> genericStyleExtra(String superclass, Set<Class<?>> allCls) {
+	private static Set<Class<?>> frequentSuperclass(String superclass, Method[] methods) {
+		Set<Class<?>> thisCls = new HashSet<Class<?>>();
+		
+		for (Method method : methods) {
+			if (method.getParameterCount() != 1) {
+				continue;
+			}
+			
+			Class<?> thisclass = method.getParameterTypes()[0];
+			String scname = thisclass.getSuperclass().getName();
+			if (superclass.trim().equals(scname)) {
+				thisCls.add(thisclass);
+			}
+		}
+
+		return thisCls;
+	}
+	
+	private static Set<Class<?>> searchingSuperclass(String superclass, Set<Class<?>> allCls) {
 		Set<Class<?>> thisCls = new HashSet<Class<?>>();
 		for (Class<?> cls : allCls) {
 			if (!cls.isInterface() && superclass.equals(cls.getSuperclass().getName())) {
@@ -104,36 +106,43 @@ public class Main {
 
 		for (Class<?> cls : cloneCls) {
 			if (Modifier.isAbstract(cls.getModifiers())) {
-				thisCls.addAll(genericStyleExtra(cls.getName(), allCls));
+				thisCls.addAll(searchingSuperclass(cls.getName(), allCls));
 			}
 		}
 
 		return thisCls;
 	}
 
-	private static boolean isGenericStyle(Method method) {
-		String ret = method.getGenericReturnType().getTypeName();
-		String pam = method.getGenericParameterTypes()[0].getTypeName();
-		return pam.contains("<" + ret + ">");
-	}
-
-	private static String genericStyleSuperClass(String name) {
-		int pos = name.indexOf("<");
-		return name.substring(0, pos);
-	}
-
-	private static String genericStylePackage(String name) {
+	private static String getPackage(String name) {
 		int pos = name.lastIndexOf(".");
 		return name.substring(0, pos);
 	}
 
 	/*************************************************************
 	 * 
-	 * statistics based methods
+	 * get supperclasses methods
 	 * 
 	 *************************************************************/
 	
-	protected String frequent(Method[] methods) {
+	protected static String search(Method[] methods) {
+		for (Method method : methods) {
+			if (method.getParameterCount() != 1) {
+				continue;
+			}
+			
+			String ret = method.getGenericReturnType().getTypeName();
+			String pam = method.getGenericParameterTypes()[0].getTypeName();
+			
+			if(pam.contains("<" + ret + ">")) {
+				String name = method.getGenericParameterTypes()[0].getTypeName();
+				int pos = name.indexOf("<");
+				return name.substring(0, pos);
+			}
+		}
+		return null;
+	}
+	
+	protected static String frequency(Method[] methods) {
 		HashMap<String, Integer> temp = new HashMap<String, Integer>();
 		for (Method method : methods) {
 			if(method != null && !method.isAnnotationPresent(Deprecated.class) && method.getParameterCount() == 1) {
@@ -170,7 +179,7 @@ public class Main {
 		for (Map.Entry<String, Integer> entry : temp.entrySet()) {
 			//System.out.println("entry.getKey()"+entry.getKey()+"entry.getValue()"+entry.getValue());
 			if(obj[obj.length - 1] == entry.getValue()){
-				return entry.getKey();
+				return entry.getKey().substring(5);
 			}
 		}
 		return null;

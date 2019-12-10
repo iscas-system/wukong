@@ -73,25 +73,26 @@
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-ecs -->
-		<dependency>
+	<!-- 	<dependency>
 			<groupId>com.amazonaws</groupId>
 			<artifactId>aws-java-sdk-ecs</artifactId>
 			<version>1.11.688</version>
-		</dependency>
-		
-		<!-- https://mvnrepository.com/artifact/com.aliyun/aliyun-java-sdk-core -->
-<dependency>
-	<groupId>com.aliyun</groupId>
-	<artifactId>aliyun-java-sdk-core</artifactId>
-	<version>4.4.9</version>
-</dependency>
+		</dependency> -->
 
-<!-- https://mvnrepository.com/artifact/com.aliyun/aliyun-java-sdk-ecs -->
-<dependency>
-	<groupId>com.aliyun</groupId>
-	<artifactId>aliyun-java-sdk-ecs</artifactId>
-	<version>4.17.8</version>
-</dependency>
+		<!-- https://mvnrepository.com/artifact/com.aliyun/aliyun-java-sdk-core -->
+		<!-- <dependency>
+			<groupId>com.aliyun</groupId>
+			<artifactId>aliyun-java-sdk-core</artifactId>
+			<version>4.4.9</version>
+		</dependency> -->
+
+		<!-- https://mvnrepository.com/artifact/com.aliyun/aliyun-java-sdk-ecs -->
+		<!-- <dependency>
+			<groupId>com.aliyun</groupId>
+			<artifactId>aliyun-java-sdk-ecs</artifactId>
+			<version>4.17.8</version>
+		</dependency> -->
+
 	</dependencies>
 
 	<build>
