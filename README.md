@@ -2,7 +2,7 @@
 
 ##  1. Backgroud
 
-  We plan to use a heuristic-based method for generating adapters of service-based generic-API for hybrid clouds
+  We plan to use an automated method for generating adapters of service-based generic-API for hybrid clouds
   
   - Wukong@SOSE19: [Case studies](https://ieeexplore.ieee.org/document/8705827)
   - Wukong@ATC20: [framework, submitted]
