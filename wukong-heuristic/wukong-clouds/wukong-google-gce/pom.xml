@@ -1,0 +1,42 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>io.github.cloudplus</groupId>
+	<artifactId>wukong-google-gce</artifactId>
+	<version>3.0.0-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<name>wukong-amazon-google-gce</name>
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<wukong.version>3.0.0-SNAPSHOT</wukong.version>
+		<spring.core.version>5.2.0.RELEASE</spring.core.version>
+		<google.vm.version>v1-rev214-1.25.0</google.vm.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>io.github.cloudplus</groupId>
+			<artifactId>wukong-core</artifactId>
+			<version>${wukong.version}</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.springframework/spring-core -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-core</artifactId>
+			<version>${spring.core.version}</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.google.apis/google-api-services-compute -->
+		<dependency>
+			<groupId>com.google.apis</groupId>
+			<artifactId>google-api-services-compute</artifactId>
+			<version>${google.vm.version}</version>
+		</dependency>
+	</dependencies>
+
+</project>

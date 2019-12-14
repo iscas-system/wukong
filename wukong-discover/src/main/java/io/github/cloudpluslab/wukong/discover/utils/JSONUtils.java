@@ -56,36 +56,46 @@ public class JSONUtils {
 		return JSON.toJSONString(obj, true);
 	}
 
-	public static String xmlInfo(String kind, Method method) throws Exception {
+	public static String paramInfo(String kind, Method method) throws Exception {
 		JSONObject obj = new JSONObject();
 		obj.put("apiVersion", "cloudplus.io/v1alpha3");
 		obj.put("kind", kind);
+		
 		ObjectMeta om = new ObjectMeta();
 		om.setName(method.getName().toLowerCase());
 		obj.put("metadata", om);
-		JSONObject spec = new JSONObject();
-		JSONObject jo = new JSONObject();
+		
+		JSONObject life = new JSONObject();
 		for (Parameter param : method.getParameters()) {
-			jo.put("_" + param.getName(), xmlInfo(param.getType()));
+			life.put("_" + param.getName(), paramInfo(param.getType()));
 		}
-		spec.put("lifecycle", jo);
+		
+		JSONObject spec = new JSONObject();
+		spec.put("lifecycle", life);
 		obj.put("spec", spec);
+		
 		return JSON.toJSONString(obj, true);
 	}
 
-	public static Object xmlInfo(Class<?> cls) throws Exception {
+	public static Object paramInfo(Class<?> cls) throws Exception {
 		String type = cls.getTypeName();
 		if (JavaUtils.isPrimitive(type)) {
-			return type;
+			if (type.equals(Boolean.class.getName()) || type.equals("boolean")) {
+				return true;
+			} else if (type.equals(String.class.getName()) || type.equals("String")) {
+				return "String";
+			} else {
+				return 1;
+			}
 		} else if (JavaUtils.isStringList(type) || JavaUtils.isStringSet(type)) {
 			List<String> list = new ArrayList<String>();
-			list.add(String.class.getName());
-			list.add(String.class.getName());
+			list.add(String.class.getSimpleName());
+			list.add(String.class.getSimpleName());
 			return list;
 		} else if (JavaUtils.isStringStringMap(type)) {
 			Map<String, String> map = new HashMap<String, String>();
-			map.put(String.class.getName() + "0", String.class.getName());
-			map.put(String.class.getName() + "1", String.class.getName());
+			map.put(String.class.getSimpleName() + "0", String.class.getSimpleName());
+			map.put(String.class.getSimpleName() + "1", String.class.getSimpleName());
 			return map;
 		} else if (JavaUtils.isObjectList(type) || JavaUtils.isObjectSet(type)) {
 

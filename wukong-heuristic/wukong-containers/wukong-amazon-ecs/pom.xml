@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>io.github.cloudplus</groupId>
+	<artifactId>wukong-amazon-ecs</artifactId>
+	<version>3.0.0-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<name>wukong-amazon-ecs</name>
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<wukong.version>3.0.0-SNAPSHOT</wukong.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>io.github.cloudplus</groupId>
+			<artifactId>wukong-core</artifactId>
+			<version>${wukong.version}</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-ecs -->
+		<dependency>
+			<groupId>com.amazonaws</groupId>
+			<artifactId>aws-java-sdk-ecs</artifactId>
+			<version>1.11.488</version>
+		</dependency>
+	</dependencies>
+
+</project>

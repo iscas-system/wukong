@@ -26,7 +26,7 @@ import io.github.cloudpluslab.wukong.discover.utils.JavaUtils;
  */
 public class Main {
 
-	public final static String JDKINFO_FILE = "conf/jdkinfo.conf-amazonec2";
+	public final static String JDKINFO_FILE = "conf/jdkinfo.conf-googlegce";
 
 	public final static StringBuffer sb = new StringBuffer();
 
@@ -37,35 +37,13 @@ public class Main {
 		generate(JSONUtils.metaInfo(info.getKind()));
 
 		Class<?> clientClass = Class.forName(info.getClient());
-//		String superclassByIndirect    = genericStyle(clientClass.getDeclaredMethods());
-//		String superclassByDirect      = directStyle(clientClass.getDeclaredMethods());
-//		if (superclassByIndirect != null) {
-//			thisCls.addAll(searchingSuperclass(superclassByIndirect, ClassScan.scan(getPackage(superclassByIndirect))));
-//		} else if (superclassByDirect != null) {
-//			thisCls.addAll(frequentSuperclass(superclassByDirect, clientClass.getDeclaredMethods()));
-//		} else {
-//			String supperclass = sorting(clientClass);
-//			for (Method method : clientClass.getDeclaredMethods()) {
-//				try {
-//					Class<?> returnType = method.getReturnType();
-//					System.out.println("==" + returnType);
-//					for (Method m : returnType.getDeclaredMethods()) {
-//						String typeName = m.getReturnType().getTypeName();
-//						if (supperclass.equals(typeName)) {
-//							System.out.println(JSONUtils.xmlInfo(info.getKind(), m));
-//						}
-//					}
-//				} catch (Exception ex) {
-//					// ignore here
-//				}
-//			}
-//		}
 		List<String> objStrs = findObjectJSON(info, clientClass.getDeclaredMethods());
-		System.out.println(objStrs.size());
+		
 		for (String strJson : objStrs) {
 			generate(strJson);
 		}
-
+		
+		System.out.println(objStrs.size());
 		System.out.println(sb);
 	}
 
@@ -91,6 +69,8 @@ public class Main {
 		List<String> json = new ArrayList<String>();
 		json.addAll(findGenericStyleObjectJSON(info, methods));
 		json.addAll(findDirectStyleObjectJSON(info, methods));
+		System.out.println(getCatalogStyleSuperclass(methods));
+		json.addAll(findCatalogStyleObjectJSON(info, methods));
 		return json;
 	}
 
@@ -105,6 +85,13 @@ public class Main {
 		String superclass = getDirectStyleSuperclass(methods);
 		return superclass == null ? new ArrayList<>() 
 				: getDirectStyleJSON(info.getKind(), superclass, methods);
+	}
+	
+	protected static List<String> findCatalogStyleObjectJSON(JDKInfo info, Method[] methods) throws Exception {
+		String superclass = getCatalogStyleSuperclass(methods);
+		System.out.println(superclass);
+		return superclass == null ? new ArrayList<>() 
+				: getCatalogStyleJSON(info.getKind(), superclass, methods);
 	}
 
 	/*************************************************************
@@ -166,6 +153,7 @@ public class Main {
 				itr = (itr == null) ? 1 : itr + 1;
 				cached.put(typeName, itr);
 				superclass = (itr > max) ? typeName : superclass;
+				max = (itr > max) ? itr : max;
 			}
 		}
 		return superclass;
@@ -187,6 +175,58 @@ public class Main {
 					&& !method.isAnnotationPresent(Deprecated.class) && !method.getParameterTypes()[0].isInterface()
 					&& superclass.equals(method.getParameterTypes()[0].getSuperclass().getName())) {
 				targetClasses.add(method.getParameterTypes()[0]);
+			}
+		}
+		return targetClasses;
+	}
+	
+	/*************************************************************
+	 *
+	 * Catalog Style
+	 * 
+	 *************************************************************/
+
+	private static String getCatalogStyleSuperclass(Method[] methods) {
+		int max = 0;
+		String superclass = null;
+		Map<String, Integer> cached = new HashMap<String, Integer>();
+		for (Method m1 : methods) {
+			try {
+				for (Method m2 : m1.getReturnType().getDeclaredMethods()) {
+					if (!m2.getReturnType().isInterface() 
+							&& !JavaUtils.isBasic(m2.getReturnType())
+							&& !m2.getReturnType().getName().equals("void")) {
+						String typeName = m2.getReturnType().getName();
+						Integer itr = cached.get(typeName);
+						itr = (itr == null) ? 1 : itr + 1;
+						cached.put(typeName, itr);
+						superclass = (itr > max) ? typeName : superclass;
+						max = (itr > max) ? itr : max;
+					}
+				} 
+			} catch (Exception ex) {
+				// ignore here
+			}
+		}
+		return (cached.get(superclass) < 20) ?  null : superclass;
+	}
+	
+	private static List<String> getCatalogStyleJSON(String kind, String superclass, Method[] methods) throws Exception {
+		List<String> targetObjects = new ArrayList<String>();
+		for (Method targetMethod : getCatalogStyleClasses(superclass, methods)) {
+			targetObjects.add(JSONUtils.paramInfo(kind, targetMethod));
+		}
+		return targetObjects;
+
+	}
+
+	private static List<Method> getCatalogStyleClasses(String superclass, Method[] methods) {
+		List<Method> targetClasses = new ArrayList<Method>();
+		for (Method m1 : methods) {
+			for (Method m2 : m1.getReturnType().getDeclaredMethods()) {
+				if (m2.getReturnType().getName().equals(superclass)) {
+					targetClasses.add(m2);
+				}
 			}
 		}
 		return targetClasses;
