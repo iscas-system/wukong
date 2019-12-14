@@ -14,6 +14,8 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
+import org.openstack4j.openstack.internal.OSClientSession.OSClientSessionV3;
+
 import com.alibaba.fastjson.JSON;
 
 import io.github.cloudpluslab.wukong.discover.core.ClassScan;
@@ -35,6 +37,7 @@ public class Main {
 	@SuppressWarnings("unchecked")
 	public static void main(String[] args) throws Exception {
 		
+		System.out.println(OSClientSessionV3.class.getName());
 		JDKInfo info = JSON.parseObject(new FileInputStream(new File(JDKINFO_FILE)), JDKInfo.class);
 		Class<?> clientClass = Class.forName(info.getClient());
 		
