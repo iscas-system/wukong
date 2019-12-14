@@ -1,6 +1,6 @@
-<!-- https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-ecs -->
+<!-- https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-ec2 -->
 <dependency>
-	<groupId>com.amazonaws</groupId>
-	<artifactId>aws-java-sdk-ecs</artifactId>
-	<version>1.11.688</version>
+    <groupId>com.amazonaws</groupId>
+    <artifactId>aws-java-sdk-ec2</artifactId>
+    <version>1.11.692</version>
 </dependency>

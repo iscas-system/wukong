@@ -42,11 +42,16 @@ public class JSONUtils {
 		JSONObject obj = new JSONObject();
 		obj.put("apiVersion", "cloudplus.io/v1alpha3");
 		obj.put("kind", kind);
+		
 		ObjectMeta om = new ObjectMeta();
 		om.setName(cls.getSimpleName().toLowerCase());
 		obj.put("metadata", om);
+		
+		JSONObject life = new JSONObject();
+		life.put(cls.getSimpleName(), objInfo(cls));
+		
 		JSONObject spec = new JSONObject();
-		spec.put("data", objInfo(cls));
+		spec.put("lifecycle", life);
 		obj.put("spec", spec);
 		return JSON.toJSONString(obj, true);
 	}
@@ -63,7 +68,7 @@ public class JSONUtils {
 		for (Parameter param : method.getParameters()) {
 			jo.put("_" + param.getName(), xmlInfo(param.getType()));
 		}
-		spec.put("data", jo);
+		spec.put("lifecycle", jo);
 		obj.put("spec", spec);
 		return JSON.toJSONString(obj, true);
 	}
@@ -137,16 +142,22 @@ public class JSONUtils {
 			String key = field.getName();
 
 			if (JavaUtils.isPrimitive(type)) {
-				obj.put(key, type);
+				if (type.equals(Boolean.class.getName()) || type.equals("boolean")) {
+					obj.put(key, true);
+				} else if (type.equals(String.class.getName()) || type.equals("String")) {
+					obj.put(key, "String");
+				} else {
+					obj.put(key, 1);
+				}
 			} else if (JavaUtils.isStringList(type) || JavaUtils.isStringSet(type)) {
 				List<String> list = new ArrayList<String>();
-				list.add(String.class.getName());
-				list.add(String.class.getName());
+				list.add(String.class.getSimpleName());
+				list.add(String.class.getSimpleName());
 				obj.put(key, list);
 			} else if (JavaUtils.isStringStringMap(type)) {
 				Map<String, String> map = new HashMap<String, String>();
-				map.put(String.class.getName() + "0", String.class.getName());
-				map.put(String.class.getName() + "1", String.class.getName());
+				map.put(String.class.getName() + "0", String.class.getSimpleName());
+				map.put(String.class.getName() + "1", String.class.getSimpleName());
 				obj.put(key, map);
 			} else if (JavaUtils.isObjectList(type) || JavaUtils.isObjectSet(type)) {
 

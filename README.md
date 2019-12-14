@@ -17,7 +17,7 @@ TABLE I: The list of supported System for VM service
 
 |  Country  |   Type    |   Name    |  Offical  |  Version  |      Document       |
 | :-------: | :-------: | :-------: | :-------: | :-------: |      :-------:      |
-|  USA      |     VM    |   Amazon    |    Yes    |   aws-java-sdk-ec2(1.11.668)                       | [AWS](https://docs.aws.amazon.com/zh_cn/AmazonECS/latest/developerguide/logging-using-cloudtrail.html)                    |
+|  USA      |     VM    |   Amazon    |    Yes    |   aws-java-sdk-ec2(1.11.692)                       | [AWS](https://docs.aws.amazon.com/zh_cn/AmazonECS/latest/developerguide/logging-using-cloudtrail.html)                    |
 |  USA      |     VM    |   Azure     |    Yes    |   [azure](https://github.com/Azure/azure-sdk-for-java.git)(1.28.0)                                    | [Azure](https://docs.azure.cn/zh-cn/virtual-machines/linux/quick-create-portal?toc=%2Fvirtual-machines%2Flinux%2Ftoc.json)|
 |  USA      |     VM    |   Google    |    Yes    |   [google-api-services-compute](https://github.com/google/apis-client-generator.git)(v1-rev204-1.25.0）   | [Google](https://cloud.google.com/compute/docs/reference/rest/v1/)  |
 |  USA      |     VM    |   OpenStack |    No     |   openstack4j(3.2.0）                              | [OpenStack](https://docs.openstack.org/api-quick-start/)            |

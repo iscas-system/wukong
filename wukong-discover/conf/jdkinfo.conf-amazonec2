@@ -1,4 +1,4 @@
 {
-	"client":"com.amazonaws.services.ecs.AmazonECSClient",
+	"client":"com.amazonaws.services.ec2.AmazonEC2Client",
 	"kind":"AmazonVM"
 }

@@ -67,6 +67,14 @@ public class JavaUtils {
 		primitive.add("byte");
 	}
 	
+	public static boolean isBasic(Class<?> clz) {
+		return isBasic(clz.getName());
+	}
+	
+	public static boolean isBasic(String typename) {
+		return JavaUtils.isPrimitive(typename) || JavaUtils.isList(typename) 
+					|| JavaUtils.isMap(typename) || JavaUtils.isSet(typename);
+	}
 	
 	/**
 	 * @param typename typename

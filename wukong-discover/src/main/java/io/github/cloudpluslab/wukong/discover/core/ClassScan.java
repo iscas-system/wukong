@@ -5,6 +5,7 @@ package io.github.cloudpluslab.wukong.discover.core;
 
 import java.io.IOException;
 import java.lang.annotation.Annotation;
+import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
@@ -42,7 +43,7 @@ public class ClassScan implements ResourceLoaderAware {
 			this.resourcePatternResolver);
 
 	@SuppressWarnings("unchecked")
-	public static Set<Class<?>> scan(String[] basePackages, Class<? extends Annotation>... annotations) {
+	public static List<Class<?>> scan(String[] basePackages, Class<? extends Annotation>... annotations) {
 		ClassScan cs = new ClassScan();
 
 		if (ArrayUtils.isNotEmpty(annotations)) {
@@ -51,14 +52,14 @@ public class ClassScan implements ResourceLoaderAware {
 			}
 		}
 
-		Set<Class<?>> classes = new HashSet<Class<?>>();
+		List<Class<?>> classes = new ArrayList<Class<?>>();
 		for (String s : basePackages)
 			classes.addAll(cs.doScan(s));
 		return classes;
 	}
 
 	@SuppressWarnings("unchecked")
-	public static Set<Class<?>> scan(String basePackages, Class<? extends Annotation>... annotations) {
+	public static List<Class<?>> scan(String basePackages, Class<? extends Annotation>... annotations) {
 		return ClassScan.scan(StringUtils.tokenizeToStringArray(basePackages, ",; \t\n"), annotations);
 	}
 
@@ -99,7 +100,11 @@ public class ClassScan implements ResourceLoaderAware {
 					MetadataReader metadataReader = this.metadataReaderFactory.getMetadataReader(resource);
 					if ((includeFilters.size() == 0 && excludeFilters.size() == 0) || matches(metadataReader)) {
 						try {
-							classes.add(Class.forName(metadataReader.getClassMetadata().getClassName()));
+							Class<?> forName = Class.forName(metadataReader.getClassMetadata().getClassName());
+							if (forName.isInterface()) {
+								continue;
+							}
+							classes.add(forName);
 						} catch (ClassNotFoundException e) {
 							e.printStackTrace();
 						}
