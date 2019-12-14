@@ -3,6 +3,8 @@
  */
 package com.github.wukong.kubernetes;
 
+import io.fabric8.kubernetes.client.DefaultKubernetesClient;
+
 public class KubernetesKindAnalyzerTest {
 
 	public static void main(String[] args) {
@@ -12,6 +14,9 @@ public class KubernetesKindAnalyzerTest {
 			System.out.println(kind + ":<" + ka.getDesc(kind)
 					+ "," + ka.getModel(kind) + ">");
 		}
+		
+		DefaultKubernetesClient client = null;
+		client.pods().create(null);
 	}
 
 }

@@ -17,6 +17,16 @@ public class JDKInfo
     protected String kind;
     
     protected String client;
+    
+    protected String blacklist;
+
+	public String getBlacklist() {
+		return blacklist;
+	}
+
+	public void setBlacklist(String blacklist) {
+		this.blacklist = blacklist;
+	}
 
 	public String getGroup() {
 		return group;

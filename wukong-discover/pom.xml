@@ -72,26 +72,49 @@
 			<version>4.6.3</version>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/com.qingcloud/qingcloud-sdk-java -->
+		<dependency>
+			<groupId>com.qingcloud</groupId>
+			<artifactId>qingcloud-sdk-java</artifactId>
+			<version>1.2.0</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.jdcloud.sdk/core -->
+		<!-- <dependency> <groupId>com.jdcloud.sdk</groupId> <artifactId>core</artifactId> 
+			<version>2.2.2</version> </dependency> -->
+
+		<!-- https://mvnrepository.com/artifact/com.jdcloud.sdk/vm -->
+		<!-- <dependency> <groupId>com.jdcloud.sdk</groupId> <artifactId>vm</artifactId> 
+			<version>1.2.5</version> </dependency> -->
+
+		<!-- https://mvnrepository.com/artifact/com.google.apis/google-api-services-compute -->
+		<!-- <dependency> <groupId>com.google.apis</groupId> <artifactId>google-api-services-compute</artifactId> 
+			<version>v1-rev214-1.25.0</version> </dependency> -->
+
+		<!-- https://mvnrepository.com/artifact/com.tencentcloudapi/tencentcloud-sdk-java -->
+		<!-- <dependency> <groupId>com.tencentcloudapi</groupId> <artifactId>tencentcloud-sdk-java</artifactId> 
+			<version>3.0.112</version> </dependency> -->
+
+		<!-- https://mvnrepository.com/artifact/com.baidubce/bce-java-sdk -->
+		<!-- <dependency> <groupId>com.baidubce</groupId> <artifactId>bce-java-sdk</artifactId> 
+			<version>0.10.87</version> </dependency> -->
+
+		<!-- https://mvnrepository.com/artifact/com.microsoft.azure/azure -->
+		<!-- <dependency> <groupId>com.microsoft.azure</groupId> <artifactId>azure</artifactId> 
+			<version>1.28.0</version> </dependency> -->
+
+
 		<!-- https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-ecs -->
-	<!-- 	<dependency>
-			<groupId>com.amazonaws</groupId>
-			<artifactId>aws-java-sdk-ecs</artifactId>
-			<version>1.11.688</version>
-		</dependency> -->
+		<!-- <dependency> <groupId>com.amazonaws</groupId> <artifactId>aws-java-sdk-ecs</artifactId> 
+			<version>1.11.688</version> </dependency> -->
 
 		<!-- https://mvnrepository.com/artifact/com.aliyun/aliyun-java-sdk-core -->
-		<!-- <dependency>
-			<groupId>com.aliyun</groupId>
-			<artifactId>aliyun-java-sdk-core</artifactId>
-			<version>4.4.9</version>
-		</dependency> -->
+		<!-- <dependency> <groupId>com.aliyun</groupId> <artifactId>aliyun-java-sdk-core</artifactId> 
+			<version>4.4.9</version> </dependency> -->
 
 		<!-- https://mvnrepository.com/artifact/com.aliyun/aliyun-java-sdk-ecs -->
-		<!-- <dependency>
-			<groupId>com.aliyun</groupId>
-			<artifactId>aliyun-java-sdk-ecs</artifactId>
-			<version>4.17.8</version>
-		</dependency> -->
+		<!-- <dependency> <groupId>com.aliyun</groupId> <artifactId>aliyun-java-sdk-ecs</artifactId> 
+			<version>4.17.8</version> </dependency> -->
 
 	</dependencies>
 

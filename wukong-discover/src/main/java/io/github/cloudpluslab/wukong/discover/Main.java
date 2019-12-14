@@ -7,7 +7,6 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
-import java.lang.reflect.Parameter;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.HashMap;
@@ -20,6 +19,7 @@ import com.alibaba.fastjson.JSON;
 import io.github.cloudpluslab.wukong.discover.core.ClassScan;
 import io.github.cloudpluslab.wukong.discover.model.JDKInfo;
 import io.github.cloudpluslab.wukong.discover.utils.JSONUtils;
+import io.github.cloudpluslab.wukong.discover.utils.JavaUtils;
 
 /**
  * @author tangting18@otcaix.iscas.ac.cn
@@ -52,6 +52,22 @@ public class Main {
 			thisCls.addAll(searchingSuperclass(superclassBySearch, ClassScan.scan(thispkg)));
 		} else if (superclassByFrequency != null) {
 			thisCls.addAll(frequentSuperclass(superclassByFrequency, clientClass.getDeclaredMethods()));
+		} else {
+			String supperclass = sorting(clientClass);
+			for (Method method : clientClass.getDeclaredMethods()) {
+				try {
+					Class<?> returnType = method.getReturnType();
+					System.out.println("==" + returnType);
+					for (Method m : returnType.getDeclaredMethods()) {
+						String typeName = m.getReturnType().getTypeName();
+						if (supperclass.equals(typeName)) {
+							System.out.println(JSONUtils.xmlInfo(info.getKind(), m));
+						}
+					}
+				} catch (Exception ex) {
+					// ignore here
+				}
+			}
 		}
 		
 		for (Class<?> cls : thisCls) {
@@ -73,6 +89,42 @@ public class Main {
 	 * 
 	 *************************************************************/
 
+	private static String sorting(Class<?> clientClass) {
+		Map<String, Integer> sorts = new HashMap<String, Integer>();
+		String type = null;
+		int i = 0;
+		for (Method method : clientClass.getDeclaredMethods()) {
+			if (method.getParameterCount() == 0) {
+				try {
+					for (Method m : method.getReturnType().getDeclaredMethods()) {
+						String typeName = m.getReturnType().getTypeName();
+						if (JavaUtils.isPrimitive(typeName) ||
+								JavaUtils.isList(typeName) ||
+								JavaUtils.isSet(typeName) ||
+								JavaUtils.isMap(typeName) ||
+								typeName.equals("void")) {
+							continue;
+						}
+						Integer itr = sorts.get(typeName);
+						itr = (itr == null) ? 1 : itr + 1;
+						sorts.put(typeName, itr);
+					}
+					
+				} catch (Exception ex) {
+					
+				}
+			}
+		}
+		for (String name : sorts.keySet()) {
+			int value = sorts.get(name);
+			if (value > i) {
+				i = value;
+				type = name;
+			}
+		}
+		return type;
+	}
+	
 	private static Set<Class<?>> frequentSuperclass(String superclass, Method[] methods) {
 		Set<Class<?>> thisCls = new HashSet<Class<?>>();
 		
