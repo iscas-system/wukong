@@ -69,8 +69,8 @@ public class Main {
 		List<String> json = new ArrayList<String>();
 		json.addAll(findGenericStyleObjectJSON(info, methods));
 		json.addAll(findDirectStyleObjectJSON(info, methods));
-		System.out.println(getCatalogStyleSuperclass(methods));
-		json.addAll(findCatalogStyleObjectJSON(info, methods));
+		json.addAll(findPostCatalogStyleObjectJSON(info, methods));
+		json.addAll(findPreCatalogStyleObjectJSON(info, methods));
 		return json;
 	}
 
@@ -87,11 +87,16 @@ public class Main {
 				: getDirectStyleJSON(info.getKind(), superclass, methods);
 	}
 	
-	protected static List<String> findCatalogStyleObjectJSON(JDKInfo info, Method[] methods) throws Exception {
-		String superclass = getCatalogStyleSuperclass(methods);
-		System.out.println(superclass);
+	protected static List<String> findPostCatalogStyleObjectJSON(JDKInfo info, Method[] methods) throws Exception {
+		String superclass = getPostCatalogStyleSuperclass(methods);
 		return superclass == null ? new ArrayList<>() 
-				: getCatalogStyleJSON(info.getKind(), superclass, methods);
+				: getPostCatalogStyleJSON(info.getKind(), superclass, methods);
+	}
+	
+	protected static List<String> findPreCatalogStyleObjectJSON(JDKInfo info, Method[] methods) throws Exception {
+		String superclass = getPreCatalogStyleSuperclass(methods);
+		return superclass == null ? new ArrayList<>() 
+				: getPreCatalogStyleJSON(info.getKind(), superclass, methods);
 	}
 
 	/*************************************************************
@@ -182,11 +187,11 @@ public class Main {
 	
 	/*************************************************************
 	 *
-	 * Catalog Style
+	 * PostCatalog Style
 	 * 
 	 *************************************************************/
 
-	private static String getCatalogStyleSuperclass(Method[] methods) {
+	private static String getPostCatalogStyleSuperclass(Method[] methods) {
 		int max = 0;
 		String superclass = null;
 		Map<String, Integer> cached = new HashMap<String, Integer>();
@@ -211,20 +216,72 @@ public class Main {
 		return (cached.get(superclass) < 20) ?  null : superclass;
 	}
 	
-	private static List<String> getCatalogStyleJSON(String kind, String superclass, Method[] methods) throws Exception {
+	private static List<String> getPostCatalogStyleJSON(String kind, String superclass, Method[] methods) throws Exception {
 		List<String> targetObjects = new ArrayList<String>();
-		for (Method targetMethod : getCatalogStyleClasses(superclass, methods)) {
+		for (Method targetMethod : getPostCatalogStyleClasses(superclass, methods)) {
 			targetObjects.add(JSONUtils.paramInfo(kind, targetMethod));
 		}
 		return targetObjects;
 
 	}
 
-	private static List<Method> getCatalogStyleClasses(String superclass, Method[] methods) {
+	private static List<Method> getPostCatalogStyleClasses(String superclass, Method[] methods) {
 		List<Method> targetClasses = new ArrayList<Method>();
 		for (Method m1 : methods) {
 			for (Method m2 : m1.getReturnType().getDeclaredMethods()) {
 				if (m2.getReturnType().getName().equals(superclass)) {
+					targetClasses.add(m2);
+				}
+			}
+		}
+		return targetClasses;
+	}
+	
+	/*************************************************************
+	 *
+	 * PreCatalog Style
+	 * 
+	 *************************************************************/
+
+	private static String getPreCatalogStyleSuperclass(Method[] methods) {
+		int max = 0;
+		String superclass = null;
+		Map<String, Integer> cached = new HashMap<String, Integer>();
+		for (Method m1 : methods) {
+			try {
+				for (Method m2 : m1.getReturnType().getDeclaredMethods()) {
+					if (!m2.getReturnType().isInterface() 
+							&& !JavaUtils.isBasic(m2.getReturnType())
+							&& !m2.getReturnType().getName().equals("void")) {
+						String typeName = m2.getReturnType().getSuperclass().getName();
+						Integer itr = cached.get(typeName);
+						itr = (itr == null) ? 1 : itr + 1;
+						cached.put(typeName, itr);
+						superclass = (itr > max) ? typeName : superclass;
+						max = (itr > max) ? itr : max;
+					}
+				} 
+			} catch (Exception ex) {
+				// ignore here
+			}
+		}
+		return (cached.get(superclass) < 20) ?  null : superclass;
+	}
+	
+	private static List<String> getPreCatalogStyleJSON(String kind, String superclass, Method[] methods) throws Exception {
+		List<String> targetObjects = new ArrayList<String>();
+		for (Method targetMethod : getPreCatalogStyleClasses(superclass, methods)) {
+			targetObjects.add(JSONUtils.paramInfo(kind, targetMethod));
+		}
+		return targetObjects;
+
+	}
+
+	private static List<Method> getPreCatalogStyleClasses(String superclass, Method[] methods) {
+		List<Method> targetClasses = new ArrayList<Method>();
+		for (Method m1 : methods) {
+			for (Method m2 : m1.getReturnType().getDeclaredMethods()) {
+				if (m2.getReturnType().getSuperclass().getName().equals(superclass)) {
 					targetClasses.add(m2);
 				}
 			}
