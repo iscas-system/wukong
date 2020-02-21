@@ -23,6 +23,7 @@ import io.fabric8.kubernetes.api.model.ObjectMeta;
  * @since 2019.12.10
  */
 public class JSONUtils {
+	
 
 	public static String metaInfo(String kind) {
 		return "{\r\n" + "  \"apiVersion\": \"apiextensions.k8s.io/v1beta1\",\r\n"
@@ -39,6 +40,7 @@ public class JSONUtils {
 	}
 
 	public static String objInfo(String kind, Class<?> cls) throws Exception {
+		
 		JSONObject obj = new JSONObject();
 		obj.put("apiVersion", "cloudplus.io/v1alpha3");
 		obj.put("kind", kind);
@@ -62,7 +64,7 @@ public class JSONUtils {
 		obj.put("kind", kind);
 		
 		ObjectMeta om = new ObjectMeta();
-		om.setName(method.getName().toLowerCase());
+		om.setName(method.getDeclaringClass().getSimpleName().toLowerCase() + "." + method.getName().toLowerCase());
 		obj.put("metadata", om);
 		
 		JSONObject life = new JSONObject();

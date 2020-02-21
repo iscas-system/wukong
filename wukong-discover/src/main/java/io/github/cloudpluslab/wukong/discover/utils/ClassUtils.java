@@ -1,7 +1,7 @@
 /**
- * Copyright (2018, ) Institute of Software, Chinese Academy of Sciences
+ * Copyright (2020, ) Institute of Software, Chinese Academy of Sciences
  */
-package io.github.cloudpluslab.wukong.discover.core;
+package io.github.cloudpluslab.wukong.discover.utils;
 
 import java.io.IOException;
 import java.lang.annotation.Annotation;
@@ -33,7 +33,7 @@ import org.springframework.util.SystemPropertyUtils;
  * @author wuheng@iscas.ac.cn
  * @since  2019.12.10
  */
-public class ClassScan implements ResourceLoaderAware {
+public class ClassUtils implements ResourceLoaderAware {
 
 	private final List<TypeFilter> includeFilters = new LinkedList<TypeFilter>();
 	private final List<TypeFilter> excludeFilters = new LinkedList<TypeFilter>();
@@ -44,7 +44,7 @@ public class ClassScan implements ResourceLoaderAware {
 
 	@SuppressWarnings("unchecked")
 	public static List<Class<?>> scan(String[] basePackages, Class<? extends Annotation>... annotations) {
-		ClassScan cs = new ClassScan();
+		ClassUtils cs = new ClassUtils();
 
 		if (ArrayUtils.isNotEmpty(annotations)) {
 			for (Class<? extends Annotation> anno : annotations) {
@@ -60,7 +60,7 @@ public class ClassScan implements ResourceLoaderAware {
 
 	@SuppressWarnings("unchecked")
 	public static List<Class<?>> scan(String basePackages, Class<? extends Annotation>... annotations) {
-		return ClassScan.scan(StringUtils.tokenizeToStringArray(basePackages, ",; \t\n"), annotations);
+		return ClassUtils.scan(StringUtils.tokenizeToStringArray(basePackages, ",; \t\n"), annotations);
 	}
 
 	public final ResourceLoader getResourceLoader() {

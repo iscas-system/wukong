@@ -12,8 +12,8 @@ import java.util.Set;
 
 
 /**
- * @author wuheng
- * @since  2019.3.7
+ * @author wuheng@iscas.ac.cn
+ * @since  2019.12.19
  * 
  */
 
@@ -73,7 +73,7 @@ public class JavaUtils {
 	
 	public static boolean isBasic(String typename) {
 		return JavaUtils.isPrimitive(typename) || JavaUtils.isList(typename) 
-					|| JavaUtils.isMap(typename) || JavaUtils.isSet(typename);
+					|| JavaUtils.isMap(typename) || JavaUtils.isSet(typename) || typename.equals("void");
 	}
 	
 	/**

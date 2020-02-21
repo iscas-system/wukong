@@ -1,13 +1,14 @@
 /**
- * Copyright (2018-2019) Institute of Software, Chinese Academy of Sciences
+ * Copyright (2020, ) Institute of Software, Chinese Academy of Sciences
  */
 package io.github.cloudpluslab.wukong.discover.model;
 
 /**
  * @author tangting18@otcaix.iscas.ac.cn
  * @author wuheng@iscas.ac.cn
- * @since  2019.12/10
+ * @since  2019.12.19
  */
+
 public class JDKInfo 
 {
     protected String group = "cloudplus.io";

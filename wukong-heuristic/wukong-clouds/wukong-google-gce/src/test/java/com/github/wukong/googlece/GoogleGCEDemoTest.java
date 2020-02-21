@@ -13,12 +13,12 @@ public class GoogleGCEDemoTest {
 	@SuppressWarnings("null")
 	public static void main(String[] args) throws Exception {
 		Compute client = null;
-		client.instances().start(null, null, null);
-		client.instances().delete(null, null, null);
-		client.instances().list(null, null);
-		client.instanceGroups().addInstances(null, null, null, null);
+//		client.instances().start(null, null, null);
+//		client.instances().delete(null, null, null);
+//		client.instances().list(null, null);
+//		client.instanceGroups().addInstances(null, null, null, null);
 		Class<?> clazz = Class.forName(Instances.class.getName());
-		System.out.println(clazz.getName());
+//		System.out.println(clazz.getName());
 		for (Method method : clazz.getMethods()) {
 			if (method.getName().equals("start")) {
 				System.out.println(method.getParameterCount());

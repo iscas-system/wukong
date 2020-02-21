@@ -1,0 +1,6 @@
+<!-- https://mvnrepository.com/artifact/com.baidubce/bce-java-sdk -->
+<dependency>
+	<groupId>com.baidubce</groupId>
+	<artifactId>bce-java-sdk</artifactId>
+	<version>0.10.87</version>
+</dependency>

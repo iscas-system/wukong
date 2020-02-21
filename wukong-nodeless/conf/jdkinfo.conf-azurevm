@@ -1,0 +1,4 @@
+{
+	"client":"com.microsoft.azure.management.compute.implementation.ComputeManagementClientImpl",
+	"kind":"AzureVM"
+}

@@ -5,7 +5,7 @@
 
 	<groupId>io.github.cloudplus</groupId>
 	<artifactId>wukong-baidu-bce</artifactId>
-	<version>3.0.0-SNAPSHOT</version>
+	<version>1.7.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>wukong-baidu-bce</name>
@@ -13,7 +13,7 @@
 
 	<properties>
 		<wukong.version>3.0.0-SNAPSHOT</wukong.version>
-		<baidu.vm.version>0.10.78</baidu.vm.version>
+		<baidu.vm.version>0.10.95</baidu.vm.version>
 	</properties>
 
 	<dependencies>

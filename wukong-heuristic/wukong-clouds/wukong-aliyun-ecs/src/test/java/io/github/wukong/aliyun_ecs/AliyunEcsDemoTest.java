@@ -3,8 +3,8 @@
  */
 package io.github.wukong.aliyun_ecs;
 
-import com.aliyuncs.ecs.model.v20140526.CreateVpcRequest;
-import com.aliyuncs.ecs.model.v20140526.CreateVpcResponse;
+import com.aliyuncs.ecs.model.v20140526.DescribeInstanceTypesRequest;
+import com.aliyuncs.ecs.model.v20140526.DescribeInstanceTypesResponse.InstanceType;
 import com.aliyuncs.profile.DefaultProfile;
 import com.aliyuncs.profile.IClientProfile;
 
@@ -17,9 +17,10 @@ public class AliyunEcsDemoTest {
 
 	public static void main(String[] args) throws Exception {
 		WukongDefaultAcsClient client = getClient();
-		CreateVpcRequest request = client.createVpcRequest();
-		CreateVpcResponse response = client.getAcsResponse(request);
-		System.out.println(response);
+		DescribeInstanceTypesRequest req = new DescribeInstanceTypesRequest();
+		for (InstanceType image : client.describeInstanceTypesRequest(req).getInstanceTypes()) {
+			System.out.println(image.getInstanceTypeId() + ":" + image.getInstanceTypeFamily() + ": <" + image.getCpuCoreCount() + "," + image.getMemorySize() + ">" );
+		}
 	}
 
 	private static WukongDefaultAcsClient getClient() {

@@ -1,0 +1,4 @@
+{
+	"client":"com.aliyuncs.DefaultAcsClient",
+	"kind":"AliyunVM"
+}

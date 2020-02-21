@@ -1,0 +1,4655 @@
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"createinstancerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"CreateInstanceRequest":{
+				"dataDisk2DiskName":"String",
+				"dataDisk3DeleteWithInstance":true,
+				"userData":"String",
+				"systemDiskDescription":"String",
+				"tag5Value":"String",
+				"systemDiskCategory":"String",
+				"spotStrategy":"String",
+				"ownerId":1,
+				"dataDisk4DiskName":"String",
+				"dataDisk2SnapshotId":"String",
+				"dataDisk2Device":"String",
+				"securityGroupId":"String",
+				"password":"String",
+				"dataDisk1Size":1,
+				"tag1Key":"String",
+				"zoneId":"String",
+				"tag5Key":"String",
+				"dataDisk4Description":"String",
+				"nodeControllerId":"String",
+				"ramRoleName":"String",
+				"keyPairName":"String",
+				"dataDisk2Category":"String",
+				"period":1,
+				"imageId":"String",
+				"vlanId":"String",
+				"dataDisk3SnapshotId":"String",
+				"tag1Value":"String",
+				"dataDisk1Device":"String",
+				"dataDisk2Size":1,
+				"systemDiskSize":1,
+				"dataDisk1DeleteWithInstance":true,
+				"tag4Value":"String",
+				"deploymentSetId":"String",
+				"privateIpAddress":"String",
+				"internetChargeType":"String",
+				"dataDisk2DeleteWithInstance":true,
+				"dataDisk3Size":1,
+				"tag4Key":"String",
+				"dataDisk4Category":"String",
+				"resourceOwnerId":1,
+				"dataDisk3DiskName":"String",
+				"hostName":"String",
+				"instanceName":"String",
+				"internetMaxBandwidthOut":1,
+				"innerIpAddress":"String",
+				"description":"String",
+				"clusterId":"String",
+				"tag2Value":"String",
+				"ownerAccount":"String",
+				"dataDisk4Size":1,
+				"autoRenewPeriod":1,
+				"dataDisk3Description":"String",
+				"vSwitchId":"String",
+				"autoRenew":true,
+				"ioOptimized":"String",
+				"tag3Key":"String",
+				"dataDisk4SnapshotId":"String",
+				"dataDisk1DiskName":"String",
+				"dataDisk4Device":"String",
+				"instanceChargeType":"String",
+				"dataDisk2Description":"String",
+				"clientToken":"String",
+				"instanceType":"String",
+				"dataDisk3Category":"String",
+				"dataDisk1SnapshotId":"String",
+				"internetMaxBandwidthIn":1,
+				"dataDisk1Category":"String",
+				"dataDisk4DeleteWithInstance":true,
+				"dataDisk1Description":"String",
+				"useAdditionalService":true,
+				"dataDisk3Device":"String",
+				"resourceOwnerAccount":"String",
+				"tag2Key":"String",
+				"systemDiskDiskName":"String",
+				"tag3Value":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"deleterouterinterfacerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DeleteRouterInterfaceRequest":{
+				"clientToken":"String",
+				"resourceOwnerAccount":"String",
+				"userCidr":"String",
+				"resourceOwnerId":1,
+				"routerInterfaceId":"String",
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describeinstancetypefamiliesrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeInstanceTypeFamiliesRequest":{
+				"generation":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describeregionsrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeRegionsRequest":{
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describeinstanceramrolerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeInstanceRamRoleRequest":{
+				"instanceIds":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"terminatephysicalconnectionrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"TerminatePhysicalConnectionRequest":{
+				"physicalConnectionId":"String",
+				"clientToken":"String",
+				"resourceOwnerAccount":"String",
+				"userCidr":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"cancelautosnapshotpolicyrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"CancelAutoSnapshotPolicyRequest":{
+				"resourceOwnerAccount":"String",
+				"diskIds":"String",
+				"resourceOwnerId":1,
+				"ownerId":1
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"deletesecuritygrouprequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DeleteSecurityGroupRequest":{
+				"securityGroupId":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describenatgatewaysrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeNatGatewaysRequest":{
+				"pageNumber":1,
+				"vpcId":"String",
+				"resourceOwnerAccount":"String",
+				"natGatewayId":"String",
+				"pageSize":1,
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describesnapshotsrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeSnapshotsRequest":{
+				"pageNumber":1,
+				"tag5Value":"String",
+				"usage":"String",
+				"pageSize":1,
+				"tag2Value":"String",
+				"ownerId":1,
+				"ownerAccount":"String",
+				"filter1Value":"String",
+				"instanceId":"String",
+				"tag1Key":"String",
+				"sourceDiskType":"String",
+				"snapshotName":"String",
+				"tag5Key":"String",
+				"tag3Key":"String",
+				"filter2Key":"String",
+				"snapshotLinkId":"String",
+				"snapshotType":"String",
+				"snapshotIds":"String",
+				"tag1Value":"String",
+				"tag4Value":"String",
+				"tag4Key":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"diskId":"String",
+				"filter1Key":"String",
+				"filter2Value":"String",
+				"tag2Key":"String",
+				"tag3Value":"String",
+				"status":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"recovervirtualborderrouterrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"RecoverVirtualBorderRouterRequest":{
+				"clientToken":"String",
+				"resourceOwnerAccount":"String",
+				"userCidr":"String",
+				"resourceOwnerId":1,
+				"vbrId":"String",
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"eipfillproductrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"EipFillProductRequest":{
+				"data":"String",
+				"clientToken":"String",
+				"resourceOwnerAccount":"String",
+				"userCidr":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"bindiprangerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"BindIpRangeRequest":{
+				"instanceId":"String",
+				"ipAddress":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"modifyhavipattributerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"ModifyHaVipAttributeRequest":{
+				"haVipId":"String",
+				"clientToken":"String",
+				"resourceOwnerAccount":"String",
+				"description":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describeiprangesrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeIpRangesRequest":{
+				"pageNumber":1,
+				"nicType":"String",
+				"resourceOwnerAccount":"String",
+				"pageSize":1,
+				"resourceOwnerId":1,
+				"clusterId":"String",
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"modifysecuritygroupattributerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"ModifySecurityGroupAttributeRequest":{
+				"securityGroupId":"String",
+				"securityGroupName":"String",
+				"resourceOwnerAccount":"String",
+				"description":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"resizediskrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"ResizeDiskRequest":{
+				"clientToken":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"diskId":"String",
+				"newSize":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"deletebandwidthpackagerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DeleteBandwidthPackageRequest":{
+				"bandwidthPackageId":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describelimitationrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeLimitationRequest":{
+				"limitation":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"createvirtualborderrouterrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"CreateVirtualBorderRouterRequest":{
+				"physicalConnectionId":"String",
+				"peerGatewayIp":"String",
+				"vbrOwnerId":1,
+				"vlanId":1,
+				"clientToken":"String",
+				"peeringSubnetMask":"String",
+				"description":"String",
+				"userCidr":"String",
+				"localGatewayIp":"String",
+				"ownerId":1,
+				"ownerAccount":"String",
+				"circuitCode":"String",
+				"name":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"modifyinstanceautorenewattributerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"ModifyInstanceAutoRenewAttributeRequest":{
+				"duration":1,
+				"instanceId":"String",
+				"resourceOwnerAccount":"String",
+				"autoRenew":true,
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describeinstanceautorenewattributerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeInstanceAutoRenewAttributeRequest":{
+				"instanceId":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describenewprojecteipmonitordatarequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeNewProjectEipMonitorDataRequest":{
+				"period":1,
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"allocationId":"String",
+				"startTime":"String",
+				"endTime":"String",
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"importkeypairrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"ImportKeyPairRequest":{
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"keyPairName":"String",
+				"publicKeyBody":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"modifyvswitchattributerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"ModifyVSwitchAttributeRequest":{
+				"vSwitchName":"String",
+				"vSwitchId":"String",
+				"resourceOwnerAccount":"String",
+				"description":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"connectrouterinterfacerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"ConnectRouterInterfaceRequest":{
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"routerInterfaceId":"String",
+				"ownerId":1
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"terminatevirtualborderrouterrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"TerminateVirtualBorderRouterRequest":{
+				"clientToken":"String",
+				"resourceOwnerAccount":"String",
+				"userCidr":"String",
+				"resourceOwnerId":1,
+				"vbrId":"String",
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"modifyimagesharegrouppermissionrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"ModifyImageShareGroupPermissionRequest":{
+				"imageId":"String",
+				"addGroup1":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"removeGroup1":"String",
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"modifyinstanceattributerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"ModifyInstanceAttributeRequest":{
+				"hostName":"String",
+				"password":"String",
+				"instanceId":"String",
+				"userData":"String",
+				"instanceName":"String",
+				"resourceOwnerAccount":"String",
+				"description":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"createsecuritygrouprequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"CreateSecurityGroupRequest":{
+				"securityGroupName":"String",
+				"clientToken":"String",
+				"tag5Value":"String",
+				"tag1Value":"String",
+				"description":"String",
+				"tag2Value":"String",
+				"ownerId":1,
+				"ownerAccount":"String",
+				"tag4Value":"String",
+				"tag1Key":"String",
+				"vpcId":"String",
+				"tag4Key":"String",
+				"resourceOwnerAccount":"String",
+				"tag5Key":"String",
+				"resourceOwnerId":1,
+				"tag3Key":"String",
+				"tag2Key":"String",
+				"tag3Value":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"authorizesecuritygrouprequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"AuthorizeSecurityGroupRequest":{
+				"portRange":"String",
+				"sourceCidrIp":"String",
+				"clientToken":"String",
+				"ipProtocol":"String",
+				"sourceGroupOwnerAccount":"String",
+				"ownerId":1,
+				"priority":"String",
+				"ownerAccount":"String",
+				"securityGroupId":"String",
+				"sourceGroupOwnerId":1,
+				"nicType":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"sourceGroupId":"String",
+				"policy":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"createvpcrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"CreateVpcRequest":{
+				"vpcName":"String",
+				"clientToken":"String",
+				"cidrBlock":"String",
+				"resourceOwnerAccount":"String",
+				"description":"String",
+				"userCidr":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"modifyinstancespecrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"ModifyInstanceSpecRequest":{
+				"async":true,
+				"instanceId":"String",
+				"internetMaxBandwidthOut":1,
+				"instanceType":"String",
+				"temporaryEndTime":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"internetMaxBandwidthIn":1,
+				"ownerAccount":"String",
+				"temporaryInternetMaxBandwidthOut":1,
+				"temporaryStartTime":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describevirtualborderroutersrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeVirtualBorderRoutersRequest":{
+				"pageNumber":1,
+				"resourceOwnerAccount":"String",
+				"pageSize":1,
+				"resourceOwnerId":1,
+				"ownerId":1
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"revokesecuritygrouprequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"RevokeSecurityGroupRequest":{
+				"portRange":"String",
+				"sourceCidrIp":"String",
+				"ipProtocol":"String",
+				"sourceGroupOwnerAccount":"String",
+				"ownerId":1,
+				"ownerAccount":"String",
+				"securityGroupId":"String",
+				"sourceGroupOwnerId":1,
+				"nicType":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"sourceGroupId":"String",
+				"policy":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"modifyinstancevncpasswdrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"ModifyInstanceVncPasswdRequest":{
+				"vncPassword":"String",
+				"instanceId":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describeinstancemonitordatarequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeInstanceMonitorDataRequest":{
+				"period":1,
+				"instanceId":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"startTime":"String",
+				"endTime":"String",
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"createforwardentryrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"CreateForwardEntryRequest":{
+				"forwardTableId":"String",
+				"internalPort":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ipProtocol":"String",
+				"ownerId":1,
+				"ownerAccount":"String",
+				"externalIp":"String",
+				"internalIp":"String",
+				"externalPort":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"addbandwidthpackageipsrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"AddBandwidthPackageIpsRequest":{
+				"bandwidthPackageId":"String",
+				"clientToken":"String",
+				"resourceOwnerAccount":"String",
+				"ipCount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"commonrpcrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"CommonRpcRequest":{}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"modifyautosnapshotpolicyexrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"ModifyAutoSnapshotPolicyExRequest":{
+				"repeatWeekdays":"String",
+				"autoSnapshotPolicyId":"String",
+				"autoSnapshotPolicyName":"String",
+				"retentionDays":1,
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"timePoints":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"detachdiskrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DetachDiskRequest":{
+				"instanceId":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"diskId":"String",
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describediskmonitordatarequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeDiskMonitorDataRequest":{
+				"period":1,
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"diskId":"String",
+				"startTime":"String",
+				"endTime":"String",
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"importimagerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"ImportImageRequest":{
+				"imageName":"String",
+				"roleName":"String",
+				"resourceOwnerAccount":"String",
+				"description":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"oSType":"String",
+				"platform":"String",
+				"architecture":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describeinstancetypesrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeInstanceTypesRequest":{
+				"instanceTypeFamily":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describeinstancephysicalattributerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeInstancePhysicalAttributeRequest":{
+				"instanceId":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"leavesecuritygrouprequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"LeaveSecurityGroupRequest":{
+				"securityGroupId":"String",
+				"instanceId":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"deleteinstancerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DeleteInstanceRequest":{
+				"instanceId":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"force":true,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"eipnotifypaidrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"EipNotifyPaidRequest":{
+				"data":"String",
+				"clientToken":"String",
+				"resourceOwnerAccount":"String",
+				"userCidr":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"modifyautosnapshotpolicyrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"ModifyAutoSnapshotPolicyRequest":{
+				"dataDiskPolicyTimePeriod":1,
+				"dataDiskPolicyRetentionLastWeek":true,
+				"systemDiskPolicyEnabled":true,
+				"dataDiskPolicyRetentionDays":1,
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"systemDiskPolicyTimePeriod":1,
+				"ownerId":1,
+				"dataDiskPolicyEnabled":true,
+				"ownerAccount":"String",
+				"systemDiskPolicyRetentionLastWeek":true,
+				"systemDiskPolicyRetentionDays":1
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"deleteimagerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DeleteImageRequest":{
+				"imageId":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describeimagesharepermissionrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeImageSharePermissionRequest":{
+				"imageId":"String",
+				"pageNumber":1,
+				"resourceOwnerAccount":"String",
+				"pageSize":1,
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"replacesystemdiskrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"ReplaceSystemDiskRequest":{
+				"useAdditionalService":true,
+				"password":"String",
+				"instanceId":"String",
+				"imageId":"String",
+				"clientToken":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"systemDiskSize":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describeimagesupportinstancetypesrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeImageSupportInstanceTypesRequest":{
+				"imageId":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describetagsrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeTagsRequest":{
+				"resourceId":"String",
+				"pageNumber":1,
+				"tag5Value":"String",
+				"tag1Value":"String",
+				"pageSize":1,
+				"tag2Value":"String",
+				"ownerId":1,
+				"tag4Value":"String",
+				"tag1Key":"String",
+				"tag4Key":"String",
+				"resourceOwnerAccount":"String",
+				"tag5Key":"String",
+				"resourceOwnerId":1,
+				"tag3Key":"String",
+				"tag2Key":"String",
+				"tag3Value":"String",
+				"resourceType":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"createautosnapshotpolicyrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"CreateAutoSnapshotPolicyRequest":{
+				"repeatWeekdays":"String",
+				"autoSnapshotPolicyName":"String",
+				"retentionDays":1,
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"timePoints":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"unbindiprangerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"UnbindIpRangeRequest":{
+				"instanceId":"String",
+				"ipAddress":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describebandwidthpackagesrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeBandwidthPackagesRequest":{
+				"pageNumber":1,
+				"bandwidthPackageId":"String",
+				"resourceOwnerAccount":"String",
+				"natGatewayId":"String",
+				"pageSize":1,
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"startinstancerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"StartInstanceRequest":{
+				"instanceId":"String",
+				"initLocalDisk":true,
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerAccount":"String",
+				"ownerId":1
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describeinstancevncurlrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeInstanceVncUrlRequest":{
+				"instanceId":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"deletenatgatewayrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DeleteNatGatewayRequest":{
+				"resourceOwnerAccount":"String",
+				"natGatewayId":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"addtagsrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"AddTagsRequest":{
+				"resourceId":"String",
+				"tag5Value":"String",
+				"tag1Value":"String",
+				"tag2Value":"String",
+				"ownerId":1,
+				"tag4Value":"String",
+				"tag1Key":"String",
+				"tag4Key":"String",
+				"resourceOwnerAccount":"String",
+				"tag5Key":"String",
+				"resourceOwnerId":1,
+				"tag3Key":"String",
+				"tag2Key":"String",
+				"tag3Value":"String",
+				"resourceType":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"createnatgatewayrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"CreateNatGatewayRequest":{
+				"clientToken":"String",
+				"vpcId":"String",
+				"name":"String",
+				"resourceOwnerAccount":"String",
+				"description":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"allocatepublicipaddressrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"AllocatePublicIpAddressRequest":{
+				"instanceId":"String",
+				"vlanId":"String",
+				"ipAddress":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"enablephysicalconnectionrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"EnablePhysicalConnectionRequest":{
+				"physicalConnectionId":"String",
+				"clientToken":"String",
+				"resourceOwnerAccount":"String",
+				"userCidr":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describeeipmonitordatarequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeEipMonitorDataRequest":{
+				"period":1,
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"allocationId":"String",
+				"startTime":"String",
+				"endTime":"String",
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"detachinstanceramrolerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DetachInstanceRamRoleRequest":{
+				"instanceIds":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ramRoleName":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describekeypairsrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeKeyPairsRequest":{
+				"pageNumber":1,
+				"resourceOwnerAccount":"String",
+				"pageSize":1,
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"keyPairFingerPrint":"String",
+				"keyPairName":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describeimagesrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeImagesRequest":{
+				"pageNumber":1,
+				"tag5Value":"String",
+				"usage":"String",
+				"pageSize":1,
+				"tag2Value":"String",
+				"ownerId":1,
+				"ownerAccount":"String",
+				"filter1Value":"String",
+				"isSupportIoOptimized":true,
+				"tag1Key":"String",
+				"tag5Key":"String",
+				"tag3Key":"String",
+				"filter2Key":"String",
+				"architecture":"String",
+				"imageId":"String",
+				"snapshotId":"String",
+				"imageName":"String",
+				"instanceType":"String",
+				"tag1Value":"String",
+				"tag4Value":"String",
+				"showExpired":true,
+				"tag4Key":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"filter1Key":"String",
+				"filter2Value":"String",
+				"tag2Key":"String",
+				"oSType":"String",
+				"imageOwnerAlias":"String",
+				"tag3Value":"String",
+				"status":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describerouterinterfacesrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeRouterInterfacesRequest":{
+				"pageNumber":1,
+				"resourceOwnerAccount":"String",
+				"pageSize":1,
+				"resourceOwnerId":1,
+				"ownerId":1
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"exportimagerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"ExportImageRequest":{
+				"imageFormat":"String",
+				"imageId":"String",
+				"roleName":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"oSSBucket":"String",
+				"ownerId":1,
+				"oSSPrefix":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"joinsecuritygrouprequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"JoinSecurityGroupRequest":{
+				"securityGroupId":"String",
+				"instanceId":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"activaterouterinterfacerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"ActivateRouterInterfaceRequest":{
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"routerInterfaceId":"String",
+				"ownerId":1
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"modifyimagesharepermissionrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"ModifyImageSharePermissionRequest":{
+				"removeAccount9":"String",
+				"addAccount10":"String",
+				"ownerId":1,
+				"ownerAccount":"String",
+				"removeAccount5":"String",
+				"removeAccount6":"String",
+				"removeAccount7":"String",
+				"removeAccount8":"String",
+				"removeAccount1":"String",
+				"removeAccount2":"String",
+				"removeAccount3":"String",
+				"removeAccount10":"String",
+				"removeAccount4":"String",
+				"addAccount7":"String",
+				"addAccount6":"String",
+				"addAccount5":"String",
+				"imageId":"String",
+				"addAccount4":"String",
+				"addAccount9":"String",
+				"addAccount8":"String",
+				"addAccount3":"String",
+				"addAccount2":"String",
+				"addAccount1":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"authorizesecuritygroupegressrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"AuthorizeSecurityGroupEgressRequest":{
+				"portRange":"String",
+				"clientToken":"String",
+				"destCidrIp":"String",
+				"ipProtocol":"String",
+				"ownerId":1,
+				"priority":"String",
+				"ownerAccount":"String",
+				"securityGroupId":"String",
+				"destGroupId":"String",
+				"destGroupOwnerId":1,
+				"destGroupOwnerAccount":"String",
+				"nicType":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"policy":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describevirtualborderroutersforphysicalconnectionrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeVirtualBorderRoutersForPhysicalConnectionRequest":{
+				"physicalConnectionId":"String",
+				"pageNumber":1,
+				"resourceOwnerAccount":"String",
+				"pageSize":1,
+				"resourceOwnerId":1,
+				"ownerId":1
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describephysicalconnectionsrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DescribePhysicalConnectionsRequest":{
+				"pageNumber":1,
+				"clientToken":"String",
+				"pageSize":1,
+				"resourceOwnerAccount":"String",
+				"userCidr":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"creatediskrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"CreateDiskRequest":{
+				"diskName":"String",
+				"snapshotId":"String",
+				"clientToken":"String",
+				"tag5Value":"String",
+				"tag1Value":"String",
+				"description":"String",
+				"tag2Value":"String",
+				"ownerId":1,
+				"ownerAccount":"String",
+				"tag4Value":"String",
+				"tag1Key":"String",
+				"size":1,
+				"tag4Key":"String",
+				"resourceOwnerAccount":"String",
+				"zoneId":"String",
+				"tag5Key":"String",
+				"resourceOwnerId":1,
+				"tag3Key":"String",
+				"tag2Key":"String",
+				"diskCategory":"String",
+				"tag3Value":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describetasksrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeTasksRequest":{
+				"taskAction":"String",
+				"pageNumber":1,
+				"resourceOwnerAccount":"String",
+				"pageSize":1,
+				"resourceOwnerId":1,
+				"startTime":"String",
+				"endTime":"String",
+				"ownerId":1,
+				"ownerAccount":"String",
+				"taskIds":"String",
+				"taskStatus":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describeendpointsrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeEndpointsRequest":{
+				"serviceCode":"String",
+				"id":"String",
+				"type":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"deletehaviprequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DeleteHaVipRequest":{
+				"haVipId":"String",
+				"clientToken":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describehavipsrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeHaVipsRequest":{
+				"pageNumber":1,
+				"resourceOwnerAccount":"String",
+				"pageSize":1,
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describevswitchesrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeVSwitchesRequest":{
+				"isDefault":true,
+				"pageNumber":1,
+				"vSwitchId":"String",
+				"vpcId":"String",
+				"resourceOwnerAccount":"String",
+				"zoneId":"String",
+				"pageSize":1,
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"canceltaskrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"CancelTaskRequest":{
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"taskId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"modifyvrouterattributerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"ModifyVRouterAttributeRequest":{
+				"vRouterId":"String",
+				"vRouterName":"String",
+				"resourceOwnerAccount":"String",
+				"description":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describesecuritygroupsrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeSecurityGroupsRequest":{
+				"securityGroupName":"String",
+				"pageNumber":1,
+				"tag5Value":"String",
+				"tag1Value":"String",
+				"pageSize":1,
+				"fuzzyQuery":true,
+				"tag2Value":"String",
+				"ownerId":1,
+				"ownerAccount":"String",
+				"tag4Value":"String",
+				"securityGroupId":"String",
+				"isQueryEcsCount":true,
+				"tag1Key":"String",
+				"securityGroupIds":"String",
+				"vpcId":"String",
+				"tag4Key":"String",
+				"resourceOwnerAccount":"String",
+				"tag5Key":"String",
+				"resourceOwnerId":1,
+				"tag3Key":"String",
+				"tag2Key":"String",
+				"networkType":"String",
+				"tag3Value":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"deletevirtualborderrouterrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DeleteVirtualBorderRouterRequest":{
+				"clientToken":"String",
+				"resourceOwnerAccount":"String",
+				"userCidr":"String",
+				"resourceOwnerId":1,
+				"vbrId":"String",
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"deletevswitchrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DeleteVSwitchRequest":{
+				"vSwitchId":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"applyautosnapshotpolicyrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"ApplyAutoSnapshotPolicyRequest":{
+				"autoSnapshotPolicyId":"String",
+				"resourceOwnerAccount":"String",
+				"diskIds":"String",
+				"resourceOwnerId":1,
+				"ownerId":1
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describeautosnapshotpolicyrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeAutoSnapshotPolicyRequest":{
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"removebandwidthpackageipsrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"RemoveBandwidthPackageIpsRequest":{
+				"bandwidthPackageId":"String",
+				"clientToken":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"modifybandwidthpackagespecrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"ModifyBandwidthPackageSpecRequest":{
+				"bandwidthPackageId":"String",
+				"bandwidth":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"modifysnapshotattributerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"ModifySnapshotAttributeRequest":{
+				"snapshotId":"String",
+				"snapshotName":"String",
+				"resourceOwnerAccount":"String",
+				"description":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describesnapshotlinksrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeSnapshotLinksRequest":{
+				"snapshotLinkIds":"String",
+				"pageNumber":1,
+				"resourceOwnerAccount":"String",
+				"diskIds":"String",
+				"pageSize":1,
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"associatehaviprequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"AssociateHaVipRequest":{
+				"instanceId":"String",
+				"haVipId":"String",
+				"clientToken":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"revokesecuritygroupegressrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"RevokeSecurityGroupEgressRequest":{
+				"portRange":"String",
+				"destCidrIp":"String",
+				"ipProtocol":"String",
+				"ownerId":1,
+				"ownerAccount":"String",
+				"securityGroupId":"String",
+				"destGroupId":"String",
+				"destGroupOwnerId":1,
+				"destGroupOwnerAccount":"String",
+				"nicType":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"policy":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"createimagerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"CreateImageRequest":{
+				"imageVersion":"String",
+				"snapshotId":"String",
+				"imageName":"String",
+				"clientToken":"String",
+				"tag5Value":"String",
+				"tag1Value":"String",
+				"description":"String",
+				"tag2Value":"String",
+				"ownerId":1,
+				"ownerAccount":"String",
+				"tag4Value":"String",
+				"instanceId":"String",
+				"tag1Key":"String",
+				"tag4Key":"String",
+				"resourceOwnerAccount":"String",
+				"tag5Key":"String",
+				"resourceOwnerId":1,
+				"tag3Key":"String",
+				"tag2Key":"String",
+				"tag3Value":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describeclustersrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeClustersRequest":{
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"createphysicalconnectionrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"CreatePhysicalConnectionRequest":{
+				"bandwidth":1,
+				"clientToken":"String",
+				"accessPointId":"String",
+				"description":"String",
+				"userCidr":"String",
+				"lineOperator":"String",
+				"type":"String",
+				"ownerId":1,
+				"ownerAccount":"String",
+				"redundantPhysicalConnectionId":"String",
+				"portType":"String",
+				"circuitCode":"String",
+				"peerLocation":"String",
+				"name":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"allocateeipaddressrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"AllocateEipAddressRequest":{
+				"internetChargeType":"String",
+				"bandwidth":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"releasepublicipaddressrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"ReleasePublicIpAddressRequest":{
+				"instanceId":"String",
+				"publicIpAddress":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describeinstancesrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeInstancesRequest":{
+				"filter4Value":"String",
+				"pageNumber":1,
+				"instanceName":"String",
+				"deviceAvailable":true,
+				"tag5Value":"String",
+				"pageSize":1,
+				"tag2Value":"String",
+				"ownerId":1,
+				"ownerAccount":"String",
+				"filter1Value":"String",
+				"securityGroupId":"String",
+				"tag1Key":"String",
+				"vSwitchId":"String",
+				"instanceIds":"String",
+				"vpcId":"String",
+				"filter3Value":"String",
+				"zoneId":"String",
+				"ioOptimized":true,
+				"tag5Key":"String",
+				"tag3Key":"String",
+				"instanceNetworkType":"String",
+				"filter2Key":"String",
+				"filter4Key":"String",
+				"keyPairName":"String",
+				"privateIpAddresses":"String",
+				"instanceChargeType":"String",
+				"instanceTypeFamily":"String",
+				"imageId":"String",
+				"innerIpAddresses":"String",
+				"tag1Value":"String",
+				"instanceType":"String",
+				"tag4Value":"String",
+				"lockReason":"String",
+				"internetChargeType":"String",
+				"publicIpAddresses":"String",
+				"tag4Key":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"filter3Key":"String",
+				"filter1Key":"String",
+				"filter2Value":"String",
+				"tag2Key":"String",
+				"tag3Value":"String",
+				"status":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describedisksrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeDisksRequest":{
+				"enableAutomatedSnapshotPolicy":true,
+				"pageNumber":1,
+				"autoSnapshotPolicyId":"String",
+				"tag5Value":"String",
+				"pageSize":1,
+				"tag2Value":"String",
+				"ownerId":1,
+				"ownerAccount":"String",
+				"enableAutoSnapshot":true,
+				"filter1Value":"String",
+				"instanceId":"String",
+				"tag1Key":"String",
+				"diskChargeType":"String",
+				"zoneId":"String",
+				"tag5Key":"String",
+				"tag3Key":"String",
+				"diskType":"String",
+				"filter2Key":"String",
+				"diskName":"String",
+				"snapshotId":"String",
+				"tag1Value":"String",
+				"portable":true,
+				"deleteAutoSnapshot":true,
+				"tag4Value":"String",
+				"lockReason":"String",
+				"deleteWithInstance":true,
+				"tag4Key":"String",
+				"resourceOwnerAccount":"String",
+				"diskIds":"String",
+				"resourceOwnerId":1,
+				"filter1Key":"String",
+				"filter2Value":"String",
+				"tag2Key":"String",
+				"category":"String",
+				"tag3Value":"String",
+				"status":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describeeipaddressesrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeEipAddressesRequest":{
+				"pageNumber":1,
+				"pageSize":1,
+				"allocationId":"String",
+				"associatedInstanceId":"String",
+				"ownerId":1,
+				"ownerAccount":"String",
+				"lockReason":"String",
+				"filter1Value":"String",
+				"associatedInstanceType":"String",
+				"eipAddress":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"filter1Key":"String",
+				"filter2Key":"String",
+				"filter2Value":"String",
+				"status":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"removetagsrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"RemoveTagsRequest":{
+				"resourceId":"String",
+				"tag5Value":"String",
+				"tag1Value":"String",
+				"tag2Value":"String",
+				"ownerId":1,
+				"tag4Value":"String",
+				"tag1Key":"String",
+				"tag4Key":"String",
+				"resourceOwnerAccount":"String",
+				"tag5Key":"String",
+				"resourceOwnerId":1,
+				"tag3Key":"String",
+				"tag2Key":"String",
+				"tag3Value":"String",
+				"resourceType":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describeintranetattributekbrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeIntranetAttributeKbRequest":{
+				"instanceId":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"modifyphysicalconnectionattributerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"ModifyPhysicalConnectionAttributeRequest":{
+				"physicalConnectionId":"String",
+				"bandwidth":1,
+				"clientToken":"String",
+				"description":"String",
+				"userCidr":"String",
+				"lineOperator":"String",
+				"ownerId":1,
+				"ownerAccount":"String",
+				"redundantPhysicalConnectionId":"String",
+				"portType":"String",
+				"circuitCode":"String",
+				"peerLocation":"String",
+				"name":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"associateeipaddressrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"AssociateEipAddressRequest":{
+				"instanceId":"String",
+				"instanceType":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"allocationId":"String",
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"deleterouteentryrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DeleteRouteEntryRequest":{
+				"destinationCidrBlock":"String",
+				"nextHopId":"String",
+				"routeTableId":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"modifyforwardentryrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"ModifyForwardEntryRequest":{
+				"forwardTableId":"String",
+				"internalPort":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ipProtocol":"String",
+				"ownerId":1,
+				"ownerAccount":"String",
+				"externalIp":"String",
+				"internalIp":"String",
+				"externalPort":"String",
+				"forwardEntryId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describeroutetablesrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeRouteTablesRequest":{
+				"vRouterId":"String",
+				"pageNumber":1,
+				"routerId":"String",
+				"routeTableId":"String",
+				"routerType":"String",
+				"resourceOwnerAccount":"String",
+				"pageSize":1,
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"deletediskrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DeleteDiskRequest":{
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"diskId":"String",
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"createvswitchrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"CreateVSwitchRequest":{
+				"vSwitchName":"String",
+				"clientToken":"String",
+				"cidrBlock":"String",
+				"vpcId":"String",
+				"resourceOwnerAccount":"String",
+				"zoneId":"String",
+				"description":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"assumerolerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"AssumeRoleRequest":{
+				"durationSeconds":1,
+				"roleArn":"String",
+				"roleSessionName":"String",
+				"policy":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"modifyrouterinterfaceattributerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"ModifyRouterInterfaceAttributeRequest":{
+				"healthCheckTargetIp":"String",
+				"oppositeInterfaceId":"String",
+				"name":"String",
+				"resourceOwnerAccount":"String",
+				"description":"String",
+				"resourceOwnerId":1,
+				"routerInterfaceId":"String",
+				"healthCheckSourceIp":"String",
+				"ownerId":1,
+				"oppositeInterfaceOwnerId":"String",
+				"oppositeRouterId":"String",
+				"oppositeRouterType":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describetagkeysrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeTagKeysRequest":{
+				"resourceId":"String",
+				"pageNumber":1,
+				"resourceOwnerAccount":"String",
+				"pageSize":1,
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"resourceType":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"deleteautosnapshotpolicyrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DeleteAutoSnapshotPolicyRequest":{
+				"autoSnapshotPolicyId":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describevroutersrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeVRoutersRequest":{
+				"vRouterId":"String",
+				"pageNumber":1,
+				"resourceOwnerAccount":"String",
+				"pageSize":1,
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describeautosnapshotpolicyexrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeAutoSnapshotPolicyExRequest":{
+				"pageNumber":1,
+				"autoSnapshotPolicyId":"String",
+				"resourceOwnerAccount":"String",
+				"pageSize":1,
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describeforwardtableentriesrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeForwardTableEntriesRequest":{
+				"forwardTableId":"String",
+				"pageNumber":1,
+				"resourceOwnerAccount":"String",
+				"pageSize":1,
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String",
+				"forwardEntryId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"createhaviprequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"CreateHaVipRequest":{
+				"vSwitchId":"String",
+				"clientToken":"String",
+				"ipAddress":"String",
+				"resourceOwnerAccount":"String",
+				"description":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"getsessionaccesskeyrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"GetSessionAccessKeyRequest":{
+				"durationSeconds":1,
+				"publicKeyId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"deletephysicalconnectionrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DeletePhysicalConnectionRequest":{
+				"physicalConnectionId":"String",
+				"clientToken":"String",
+				"resourceOwnerAccount":"String",
+				"userCidr":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"cancelcopyimagerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"CancelCopyImageRequest":{
+				"imageId":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"attachkeypairrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"AttachKeyPairRequest":{
+				"instanceIds":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"keyPairName":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"deletevpcrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DeleteVpcRequest":{
+				"vpcId":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"modifyinstancenetworkspecrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"ModifyInstanceNetworkSpecRequest":{
+				"instanceId":"String",
+				"internetMaxBandwidthOut":1,
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"internetMaxBandwidthIn":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"modifyinstanceautoreleasetimerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"ModifyInstanceAutoReleaseTimeRequest":{
+				"autoReleaseTime":"String",
+				"instanceId":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"unassociateeipaddressrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"UnassociateEipAddressRequest":{
+				"instanceId":"String",
+				"instanceType":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"allocationId":"String",
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describesecuritygroupattributerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeSecurityGroupAttributeRequest":{
+				"securityGroupId":"String",
+				"nicType":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String",
+				"direction":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"unassociatehaviprequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"UnassociateHaVipRequest":{
+				"instanceId":"String",
+				"haVipId":"String",
+				"clientToken":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"force":"String",
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describeuserdatarequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeUserDataRequest":{
+				"instanceId":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"modifydiskattributerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"ModifyDiskAttributeRequest":{
+				"diskName":"String",
+				"deleteWithInstance":true,
+				"resourceOwnerAccount":"String",
+				"description":"String",
+				"resourceOwnerId":1,
+				"diskId":"String",
+				"deleteAutoSnapshot":true,
+				"ownerId":1,
+				"ownerAccount":"String",
+				"enableAutoSnapshot":true
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describeresourcebytagsrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeResourceByTagsRequest":{
+				"pageNumber":1,
+				"tag5Value":"String",
+				"tag1Value":"String",
+				"pageSize":1,
+				"tag2Value":"String",
+				"ownerId":1,
+				"tag4Value":"String",
+				"tag1Key":"String",
+				"tag4Key":"String",
+				"resourceOwnerAccount":"String",
+				"tag5Key":"String",
+				"resourceOwnerId":1,
+				"tag3Key":"String",
+				"tag2Key":"String",
+				"tag3Value":"String",
+				"resourceType":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"copyimagerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"CopyImageRequest":{
+				"imageId":"String",
+				"tag5Value":"String",
+				"tag1Value":"String",
+				"destinationRegionId":"String",
+				"tag2Value":"String",
+				"ownerId":1,
+				"ownerAccount":"String",
+				"tag4Value":"String",
+				"destinationDescription":"String",
+				"tag1Key":"String",
+				"tag4Key":"String",
+				"resourceOwnerAccount":"String",
+				"destinationImageName":"String",
+				"tag5Key":"String",
+				"resourceOwnerId":1,
+				"tag3Key":"String",
+				"tag2Key":"String",
+				"tag3Value":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"commonroarequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"CommonRoaRequest":{}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"modifyeipaddressattributerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"ModifyEipAddressAttributeRequest":{
+				"bandwidth":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"allocationId":"String",
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"detachkeypairrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DetachKeyPairRequest":{
+				"instanceIds":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"keyPairName":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"reinitdiskrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"ReInitDiskRequest":{
+				"password":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"diskId":"String",
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"attachdiskrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"AttachDiskRequest":{
+				"instanceId":"String",
+				"deleteWithInstance":true,
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"diskId":"String",
+				"ownerId":1,
+				"ownerAccount":"String",
+				"device":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"modifyintranetbandwidthkbrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"ModifyIntranetBandwidthKbRequest":{
+				"instanceId":"String",
+				"intranetMaxBandwidthIn":1,
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String",
+				"intranetMaxBandwidthOut":1
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"createkeypairrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"CreateKeyPairRequest":{
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"keyPairName":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"attachinstanceramrolerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"AttachInstanceRamRoleRequest":{
+				"instanceIds":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ramRoleName":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describeaccesspointsrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeAccessPointsRequest":{
+				"pageNumber":1,
+				"resourceOwnerAccount":"String",
+				"pageSize":1,
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"type":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"deleteforwardentryrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DeleteForwardEntryRequest":{
+				"forwardTableId":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String",
+				"forwardEntryId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"modifyinstancevpcattributerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"ModifyInstanceVpcAttributeRequest":{
+				"instanceId":"String",
+				"vSwitchId":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String",
+				"privateIpAddress":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"checkautosnapshotpolicyrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"CheckAutoSnapshotPolicyRequest":{
+				"dataDiskPolicyTimePeriod":1,
+				"dataDiskPolicyRetentionLastWeek":true,
+				"systemDiskPolicyEnabled":true,
+				"dataDiskPolicyRetentionDays":1,
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"systemDiskPolicyTimePeriod":1,
+				"ownerId":1,
+				"ownerAccount":"String",
+				"dataDiskPolicyEnabled":true,
+				"systemDiskPolicyRetentionLastWeek":true,
+				"systemDiskPolicyRetentionDays":1
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"eipfillparamsrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"EipFillParamsRequest":{
+				"data":"String",
+				"clientToken":"String",
+				"resourceOwnerAccount":"String",
+				"userCidr":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"deactivaterouterinterfacerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DeactivateRouterInterfaceRequest":{
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"routerInterfaceId":"String",
+				"ownerId":1
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"modifyrouterinterfacespecrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"ModifyRouterInterfaceSpecRequest":{
+				"clientToken":"String",
+				"resourceOwnerAccount":"String",
+				"userCidr":"String",
+				"resourceOwnerId":1,
+				"routerInterfaceId":"String",
+				"ownerId":1,
+				"ownerAccount":"String",
+				"spec":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"rebootinstancerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"RebootInstanceRequest":{
+				"instanceId":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String",
+				"forceStop":true
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"deletekeypairsrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DeleteKeyPairsRequest":{
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"keyPairNames":"String",
+				"ownerId":1
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"modifyvirtualborderrouterattributerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"ModifyVirtualBorderRouterAttributeRequest":{
+				"peerGatewayIp":"String",
+				"vlanId":1,
+				"clientToken":"String",
+				"peeringSubnetMask":"String",
+				"description":"String",
+				"userCidr":"String",
+				"localGatewayIp":"String",
+				"vbrId":"String",
+				"ownerId":1,
+				"ownerAccount":"String",
+				"circuitCode":"String",
+				"name":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"cancelphysicalconnectionrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"CancelPhysicalConnectionRequest":{
+				"physicalConnectionId":"String",
+				"clientToken":"String",
+				"resourceOwnerAccount":"String",
+				"userCidr":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"createsnapshotrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"CreateSnapshotRequest":{
+				"clientToken":"String",
+				"tag5Value":"String",
+				"tag1Value":"String",
+				"description":"String",
+				"tag2Value":"String",
+				"ownerId":1,
+				"ownerAccount":"String",
+				"tag4Value":"String",
+				"tag1Key":"String",
+				"snapshotName":"String",
+				"tag4Key":"String",
+				"resourceOwnerAccount":"String",
+				"tag5Key":"String",
+				"resourceOwnerId":1,
+				"diskId":"String",
+				"tag3Key":"String",
+				"tag2Key":"String",
+				"tag3Value":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describeinstancestatusrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeInstanceStatusRequest":{
+				"pageNumber":1,
+				"resourceOwnerAccount":"String",
+				"zoneId":"String",
+				"pageSize":1,
+				"resourceOwnerId":1,
+				"clusterId":"String",
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"stopinstancerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"StopInstanceRequest":{
+				"instanceId":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String",
+				"forceStop":true
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"modifyimageattributerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"ModifyImageAttributeRequest":{
+				"imageId":"String",
+				"imageName":"String",
+				"resourceOwnerAccount":"String",
+				"description":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describeinstancevncpasswdrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeInstanceVncPasswdRequest":{
+				"instanceId":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describevpcsrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeVpcsRequest":{
+				"isDefault":true,
+				"pageNumber":1,
+				"vpcId":"String",
+				"resourceOwnerAccount":"String",
+				"pageSize":1,
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describezonesrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeZonesRequest":{
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String",
+				"verbose":true
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"renewinstancerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"RenewInstanceRequest":{
+				"period":1,
+				"instanceId":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"deletesnapshotrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DeleteSnapshotRequest":{
+				"snapshotId":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"releaseeipaddressrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"ReleaseEipAddressRequest":{
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"allocationId":"String",
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describetaskattributerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeTaskAttributeRequest":{
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"taskId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"checkdiskenableautosnapshotvalidationrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"CheckDiskEnableAutoSnapshotValidationRequest":{
+				"resourceOwnerAccount":"String",
+				"diskIds":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"createrouteentryrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"CreateRouteEntryRequest":{
+				"destinationCidrBlock":"String",
+				"nextHopId":"String",
+				"clientToken":"String",
+				"routeTableId":"String",
+				"nextHopType":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"modifyvpcattributerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"ModifyVpcAttributeRequest":{
+				"vpcName":"String",
+				"vpcId":"String",
+				"resourceOwnerAccount":"String",
+				"description":"String",
+				"userCidr":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describeinstanceattributerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeInstanceAttributeRequest":{
+				"instanceId":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"resetdiskrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"ResetDiskRequest":{
+				"snapshotId":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"diskId":"String",
+				"ownerId":1,
+				"ownerAccount":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"createrouterinterfacerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"CreateRouterInterfaceRequest":{
+				"healthCheckTargetIp":"String",
+				"role":"String",
+				"clientToken":"String",
+				"routerType":"String",
+				"accessPointId":"String",
+				"description":"String",
+				"userCidr":"String",
+				"oppositeInterfaceOwnerId":"String",
+				"ownerId":1,
+				"ownerAccount":"String",
+				"spec":"String",
+				"oppositeRouterId":"String",
+				"oppositeInterfaceId":"String",
+				"routerId":"String",
+				"name":"String",
+				"resourceOwnerAccount":"String",
+				"oppositeRegionId":"String",
+				"oppositeAccessPointId":"String",
+				"resourceOwnerId":1,
+				"healthCheckSourceIp":"String",
+				"oppositeRouterType":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"acsrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"AcsRequest":{
+				"product":"String",
+				"endpointType":"String",
+				"composer":{},
+				"version":"String",
+				"strToSign":"String",
+				"userAgentConfig":{},
+				"securityToken":"String",
+				"locationProduct":"String",
+				"protocol":{},
+				"regionId":"String",
+				"acceptFormat":{},
+				"productDomain":{
+					"domainName":"String",
+					"productName":"String"
+				},
+				"actionName":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"acsrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"AcsRequest":{
+				"product":"String",
+				"endpointType":"String",
+				"composer":{},
+				"version":"String",
+				"strToSign":"String",
+				"userAgentConfig":{},
+				"securityToken":"String",
+				"locationProduct":"String",
+				"protocol":{},
+				"regionId":"String",
+				"acceptFormat":{},
+				"productDomain":{
+					"domainName":"String",
+					"productName":"String"
+				},
+				"actionName":"String"
+			}
+		}
+	}
+}

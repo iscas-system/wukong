@@ -14,8 +14,8 @@ import java.util.Map;
 
 import com.alibaba.fastjson.JSON;
 
-import io.github.cloudpluslab.wukong.discover.core.ClassScan;
 import io.github.cloudpluslab.wukong.discover.model.JDKInfo;
+import io.github.cloudpluslab.wukong.discover.utils.ClassUtils;
 import io.github.cloudpluslab.wukong.discover.utils.JSONUtils;
 import io.github.cloudpluslab.wukong.discover.utils.JavaUtils;
 
@@ -26,12 +26,14 @@ import io.github.cloudpluslab.wukong.discover.utils.JavaUtils;
  */
 public class Main {
 
-	public final static String JDKINFO_FILE = "conf/jdkinfo.conf-googlegce";
+	public final static String JDKINFO_FILE = "conf/jdkinfo.conf-aliyunecs";
 
 	public final static StringBuffer sb = new StringBuffer();
+	
 
 	public static void main(String[] args) throws Exception {
 
+		long start = System.currentTimeMillis();
 		JDKInfo info = JSON.parseObject(new FileInputStream(new File(JDKINFO_FILE)), JDKInfo.class);
 
 		generate(JSONUtils.metaInfo(info.getKind()));
@@ -42,6 +44,8 @@ public class Main {
 		for (String strJson : objStrs) {
 			generate(strJson);
 		}
+		long end = System.currentTimeMillis();
+		System.out.println(end-start);
 		
 		System.out.println(objStrs.size());
 		System.out.println(sb);
@@ -78,7 +82,7 @@ public class Main {
 	protected static List<String> findGenericStyleObjectJSON(JDKInfo info, Method[] methods) throws Exception {
 		String superclass = getGenericStyleSuperclass(methods);
 		return superclass == null ? new ArrayList<>()
-				: getGenericStyleJSON(info.getKind(), superclass, ClassScan.scan(getPackage(superclass)));
+				: getGenericStyleJSON(info.getKind(), superclass, ClassUtils.scan(getPackage(superclass)));
 	}
 
 	protected static List<String> findDirectStyleObjectJSON(JDKInfo info, Method[] methods) throws Exception {
@@ -94,10 +98,15 @@ public class Main {
 	}
 	
 	protected static List<String> findPreCatalogStyleObjectJSON(JDKInfo info, Method[] methods) throws Exception {
+		try {
 		String superclass = getPreCatalogStyleSuperclass(methods);
 		return superclass == null ? new ArrayList<>() 
 				: getPreCatalogStyleJSON(info.getKind(), superclass, methods);
+		} catch (Exception ex) {
+			return new ArrayList<>();
+		}
 	}
+	
 
 	/*************************************************************
 	 *

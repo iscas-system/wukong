@@ -1,0 +1,4 @@
+{
+	"client":"com.jdcloud.sdk.service.vm.client.VmClient",
+	"kind":"JDVM"
+}

@@ -1,0 +1,4 @@
+{
+	"client":"com.google.api.services.compute.Compute",
+	"kind":"GoogleVM"
+}

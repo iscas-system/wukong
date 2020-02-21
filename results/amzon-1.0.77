@@ -1,0 +1,4489 @@
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"createsubnetrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"CreateSubnetRequest":{
+				"vpcId":"String",
+				"cidrBlock":"String",
+				"availabilityZone":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"importvolumerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"ImportVolumeRequest":{
+				"volume":{
+					"size":1
+				},
+				"image":{
+					"importManifestUrl":"String",
+					"bytes":1,
+					"format":"String"
+				},
+				"description":"String",
+				"availabilityZone":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"deletevolumerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DeleteVolumeRequest":{
+				"volumeId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"modifyidformatrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"ModifyIdFormatRequest":{
+				"useLongIds":true,
+				"resource":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"moveaddresstovpcrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"MoveAddressToVpcRequest":{
+				"publicIp":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"deregisterimagerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DeregisterImageRequest":{
+				"imageId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"rebootinstancesrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"RebootInstancesRequest":{
+				"instanceIds":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"requestspotfleetrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"RequestSpotFleetRequest":{
+				"spotFleetRequestConfig":{
+					"spotPrice":"String",
+					"targetCapacity":1,
+					"clientToken":"String",
+					"terminateInstancesWithExpiration":true,
+					"iamFleetRole":"String",
+					"validUntil":{
+						"cdate":{},
+						"fastTime":1
+					},
+					"validFrom":{
+						"cdate":{},
+						"fastTime":1
+					},
+					"excessCapacityTerminationPolicy":"String",
+					"launchSpecifications":{},
+					"allocationStrategy":"String"
+				}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"startinstancesrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"StartInstancesRequest":{
+				"instanceIds":{},
+				"additionalInfo":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"stopinstancesrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"StopInstancesRequest":{
+				"instanceIds":{},
+				"force":true
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"getconsoleoutputrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"GetConsoleOutputRequest":{
+				"instanceId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"deleteroutetablerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DeleteRouteTableRequest":{
+				"routeTableId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"enablevolumeiorequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"EnableVolumeIORequest":{
+				"volumeId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"createflowlogsrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"CreateFlowLogsRequest":{
+				"deliverLogsPermissionArn":"String",
+				"logGroupName":"String",
+				"clientToken":"String",
+				"trafficType":"String",
+				"resourceIds":{},
+				"resourceType":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"getpassworddatarequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"GetPasswordDataRequest":{
+				"instanceId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describetagsrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeTagsRequest":{
+				"maxResults":1,
+				"nextToken":"String",
+				"filters":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"createimagerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"CreateImageRequest":{
+				"instanceId":"String",
+				"blockDeviceMappings":{},
+				"name":"String",
+				"description":"String",
+				"noReboot":true
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"createsnapshotrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"CreateSnapshotRequest":{
+				"volumeId":"String",
+				"description":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describekeypairsrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeKeyPairsRequest":{
+				"filters":{},
+				"keyNames":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describesubnetsrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeSubnetsRequest":{
+				"filters":{},
+				"subnetIds":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"deletesubnetrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DeleteSubnetRequest":{
+				"subnetId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"importinstancerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"ImportInstanceRequest":{
+				"launchSpecification":{
+					"groupNames":{},
+					"subnetId":"String",
+					"instanceInitiatedShutdownBehavior":"String",
+					"userData":{
+						"data":"String"
+					},
+					"groupIds":{},
+					"instanceType":"String",
+					"additionalInfo":"String",
+					"placement":{
+						"groupName":"String",
+						"tenancy":"String",
+						"hostId":"String",
+						"availabilityZone":"String",
+						"affinity":"String"
+					},
+					"monitoring":true,
+					"privateIpAddress":"String",
+					"architecture":"String"
+				},
+				"diskImages":{},
+				"description":"String",
+				"platform":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"importkeypairrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"ImportKeyPairRequest":{
+				"publicKeyMaterial":"String",
+				"keyName":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"createvpcrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"CreateVpcRequest":{
+				"instanceTenancy":"String",
+				"cidrBlock":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describeregionsrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeRegionsRequest":{
+				"regionNames":{},
+				"filters":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"monitorinstancesrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"MonitorInstancesRequest":{
+				"instanceIds":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"registerimagerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"RegisterImageRequest":{
+				"kernelId":"String",
+				"ramdiskId":"String",
+				"virtualizationType":"String",
+				"blockDeviceMappings":{},
+				"sriovNetSupport":"String",
+				"name":"String",
+				"description":"String",
+				"rootDeviceName":"String",
+				"imageLocation":"String",
+				"architecture":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"createrouterequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"CreateRouteRequest":{
+				"destinationCidrBlock":"String",
+				"networkInterfaceId":"String",
+				"instanceId":"String",
+				"routeTableId":"String",
+				"vpcPeeringConnectionId":"String",
+				"natGatewayId":"String",
+				"gatewayId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"deletesnapshotrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DeleteSnapshotRequest":{
+				"snapshotId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describeflowlogsrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeFlowLogsRequest":{
+				"filter":{},
+				"flowLogIds":{},
+				"nextToken":"String",
+				"maxResults":1
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describeidformatrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeIdFormatRequest":{
+				"resource":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"modifyhostsrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"ModifyHostsRequest":{
+				"autoPlacement":"String",
+				"hostIds":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"deleterouterequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DeleteRouteRequest":{
+				"destinationCidrBlock":"String",
+				"routeTableId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"releaseaddressrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"ReleaseAddressRequest":{
+				"publicIp":"String",
+				"allocationId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"deletekeypairrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DeleteKeyPairRequest":{
+				"keyName":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"releasehostsrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"ReleaseHostsRequest":{
+				"hostIds":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"replacerouterequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"ReplaceRouteRequest":{
+				"destinationCidrBlock":"String",
+				"networkInterfaceId":"String",
+				"instanceId":"String",
+				"routeTableId":"String",
+				"vpcPeeringConnectionId":"String",
+				"natGatewayId":"String",
+				"gatewayId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"runinstancesrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"RunInstancesRequest":{
+				"subnetId":"String",
+				"kernelId":"String",
+				"ramdiskId":"String",
+				"ebsOptimized":true,
+				"imageId":"String",
+				"userData":"String",
+				"blockDeviceMappings":{},
+				"clientToken":"String",
+				"instanceType":"String",
+				"keyName":"String",
+				"monitoring":true,
+				"maxCount":1,
+				"iamInstanceProfile":{
+					"name":"String",
+					"arn":"String"
+				},
+				"privateIpAddress":"String",
+				"instanceInitiatedShutdownBehavior":"String",
+				"disableApiTermination":true,
+				"networkInterfaces":{},
+				"securityGroupIds":{},
+				"additionalInfo":"String",
+				"minCount":1,
+				"securityGroups":{},
+				"placement":{
+					"groupName":"String",
+					"tenancy":"String",
+					"hostId":"String",
+					"availabilityZone":"String",
+					"affinity":"String"
+				}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"detachvpngatewayrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DetachVpnGatewayRequest":{
+				"vpcId":"String",
+				"vpnGatewayId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describevolumesrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeVolumesRequest":{
+				"nextToken":"String",
+				"maxResults":1,
+				"volumeIds":{},
+				"filters":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"createkeypairrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"CreateKeyPairRequest":{
+				"keyName":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"createroutetablerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"CreateRouteTableRequest":{
+				"vpcId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"createvpngatewayrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"CreateVpnGatewayRequest":{
+				"type":"String",
+				"availabilityZone":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"createvolumerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"CreateVolumeRequest":{
+				"volumeType":"String",
+				"snapshotId":"String",
+				"size":1,
+				"encrypted":true,
+				"iops":1,
+				"kmsKeyId":"String",
+				"availabilityZone":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"deleteflowlogsrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DeleteFlowLogsRequest":{
+				"flowLogIds":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"createnatgatewayrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"CreateNatGatewayRequest":{
+				"subnetId":"String",
+				"clientToken":"String",
+				"allocationId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describehostsrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeHostsRequest":{
+				"filter":{},
+				"nextToken":"String",
+				"maxResults":1,
+				"hostIds":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"deletenatgatewayrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DeleteNatGatewayRequest":{
+				"natGatewayId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"createnetworkaclrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"CreateNetworkAclRequest":{
+				"vpcId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describeimagesrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeImagesRequest":{
+				"executableUsers":{},
+				"owners":{},
+				"filters":{},
+				"imageIds":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"deletenetworkaclrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DeleteNetworkAclRequest":{
+				"networkAclId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describevpcsrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeVpcsRequest":{
+				"vpcIds":{},
+				"filters":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"detachvolumerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DetachVolumeRequest":{
+				"instanceId":"String",
+				"volumeId":"String",
+				"force":true,
+				"device":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"createtagsrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"CreateTagsRequest":{
+				"resources":{},
+				"tags":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"importimagerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"ImportImageRequest":{
+				"diskContainers":{},
+				"licenseType":"String",
+				"clientToken":"String",
+				"hypervisor":"String",
+				"roleName":"String",
+				"description":"String",
+				"clientData":{
+					"uploadStart":{
+						"cdate":{},
+						"fastTime":1
+					},
+					"uploadEnd":{
+						"cdate":{},
+						"fastTime":1
+					},
+					"uploadSize":1,
+					"comment":"String"
+				},
+				"platform":"String",
+				"architecture":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"deletetagsrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DeleteTagsRequest":{
+				"resources":{},
+				"tags":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"deletevpngatewayrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DeleteVpnGatewayRequest":{
+				"vpnGatewayId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"deletevpcrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DeleteVpcRequest":{
+				"vpcId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"importsnapshotrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"ImportSnapshotRequest":{
+				"clientToken":"String",
+				"roleName":"String",
+				"description":"String",
+				"diskContainer":{
+					"format":"String",
+					"description":"String",
+					"url":"String",
+					"userBucket":{
+						"s3Key":"String",
+						"s3Bucket":"String"
+					}
+				},
+				"clientData":{
+					"uploadStart":{
+						"cdate":{},
+						"fastTime":1
+					},
+					"uploadEnd":{
+						"cdate":{},
+						"fastTime":1
+					},
+					"uploadSize":1,
+					"comment":"String"
+				}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"allocatehostsrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"AllocateHostsRequest":{
+				"quantity":1,
+				"clientToken":"String",
+				"instanceType":"String",
+				"autoPlacement":"String",
+				"availabilityZone":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"associateaddressrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"AssociateAddressRequest":{
+				"networkInterfaceId":"String",
+				"instanceId":"String",
+				"allowReassociation":true,
+				"publicIp":"String",
+				"allocationId":"String",
+				"privateIpAddress":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"attachvolumerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"AttachVolumeRequest":{
+				"instanceId":"String",
+				"volumeId":"String",
+				"device":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"attachvpngatewayrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"AttachVpnGatewayRequest":{
+				"vpcId":"String",
+				"vpnGatewayId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"bundleinstancerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"BundleInstanceRequest":{
+				"instanceId":"String",
+				"storage":{
+					"s3":{
+						"bucket":"String",
+						"aWSAccessKeyId":"String",
+						"uploadPolicySignature":"String",
+						"prefix":"String",
+						"uploadPolicy":"String"
+					}
+				}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"cancelexporttaskrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"CancelExportTaskRequest":{
+				"exportTaskId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"cancelimporttaskrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"CancelImportTaskRequest":{
+				"importTaskId":"String",
+				"cancelReason":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"copyimagerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"CopyImageRequest":{
+				"sourceImageId":"String",
+				"encrypted":true,
+				"clientToken":"String",
+				"sourceRegion":"String",
+				"name":"String",
+				"description":"String",
+				"kmsKeyId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"allocateaddressrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"AllocateAddressRequest":{
+				"domain":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"copysnapshotrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"CopySnapshotRequest":{
+				"sourceSnapshotId":"String",
+				"encrypted":true,
+				"destinationRegion":"String",
+				"presignedUrl":"String",
+				"sourceRegion":"String",
+				"description":"String",
+				"kmsKeyId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"cancelbundletaskrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"CancelBundleTaskRequest":{
+				"bundleId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"attachclassiclinkvpcrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"AttachClassicLinkVpcRequest":{
+				"instanceId":"String",
+				"vpcId":"String",
+				"groups":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"assignprivateipaddressesrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"AssignPrivateIpAddressesRequest":{
+				"networkInterfaceId":"String",
+				"privateIpAddresses":{},
+				"secondaryPrivateIpAddressCount":1,
+				"allowReassignment":true
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"attachnetworkinterfacerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"AttachNetworkInterfaceRequest":{
+				"networkInterfaceId":"String",
+				"instanceId":"String",
+				"deviceIndex":1
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"attachinternetgatewayrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"AttachInternetGatewayRequest":{
+				"internetGatewayId":"String",
+				"vpcId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"acceptvpcpeeringconnectionrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"AcceptVpcPeeringConnectionRequest":{
+				"vpcPeeringConnectionId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"associatedhcpoptionsrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"AssociateDhcpOptionsRequest":{
+				"dhcpOptionsId":"String",
+				"vpcId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"associateroutetablerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"AssociateRouteTableRequest":{
+				"subnetId":"String",
+				"routeTableId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"authorizesecuritygroupingressrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"AuthorizeSecurityGroupIngressRequest":{
+				"sourceSecurityGroupName":"String",
+				"groupName":"String",
+				"fromPort":1,
+				"groupId":"String",
+				"toPort":1,
+				"ipProtocol":"String",
+				"sourceSecurityGroupOwnerId":"String",
+				"cidrIp":"String",
+				"ipPermissions":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"createplacementgrouprequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"CreatePlacementGroupRequest":{
+				"groupName":"String",
+				"strategy":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"createspotdatafeedsubscriptionrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"CreateSpotDatafeedSubscriptionRequest":{
+				"bucket":"String",
+				"prefix":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"createnetworkinterfacerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"CreateNetworkInterfaceRequest":{
+				"subnetId":"String",
+				"privateIpAddresses":{},
+				"description":"String",
+				"groups":{},
+				"secondaryPrivateIpAddressCount":1,
+				"privateIpAddress":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"createvpcendpointrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"CreateVpcEndpointRequest":{
+				"policyDocument":"String",
+				"routeTableIds":{},
+				"clientToken":"String",
+				"vpcId":"String",
+				"serviceName":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"deletecustomergatewayrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DeleteCustomerGatewayRequest":{
+				"customerGatewayId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"cancelreservedinstanceslistingrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"CancelReservedInstancesListingRequest":{
+				"reservedInstancesListingId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"createdhcpoptionsrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"CreateDhcpOptionsRequest":{
+				"dhcpConfigurations":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"createnetworkaclentryrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"CreateNetworkAclEntryRequest":{
+				"portRange":{
+					"from":1,
+					"to":1
+				},
+				"ruleAction":"String",
+				"protocol":"String",
+				"icmpTypeCode":{
+					"code":1,
+					"type":1
+				},
+				"cidrBlock":"String",
+				"ruleNumber":1,
+				"networkAclId":"String",
+				"egress":true
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"deletedhcpoptionsrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DeleteDhcpOptionsRequest":{
+				"dhcpOptionsId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"deleteinternetgatewayrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DeleteInternetGatewayRequest":{
+				"internetGatewayId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"createvpcpeeringconnectionrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"CreateVpcPeeringConnectionRequest":{
+				"peerOwnerId":"String",
+				"vpcId":"String",
+				"peerVpcId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"authorizesecuritygroupegressrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"AuthorizeSecurityGroupEgressRequest":{
+				"sourceSecurityGroupName":"String",
+				"fromPort":1,
+				"groupId":"String",
+				"toPort":1,
+				"ipProtocol":"String",
+				"sourceSecurityGroupOwnerId":"String",
+				"cidrIp":"String",
+				"ipPermissions":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"createvpnconnectionrouterequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"CreateVpnConnectionRouteRequest":{
+				"destinationCidrBlock":"String",
+				"vpnConnectionId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"cancelconversiontaskrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"CancelConversionTaskRequest":{
+				"reasonMessage":"String",
+				"conversionTaskId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"confirmproductinstancerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"ConfirmProductInstanceRequest":{
+				"productCode":"String",
+				"instanceId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"createreservedinstanceslistingrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"CreateReservedInstancesListingRequest":{
+				"priceSchedules":{},
+				"instanceCount":1,
+				"clientToken":"String",
+				"reservedInstancesId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"createcustomergatewayrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"CreateCustomerGatewayRequest":{
+				"publicIp":"String",
+				"bgpAsn":1,
+				"type":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"createinternetgatewayrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"CreateInternetGatewayRequest":{}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"cancelspotinstancerequestsrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"CancelSpotInstanceRequestsRequest":{
+				"spotInstanceRequestIds":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"cancelspotfleetrequestsrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"CancelSpotFleetRequestsRequest":{
+				"terminateInstances":true,
+				"spotFleetRequestIds":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"createvpnconnectionrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"CreateVpnConnectionRequest":{
+				"customerGatewayId":"String",
+				"options":{
+					"staticRoutesOnly":true
+				},
+				"vpnGatewayId":"String",
+				"type":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"createinstanceexporttaskrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"CreateInstanceExportTaskRequest":{
+				"instanceId":"String",
+				"exportToS3Task":{
+					"diskImageFormat":"String",
+					"containerFormat":"String",
+					"s3Prefix":"String",
+					"s3Bucket":"String"
+				},
+				"targetEnvironment":"String",
+				"description":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"createsecuritygrouprequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"CreateSecurityGroupRequest":{
+				"groupName":"String",
+				"vpcId":"String",
+				"description":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describecustomergatewaysrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeCustomerGatewaysRequest":{
+				"customerGatewayIds":{},
+				"filters":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describedhcpoptionsrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeDhcpOptionsRequest":{
+				"dhcpOptionsIds":{},
+				"filters":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describeexporttasksrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeExportTasksRequest":{
+				"exportTaskIds":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describeaccountattributesrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeAccountAttributesRequest":{
+				"attributeNames":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describeaddressesrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeAddressesRequest":{
+				"allocationIds":{},
+				"filters":{},
+				"publicIps":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"deletesecuritygrouprequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DeleteSecurityGroupRequest":{
+				"groupName":"String",
+				"groupId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describeavailabilityzonesrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeAvailabilityZonesRequest":{
+				"zoneNames":{},
+				"filters":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"deletevpnconnectionrouterequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DeleteVpnConnectionRouteRequest":{
+				"destinationCidrBlock":"String",
+				"vpnConnectionId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describeclassiclinkinstancesrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeClassicLinkInstancesRequest":{
+				"instanceIds":{},
+				"nextToken":"String",
+				"maxResults":1,
+				"filters":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"deletenetworkinterfacerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DeleteNetworkInterfaceRequest":{
+				"networkInterfaceId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"deletevpcendpointsrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DeleteVpcEndpointsRequest":{
+				"vpcEndpointIds":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"deleteplacementgrouprequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DeletePlacementGroupRequest":{
+				"groupName":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"deletevpnconnectionrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DeleteVpnConnectionRequest":{
+				"vpnConnectionId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describebundletasksrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeBundleTasksRequest":{
+				"bundleIds":{},
+				"filters":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"deletenetworkaclentryrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DeleteNetworkAclEntryRequest":{
+				"ruleNumber":1,
+				"networkAclId":"String",
+				"egress":true
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"deletespotdatafeedsubscriptionrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DeleteSpotDatafeedSubscriptionRequest":{}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describeconversiontasksrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeConversionTasksRequest":{
+				"filters":{},
+				"conversionTaskIds":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"deletevpcpeeringconnectionrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DeleteVpcPeeringConnectionRequest":{
+				"vpcPeeringConnectionId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describereservedinstancesofferingsrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeReservedInstancesOfferingsRequest":{
+				"instanceTenancy":"String",
+				"minDuration":1,
+				"includeMarketplace":true,
+				"offeringType":"String",
+				"instanceType":"String",
+				"filters":{},
+				"availabilityZone":"String",
+				"nextToken":"String",
+				"maxResults":1,
+				"maxInstanceCount":1,
+				"reservedInstancesOfferingIds":{},
+				"productDescription":"String",
+				"maxDuration":1
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"purchasereservedinstancesofferingrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"PurchaseReservedInstancesOfferingRequest":{
+				"limitPrice":{
+					"amount":1,
+					"currencyCode":"String"
+				},
+				"instanceCount":1,
+				"reservedInstancesOfferingId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describenetworkinterfaceattributerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeNetworkInterfaceAttributeRequest":{
+				"networkInterfaceId":"String",
+				"attribute":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describereservedinstancesmodificationsrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeReservedInstancesModificationsRequest":{
+				"reservedInstancesModificationIds":{},
+				"nextToken":"String",
+				"filters":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describescheduledinstanceavailabilityrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeScheduledInstanceAvailabilityRequest":{
+				"recurrence":{
+					"occurrenceUnit":"String",
+					"occurrenceRelativeToEnd":true,
+					"occurrenceDays":{},
+					"interval":1,
+					"frequency":"String"
+				},
+				"minSlotDurationInHours":1,
+				"firstSlotStartTimeRange":{
+					"earliestTime":{
+						"cdate":{},
+						"fastTime":1
+					},
+					"latestTime":{
+						"cdate":{},
+						"fastTime":1
+					}
+				},
+				"nextToken":"String",
+				"maxResults":1,
+				"maxSlotDurationInHours":1,
+				"filters":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describereservedinstanceslistingsrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeReservedInstancesListingsRequest":{
+				"reservedInstancesListingId":"String",
+				"filters":{},
+				"reservedInstancesId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"modifyvpcpeeringconnectionoptionsrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"ModifyVpcPeeringConnectionOptionsRequest":{
+				"requesterPeeringConnectionOptions":{
+					"allowEgressFromLocalClassicLinkToRemoteVpc":true,
+					"allowEgressFromLocalVpcToRemoteClassicLink":true
+				},
+				"vpcPeeringConnectionId":"String",
+				"accepterPeeringConnectionOptions":{
+					"allowEgressFromLocalClassicLinkToRemoteVpc":true,
+					"allowEgressFromLocalVpcToRemoteClassicLink":true
+				}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describenatgatewaysrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeNatGatewaysRequest":{
+				"filter":{},
+				"natGatewayIds":{},
+				"maxResults":1,
+				"nextToken":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describevolumestatusrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeVolumeStatusRequest":{
+				"nextToken":"String",
+				"maxResults":1,
+				"volumeIds":{},
+				"filters":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describeinstancesrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeInstancesRequest":{
+				"instanceIds":{},
+				"nextToken":"String",
+				"maxResults":1,
+				"filters":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describespotpricehistoryrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeSpotPriceHistoryRequest":{
+				"productDescriptions":{},
+				"instanceTypes":{},
+				"maxResults":1,
+				"nextToken":"String",
+				"startTime":{
+					"cdate":{},
+					"fastTime":1
+				},
+				"endTime":{
+					"cdate":{},
+					"fastTime":1
+				},
+				"filters":{},
+				"availabilityZone":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describevpcattributerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeVpcAttributeRequest":{
+				"vpcId":"String",
+				"attribute":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describevpcclassiclinkrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeVpcClassicLinkRequest":{
+				"vpcIds":{},
+				"filters":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describenetworkaclsrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeNetworkAclsRequest":{
+				"networkAclIds":{},
+				"filters":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describeplacementgroupsrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DescribePlacementGroupsRequest":{
+				"groupNames":{},
+				"filters":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describespotdatafeedsubscriptionrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeSpotDatafeedSubscriptionRequest":{}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describevpcclassiclinkdnssupportrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeVpcClassicLinkDnsSupportRequest":{
+				"maxResults":1,
+				"nextToken":"String",
+				"vpcIds":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describevpcendpointservicesrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeVpcEndpointServicesRequest":{
+				"maxResults":1,
+				"nextToken":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describenetworkinterfacesrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeNetworkInterfacesRequest":{
+				"filters":{},
+				"networkInterfaceIds":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describescheduledinstancesrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeScheduledInstancesRequest":{
+				"nextToken":"String",
+				"maxResults":1,
+				"slotStartTimeRange":{
+					"earliestTime":{
+						"cdate":{},
+						"fastTime":1
+					},
+					"latestTime":{
+						"cdate":{},
+						"fastTime":1
+					}
+				},
+				"filters":{},
+				"scheduledInstanceIds":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describeimageattributerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeImageAttributeRequest":{
+				"imageId":"String",
+				"attribute":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describeinternetgatewaysrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeInternetGatewaysRequest":{
+				"internetGatewayIds":{},
+				"filters":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describeroutetablesrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeRouteTablesRequest":{
+				"routeTableIds":{},
+				"filters":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describeprefixlistsrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DescribePrefixListsRequest":{
+				"prefixListIds":{},
+				"maxResults":1,
+				"nextToken":"String",
+				"filters":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describesecuritygroupsrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeSecurityGroupsRequest":{
+				"groupNames":{},
+				"groupIds":{},
+				"filters":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describespotinstancerequestsrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeSpotInstanceRequestsRequest":{
+				"spotInstanceRequestIds":{},
+				"filters":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describeimportimagetasksrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeImportImageTasksRequest":{
+				"nextToken":"String",
+				"maxResults":1,
+				"filters":{},
+				"importTaskIds":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describereservedinstancesrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeReservedInstancesRequest":{
+				"offeringType":"String",
+				"filters":{},
+				"reservedInstancesIds":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describeinstanceattributerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeInstanceAttributeRequest":{
+				"instanceId":"String",
+				"attribute":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describespotfleetrequestsrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeSpotFleetRequestsRequest":{
+				"nextToken":"String",
+				"maxResults":1,
+				"spotFleetRequestIds":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describeimportsnapshottasksrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeImportSnapshotTasksRequest":{
+				"nextToken":"String",
+				"maxResults":1,
+				"filters":{},
+				"importTaskIds":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describeinstancestatusrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeInstanceStatusRequest":{
+				"includeAllInstances":true,
+				"instanceIds":{},
+				"nextToken":"String",
+				"maxResults":1,
+				"filters":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describemovingaddressesrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeMovingAddressesRequest":{
+				"nextToken":"String",
+				"maxResults":1,
+				"filters":{},
+				"publicIps":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describesnapshotattributerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeSnapshotAttributeRequest":{
+				"snapshotId":"String",
+				"attribute":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describesnapshotsrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeSnapshotsRequest":{
+				"ownerIds":{},
+				"nextToken":"String",
+				"maxResults":1,
+				"snapshotIds":{},
+				"restorableByUserIds":{},
+				"filters":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describespotfleetinstancesrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeSpotFleetInstancesRequest":{
+				"nextToken":"String",
+				"maxResults":1,
+				"spotFleetRequestId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describevolumeattributerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeVolumeAttributeRequest":{
+				"volumeId":"String",
+				"attribute":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describespotfleetrequesthistoryrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeSpotFleetRequestHistoryRequest":{
+				"nextToken":"String",
+				"maxResults":1,
+				"spotFleetRequestId":"String",
+				"startTime":{
+					"cdate":{},
+					"fastTime":1
+				},
+				"eventType":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"modifyimageattributerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"ModifyImageAttributeRequest":{
+				"userGroups":{},
+				"imageId":"String",
+				"userIds":{},
+				"launchPermission":{
+					"add":{},
+					"remove":{}
+				},
+				"description":"String",
+				"operationType":"String",
+				"attribute":"String",
+				"productCodes":{},
+				"value":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"modifynetworkinterfaceattributerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"ModifyNetworkInterfaceAttributeRequest":{
+				"networkInterfaceId":"String",
+				"attachment":{
+					"attachmentId":"String",
+					"deleteOnTermination":true
+				},
+				"description":"String",
+				"groups":{},
+				"sourceDestCheck":true
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"modifyreservedinstancesrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"ModifyReservedInstancesRequest":{
+				"targetConfigurations":{},
+				"clientToken":"String",
+				"reservedInstancesIds":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"modifyspotfleetrequestrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"ModifySpotFleetRequestRequest":{
+				"targetCapacity":1,
+				"spotFleetRequestId":"String",
+				"excessCapacityTerminationPolicy":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"modifyvolumeattributerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"ModifyVolumeAttributeRequest":{
+				"volumeId":"String",
+				"autoEnableIO":true
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"modifyinstanceplacementrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"ModifyInstancePlacementRequest":{
+				"instanceId":"String",
+				"tenancy":"String",
+				"hostId":"String",
+				"affinity":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"modifyvpcattributerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"ModifyVpcAttributeRequest":{
+				"vpcId":"String",
+				"enableDnsSupport":true,
+				"enableDnsHostnames":true
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"detachclassiclinkvpcrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DetachClassicLinkVpcRequest":{
+				"instanceId":"String",
+				"vpcId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"modifyvpcendpointrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"ModifyVpcEndpointRequest":{
+				"policyDocument":"String",
+				"addRouteTableIds":{},
+				"removeRouteTableIds":{},
+				"resetPolicy":true,
+				"vpcEndpointId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"purchasescheduledinstancesrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"PurchaseScheduledInstancesRequest":{
+				"clientToken":"String",
+				"purchaseRequests":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"disablevgwroutepropagationrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DisableVgwRoutePropagationRequest":{
+				"routeTableId":"String",
+				"gatewayId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"disablevpcclassiclinkrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DisableVpcClassicLinkRequest":{
+				"vpcId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"enablevpcclassiclinkrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"EnableVpcClassicLinkRequest":{
+				"vpcId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describevpnconnectionsrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeVpnConnectionsRequest":{
+				"vpnConnectionIds":{},
+				"filters":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"disassociateaddressrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DisassociateAddressRequest":{
+				"publicIp":"String",
+				"associationId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"modifysubnetattributerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"ModifySubnetAttributeRequest":{
+				"subnetId":"String",
+				"mapPublicIpOnLaunch":true
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describevpngatewaysrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeVpnGatewaysRequest":{
+				"vpnGatewayIds":{},
+				"filters":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"enablevgwroutepropagationrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"EnableVgwRoutePropagationRequest":{
+				"routeTableId":"String",
+				"gatewayId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"disablevpcclassiclinkdnssupportrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DisableVpcClassicLinkDnsSupportRequest":{
+				"vpcId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"disassociateroutetablerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DisassociateRouteTableRequest":{
+				"associationId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describevpcpeeringconnectionsrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeVpcPeeringConnectionsRequest":{
+				"vpcPeeringConnectionIds":{},
+				"filters":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"detachnetworkinterfacerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DetachNetworkInterfaceRequest":{
+				"force":true,
+				"attachmentId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"describevpcendpointsrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DescribeVpcEndpointsRequest":{
+				"maxResults":1,
+				"nextToken":"String",
+				"filters":{},
+				"vpcEndpointIds":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"enablevpcclassiclinkdnssupportrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"EnableVpcClassicLinkDnsSupportRequest":{
+				"vpcId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"detachinternetgatewayrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"DetachInternetGatewayRequest":{
+				"internetGatewayId":"String",
+				"vpcId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"modifyinstanceattributerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"ModifyInstanceAttributeRequest":{
+				"ramdisk":"String",
+				"ebsOptimized":true,
+				"userData":"String",
+				"blockDeviceMappings":{},
+				"kernel":"String",
+				"instanceType":"String",
+				"groups":{},
+				"sourceDestCheck":true,
+				"instanceInitiatedShutdownBehavior":"String",
+				"instanceId":"String",
+				"disableApiTermination":true,
+				"sriovNetSupport":"String",
+				"attribute":"String",
+				"value":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"modifysnapshotattributerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"ModifySnapshotAttributeRequest":{
+				"groupNames":{},
+				"snapshotId":"String",
+				"userIds":{},
+				"operationType":"String",
+				"attribute":"String",
+				"createVolumePermission":{
+					"add":{},
+					"remove":{}
+				}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"unassignprivateipaddressesrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"UnassignPrivateIpAddressesRequest":{
+				"networkInterfaceId":"String",
+				"privateIpAddresses":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"terminateinstancesrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"TerminateInstancesRequest":{
+				"instanceIds":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"replaceroutetableassociationrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"ReplaceRouteTableAssociationRequest":{
+				"routeTableId":"String",
+				"associationId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"rejectvpcpeeringconnectionrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"RejectVpcPeeringConnectionRequest":{
+				"vpcPeeringConnectionId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"resetimageattributerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"ResetImageAttributeRequest":{
+				"imageId":"String",
+				"attribute":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"resetnetworkinterfaceattributerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"ResetNetworkInterfaceAttributeRequest":{
+				"networkInterfaceId":"String",
+				"sourceDestCheck":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"runscheduledinstancesrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"RunScheduledInstancesRequest":{
+				"scheduledInstanceId":"String",
+				"launchSpecification":{
+					"subnetId":"String",
+					"kernelId":"String",
+					"ramdiskId":"String",
+					"ebsOptimized":true,
+					"imageId":"String",
+					"userData":"String",
+					"blockDeviceMappings":{},
+					"instanceType":"String",
+					"keyName":"String",
+					"monitoring":{
+						"enabled":true
+					},
+					"iamInstanceProfile":{
+						"name":"String",
+						"arn":"String"
+					},
+					"networkInterfaces":{},
+					"securityGroupIds":{},
+					"placement":{
+						"groupName":"String",
+						"availabilityZone":"String"
+					}
+				},
+				"clientToken":"String",
+				"instanceCount":1
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"resetinstanceattributerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"ResetInstanceAttributeRequest":{
+				"instanceId":"String",
+				"attribute":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"replacenetworkaclentryrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"ReplaceNetworkAclEntryRequest":{
+				"portRange":{
+					"from":1,
+					"to":1
+				},
+				"ruleAction":"String",
+				"protocol":"String",
+				"icmpTypeCode":{
+					"code":1,
+					"type":1
+				},
+				"cidrBlock":"String",
+				"ruleNumber":1,
+				"networkAclId":"String",
+				"egress":true
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"replacenetworkaclassociationrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"ReplaceNetworkAclAssociationRequest":{
+				"associationId":"String",
+				"networkAclId":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"resetsnapshotattributerequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"ResetSnapshotAttributeRequest":{
+				"snapshotId":"String",
+				"attribute":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"revokesecuritygroupingressrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"RevokeSecurityGroupIngressRequest":{
+				"sourceSecurityGroupName":"String",
+				"groupName":"String",
+				"fromPort":1,
+				"groupId":"String",
+				"toPort":1,
+				"ipProtocol":"String",
+				"sourceSecurityGroupOwnerId":"String",
+				"cidrIp":"String",
+				"ipPermissions":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"reportinstancestatusrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"ReportInstanceStatusRequest":{
+				"reasonCodes":{},
+				"instances":{},
+				"description":"String",
+				"startTime":{
+					"cdate":{},
+					"fastTime":1
+				},
+				"endTime":{
+					"cdate":{},
+					"fastTime":1
+				},
+				"status":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"revokesecuritygroupegressrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"RevokeSecurityGroupEgressRequest":{
+				"sourceSecurityGroupName":"String",
+				"fromPort":1,
+				"groupId":"String",
+				"toPort":1,
+				"ipProtocol":"String",
+				"sourceSecurityGroupOwnerId":"String",
+				"cidrIp":"String",
+				"ipPermissions":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"unmonitorinstancesrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"UnmonitorInstancesRequest":{
+				"instanceIds":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"requestspotinstancesrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"RequestSpotInstancesRequest":{
+				"availabilityZoneGroup":"String",
+				"blockDurationMinutes":1,
+				"spotPrice":"String",
+				"launchSpecification":{
+					"subnetId":"String",
+					"addressingType":"String",
+					"kernelId":"String",
+					"ramdiskId":"String",
+					"ebsOptimized":true,
+					"imageId":"String",
+					"userData":"String",
+					"blockDeviceMappings":{},
+					"instanceType":"String",
+					"keyName":"String",
+					"iamInstanceProfile":{
+						"name":"String",
+						"arn":"String"
+					},
+					"monitoringEnabled":true,
+					"networkInterfaces":{},
+					"allSecurityGroups":{},
+					"securityGroups":{},
+					"placement":{
+						"groupName":"String",
+						"availabilityZone":"String"
+					}
+				},
+				"clientToken":"String",
+				"instanceCount":1,
+				"validUntil":{
+					"cdate":{},
+					"fastTime":1
+				},
+				"launchGroup":"String",
+				"validFrom":{
+					"cdate":{},
+					"fastTime":1
+				},
+				"type":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"restoreaddresstoclassicrequest",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"RestoreAddressToClassicRequest":{
+				"publicIp":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"getawsresponse",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"getawsresponse",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"getawsresponse",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{}
+	}
+}
