@@ -1,0 +1,4 @@
+{
+	"client":"com.qingcloud.sdk.service.InstanceService",
+	"kind":"QingCloudVM"
+}

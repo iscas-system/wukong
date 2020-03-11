@@ -1,0 +1,4 @@
+{
+	"client":"org.openstack4j.openstack.internal.OSClientSession$OSClientSessionV3",
+	"kind":"OpenStackVM"
+}

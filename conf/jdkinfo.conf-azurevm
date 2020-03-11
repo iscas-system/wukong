@@ -1,0 +1,5 @@
+{
+	"client":"com.microsoft.azure.management.compute.implementation.ComputeManagementClientImpl",
+	"analyzer": "io.github.cloudpluslab.wukong.analyzer.RequestWithParameterPatternAnalyzer",
+	"kind":"AzureVM"
+}
