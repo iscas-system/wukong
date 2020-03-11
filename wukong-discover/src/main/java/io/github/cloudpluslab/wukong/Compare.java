@@ -1,7 +1,7 @@
 /**
  * Copyright (2018-2019) Institute of Software, Chinese Academy of Sciences
  */
-package io.github.cloudpluslab.wukong.discover;
+package io.github.cloudpluslab.wukong;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

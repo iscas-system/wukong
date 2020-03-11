@@ -146,22 +146,20 @@
 			<artifactId>kubernetes-model</artifactId>
 			<version>4.6.4</version>
 		</dependency>
-		
+
 		<!-- https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-ecs -->
-	<dependency>
-	    <groupId>com.amazonaws</groupId>
-	    <artifactId>aws-java-sdk-ecs</artifactId>
-	    <version>1.11.702</version>
-	</dependency>
-	
-	<!-- https://mvnrepository.com/artifact/com.google.apis/google-api-services-container -->
-<dependency>
-    <groupId>com.google.apis</groupId>
-    <artifactId>google-api-services-container</artifactId>
-    <version>v1-rev78-1.25.0</version>
-</dependency>
-	
-		
+		<dependency>
+			<groupId>com.amazonaws</groupId>
+			<artifactId>aws-java-sdk-ecs</artifactId>
+			<version>1.11.702</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.google.apis/google-api-services-container -->
+		<dependency>
+			<groupId>com.google.apis</groupId>
+			<artifactId>google-api-services-container</artifactId>
+			<version>v1-rev78-1.25.0</version>
+		</dependency>
 	</dependencies>
 
 	<build>

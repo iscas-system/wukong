@@ -1,7 +1,7 @@
 /**
  * Copyright (2018-2019) Institute of Software, Chinese Academy of Sciences
  */
-package io.github.cloudpluslab.wukong.discover;
+package io.github.cloudpluslab.wukong;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -14,10 +14,10 @@ import java.util.Map;
 
 import com.alibaba.fastjson.JSON;
 
-import io.github.cloudpluslab.wukong.discover.model.JDKInfo;
-import io.github.cloudpluslab.wukong.discover.utils.ClassUtils;
-import io.github.cloudpluslab.wukong.discover.utils.JSONUtils;
-import io.github.cloudpluslab.wukong.discover.utils.JavaUtils;
+import io.github.cloudpluslab.wukong.model.JDKInfo;
+import io.github.cloudpluslab.wukong.utils.ClassUtils;
+import io.github.cloudpluslab.wukong.utils.JSONUtils;
+import io.github.cloudpluslab.wukong.utils.JavaUtils;
 
 /**
  * @author tangting18@otcaix.iscas.ac.cn

@@ -1,7 +1,7 @@
 /**
  * Copyrigt (2019, ) Institute of Software, Chinese Academy of Sciences
  */
-package io.github.cloudpluslab.wukong.discover.utils;
+package io.github.cloudpluslab.wukong.utils;
 
 import java.security.InvalidParameterException;
 import java.util.HashMap;
