@@ -5,7 +5,6 @@ package io.github.cloudpluslab.wukong;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.IOException;
 import java.lang.reflect.Constructor;
 
 import com.alibaba.fastjson.JSON;
@@ -20,7 +19,13 @@ public class Classifier {
 
 //	public final static String CONFIG = "conf/jdkinfo.conf-aliyunecs";
 	
-	public final static String CONFIG = "conf/jdkinfo.conf-amazonec2";
+//	public final static String CONFIG = "conf/jdkinfo.conf-amazonec2";
+	
+//	public final static String CONFIG = "conf/jdkinfo.conf-baiduvm";
+	
+//	public final static String CONFIG = "conf/jdkinfo.conf-tencentVM";
+	
+	public final static String CONFIG = "conf/jdkinfo.conf-JDVM";
 	
 	public static void main(String[] args) throws Exception {
 		JSONObject jo = JSON.parseObject(new FileInputStream(new File(CONFIG)), JSONObject.class);

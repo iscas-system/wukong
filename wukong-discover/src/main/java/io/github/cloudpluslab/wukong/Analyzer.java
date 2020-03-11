@@ -39,7 +39,19 @@ public abstract class Analyzer {
 
 	public List<Class<?>> findRequestClasses(Set<String> superClasses) {
 		List<Class<?>> list = new ArrayList<Class<?>>();
-		for (Class<?> clz : ClassUtils.scan(client.getPackage().getName(), null)) {
+		
+		String pkgname = client.getPackage().getName();
+		doFind(superClasses, list, pkgname);
+		if (list.size() == 0) {
+			int idx = pkgname.lastIndexOf(".");
+			String basename = pkgname.substring(0, idx);
+			doFind(superClasses, list, basename);
+		}
+		return list;
+	}
+
+	protected void doFind(Set<String> superClasses, List<Class<?>> list, String pkgname) {
+		for (Class<?> clz : ClassUtils.scan(pkgname, null)) {
 			if (clz.getModifiers() == Modifier.PUBLIC 
 					&& clz.getModifiers() != Modifier.ABSTRACT
 					&& clz.getAnnotation(Deprecated.class) == null) {
@@ -56,7 +68,6 @@ public abstract class Analyzer {
 				}
 			}
 		}
-		return list;
 	}
 	
 	public abstract List<JSONObject> getLifecycles();

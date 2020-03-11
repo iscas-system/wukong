@@ -20,12 +20,12 @@ import io.github.cloudpluslab.wukong.utils.JavaUtils;
  * @author wuheng@otcaix.iscas.ac.cn
  * @since  2020.3.8
  * 
- * Aliyun, AmazonEC2
+ * Aliyun, Amazon, Baidu, Tencent, JD
  */
-public class RequestWithResponseAnalyzer extends Analyzer {
+public class RequestResponsePatternAnalyzer extends Analyzer {
 
 
-	public RequestWithResponseAnalyzer(String kind, Class<?> client) {
+	public RequestResponsePatternAnalyzer(String kind, Class<?> client) {
 		super(kind, client);
 	}
 
