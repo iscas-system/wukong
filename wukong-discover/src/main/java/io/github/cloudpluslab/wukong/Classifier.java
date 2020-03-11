@@ -25,7 +25,11 @@ public class Classifier {
 	
 //	public final static String CONFIG = "conf/jdkinfo.conf-tencentVM";
 	
-	public final static String CONFIG = "conf/jdkinfo.conf-JDVM";
+//	public final static String CONFIG = "conf/jdkinfo.conf-JDVM";
+	
+//	public final static String CONFIG = "conf/jdkinfo.conf-azurevm"; 
+	
+	public final static String CONFIG = "conf/jdkinfo.conf-googlegce"; 
 	
 	public static void main(String[] args) throws Exception {
 		JSONObject jo = JSON.parseObject(new FileInputStream(new File(CONFIG)), JSONObject.class);
