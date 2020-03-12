@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>io.github.cloudpluslab</groupId>
-	<artifactId>wukong-discover</artifactId>
+	<artifactId>wukong</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>wukong-discover</name>
+	<name>wukong</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
