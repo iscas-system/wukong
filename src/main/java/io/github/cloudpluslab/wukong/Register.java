@@ -39,7 +39,7 @@ public class Register {
 			Constructor<?> aCtr = aClass.getConstructor(String.class, Class.class);
 			Analyzer analyzer = (Analyzer) aCtr.newInstance(jo.getString("kind")
 									, Class.forName(jo.getString("client")));
-			Generator generator = new Generator(jo.getString("kind"), analyzer.getResults());
+			Generator generator = new Generator(jo.getString("kind"), analyzer);
 			generator.generate();
 		} catch (Exception ex) {
 			ex.printStackTrace();

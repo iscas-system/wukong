@@ -6,6 +6,7 @@ package io.github.cloudpluslab.wukong;
 import java.io.File;
 import java.io.FileInputStream;
 import java.lang.reflect.Constructor;
+import java.util.List;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
@@ -25,12 +26,13 @@ public class Classifier {
 	
 //	public final static String CONFIG = "conf/jdkinfo.conf-tencentVM";
 	
-	public final static String CONFIG = "conf/jdkinfo.conf-JDVM";
+//	public final static String CONFIG = "conf/jdkinfo.conf-JDVM";
 	
-//	public final static String CONFIG = "conf/jdkinfo.conf-azurevm"; 
+	public final static String CONFIG = "conf/jdkinfo.conf-azurevm"; 
 	
 //	public final static String CONFIG = "conf/jdkinfo.conf-googlegce"; 
 	
+	@SuppressWarnings({ "unused", "rawtypes" })
 	public static void main(String[] args) throws Exception {
 		JSONObject jo = JSON.parseObject(new FileInputStream(new File(CONFIG)), JSONObject.class);
 		
@@ -39,7 +41,9 @@ public class Classifier {
 			Constructor<?> aCtr = aClass.getConstructor(String.class, Class.class);
 			Analyzer analyzer = (Analyzer) aCtr.newInstance(jo.getString("kind")
 									, Class.forName(jo.getString("client")));
-			Generator generator = new Generator(jo.getString("kind"), analyzer.getResults());
+			List list = analyzer.getRegisterInfos();
+//			System.out.println(analyzer.useRegisterInfos());
+			Generator generator = new Generator(jo.getString("kind"), analyzer);
 			generator.generate();
 		} catch (Exception ex) {
 			ex.printStackTrace();

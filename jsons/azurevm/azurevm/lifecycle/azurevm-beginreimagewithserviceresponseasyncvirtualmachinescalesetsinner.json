@@ -9,7 +9,8 @@
 		"lifecycle":{
 			"beginReimageWithServiceResponseAsyncVirtualMachineScaleSetsInner":{
 				"_arg0":"String",
-				"_arg1":"String"
+				"_arg1":"String",
+				"_arg2":{}
 			}
 		}
 	}

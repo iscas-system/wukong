@@ -30,7 +30,7 @@ public class RequestWithParameterPatternAnalyzer extends Analyzer {
 
 	@Override
 	@SuppressWarnings("rawtypes")
-	public List getResults() {
+	public List getRegisterInfos() {
 		
 		Map<String, List<MethodModel>> map = new HashMap<String, List<MethodModel>>();
 		for (Method method : client.getDeclaredMethods()) {
@@ -84,6 +84,10 @@ public class RequestWithParameterPatternAnalyzer extends Analyzer {
 			ms = (ms == null) ? new ArrayList<MethodModel>() : ms;
 			ms.add(new MethodModel(method.getReturnType(), m));
 			map.put(key, ms);
+			
+			String infoKey = m.getName() + method.getReturnType().getSimpleName();
+			String infoValue = method.getName() + "-" + m.getName();
+			infos.put(infoKey, infoValue);
 		}
 	}
 

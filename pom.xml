@@ -65,51 +65,50 @@
 		<!-- ****************************** -->
 
 		<!-- https://mvnrepository.com/artifact/org.pacesys/openstack4j -->
-		<dependency>
+		<!-- <dependency>
 			<groupId>org.pacesys</groupId>
 			<artifactId>openstack4j</artifactId>
 			<version>3.2.0</version>
-		</dependency>
+		</dependency> -->
 
 		<!-- https://mvnrepository.com/artifact/com.microsoft.azure/azure -->
-		<dependency>
+		<!-- <dependency>
 			<groupId>com.microsoft.azure</groupId>
 			<artifactId>azure</artifactId>
 			<version>1.28.0</version>
-			<!-- <version>1.0.0</version> -->
-		</dependency>
+		</dependency> -->
 
 		<!-- https://mvnrepository.com/artifact/com.google.apis/google-api-services-compute -->
-		<dependency>
+		<!-- <dependency>
 			<groupId>com.google.apis</groupId>
 			<artifactId>google-api-services-compute</artifactId>
 			<version>v1-rev214-1.25.0</version>
-		</dependency>
+		</dependency> -->
 
 		<!-- https://mvnrepository.com/artifact/com.qingcloud/qingcloud-sdk-java -->
 		<!-- <dependency> <groupId>com.qingcloud</groupId> <artifactId>qingcloud-sdk-java</artifactId> 
 			<version>1.2.0</version> </dependency> -->
 
 		<!-- https://mvnrepository.com/artifact/com.jdcloud.sdk/core -->
-		<dependency>
+		<!-- <dependency>
 			<groupId>com.jdcloud.sdk</groupId>
 			<artifactId>core</artifactId>
 			<version>2.2.2</version>
-		</dependency>
+		</dependency> -->
 
 		<!-- https://mvnrepository.com/artifact/com.jdcloud.sdk/vm -->
-		<dependency>
+		<!-- <dependency>
 			<groupId>com.jdcloud.sdk</groupId>
 			<artifactId>vm</artifactId>
 			<version>1.2.5</version>
-		</dependency>
+		</dependency> -->
 
 		<!-- https://mvnrepository.com/artifact/com.tencentcloudapi/tencentcloud-sdk-java -->
-		<dependency>
+		<!-- <dependency>
 			<groupId>com.tencentcloudapi</groupId>
 			<artifactId>tencentcloud-sdk-java</artifactId>
 			<version>3.0.112</version>
-		</dependency>
+		</dependency> -->
 
 		<!-- https://mvnrepository.com/artifact/com.baidubce/bce-java-sdk -->
 		 <!-- <dependency>
@@ -127,26 +126,25 @@
 		</dependency> -->
 
 		<!-- https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-ec2 -->
-		<dependency>
+		<!-- <dependency>
 			<groupId>com.amazonaws</groupId>
 			<artifactId>aws-java-sdk-ec2</artifactId>
 			<version>1.11.692</version>
-			<!-- <version>1.10.77</version> -->
-		</dependency>
+		</dependency> -->
 
 		<!-- https://mvnrepository.com/artifact/com.aliyun/aliyun-java-sdk-core -->
-		<dependency>
+		<!-- <dependency>
 			<groupId>com.aliyun</groupId>
 			<artifactId>aliyun-java-sdk-core</artifactId>
 			<version>4.4.9</version>
-		</dependency>
+		</dependency> -->
 
 		<!-- https://mvnrepository.com/artifact/com.aliyun/aliyun-java-sdk-ecs -->
-		<dependency>
+		<!-- <dependency>
 			<groupId>com.aliyun</groupId>
 			<artifactId>aliyun-java-sdk-ecs</artifactId>
 			<version>4.17.8</version>
-		</dependency>
+		</dependency> -->
 
 		<!-- ****************************** -->
 		<!-- ****************************** -->
@@ -154,32 +152,32 @@
 		<!-- ****************************** -->
 		<!-- ****************************** -->
 		<!-- https://mvnrepository.com/artifact/io.fabric8/kubernetes-client -->
-		<dependency>
+		<!-- <dependency>
 			<groupId>io.fabric8</groupId>
 			<artifactId>kubernetes-client</artifactId>
 			<version>4.6.4</version>
-		</dependency>
+		</dependency> -->
 
 		<!-- https://mvnrepository.com/artifact/io.fabric8/kubernetes-model -->
-		<dependency>
+		<!-- <dependency>
 			<groupId>io.fabric8</groupId>
 			<artifactId>kubernetes-model</artifactId>
 			<version>4.6.4</version>
-		</dependency>
+		</dependency> -->
 
 		<!-- https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-ecs -->
-		<dependency>
+		<!-- <dependency>
 			<groupId>com.amazonaws</groupId>
 			<artifactId>aws-java-sdk-ecs</artifactId>
 			<version>1.11.702</version>
-		</dependency>
+		</dependency> -->
 
 		<!-- https://mvnrepository.com/artifact/com.google.apis/google-api-services-container -->
-		<dependency>
+		<!-- <dependency>
 			<groupId>com.google.apis</groupId>
 			<artifactId>google-api-services-container</artifactId>
 			<version>v1-rev78-1.25.0</version>
-		</dependency>
+		</dependency> -->
 	</dependencies>
 
 	<build>

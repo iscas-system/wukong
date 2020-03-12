@@ -1,7 +1,5 @@
 package io.github.cloudpluslab.wukong.discover;
 
-import com.google.api.services.compute.Compute;
-
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
@@ -20,7 +18,6 @@ public class AppTest
     public AppTest( String testName )
     {
         super( testName );
-        Compute c = null;
     }
 
     /**

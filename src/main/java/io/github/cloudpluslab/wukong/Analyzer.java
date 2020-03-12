@@ -3,7 +3,9 @@
  */
 package io.github.cloudpluslab.wukong;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * @author tangting18@otcaix.iscas.ac.cn
@@ -12,6 +14,8 @@ import java.util.List;
  */
 public abstract class Analyzer {
 
+	protected final Map<String, String> infos = new HashMap<String, String>();
+	
 	protected final String kind;
 	
 	protected final Class<?> client;
@@ -31,6 +35,10 @@ public abstract class Analyzer {
 	}
 
 	@SuppressWarnings("rawtypes")
-	public abstract List getResults();
+	public abstract List getRegisterInfos();
+	
+	public Map<String, String> useRegisterInfos() {
+		return infos;
+	}
 	
 }

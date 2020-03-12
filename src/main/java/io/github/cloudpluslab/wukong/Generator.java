@@ -6,7 +6,9 @@ package io.github.cloudpluslab.wukong;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
@@ -68,18 +70,45 @@ public class Generator {
 	@SuppressWarnings("rawtypes")
 	protected final List list;
 	
-	@SuppressWarnings("rawtypes")
-	public Generator(String kind, List list) {
+	protected final Map<String, String> map;
+	
+	public Generator(String kind, Analyzer analyzer) {
 		super();
 		this.kind = kind;
-		this.list = list;
+		this.list = analyzer.getRegisterInfos();
+		this.map  = analyzer.useRegisterInfos();
 	}
 	
 	public void generate() throws Exception {
 		File root = mkdirIfNeed(null, "jsons");
 		generateKubeNS(root);
 		generateKubeCRD(root);
-		
+		generateBackend(root);
+		generateLifecycle(root);
+	}
+
+	protected void generateBackend(File root) throws IOException {
+		JSONObject jo = new JSONObject();
+		jo.put("apiVersion", "cloudplus.io/v1alpha3");
+		jo.put("kind", "Backend");
+		JSONObject meta = new JSONObject();
+		meta.put("name", kind.toLowerCase());
+		jo.put("metadata", meta);
+		JSONObject spec = new JSONObject();
+		List<JSONObject> list = new ArrayList<JSONObject>();
+		for (String key : map.keySet()) {
+			JSONObject oo = new JSONObject();
+			oo.put("name", key);
+			oo.put("value", map.get(key));
+			list.add(oo);
+		}
+		spec.put("lifecycle", list);
+		jo.put("spec", spec);
+		FileWriter kubeNS = new FileWriter(new File(root, kind.toLowerCase() + "-bkd.json"));
+		generate(kubeNS, JSON.toJSONString(jo, true));
+	}
+
+	protected void generateLifecycle(File root) throws Exception, IOException {
 		for (Object obj : list) {
 			JSONObject jo = new JSONObject();
 			jo.put("apiVersion", "cloudplus.io/v1alpha3");
@@ -114,8 +143,6 @@ public class Generator {
 			jo.put("spec", spec);
 			generateKubeLifecycle(root, jo);
 		}
-		
-		
 	}
 
 	protected File mkdirIfNeed(File dir , String name) {
