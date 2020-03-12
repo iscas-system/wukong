@@ -1,0 +1,17 @@
+{
+	"metadata":{
+		"name":"describeregionsrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"describeRegionsRequest":{
+				"regionNames":{},
+				"allRegions":true,
+				"filters":{}
+			}
+		}
+	}
+}

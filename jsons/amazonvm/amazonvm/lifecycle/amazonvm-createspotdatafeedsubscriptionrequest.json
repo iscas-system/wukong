@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"createspotdatafeedsubscriptionrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"createSpotDatafeedSubscriptionRequest":{
+				"bucket":"String",
+				"prefix":"String"
+			}
+		}
+	}
+}

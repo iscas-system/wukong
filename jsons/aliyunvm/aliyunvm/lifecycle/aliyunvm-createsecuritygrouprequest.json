@@ -1,0 +1,24 @@
+{
+	"metadata":{
+		"name":"createsecuritygrouprequest",
+		"namespace":"aliyunvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"createSecurityGroupRequest":{
+				"securityGroupName":"String",
+				"securityGroupType":"String",
+				"clientToken":"String",
+				"vpcId":"String",
+				"description":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"resourceGroupId":"String",
+				"ownerAccount":"String",
+				"ownerId":1
+			}
+		}
+	}
+}

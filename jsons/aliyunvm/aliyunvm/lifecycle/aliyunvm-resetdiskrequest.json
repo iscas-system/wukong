@@ -1,0 +1,20 @@
+{
+	"metadata":{
+		"name":"resetdiskrequest",
+		"namespace":"aliyunvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"resetDiskRequest":{
+				"snapshotId":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"diskId":"String",
+				"ownerAccount":"String",
+				"ownerId":1
+			}
+		}
+	}
+}

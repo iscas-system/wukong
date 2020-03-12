@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"describehostsrequest",
+		"namespace":"tencentvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentVM",
+	"spec":{
+		"lifecycle":{
+			"describeHostsRequest":{
+				"Limit":1,
+				"Offset":1
+			}
+		}
+	}
+}

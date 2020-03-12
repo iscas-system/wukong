@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"getbyresourcegroupasyncimagesinner",
+		"namespace":"azurevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"getByResourceGroupAsyncImagesInner":{
+				"_arg0":"String",
+				"_arg1":"String"
+			}
+		}
+	}
+}

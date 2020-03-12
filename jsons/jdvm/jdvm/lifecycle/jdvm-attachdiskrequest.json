@@ -1,0 +1,19 @@
+{
+	"metadata":{
+		"name":"attachdiskrequest",
+		"namespace":"jdvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"JDVM",
+	"spec":{
+		"lifecycle":{
+			"attachDiskRequest":{
+				"instanceId":"String",
+				"regionId":"String",
+				"autoDelete":true,
+				"diskId":"String",
+				"deviceName":"String"
+			}
+		}
+	}
+}

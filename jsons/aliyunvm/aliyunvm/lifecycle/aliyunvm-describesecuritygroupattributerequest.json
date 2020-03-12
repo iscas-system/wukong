@@ -1,0 +1,21 @@
+{
+	"metadata":{
+		"name":"describesecuritygroupattributerequest",
+		"namespace":"aliyunvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"describeSecurityGroupAttributeRequest":{
+				"securityGroupId":"String",
+				"nicType":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerAccount":"String",
+				"ownerId":1,
+				"direction":"String"
+			}
+		}
+	}
+}

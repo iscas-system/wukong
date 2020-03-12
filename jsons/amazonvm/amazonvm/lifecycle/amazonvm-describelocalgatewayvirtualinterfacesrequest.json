@@ -1,0 +1,18 @@
+{
+	"metadata":{
+		"name":"describelocalgatewayvirtualinterfacesrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"describeLocalGatewayVirtualInterfacesRequest":{
+				"maxResults":1,
+				"nextToken":"String",
+				"localGatewayVirtualInterfaceIds":{},
+				"filters":{}
+			}
+		}
+	}
+}

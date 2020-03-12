@@ -1,0 +1,23 @@
+{
+	"metadata":{
+		"name":"createtrafficmirrorsessionrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"createTrafficMirrorSessionRequest":{
+				"networkInterfaceId":"String",
+				"tagSpecifications":{},
+				"packetLength":1,
+				"sessionNumber":1,
+				"clientToken":"String",
+				"virtualNetworkId":1,
+				"description":"String",
+				"trafficMirrorFilterId":"String",
+				"trafficMirrorTargetId":"String"
+			}
+		}
+	}
+}

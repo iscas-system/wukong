@@ -1,0 +1,25 @@
+{
+	"metadata":{
+		"name":"createtransitgatewayrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"createTransitGatewayRequest":{
+				"tagSpecifications":{},
+				"options":{
+					"amazonSideAsn":1,
+					"defaultRouteTablePropagation":"String",
+					"multicastSupport":"String",
+					"vpnEcmpSupport":"String",
+					"autoAcceptSharedAttachments":"String",
+					"defaultRouteTableAssociation":"String",
+					"dnsSupport":"String"
+				},
+				"description":"String"
+			}
+		}
+	}
+}

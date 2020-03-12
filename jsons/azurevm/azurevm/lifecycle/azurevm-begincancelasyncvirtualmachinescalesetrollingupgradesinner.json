@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"begincancelasyncvirtualmachinescalesetrollingupgradesinner",
+		"namespace":"azurevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"beginCancelAsyncVirtualMachineScaleSetRollingUpgradesInner":{
+				"_arg0":"String",
+				"_arg1":"String"
+			}
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"metadata":{
+		"name":"deleteimagerequest",
+		"namespace":"aliyunvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"deleteImageRequest":{
+				"imageId":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"force":true,
+				"ownerAccount":"String",
+				"ownerId":1
+			}
+		}
+	}
+}

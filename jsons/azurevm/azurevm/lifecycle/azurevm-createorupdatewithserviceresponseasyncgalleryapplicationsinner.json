@@ -1,0 +1,27 @@
+{
+	"metadata":{
+		"name":"createorupdatewithserviceresponseasyncgalleryapplicationsinner",
+		"namespace":"azurevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"createOrUpdateWithServiceResponseAsyncGalleryApplicationsInner":{
+				"_arg0":"String",
+				"_arg1":"String",
+				"_arg2":"String",
+				"_arg3":{
+					"releaseNoteUri":"String",
+					"description":"String",
+					"eula":"String",
+					"supportedOSType":{
+						"value":"String"
+					},
+					"endOfLifeDate":{},
+					"privacyStatementUri":"String"
+				}
+			}
+		}
+	}
+}

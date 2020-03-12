@@ -1,0 +1,17 @@
+{
+	"metadata":{
+		"name":"updatesecuritygroupruledescriptionsegressrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"updateSecurityGroupRuleDescriptionsEgressRequest":{
+				"groupName":"String",
+				"groupId":"String",
+				"ipPermissions":{}
+			}
+		}
+	}
+}

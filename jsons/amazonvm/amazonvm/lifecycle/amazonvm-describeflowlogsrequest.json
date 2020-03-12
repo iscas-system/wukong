@@ -1,0 +1,18 @@
+{
+	"metadata":{
+		"name":"describeflowlogsrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"describeFlowLogsRequest":{
+				"filter":{},
+				"flowLogIds":{},
+				"maxResults":1,
+				"nextToken":"String"
+			}
+		}
+	}
+}

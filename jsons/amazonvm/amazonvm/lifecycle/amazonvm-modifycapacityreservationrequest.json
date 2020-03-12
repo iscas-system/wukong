@@ -1,0 +1,21 @@
+{
+	"metadata":{
+		"name":"modifycapacityreservationrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"modifyCapacityReservationRequest":{
+				"endDate":{
+					"cdate":{},
+					"fastTime":1
+				},
+				"instanceCount":1,
+				"endDateType":"String",
+				"capacityReservationId":"String"
+			}
+		}
+	}
+}

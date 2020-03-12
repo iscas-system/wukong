@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"describeinstancetypesrequest",
+		"namespace":"jdvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"JDVM",
+	"spec":{
+		"lifecycle":{
+			"describeInstanceTypesRequest":{
+				"regionId":"String",
+				"serviceName":"String"
+			}
+		}
+	}
+}

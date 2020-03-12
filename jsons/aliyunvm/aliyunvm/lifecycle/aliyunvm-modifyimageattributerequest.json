@@ -1,0 +1,21 @@
+{
+	"metadata":{
+		"name":"modifyimageattributerequest",
+		"namespace":"aliyunvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"modifyImageAttributeRequest":{
+				"imageId":"String",
+				"imageName":"String",
+				"description":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerAccount":"String",
+				"ownerId":1
+			}
+		}
+	}
+}

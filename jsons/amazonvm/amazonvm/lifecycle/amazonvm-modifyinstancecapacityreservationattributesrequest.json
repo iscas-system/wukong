@@ -1,0 +1,21 @@
+{
+	"metadata":{
+		"name":"modifyinstancecapacityreservationattributesrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"modifyInstanceCapacityReservationAttributesRequest":{
+				"instanceId":"String",
+				"capacityReservationSpecification":{
+					"capacityReservationPreference":"String",
+					"capacityReservationTarget":{
+						"capacityReservationId":"String"
+					}
+				}
+			}
+		}
+	}
+}

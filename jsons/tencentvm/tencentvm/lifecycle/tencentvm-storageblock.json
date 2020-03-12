@@ -1,0 +1,17 @@
+{
+	"metadata":{
+		"name":"storageblock",
+		"namespace":"tencentvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentVM",
+	"spec":{
+		"lifecycle":{
+			"storageBlock":{
+				"MinSize":1,
+				"Type":"String",
+				"MaxSize":1
+			}
+		}
+	}
+}

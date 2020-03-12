@@ -1,0 +1,23 @@
+{
+	"metadata":{
+		"name":"exportimagerequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"exportImageRequest":{
+				"diskImageFormat":"String",
+				"imageId":"String",
+				"clientToken":"String",
+				"s3ExportLocation":{
+					"s3Prefix":"String",
+					"s3Bucket":"String"
+				},
+				"roleName":"String",
+				"description":"String"
+			}
+		}
+	}
+}

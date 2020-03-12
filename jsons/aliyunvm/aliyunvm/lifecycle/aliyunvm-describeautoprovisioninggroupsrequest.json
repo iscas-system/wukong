@@ -1,0 +1,21 @@
+{
+	"metadata":{
+		"name":"describeautoprovisioninggroupsrequest",
+		"namespace":"aliyunvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"describeAutoProvisioningGroupsRequest":{
+				"pageNumber":1,
+				"autoProvisioningGroupName":"String",
+				"pageSize":1,
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerAccount":"String",
+				"ownerId":1
+			}
+		}
+	}
+}

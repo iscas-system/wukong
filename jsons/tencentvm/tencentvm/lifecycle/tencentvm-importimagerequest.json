@@ -1,0 +1,22 @@
+{
+	"metadata":{
+		"name":"importimagerequest",
+		"namespace":"tencentvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentVM",
+	"spec":{
+		"lifecycle":{
+			"importImageRequest":{
+				"ImageName":"String",
+				"Architecture":"String",
+				"OsType":"String",
+				"Force":true,
+				"OsVersion":"String",
+				"DryRun":true,
+				"ImageUrl":"String",
+				"ImageDescription":"String"
+			}
+		}
+	}
+}

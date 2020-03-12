@@ -1,0 +1,25 @@
+{
+	"metadata":{
+		"name":"reservedinstances",
+		"namespace":"tencentvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentVM",
+	"spec":{
+		"lifecycle":{
+			"reservedInstances":{
+				"CurrencyCode":"String",
+				"OfferingType":"String",
+				"InstanceCount":1,
+				"ReservedInstancesId":"String",
+				"EndTime":"String",
+				"Zone":"String",
+				"State":"String",
+				"StartTime":"String",
+				"Duration":1,
+				"ProductDescription":"String",
+				"InstanceType":"String"
+			}
+		}
+	}
+}

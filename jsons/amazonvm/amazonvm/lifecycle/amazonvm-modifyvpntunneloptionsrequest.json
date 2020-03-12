@@ -1,0 +1,33 @@
+{
+	"metadata":{
+		"name":"modifyvpntunneloptionsrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"modifyVpnTunnelOptionsRequest":{
+				"tunnelOptions":{
+					"preSharedKey":"String",
+					"phase1DHGroupNumbers":{},
+					"phase2IntegrityAlgorithms":{},
+					"rekeyFuzzPercentage":1,
+					"replayWindowSize":1,
+					"phase1IntegrityAlgorithms":{},
+					"phase1EncryptionAlgorithms":{},
+					"dPDTimeoutSeconds":1,
+					"iKEVersions":{},
+					"tunnelInsideCidr":"String",
+					"phase2LifetimeSeconds":1,
+					"phase2EncryptionAlgorithms":{},
+					"phase1LifetimeSeconds":1,
+					"rekeyMarginTimeSeconds":1,
+					"phase2DHGroupNumbers":{}
+				},
+				"vpnTunnelOutsideIpAddress":"String",
+				"vpnConnectionId":"String"
+			}
+		}
+	}
+}

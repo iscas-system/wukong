@@ -1,0 +1,15 @@
+{
+	"metadata":{
+		"name":"modifyebsdefaultkmskeyidrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"modifyEbsDefaultKmsKeyIdRequest":{
+				"kmsKeyId":"String"
+			}
+		}
+	}
+}

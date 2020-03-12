@@ -1,0 +1,18 @@
+{
+	"metadata":{
+		"name":"describeinstancetypesrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"describeInstanceTypesRequest":{
+				"instanceTypes":{},
+				"maxResults":1,
+				"nextToken":"String",
+				"filters":{}
+			}
+		}
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"metadata":{
+		"name":"copysnapshotrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"copySnapshotRequest":{
+				"tagSpecifications":{},
+				"sourceSnapshotId":"String",
+				"encrypted":true,
+				"destinationRegion":"String",
+				"presignedUrl":"String",
+				"sourceRegion":"String",
+				"description":"String",
+				"kmsKeyId":"String"
+			}
+		}
+	}
+}

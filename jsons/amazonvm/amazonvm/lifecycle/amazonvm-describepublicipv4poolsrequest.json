@@ -1,0 +1,17 @@
+{
+	"metadata":{
+		"name":"describepublicipv4poolsrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"describePublicIpv4PoolsRequest":{
+				"nextToken":"String",
+				"maxResults":1,
+				"poolIds":{}
+			}
+		}
+	}
+}

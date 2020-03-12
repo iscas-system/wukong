@@ -1,0 +1,17 @@
+{
+	"metadata":{
+		"name":"modifyidentityidformatrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"modifyIdentityIdFormatRequest":{
+				"useLongIds":true,
+				"resource":"String",
+				"principalArn":"String"
+			}
+		}
+	}
+}

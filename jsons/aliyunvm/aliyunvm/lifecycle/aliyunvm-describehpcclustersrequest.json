@@ -1,0 +1,22 @@
+{
+	"metadata":{
+		"name":"describehpcclustersrequest",
+		"namespace":"aliyunvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"describeHpcClustersRequest":{
+				"hpcClusterIds":"String",
+				"pageNumber":1,
+				"clientToken":"String",
+				"pageSize":1,
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerAccount":"String",
+				"ownerId":1
+			}
+		}
+	}
+}

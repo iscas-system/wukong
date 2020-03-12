@@ -1,0 +1,21 @@
+{
+	"metadata":{
+		"name":"createdisasterrecovergroupresponse",
+		"namespace":"tencentvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentVM",
+	"spec":{
+		"lifecycle":{
+			"createDisasterRecoverGroupResponse":{
+				"DisasterRecoverGroupId":"String",
+				"Type":"String",
+				"CurrentNum":1,
+				"RequestId":"String",
+				"CreateTime":"String",
+				"CvmQuotaTotal":1,
+				"Name":"String"
+			}
+		}
+	}
+}

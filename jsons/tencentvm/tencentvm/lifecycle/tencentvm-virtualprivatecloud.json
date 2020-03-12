@@ -1,0 +1,17 @@
+{
+	"metadata":{
+		"name":"virtualprivatecloud",
+		"namespace":"tencentvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentVM",
+	"spec":{
+		"lifecycle":{
+			"virtualPrivateCloud":{
+				"VpcId":"String",
+				"AsVpcGateway":true,
+				"SubnetId":"String"
+			}
+		}
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"metadata":{
+		"name":"listwithserviceresponseasyncsnapshotsinner",
+		"namespace":"azurevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"listWithServiceResponseAsyncSnapshotsInner":{}
+		}
+	}
+}

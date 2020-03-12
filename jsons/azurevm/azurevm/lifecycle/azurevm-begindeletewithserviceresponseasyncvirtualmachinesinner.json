@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"begindeletewithserviceresponseasyncvirtualmachinesinner",
+		"namespace":"azurevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"beginDeleteWithServiceResponseAsyncVirtualMachinesInner":{
+				"_arg0":"String",
+				"_arg1":"String"
+			}
+		}
+	}
+}

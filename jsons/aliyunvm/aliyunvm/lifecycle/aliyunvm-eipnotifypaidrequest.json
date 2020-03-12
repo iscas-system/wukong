@@ -1,0 +1,21 @@
+{
+	"metadata":{
+		"name":"eipnotifypaidrequest",
+		"namespace":"aliyunvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"eipNotifyPaidRequest":{
+				"data":"String",
+				"clientToken":"String",
+				"userCidr":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerAccount":"String",
+				"ownerId":1
+			}
+		}
+	}
+}

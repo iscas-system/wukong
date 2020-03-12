@@ -1,0 +1,17 @@
+{
+	"metadata":{
+		"name":"associateclientvpntargetnetworkrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"associateClientVpnTargetNetworkRequest":{
+				"subnetId":"String",
+				"clientVpnEndpointId":"String",
+				"clientToken":"String"
+			}
+		}
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"metadata":{
+		"name":"describestoragesetsrequest",
+		"namespace":"aliyunvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"describeStorageSetsRequest":{
+				"pageNumber":1,
+				"clientToken":"String",
+				"pageSize":1,
+				"resourceOwnerAccount":"String",
+				"zoneId":"String",
+				"resourceOwnerId":1,
+				"storageSetName":"String",
+				"ownerAccount":"String",
+				"ownerId":1,
+				"storageSetIds":"String"
+			}
+		}
+	}
+}

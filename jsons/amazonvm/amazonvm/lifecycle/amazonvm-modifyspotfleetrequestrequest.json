@@ -1,0 +1,18 @@
+{
+	"metadata":{
+		"name":"modifyspotfleetrequestrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"modifySpotFleetRequestRequest":{
+				"targetCapacity":1,
+				"spotFleetRequestId":"String",
+				"excessCapacityTerminationPolicy":"String",
+				"onDemandTargetCapacity":1
+			}
+		}
+	}
+}

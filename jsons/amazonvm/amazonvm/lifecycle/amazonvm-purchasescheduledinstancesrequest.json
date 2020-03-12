@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"purchasescheduledinstancesrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"purchaseScheduledInstancesRequest":{
+				"clientToken":"String",
+				"purchaseRequests":{}
+			}
+		}
+	}
+}

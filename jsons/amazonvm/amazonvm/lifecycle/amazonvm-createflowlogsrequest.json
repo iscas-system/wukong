@@ -1,0 +1,23 @@
+{
+	"metadata":{
+		"name":"createflowlogsrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"createFlowLogsRequest":{
+				"logDestination":"String",
+				"deliverLogsPermissionArn":"String",
+				"logDestinationType":"String",
+				"logFormat":"String",
+				"logGroupName":"String",
+				"clientToken":"String",
+				"trafficType":"String",
+				"resourceIds":{},
+				"resourceType":"String"
+			}
+		}
+	}
+}

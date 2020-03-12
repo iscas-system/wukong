@@ -1,0 +1,26 @@
+{
+	"metadata":{
+		"name":"createfpgaimagerequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"createFpgaImageRequest":{
+				"tagSpecifications":{},
+				"clientToken":"String",
+				"inputStorageLocation":{
+					"bucket":"String",
+					"key":"String"
+				},
+				"name":"String",
+				"description":"String",
+				"logsStorageLocation":{
+					"bucket":"String",
+					"key":"String"
+				}
+			}
+		}
+	}
+}

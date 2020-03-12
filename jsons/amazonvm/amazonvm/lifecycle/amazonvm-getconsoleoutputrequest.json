@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"getconsoleoutputrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"getConsoleOutputRequest":{
+				"instanceId":"String",
+				"latest":true
+			}
+		}
+	}
+}

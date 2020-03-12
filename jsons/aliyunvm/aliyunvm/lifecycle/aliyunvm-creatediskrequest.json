@@ -1,0 +1,33 @@
+{
+	"metadata":{
+		"name":"creatediskrequest",
+		"namespace":"aliyunvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"createDiskRequest":{
+				"diskName":"String",
+				"advancedFeatures":"String",
+				"snapshotId":"String",
+				"clientToken":"String",
+				"description":"String",
+				"ownerAccount":"String",
+				"ownerId":1,
+				"storageSetId":"String",
+				"instanceId":"String",
+				"size":1,
+				"encrypted":true,
+				"resourceOwnerAccount":"String",
+				"zoneId":"String",
+				"kMSKeyId":"String",
+				"resourceOwnerId":1,
+				"resourceGroupId":"String",
+				"performanceLevel":"String",
+				"diskCategory":"String",
+				"storageSetPartitionNumber":1
+			}
+		}
+	}
+}

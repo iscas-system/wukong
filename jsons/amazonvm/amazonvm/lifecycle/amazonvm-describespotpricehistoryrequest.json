@@ -1,0 +1,28 @@
+{
+	"metadata":{
+		"name":"describespotpricehistoryrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"describeSpotPriceHistoryRequest":{
+				"productDescriptions":{},
+				"instanceTypes":{},
+				"maxResults":1,
+				"nextToken":"String",
+				"startTime":{
+					"cdate":{},
+					"fastTime":1
+				},
+				"filters":{},
+				"endTime":{
+					"cdate":{},
+					"fastTime":1
+				},
+				"availabilityZone":"String"
+			}
+		}
+	}
+}

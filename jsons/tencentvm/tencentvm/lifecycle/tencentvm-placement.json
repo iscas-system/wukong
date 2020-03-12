@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"placement",
+		"namespace":"tencentvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentVM",
+	"spec":{
+		"lifecycle":{
+			"placement":{
+				"Zone":"String",
+				"ProjectId":1
+			}
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"metadata":{
+		"name":"listwithserviceresponseasyncvirtualmachineimagesinner",
+		"namespace":"azurevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"listWithServiceResponseAsyncVirtualMachineImagesInner":{
+				"_arg0":"String",
+				"_arg1":"String",
+				"_arg2":"String",
+				"_arg3":"String",
+				"_arg4":"String",
+				"_arg5":1,
+				"_arg6":"String"
+			}
+		}
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"createegressonlyinternetgatewayrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"createEgressOnlyInternetGatewayRequest":{
+				"clientToken":"String",
+				"vpcId":"String"
+			}
+		}
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"disassociateaddressrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"disassociateAddressRequest":{
+				"publicIp":"String",
+				"associationId":"String"
+			}
+		}
+	}
+}

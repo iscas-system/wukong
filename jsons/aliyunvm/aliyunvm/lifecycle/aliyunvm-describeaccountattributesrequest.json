@@ -1,0 +1,18 @@
+{
+	"metadata":{
+		"name":"describeaccountattributesrequest",
+		"namespace":"aliyunvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"describeAccountAttributesRequest":{
+				"resourceOwnerAccount":"String",
+				"zoneId":"String",
+				"resourceOwnerId":1,
+				"ownerId":1
+			}
+		}
+	}
+}

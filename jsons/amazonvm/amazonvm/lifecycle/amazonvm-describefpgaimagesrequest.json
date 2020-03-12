@@ -1,0 +1,19 @@
+{
+	"metadata":{
+		"name":"describefpgaimagesrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"describeFpgaImagesRequest":{
+				"nextToken":"String",
+				"maxResults":1,
+				"owners":{},
+				"filters":{},
+				"fpgaImageIds":{}
+			}
+		}
+	}
+}

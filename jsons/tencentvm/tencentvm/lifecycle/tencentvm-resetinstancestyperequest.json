@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"resetinstancestyperequest",
+		"namespace":"tencentvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentVM",
+	"spec":{
+		"lifecycle":{
+			"resetInstancesTypeRequest":{
+				"ForceStop":true,
+				"InstanceType":"String"
+			}
+		}
+	}
+}

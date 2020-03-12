@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"stopinstancerequest",
+		"namespace":"jdvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"JDVM",
+	"spec":{
+		"lifecycle":{
+			"stopInstanceRequest":{
+				"instanceId":"String",
+				"regionId":"String"
+			}
+		}
+	}
+}

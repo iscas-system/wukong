@@ -1,0 +1,18 @@
+{
+	"metadata":{
+		"name":"detachvolumerequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"detachVolumeRequest":{
+				"instanceId":"String",
+				"volumeId":"String",
+				"force":true,
+				"device":"String"
+			}
+		}
+	}
+}

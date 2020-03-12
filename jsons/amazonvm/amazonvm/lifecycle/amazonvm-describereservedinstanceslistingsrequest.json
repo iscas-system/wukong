@@ -1,0 +1,17 @@
+{
+	"metadata":{
+		"name":"describereservedinstanceslistingsrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"describeReservedInstancesListingsRequest":{
+				"reservedInstancesListingId":"String",
+				"filters":{},
+				"reservedInstancesId":"String"
+			}
+		}
+	}
+}

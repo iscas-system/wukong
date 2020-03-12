@@ -1,0 +1,26 @@
+{
+	"metadata":{
+		"name":"importimagerequest",
+		"namespace":"jdvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"JDVM",
+	"spec":{
+		"lifecycle":{
+			"importImageRequest":{
+				"forceImport":true,
+				"systemDiskSizeGB":1,
+				"imageName":"String",
+				"osVersion":"String",
+				"regionId":"String",
+				"clientToken":"String",
+				"imageUrl":"String",
+				"osType":"String",
+				"description":"String",
+				"diskFormat":"String",
+				"platform":"String",
+				"architecture":"String"
+			}
+		}
+	}
+}

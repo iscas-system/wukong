@@ -1,0 +1,21 @@
+{
+	"metadata":{
+		"name":"createnetworkinterfacepermissionrequest",
+		"namespace":"aliyunvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"createNetworkInterfacePermissionRequest":{
+				"networkInterfaceId":"String",
+				"accountId":1,
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"permission":"String",
+				"ownerAccount":"String",
+				"ownerId":1
+			}
+		}
+	}
+}

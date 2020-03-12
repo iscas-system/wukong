@@ -1,0 +1,19 @@
+{
+	"metadata":{
+		"name":"getbyresourcegroupasyncvirtualmachinesinner",
+		"namespace":"azurevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"getByResourceGroupAsyncVirtualMachinesInner":{
+				"_arg0":"String",
+				"_arg1":"String",
+				"_arg2":{
+					"value":"String"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"metadata":{
+		"name":"detachnetworkinterfacerequest",
+		"namespace":"jdvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"JDVM",
+	"spec":{
+		"lifecycle":{
+			"detachNetworkInterfaceRequest":{
+				"networkInterfaceId":"String",
+				"instanceId":"String",
+				"regionId":"String"
+			}
+		}
+	}
+}

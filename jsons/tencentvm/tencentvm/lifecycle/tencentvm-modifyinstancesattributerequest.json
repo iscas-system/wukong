@@ -1,0 +1,15 @@
+{
+	"metadata":{
+		"name":"modifyinstancesattributerequest",
+		"namespace":"tencentvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentVM",
+	"spec":{
+		"lifecycle":{
+			"modifyInstancesAttributeRequest":{
+				"InstanceName":"String"
+			}
+		}
+	}
+}

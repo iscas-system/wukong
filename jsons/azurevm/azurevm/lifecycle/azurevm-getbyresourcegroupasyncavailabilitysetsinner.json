@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"getbyresourcegroupasyncavailabilitysetsinner",
+		"namespace":"azurevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"getByResourceGroupAsyncAvailabilitySetsInner":{
+				"_arg0":"String",
+				"_arg1":"String"
+			}
+		}
+	}
+}

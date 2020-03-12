@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"describeregionsresponse",
+		"namespace":"tencentvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentVM",
+	"spec":{
+		"lifecycle":{
+			"describeRegionsResponse":{
+				"TotalCount":1,
+				"RequestId":"String"
+			}
+		}
+	}
+}

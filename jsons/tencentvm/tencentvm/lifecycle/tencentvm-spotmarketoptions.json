@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"spotmarketoptions",
+		"namespace":"tencentvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentVM",
+	"spec":{
+		"lifecycle":{
+			"spotMarketOptions":{
+				"SpotInstanceType":"String",
+				"MaxPrice":"String"
+			}
+		}
+	}
+}

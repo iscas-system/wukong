@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"modifyvpctenancyrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"modifyVpcTenancyRequest":{
+				"instanceTenancy":"String",
+				"vpcId":"String"
+			}
+		}
+	}
+}

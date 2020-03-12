@@ -1,0 +1,15 @@
+{
+	"metadata":{
+		"name":"disassociateroutetablerequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"disassociateRouteTableRequest":{
+				"associationId":"String"
+			}
+		}
+	}
+}

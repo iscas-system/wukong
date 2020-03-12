@@ -1,0 +1,17 @@
+{
+	"metadata":{
+		"name":"describereservedinstancesrequest",
+		"namespace":"tencentvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentVM",
+	"spec":{
+		"lifecycle":{
+			"describeReservedInstancesRequest":{
+				"DryRun":true,
+				"Limit":1,
+				"Offset":1
+			}
+		}
+	}
+}

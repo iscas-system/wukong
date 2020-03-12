@@ -1,0 +1,18 @@
+{
+	"metadata":{
+		"name":"canceltaskrequest",
+		"namespace":"aliyunvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"cancelTaskRequest":{
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"taskId":"String"
+			}
+		}
+	}
+}

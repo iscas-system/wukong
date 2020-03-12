@@ -1,0 +1,15 @@
+{
+	"metadata":{
+		"name":"listnextwithserviceresponseasyncvirtualmachinescalesetsinner",
+		"namespace":"azurevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"listNextWithServiceResponseAsyncVirtualMachineScaleSetsInner":{
+				"_arg0":"String"
+			}
+		}
+	}
+}

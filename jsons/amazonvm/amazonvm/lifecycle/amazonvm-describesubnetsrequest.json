@@ -1,0 +1,18 @@
+{
+	"metadata":{
+		"name":"describesubnetsrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"describeSubnetsRequest":{
+				"nextToken":"String",
+				"maxResults":1,
+				"filters":{},
+				"subnetIds":{}
+			}
+		}
+	}
+}

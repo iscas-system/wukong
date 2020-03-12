@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"getbyresourcegroupwithserviceresponseasynccontainerservicesinner",
+		"namespace":"azurevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"getByResourceGroupWithServiceResponseAsyncContainerServicesInner":{
+				"_arg0":"String",
+				"_arg1":"String"
+			}
+		}
+	}
+}

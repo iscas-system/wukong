@@ -1,0 +1,30 @@
+{
+	"metadata":{
+		"name":"replacesystemdiskrequest",
+		"namespace":"aliyunvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"replaceSystemDiskRequest":{
+				"imageId":"String",
+				"clientToken":"String",
+				"passwordInherit":true,
+				"ownerAccount":"String",
+				"ownerId":1,
+				"systemDiskSize":1,
+				"platform":"String",
+				"password":"String",
+				"useAdditionalService":true,
+				"instanceId":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"diskId":"String",
+				"securityEnhancementStrategy":"String",
+				"keyPairName":"String",
+				"architecture":"String"
+			}
+		}
+	}
+}

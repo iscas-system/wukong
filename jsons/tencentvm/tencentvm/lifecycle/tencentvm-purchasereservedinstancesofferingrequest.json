@@ -1,0 +1,18 @@
+{
+	"metadata":{
+		"name":"purchasereservedinstancesofferingrequest",
+		"namespace":"tencentvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentVM",
+	"spec":{
+		"lifecycle":{
+			"purchaseReservedInstancesOfferingRequest":{
+				"InstanceCount":1,
+				"DryRun":true,
+				"ClientToken":"String",
+				"ReservedInstancesOfferingId":"String"
+			}
+		}
+	}
+}

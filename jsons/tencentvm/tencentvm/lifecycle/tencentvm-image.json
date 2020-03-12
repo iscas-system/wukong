@@ -1,0 +1,28 @@
+{
+	"metadata":{
+		"name":"image",
+		"namespace":"tencentvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentVM",
+	"spec":{
+		"lifecycle":{
+			"image":{
+				"CreatedTime":"String",
+				"Architecture":"String",
+				"Platform":"String",
+				"ImageSize":1,
+				"OsName":"String",
+				"ImageType":"String",
+				"IsSupportCloudinit":true,
+				"ImageName":"String",
+				"ImageCreator":"String",
+				"SyncPercent":1,
+				"ImageId":"String",
+				"ImageDescription":"String",
+				"ImageSource":"String",
+				"ImageState":"String"
+			}
+		}
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"modifyvolumeattributerequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"modifyVolumeAttributeRequest":{
+				"volumeId":"String",
+				"autoEnableIO":true
+			}
+		}
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"metadata":{
+		"name":"listnextasyncdisksinner",
+		"namespace":"azurevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"listNextAsyncDisksInner":{
+				"_arg0":"String"
+			}
+		}
+	}
+}

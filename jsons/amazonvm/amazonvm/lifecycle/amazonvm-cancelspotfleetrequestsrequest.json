@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"cancelspotfleetrequestsrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"cancelSpotFleetRequestsRequest":{
+				"terminateInstances":true,
+				"spotFleetRequestIds":{}
+			}
+		}
+	}
+}

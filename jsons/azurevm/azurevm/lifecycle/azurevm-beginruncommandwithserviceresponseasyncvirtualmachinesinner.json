@@ -1,0 +1,19 @@
+{
+	"metadata":{
+		"name":"beginruncommandwithserviceresponseasyncvirtualmachinesinner",
+		"namespace":"azurevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"beginRunCommandWithServiceResponseAsyncVirtualMachinesInner":{
+				"_arg0":"String",
+				"_arg1":"String",
+				"_arg2":{
+					"commandId":"String"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"metadata":{
+		"name":"createdeploymentsetrequest",
+		"namespace":"aliyunvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"createDeploymentSetRequest":{
+				"deploymentSetName":"String",
+				"clientToken":"String",
+				"granularity":"String",
+				"domain":"String",
+				"onUnableToRedeployFailedInstance":"String",
+				"description":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerAccount":"String",
+				"ownerId":1,
+				"strategy":"String"
+			}
+		}
+	}
+}

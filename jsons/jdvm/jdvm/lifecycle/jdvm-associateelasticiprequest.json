@@ -1,0 +1,17 @@
+{
+	"metadata":{
+		"name":"associateelasticiprequest",
+		"namespace":"jdvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"JDVM",
+	"spec":{
+		"lifecycle":{
+			"associateElasticIpRequest":{
+				"instanceId":"String",
+				"regionId":"String",
+				"elasticIpId":"String"
+			}
+		}
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"metadata":{
+		"name":"listnextsinglepageasyncsnapshotsinner",
+		"namespace":"azurevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"listNextSinglePageAsyncSnapshotsInner":{
+				"_arg0":"String"
+			}
+		}
+	}
+}

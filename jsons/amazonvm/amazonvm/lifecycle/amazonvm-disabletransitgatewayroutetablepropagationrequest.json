@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"disabletransitgatewayroutetablepropagationrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"disableTransitGatewayRouteTablePropagationRequest":{
+				"transitGatewayAttachmentId":"String",
+				"transitGatewayRouteTableId":"String"
+			}
+		}
+	}
+}

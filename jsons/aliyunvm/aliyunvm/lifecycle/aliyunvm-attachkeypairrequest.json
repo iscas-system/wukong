@@ -1,0 +1,19 @@
+{
+	"metadata":{
+		"name":"attachkeypairrequest",
+		"namespace":"aliyunvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"attachKeyPairRequest":{
+				"instanceIds":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"keyPairName":"String"
+			}
+		}
+	}
+}

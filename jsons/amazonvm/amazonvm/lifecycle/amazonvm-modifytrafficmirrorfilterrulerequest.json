@@ -1,0 +1,31 @@
+{
+	"metadata":{
+		"name":"modifytrafficmirrorfilterrulerequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"modifyTrafficMirrorFilterRuleRequest":{
+				"destinationCidrBlock":"String",
+				"ruleAction":"String",
+				"protocol":1,
+				"sourcePortRange":{
+					"fromPort":1,
+					"toPort":1
+				},
+				"destinationPortRange":{
+					"fromPort":1,
+					"toPort":1
+				},
+				"ruleNumber":1,
+				"description":"String",
+				"sourceCidrBlock":"String",
+				"trafficDirection":"String",
+				"removeFields":{},
+				"trafficMirrorFilterRuleId":"String"
+			}
+		}
+	}
+}

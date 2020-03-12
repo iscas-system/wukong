@@ -1,0 +1,26 @@
+{
+	"metadata":{
+		"name":"createorupdateasyncvirtualmachinescalesetextensionsinner",
+		"namespace":"azurevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"createOrUpdateAsyncVirtualMachineScaleSetExtensionsInner":{
+				"_arg0":"String",
+				"_arg1":"String",
+				"_arg2":"String",
+				"_arg3":{
+					"name":"String",
+					"publisher":"String",
+					"autoUpgradeMinorVersion":true,
+					"provisioningState":"String",
+					"type":"String",
+					"forceUpdateTag":"String",
+					"typeHandlerVersion":"String"
+				}
+			}
+		}
+	}
+}

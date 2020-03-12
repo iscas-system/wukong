@@ -10,9 +10,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.alibaba.fastjson.JSONObject;
-
 import io.github.cloudpluslab.wukong.Analyzer;
+import io.github.cloudpluslab.wukong.models.MethodModel;
 import io.github.cloudpluslab.wukong.utils.JavaUtils;
 
 /**
@@ -20,7 +19,7 @@ import io.github.cloudpluslab.wukong.utils.JavaUtils;
  * @author wuheng@otcaix.iscas.ac.cn
  * @since  2020.3.8
  * 
- * Aliyun, Amazon, Baidu, Tencent, JD
+ * Azure, Google
  */
 public class RequestWithParameterPatternAnalyzer extends Analyzer {
 
@@ -30,9 +29,10 @@ public class RequestWithParameterPatternAnalyzer extends Analyzer {
 	}
 
 	@Override
-	public List<JSONObject> getLifecycles() {
+	@SuppressWarnings("rawtypes")
+	public List getResults() {
 		
-		Map<String, List<Method>> map = new HashMap<String, List<Method>>();
+		Map<String, List<MethodModel>> map = new HashMap<String, List<MethodModel>>();
 		for (Method method : client.getDeclaredMethods()) {
 			if (method.getModifiers() != Modifier.PUBLIC
 					|| method.getModifiers() == Modifier.STATIC
@@ -47,15 +47,12 @@ public class RequestWithParameterPatternAnalyzer extends Analyzer {
 			findAllPossibleRequests(map, method);
 		}
 		
-		List<Method> expected = filterInvalidRequests(map);
+		return filterInvalidRequests(map);
 		
-		System.out.println(expected.size());
-		System.out.println(expected);
-		return null;
 	}
 
-	protected List<Method> filterInvalidRequests(Map<String, List<Method>> map) {
-		List<Method> expected = new ArrayList<Method>();
+	protected List<MethodModel> filterInvalidRequests(Map<String, List<MethodModel>> map) {
+		List<MethodModel> expected = new ArrayList<MethodModel>();
 		int i = 0;
 		for (String key : map.keySet()) {
 			if (map.get(key).size() > i) {
@@ -66,7 +63,7 @@ public class RequestWithParameterPatternAnalyzer extends Analyzer {
 		return expected;
 	}
 
-	protected void findAllPossibleRequests(Map<String, List<Method>> map, Method method) {
+	protected void findAllPossibleRequests(Map<String, List<MethodModel>> map, Method method) {
 		for (Method m : method.getReturnType().getMethods()) {
 			
 			if (m.getReturnType().getName().equals("void") 
@@ -83,9 +80,9 @@ public class RequestWithParameterPatternAnalyzer extends Analyzer {
 				key = m.getReturnType().getSuperclass().getName();
 			}
 			
-			List<Method> ms = map.get(key);
-			ms = (ms == null) ? new ArrayList<Method>() : ms;
-			ms.add(m);
+			List<MethodModel> ms = map.get(key);
+			ms = (ms == null) ? new ArrayList<MethodModel>() : ms;
+			ms.add(new MethodModel(method.getReturnType(), m));
 			map.put(key, ms);
 		}
 	}

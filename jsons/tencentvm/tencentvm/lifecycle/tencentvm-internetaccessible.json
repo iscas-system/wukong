@@ -1,0 +1,18 @@
+{
+	"metadata":{
+		"name":"internetaccessible",
+		"namespace":"tencentvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentVM",
+	"spec":{
+		"lifecycle":{
+			"internetAccessible":{
+				"InternetMaxBandwidthOut":1,
+				"PublicIpAssigned":true,
+				"BandwidthPackageId":"String",
+				"InternetChargeType":"String"
+			}
+		}
+	}
+}

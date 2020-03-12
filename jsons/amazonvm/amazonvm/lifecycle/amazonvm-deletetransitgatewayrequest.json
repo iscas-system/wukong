@@ -1,0 +1,15 @@
+{
+	"metadata":{
+		"name":"deletetransitgatewayrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"deleteTransitGatewayRequest":{
+				"transitGatewayId":"String"
+			}
+		}
+	}
+}

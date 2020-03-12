@@ -1,0 +1,15 @@
+{
+	"metadata":{
+		"name":"listbyresourcegroupnextwithserviceresponseasyncproximityplacementgroupsinner",
+		"namespace":"azurevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"listByResourceGroupNextWithServiceResponseAsyncProximityPlacementGroupsInner":{
+				"_arg0":"String"
+			}
+		}
+	}
+}

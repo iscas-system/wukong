@@ -1,0 +1,19 @@
+{
+	"metadata":{
+		"name":"purchasehostreservationrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"purchaseHostReservationRequest":{
+				"limitPrice":"String",
+				"clientToken":"String",
+				"offeringId":"String",
+				"currencyCode":"String",
+				"hostIdSet":{}
+			}
+		}
+	}
+}

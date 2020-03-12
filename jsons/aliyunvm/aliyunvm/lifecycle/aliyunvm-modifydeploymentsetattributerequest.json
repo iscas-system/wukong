@@ -1,0 +1,21 @@
+{
+	"metadata":{
+		"name":"modifydeploymentsetattributerequest",
+		"namespace":"aliyunvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"modifyDeploymentSetAttributeRequest":{
+				"deploymentSetName":"String",
+				"description":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerAccount":"String",
+				"ownerId":1,
+				"deploymentSetId":"String"
+			}
+		}
+	}
+}

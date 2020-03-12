@@ -1,0 +1,20 @@
+{
+	"metadata":{
+		"name":"leavesecuritygrouprequest",
+		"namespace":"aliyunvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"leaveSecurityGroupRequest":{
+				"securityGroupId":"String",
+				"instanceId":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerAccount":"String",
+				"ownerId":1
+			}
+		}
+	}
+}

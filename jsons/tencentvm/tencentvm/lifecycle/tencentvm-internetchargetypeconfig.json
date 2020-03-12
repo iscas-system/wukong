@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"internetchargetypeconfig",
+		"namespace":"tencentvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentVM",
+	"spec":{
+		"lifecycle":{
+			"internetChargeTypeConfig":{
+				"Description":"String",
+				"InternetChargeType":"String"
+			}
+		}
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"metadata":{
+		"name":"deletenetworkinterfacerequest",
+		"namespace":"aliyunvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"deleteNetworkInterfaceRequest":{
+				"networkInterfaceId":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerAccount":"String",
+				"ownerId":1
+			}
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"metadata":{
+		"name":"createmaintenancepropertyrequest",
+		"namespace":"aliyunvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"createMaintenancePropertyRequest":{
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"startTime":"String",
+				"endTime":"String",
+				"actionOnMaintenance":"String",
+				"ownerAccount":"String",
+				"ownerId":1
+			}
+		}
+	}
+}

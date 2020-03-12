@@ -1,0 +1,15 @@
+{
+	"metadata":{
+		"name":"syncimagesresponse",
+		"namespace":"tencentvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentVM",
+	"spec":{
+		"lifecycle":{
+			"syncImagesResponse":{
+				"RequestId":"String"
+			}
+		}
+	}
+}

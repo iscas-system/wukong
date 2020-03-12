@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"exportthrottledrequestswithserviceresponseasyncloganalyticsinner",
+		"namespace":"azurevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"exportThrottledRequestsWithServiceResponseAsyncLogAnalyticsInner":{
+				"_arg0":"String",
+				"_arg1":{}
+			}
+		}
+	}
+}

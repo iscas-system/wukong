@@ -1,0 +1,22 @@
+{
+	"metadata":{
+		"name":"describeimagesrequest",
+		"namespace":"jdvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"JDVM",
+	"spec":{
+		"lifecycle":{
+			"describeImagesRequest":{
+				"imageSource":"String",
+				"pageNumber":1,
+				"regionId":"String",
+				"launchPermission":"String",
+				"pageSize":1,
+				"platform":"String",
+				"rootDeviceType":"String",
+				"status":"String"
+			}
+		}
+	}
+}

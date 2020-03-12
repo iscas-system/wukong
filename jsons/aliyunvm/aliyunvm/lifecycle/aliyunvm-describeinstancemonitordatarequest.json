@@ -1,0 +1,22 @@
+{
+	"metadata":{
+		"name":"describeinstancemonitordatarequest",
+		"namespace":"aliyunvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"describeInstanceMonitorDataRequest":{
+				"period":1,
+				"instanceId":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"startTime":"String",
+				"endTime":"String",
+				"ownerAccount":"String",
+				"ownerId":1
+			}
+		}
+	}
+}

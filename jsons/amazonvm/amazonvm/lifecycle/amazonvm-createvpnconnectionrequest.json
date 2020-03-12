@@ -1,0 +1,23 @@
+{
+	"metadata":{
+		"name":"createvpnconnectionrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"createVpnConnectionRequest":{
+				"customerGatewayId":"String",
+				"transitGatewayId":"String",
+				"options":{
+					"tunnelOptions":{},
+					"enableAcceleration":true,
+					"staticRoutesOnly":true
+				},
+				"vpnGatewayId":"String",
+				"type":"String"
+			}
+		}
+	}
+}

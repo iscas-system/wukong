@@ -1,0 +1,32 @@
+{
+	"metadata":{
+		"name":"createorupdatewithserviceresponseasyncgalleryapplicationversionsinner",
+		"namespace":"azurevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"createOrUpdateWithServiceResponseAsyncGalleryApplicationVersionsInner":{
+				"_arg0":"String",
+				"_arg1":"String",
+				"_arg2":"String",
+				"_arg3":"String",
+				"_arg4":{
+					"publishingProfile":{
+						"enableHealthCheck":true,
+						"source":{
+							"fileName":"String",
+							"mediaLink":"String"
+						},
+						"contentType":"String"
+					},
+					"replicationStatus":{
+						"aggregatedState":{}
+					},
+					"provisioningState":"String"
+				}
+			}
+		}
+	}
+}

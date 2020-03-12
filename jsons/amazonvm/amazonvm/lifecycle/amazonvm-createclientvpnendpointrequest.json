@@ -1,0 +1,28 @@
+{
+	"metadata":{
+		"name":"createclientvpnendpointrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"createClientVpnEndpointRequest":{
+				"tagSpecifications":{},
+				"clientCidrBlock":"String",
+				"serverCertificateArn":"String",
+				"authenticationOptions":{},
+				"splitTunnel":true,
+				"clientToken":"String",
+				"transportProtocol":"String",
+				"description":"String",
+				"connectionLogOptions":{
+					"cloudwatchLogStream":"String",
+					"cloudwatchLogGroup":"String",
+					"enabled":true
+				},
+				"dnsServers":{}
+			}
+		}
+	}
+}

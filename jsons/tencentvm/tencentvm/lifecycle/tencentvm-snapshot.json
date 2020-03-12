@@ -1,0 +1,17 @@
+{
+	"metadata":{
+		"name":"snapshot",
+		"namespace":"tencentvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentVM",
+	"spec":{
+		"lifecycle":{
+			"snapshot":{
+				"SnapshotId":"String",
+				"DiskSize":1,
+				"DiskUsage":"String"
+			}
+		}
+	}
+}

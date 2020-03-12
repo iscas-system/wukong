@@ -1,0 +1,21 @@
+{
+	"metadata":{
+		"name":"addbandwidthpackageipsrequest",
+		"namespace":"aliyunvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"addBandwidthPackageIpsRequest":{
+				"bandwidthPackageId":"String",
+				"clientToken":"String",
+				"resourceOwnerAccount":"String",
+				"ipCount":"String",
+				"resourceOwnerId":1,
+				"ownerAccount":"String",
+				"ownerId":1
+			}
+		}
+	}
+}

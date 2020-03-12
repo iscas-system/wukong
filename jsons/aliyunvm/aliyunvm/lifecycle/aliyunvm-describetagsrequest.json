@@ -1,0 +1,22 @@
+{
+	"metadata":{
+		"name":"describetagsrequest",
+		"namespace":"aliyunvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"describeTagsRequest":{
+				"resourceId":"String",
+				"pageNumber":1,
+				"pageSize":1,
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"category":"String",
+				"resourceType":"String"
+			}
+		}
+	}
+}

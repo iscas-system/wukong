@@ -1,0 +1,21 @@
+{
+	"metadata":{
+		"name":"eipfillproductrequest",
+		"namespace":"aliyunvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"eipFillProductRequest":{
+				"data":"String",
+				"clientToken":"String",
+				"userCidr":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerAccount":"String",
+				"ownerId":1
+			}
+		}
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"associatesubnetcidrblockrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"associateSubnetCidrBlockRequest":{
+				"subnetId":"String",
+				"ipv6CidrBlock":"String"
+			}
+		}
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"metadata":{
+		"name":"listnextasyncresourceskusinner",
+		"namespace":"azurevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"listNextAsyncResourceSkusInner":{
+				"_arg0":"String"
+			}
+		}
+	}
+}

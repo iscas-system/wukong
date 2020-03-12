@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"createvpnconnectionrouterequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"createVpnConnectionRouteRequest":{
+				"destinationCidrBlock":"String",
+				"vpnConnectionId":"String"
+			}
+		}
+	}
+}

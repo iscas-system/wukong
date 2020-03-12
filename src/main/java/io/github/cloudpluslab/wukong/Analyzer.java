@@ -5,8 +5,6 @@ package io.github.cloudpluslab.wukong;
 
 import java.util.List;
 
-import com.alibaba.fastjson.JSONObject;
-
 /**
  * @author tangting18@otcaix.iscas.ac.cn
  * @author wuheng@otcaix.iscas.ac.cn
@@ -32,6 +30,7 @@ public abstract class Analyzer {
 		return client;
 	}
 
-	public abstract List<JSONObject> getLifecycles();
+	@SuppressWarnings("rawtypes")
+	public abstract List getResults();
 	
 }

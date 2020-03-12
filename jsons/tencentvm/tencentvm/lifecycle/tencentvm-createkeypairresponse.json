@@ -1,0 +1,24 @@
+{
+	"metadata":{
+		"name":"createkeypairresponse",
+		"namespace":"tencentvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentVM",
+	"spec":{
+		"lifecycle":{
+			"createKeyPairResponse":{
+				"KeyPair":{
+					"KeyName":"String",
+					"Description":"String",
+					"PrivateKey":"String",
+					"CreatedTime":"String",
+					"PublicKey":"String",
+					"ProjectId":1,
+					"KeyId":"String"
+				},
+				"RequestId":"String"
+			}
+		}
+	}
+}

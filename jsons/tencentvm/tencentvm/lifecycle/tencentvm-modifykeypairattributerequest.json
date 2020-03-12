@@ -1,0 +1,17 @@
+{
+	"metadata":{
+		"name":"modifykeypairattributerequest",
+		"namespace":"tencentvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentVM",
+	"spec":{
+		"lifecycle":{
+			"modifyKeyPairAttributeRequest":{
+				"KeyName":"String",
+				"Description":"String",
+				"KeyId":"String"
+			}
+		}
+	}
+}

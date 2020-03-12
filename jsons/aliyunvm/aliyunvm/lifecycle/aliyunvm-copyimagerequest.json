@@ -1,0 +1,24 @@
+{
+	"metadata":{
+		"name":"copyimagerequest",
+		"namespace":"aliyunvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"copyImageRequest":{
+				"imageId":"String",
+				"destinationDescription":"String",
+				"encrypted":true,
+				"destinationRegionId":"String",
+				"resourceOwnerAccount":"String",
+				"destinationImageName":"String",
+				"kMSKeyId":"String",
+				"resourceOwnerId":1,
+				"ownerAccount":"String",
+				"ownerId":1
+			}
+		}
+	}
+}

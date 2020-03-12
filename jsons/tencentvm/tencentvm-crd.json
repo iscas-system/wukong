@@ -1,0 +1,33 @@
+{
+  "apiVersion": "apiextensions.k8s.io/v1beta1",
+  "kind": "CustomResourceDefinition",
+  "metadata": {
+    "name": "tencentvms.cloudplus.io",
+    "namespace": "tencentvm"
+  },
+  "spec": {
+    "additionalPrinterColumns": [
+      {
+        "JSONPath": ".spec.type",
+        "name": "TYPE",
+        "type": "string"
+      },
+      {
+        "JSONPath": ".metadata.creationTimestamp",
+        "name": "AGE",
+        "type": "date"
+      }
+    ],
+    "group": "cloudplus.io",
+    "names": {
+      "kind": "TencentVM",
+      "plural": "tencentvms",
+      "shortNames": [
+        "tencentvm"
+      ],
+      "singular": "tencentvm"
+    },
+    "scope": "Namespaced",
+    "version": "v1alpha3"
+  }
+}

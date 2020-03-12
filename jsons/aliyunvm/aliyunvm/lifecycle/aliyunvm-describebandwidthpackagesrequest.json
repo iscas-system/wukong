@@ -1,0 +1,22 @@
+{
+	"metadata":{
+		"name":"describebandwidthpackagesrequest",
+		"namespace":"aliyunvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"describeBandwidthPackagesRequest":{
+				"pageNumber":1,
+				"bandwidthPackageId":"String",
+				"pageSize":1,
+				"natGatewayId":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerAccount":"String",
+				"ownerId":1
+			}
+		}
+	}
+}

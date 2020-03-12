@@ -1,0 +1,15 @@
+{
+	"metadata":{
+		"name":"modifyhostsattributeresponse",
+		"namespace":"tencentvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentVM",
+	"spec":{
+		"lifecycle":{
+			"modifyHostsAttributeResponse":{
+				"RequestId":"String"
+			}
+		}
+	}
+}

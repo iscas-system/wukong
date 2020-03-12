@@ -1,0 +1,23 @@
+{
+	"metadata":{
+		"name":"revokesecuritygroupingressrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"revokeSecurityGroupIngressRequest":{
+				"sourceSecurityGroupName":"String",
+				"groupName":"String",
+				"fromPort":1,
+				"groupId":"String",
+				"toPort":1,
+				"ipProtocol":"String",
+				"sourceSecurityGroupOwnerId":"String",
+				"cidrIp":"String",
+				"ipPermissions":{}
+			}
+		}
+	}
+}

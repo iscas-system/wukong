@@ -1,0 +1,18 @@
+{
+	"metadata":{
+		"name":"describeclientvpnroutesrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"describeClientVpnRoutesRequest":{
+				"clientVpnEndpointId":"String",
+				"maxResults":1,
+				"nextToken":"String",
+				"filters":{}
+			}
+		}
+	}
+}

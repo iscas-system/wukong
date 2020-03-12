@@ -1,0 +1,29 @@
+{
+	"metadata":{
+		"name":"modifyinstanceattributerequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"modifyInstanceAttributeRequest":{
+				"ramdisk":"String",
+				"ebsOptimized":true,
+				"userData":"String",
+				"blockDeviceMappings":{},
+				"kernel":"String",
+				"instanceType":"String",
+				"enaSupport":true,
+				"groups":{},
+				"sourceDestCheck":true,
+				"instanceInitiatedShutdownBehavior":"String",
+				"disableApiTermination":true,
+				"instanceId":"String",
+				"sriovNetSupport":"String",
+				"attribute":"String",
+				"value":"String"
+			}
+		}
+	}
+}

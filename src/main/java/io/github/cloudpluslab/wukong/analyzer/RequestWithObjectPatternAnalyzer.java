@@ -11,8 +11,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import com.alibaba.fastjson.JSONObject;
-
 import io.github.cloudpluslab.wukong.Analyzer;
 import io.github.cloudpluslab.wukong.utils.ClassUtils;
 import io.github.cloudpluslab.wukong.utils.JavaUtils;
@@ -32,9 +30,8 @@ public class RequestWithObjectPatternAnalyzer extends Analyzer {
 	}
 
 	@Override
-	public List<JSONObject> getLifecycles() {
-		List<JSONObject> list = new ArrayList<JSONObject>();
-		
+	@SuppressWarnings("rawtypes")
+	public List getResults() {
 		Map<String, Integer> superClasses = new HashMap<String, Integer>();
 		for (Method method : client.getDeclaredMethods()) {
 			if (method.getModifiers() != Modifier.PUBLIC 
@@ -63,9 +60,7 @@ public class RequestWithObjectPatternAnalyzer extends Analyzer {
 			
 		}
 		
-		System.out.println(findAllRequestsBySuperClasses(superClasses.keySet()).size());
-		
-		return list;
+		return findAllRequestsBySuperClasses(superClasses.keySet());
 	}
 	
 	public List<Class<?>> findAllRequestsBySuperClasses(Set<String> superClasses) {

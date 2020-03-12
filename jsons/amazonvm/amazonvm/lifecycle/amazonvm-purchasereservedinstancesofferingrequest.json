@@ -1,0 +1,24 @@
+{
+	"metadata":{
+		"name":"purchasereservedinstancesofferingrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"purchaseReservedInstancesOfferingRequest":{
+				"limitPrice":{
+					"amount":1,
+					"currencyCode":"String"
+				},
+				"instanceCount":1,
+				"purchaseTime":{
+					"cdate":{},
+					"fastTime":1
+				},
+				"reservedInstancesOfferingId":"String"
+			}
+		}
+	}
+}

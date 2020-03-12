@@ -1,0 +1,17 @@
+{
+	"metadata":{
+		"name":"resizeinstancerequest",
+		"namespace":"jdvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"JDVM",
+	"spec":{
+		"lifecycle":{
+			"resizeInstanceRequest":{
+				"instanceId":"String",
+				"regionId":"String",
+				"instanceType":"String"
+			}
+		}
+	}
+}

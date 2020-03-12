@@ -1,0 +1,17 @@
+{
+	"metadata":{
+		"name":"attachvolumerequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"attachVolumeRequest":{
+				"instanceId":"String",
+				"volumeId":"String",
+				"device":"String"
+			}
+		}
+	}
+}

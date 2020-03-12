@@ -1,0 +1,31 @@
+{
+	"metadata":{
+		"name":"describerecommendinstancetyperequest",
+		"namespace":"aliyunvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"describeRecommendInstanceTypeRequest":{
+				"instanceChargeType":"String",
+				"memory":1,
+				"instanceType":"String",
+				"systemDiskCategory":"String",
+				"spotStrategy":"String",
+				"ownerAccount":"String",
+				"ownerId":1,
+				"scene":"String",
+				"cores":1,
+				"instanceFamilyLevel":"String",
+				"priorityStrategy":"String",
+				"ioOptimized":"String",
+				"resourceOwnerAccount":"String",
+				"zoneId":"String",
+				"resourceOwnerId":1,
+				"maxPrice":1,
+				"networkType":"String"
+			}
+		}
+	}
+}

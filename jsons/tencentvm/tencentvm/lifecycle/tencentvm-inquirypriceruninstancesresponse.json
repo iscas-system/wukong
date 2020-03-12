@@ -1,0 +1,29 @@
+{
+	"metadata":{
+		"name":"inquirypriceruninstancesresponse",
+		"namespace":"tencentvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentVM",
+	"spec":{
+		"lifecycle":{
+			"inquiryPriceRunInstancesResponse":{
+				"RequestId":"String",
+				"Price":{
+					"InstancePrice":{
+						"ChargeUnit":"String",
+						"UnitPrice":1,
+						"OriginalPrice":1,
+						"DiscountPrice":1
+					},
+					"BandwidthPrice":{
+						"ChargeUnit":"String",
+						"UnitPrice":1,
+						"OriginalPrice":1,
+						"DiscountPrice":1
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"unassignprivateipaddressesrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"unassignPrivateIpAddressesRequest":{
+				"networkInterfaceId":"String",
+				"privateIpAddresses":{}
+			}
+		}
+	}
+}

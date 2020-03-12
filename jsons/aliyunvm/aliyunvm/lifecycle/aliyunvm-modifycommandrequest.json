@@ -1,0 +1,24 @@
+{
+	"metadata":{
+		"name":"modifycommandrequest",
+		"namespace":"aliyunvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"modifyCommandRequest":{
+				"workingDir":"String",
+				"commandContent":"String",
+				"name":"String",
+				"description":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerAccount":"String",
+				"ownerId":1,
+				"commandId":"String",
+				"timeout":1
+			}
+		}
+	}
+}

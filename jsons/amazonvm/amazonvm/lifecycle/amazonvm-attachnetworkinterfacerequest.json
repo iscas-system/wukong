@@ -1,0 +1,17 @@
+{
+	"metadata":{
+		"name":"attachnetworkinterfacerequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"attachNetworkInterfaceRequest":{
+				"networkInterfaceId":"String",
+				"instanceId":"String",
+				"deviceIndex":1
+			}
+		}
+	}
+}

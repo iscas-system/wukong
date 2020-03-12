@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"detachinternetgatewayrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"detachInternetGatewayRequest":{
+				"internetGatewayId":"String",
+				"vpcId":"String"
+			}
+		}
+	}
+}

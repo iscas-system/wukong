@@ -1,0 +1,17 @@
+{
+	"metadata":{
+		"name":"registertransitgatewaymulticastgroupmembersrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"registerTransitGatewayMulticastGroupMembersRequest":{
+				"transitGatewayMulticastDomainId":"String",
+				"groupIpAddress":"String",
+				"networkInterfaceIds":{}
+			}
+		}
+	}
+}

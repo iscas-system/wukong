@@ -1,0 +1,17 @@
+{
+	"metadata":{
+		"name":"terminateclientvpnconnectionsrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"terminateClientVpnConnectionsRequest":{
+				"clientVpnEndpointId":"String",
+				"connectionId":"String",
+				"username":"String"
+			}
+		}
+	}
+}

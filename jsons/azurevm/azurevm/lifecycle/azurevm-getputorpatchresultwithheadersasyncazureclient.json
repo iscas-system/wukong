@@ -1,0 +1,15 @@
+{
+	"metadata":{
+		"name":"getputorpatchresultwithheadersasyncazureclient",
+		"namespace":"azurevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"getPutOrPatchResultWithHeadersAsyncAzureClient":{
+				"_arg0":{}
+			}
+		}
+	}
+}

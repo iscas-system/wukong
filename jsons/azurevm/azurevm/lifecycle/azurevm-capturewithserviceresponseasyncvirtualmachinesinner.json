@@ -1,0 +1,21 @@
+{
+	"metadata":{
+		"name":"capturewithserviceresponseasyncvirtualmachinesinner",
+		"namespace":"azurevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"captureWithServiceResponseAsyncVirtualMachinesInner":{
+				"_arg0":"String",
+				"_arg1":"String",
+				"_arg2":{
+					"overwriteVhds":true,
+					"vhdPrefix":"String",
+					"destinationContainerName":"String"
+				}
+			}
+		}
+	}
+}

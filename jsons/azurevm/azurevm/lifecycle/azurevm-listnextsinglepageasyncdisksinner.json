@@ -1,0 +1,15 @@
+{
+	"metadata":{
+		"name":"listnextsinglepageasyncdisksinner",
+		"namespace":"azurevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"listNextSinglePageAsyncDisksInner":{
+				"_arg0":"String"
+			}
+		}
+	}
+}

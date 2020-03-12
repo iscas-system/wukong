@@ -1,0 +1,15 @@
+{
+	"metadata":{
+		"name":"listnextsinglepageasyncdedicatedhostgroupsinner",
+		"namespace":"azurevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"listNextSinglePageAsyncDedicatedHostGroupsInner":{
+				"_arg0":"String"
+			}
+		}
+	}
+}

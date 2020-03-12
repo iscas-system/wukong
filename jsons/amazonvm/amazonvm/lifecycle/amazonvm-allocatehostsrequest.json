@@ -1,0 +1,22 @@
+{
+	"metadata":{
+		"name":"allocatehostsrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"allocateHostsRequest":{
+				"tagSpecifications":{},
+				"hostRecovery":"String",
+				"quantity":1,
+				"clientToken":"String",
+				"instanceType":"String",
+				"autoPlacement":"String",
+				"instanceFamily":"String",
+				"availabilityZone":"String"
+			}
+		}
+	}
+}

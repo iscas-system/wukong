@@ -1,0 +1,18 @@
+{
+	"metadata":{
+		"name":"describetrafficmirrortargetsrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"describeTrafficMirrorTargetsRequest":{
+				"trafficMirrorTargetIds":{},
+				"maxResults":1,
+				"nextToken":"String",
+				"filters":{}
+			}
+		}
+	}
+}

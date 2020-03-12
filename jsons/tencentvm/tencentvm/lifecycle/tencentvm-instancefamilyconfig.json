@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"instancefamilyconfig",
+		"namespace":"tencentvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentVM",
+	"spec":{
+		"lifecycle":{
+			"instanceFamilyConfig":{
+				"InstanceFamily":"String",
+				"InstanceFamilyName":"String"
+			}
+		}
+	}
+}

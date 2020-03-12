@@ -1,0 +1,37 @@
+{
+	"metadata":{
+		"name":"instancetypequotaitem",
+		"namespace":"tencentvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentVM",
+	"spec":{
+		"lifecycle":{
+			"instanceTypeQuotaItem":{
+				"Status":"String",
+				"TypeName":"String",
+				"InstanceFamily":"String",
+				"Price":{
+					"ChargeUnit":"String",
+					"UnitPrice":1,
+					"OriginalPrice":1,
+					"DiscountPrice":1
+				},
+				"Zone":"String",
+				"InstanceChargeType":"String",
+				"Memory":1,
+				"NetworkCard":1,
+				"Cpu":1,
+				"InstanceType":"String",
+				"Externals":{
+					"StorageBlockAttr":{
+						"MinSize":1,
+						"Type":"String",
+						"MaxSize":1
+					},
+					"ReleaseAddress":true
+				}
+			}
+		}
+	}
+}

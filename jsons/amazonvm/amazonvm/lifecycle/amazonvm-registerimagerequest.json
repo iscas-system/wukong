@@ -1,0 +1,26 @@
+{
+	"metadata":{
+		"name":"registerimagerequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"registerImageRequest":{
+				"kernelId":"String",
+				"ramdiskId":"String",
+				"virtualizationType":"String",
+				"blockDeviceMappings":{},
+				"sriovNetSupport":"String",
+				"billingProducts":{},
+				"name":"String",
+				"description":"String",
+				"enaSupport":true,
+				"rootDeviceName":"String",
+				"imageLocation":"String",
+				"architecture":"String"
+			}
+		}
+	}
+}

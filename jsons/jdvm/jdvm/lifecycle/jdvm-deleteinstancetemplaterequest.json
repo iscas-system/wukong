@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"deleteinstancetemplaterequest",
+		"namespace":"jdvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"JDVM",
+	"spec":{
+		"lifecycle":{
+			"deleteInstanceTemplateRequest":{
+				"regionId":"String",
+				"instanceTemplateId":"String"
+			}
+		}
+	}
+}

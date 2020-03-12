@@ -1,0 +1,20 @@
+{
+	"metadata":{
+		"name":"exportrequestratebyintervalasyncloganalyticsinner",
+		"namespace":"azurevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"exportRequestRateByIntervalAsyncLogAnalyticsInner":{
+				"_arg0":"String",
+				"_arg1":{
+					"intervalLength":{
+						"value":"String"
+					}
+				}
+			}
+		}
+	}
+}

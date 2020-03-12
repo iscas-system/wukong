@@ -1,0 +1,24 @@
+{
+	"metadata":{
+		"name":"modifyvpcendpointrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"modifyVpcEndpointRequest":{
+				"policyDocument":"String",
+				"addSecurityGroupIds":{},
+				"addRouteTableIds":{},
+				"removeRouteTableIds":{},
+				"addSubnetIds":{},
+				"removeSubnetIds":{},
+				"removeSecurityGroupIds":{},
+				"resetPolicy":true,
+				"privateDnsEnabled":true,
+				"vpcEndpointId":"String"
+			}
+		}
+	}
+}

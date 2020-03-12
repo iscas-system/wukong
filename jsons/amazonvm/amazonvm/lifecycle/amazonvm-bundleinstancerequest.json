@@ -1,0 +1,24 @@
+{
+	"metadata":{
+		"name":"bundleinstancerequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"bundleInstanceRequest":{
+				"instanceId":"String",
+				"storage":{
+					"s3":{
+						"aWSAccessKeyId":"String",
+						"bucket":"String",
+						"uploadPolicySignature":"String",
+						"prefix":"String",
+						"uploadPolicy":"String"
+					}
+				}
+			}
+		}
+	}
+}

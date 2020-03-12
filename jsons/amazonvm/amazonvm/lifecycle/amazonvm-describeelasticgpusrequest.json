@@ -1,0 +1,18 @@
+{
+	"metadata":{
+		"name":"describeelasticgpusrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"describeElasticGpusRequest":{
+				"maxResults":1,
+				"nextToken":"String",
+				"elasticGpuIds":{},
+				"filters":{}
+			}
+		}
+	}
+}

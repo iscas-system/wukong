@@ -1,0 +1,20 @@
+{
+	"metadata":{
+		"name":"hostresource",
+		"namespace":"tencentvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentVM",
+	"spec":{
+		"lifecycle":{
+			"hostResource":{
+				"DiskAvailable":1,
+				"CpuAvailable":1,
+				"MemAvailable":1,
+				"DiskTotal":1,
+				"MemTotal":1,
+				"CpuTotal":1
+			}
+		}
+	}
+}

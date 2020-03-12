@@ -1,0 +1,36 @@
+{
+	"metadata":{
+		"name":"hostitem",
+		"namespace":"tencentvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentVM",
+	"spec":{
+		"lifecycle":{
+			"hostItem":{
+				"HostIp":"String",
+				"HostResource":{
+					"DiskAvailable":1,
+					"CpuAvailable":1,
+					"MemAvailable":1,
+					"DiskTotal":1,
+					"MemTotal":1,
+					"CpuTotal":1
+				},
+				"HostChargeType":"String",
+				"HostState":"String",
+				"HostType":"String",
+				"CreatedTime":"String",
+				"Placement":{
+					"Zone":"String",
+					"ProjectId":1
+				},
+				"ExpiredTime":"String",
+				"HostId":"String",
+				"CageId":"String",
+				"HostName":"String",
+				"RenewFlag":"String"
+			}
+		}
+	}
+}

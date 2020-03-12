@@ -1,0 +1,17 @@
+{
+	"metadata":{
+		"name":"associatetransitgatewaymulticastdomainrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"associateTransitGatewayMulticastDomainRequest":{
+				"transitGatewayMulticastDomainId":"String",
+				"transitGatewayAttachmentId":"String",
+				"subnetIds":{}
+			}
+		}
+	}
+}

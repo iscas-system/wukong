@@ -1,0 +1,15 @@
+{
+	"metadata":{
+		"name":"accepttransitgatewayvpcattachmentrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"acceptTransitGatewayVpcAttachmentRequest":{
+				"transitGatewayAttachmentId":"String"
+			}
+		}
+	}
+}

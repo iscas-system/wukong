@@ -1,0 +1,15 @@
+{
+	"metadata":{
+		"name":"filter",
+		"namespace":"tencentvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentVM",
+	"spec":{
+		"lifecycle":{
+			"filter":{
+				"Name":"String"
+			}
+		}
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"metadata":{
+		"name":"listsinglepageasyncusagesinner",
+		"namespace":"azurevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"listSinglePageAsyncUsagesInner":{
+				"_arg0":"String"
+			}
+		}
+	}
+}

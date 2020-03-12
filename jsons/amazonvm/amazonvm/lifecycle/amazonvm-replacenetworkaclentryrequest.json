@@ -1,0 +1,29 @@
+{
+	"metadata":{
+		"name":"replacenetworkaclentryrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"replaceNetworkAclEntryRequest":{
+				"portRange":{
+					"from":1,
+					"to":1
+				},
+				"ruleAction":"String",
+				"icmpTypeCode":{
+					"code":1,
+					"type":1
+				},
+				"protocol":"String",
+				"cidrBlock":"String",
+				"ruleNumber":1,
+				"ipv6CidrBlock":"String",
+				"egress":true,
+				"networkAclId":"String"
+			}
+		}
+	}
+}

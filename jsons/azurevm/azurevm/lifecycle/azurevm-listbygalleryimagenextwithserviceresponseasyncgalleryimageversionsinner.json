@@ -1,0 +1,15 @@
+{
+	"metadata":{
+		"name":"listbygalleryimagenextwithserviceresponseasyncgalleryimageversionsinner",
+		"namespace":"azurevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"listByGalleryImageNextWithServiceResponseAsyncGalleryImageVersionsInner":{
+				"_arg0":"String"
+			}
+		}
+	}
+}

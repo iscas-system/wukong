@@ -1,0 +1,23 @@
+{
+	"metadata":{
+		"name":"modifyinstanceautorenewattributerequest",
+		"namespace":"aliyunvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"modifyInstanceAutoRenewAttributeRequest":{
+				"duration":1,
+				"instanceId":"String",
+				"renewalStatus":"String",
+				"resourceOwnerAccount":"String",
+				"autoRenew":true,
+				"resourceOwnerId":1,
+				"ownerAccount":"String",
+				"ownerId":1,
+				"periodUnit":"String"
+			}
+		}
+	}
+}

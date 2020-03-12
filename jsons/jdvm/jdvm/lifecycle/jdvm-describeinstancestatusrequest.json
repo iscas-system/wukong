@@ -1,0 +1,17 @@
+{
+	"metadata":{
+		"name":"describeinstancestatusrequest",
+		"namespace":"jdvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"JDVM",
+	"spec":{
+		"lifecycle":{
+			"describeInstanceStatusRequest":{
+				"pageNumber":1,
+				"regionId":"String",
+				"pageSize":1
+			}
+		}
+	}
+}

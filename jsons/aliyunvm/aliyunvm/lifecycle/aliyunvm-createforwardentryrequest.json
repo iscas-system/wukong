@@ -1,0 +1,24 @@
+{
+	"metadata":{
+		"name":"createforwardentryrequest",
+		"namespace":"aliyunvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"createForwardEntryRequest":{
+				"forwardTableId":"String",
+				"internalPort":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ipProtocol":"String",
+				"ownerAccount":"String",
+				"ownerId":1,
+				"internalIp":"String",
+				"externalIp":"String",
+				"externalPort":"String"
+			}
+		}
+	}
+}

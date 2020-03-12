@@ -1,0 +1,30 @@
+{
+	"metadata":{
+		"name":"createcapacityreservationrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"createCapacityReservationRequest":{
+				"ephemeralStorage":true,
+				"tagSpecifications":{},
+				"ebsOptimized":true,
+				"availabilityZoneId":"String",
+				"endDate":{
+					"cdate":{},
+					"fastTime":1
+				},
+				"clientToken":"String",
+				"instancePlatform":"String",
+				"instanceType":"String",
+				"tenancy":"String",
+				"availabilityZone":"String",
+				"instanceCount":1,
+				"endDateType":"String",
+				"instanceMatchCriteria":"String"
+			}
+		}
+	}
+}

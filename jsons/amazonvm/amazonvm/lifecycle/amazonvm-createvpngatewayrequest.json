@@ -1,0 +1,17 @@
+{
+	"metadata":{
+		"name":"createvpngatewayrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"createVpnGatewayRequest":{
+				"amazonSideAsn":1,
+				"type":"String",
+				"availabilityZone":"String"
+			}
+		}
+	}
+}

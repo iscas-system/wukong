@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"modifyimagesharepermissionrequest",
+		"namespace":"tencentvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentVM",
+	"spec":{
+		"lifecycle":{
+			"modifyImageSharePermissionRequest":{
+				"ImageId":"String",
+				"Permission":"String"
+			}
+		}
+	}
+}

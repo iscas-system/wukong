@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"deletenetworkinterfacepermissionrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"deleteNetworkInterfacePermissionRequest":{
+				"networkInterfacePermissionId":"String",
+				"force":true
+			}
+		}
+	}
+}

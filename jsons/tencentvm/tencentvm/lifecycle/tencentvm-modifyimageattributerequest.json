@@ -1,0 +1,17 @@
+{
+	"metadata":{
+		"name":"modifyimageattributerequest",
+		"namespace":"tencentvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentVM",
+	"spec":{
+		"lifecycle":{
+			"modifyImageAttributeRequest":{
+				"ImageName":"String",
+				"ImageId":"String",
+				"ImageDescription":"String"
+			}
+		}
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"metadata":{
+		"name":"cancelautosnapshotpolicyrequest",
+		"namespace":"aliyunvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"cancelAutoSnapshotPolicyRequest":{
+				"diskIds":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1
+			}
+		}
+	}
+}

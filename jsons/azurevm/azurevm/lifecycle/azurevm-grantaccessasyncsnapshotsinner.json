@@ -1,0 +1,20 @@
+{
+	"metadata":{
+		"name":"grantaccessasyncsnapshotsinner",
+		"namespace":"azurevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"grantAccessAsyncSnapshotsInner":{
+				"_arg0":"String",
+				"_arg1":"String",
+				"_arg2":{
+					"access":{},
+					"durationInSeconds":1
+				}
+			}
+		}
+	}
+}

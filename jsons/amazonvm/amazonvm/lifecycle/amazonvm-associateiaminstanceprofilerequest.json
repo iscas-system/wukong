@@ -1,0 +1,19 @@
+{
+	"metadata":{
+		"name":"associateiaminstanceprofilerequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"associateIamInstanceProfileRequest":{
+				"instanceId":"String",
+				"iamInstanceProfile":{
+					"name":"String",
+					"arn":"String"
+				}
+			}
+		}
+	}
+}

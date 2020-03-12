@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"instancechargeprepaid",
+		"namespace":"tencentvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentVM",
+	"spec":{
+		"lifecycle":{
+			"instanceChargePrepaid":{
+				"Period":1,
+				"RenewFlag":"String"
+			}
+		}
+	}
+}

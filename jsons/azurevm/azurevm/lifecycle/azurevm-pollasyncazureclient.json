@@ -1,0 +1,33 @@
+{
+	"metadata":{
+		"name":"pollasyncazureclient",
+		"namespace":"azurevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"pollAsyncAzureClient":{
+				"_arg0":{
+					"defaultRetryTimeout":1,
+					"putOrPatchResourceUri":"String",
+					"finalStateVia":{},
+					"locationHeaderLink":"String",
+					"serializerAdapter":{},
+					"error":{
+						"code":"String",
+						"message":"String",
+						"target":"String"
+					},
+					"azureAsyncOperationHeaderLink":"String",
+					"retryTimeout":1,
+					"response":{},
+					"initialHttpMethod":"String",
+					"loggingContext":"String",
+					"status":"String",
+					"statusCode":1
+				}
+			}
+		}
+	}
+}

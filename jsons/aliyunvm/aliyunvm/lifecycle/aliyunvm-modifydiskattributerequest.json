@@ -1,0 +1,24 @@
+{
+	"metadata":{
+		"name":"modifydiskattributerequest",
+		"namespace":"aliyunvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"modifyDiskAttributeRequest":{
+				"diskName":"String",
+				"deleteWithInstance":true,
+				"description":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"diskId":"String",
+				"deleteAutoSnapshot":true,
+				"ownerAccount":"String",
+				"ownerId":1,
+				"enableAutoSnapshot":true
+			}
+		}
+	}
+}

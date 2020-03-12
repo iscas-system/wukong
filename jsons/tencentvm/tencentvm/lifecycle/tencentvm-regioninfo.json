@@ -1,0 +1,17 @@
+{
+	"metadata":{
+		"name":"regioninfo",
+		"namespace":"tencentvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentVM",
+	"spec":{
+		"lifecycle":{
+			"regionInfo":{
+				"RegionState":"String",
+				"RegionName":"String",
+				"Region":"String"
+			}
+		}
+	}
+}

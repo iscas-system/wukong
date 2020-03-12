@@ -1,0 +1,15 @@
+{
+	"metadata":{
+		"name":"listbylocationwithserviceresponseasyncvirtualmachinesinner",
+		"namespace":"azurevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"listByLocationWithServiceResponseAsyncVirtualMachinesInner":{
+				"_arg0":"String"
+			}
+		}
+	}
+}

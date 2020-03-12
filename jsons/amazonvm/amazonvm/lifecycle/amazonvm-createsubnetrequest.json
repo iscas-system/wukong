@@ -1,0 +1,20 @@
+{
+	"metadata":{
+		"name":"createsubnetrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"createSubnetRequest":{
+				"availabilityZoneId":"String",
+				"cidrBlock":"String",
+				"vpcId":"String",
+				"outpostArn":"String",
+				"availabilityZone":"String",
+				"ipv6CidrBlock":"String"
+			}
+		}
+	}
+}

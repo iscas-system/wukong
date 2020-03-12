@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"deletevpnconnectionrouterequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"deleteVpnConnectionRouteRequest":{
+				"destinationCidrBlock":"String",
+				"vpnConnectionId":"String"
+			}
+		}
+	}
+}

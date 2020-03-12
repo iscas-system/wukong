@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"resetfpgaimageattributerequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"resetFpgaImageAttributeRequest":{
+				"fpgaImageId":"String",
+				"attribute":"String"
+			}
+		}
+	}
+}

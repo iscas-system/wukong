@@ -1,0 +1,15 @@
+{
+	"metadata":{
+		"name":"listnextasyncusagesinner",
+		"namespace":"azurevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"listNextAsyncUsagesInner":{
+				"_arg0":"String"
+			}
+		}
+	}
+}

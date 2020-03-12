@@ -1,0 +1,15 @@
+{
+	"metadata":{
+		"name":"tagspecification",
+		"namespace":"tencentvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentVM",
+	"spec":{
+		"lifecycle":{
+			"tagSpecification":{
+				"ResourceType":"String"
+			}
+		}
+	}
+}

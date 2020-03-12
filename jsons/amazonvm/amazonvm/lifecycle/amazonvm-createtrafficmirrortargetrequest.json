@@ -1,0 +1,19 @@
+{
+	"metadata":{
+		"name":"createtrafficmirrortargetrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"createTrafficMirrorTargetRequest":{
+				"networkInterfaceId":"String",
+				"tagSpecifications":{},
+				"clientToken":"String",
+				"description":"String",
+				"networkLoadBalancerArn":"String"
+			}
+		}
+	}
+}

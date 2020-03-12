@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"describekeypairsrequest",
+		"namespace":"tencentvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentVM",
+	"spec":{
+		"lifecycle":{
+			"describeKeyPairsRequest":{
+				"Limit":1,
+				"Offset":1
+			}
+		}
+	}
+}

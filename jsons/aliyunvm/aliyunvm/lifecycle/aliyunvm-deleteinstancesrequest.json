@@ -1,0 +1,22 @@
+{
+	"metadata":{
+		"name":"deleteinstancesrequest",
+		"namespace":"aliyunvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"deleteInstancesRequest":{
+				"dryRun":true,
+				"clientToken":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"terminateSubscription":true,
+				"force":true,
+				"ownerAccount":"String",
+				"ownerId":1
+			}
+		}
+	}
+}

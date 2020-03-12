@@ -1,0 +1,24 @@
+{
+	"metadata":{
+		"name":"createvswitchrequest",
+		"namespace":"aliyunvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"createVSwitchRequest":{
+				"vSwitchName":"String",
+				"clientToken":"String",
+				"vpcId":"String",
+				"cidrBlock":"String",
+				"description":"String",
+				"resourceOwnerAccount":"String",
+				"zoneId":"String",
+				"resourceOwnerId":1,
+				"ownerAccount":"String",
+				"ownerId":1
+			}
+		}
+	}
+}

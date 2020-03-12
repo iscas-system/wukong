@@ -1,0 +1,18 @@
+{
+	"metadata":{
+		"name":"replacetransitgatewayrouterequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"replaceTransitGatewayRouteRequest":{
+				"destinationCidrBlock":"String",
+				"transitGatewayAttachmentId":"String",
+				"transitGatewayRouteTableId":"String",
+				"blackhole":true
+			}
+		}
+	}
+}

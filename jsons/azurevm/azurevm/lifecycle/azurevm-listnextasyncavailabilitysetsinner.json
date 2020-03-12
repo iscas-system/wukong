@@ -1,0 +1,15 @@
+{
+	"metadata":{
+		"name":"listnextasyncavailabilitysetsinner",
+		"namespace":"azurevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"listNextAsyncAvailabilitySetsInner":{
+				"_arg0":"String"
+			}
+		}
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"metadata":{
+		"name":"describetransitgatewayroutetablesrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"describeTransitGatewayRouteTablesRequest":{
+				"maxResults":1,
+				"nextToken":"String",
+				"transitGatewayRouteTableIds":{},
+				"filters":{}
+			}
+		}
+	}
+}

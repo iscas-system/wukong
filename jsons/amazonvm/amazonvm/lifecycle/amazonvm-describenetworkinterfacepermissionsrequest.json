@@ -1,0 +1,18 @@
+{
+	"metadata":{
+		"name":"describenetworkinterfacepermissionsrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"describeNetworkInterfacePermissionsRequest":{
+				"nextToken":"String",
+				"maxResults":1,
+				"filters":{},
+				"networkInterfacePermissionIds":{}
+			}
+		}
+	}
+}

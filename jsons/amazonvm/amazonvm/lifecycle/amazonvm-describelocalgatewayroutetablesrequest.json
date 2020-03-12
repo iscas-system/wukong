@@ -1,0 +1,18 @@
+{
+	"metadata":{
+		"name":"describelocalgatewayroutetablesrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"describeLocalGatewayRouteTablesRequest":{
+				"localGatewayRouteTableIds":{},
+				"maxResults":1,
+				"nextToken":"String",
+				"filters":{}
+			}
+		}
+	}
+}

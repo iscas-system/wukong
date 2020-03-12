@@ -1,0 +1,17 @@
+{
+	"metadata":{
+		"name":"modifyreservedinstancesrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"modifyReservedInstancesRequest":{
+				"targetConfigurations":{},
+				"clientToken":"String",
+				"reservedInstancesIds":{}
+			}
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"metadata":{
+		"name":"externals",
+		"namespace":"tencentvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentVM",
+	"spec":{
+		"lifecycle":{
+			"externals":{
+				"StorageBlockAttr":{
+					"MinSize":1,
+					"Type":"String",
+					"MaxSize":1
+				},
+				"ReleaseAddress":true
+			}
+		}
+	}
+}

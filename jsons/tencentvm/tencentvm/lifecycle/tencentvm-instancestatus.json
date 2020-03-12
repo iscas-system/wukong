@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"instancestatus",
+		"namespace":"tencentvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentVM",
+	"spec":{
+		"lifecycle":{
+			"instanceStatus":{
+				"InstanceState":"String",
+				"InstanceId":"String"
+			}
+		}
+	}
+}

@@ -1,0 +1,22 @@
+{
+	"metadata":{
+		"name":"describefleethistoryrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"describeFleetHistoryRequest":{
+				"maxResults":1,
+				"nextToken":"String",
+				"startTime":{
+					"cdate":{},
+					"fastTime":1
+				},
+				"eventType":"String",
+				"fleetId":"String"
+			}
+		}
+	}
+}

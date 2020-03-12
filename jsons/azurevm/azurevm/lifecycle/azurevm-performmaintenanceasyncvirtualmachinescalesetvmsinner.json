@@ -1,0 +1,17 @@
+{
+	"metadata":{
+		"name":"performmaintenanceasyncvirtualmachinescalesetvmsinner",
+		"namespace":"azurevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"performMaintenanceAsyncVirtualMachineScaleSetVMsInner":{
+				"_arg0":"String",
+				"_arg1":"String",
+				"_arg2":"String"
+			}
+		}
+	}
+}

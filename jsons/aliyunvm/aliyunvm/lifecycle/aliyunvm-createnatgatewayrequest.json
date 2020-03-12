@@ -1,0 +1,22 @@
+{
+	"metadata":{
+		"name":"createnatgatewayrequest",
+		"namespace":"aliyunvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"createNatGatewayRequest":{
+				"clientToken":"String",
+				"vpcId":"String",
+				"name":"String",
+				"description":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerAccount":"String",
+				"ownerId":1
+			}
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"metadata":{
+		"name":"associateaddressrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"associateAddressRequest":{
+				"networkInterfaceId":"String",
+				"instanceId":"String",
+				"allowReassociation":true,
+				"allocationId":"String",
+				"publicIp":"String",
+				"privateIpAddress":"String"
+			}
+		}
+	}
+}

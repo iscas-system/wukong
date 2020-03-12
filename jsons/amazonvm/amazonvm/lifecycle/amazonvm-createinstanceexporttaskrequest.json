@@ -1,0 +1,23 @@
+{
+	"metadata":{
+		"name":"createinstanceexporttaskrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"createInstanceExportTaskRequest":{
+				"instanceId":"String",
+				"exportToS3Task":{
+					"diskImageFormat":"String",
+					"containerFormat":"String",
+					"s3Prefix":"String",
+					"s3Bucket":"String"
+				},
+				"targetEnvironment":"String",
+				"description":"String"
+			}
+		}
+	}
+}

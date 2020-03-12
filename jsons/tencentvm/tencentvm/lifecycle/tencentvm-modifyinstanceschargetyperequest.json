@@ -1,0 +1,19 @@
+{
+	"metadata":{
+		"name":"modifyinstanceschargetyperequest",
+		"namespace":"tencentvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentVM",
+	"spec":{
+		"lifecycle":{
+			"modifyInstancesChargeTypeRequest":{
+				"InstanceChargeType":"String",
+				"InstanceChargePrepaid":{
+					"Period":1,
+					"RenewFlag":"String"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"metadata":{
+		"name":"listbyresourcegroupnextwithserviceresponseasyncdisksinner",
+		"namespace":"azurevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"listByResourceGroupNextWithServiceResponseAsyncDisksInner":{
+				"_arg0":"String"
+			}
+		}
+	}
+}

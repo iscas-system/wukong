@@ -1,0 +1,17 @@
+{
+	"metadata":{
+		"name":"exporttransitgatewayroutesrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"exportTransitGatewayRoutesRequest":{
+				"filters":{},
+				"transitGatewayRouteTableId":"String",
+				"s3Bucket":"String"
+			}
+		}
+	}
+}

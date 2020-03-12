@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"describevpngatewaysrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"describeVpnGatewaysRequest":{
+				"vpnGatewayIds":{},
+				"filters":{}
+			}
+		}
+	}
+}

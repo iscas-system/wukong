@@ -1,0 +1,20 @@
+{
+	"metadata":{
+		"name":"describedisasterrecovergroupquotaresponse",
+		"namespace":"tencentvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentVM",
+	"spec":{
+		"lifecycle":{
+			"describeDisasterRecoverGroupQuotaResponse":{
+				"CvmInSwGroupQuota":1,
+				"CurrentNum":1,
+				"RequestId":"String",
+				"CvmInHostGroupQuota":1,
+				"GroupQuota":1,
+				"CvmInRackGroupQuota":1
+			}
+		}
+	}
+}

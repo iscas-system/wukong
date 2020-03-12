@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"shareimagerequest",
+		"namespace":"jdvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"JDVM",
+	"spec":{
+		"lifecycle":{
+			"shareImageRequest":{
+				"imageId":"String",
+				"regionId":"String"
+			}
+		}
+	}
+}

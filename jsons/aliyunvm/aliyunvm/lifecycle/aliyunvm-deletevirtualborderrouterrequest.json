@@ -1,0 +1,21 @@
+{
+	"metadata":{
+		"name":"deletevirtualborderrouterrequest",
+		"namespace":"aliyunvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"deleteVirtualBorderRouterRequest":{
+				"clientToken":"String",
+				"userCidr":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"vbrId":"String",
+				"ownerAccount":"String",
+				"ownerId":1
+			}
+		}
+	}
+}

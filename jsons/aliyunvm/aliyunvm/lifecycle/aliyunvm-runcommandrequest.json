@@ -1,0 +1,29 @@
+{
+	"metadata":{
+		"name":"runcommandrequest",
+		"namespace":"aliyunvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"runCommandRequest":{
+				"timed":true,
+				"workingDir":"String",
+				"description":"String",
+				"type":"String",
+				"ownerAccount":"String",
+				"ownerId":1,
+				"enableParameter":true,
+				"timeout":1,
+				"frequency":"String",
+				"keepCommand":true,
+				"commandContent":"String",
+				"name":"String",
+				"contentEncoding":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1
+			}
+		}
+	}
+}

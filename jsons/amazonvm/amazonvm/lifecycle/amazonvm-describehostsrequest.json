@@ -1,0 +1,18 @@
+{
+	"metadata":{
+		"name":"describehostsrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"describeHostsRequest":{
+				"filter":{},
+				"maxResults":1,
+				"nextToken":"String",
+				"hostIds":{}
+			}
+		}
+	}
+}

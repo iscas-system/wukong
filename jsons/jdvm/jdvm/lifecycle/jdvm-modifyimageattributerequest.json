@@ -1,0 +1,18 @@
+{
+	"metadata":{
+		"name":"modifyimageattributerequest",
+		"namespace":"jdvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"JDVM",
+	"spec":{
+		"lifecycle":{
+			"modifyImageAttributeRequest":{
+				"imageId":"String",
+				"regionId":"String",
+				"name":"String",
+				"description":"String"
+			}
+		}
+	}
+}

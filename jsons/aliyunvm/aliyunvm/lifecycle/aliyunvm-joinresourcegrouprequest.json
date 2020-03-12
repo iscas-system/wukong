@@ -1,0 +1,21 @@
+{
+	"metadata":{
+		"name":"joinresourcegrouprequest",
+		"namespace":"aliyunvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"joinResourceGroupRequest":{
+				"resourceId":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"resourceGroupId":"String",
+				"ownerAccount":"String",
+				"ownerId":1,
+				"resourceType":"String"
+			}
+		}
+	}
+}

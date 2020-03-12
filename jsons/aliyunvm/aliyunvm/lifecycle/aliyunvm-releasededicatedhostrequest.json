@@ -1,0 +1,19 @@
+{
+	"metadata":{
+		"name":"releasededicatedhostrequest",
+		"namespace":"aliyunvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"releaseDedicatedHostRequest":{
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerAccount":"String",
+				"ownerId":1,
+				"dedicatedHostId":"String"
+			}
+		}
+	}
+}

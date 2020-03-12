@@ -1,0 +1,15 @@
+{
+	"metadata":{
+		"name":"senddiagnosticinterruptrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"sendDiagnosticInterruptRequest":{
+				"instanceId":"String"
+			}
+		}
+	}
+}

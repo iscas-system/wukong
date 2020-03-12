@@ -1,0 +1,15 @@
+{
+	"metadata":{
+		"name":"listwithserviceresponseasyncvirtualmachinesizesinner",
+		"namespace":"azurevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"listWithServiceResponseAsyncVirtualMachineSizesInner":{
+				"_arg0":"String"
+			}
+		}
+	}
+}

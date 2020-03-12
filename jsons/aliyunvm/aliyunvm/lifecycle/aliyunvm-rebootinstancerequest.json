@@ -1,0 +1,21 @@
+{
+	"metadata":{
+		"name":"rebootinstancerequest",
+		"namespace":"aliyunvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"rebootInstanceRequest":{
+				"dryRun":true,
+				"instanceId":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerAccount":"String",
+				"ownerId":1,
+				"forceStop":true
+			}
+		}
+	}
+}

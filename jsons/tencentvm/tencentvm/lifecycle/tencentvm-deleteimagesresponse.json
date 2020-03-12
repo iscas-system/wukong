@@ -1,0 +1,15 @@
+{
+	"metadata":{
+		"name":"deleteimagesresponse",
+		"namespace":"tencentvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentVM",
+	"spec":{
+		"lifecycle":{
+			"deleteImagesResponse":{
+				"RequestId":"String"
+			}
+		}
+	}
+}

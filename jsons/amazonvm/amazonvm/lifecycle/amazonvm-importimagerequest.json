@@ -1,0 +1,37 @@
+{
+	"metadata":{
+		"name":"importimagerequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"importImageRequest":{
+				"diskContainers":{},
+				"licenseType":"String",
+				"encrypted":true,
+				"licenseSpecifications":{},
+				"clientToken":"String",
+				"hypervisor":"String",
+				"roleName":"String",
+				"description":"String",
+				"clientData":{
+					"uploadEnd":{
+						"cdate":{},
+						"fastTime":1
+					},
+					"uploadSize":1,
+					"uploadStart":{
+						"cdate":{},
+						"fastTime":1
+					},
+					"comment":"String"
+				},
+				"kmsKeyId":"String",
+				"platform":"String",
+				"architecture":"String"
+			}
+		}
+	}
+}

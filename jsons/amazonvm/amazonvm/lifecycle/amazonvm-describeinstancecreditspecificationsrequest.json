@@ -1,0 +1,18 @@
+{
+	"metadata":{
+		"name":"describeinstancecreditspecificationsrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"describeInstanceCreditSpecificationsRequest":{
+				"instanceIds":{},
+				"maxResults":1,
+				"nextToken":"String",
+				"filters":{}
+			}
+		}
+	}
+}

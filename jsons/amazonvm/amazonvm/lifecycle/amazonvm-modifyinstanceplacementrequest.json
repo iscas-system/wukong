@@ -1,0 +1,21 @@
+{
+	"metadata":{
+		"name":"modifyinstanceplacementrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"modifyInstancePlacementRequest":{
+				"partitionNumber":1,
+				"groupName":"String",
+				"instanceId":"String",
+				"hostResourceGroupArn":"String",
+				"tenancy":"String",
+				"hostId":"String",
+				"affinity":"String"
+			}
+		}
+	}
+}

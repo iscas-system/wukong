@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"redeployasyncvirtualmachinescalesetsinner",
+		"namespace":"azurevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"redeployAsyncVirtualMachineScaleSetsInner":{
+				"_arg0":"String",
+				"_arg1":"String"
+			}
+		}
+	}
+}

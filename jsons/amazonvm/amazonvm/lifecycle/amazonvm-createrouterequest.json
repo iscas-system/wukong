@@ -1,0 +1,25 @@
+{
+	"metadata":{
+		"name":"createrouterequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"createRouteRequest":{
+				"destinationCidrBlock":"String",
+				"networkInterfaceId":"String",
+				"destinationIpv6CidrBlock":"String",
+				"instanceId":"String",
+				"transitGatewayId":"String",
+				"routeTableId":"String",
+				"natGatewayId":"String",
+				"vpcPeeringConnectionId":"String",
+				"egressOnlyInternetGatewayId":"String",
+				"gatewayId":"String",
+				"localGatewayId":"String"
+			}
+		}
+	}
+}

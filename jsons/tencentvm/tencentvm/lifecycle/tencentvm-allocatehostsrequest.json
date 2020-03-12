@@ -1,0 +1,26 @@
+{
+	"metadata":{
+		"name":"allocatehostsrequest",
+		"namespace":"tencentvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentVM",
+	"spec":{
+		"lifecycle":{
+			"allocateHostsRequest":{
+				"HostChargeType":"String",
+				"HostType":"String",
+				"HostCount":1,
+				"Placement":{
+					"Zone":"String",
+					"ProjectId":1
+				},
+				"HostChargePrepaid":{
+					"Period":1,
+					"RenewFlag":"String"
+				},
+				"ClientToken":"String"
+			}
+		}
+	}
+}

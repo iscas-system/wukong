@@ -1,0 +1,17 @@
+{
+	"metadata":{
+		"name":"importkeypairrequest",
+		"namespace":"jdvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"JDVM",
+	"spec":{
+		"lifecycle":{
+			"importKeypairRequest":{
+				"regionId":"String",
+				"keyName":"String",
+				"publicKey":"String"
+			}
+		}
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"metadata":{
+		"name":"listbyresourcegroupasyncdisksinner",
+		"namespace":"azurevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"listByResourceGroupAsyncDisksInner":{
+				"_arg0":"String"
+			}
+		}
+	}
+}

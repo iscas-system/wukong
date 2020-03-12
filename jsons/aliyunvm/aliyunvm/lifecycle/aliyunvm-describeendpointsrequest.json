@@ -1,0 +1,17 @@
+{
+	"metadata":{
+		"name":"describeendpointsrequest",
+		"namespace":"aliyunvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"describeEndpointsRequest":{
+				"serviceCode":"String",
+				"id":"String",
+				"type":"String"
+			}
+		}
+	}
+}

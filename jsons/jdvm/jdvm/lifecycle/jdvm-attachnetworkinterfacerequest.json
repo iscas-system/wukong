@@ -1,0 +1,18 @@
+{
+	"metadata":{
+		"name":"attachnetworkinterfacerequest",
+		"namespace":"jdvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"JDVM",
+	"spec":{
+		"lifecycle":{
+			"attachNetworkInterfaceRequest":{
+				"networkInterfaceId":"String",
+				"instanceId":"String",
+				"regionId":"String",
+				"autoDelete":true
+			}
+		}
+	}
+}

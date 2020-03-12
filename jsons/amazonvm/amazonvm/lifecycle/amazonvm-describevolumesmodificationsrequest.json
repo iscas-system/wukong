@@ -1,0 +1,18 @@
+{
+	"metadata":{
+		"name":"describevolumesmodificationsrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"describeVolumesModificationsRequest":{
+				"nextToken":"String",
+				"maxResults":1,
+				"volumeIds":{},
+				"filters":{}
+			}
+		}
+	}
+}

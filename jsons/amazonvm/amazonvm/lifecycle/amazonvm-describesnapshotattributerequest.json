@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"describesnapshotattributerequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"describeSnapshotAttributeRequest":{
+				"snapshotId":"String",
+				"attribute":"String"
+			}
+		}
+	}
+}

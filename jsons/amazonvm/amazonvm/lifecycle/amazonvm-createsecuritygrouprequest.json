@@ -1,0 +1,17 @@
+{
+	"metadata":{
+		"name":"createsecuritygrouprequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"createSecurityGroupRequest":{
+				"groupName":"String",
+				"vpcId":"String",
+				"description":"String"
+			}
+		}
+	}
+}

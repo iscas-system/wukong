@@ -1,0 +1,18 @@
+{
+	"metadata":{
+		"name":"deletekeypairsrequest",
+		"namespace":"aliyunvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"deleteKeyPairsRequest":{
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"keyPairNames":"String",
+				"ownerId":1
+			}
+		}
+	}
+}

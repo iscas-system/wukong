@@ -1,0 +1,20 @@
+{
+	"metadata":{
+		"name":"deletehpcclusterrequest",
+		"namespace":"aliyunvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"deleteHpcClusterRequest":{
+				"clientToken":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"hpcClusterId":"String",
+				"ownerAccount":"String",
+				"ownerId":1
+			}
+		}
+	}
+}

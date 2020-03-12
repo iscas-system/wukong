@@ -1,0 +1,17 @@
+{
+	"metadata":{
+		"name":"createplacementgrouprequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"createPlacementGroupRequest":{
+				"partitionCount":1,
+				"groupName":"String",
+				"strategy":"String"
+			}
+		}
+	}
+}

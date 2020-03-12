@@ -25,11 +25,11 @@ public class Classifier {
 	
 //	public final static String CONFIG = "conf/jdkinfo.conf-tencentVM";
 	
-//	public final static String CONFIG = "conf/jdkinfo.conf-JDVM";
+	public final static String CONFIG = "conf/jdkinfo.conf-JDVM";
 	
 //	public final static String CONFIG = "conf/jdkinfo.conf-azurevm"; 
 	
-	public final static String CONFIG = "conf/jdkinfo.conf-googlegce"; 
+//	public final static String CONFIG = "conf/jdkinfo.conf-googlegce"; 
 	
 	public static void main(String[] args) throws Exception {
 		JSONObject jo = JSON.parseObject(new FileInputStream(new File(CONFIG)), JSONObject.class);
@@ -39,7 +39,8 @@ public class Classifier {
 			Constructor<?> aCtr = aClass.getConstructor(String.class, Class.class);
 			Analyzer analyzer = (Analyzer) aCtr.newInstance(jo.getString("kind")
 									, Class.forName(jo.getString("client")));
-			analyzer.getLifecycles();
+			Generator generator = new Generator(jo.getString("kind"), analyzer.getResults());
+			generator.generate();
 		} catch (Exception ex) {
 			ex.printStackTrace();
 			return;

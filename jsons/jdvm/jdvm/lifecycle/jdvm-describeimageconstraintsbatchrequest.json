@@ -1,0 +1,15 @@
+{
+	"metadata":{
+		"name":"describeimageconstraintsbatchrequest",
+		"namespace":"jdvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"JDVM",
+	"spec":{
+		"lifecycle":{
+			"describeImageConstraintsBatchRequest":{
+				"regionId":"String"
+			}
+		}
+	}
+}

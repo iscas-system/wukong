@@ -1,0 +1,19 @@
+{
+	"metadata":{
+		"name":"instancemarketoptionsrequest",
+		"namespace":"tencentvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentVM",
+	"spec":{
+		"lifecycle":{
+			"instanceMarketOptionsRequest":{
+				"SpotOptions":{
+					"SpotInstanceType":"String",
+					"MaxPrice":"String"
+				},
+				"MarketType":"String"
+			}
+		}
+	}
+}

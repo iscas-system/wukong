@@ -1,0 +1,29 @@
+{
+	"metadata":{
+		"name":"createdemandrequest",
+		"namespace":"aliyunvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"createDemandRequest":{
+				"instanceChargeType":"String",
+				"amount":1,
+				"period":1,
+				"clientToken":"String",
+				"instanceType":"String",
+				"ownerAccount":"String",
+				"ownerId":1,
+				"periodUnit":"String",
+				"demandName":"String",
+				"resourceOwnerAccount":"String",
+				"zoneId":"String",
+				"resourceOwnerId":1,
+				"startTime":"String",
+				"endTime":"String",
+				"demandDescription":"String"
+			}
+		}
+	}
+}

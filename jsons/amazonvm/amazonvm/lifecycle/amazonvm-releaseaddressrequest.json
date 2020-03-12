@@ -1,0 +1,17 @@
+{
+	"metadata":{
+		"name":"releaseaddressrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"releaseAddressRequest":{
+				"networkBorderGroup":"String",
+				"allocationId":"String",
+				"publicIp":"String"
+			}
+		}
+	}
+}

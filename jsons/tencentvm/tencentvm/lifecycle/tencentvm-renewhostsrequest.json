@@ -1,0 +1,18 @@
+{
+	"metadata":{
+		"name":"renewhostsrequest",
+		"namespace":"tencentvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentVM",
+	"spec":{
+		"lifecycle":{
+			"renewHostsRequest":{
+				"HostChargePrepaid":{
+					"Period":1,
+					"RenewFlag":"String"
+				}
+			}
+		}
+	}
+}

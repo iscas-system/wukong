@@ -1,0 +1,23 @@
+{
+	"metadata":{
+		"name":"createrouteentryrequest",
+		"namespace":"aliyunvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"createRouteEntryRequest":{
+				"destinationCidrBlock":"String",
+				"clientToken":"String",
+				"nextHopId":"String",
+				"nextHopType":"String",
+				"routeTableId":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerAccount":"String",
+				"ownerId":1
+			}
+		}
+	}
+}

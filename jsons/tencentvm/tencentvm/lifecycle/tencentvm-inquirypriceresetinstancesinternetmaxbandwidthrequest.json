@@ -1,0 +1,22 @@
+{
+	"metadata":{
+		"name":"inquirypriceresetinstancesinternetmaxbandwidthrequest",
+		"namespace":"tencentvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentVM",
+	"spec":{
+		"lifecycle":{
+			"inquiryPriceResetInstancesInternetMaxBandwidthRequest":{
+				"EndTime":"String",
+				"InternetAccessible":{
+					"InternetMaxBandwidthOut":1,
+					"PublicIpAssigned":true,
+					"BandwidthPackageId":"String",
+					"InternetChargeType":"String"
+				},
+				"StartTime":"String"
+			}
+		}
+	}
+}

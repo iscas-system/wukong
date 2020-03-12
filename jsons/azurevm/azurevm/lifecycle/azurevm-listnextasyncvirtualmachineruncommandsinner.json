@@ -1,0 +1,15 @@
+{
+	"metadata":{
+		"name":"listnextasyncvirtualmachineruncommandsinner",
+		"namespace":"azurevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"listNextAsyncVirtualMachineRunCommandsInner":{
+				"_arg0":"String"
+			}
+		}
+	}
+}

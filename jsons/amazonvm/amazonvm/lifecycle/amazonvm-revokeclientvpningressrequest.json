@@ -1,0 +1,18 @@
+{
+	"metadata":{
+		"name":"revokeclientvpningressrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"revokeClientVpnIngressRequest":{
+				"clientVpnEndpointId":"String",
+				"targetNetworkCidr":"String",
+				"accessGroupId":"String",
+				"revokeAllGroups":true
+			}
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"metadata":{
+		"name":"associatehaviprequest",
+		"namespace":"aliyunvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"associateHaVipRequest":{
+				"instanceId":"String",
+				"haVipId":"String",
+				"clientToken":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerAccount":"String",
+				"ownerId":1
+			}
+		}
+	}
+}

@@ -1,0 +1,34 @@
+{
+	"metadata":{
+		"name":"resetinstancerequest",
+		"namespace":"tencentvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentVM",
+	"spec":{
+		"lifecycle":{
+			"resetInstanceRequest":{
+				"SystemDisk":{
+					"DiskType":"String",
+					"DiskSize":1,
+					"DiskId":"String"
+				},
+				"InstanceId":"String",
+				"ImageId":"String",
+				"LoginSettings":{
+					"KeepImageLogin":"String",
+					"Password":"String"
+				},
+				"EnhancedService":{
+					"SecurityService":{
+						"Enabled":true
+					},
+					"MonitorService":{
+						"Enabled":true
+					}
+				},
+				"HostName":"String"
+			}
+		}
+	}
+}

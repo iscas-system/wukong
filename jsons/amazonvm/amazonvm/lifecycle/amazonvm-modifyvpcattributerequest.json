@@ -1,0 +1,17 @@
+{
+	"metadata":{
+		"name":"modifyvpcattributerequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"modifyVpcAttributeRequest":{
+				"enableDnsSupport":true,
+				"vpcId":"String",
+				"enableDnsHostnames":true
+			}
+		}
+	}
+}

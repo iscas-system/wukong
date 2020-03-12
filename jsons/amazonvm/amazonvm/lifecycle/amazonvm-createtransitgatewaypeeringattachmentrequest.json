@@ -1,0 +1,19 @@
+{
+	"metadata":{
+		"name":"createtransitgatewaypeeringattachmentrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"createTransitGatewayPeeringAttachmentRequest":{
+				"tagSpecifications":{},
+				"transitGatewayId":"String",
+				"peerAccountId":"String",
+				"peerTransitGatewayId":"String",
+				"peerRegion":"String"
+			}
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"metadata":{
+		"name":"modifytransitgatewayvpcattachmentrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"modifyTransitGatewayVpcAttachmentRequest":{
+				"transitGatewayAttachmentId":"String",
+				"addSubnetIds":{},
+				"removeSubnetIds":{},
+				"options":{
+					"dnsSupport":"String",
+					"ipv6Support":"String"
+				}
+			}
+		}
+	}
+}

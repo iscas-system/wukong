@@ -1,0 +1,18 @@
+{
+	"metadata":{
+		"name":"createvpcrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"createVpcRequest":{
+				"instanceTenancy":"String",
+				"amazonProvidedIpv6CidrBlock":true,
+				"cidrBlock":"String",
+				"ipv6CidrBlockNetworkBorderGroup":"String"
+			}
+		}
+	}
+}

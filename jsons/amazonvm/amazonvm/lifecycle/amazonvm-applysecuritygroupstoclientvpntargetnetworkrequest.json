@@ -1,0 +1,17 @@
+{
+	"metadata":{
+		"name":"applysecuritygroupstoclientvpntargetnetworkrequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"applySecurityGroupsToClientVpnTargetNetworkRequest":{
+				"clientVpnEndpointId":"String",
+				"securityGroupIds":{},
+				"vpcId":"String"
+			}
+		}
+	}
+}

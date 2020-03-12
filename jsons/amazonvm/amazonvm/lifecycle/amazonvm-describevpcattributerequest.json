@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"describevpcattributerequest",
+		"namespace":"amazonvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonVM",
+	"spec":{
+		"lifecycle":{
+			"describeVpcAttributeRequest":{
+				"vpcId":"String",
+				"attribute":"String"
+			}
+		}
+	}
+}
