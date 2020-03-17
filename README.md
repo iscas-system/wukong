@@ -5,7 +5,7 @@
   We plan to use an automated method for generating adapters of service-based generic-API for hybrid clouds
   
   - Wukong@SOSE19: [Case studies](https://ieeexplore.ieee.org/document/8705827)
-  - Wukong@ICDCS20: [framework, submitted]
+
 
 ##  2. Analysis
 
