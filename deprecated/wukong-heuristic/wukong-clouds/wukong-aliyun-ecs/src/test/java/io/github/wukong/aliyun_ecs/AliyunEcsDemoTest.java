@@ -28,7 +28,7 @@ public class AliyunEcsDemoTest {
 	}
 
 	private static WukongDefaultAcsClient getClient() {
-		IClientProfile profile = DefaultProfile.getProfile("cn-hangzhou", "LTAI4FjU2G2Wr9TSpCAUCEa9", "WjigLgLaITJ0dSTlqybEo5BW5w5chn");
+		IClientProfile profile = DefaultProfile.getProfile("cn-hangzhou", "", "");
 		WukongDefaultAcsClient client = new WukongDefaultAcsClient(profile);
 		return client;
 	}
