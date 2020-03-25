@@ -86,6 +86,7 @@ public class ClassUtils implements ResourceLoaderAware {
 	}
 
 	public Set<Class<?>> doScan(String basePackage) {
+		System.out.println("pkg:" + basePackage);
 		Set<Class<?>> classes = new HashSet<Class<?>>();
 		try {
 			String packageSearchPath = ResourcePatternResolver.CLASSPATH_ALL_URL_PREFIX
