@@ -132,6 +132,7 @@ public class RequestWithObjectPatternAnalyzer extends Analyzer {
 					if (superClasses.contains(sc.getName())
 							&& !clz.getPackage().getName().equals(
 									client.getPackage().getName())) {
+						System.out.println("add: " + clz);
 						list.add(clz);
 						break;
 					}
