@@ -109,6 +109,7 @@ public class RequestWithObjectPatternAnalyzer extends Analyzer {
 	}
 	
 	public List<Class<?>> findAllRequestsBySuperClasses(Set<String> superClasses) {
+		System.out.println("super:" + superClasses);
 		List<Class<?>> list = new ArrayList<Class<?>>();
 		String pkgName = client.getPackage().getName();
 		searchingAllPossiblePackages(superClasses, list, pkgName);
