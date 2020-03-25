@@ -122,11 +122,12 @@ public class RequestWithObjectPatternAnalyzer extends Analyzer {
 	}
 	
 	protected void searchingAllPossiblePackages(Set<String> superClasses, List<Class<?>> list, String pkgname) {
-		System.err.println(pkgname);
+		System.out.println("now at: " + pkgname);
 		for (Class<?> clz : ClassUtils.scan(pkgname, null)) {
 			if (clz.getModifiers() == Modifier.PUBLIC 
 					&& clz.getModifiers() != Modifier.ABSTRACT
 					&& clz.getAnnotation(Deprecated.class) == null) {
+				System.out.println("now class is " + clz);
 				Class<?> sc = clz.getSuperclass();
 				while (!sc.getName().equals(Object.class.getName())) {
 					if (superClasses.contains(sc.getName())
