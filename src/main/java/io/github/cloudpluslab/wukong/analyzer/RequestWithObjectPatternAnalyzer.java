@@ -121,6 +121,7 @@ public class RequestWithObjectPatternAnalyzer extends Analyzer {
 	}
 	
 	protected void searchingAllPossiblePackages(Set<String> superClasses, List<Class<?>> list, String pkgname) {
+		System.err.println(pkgname);
 		for (Class<?> clz : ClassUtils.scan(pkgname, null)) {
 			if (clz.getModifiers() == Modifier.PUBLIC 
 					&& clz.getModifiers() != Modifier.ABSTRACT

@@ -18,7 +18,7 @@ import com.alibaba.fastjson.JSONObject;
  */
 public class Classifier {
 
-//	public final static String CONFIG = "conf/jdkinfo.conf-aliyunecs";
+	public final static String CONFIG = "conf/jdkinfo.conf-aliyunecs";
 	
 //	public final static String CONFIG = "conf/jdkinfo.conf-amazonec2";
 	
@@ -28,7 +28,7 @@ public class Classifier {
 	
 //	public final static String CONFIG = "conf/jdkinfo.conf-JDVM";
 	
-	public final static String CONFIG = "conf/jdkinfo.conf-azurevm"; 
+//	public final static String CONFIG = "conf/jdkinfo.conf-azurevm"; 
 	
 //	public final static String CONFIG = "conf/jdkinfo.conf-googlegce"; 
 	
