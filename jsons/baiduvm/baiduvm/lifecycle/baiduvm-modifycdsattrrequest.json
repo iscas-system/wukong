@@ -1,0 +1,17 @@
+{
+	"metadata":{
+		"name":"modifycdsattrrequest",
+		"namespace":"baiduvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"BaiduVM",
+	"spec":{
+		"lifecycle":{
+			"modifyCdsAttrRequest":{
+				"cdsName":"String",
+				"cdsId":"String",
+				"desc":"String"
+			}
+		}
+	}
+}

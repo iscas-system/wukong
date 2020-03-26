@@ -1,0 +1,17 @@
+{
+	"metadata":{
+		"name":"rebuildinstancerequest",
+		"namespace":"baiduvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"BaiduVM",
+	"spec":{
+		"lifecycle":{
+			"rebuildInstanceRequest":{
+				"instanceId":"String",
+				"imageId":"String",
+				"adminPass":"String"
+			}
+		}
+	}
+}

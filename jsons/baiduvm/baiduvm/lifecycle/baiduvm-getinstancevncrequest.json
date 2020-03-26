@@ -1,0 +1,15 @@
+{
+	"metadata":{
+		"name":"getinstancevncrequest",
+		"namespace":"baiduvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"BaiduVM",
+	"spec":{
+		"lifecycle":{
+			"getInstanceVncRequest":{
+				"instanceId":"String"
+			}
+		}
+	}
+}

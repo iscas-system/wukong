@@ -1,0 +1,23 @@
+{
+	"metadata":{
+		"name":"purchasereservedvolumerequest",
+		"namespace":"baiduvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"BaiduVM",
+	"spec":{
+		"lifecycle":{
+			"purchaseReservedVolumeRequest":{
+				"clientToken":"String",
+				"volumeId":"String",
+				"billing":{
+					"paymentTiming":"String",
+					"reservation":{
+						"reservationLength":1,
+						"reservationTimeUnit":"String"
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"metadata":{
+		"name":"releasevolumerequest",
+		"namespace":"baiduvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"BaiduVM",
+	"spec":{
+		"lifecycle":{
+			"releaseVolumeRequest":{
+				"volumeId":"String",
+				"manualSnapshot":"String",
+				"autoSnapshot":"String"
+			}
+		}
+	}
+}

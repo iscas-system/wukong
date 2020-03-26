@@ -1,0 +1,19 @@
+{
+	"metadata":{
+		"name":"resizeinstancerequest",
+		"namespace":"baiduvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"BaiduVM",
+	"spec":{
+		"lifecycle":{
+			"resizeInstanceRequest":{
+				"instanceId":"String",
+				"memoryCapacityInGB":1,
+				"clientToken":"String",
+				"spec":"String",
+				"cpuCount":1
+			}
+		}
+	}
+}

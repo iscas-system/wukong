@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"unbindsecuritygrouprequest",
+		"namespace":"baiduvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"BaiduVM",
+	"spec":{
+		"lifecycle":{
+			"unbindSecurityGroupRequest":{
+				"securityGroupId":"String",
+				"instanceId":"String"
+			}
+		}
+	}
+}

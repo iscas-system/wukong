@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"modifyinstancedescrequest",
+		"namespace":"baiduvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"BaiduVM",
+	"spec":{
+		"lifecycle":{
+			"modifyInstanceDescRequest":{
+				"instanceId":"String",
+				"desc":"String"
+			}
+		}
+	}
+}

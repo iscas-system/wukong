@@ -1,0 +1,15 @@
+{
+	"metadata":{
+		"name":"listosrequest",
+		"namespace":"baiduvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"BaiduVM",
+	"spec":{
+		"lifecycle":{
+			"listOsRequest":{
+				"clientToken":"String"
+			}
+		}
+	}
+}

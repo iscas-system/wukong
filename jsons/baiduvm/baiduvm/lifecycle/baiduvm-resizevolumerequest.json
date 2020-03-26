@@ -1,0 +1,17 @@
+{
+	"metadata":{
+		"name":"resizevolumerequest",
+		"namespace":"baiduvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"BaiduVM",
+	"spec":{
+		"lifecycle":{
+			"resizeVolumeRequest":{
+				"clientToken":"String",
+				"volumeId":"String",
+				"newCdsSizeInGB":1
+			}
+		}
+	}
+}
