@@ -11,12 +11,13 @@
 				"value":"bindInstanceToTags"
 			},
 			{
-				"name":"getVolumeRequest",
-				"value":"getVolume"
-			},
-			{
+
 				"name":"releaseVolumeRequest",
 				"value":"releaseVolume"
+			},
+			{
+				"name":"getVolumeRequest",
+				"value":"getVolume"
 			},
 			{
 				"name":"listImagesRequest",
@@ -51,12 +52,13 @@
 				"value":"modifyInstanceDesc"
 			},
 			{
-				"name":"getSnapshotRequest",
-				"value":"getSnapshot"
-			},
-			{
+
 				"name":"detachAspRequest",
 				"value":"detachAsp"
+			},
+			{
+				"name":"getSnapshotRequest",
+				"value":"getSnapshot"
 			},
 			{
 				"name":"createInstanceRequest",
@@ -151,12 +153,13 @@
 				"value":"purchaseReservedInstance"
 			},
 			{
-				"name":"modifyInstanceAttributesRequest",
-				"value":"modifyInstanceAttributes"
-			},
-			{
+
 				"name":"createVolumeRequest",
 				"value":"createVolume"
+			},
+			{
+				"name":"modifyInstanceAttributesRequest",
+				"value":"modifyInstanceAttributes"
 			},
 			{
 				"name":"modifyCdsAttrRequest",
@@ -167,6 +170,10 @@
 				"value":"listSecurityGroups"
 			},
 			{
+				"name":"createSnapshotRequest",
+				"value":"createSnapshot"
+			},
+			{
 				"name":"bccPriceRequest",
 				"value":"getPriceBySpec"
 			},
@@ -175,10 +182,7 @@
 				"value":"startInstance"
 			},
 			{
-				"name":"createSnapshotRequest",
-				"value":"createSnapshot"
-			},
-			{
+
 				"name":"getInstanceVncRequest",
 				"value":"getInstanceVnc"
 			},
@@ -227,12 +231,12 @@
 				"value":"remoteCopyImage"
 			},
 			{
-				"name":"unbindSecurityGroupRequest",
-				"value":"unbindInstanceFromSecurityGroup"
-			},
-			{
 				"name":"modifyVolumeChargeRequest",
 				"value":"modifyVolumeChargeType"
+			},
+			{
+				"name":"unbindSecurityGroupRequest",
+				"value":"unbindInstanceFromSecurityGroup"
 			},
 			{
 				"name":"listOsRequest",

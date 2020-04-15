@@ -1,7 +1,7 @@
 /**
  * Copyright (2018-2019) Institute of Software, Chinese Academy of Sciences
  */
-package io.github.cloudpluslab.wukong.models;
+package com.github.nodeless.models;
 
 import java.lang.reflect.Method;
 
@@ -10,18 +10,28 @@ import java.lang.reflect.Method;
  * @author wuheng@otcaix.iscas.ac.cn
  * @since  2020.3.8
  */
-public class MethodModel {
+public class ClassToMethodModel {
 
 	protected final Class<?> parent;
 	
 	protected final Method method;
 
-	public MethodModel(Class<?> parent, Method method) {
+	/***************************************************************
+	 * 
+	 *    Constructor
+	 * 
+	 ***************************************************************/
+	public ClassToMethodModel(Class<?> parent, Method method) {
 		super();
 		this.parent = parent;
 		this.method = method;
 	}
 
+	/***************************************************************
+	 * 
+	 *    Setter and Getter
+	 * 
+	 ***************************************************************/
 	public Class<?> getParent() {
 		return parent;
 	}

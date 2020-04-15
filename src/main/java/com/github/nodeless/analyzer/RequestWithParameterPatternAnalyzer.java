@@ -1,7 +1,7 @@
 /**
  * Copyright (2018-2019) Institute of Software, Chinese Academy of Sciences
  */
-package io.github.cloudpluslab.wukong.analyzer;
+package com.github.nodeless.analyzer;
 
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
@@ -10,9 +10,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import io.github.cloudpluslab.wukong.Analyzer;
-import io.github.cloudpluslab.wukong.models.MethodModel;
-import io.github.cloudpluslab.wukong.utils.JavaUtils;
+import com.github.nodeless.core.CrossCloudAPIAnalyzer;
+import com.github.nodeless.core.CrossCloudAPIClassLoader;
+import com.github.nodeless.models.ClassToMethodModel;
+import com.github.nodeless.utils.JavaUtils;
 
 /**
  * @author tangting18@otcaix.iscas.ac.cn
@@ -21,18 +22,16 @@ import io.github.cloudpluslab.wukong.utils.JavaUtils;
  * 
  * Azure, Google
  */
-public class RequestWithParameterPatternAnalyzer extends Analyzer {
+public class RequestWithParameterPatternAnalyzer extends CrossCloudAPIAnalyzer {
 
-
-	public RequestWithParameterPatternAnalyzer(String kind, Class<?> client) {
-		super(kind, client);
+	public RequestWithParameterPatternAnalyzer(String kind, String client, CrossCloudAPIClassLoader loader) throws Exception {
+		super(kind, client, loader);
 	}
 
 	@Override
 	@SuppressWarnings("rawtypes")
-	public List getRegisterInfos() {
-		
-		Map<String, List<MethodModel>> map = new HashMap<String, List<MethodModel>>();
+	public List extraCloudAPIs() {
+		Map<String, List<ClassToMethodModel>> map = new HashMap<String, List<ClassToMethodModel>>();
 		for (Method method : client.getDeclaredMethods()) {
 			if (method.getModifiers() != Modifier.PUBLIC
 					|| method.getModifiers() == Modifier.STATIC
@@ -51,8 +50,8 @@ public class RequestWithParameterPatternAnalyzer extends Analyzer {
 		
 	}
 
-	protected List<MethodModel> filterInvalidRequests(Map<String, List<MethodModel>> map) {
-		List<MethodModel> expected = new ArrayList<MethodModel>();
+	protected List<ClassToMethodModel> filterInvalidRequests(Map<String, List<ClassToMethodModel>> map) {
+		List<ClassToMethodModel> expected = new ArrayList<ClassToMethodModel>();
 		int i = 0;
 		for (String key : map.keySet()) {
 			if (map.get(key).size() > i) {
@@ -63,7 +62,7 @@ public class RequestWithParameterPatternAnalyzer extends Analyzer {
 		return expected;
 	}
 
-	protected void findAllPossibleRequests(Map<String, List<MethodModel>> map, Method method) {
+	protected void findAllPossibleRequests(Map<String, List<ClassToMethodModel>> map, Method method) {
 		for (Method m : method.getReturnType().getMethods()) {
 			
 			if (m.getReturnType().getName().equals("void") 
@@ -80,14 +79,14 @@ public class RequestWithParameterPatternAnalyzer extends Analyzer {
 				key = m.getReturnType().getSuperclass().getName();
 			}
 			
-			List<MethodModel> ms = map.get(key);
-			ms = (ms == null) ? new ArrayList<MethodModel>() : ms;
-			ms.add(new MethodModel(method.getReturnType(), m));
+			List<ClassToMethodModel> ms = map.get(key);
+			ms = (ms == null) ? new ArrayList<ClassToMethodModel>() : ms;
+			ms.add(new ClassToMethodModel(method.getReturnType(), m));
 			map.put(key, ms);
 			
 			String infoKey = m.getName() + method.getReturnType().getSimpleName();
 			String infoValue = method.getName() + "-" + m.getName();
-			infos.put(infoKey, infoValue);
+			methodMappers.put(infoKey, infoValue);
 		}
 	}
 

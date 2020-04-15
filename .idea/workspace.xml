@@ -2,62 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc352d84-baa2-4a8c-b0ca-1a1280df1dce" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/jdkinfo.conf-JDVM" afterPath="$PROJECT_DIR$/conf/jdkinfo.conf-JDVM" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deprecated/wukong-heuristic/wukong-clouds/wukong-aliyun-ecs/pom.xml" afterPath="$PROJECT_DIR$/deprecated/wukong-heuristic/wukong-clouds/wukong-aliyun-ecs/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deprecated/wukong-heuristic/wukong-core/pom.xml" afterPath="$PROJECT_DIR$/deprecated/wukong-heuristic/wukong-core/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/aliyunvm/aliyunvm-ans.json" afterPath="$PROJECT_DIR$/jsons/aliyunvm/aliyunvm-ans.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/aliyunvm/aliyunvm-bkd.json" afterPath="$PROJECT_DIR$/jsons/aliyunvm/aliyunvm-bkd.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/aliyunvm/aliyunvm-crd.json" afterPath="$PROJECT_DIR$/jsons/aliyunvm/aliyunvm-crd.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/amazonvm/amazonvm-ans.json" afterPath="$PROJECT_DIR$/jsons/amazonvm/amazonvm-ans.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/amazonvm/amazonvm-bkd.json" afterPath="$PROJECT_DIR$/jsons/amazonvm/amazonvm-bkd.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/amazonvm/amazonvm-crd.json" afterPath="$PROJECT_DIR$/jsons/amazonvm/amazonvm-crd.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/azurevm/azurevm-ans.json" afterPath="$PROJECT_DIR$/jsons/azurevm/azurevm-ans.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/azurevm/azurevm-bkd.json" afterPath="$PROJECT_DIR$/jsons/azurevm/azurevm-bkd.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/azurevm/azurevm-crd.json" afterPath="$PROJECT_DIR$/jsons/azurevm/azurevm-crd.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-beginpoweroffasyncvirtualmachinescalesetvmsinner.json" afterPath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-beginpoweroffasyncvirtualmachinescalesetvmsinner.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-beginpoweroffasyncvirtualmachinesinner.json" afterPath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-beginpoweroffasyncvirtualmachinesinner.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-beginpoweroffwithserviceresponseasyncvirtualmachinescalesetvmsinner.json" afterPath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-beginpoweroffwithserviceresponseasyncvirtualmachinescalesetvmsinner.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-beginpoweroffwithserviceresponseasyncvirtualmachinesinner.json" afterPath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-beginpoweroffwithserviceresponseasyncvirtualmachinesinner.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-beginreimageasyncvirtualmachinescalesetvmsinner.json" afterPath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-beginreimageasyncvirtualmachinescalesetvmsinner.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-beginreimageasyncvirtualmachinesinner.json" afterPath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-beginreimageasyncvirtualmachinesinner.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-beginreimagewithserviceresponseasyncvirtualmachinescalesetsinner.json" afterPath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-beginreimagewithserviceresponseasyncvirtualmachinescalesetsinner.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-beginreimagewithserviceresponseasyncvirtualmachinescalesetvmsinner.json" afterPath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-beginreimagewithserviceresponseasyncvirtualmachinescalesetvmsinner.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-converttosingleplacementgroupasyncvirtualmachinescalesetsinner.json" afterPath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-converttosingleplacementgroupasyncvirtualmachinescalesetsinner.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-getasyncdedicatedhostsinner.json" afterPath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-getasyncdedicatedhostsinner.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-getasyncgalleryapplicationversionsinner.json" afterPath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-getasyncgalleryapplicationversionsinner.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-getasyncvirtualmachineextensionsinner.json" afterPath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-getasyncvirtualmachineextensionsinner.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-getbyresourcegroupasyncimagesinner.json" afterPath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-getbyresourcegroupasyncimagesinner.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-getbyresourcegroupwithserviceresponseasyncimagesinner.json" afterPath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-getbyresourcegroupwithserviceresponseasyncimagesinner.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-getbyresourcegroupwithserviceresponseasyncvirtualmachinesinner.json" afterPath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-getbyresourcegroupwithserviceresponseasyncvirtualmachinesinner.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-getpostordeleteresultasyncazureclient.json" afterPath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-getpostordeleteresultasyncazureclient.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-getpostordeleteresultwithheadersasyncazureclient.json" afterPath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-getpostordeleteresultwithheadersasyncazureclient.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-getwithserviceresponseasyncdedicatedhostsinner.json" afterPath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-getwithserviceresponseasyncdedicatedhostsinner.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-getwithserviceresponseasyncvirtualmachinescalesetextensionsinner.json" afterPath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-getwithserviceresponseasyncvirtualmachinescalesetextensionsinner.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-getwithserviceresponseasyncvirtualmachinescalesetvmsinner.json" afterPath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-getwithserviceresponseasyncvirtualmachinescalesetvmsinner.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-listasyncavailabilitysetsinner.json" afterPath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-listasyncavailabilitysetsinner.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-listasyncvirtualmachineimagesinner.json" afterPath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-listasyncvirtualmachineimagesinner.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-listasyncvirtualmachinescalesetvmsinner.json" afterPath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-listasyncvirtualmachinescalesetvmsinner.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-listsinglepageasyncavailabilitysetsinner.json" afterPath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-listsinglepageasyncavailabilitysetsinner.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-listversionsasyncvirtualmachineextensionimagesinner.json" afterPath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-listversionsasyncvirtualmachineextensionimagesinner.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-listwithserviceresponseasyncavailabilitysetsinner.json" afterPath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-listwithserviceresponseasyncavailabilitysetsinner.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-listwithserviceresponseasyncvirtualmachinescalesetvmsinner.json" afterPath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-listwithserviceresponseasyncvirtualmachinescalesetvmsinner.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-poweroffasyncvirtualmachinescalesetvmsinner.json" afterPath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-poweroffasyncvirtualmachinescalesetvmsinner.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-poweroffasyncvirtualmachinesinner.json" afterPath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-poweroffasyncvirtualmachinesinner.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-poweroffwithserviceresponseasyncvirtualmachinescalesetvmsinner.json" afterPath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-poweroffwithserviceresponseasyncvirtualmachinescalesetvmsinner.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-reimageasyncvirtualmachinescalesetvmsinner.json" afterPath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-reimageasyncvirtualmachinescalesetvmsinner.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-reimagewithserviceresponseasyncvirtualmachinescalesetsinner.json" afterPath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-reimagewithserviceresponseasyncvirtualmachinescalesetsinner.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-reimagewithserviceresponseasyncvirtualmachinesinner.json" afterPath="$PROJECT_DIR$/jsons/azurevm/azurevm/lifecycle/azurevm-reimagewithserviceresponseasyncvirtualmachinesinner.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/jdvm/jdvm-ans.json" afterPath="$PROJECT_DIR$/jsons/jdvm/jdvm-ans.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/jdvm/jdvm-crd.json" afterPath="$PROJECT_DIR$/jsons/jdvm/jdvm-crd.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/tencentvm/tencentvm-ans.json" afterPath="$PROJECT_DIR$/jsons/tencentvm/tencentvm-ans.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/tencentvm/tencentvm-crd.json" afterPath="$PROJECT_DIR$/jsons/tencentvm/tencentvm-crd.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/nodeless/NodelessConstants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/nodeless/core/CrossCloudAPIAnalyzer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/nodeless/core/CrossCloudAPIClassLoader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/nodeless/core/CrossCloudAPIGenerator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/nodeless/core/KubernetesResourceRegister.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/nodeless/models/CloudControllerModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/nodeless/models/CloudRequestModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/github/nodeless/utils/ClassUtils.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/github/cloudpluslab/wukong/Analyzer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/github/cloudpluslab/wukong/Generator.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/github/cloudpluslab/wukong/Register.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/io/github/cloudpluslab/wukong/utils/ClassUtils.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/github/cloudpluslab/wukong/analyzer/RequestWithObjectPatternAnalyzer.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/nodeless/analyzer/RequestWithObjectPatternAnalyzer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/github/cloudpluslab/wukong/analyzer/RequestWithParameterPatternAnalyzer.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/nodeless/analyzer/RequestWithParameterPatternAnalyzer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/github/cloudpluslab/wukong/models/MethodModel.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/nodeless/models/ClassToMethodModel.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/github/cloudpluslab/wukong/utils/JSONUtils.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/nodeless/utils/JSONUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/github/cloudpluslab/wukong/utils/JavaUtils.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/nodeless/utils/JavaUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/io/github/cloudpluslab/wukong/utils/StringUtils.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/nodeless/utils/StringUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/baiduvm/baiduvm-ans.json" afterPath="$PROJECT_DIR$/jsons/baiduvm/baiduvm-ans.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/baiduvm/baiduvm-bkd.json" afterPath="$PROJECT_DIR$/jsons/baiduvm/baiduvm-bkd.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jsons/baiduvm/baiduvm-crd.json" afterPath="$PROJECT_DIR$/jsons/baiduvm/baiduvm-crd.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/github/nodeless/core/KubernetesResourceGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/com/github/nodeless/core/KubernetesResourceGenerator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/cloudpluslab/wukong/Classifier.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/cloudpluslab/wukong/Classifier.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/io/github/cloudpluslab/wukong/Generator.java" afterPath="$PROJECT_DIR$/src/main/java/io/github/cloudpluslab/wukong/Generator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wukong.iml" afterPath="$PROJECT_DIR$/wukong.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/io/github/cloudpluslab/wukong/discover/AppTest.java" afterPath="$PROJECT_DIR$/src/test/java/io/github/cloudpluslab/wukong/discover/AppTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/deprecated/wukong-heuristic/wukong-clouds/wukong-aliyun-ecs/target/" />
@@ -121,21 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jdkinfo.conf-tencentVM" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conf/jdkinfo.conf-tencentVM">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Classifier.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Classifier.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/github/cloudpluslab/wukong/Classifier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state relative-caret-position="227">
+              <caret line="40" column="69" lean-forward="false" selection-start-line="40" selection-start-column="69" selection-end-line="40" selection-end-column="69" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -143,21 +102,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jdkinfo.conf-aliyunecs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conf/jdkinfo.conf-aliyunecs">
+      <file leaf-file-name="baiduvm-crd.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsons/baiduvm/baiduvm-crd.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="1" />
+            <state relative-caret-position="527">
+              <caret line="31" column="3" lean-forward="false" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jdkinfo.conf-amazonecs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/conf/jdkinfo.conf-amazonecs">
+      <file leaf-file-name="baiduvm-ans.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsons/baiduvm/baiduvm-ans.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+            <state relative-caret-position="85">
+              <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KubernetesResourceGenerator.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/nodeless/core/KubernetesResourceGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="134">
+              <caret line="118" column="7" lean-forward="true" selection-start-line="118" selection-start-column="7" selection-end-line="118" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="baiduvm-bkd.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jsons/baiduvm/baiduvm-bkd.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="241" column="0" lean-forward="false" selection-start-line="241" selection-start-column="0" selection-end-line="241" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -196,6 +175,9 @@
         <option value="$PROJECT_DIR$/conf/jdkinfo.conf-JDC" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/io/github/cloudpluslab/wukong/Classifier.java" />
+        <option value="$PROJECT_DIR$/jsons/baiduvm/baiduvm-crd.json" />
+        <option value="$PROJECT_DIR$/jsons/baiduvm/baiduvm-bkd.json" />
+        <option value="$PROJECT_DIR$/jsons/baiduvm/baiduvm-ans.json" />
       </list>
     </option>
   </component>
@@ -265,6 +247,12 @@
             <path>
               <item name="wukong" type="b2602c69:ProjectViewProjectNode" />
               <item name="Wukong" type="462c0819:PsiDirectoryNode" />
+              <item name="jsons" type="462c0819:PsiDirectoryNode" />
+              <item name="baiduvm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wukong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Wukong" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -279,6 +267,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wukong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Wukong" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nodeless" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wukong" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Wukong" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nodeless" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wukong" type="b2602c69:ProjectViewProjectNode" />
@@ -287,24 +292,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="wukong" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wukong" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Wukong" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wukong" type="462c0819:PsiDirectoryNode" />
-              <item name="analyzer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wukong" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Wukong" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wukong" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wukong" type="b2602c69:ProjectViewProjectNode" />
@@ -556,7 +543,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584844152828</updated>
-      <workItem from="1584844156621" duration="43876000" />
+      <workItem from="1584844156621" duration="44272000" />
     </task>
     <servers />
   </component>
@@ -566,7 +553,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43876000" />
+    <option name="totallyTimeSpent" value="44272000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -579,6 +566,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="812" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299712" sideWeight="0.5028612" order="-1" side_tool="true" content_ui="tabs" />
@@ -599,7 +587,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48126802" sideWeight="0.49713877" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299712" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299712" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26224783" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5331412" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -625,35 +613,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/deprecated/wukong-heuristic/wukong-clouds/wukong-aliyun-ecs/src/test/java/io/github/wukong/aliyun_ecs/AliyunEcsDemoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="15" column="3" lean-forward="false" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deprecated/wukong-heuristic/wukong-clouds/wukong-aliyun-ecs/src/main/java/io/github/wukong/aliyun_ecs/WukongDefaultAcsClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="177" column="0" lean-forward="false" selection-start-line="177" selection-start-column="0" selection-end-line="177" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf/jdkinfo.conf-qingcloudVM">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/conf/jdkinfo.conf-openstack">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -810,14 +769,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="356">
           <caret line="22" column="23" lean-forward="false" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jsons/baiduvm/baiduvm-crd.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -1035,11 +986,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/github/cloudpluslab/wukong/Classifier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+        <state relative-caret-position="227">
+          <caret line="40" column="69" lean-forward="false" selection-start-line="40" selection-start-column="69" selection-end-line="40" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsons/baiduvm/baiduvm-bkd.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="241" column="0" lean-forward="false" selection-start-line="241" selection-start-column="0" selection-end-line="241" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsons/baiduvm/baiduvm-crd.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="3" lean-forward="false" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsons/baiduvm/baiduvm-ans.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/nodeless/core/KubernetesResourceGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="118" column="7" lean-forward="true" selection-start-line="118" selection-start-column="7" selection-end-line="118" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>

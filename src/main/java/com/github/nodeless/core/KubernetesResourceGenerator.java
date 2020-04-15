@@ -1,27 +1,27 @@
 /**
  * Copyright (2018-2019) Institute of Software, Chinese Academy of Sciences
  */
-package io.github.cloudpluslab.wukong;
+package com.github.nodeless.core;
 
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.net.URLClassLoader;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
-
-import io.github.cloudpluslab.wukong.models.MethodModel;
-import io.github.cloudpluslab.wukong.utils.JSONUtils;
+import com.github.nodeless.models.ClassToMethodModel;
+import com.github.nodeless.utils.JSONUtils;
 
 /**
  * @author tangting18@otcaix.iscas.ac.cn
  * @author wuheng@otcaix.iscas.ac.cn
  * @since  2020.3.8
  */
-public class Generator {
+public class KubernetesResourceGenerator {
 
 	public final static String NAMESPACE = "{\r\n" + 
 			"  \"apiVersion\": \"v1\",\r\n" + 
@@ -67,27 +67,24 @@ public class Generator {
 	
 	protected final String kind;
 	
-	@SuppressWarnings("rawtypes")
-	protected final List list;
 	
-	protected final Map<String, String> map;
+	protected URLClassLoader classloader;
 	
-	public Generator(String kind, Analyzer analyzer) {
+	public KubernetesResourceGenerator(String kind, URLClassLoader classloader) {
 		super();
 		this.kind = kind;
-		this.list = analyzer.getRegisterInfos();
-		this.map  = analyzer.useRegisterInfos();
+		this.classloader = classloader;
 	}
 	
-	public void generate() throws Exception {
+	public void generateCRDsBy(CrossCloudAPIAnalyzer analyzer) throws Exception {
 		File root = mkdirIfNeed(null, "jsons");
 		generateKubeNS(root);
 		generateKubeCRD(root);
-		generateBackend(root);
-		generateLifecycle(root);
+		generateBackend(root, analyzer.getMethods());
+		generateLifecycle(root, analyzer.extraCloudAPIs());
 	}
 
-	protected void generateBackend(File root) throws IOException {
+	protected void generateBackend(File root, Map<String, String> map) throws IOException {
 		JSONObject jo = new JSONObject();
 		jo.put("apiVersion", "cloudplus.io/v1alpha3");
 		jo.put("kind", "Backend");
@@ -108,17 +105,16 @@ public class Generator {
 		generate(kubeNS, JSON.toJSONString(jo, true));
 	}
 
-	protected void generateLifecycle(File root) throws Exception, IOException {
+	protected void generateLifecycle(File root, List list) throws Exception, IOException {
 		for (Object obj : list) {
 			JSONObject jo = new JSONObject();
 			jo.put("apiVersion", "cloudplus.io/v1alpha3");
-			jo.put("kind", kind);
+			jo.put("kind", kind + "Template");
 
 			JSONObject meta = new JSONObject();
-			if (obj instanceof MethodModel) {
-
-				MethodModel mo = (MethodModel) obj;
-				meta.put("name", mo.getMethod().getName().toLowerCase() 
+			if (obj instanceof ClassToMethodModel) {
+				ClassToMethodModel mo = (ClassToMethodModel) obj;
+				meta.put("name", mo.getMethod().getName().toLowerCase()
 						+ mo.getParent().getSimpleName().toLowerCase());
 			} else if (obj instanceof Class) {
 				Class<?> clz = (Class<?>) obj;
@@ -132,8 +128,8 @@ public class Generator {
 			
 			spec.put("lifecycle", life);
 			
-			if (obj instanceof MethodModel) {
-				MethodModel mo = (MethodModel) obj;
+			if (obj instanceof ClassToMethodModel) {
+				ClassToMethodModel mo = (ClassToMethodModel) obj;
 				life.put(mo.getMethod().getName() + mo.getParent().getSimpleName(), JSONUtils.paramInfo(mo.getMethod()));
 			} else if (obj instanceof Class) {
 				Class<?> clz = (Class<?>) obj;

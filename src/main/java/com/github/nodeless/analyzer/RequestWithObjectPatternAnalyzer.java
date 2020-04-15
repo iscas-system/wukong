@@ -1,38 +1,38 @@
 /**
  * Copyright (2018-2019) Institute of Software, Chinese Academy of Sciences
  */
-package io.github.cloudpluslab.wukong.analyzer;
+package com.github.nodeless.analyzer;
 
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import io.github.cloudpluslab.wukong.Analyzer;
-import io.github.cloudpluslab.wukong.utils.ClassUtils;
-import io.github.cloudpluslab.wukong.utils.JavaUtils;
+import com.github.nodeless.core.CrossCloudAPIAnalyzer;
+import com.github.nodeless.core.CrossCloudAPIClassLoader;
+import com.github.nodeless.utils.ClassUtils;
+import com.github.nodeless.utils.JavaUtils;
 
 /**
  * @author tangting18@otcaix.iscas.ac.cn
  * @author wuheng@otcaix.iscas.ac.cn
  * @since  2020.3.8
  * 
- * Aliyun, Amazon, Baidu, Tencent, JD
+ * Aliyun, Amazon, Baidu, Tencent, JDCloud
  */
-public class RequestWithObjectPatternAnalyzer extends Analyzer {
+public class RequestWithObjectPatternAnalyzer extends CrossCloudAPIAnalyzer {
 
-
-	public RequestWithObjectPatternAnalyzer(String kind, Class<?> client) {
-		super(kind, client);
+	
+	public RequestWithObjectPatternAnalyzer(String kind, String client, CrossCloudAPIClassLoader loader) throws Exception {
+		super(kind, client, loader);
 	}
 
 	@Override
 	@SuppressWarnings("rawtypes")
-	public List getRegisterInfos() {
+	public List extraCloudAPIs() {
 		Map<String, Integer> superClasses = new HashMap<String, Integer>();
 		Map<String, Integer> useMethods = new HashMap<String, Integer>();
 		boolean generic = false;
@@ -73,42 +73,39 @@ public class RequestWithObjectPatternAnalyzer extends Analyzer {
 	}
 
 	protected void doAnalysisUseRegisterInfos(Map<String, Integer> useMethods, boolean generic,
-			List<Class<?>> findAllRequestsBySuperClasses) {
-		Set<String> paramType = new HashSet<String>();
+												List<Class<?>> findAllRequestsBySuperClasses) {
 		
 		for (Class<?> clz : findAllRequestsBySuperClasses) {
-			paramType.add(clz.getSimpleName());
-		}
-		
-	    if (generic) {
-	    	String value = null;
-	    	for (String str : useMethods.keySet()) {
-	    		if (str.toLowerCase().contains("response")) {
-	    			value = str;
-	    			break;
-	    		}
-	    	}
-	    	
-	    	for (String param : paramType) {
-	    		String newkey = param.substring(0, 1).toLowerCase() + param.substring(1);
-	    		infos.put(newkey, value);
-	    	}
-	    } else {
-	    	for (Method mm : client.getDeclaredMethods()) {
-	    		if (mm.getParameterCount() != 1) {
-	    			continue;
-	    		}
-	    		
-	    		String param = mm.getParameterTypes()[0].getSimpleName();
-				if (paramType.contains(param)) {
+			if (generic) {
+		    	String value = null;
+		    	for (String str : useMethods.keySet()) {
+		    		if (str.toLowerCase().contains("response")) {
+		    			value = str;
+		    			break;
+		    		}
+		    	}
+	    		String newkey = clz.getSimpleName().substring(0, 1).toLowerCase() 
+	    								+ clz.getSimpleName().substring(1);
+	    		methodMappers.put(newkey, value);
+	    		paramMappers.put(newkey, clz);
+		    } else {
+		    	for (Method mm : client.getDeclaredMethods()) {
+		    		if (mm.getParameterCount() != 1) {
+		    			continue;
+		    		}
+		    		
+		    		String param = mm.getParameterTypes()[0].getSimpleName();
 	    			String newkey = param.substring(0, 1).toLowerCase() + param.substring(1);
-	    			infos.put(newkey, mm.getName());
-	    		}
-	    	}
-	    }
+	    			methodMappers.put(newkey, mm.getName());
+	    			paramMappers.put(newkey, mm.getParameterTypes()[0]);
+		    	}
+		    	break;
+		    }
+		}
 	}
 	
 	public List<Class<?>> findAllRequestsBySuperClasses(Set<String> superClasses) {
+		System.out.println("super:" + superClasses);
 		List<Class<?>> list = new ArrayList<Class<?>>();
 		String pkgName = client.getPackage().getName();
 		searchingAllPossiblePackages(superClasses, list, pkgName);
@@ -121,15 +118,18 @@ public class RequestWithObjectPatternAnalyzer extends Analyzer {
 	}
 	
 	protected void searchingAllPossiblePackages(Set<String> superClasses, List<Class<?>> list, String pkgname) {
-		for (Class<?> clz : ClassUtils.scan(pkgname, null)) {
+		System.out.println("now at: " + pkgname);
+		for (Class<?> clz : ClassUtils.scan(pkgname, this.loader)) {
 			if (clz.getModifiers() == Modifier.PUBLIC 
 					&& clz.getModifiers() != Modifier.ABSTRACT
 					&& clz.getAnnotation(Deprecated.class) == null) {
+				System.out.println("now class is " + clz);
 				Class<?> sc = clz.getSuperclass();
 				while (!sc.getName().equals(Object.class.getName())) {
 					if (superClasses.contains(sc.getName())
 							&& !clz.getPackage().getName().equals(
 									client.getPackage().getName())) {
+						System.out.println("add: " + clz);
 						list.add(clz);
 						break;
 					}
