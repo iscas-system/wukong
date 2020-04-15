@@ -1,0 +1,13 @@
+{
+	"metadata":{
+		"name":"listinstancespecsrequest",
+		"namespace":"baiduvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"BaiduVM",
+	"spec":{
+		"lifecycle":{
+			"listInstanceSpecsRequest":{}
+		}
+	}
+}

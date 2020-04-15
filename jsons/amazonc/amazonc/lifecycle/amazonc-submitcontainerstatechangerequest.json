@@ -1,0 +1,22 @@
+{
+	"metadata":{
+		"name":"submitcontainerstatechangerequest",
+		"namespace":"amazonc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonC",
+	"spec":{
+		"lifecycle":{
+			"submitContainerStateChangeRequest":{
+				"cluster":"String",
+				"reason":"String",
+				"task":"String",
+				"containerName":"String",
+				"exitCode":1,
+				"networkBindings":{},
+				"runtimeId":"String",
+				"status":"String"
+			}
+		}
+	}
+}

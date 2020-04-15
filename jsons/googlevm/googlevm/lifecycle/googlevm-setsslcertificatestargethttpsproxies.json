@@ -1,0 +1,17 @@
+{
+	"metadata":{
+		"name":"setsslcertificatestargethttpsproxies",
+		"namespace":"googlevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"GoogleVM",
+	"spec":{
+		"lifecycle":{
+			"setSslCertificatesTargetHttpsProxies":{
+				"_arg0":"String",
+				"_arg1":"String",
+				"_arg2":{}
+			}
+		}
+	}
+}

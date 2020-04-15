@@ -1,0 +1,36 @@
+{
+	"metadata":{
+		"name":"existedinstancesfornode",
+		"namespace":"tencentc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentC",
+	"spec":{
+		"lifecycle":{
+			"existedInstancesForNode":{
+				"NodeRole":"String",
+				"ExistedInstancesPara":{
+					"InstanceAdvancedSettings":{
+						"MountTarget":"String",
+						"DockerGraphPath":"String",
+						"Unschedulable":1,
+						"UserScript":"String"
+					},
+					"EnhancedService":{
+						"SecurityService":{
+							"Enabled":true
+						},
+						"MonitorService":{
+							"Enabled":true
+						}
+					},
+					"LoginSettings":{
+						"KeepImageLogin":"String",
+						"Password":"String"
+					},
+					"HostName":"String"
+				}
+			}
+		}
+	}
+}

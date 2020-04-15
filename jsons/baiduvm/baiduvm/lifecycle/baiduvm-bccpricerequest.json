@@ -1,0 +1,21 @@
+{
+	"metadata":{
+		"name":"bccpricerequest",
+		"namespace":"baiduvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"BaiduVM",
+	"spec":{
+		"lifecycle":{
+			"bccPriceRequest":{
+				"specId":"String",
+				"paymentTiming":"String",
+				"purchaseCount":1,
+				"clientToken":"String",
+				"zoneName":"String",
+				"purchaseLength":1,
+				"spec":"String"
+			}
+		}
+	}
+}

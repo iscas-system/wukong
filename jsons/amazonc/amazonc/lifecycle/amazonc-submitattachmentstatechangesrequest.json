@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"submitattachmentstatechangesrequest",
+		"namespace":"amazonc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonC",
+	"spec":{
+		"lifecycle":{
+			"submitAttachmentStateChangesRequest":{
+				"cluster":"String",
+				"attachments":{}
+			}
+		}
+	}
+}

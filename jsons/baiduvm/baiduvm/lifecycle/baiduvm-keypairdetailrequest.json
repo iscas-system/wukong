@@ -1,0 +1,15 @@
+{
+	"metadata":{
+		"name":"keypairdetailrequest",
+		"namespace":"baiduvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"BaiduVM",
+	"spec":{
+		"lifecycle":{
+			"keypairDetailRequest":{
+				"keypairId":"String"
+			}
+		}
+	}
+}

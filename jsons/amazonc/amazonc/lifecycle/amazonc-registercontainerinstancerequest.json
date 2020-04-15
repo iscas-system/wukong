@@ -1,0 +1,27 @@
+{
+	"metadata":{
+		"name":"registercontainerinstancerequest",
+		"namespace":"amazonc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonC",
+	"spec":{
+		"lifecycle":{
+			"registerContainerInstanceRequest":{
+				"cluster":"String",
+				"totalResources":{},
+				"instanceIdentityDocumentSignature":"String",
+				"instanceIdentityDocument":"String",
+				"attributes":{},
+				"versionInfo":{
+					"dockerVersion":"String",
+					"agentHash":"String",
+					"agentVersion":"String"
+				},
+				"platformDevices":{},
+				"containerInstanceArn":"String",
+				"tags":{}
+			}
+		}
+	}
+}

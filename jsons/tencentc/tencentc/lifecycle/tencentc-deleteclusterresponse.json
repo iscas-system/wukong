@@ -1,0 +1,15 @@
+{
+	"metadata":{
+		"name":"deleteclusterresponse",
+		"namespace":"tencentc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentC",
+	"spec":{
+		"lifecycle":{
+			"deleteClusterResponse":{
+				"RequestId":"String"
+			}
+		}
+	}
+}

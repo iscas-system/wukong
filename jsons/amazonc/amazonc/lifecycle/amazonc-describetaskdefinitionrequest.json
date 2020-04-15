@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"describetaskdefinitionrequest",
+		"namespace":"amazonc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonC",
+	"spec":{
+		"lifecycle":{
+			"describeTaskDefinitionRequest":{
+				"include":{},
+				"taskDefinition":"String"
+			}
+		}
+	}
+}

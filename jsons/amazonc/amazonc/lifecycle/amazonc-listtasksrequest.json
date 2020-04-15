@@ -1,0 +1,23 @@
+{
+	"metadata":{
+		"name":"listtasksrequest",
+		"namespace":"amazonc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonC",
+	"spec":{
+		"lifecycle":{
+			"listTasksRequest":{
+				"cluster":"String",
+				"containerInstance":"String",
+				"startedBy":"String",
+				"nextToken":"String",
+				"maxResults":1,
+				"family":"String",
+				"serviceName":"String",
+				"desiredStatus":"String",
+				"launchType":"String"
+			}
+		}
+	}
+}

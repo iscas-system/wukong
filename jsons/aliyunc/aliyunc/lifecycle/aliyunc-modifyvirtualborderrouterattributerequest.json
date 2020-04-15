@@ -1,0 +1,28 @@
+{
+	"metadata":{
+		"name":"modifyvirtualborderrouterattributerequest",
+		"namespace":"aliyunc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunC",
+	"spec":{
+		"lifecycle":{
+			"modifyVirtualBorderRouterAttributeRequest":{
+				"peerGatewayIp":"String",
+				"vlanId":1,
+				"clientToken":"String",
+				"description":"String",
+				"peeringSubnetMask":"String",
+				"userCidr":"String",
+				"localGatewayIp":"String",
+				"vbrId":"String",
+				"ownerAccount":"String",
+				"ownerId":1,
+				"circuitCode":"String",
+				"name":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1
+			}
+		}
+	}
+}

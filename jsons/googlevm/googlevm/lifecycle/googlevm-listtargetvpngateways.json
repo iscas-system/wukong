@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"listtargetvpngateways",
+		"namespace":"googlevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"GoogleVM",
+	"spec":{
+		"lifecycle":{
+			"listTargetVpnGateways":{
+				"_arg0":"String",
+				"_arg1":"String"
+			}
+		}
+	}
+}

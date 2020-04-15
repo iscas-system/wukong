@@ -1,0 +1,21 @@
+{
+	"metadata":{
+		"name":"describeregionsrequest",
+		"namespace":"aliyunc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunC",
+	"spec":{
+		"lifecycle":{
+			"describeRegionsRequest":{
+				"instanceChargeType":"String",
+				"acceptLanguage":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerAccount":"String",
+				"ownerId":1,
+				"resourceType":"String"
+			}
+		}
+	}
+}

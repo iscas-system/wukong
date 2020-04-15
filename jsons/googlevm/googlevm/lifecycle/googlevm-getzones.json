@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"getzones",
+		"namespace":"googlevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"GoogleVM",
+	"spec":{
+		"lifecycle":{
+			"getZones":{
+				"_arg0":"String",
+				"_arg1":"String"
+			}
+		}
+	}
+}

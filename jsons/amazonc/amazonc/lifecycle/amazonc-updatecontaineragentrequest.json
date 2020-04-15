@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"updatecontaineragentrequest",
+		"namespace":"amazonc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonC",
+	"spec":{
+		"lifecycle":{
+			"updateContainerAgentRequest":{
+				"cluster":"String",
+				"containerInstance":"String"
+			}
+		}
+	}
+}

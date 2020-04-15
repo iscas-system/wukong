@@ -1,0 +1,24 @@
+{
+	"metadata":{
+		"name":"setiampolicyinstancetemplates",
+		"namespace":"googlevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"GoogleVM",
+	"spec":{
+		"lifecycle":{
+			"setIamPolicyInstanceTemplates":{
+				"_arg0":"String",
+				"_arg1":"String",
+				"_arg2":{
+					"etag":"String",
+					"policy":{
+						"iamOwned":true,
+						"etag":"String",
+						"version":1
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,5 @@
+{
+	"client":"com.tencentcloudapi.tke.v20180525.TkeClient",
+	"analyzer": "io.github.cloudpluslab.wukong.analyzer.RequestWithObjectPatternAnalyzer",
+	"kind":"TencentC"
+}

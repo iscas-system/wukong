@@ -1,0 +1,15 @@
+{
+	"metadata":{
+		"name":"getinstancerequest",
+		"namespace":"baiduvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"BaiduVM",
+	"spec":{
+		"lifecycle":{
+			"getInstanceRequest":{
+				"instanceId":"String"
+			}
+		}
+	}
+}

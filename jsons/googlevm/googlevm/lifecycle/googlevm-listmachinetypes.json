@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"listmachinetypes",
+		"namespace":"googlevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"GoogleVM",
+	"spec":{
+		"lifecycle":{
+			"listMachineTypes":{
+				"_arg0":"String",
+				"_arg1":"String"
+			}
+		}
+	}
+}

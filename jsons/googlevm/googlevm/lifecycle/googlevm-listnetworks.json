@@ -1,0 +1,15 @@
+{
+	"metadata":{
+		"name":"listnetworks",
+		"namespace":"googlevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"GoogleVM",
+	"spec":{
+		"lifecycle":{
+			"listNetworks":{
+				"_arg0":"String"
+			}
+		}
+	}
+}

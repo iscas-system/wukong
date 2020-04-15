@@ -1,0 +1,25 @@
+{
+	"metadata":{
+		"name":"existedinstance",
+		"namespace":"tencentc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentC",
+	"spec":{
+		"lifecycle":{
+			"existedInstance":{
+				"InstanceName":"String",
+				"CreatedTime":"String",
+				"InstanceId":"String",
+				"Usable":true,
+				"InstanceChargeType":"String",
+				"Memory":1,
+				"UnusableReason":"String",
+				"OsName":"String",
+				"AlreadyInCluster":"String",
+				"CPU":1,
+				"InstanceType":"String"
+			}
+		}
+	}
+}

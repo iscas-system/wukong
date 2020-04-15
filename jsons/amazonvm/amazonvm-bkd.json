@@ -15,20 +15,20 @@
 				"value":"executeDescribeInternetGateways"
 			},
 			{
-				"name":"createTrafficMirrorFilterRuleRequest",
-				"value":"createTrafficMirrorFilterRule"
-			},
-			{
 				"name":"deleteFleetsRequest",
 				"value":"executeDeleteFleets"
 			},
 			{
-				"name":"revokeClientVpnIngressRequest",
-				"value":"executeRevokeClientVpnIngress"
+				"name":"createTrafficMirrorFilterRuleRequest",
+				"value":"createTrafficMirrorFilterRule"
 			},
 			{
 				"name":"modifyVpcEndpointRequest",
 				"value":"executeModifyVpcEndpoint"
+			},
+			{
+				"name":"revokeClientVpnIngressRequest",
+				"value":"executeRevokeClientVpnIngress"
 			},
 			{
 				"name":"describeVpnConnectionsRequest",
@@ -48,7 +48,7 @@
 			},
 			{
 				"name":"describeAccountAttributesRequest",
-				"value":"describeAccountAttributes"
+				"value":"executeDescribeAccountAttributes"
 			},
 			{
 				"name":"describeCoipPoolsRequest",
@@ -56,7 +56,7 @@
 			},
 			{
 				"name":"deleteTransitGatewayVpcAttachmentRequest",
-				"value":"deleteTransitGatewayVpcAttachment"
+				"value":"executeDeleteTransitGatewayVpcAttachment"
 			},
 			{
 				"name":"deregisterImageRequest",
@@ -72,11 +72,11 @@
 			},
 			{
 				"name":"describeFastSnapshotRestoresRequest",
-				"value":"describeFastSnapshotRestores"
+				"value":"executeDescribeFastSnapshotRestores"
 			},
 			{
 				"name":"describeReservedInstancesOfferingsRequest",
-				"value":"describeReservedInstancesOfferings"
+				"value":"executeDescribeReservedInstancesOfferings"
 			},
 			{
 				"name":"modifyTrafficMirrorFilterRuleRequest",
@@ -88,7 +88,7 @@
 			},
 			{
 				"name":"exportClientVpnClientCertificateRevocationListRequest",
-				"value":"exportClientVpnClientCertificateRevocationList"
+				"value":"executeExportClientVpnClientCertificateRevocationList"
 			},
 			{
 				"name":"createTrafficMirrorFilterRequest",
@@ -100,7 +100,7 @@
 			},
 			{
 				"name":"describeClientVpnAuthorizationRulesRequest",
-				"value":"describeClientVpnAuthorizationRules"
+				"value":"executeDescribeClientVpnAuthorizationRules"
 			},
 			{
 				"name":"createTransitGatewayMulticastDomainRequest",
@@ -108,27 +108,27 @@
 			},
 			{
 				"name":"deleteTransitGatewayMulticastDomainRequest",
-				"value":"deleteTransitGatewayMulticastDomain"
+				"value":"executeDeleteTransitGatewayMulticastDomain"
 			},
 			{
 				"name":"getTransitGatewayRouteTablePropagationsRequest",
-				"value":"getTransitGatewayRouteTablePropagations"
-			},
-			{
-				"name":"createImageRequest",
-				"value":"executeCreateImage"
+				"value":"executeGetTransitGatewayRouteTablePropagations"
 			},
 			{
 				"name":"deleteNatGatewayRequest",
 				"value":"executeDeleteNatGateway"
 			},
 			{
-				"name":"describeVpcEndpointConnectionNotificationsRequest",
-				"value":"describeVpcEndpointConnectionNotifications"
+				"name":"createImageRequest",
+				"value":"executeCreateImage"
 			},
 			{
 				"name":"describeSpotFleetRequestHistoryRequest",
-				"value":"describeSpotFleetRequestHistory"
+				"value":"executeDescribeSpotFleetRequestHistory"
+			},
+			{
+				"name":"describeVpcEndpointConnectionNotificationsRequest",
+				"value":"executeDescribeVpcEndpointConnectionNotifications"
 			},
 			{
 				"name":"unmonitorInstancesRequest",
@@ -144,7 +144,7 @@
 			},
 			{
 				"name":"modifyInstanceCreditSpecificationRequest",
-				"value":"modifyInstanceCreditSpecification"
+				"value":"executeModifyInstanceCreditSpecification"
 			},
 			{
 				"name":"describeReservedInstancesListingsRequest",
@@ -152,23 +152,23 @@
 			},
 			{
 				"name":"acceptVpcEndpointConnectionsRequest",
-				"value":"acceptVpcEndpointConnections"
+				"value":"executeAcceptVpcEndpointConnections"
 			},
 			{
 				"name":"getEbsDefaultKmsKeyIdRequest",
 				"value":"executeGetEbsDefaultKmsKeyId"
 			},
 			{
-				"name":"exportImageRequest",
-				"value":"executeExportImage"
-			},
-			{
 				"name":"enableFastSnapshotRestoresRequest",
 				"value":"executeEnableFastSnapshotRestores"
 			},
 			{
+				"name":"exportImageRequest",
+				"value":"executeExportImage"
+			},
+			{
 				"name":"authorizeSecurityGroupIngressRequest",
-				"value":"authorizeSecurityGroupIngress"
+				"value":"executeAuthorizeSecurityGroupIngress"
 			},
 			{
 				"name":"describeInstanceStatusRequest",
@@ -176,7 +176,7 @@
 			},
 			{
 				"name":"describeScheduledInstancesRequest",
-				"value":"describeScheduledInstances"
+				"value":"executeDescribeScheduledInstances"
 			},
 			{
 				"name":"disableVpcClassicLinkDnsSupportRequest",
@@ -191,12 +191,12 @@
 				"value":"executeDescribeLocalGatewayRouteTableVirtualInterfaceGroupAssociations"
 			},
 			{
-				"name":"modifyFleetRequest",
-				"value":"executeModifyFleet"
+				"name":"describeClientVpnConnectionsRequest",
+				"value":"executeDescribeClientVpnConnections"
 			},
 			{
-				"name":"describeClientVpnConnectionsRequest",
-				"value":"describeClientVpnConnections"
+				"name":"modifyFleetRequest",
+				"value":"executeModifyFleet"
 			},
 			{
 				"name":"describeScheduledInstanceAvailabilityRequest",
@@ -204,15 +204,15 @@
 			},
 			{
 				"name":"acceptVpcPeeringConnectionRequest",
-				"value":"acceptVpcPeeringConnection"
+				"value":"executeAcceptVpcPeeringConnection"
 			},
 			{
 				"name":"enableVpcClassicLinkRequest",
-				"value":"enableVpcClassicLink"
+				"value":"executeEnableVpcClassicLink"
 			},
 			{
 				"name":"modifyInstancePlacementRequest",
-				"value":"modifyInstancePlacement"
+				"value":"executeModifyInstancePlacement"
 			},
 			{
 				"name":"importInstanceRequest",
@@ -220,11 +220,11 @@
 			},
 			{
 				"name":"describeTransitGatewayAttachmentsRequest",
-				"value":"describeTransitGatewayAttachments"
+				"value":"executeDescribeTransitGatewayAttachments"
 			},
 			{
 				"name":"deleteQueuedReservedInstancesRequest",
-				"value":"deleteQueuedReservedInstances"
+				"value":"executeDeleteQueuedReservedInstances"
 			},
 			{
 				"name":"describeNetworkInterfacePermissionsRequest",
@@ -244,11 +244,11 @@
 			},
 			{
 				"name":"deleteVpcRequest",
-				"value":"deleteVpc"
+				"value":"executeDeleteVpc"
 			},
 			{
 				"name":"describeSecurityGroupReferencesRequest",
-				"value":"describeSecurityGroupReferences"
+				"value":"executeDescribeSecurityGroupReferences"
 			},
 			{
 				"name":"describeHostReservationsRequest",
@@ -259,16 +259,16 @@
 				"value":"executeCreateVpcEndpointServiceConfiguration"
 			},
 			{
-				"name":"createRouteTableRequest",
-				"value":"executeCreateRouteTable"
-			},
-			{
 				"name":"createVpnConnectionRequest",
 				"value":"executeCreateVpnConnection"
 			},
 			{
+				"name":"createRouteTableRequest",
+				"value":"executeCreateRouteTable"
+			},
+			{
 				"name":"describeCapacityReservationsRequest",
-				"value":"describeCapacityReservations"
+				"value":"executeDescribeCapacityReservations"
 			},
 			{
 				"name":"describeAvailabilityZonesRequest",
@@ -276,7 +276,7 @@
 			},
 			{
 				"name":"confirmProductInstanceRequest",
-				"value":"confirmProductInstance"
+				"value":"executeConfirmProductInstance"
 			},
 			{
 				"name":"attachVpnGatewayRequest",
@@ -284,11 +284,11 @@
 			},
 			{
 				"name":"modifyInstanceCapacityReservationAttributesRequest",
-				"value":"modifyInstanceCapacityReservationAttributes"
+				"value":"executeModifyInstanceCapacityReservationAttributes"
 			},
 			{
 				"name":"attachNetworkInterfaceRequest",
-				"value":"attachNetworkInterface"
+				"value":"executeAttachNetworkInterface"
 			},
 			{
 				"name":"disassociateRouteTableRequest",
@@ -303,16 +303,16 @@
 				"value":"executeDescribeVpcEndpointServiceConfigurations"
 			},
 			{
-				"name":"allocateHostsRequest",
-				"value":"executeAllocateHosts"
-			},
-			{
 				"name":"createVolumeRequest",
 				"value":"executeCreateVolume"
 			},
 			{
+				"name":"allocateHostsRequest",
+				"value":"executeAllocateHosts"
+			},
+			{
 				"name":"describeVolumeStatusRequest",
-				"value":"describeVolumeStatus"
+				"value":"executeDescribeVolumeStatus"
 			},
 			{
 				"name":"createRouteRequest",
@@ -320,7 +320,7 @@
 			},
 			{
 				"name":"updateSecurityGroupRuleDescriptionsIngressRequest",
-				"value":"updateSecurityGroupRuleDescriptionsIngress"
+				"value":"executeUpdateSecurityGroupRuleDescriptionsIngress"
 			},
 			{
 				"name":"detachInternetGatewayRequest",
@@ -332,7 +332,7 @@
 			},
 			{
 				"name":"getLaunchTemplateDataRequest",
-				"value":"getLaunchTemplateData"
+				"value":"executeGetLaunchTemplateData"
 			},
 			{
 				"name":"cancelSpotFleetRequestsRequest",
@@ -344,11 +344,11 @@
 			},
 			{
 				"name":"describeVpcAttributeRequest",
-				"value":"describeVpcAttribute"
+				"value":"executeDescribeVpcAttribute"
 			},
 			{
 				"name":"importClientVpnClientCertificateRevocationListRequest",
-				"value":"importClientVpnClientCertificateRevocationList"
+				"value":"executeImportClientVpnClientCertificateRevocationList"
 			},
 			{
 				"name":"importKeyPairRequest",
@@ -372,15 +372,15 @@
 			},
 			{
 				"name":"describeLocalGatewayRouteTablesRequest",
-				"value":"describeLocalGatewayRouteTables"
-			},
-			{
-				"name":"applySecurityGroupsToClientVpnTargetNetworkRequest",
-				"value":"applySecurityGroupsToClientVpnTargetNetwork"
+				"value":"executeDescribeLocalGatewayRouteTables"
 			},
 			{
 				"name":"registerTransitGatewayMulticastGroupMembersRequest",
-				"value":"registerTransitGatewayMulticastGroupMembers"
+				"value":"executeRegisterTransitGatewayMulticastGroupMembers"
+			},
+			{
+				"name":"applySecurityGroupsToClientVpnTargetNetworkRequest",
+				"value":"executeApplySecurityGroupsToClientVpnTargetNetwork"
 			},
 			{
 				"name":"describeDhcpOptionsRequest",
@@ -388,7 +388,7 @@
 			},
 			{
 				"name":"createClientVpnEndpointRequest",
-				"value":"createClientVpnEndpoint"
+				"value":"executeCreateClientVpnEndpoint"
 			},
 			{
 				"name":"disableVgwRoutePropagationRequest",
@@ -396,19 +396,19 @@
 			},
 			{
 				"name":"disableVpcClassicLinkRequest",
-				"value":"disableVpcClassicLink"
+				"value":"executeDisableVpcClassicLink"
 			},
 			{
 				"name":"describeVpcEndpointServicePermissionsRequest",
-				"value":"describeVpcEndpointServicePermissions"
+				"value":"executeDescribeVpcEndpointServicePermissions"
 			},
 			{
 				"name":"createLaunchTemplateRequest",
-				"value":"createLaunchTemplate"
+				"value":"executeCreateLaunchTemplate"
 			},
 			{
 				"name":"runScheduledInstancesRequest",
-				"value":"runScheduledInstances"
+				"value":"executeRunScheduledInstances"
 			},
 			{
 				"name":"deleteVpnGatewayRequest",
@@ -416,7 +416,7 @@
 			},
 			{
 				"name":"describeClientVpnEndpointsRequest",
-				"value":"describeClientVpnEndpoints"
+				"value":"executeDescribeClientVpnEndpoints"
 			},
 			{
 				"name":"describeTrafficMirrorFiltersRequest",
@@ -424,7 +424,7 @@
 			},
 			{
 				"name":"describeLocalGatewayVirtualInterfaceGroupsRequest",
-				"value":"describeLocalGatewayVirtualInterfaceGroups"
+				"value":"executeDescribeLocalGatewayVirtualInterfaceGroups"
 			},
 			{
 				"name":"describeRegionsRequest",
@@ -435,16 +435,16 @@
 				"value":"executeDetachNetworkInterface"
 			},
 			{
-				"name":"createNatGatewayRequest",
-				"value":"executeCreateNatGateway"
-			},
-			{
 				"name":"describeInstanceCreditSpecificationsRequest",
 				"value":"executeDescribeInstanceCreditSpecifications"
 			},
 			{
+				"name":"createNatGatewayRequest",
+				"value":"executeCreateNatGateway"
+			},
+			{
 				"name":"createTrafficMirrorTargetRequest",
-				"value":"executeCreateTrafficMirrorTarget"
+				"value":"createTrafficMirrorTarget"
 			},
 			{
 				"name":"associateAddressRequest",
@@ -464,7 +464,7 @@
 			},
 			{
 				"name":"deleteTrafficMirrorSessionRequest",
-				"value":"deleteTrafficMirrorSession"
+				"value":"executeDeleteTrafficMirrorSession"
 			},
 			{
 				"name":"describeVolumeAttributeRequest",
@@ -472,11 +472,11 @@
 			},
 			{
 				"name":"describeClientVpnTargetNetworksRequest",
-				"value":"describeClientVpnTargetNetworks"
+				"value":"executeDescribeClientVpnTargetNetworks"
 			},
 			{
 				"name":"disableTransitGatewayRouteTablePropagationRequest",
-				"value":"disableTransitGatewayRouteTablePropagation"
+				"value":"executeDisableTransitGatewayRouteTablePropagation"
 			},
 			{
 				"name":"describeVpcClassicLinkDnsSupportRequest",
@@ -492,7 +492,7 @@
 			},
 			{
 				"name":"createNetworkInterfacePermissionRequest",
-				"value":"createNetworkInterfacePermission"
+				"value":"executeCreateNetworkInterfacePermission"
 			},
 			{
 				"name":"resetNetworkInterfaceAttributeRequest",
@@ -504,11 +504,11 @@
 			},
 			{
 				"name":"createSpotDatafeedSubscriptionRequest",
-				"value":"createSpotDatafeedSubscription"
+				"value":"executeCreateSpotDatafeedSubscription"
 			},
 			{
 				"name":"describeHostReservationOfferingsRequest",
-				"value":"describeHostReservationOfferings"
+				"value":"executeDescribeHostReservationOfferings"
 			},
 			{
 				"name":"createKeyPairRequest",
@@ -527,12 +527,12 @@
 				"value":"executeRejectTransitGatewayPeeringAttachment"
 			},
 			{
-				"name":"acceptReservedInstancesExchangeQuoteRequest",
-				"value":"executeAcceptReservedInstancesExchangeQuote"
+				"name":"describeIdentityIdFormatRequest",
+				"value":"executeDescribeIdentityIdFormat"
 			},
 			{
-				"name":"describeIdentityIdFormatRequest",
-				"value":"describeIdentityIdFormat"
+				"name":"acceptReservedInstancesExchangeQuoteRequest",
+				"value":"executeAcceptReservedInstancesExchangeQuote"
 			},
 			{
 				"name":"modifyReservedInstancesRequest",
@@ -547,16 +547,16 @@
 				"value":"executeGetConsoleScreenshot"
 			},
 			{
-				"name":"createDhcpOptionsRequest",
-				"value":"createDhcpOptions"
-			},
-			{
 				"name":"deleteVpnConnectionRouteRequest",
 				"value":"executeDeleteVpnConnectionRoute"
 			},
 			{
 				"name":"describePlacementGroupsRequest",
-				"value":"describePlacementGroups"
+				"value":"executeDescribePlacementGroups"
+			},
+			{
+				"name":"createDhcpOptionsRequest",
+				"value":"executeCreateDhcpOptions"
 			},
 			{
 				"name":"deleteKeyPairRequest",
@@ -564,11 +564,11 @@
 			},
 			{
 				"name":"describeFleetHistoryRequest",
-				"value":"describeFleetHistory"
+				"value":"executeDescribeFleetHistory"
 			},
 			{
 				"name":"describeSpotInstanceRequestsRequest",
-				"value":"describeSpotInstanceRequests"
+				"value":"executeDescribeSpotInstanceRequests"
 			},
 			{
 				"name":"terminateClientVpnConnectionsRequest",
@@ -576,11 +576,11 @@
 			},
 			{
 				"name":"createCustomerGatewayRequest",
-				"value":"createCustomerGateway"
+				"value":"executeCreateCustomerGateway"
 			},
 			{
 				"name":"copyImageRequest",
-				"value":"copyImage"
+				"value":"executeCopyImage"
 			},
 			{
 				"name":"createInstanceExportTaskRequest",
@@ -592,55 +592,55 @@
 			},
 			{
 				"name":"searchTransitGatewayMulticastGroupsRequest",
-				"value":"searchTransitGatewayMulticastGroups"
+				"value":"executeSearchTransitGatewayMulticastGroups"
+			},
+			{
+				"name":"describeLocalGatewayVirtualInterfacesRequest",
+				"value":"executeDescribeLocalGatewayVirtualInterfaces"
 			},
 			{
 				"name":"describeVolumesRequest",
 				"value":"executeDescribeVolumes"
 			},
 			{
-				"name":"describeLocalGatewayVirtualInterfacesRequest",
-				"value":"describeLocalGatewayVirtualInterfaces"
-			},
-			{
 				"name":"describeClassicLinkInstancesRequest",
-				"value":"describeClassicLinkInstances"
-			},
-			{
-				"name":"authorizeSecurityGroupEgressRequest",
-				"value":"authorizeSecurityGroupEgress"
+				"value":"executeDescribeClassicLinkInstances"
 			},
 			{
 				"name":"disassociateTransitGatewayRouteTableRequest",
 				"value":"executeDisassociateTransitGatewayRouteTable"
 			},
 			{
-				"name":"getPasswordDataRequest",
-				"value":"executeGetPasswordData"
+				"name":"authorizeSecurityGroupEgressRequest",
+				"value":"executeAuthorizeSecurityGroupEgress"
 			},
 			{
-				"name":"resetImageAttributeRequest",
-				"value":"executeResetImageAttribute"
+				"name":"getPasswordDataRequest",
+				"value":"executeGetPasswordData"
 			},
 			{
 				"name":"enableEbsEncryptionByDefaultRequest",
 				"value":"executeEnableEbsEncryptionByDefault"
 			},
 			{
+				"name":"resetImageAttributeRequest",
+				"value":"executeResetImageAttribute"
+			},
+			{
 				"name":"getHostReservationPurchasePreviewRequest",
-				"value":"getHostReservationPurchasePreview"
+				"value":"executeGetHostReservationPurchasePreview"
 			},
 			{
 				"name":"acceptTransitGatewayVpcAttachmentRequest",
-				"value":"acceptTransitGatewayVpcAttachment"
-			},
-			{
-				"name":"associateSubnetCidrBlockRequest",
-				"value":"associateSubnetCidrBlock"
+				"value":"executeAcceptTransitGatewayVpcAttachment"
 			},
 			{
 				"name":"describeSpotFleetInstancesRequest",
-				"value":"describeSpotFleetInstances"
+				"value":"executeDescribeSpotFleetInstances"
+			},
+			{
+				"name":"associateSubnetCidrBlockRequest",
+				"value":"executeAssociateSubnetCidrBlock"
 			},
 			{
 				"name":"detachVolumeRequest",
@@ -648,19 +648,19 @@
 			},
 			{
 				"name":"describeTransitGatewayPeeringAttachmentsRequest",
-				"value":"describeTransitGatewayPeeringAttachments"
+				"value":"executeDescribeTransitGatewayPeeringAttachments"
 			},
 			{
 				"name":"describePrincipalIdFormatRequest",
-				"value":"describePrincipalIdFormat"
+				"value":"executeDescribePrincipalIdFormat"
 			},
 			{
 				"name":"describeTransitGatewayRouteTablesRequest",
-				"value":"describeTransitGatewayRouteTables"
+				"value":"executeDescribeTransitGatewayRouteTables"
 			},
 			{
 				"name":"modifyTransitGatewayVpcAttachmentRequest",
-				"value":"modifyTransitGatewayVpcAttachment"
+				"value":"executeModifyTransitGatewayVpcAttachment"
 			},
 			{
 				"name":"modifyTrafficMirrorSessionRequest",
@@ -676,11 +676,11 @@
 			},
 			{
 				"name":"describeAggregateIdFormatRequest",
-				"value":"describeAggregateIdFormat"
+				"value":"executeDescribeAggregateIdFormat"
 			},
 			{
 				"name":"describeImportImageTasksRequest",
-				"value":"describeImportImageTasks"
+				"value":"executeDescribeImportImageTasks"
 			},
 			{
 				"name":"describeVpnGatewaysRequest",
@@ -703,12 +703,12 @@
 				"value":"executeDescribeVolumesModifications"
 			},
 			{
-				"name":"createClientVpnRouteRequest",
-				"value":"executeCreateClientVpnRoute"
-			},
-			{
 				"name":"disassociateVpcCidrBlockRequest",
 				"value":"executeDisassociateVpcCidrBlock"
+			},
+			{
+				"name":"createClientVpnRouteRequest",
+				"value":"executeCreateClientVpnRoute"
 			},
 			{
 				"name":"deleteFlowLogsRequest",
@@ -719,12 +719,12 @@
 				"value":"executeSearchTransitGatewayRoutes"
 			},
 			{
-				"name":"describeNetworkInterfaceAttributeRequest",
-				"value":"executeDescribeNetworkInterfaceAttribute"
-			},
-			{
 				"name":"describeInstancesRequest",
 				"value":"executeDescribeInstances"
+			},
+			{
+				"name":"describeNetworkInterfaceAttributeRequest",
+				"value":"executeDescribeNetworkInterfaceAttribute"
 			},
 			{
 				"name":"resetEbsDefaultKmsKeyIdRequest",
@@ -732,7 +732,7 @@
 			},
 			{
 				"name":"describeNetworkAclsRequest",
-				"value":"describeNetworkAcls"
+				"value":"executeDescribeNetworkAcls"
 			},
 			{
 				"name":"modifyInstanceMetadataOptionsRequest",
@@ -744,11 +744,11 @@
 			},
 			{
 				"name":"purchaseReservedInstancesOfferingRequest",
-				"value":"purchaseReservedInstancesOffering"
+				"value":"executePurchaseReservedInstancesOffering"
 			},
 			{
 				"name":"replaceNetworkAclEntryRequest",
-				"value":"replaceNetworkAclEntry"
+				"value":"executeReplaceNetworkAclEntry"
 			},
 			{
 				"name":"modifyVpnConnectionRequest",
@@ -776,11 +776,11 @@
 			},
 			{
 				"name":"createTransitGatewayRouteRequest",
-				"value":"createTransitGatewayRoute"
+				"value":"executeCreateTransitGatewayRoute"
 			},
 			{
 				"name":"describeLaunchTemplateVersionsRequest",
-				"value":"describeLaunchTemplateVersions"
+				"value":"executeDescribeLaunchTemplateVersions"
 			},
 			{
 				"name":"importImageRequest",
@@ -788,7 +788,7 @@
 			},
 			{
 				"name":"associateVpcCidrBlockRequest",
-				"value":"associateVpcCidrBlock"
+				"value":"executeAssociateVpcCidrBlock"
 			},
 			{
 				"name":"deleteVolumeRequest",
@@ -800,15 +800,15 @@
 			},
 			{
 				"name":"describeFleetInstancesRequest",
-				"value":"describeFleetInstances"
+				"value":"executeDescribeFleetInstances"
 			},
 			{
 				"name":"describeVpcEndpointsRequest",
-				"value":"describeVpcEndpoints"
+				"value":"executeDescribeVpcEndpoints"
 			},
 			{
 				"name":"deleteTrafficMirrorFilterRuleRequest",
-				"value":"deleteTrafficMirrorFilterRule"
+				"value":"executeDeleteTrafficMirrorFilterRule"
 			},
 			{
 				"name":"deleteTagsRequest",
@@ -828,7 +828,7 @@
 			},
 			{
 				"name":"deleteNetworkInterfacePermissionRequest",
-				"value":"deleteNetworkInterfacePermission"
+				"value":"executeDeleteNetworkInterfacePermission"
 			},
 			{
 				"name":"deleteClientVpnEndpointRequest",
@@ -843,36 +843,36 @@
 				"value":"executeGetCoipPoolUsage"
 			},
 			{
-				"name":"describeFlowLogsRequest",
-				"value":"executeDescribeFlowLogs"
-			},
-			{
 				"name":"createVpnGatewayRequest",
 				"value":"executeCreateVpnGateway"
 			},
 			{
-				"name":"createReservedInstancesListingRequest",
-				"value":"createReservedInstancesListing"
+				"name":"describeFlowLogsRequest",
+				"value":"executeDescribeFlowLogs"
+			},
+			{
+				"name":"deleteTrafficMirrorFilterRequest",
+				"value":"executeDeleteTrafficMirrorFilter"
 			},
 			{
 				"name":"createLocalGatewayRouteRequest",
 				"value":"executeCreateLocalGatewayRoute"
 			},
 			{
-				"name":"deleteTrafficMirrorFilterRequest",
-				"value":"deleteTrafficMirrorFilter"
+				"name":"createReservedInstancesListingRequest",
+				"value":"executeCreateReservedInstancesListing"
 			},
 			{
 				"name":"describeNatGatewaysRequest",
-				"value":"describeNatGateways"
+				"value":"executeDescribeNatGateways"
 			},
 			{
 				"name":"associateTransitGatewayRouteTableRequest",
-				"value":"associateTransitGatewayRouteTable"
+				"value":"executeAssociateTransitGatewayRouteTable"
 			},
 			{
 				"name":"createNetworkAclEntryRequest",
-				"value":"createNetworkAclEntry"
+				"value":"executeCreateNetworkAclEntry"
 			},
 			{
 				"name":"deleteSnapshotRequest",
@@ -880,27 +880,27 @@
 			},
 			{
 				"name":"deleteVpcPeeringConnectionRequest",
-				"value":"deleteVpcPeeringConnection"
+				"value":"executeDeleteVpcPeeringConnection"
 			},
 			{
 				"name":"describeSnapshotsRequest",
-				"value":"describeSnapshots"
+				"value":"executeDescribeSnapshots"
 			},
 			{
 				"name":"createLaunchTemplateVersionRequest",
-				"value":"createLaunchTemplateVersion"
+				"value":"executeCreateLaunchTemplateVersion"
 			},
 			{
 				"name":"deleteTransitGatewayPeeringAttachmentRequest",
-				"value":"deleteTransitGatewayPeeringAttachment"
+				"value":"executeDeleteTransitGatewayPeeringAttachment"
 			},
 			{
 				"name":"modifyVpcEndpointConnectionNotificationRequest",
-				"value":"modifyVpcEndpointConnectionNotification"
+				"value":"executeModifyVpcEndpointConnectionNotification"
 			},
 			{
 				"name":"describeSecurityGroupsRequest",
-				"value":"describeSecurityGroups"
+				"value":"executeDescribeSecurityGroups"
 			},
 			{
 				"name":"disableFastSnapshotRestoresRequest",
@@ -915,16 +915,16 @@
 				"value":"executeCreatePlacementGroup"
 			},
 			{
-				"name":"requestSpotFleetRequest",
-				"value":"executeRequestSpotFleet"
+				"name":"describeByoipCidrsRequest",
+				"value":"executeDescribeByoipCidrs"
 			},
 			{
 				"name":"associateDhcpOptionsRequest",
 				"value":"executeAssociateDhcpOptions"
 			},
 			{
-				"name":"describeByoipCidrsRequest",
-				"value":"describeByoipCidrs"
+				"name":"requestSpotFleetRequest",
+				"value":"executeRequestSpotFleet"
 			},
 			{
 				"name":"enableTransitGatewayRouteTablePropagationRequest",
@@ -956,23 +956,23 @@
 			},
 			{
 				"name":"describeLocalGatewayRouteTableVpcAssociationsRequest",
-				"value":"describeLocalGatewayRouteTableVpcAssociations"
-			},
-			{
-				"name":"describeVpcsRequest",
-				"value":"executeDescribeVpcs"
+				"value":"executeDescribeLocalGatewayRouteTableVpcAssociations"
 			},
 			{
 				"name":"describeClientVpnRoutesRequest",
 				"value":"executeDescribeClientVpnRoutes"
 			},
 			{
-				"name":"getConsoleOutputRequest",
-				"value":"executeGetConsoleOutput"
+				"name":"describeVpcsRequest",
+				"value":"executeDescribeVpcs"
 			},
 			{
 				"name":"createVpcEndpointRequest",
 				"value":"executeCreateVpcEndpoint"
+			},
+			{
+				"name":"getConsoleOutputRequest",
+				"value":"executeGetConsoleOutput"
 			},
 			{
 				"name":"deleteClientVpnRouteRequest",
@@ -1012,7 +1012,7 @@
 			},
 			{
 				"name":"deleteCustomerGatewayRequest",
-				"value":"deleteCustomerGateway"
+				"value":"executeDeleteCustomerGateway"
 			},
 			{
 				"name":"describeImagesRequest",
@@ -1028,19 +1028,19 @@
 			},
 			{
 				"name":"cancelSpotInstanceRequestsRequest",
-				"value":"cancelSpotInstanceRequests"
+				"value":"executeCancelSpotInstanceRequests"
 			},
 			{
 				"name":"rejectVpcPeeringConnectionRequest",
 				"value":"executeRejectVpcPeeringConnection"
 			},
 			{
-				"name":"describeInstanceTypeOfferingsRequest",
-				"value":"describeInstanceTypeOfferings"
+				"name":"describeInstanceAttributeRequest",
+				"value":"executeDescribeInstanceAttribute"
 			},
 			{
-				"name":"describeInstanceAttributeRequest",
-				"value":"describeInstanceAttribute"
+				"name":"describeInstanceTypeOfferingsRequest",
+				"value":"executeDescribeInstanceTypeOfferings"
 			},
 			{
 				"name":"deleteVpnConnectionRequest",
@@ -1048,7 +1048,7 @@
 			},
 			{
 				"name":"describeFpgaImagesRequest",
-				"value":"describeFpgaImages"
+				"value":"executeDescribeFpgaImages"
 			},
 			{
 				"name":"enableVgwRoutePropagationRequest",
@@ -1063,12 +1063,12 @@
 				"value":"executeModifyTrafficMirrorFilterNetworkServices"
 			},
 			{
-				"name":"searchLocalGatewayRoutesRequest",
-				"value":"executeSearchLocalGatewayRoutes"
-			},
-			{
 				"name":"modifySnapshotAttributeRequest",
 				"value":"executeModifySnapshotAttribute"
+			},
+			{
+				"name":"searchLocalGatewayRoutesRequest",
+				"value":"executeSearchLocalGatewayRoutes"
 			},
 			{
 				"name":"disassociateClientVpnTargetNetworkRequest",
@@ -1083,12 +1083,12 @@
 				"value":"executeCancelImportTask"
 			},
 			{
-				"name":"createSubnetRequest",
-				"value":"executeCreateSubnet"
-			},
-			{
 				"name":"describeIamInstanceProfileAssociationsRequest",
 				"value":"executeDescribeIamInstanceProfileAssociations"
+			},
+			{
+				"name":"createSubnetRequest",
+				"value":"executeCreateSubnet"
 			},
 			{
 				"name":"createVpcRequest",
@@ -1104,7 +1104,7 @@
 			},
 			{
 				"name":"describeImageAttributeRequest",
-				"value":"describeImageAttribute"
+				"value":"executeDescribeImageAttribute"
 			},
 			{
 				"name":"registerImageRequest",
@@ -1112,19 +1112,19 @@
 			},
 			{
 				"name":"createSecurityGroupRequest",
-				"value":"createSecurityGroup"
+				"value":"executeCreateSecurityGroup"
 			},
 			{
 				"name":"resetFpgaImageAttributeRequest",
-				"value":"resetFpgaImageAttribute"
+				"value":"executeResetFpgaImageAttribute"
 			},
 			{
 				"name":"deleteTransitGatewayRouteTableRequest",
-				"value":"deleteTransitGatewayRouteTable"
+				"value":"executeDeleteTransitGatewayRouteTable"
 			},
 			{
 				"name":"describeSpotFleetRequestsRequest",
-				"value":"describeSpotFleetRequests"
+				"value":"executeDescribeSpotFleetRequests"
 			},
 			{
 				"name":"createNetworkInterfaceRequest",
@@ -1140,7 +1140,7 @@
 			},
 			{
 				"name":"describeSnapshotAttributeRequest",
-				"value":"describeSnapshotAttribute"
+				"value":"executeDescribeSnapshotAttribute"
 			},
 			{
 				"name":"replaceIamInstanceProfileAssociationRequest",
@@ -1151,12 +1151,12 @@
 				"value":"executeModifyInstanceAttribute"
 			},
 			{
-				"name":"getTransitGatewayMulticastDomainAssociationsRequest",
-				"value":"getTransitGatewayMulticastDomainAssociations"
+				"name":"describeInstanceTypesRequest",
+				"value":"executeDescribeInstanceTypes"
 			},
 			{
-				"name":"describeInstanceTypesRequest",
-				"value":"describeInstanceTypes"
+				"name":"getTransitGatewayMulticastDomainAssociationsRequest",
+				"value":"executeGetTransitGatewayMulticastDomainAssociations"
 			},
 			{
 				"name":"describeMovingAddressesRequest",
@@ -1171,28 +1171,28 @@
 				"value":"executeCreateSnapshots"
 			},
 			{
-				"name":"createFleetRequest",
-				"value":"executeCreateFleet"
-			},
-			{
 				"name":"modifyVpcEndpointServicePermissionsRequest",
 				"value":"executeModifyVpcEndpointServicePermissions"
+			},
+			{
+				"name":"createFleetRequest",
+				"value":"executeCreateFleet"
 			},
 			{
 				"name":"deletePlacementGroupRequest",
 				"value":"executeDeletePlacementGroup"
 			},
 			{
-				"name":"advertiseByoipCidrRequest",
-				"value":"advertiseByoipCidr"
-			},
-			{
 				"name":"modifyVolumeAttributeRequest",
 				"value":"executeModifyVolumeAttribute"
 			},
 			{
+				"name":"advertiseByoipCidrRequest",
+				"value":"executeAdvertiseByoipCidr"
+			},
+			{
 				"name":"modifyEbsDefaultKmsKeyIdRequest",
-				"value":"modifyEbsDefaultKmsKeyId"
+				"value":"executeModifyEbsDefaultKmsKeyId"
 			},
 			{
 				"name":"deleteTransitGatewayRouteRequest",
@@ -1204,19 +1204,19 @@
 			},
 			{
 				"name":"describeAddressesRequest",
-				"value":"describeAddresses"
+				"value":"executeDescribeAddresses"
 			},
 			{
 				"name":"describeRouteTablesRequest",
 				"value":"executeDescribeRouteTables"
 			},
 			{
-				"name":"cancelCapacityReservationRequest",
-				"value":"cancelCapacityReservation"
+				"name":"describePrefixListsRequest",
+				"value":"executeDescribePrefixLists"
 			},
 			{
-				"name":"describePrefixListsRequest",
-				"value":"describePrefixLists"
+				"name":"cancelCapacityReservationRequest",
+				"value":"executeCancelCapacityReservation"
 			},
 			{
 				"name":"deleteSubnetRequest",
@@ -1235,16 +1235,16 @@
 				"value":"executeDeprovisionByoipCidr"
 			},
 			{
-				"name":"createInternetGatewayRequest",
-				"value":"executeCreateInternetGateway"
-			},
-			{
 				"name":"createVpcEndpointConnectionNotificationRequest",
 				"value":"executeCreateVpcEndpointConnectionNotification"
 			},
 			{
+				"name":"createInternetGatewayRequest",
+				"value":"executeCreateInternetGateway"
+			},
+			{
 				"name":"deleteLaunchTemplateRequest",
-				"value":"deleteLaunchTemplate"
+				"value":"executeDeleteLaunchTemplate"
 			},
 			{
 				"name":"requestSpotInstancesRequest",
@@ -1252,7 +1252,7 @@
 			},
 			{
 				"name":"acceptTransitGatewayPeeringAttachmentRequest",
-				"value":"acceptTransitGatewayPeeringAttachment"
+				"value":"executeAcceptTransitGatewayPeeringAttachment"
 			},
 			{
 				"name":"deleteRouteRequest",
@@ -1260,15 +1260,15 @@
 			},
 			{
 				"name":"describeReservedInstancesRequest",
-				"value":"describeReservedInstances"
+				"value":"executeDescribeReservedInstances"
 			},
 			{
 				"name":"describeLocalGatewaysRequest",
-				"value":"describeLocalGateways"
+				"value":"executeDescribeLocalGateways"
 			},
 			{
 				"name":"getEbsEncryptionByDefaultRequest",
-				"value":"getEbsEncryptionByDefault"
+				"value":"executeGetEbsEncryptionByDefault"
 			},
 			{
 				"name":"describeTrafficMirrorTargetsRequest",
@@ -1280,7 +1280,7 @@
 			},
 			{
 				"name":"deleteInternetGatewayRequest",
-				"value":"deleteInternetGateway"
+				"value":"executeDeleteInternetGateway"
 			},
 			{
 				"name":"createTransitGatewayRequest",
@@ -1292,7 +1292,7 @@
 			},
 			{
 				"name":"deregisterTransitGatewayMulticastGroupMembersRequest",
-				"value":"deregisterTransitGatewayMulticastGroupMembers"
+				"value":"executeDeregisterTransitGatewayMulticastGroupMembers"
 			},
 			{
 				"name":"deleteVpcEndpointsRequest",
@@ -1316,27 +1316,27 @@
 			},
 			{
 				"name":"deleteTrafficMirrorTargetRequest",
-				"value":"deleteTrafficMirrorTarget"
+				"value":"executeDeleteTrafficMirrorTarget"
 			},
 			{
 				"name":"describeEgressOnlyInternetGatewaysRequest",
-				"value":"describeEgressOnlyInternetGateways"
+				"value":"executeDescribeEgressOnlyInternetGateways"
 			},
 			{
 				"name":"exportClientVpnClientConfigurationRequest",
 				"value":"executeExportClientVpnClientConfiguration"
 			},
 			{
-				"name":"createEgressOnlyInternetGatewayRequest",
-				"value":"createEgressOnlyInternetGateway"
+				"name":"getTransitGatewayAttachmentPropagationsRequest",
+				"value":"executeGetTransitGatewayAttachmentPropagations"
 			},
 			{
 				"name":"assignPrivateIpAddressesRequest",
 				"value":"executeAssignPrivateIpAddresses"
 			},
 			{
-				"name":"getTransitGatewayAttachmentPropagationsRequest",
-				"value":"executeGetTransitGatewayAttachmentPropagations"
+				"name":"createEgressOnlyInternetGatewayRequest",
+				"value":"executeCreateEgressOnlyInternetGateway"
 			},
 			{
 				"name":"getCapacityReservationUsageRequest",
@@ -1344,11 +1344,11 @@
 			},
 			{
 				"name":"deregisterTransitGatewayMulticastGroupSourcesRequest",
-				"value":"deregisterTransitGatewayMulticastGroupSources"
+				"value":"executeDeregisterTransitGatewayMulticastGroupSources"
 			},
 			{
 				"name":"describeImportSnapshotTasksRequest",
-				"value":"describeImportSnapshotTasks"
+				"value":"executeDescribeImportSnapshotTasks"
 			},
 			{
 				"name":"cancelConversionTaskRequest",
@@ -1363,20 +1363,20 @@
 				"value":"executeModifyNetworkInterfaceAttribute"
 			},
 			{
-				"name":"createLocalGatewayRouteTableVpcAssociationRequest",
-				"value":"executeCreateLocalGatewayRouteTableVpcAssociation"
-			},
-			{
 				"name":"describeLaunchTemplatesRequest",
 				"value":"executeDescribeLaunchTemplates"
 			},
 			{
-				"name":"describeVpcEndpointServicesRequest",
-				"value":"executeDescribeVpcEndpointServices"
+				"name":"createLocalGatewayRouteTableVpcAssociationRequest",
+				"value":"executeCreateLocalGatewayRouteTableVpcAssociation"
 			},
 			{
 				"name":"describeTransitGatewayVpcAttachmentsRequest",
-				"value":"describeTransitGatewayVpcAttachments"
+				"value":"executeDescribeTransitGatewayVpcAttachments"
+			},
+			{
+				"name":"describeVpcEndpointServicesRequest",
+				"value":"executeDescribeVpcEndpointServices"
 			},
 			{
 				"name":"exportTransitGatewayRoutesRequest",
@@ -1395,12 +1395,12 @@
 				"value":"executeDeleteFpgaImage"
 			},
 			{
-				"name":"cancelReservedInstancesListingRequest",
-				"value":"cancelReservedInstancesListing"
-			},
-			{
 				"name":"purchaseHostReservationRequest",
 				"value":"executePurchaseHostReservation"
+			},
+			{
+				"name":"cancelReservedInstancesListingRequest",
+				"value":"executeCancelReservedInstancesListing"
 			},
 			{
 				"name":"describeVpcEndpointConnectionsRequest",
@@ -1412,7 +1412,7 @@
 			},
 			{
 				"name":"createTransitGatewayPeeringAttachmentRequest",
-				"value":"createTransitGatewayPeeringAttachment"
+				"value":"executeCreateTransitGatewayPeeringAttachment"
 			},
 			{
 				"name":"modifyVpnTunnelOptionsRequest",
@@ -1424,11 +1424,7 @@
 			},
 			{
 				"name":"describeSpotDatafeedSubscriptionRequest",
-				"value":"describeSpotDatafeedSubscription"
-			},
-			{
-				"name":"associateTransitGatewayMulticastDomainRequest",
-				"value":"executeAssociateTransitGatewayMulticastDomain"
+				"value":"executeDescribeSpotDatafeedSubscription"
 			},
 			{
 				"name":"describeIdFormatRequest",
@@ -1443,32 +1439,36 @@
 				"value":"executeModifyDefaultCreditSpecification"
 			},
 			{
-				"name":"associateClientVpnTargetNetworkRequest",
-				"value":"associateClientVpnTargetNetwork"
+				"name":"associateTransitGatewayMulticastDomainRequest",
+				"value":"executeAssociateTransitGatewayMulticastDomain"
 			},
 			{
-				"name":"modifyImageAttributeRequest",
-				"value":"executeModifyImageAttribute"
+				"name":"associateClientVpnTargetNetworkRequest",
+				"value":"executeAssociateClientVpnTargetNetwork"
 			},
 			{
 				"name":"modifyFpgaImageAttributeRequest",
 				"value":"executeModifyFpgaImageAttribute"
 			},
 			{
+				"name":"modifyImageAttributeRequest",
+				"value":"executeModifyImageAttribute"
+			},
+			{
 				"name":"registerTransitGatewayMulticastGroupSourcesRequest",
-				"value":"registerTransitGatewayMulticastGroupSources"
+				"value":"executeRegisterTransitGatewayMulticastGroupSources"
 			},
 			{
 				"name":"modifyCapacityReservationRequest",
-				"value":"modifyCapacityReservation"
-			},
-			{
-				"name":"startInstancesRequest",
-				"value":"executeStartInstances"
+				"value":"executeModifyCapacityReservation"
 			},
 			{
 				"name":"disableEbsEncryptionByDefaultRequest",
 				"value":"executeDisableEbsEncryptionByDefault"
+			},
+			{
+				"name":"startInstancesRequest",
+				"value":"executeStartInstances"
 			},
 			{
 				"name":"attachVolumeRequest",
@@ -1476,7 +1476,7 @@
 			},
 			{
 				"name":"attachClassicLinkVpcRequest",
-				"value":"attachClassicLinkVpc"
+				"value":"executeAttachClassicLinkVpc"
 			},
 			{
 				"name":"revokeSecurityGroupIngressRequest",
@@ -1512,7 +1512,7 @@
 			},
 			{
 				"name":"associateIamInstanceProfileRequest",
-				"value":"associateIamInstanceProfile"
+				"value":"executeAssociateIamInstanceProfile"
 			},
 			{
 				"name":"cancelExportTaskRequest",
@@ -1528,7 +1528,7 @@
 			},
 			{
 				"name":"describeFpgaImageAttributeRequest",
-				"value":"describeFpgaImageAttribute"
+				"value":"executeDescribeFpgaImageAttribute"
 			},
 			{
 				"name":"describeStaleSecurityGroupsRequest",
@@ -1552,15 +1552,15 @@
 			},
 			{
 				"name":"detachClassicLinkVpcRequest",
-				"value":"detachClassicLinkVpc"
+				"value":"executeDetachClassicLinkVpc"
 			},
 			{
 				"name":"deleteSpotDatafeedSubscriptionRequest",
-				"value":"deleteSpotDatafeedSubscription"
+				"value":"executeDeleteSpotDatafeedSubscription"
 			},
 			{
 				"name":"sendDiagnosticInterruptRequest",
-				"value":"sendDiagnosticInterrupt"
+				"value":"executeSendDiagnosticInterrupt"
 			},
 			{
 				"name":"resetSnapshotAttributeRequest",
@@ -1568,7 +1568,7 @@
 			},
 			{
 				"name":"deleteLocalGatewayRouteTableVpcAssociationRequest",
-				"value":"deleteLocalGatewayRouteTableVpcAssociation"
+				"value":"executeDeleteLocalGatewayRouteTableVpcAssociation"
 			},
 			{
 				"name":"deleteRouteTableRequest",
@@ -1576,7 +1576,7 @@
 			},
 			{
 				"name":"authorizeClientVpnIngressRequest",
-				"value":"authorizeClientVpnIngress"
+				"value":"executeAuthorizeClientVpnIngress"
 			},
 			{
 				"name":"describeReservedInstancesModificationsRequest",
@@ -1588,7 +1588,7 @@
 			},
 			{
 				"name":"describePublicIpv4PoolsRequest",
-				"value":"describePublicIpv4Pools"
+				"value":"executeDescribePublicIpv4Pools"
 			}
 		]
 	}

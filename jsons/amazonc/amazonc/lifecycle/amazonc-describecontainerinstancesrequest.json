@@ -1,0 +1,17 @@
+{
+	"metadata":{
+		"name":"describecontainerinstancesrequest",
+		"namespace":"amazonc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonC",
+	"spec":{
+		"lifecycle":{
+			"describeContainerInstancesRequest":{
+				"cluster":"String",
+				"include":{},
+				"containerInstances":{}
+			}
+		}
+	}
+}

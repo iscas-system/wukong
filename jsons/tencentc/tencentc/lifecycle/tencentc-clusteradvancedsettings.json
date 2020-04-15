@@ -1,0 +1,18 @@
+{
+	"metadata":{
+		"name":"clusteradvancedsettings",
+		"namespace":"tencentc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentC",
+	"spec":{
+		"lifecycle":{
+			"clusterAdvancedSettings":{
+				"AsEnabled":true,
+				"ContainerRuntime":"String",
+				"IPVS":true,
+				"NodeNameType":"String"
+			}
+		}
+	}
+}

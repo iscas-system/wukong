@@ -1,0 +1,15 @@
+{
+	"metadata":{
+		"name":"bindtagsrequest",
+		"namespace":"baiduvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"BaiduVM",
+	"spec":{
+		"lifecycle":{
+			"bindTagsRequest":{
+				"instanceId":"String"
+			}
+		}
+	}
+}

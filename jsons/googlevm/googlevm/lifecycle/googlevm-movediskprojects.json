@@ -1,0 +1,19 @@
+{
+	"metadata":{
+		"name":"movediskprojects",
+		"namespace":"googlevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"GoogleVM",
+	"spec":{
+		"lifecycle":{
+			"moveDiskProjects":{
+				"_arg0":"String",
+				"_arg1":{
+					"targetDisk":"String",
+					"destinationZone":"String"
+				}
+			}
+		}
+	}
+}

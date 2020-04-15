@@ -1,0 +1,19 @@
+{
+	"metadata":{
+		"name":"seturlmaptargethttpsproxies",
+		"namespace":"googlevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"GoogleVM",
+	"spec":{
+		"lifecycle":{
+			"setUrlMapTargetHttpsProxies":{
+				"_arg0":"String",
+				"_arg1":"String",
+				"_arg2":{
+					"urlMap":"String"
+				}
+			}
+		}
+	}
+}

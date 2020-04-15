@@ -116,6 +116,7 @@ public class Generator {
 
 			JSONObject meta = new JSONObject();
 			if (obj instanceof MethodModel) {
+
 				MethodModel mo = (MethodModel) obj;
 				meta.put("name", mo.getMethod().getName().toLowerCase() 
 						+ mo.getParent().getSimpleName().toLowerCase());

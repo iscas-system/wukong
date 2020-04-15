@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"stopcontainerrequest",
+		"namespace":"jdc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"JDC",
+	"spec":{
+		"lifecycle":{
+			"stopContainerRequest":{
+				"regionId":"String",
+				"containerId":"String"
+			}
+		}
+	}
+}

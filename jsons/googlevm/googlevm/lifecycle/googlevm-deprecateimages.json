@@ -1,0 +1,23 @@
+{
+	"metadata":{
+		"name":"deprecateimages",
+		"namespace":"googlevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"GoogleVM",
+	"spec":{
+		"lifecycle":{
+			"deprecateImages":{
+				"_arg0":"String",
+				"_arg1":"String",
+				"_arg2":{
+					"deleted":"String",
+					"deprecated":"String",
+					"obsolete":"String",
+					"state":"String",
+					"replacement":"String"
+				}
+			}
+		}
+	}
+}

@@ -10,7 +10,8 @@
 			"beginPowerOffAsyncVirtualMachineScaleSetVMsInner":{
 				"_arg0":"String",
 				"_arg1":"String",
-				"_arg2":"String"
+				"_arg2":"String",
+				"_arg3":true
 			}
 		}
 	}

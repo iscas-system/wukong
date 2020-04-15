@@ -7,10 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="wukong" />
+        <module name="wukong-aliyun-ecs" />
+        <module name="wukong-core" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="wukong" target="1.8" />
+      <module name="wukong-aliyun-ecs" target="1.5" />
+      <module name="wukong-core" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

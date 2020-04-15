@@ -1,0 +1,15 @@
+{
+	"metadata":{
+		"name":"listbackendservices",
+		"namespace":"googlevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"GoogleVM",
+	"spec":{
+		"lifecycle":{
+			"listBackendServices":{
+				"_arg0":"String"
+			}
+		}
+	}
+}

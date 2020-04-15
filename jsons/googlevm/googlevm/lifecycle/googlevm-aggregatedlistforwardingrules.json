@@ -1,0 +1,15 @@
+{
+	"metadata":{
+		"name":"aggregatedlistforwardingrules",
+		"namespace":"googlevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"GoogleVM",
+	"spec":{
+		"lifecycle":{
+			"aggregatedListForwardingRules":{
+				"_arg0":"String"
+			}
+		}
+	}
+}

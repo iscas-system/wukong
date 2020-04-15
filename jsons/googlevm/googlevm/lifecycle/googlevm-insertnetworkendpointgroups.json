@@ -1,0 +1,35 @@
+{
+	"metadata":{
+		"name":"insertnetworkendpointgroups",
+		"namespace":"googlevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"GoogleVM",
+	"spec":{
+		"lifecycle":{
+			"insertNetworkEndpointGroups":{
+				"_arg0":"String",
+				"_arg1":"String",
+				"_arg2":{
+					"defaultPort":1,
+					"networkEndpointType":"String",
+					"size":1,
+					"zone":"String",
+					"kind":"String",
+					"subnetwork":"String",
+					"creationTimestamp":"String",
+					"name":"String",
+					"description":"String",
+					"id":{
+						"bitLength":1,
+						"lowestSetBit":1,
+						"bitCount":1,
+						"firstNonzeroIntNum":1
+					},
+					"network":"String",
+					"selfLink":"String"
+				}
+			}
+		}
+	}
+}

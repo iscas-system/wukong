@@ -27,6 +27,10 @@
 				"value":"getAcsResponse"
 			},
 			{
+				"name":"createClusterRequest",
+				"value":"getAcsResponse"
+			},
+			{
 				"name":"describeEipMonitorDataRequest",
 				"value":"getAcsResponse"
 			},
@@ -40,6 +44,10 @@
 			},
 			{
 				"name":"describeInstanceTopologyRequest",
+				"value":"getAcsResponse"
+			},
+			{
+				"name":"updateK8sClusterUserConfigExpireRequest",
 				"value":"getAcsResponse"
 			},
 			{
@@ -140,6 +148,10 @@
 			},
 			{
 				"name":"describeBandwidthPackagesRequest",
+				"value":"getAcsResponse"
+			},
+			{
+				"name":"deleteClusterRequest",
 				"value":"getAcsResponse"
 			},
 			{
@@ -287,6 +299,10 @@
 				"value":"getAcsResponse"
 			},
 			{
+				"name":"deleteClusterNodesRequest",
+				"value":"getAcsResponse"
+			},
+			{
 				"name":"unassignIpv6AddressesRequest",
 				"value":"getAcsResponse"
 			},
@@ -351,6 +367,10 @@
 				"value":"getAcsResponse"
 			},
 			{
+				"name":"scaleClusterRequest",
+				"value":"getAcsResponse"
+			},
+			{
 				"name":"unassociateEipAddressRequest",
 				"value":"getAcsResponse"
 			},
@@ -360,6 +380,10 @@
 			},
 			{
 				"name":"modifySnapshotAttributeRequest",
+				"value":"getAcsResponse"
+			},
+			{
+				"name":"describeClusterUserKubeconfigRequest",
 				"value":"getAcsResponse"
 			},
 			{
@@ -563,6 +587,10 @@
 				"value":"getAcsResponse"
 			},
 			{
+				"name":"describeClusterV2UserKubeconfigRequest",
+				"value":"getAcsResponse"
+			},
+			{
 				"name":"modifyVpcAttributeRequest",
 				"value":"getAcsResponse"
 			},
@@ -672,6 +700,10 @@
 			},
 			{
 				"name":"createMaintenancePropertyRequest",
+				"value":"getAcsResponse"
+			},
+			{
+				"name":"attachInstancesRequest",
 				"value":"getAcsResponse"
 			},
 			{

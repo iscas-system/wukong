@@ -1,0 +1,15 @@
+{
+	"metadata":{
+		"name":"deleteclusterendpointviprequest",
+		"namespace":"tencentc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentC",
+	"spec":{
+		"lifecycle":{
+			"deleteClusterEndpointVipRequest":{
+				"ClusterId":"String"
+			}
+		}
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"metadata":{
+		"name":"createclusterendpointrequest",
+		"namespace":"tencentc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentC",
+	"spec":{
+		"lifecycle":{
+			"createClusterEndpointRequest":{
+				"ClusterId":"String",
+				"IsExtranet":true,
+				"SubnetId":"String"
+			}
+		}
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"rebootinstancerequest",
+		"namespace":"baiduvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"BaiduVM",
+	"spec":{
+		"lifecycle":{
+			"rebootInstanceRequest":{
+				"instanceId":"String",
+				"forceStop":true
+			}
+		}
+	}
+}

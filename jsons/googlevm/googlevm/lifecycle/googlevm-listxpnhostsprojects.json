@@ -1,0 +1,18 @@
+{
+	"metadata":{
+		"name":"listxpnhostsprojects",
+		"namespace":"googlevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"GoogleVM",
+	"spec":{
+		"lifecycle":{
+			"listXpnHostsProjects":{
+				"_arg0":"String",
+				"_arg1":{
+					"organization":"String"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"metadata":{
+		"name":"aggregatedlistaddresses",
+		"namespace":"googlevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"GoogleVM",
+	"spec":{
+		"lifecycle":{
+			"aggregatedListAddresses":{
+				"_arg0":"String"
+			}
+		}
+	}
+}

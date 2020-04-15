@@ -1,0 +1,33 @@
+{
+	"metadata":{
+		"name":"registertaskdefinitionrequest",
+		"namespace":"amazonc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonC",
+	"spec":{
+		"lifecycle":{
+			"registerTaskDefinitionRequest":{
+				"networkMode":"String",
+				"placementConstraints":{},
+				"pidMode":"String",
+				"memory":"String",
+				"inferenceAccelerators":{},
+				"volumes":{},
+				"cpu":"String",
+				"tags":{},
+				"executionRoleArn":"String",
+				"taskRoleArn":"String",
+				"ipcMode":"String",
+				"family":"String",
+				"requiresCompatibilities":{},
+				"containerDefinitions":{},
+				"proxyConfiguration":{
+					"containerName":"String",
+					"type":"String",
+					"properties":{}
+				}
+			}
+		}
+	}
+}

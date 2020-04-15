@@ -1,0 +1,34 @@
+{
+	"metadata":{
+		"name":"patchbackendbuckets",
+		"namespace":"googlevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"GoogleVM",
+	"spec":{
+		"lifecycle":{
+			"patchBackendBuckets":{
+				"_arg0":"String",
+				"_arg1":"String",
+				"_arg2":{
+					"bucketName":"String",
+					"cdnPolicy":{
+						"signedUrlCacheMaxAgeSec":1
+					},
+					"enableCdn":true,
+					"kind":"String",
+					"creationTimestamp":"String",
+					"name":"String",
+					"description":"String",
+					"id":{
+						"bitLength":1,
+						"lowestSetBit":1,
+						"bitCount":1,
+						"firstNonzeroIntNum":1
+					},
+					"selfLink":"String"
+				}
+			}
+		}
+	}
+}

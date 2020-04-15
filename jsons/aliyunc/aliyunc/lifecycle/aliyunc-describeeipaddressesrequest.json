@@ -1,0 +1,32 @@
+{
+	"metadata":{
+		"name":"describeeipaddressesrequest",
+		"namespace":"aliyunc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunC",
+	"spec":{
+		"lifecycle":{
+			"describeEipAddressesRequest":{
+				"pageNumber":1,
+				"iSP":"String",
+				"chargeType":"String",
+				"pageSize":1,
+				"allocationId":"String",
+				"associatedInstanceId":"String",
+				"ownerAccount":"String",
+				"ownerId":1,
+				"lockReason":"String",
+				"filter1Value":"String",
+				"associatedInstanceType":"String",
+				"eipAddress":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"filter2Value":"String",
+				"filter1Key":"String",
+				"filter2Key":"String",
+				"status":"String"
+			}
+		}
+	}
+}

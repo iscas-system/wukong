@@ -1,0 +1,29 @@
+{
+	"metadata":{
+		"name":"describesecuritygroupsrequest",
+		"namespace":"aliyunc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunC",
+	"spec":{
+		"lifecycle":{
+			"describeSecurityGroupsRequest":{
+				"securityGroupName":"String",
+				"pageNumber":1,
+				"dryRun":true,
+				"fuzzyQuery":true,
+				"pageSize":1,
+				"ownerAccount":"String",
+				"ownerId":1,
+				"securityGroupId":"String",
+				"isQueryEcsCount":true,
+				"securityGroupIds":"String",
+				"vpcId":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"resourceGroupId":"String",
+				"networkType":"String"
+			}
+		}
+	}
+}

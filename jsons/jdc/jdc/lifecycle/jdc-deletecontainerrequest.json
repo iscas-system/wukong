@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"deletecontainerrequest",
+		"namespace":"jdc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"JDC",
+	"spec":{
+		"lifecycle":{
+			"deleteContainerRequest":{
+				"regionId":"String",
+				"containerId":"String"
+			}
+		}
+	}
+}

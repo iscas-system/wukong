@@ -1,0 +1,17 @@
+{
+	"metadata":{
+		"name":"execgetexitcoderequest",
+		"namespace":"jdc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"JDC",
+	"spec":{
+		"lifecycle":{
+			"execGetExitCodeRequest":{
+				"regionId":"String",
+				"containerId":"String",
+				"execId":"String"
+			}
+		}
+	}
+}

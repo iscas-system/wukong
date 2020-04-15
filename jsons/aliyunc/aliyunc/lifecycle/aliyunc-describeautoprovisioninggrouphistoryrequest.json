@@ -1,0 +1,23 @@
+{
+	"metadata":{
+		"name":"describeautoprovisioninggrouphistoryrequest",
+		"namespace":"aliyunc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunC",
+	"spec":{
+		"lifecycle":{
+			"describeAutoProvisioningGroupHistoryRequest":{
+				"autoProvisioningGroupId":"String",
+				"pageNumber":1,
+				"pageSize":1,
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"startTime":"String",
+				"endTime":"String",
+				"ownerAccount":"String",
+				"ownerId":1
+			}
+		}
+	}
+}

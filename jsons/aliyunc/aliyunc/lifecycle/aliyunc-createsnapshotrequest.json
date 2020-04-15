@@ -1,0 +1,23 @@
+{
+	"metadata":{
+		"name":"createsnapshotrequest",
+		"namespace":"aliyunc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunC",
+	"spec":{
+		"lifecycle":{
+			"createSnapshotRequest":{
+				"retentionDays":1,
+				"clientToken":"String",
+				"snapshotName":"String",
+				"description":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"diskId":"String",
+				"ownerAccount":"String",
+				"ownerId":1
+			}
+		}
+	}
+}

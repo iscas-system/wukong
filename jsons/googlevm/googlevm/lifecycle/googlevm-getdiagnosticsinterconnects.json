@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"getdiagnosticsinterconnects",
+		"namespace":"googlevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"GoogleVM",
+	"spec":{
+		"lifecycle":{
+			"getDiagnosticsInterconnects":{
+				"_arg0":"String",
+				"_arg1":"String"
+			}
+		}
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"metadata":{
+		"name":"createclusterinstancesresponse",
+		"namespace":"tencentc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentC",
+	"spec":{
+		"lifecycle":{
+			"createClusterInstancesResponse":{
+				"RequestId":"String"
+			}
+		}
+	}
+}

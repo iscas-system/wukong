@@ -1,0 +1,19 @@
+{
+	"metadata":{
+		"name":"detachinstanceramrolerequest",
+		"namespace":"aliyunc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunC",
+	"spec":{
+		"lifecycle":{
+			"detachInstanceRamRoleRequest":{
+				"instanceIds":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1,
+				"ramRoleName":"String"
+			}
+		}
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"describeclusterroutesresponse",
+		"namespace":"tencentc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentC",
+	"spec":{
+		"lifecycle":{
+			"describeClusterRoutesResponse":{
+				"TotalCount":1,
+				"RequestId":"String"
+			}
+		}
+	}
+}

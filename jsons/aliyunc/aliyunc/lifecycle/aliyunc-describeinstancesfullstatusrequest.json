@@ -1,0 +1,27 @@
+{
+	"metadata":{
+		"name":"describeinstancesfullstatusrequest",
+		"namespace":"aliyunc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunC",
+	"spec":{
+		"lifecycle":{
+			"describeInstancesFullStatusRequest":{
+				"pageNumber":1,
+				"eventPublishTimeStart":"String",
+				"pageSize":1,
+				"notBeforeStart":"String",
+				"eventType":"String",
+				"ownerAccount":"String",
+				"ownerId":1,
+				"notBeforeEnd":"String",
+				"healthStatus":"String",
+				"eventPublishTimeEnd":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"status":"String"
+			}
+		}
+	}
+}

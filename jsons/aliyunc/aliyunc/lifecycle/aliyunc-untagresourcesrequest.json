@@ -1,0 +1,20 @@
+{
+	"metadata":{
+		"name":"untagresourcesrequest",
+		"namespace":"aliyunc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunC",
+	"spec":{
+		"lifecycle":{
+			"untagResourcesRequest":{
+				"all":true,
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerAccount":"String",
+				"ownerId":1,
+				"resourceType":"String"
+			}
+		}
+	}
+}

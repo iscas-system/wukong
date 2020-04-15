@@ -1,0 +1,15 @@
+{
+	"metadata":{
+		"name":"aggregatedlistinstancegroups",
+		"namespace":"googlevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"GoogleVM",
+	"spec":{
+		"lifecycle":{
+			"aggregatedListInstanceGroups":{
+				"_arg0":"String"
+			}
+		}
+	}
+}

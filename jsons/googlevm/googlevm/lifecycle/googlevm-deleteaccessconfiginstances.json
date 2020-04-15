@@ -1,0 +1,19 @@
+{
+	"metadata":{
+		"name":"deleteaccessconfiginstances",
+		"namespace":"googlevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"GoogleVM",
+	"spec":{
+		"lifecycle":{
+			"deleteAccessConfigInstances":{
+				"_arg0":"String",
+				"_arg1":"String",
+				"_arg2":"String",
+				"_arg3":"String",
+				"_arg4":"String"
+			}
+		}
+	}
+}

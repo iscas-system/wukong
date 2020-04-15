@@ -1,0 +1,22 @@
+{
+	"metadata":{
+		"name":"modifyrouterinterfacespecrequest",
+		"namespace":"aliyunc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunC",
+	"spec":{
+		"lifecycle":{
+			"modifyRouterInterfaceSpecRequest":{
+				"clientToken":"String",
+				"userCidr":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"routerInterfaceId":"String",
+				"ownerAccount":"String",
+				"ownerId":1,
+				"spec":"String"
+			}
+		}
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"metadata":{
+		"name":"deregistertaskdefinitionrequest",
+		"namespace":"amazonc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonC",
+	"spec":{
+		"lifecycle":{
+			"deregisterTaskDefinitionRequest":{
+				"taskDefinition":"String"
+			}
+		}
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"listsecuritygroupsrequest",
+		"namespace":"baiduvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"BaiduVM",
+	"spec":{
+		"lifecycle":{
+			"listSecurityGroupsRequest":{
+				"instanceId":"String",
+				"vpcId":"String"
+			}
+		}
+	}
+}

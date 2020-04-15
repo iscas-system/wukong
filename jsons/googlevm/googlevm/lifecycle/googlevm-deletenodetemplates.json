@@ -1,0 +1,17 @@
+{
+	"metadata":{
+		"name":"deletenodetemplates",
+		"namespace":"googlevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"GoogleVM",
+	"spec":{
+		"lifecycle":{
+			"deleteNodeTemplates":{
+				"_arg0":"String",
+				"_arg1":"String",
+				"_arg2":"String"
+			}
+		}
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"metadata":{
+		"name":"assumerolerequest",
+		"namespace":"aliyunc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunC",
+	"spec":{
+		"lifecycle":{
+			"assumeRoleRequest":{
+				"durationSeconds":1,
+				"roleArn":"String",
+				"roleSessionName":"String",
+				"policy":"String"
+			}
+		}
+	}
+}

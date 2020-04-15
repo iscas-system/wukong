@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"describeclusterendpointstatusresponse",
+		"namespace":"tencentc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentC",
+	"spec":{
+		"lifecycle":{
+			"describeClusterEndpointStatusResponse":{
+				"Status":"String",
+				"RequestId":"String"
+			}
+		}
+	}
+}

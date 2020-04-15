@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"describeroutetableconflictsresponse",
+		"namespace":"tencentc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentC",
+	"spec":{
+		"lifecycle":{
+			"describeRouteTableConflictsResponse":{
+				"RequestId":"String",
+				"HasConflict":true
+			}
+		}
+	}
+}

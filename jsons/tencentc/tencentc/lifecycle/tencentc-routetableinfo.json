@@ -1,0 +1,17 @@
+{
+	"metadata":{
+		"name":"routetableinfo",
+		"namespace":"tencentc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentC",
+	"spec":{
+		"lifecycle":{
+			"routeTableInfo":{
+				"VpcId":"String",
+				"RouteTableCidrBlock":"String",
+				"RouteTableName":"String"
+			}
+		}
+	}
+}

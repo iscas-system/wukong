@@ -28,9 +28,17 @@ public class Classifier {
 	
 //	public final static String CONFIG = "conf/jdkinfo.conf-JDVM";
 	
-	public final static String CONFIG = "conf/jdkinfo.conf-azurevm"; 
+//	public final static String CONFIG = "conf/jdkinfo.conf-azurevm";
 	
-//	public final static String CONFIG = "conf/jdkinfo.conf-googlegce"; 
+//	public final static String CONFIG = "conf/jdkinfo.conf-googlegce";
+
+ 	public final static String CONFIG = "conf/jdkinfo.conf-JDC";
+
+//	public final static String CONFIG = "conf/jdkinfo.conf-amazonecs";
+
+//	public final static String CONFIG = "conf/jdkinfo.conf-tencentTke";
+
+//	public final static String CONFIG = "conf/jdkinfo.conf-aliyuncs";
 	
 	@SuppressWarnings({ "unused", "rawtypes" })
 	public static void main(String[] args) throws Exception {

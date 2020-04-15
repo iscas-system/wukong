@@ -1,0 +1,33 @@
+{
+  "apiVersion": "apiextensions.k8s.io/v1beta1",
+  "kind": "CustomResourceDefinition",
+  "metadata": {
+    "name": "aliyuncs.cloudplus.io",
+    "namespace": "aliyunc"
+  },
+  "spec": {
+    "additionalPrinterColumns": [
+      {
+        "JSONPath": ".spec.type",
+        "name": "TYPE",
+        "type": "string"
+      },
+      {
+        "JSONPath": ".metadata.creationTimestamp",
+        "name": "AGE",
+        "type": "date"
+      }
+    ],
+    "group": "cloudplus.io",
+    "names": {
+      "kind": "AliyunC",
+      "plural": "aliyuncs",
+      "shortNames": [
+        "aliyunc"
+      ],
+      "singular": "aliyunc"
+    },
+    "scope": "Namespaced",
+    "version": "v1alpha3"
+  }
+}

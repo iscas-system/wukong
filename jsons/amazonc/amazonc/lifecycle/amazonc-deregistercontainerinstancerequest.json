@@ -1,0 +1,17 @@
+{
+	"metadata":{
+		"name":"deregistercontainerinstancerequest",
+		"namespace":"amazonc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonC",
+	"spec":{
+		"lifecycle":{
+			"deregisterContainerInstanceRequest":{
+				"cluster":"String",
+				"containerInstance":"String",
+				"force":true
+			}
+		}
+	}
+}

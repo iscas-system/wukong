@@ -1,0 +1,19 @@
+{
+	"metadata":{
+		"name":"detachclassiclinkvpcrequest",
+		"namespace":"aliyunc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunC",
+	"spec":{
+		"lifecycle":{
+			"detachClassicLinkVpcRequest":{
+				"instanceId":"String",
+				"vpcId":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1
+			}
+		}
+	}
+}

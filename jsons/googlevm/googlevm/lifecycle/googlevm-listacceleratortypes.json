@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"listacceleratortypes",
+		"namespace":"googlevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"GoogleVM",
+	"spec":{
+		"lifecycle":{
+			"listAcceleratorTypes":{
+				"_arg0":"String",
+				"_arg1":"String"
+			}
+		}
+	}
+}

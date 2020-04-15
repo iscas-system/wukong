@@ -1,0 +1,17 @@
+{
+	"metadata":{
+		"name":"listinstancesrequest",
+		"namespace":"baiduvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"BaiduVM",
+	"spec":{
+		"lifecycle":{
+			"listInstancesRequest":{
+				"zoneName":"String",
+				"internalIp":"String",
+				"dedicatedHostId":"String"
+			}
+		}
+	}
+}

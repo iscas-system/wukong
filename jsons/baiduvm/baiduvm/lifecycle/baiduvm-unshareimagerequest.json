@@ -1,0 +1,17 @@
+{
+	"metadata":{
+		"name":"unshareimagerequest",
+		"namespace":"baiduvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"BaiduVM",
+	"spec":{
+		"lifecycle":{
+			"unShareImageRequest":{
+				"accountId":"String",
+				"imageId":"String",
+				"account":"String"
+			}
+		}
+	}
+}

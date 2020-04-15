@@ -1,0 +1,17 @@
+{
+	"metadata":{
+		"name":"getinstancegroups",
+		"namespace":"googlevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"GoogleVM",
+	"spec":{
+		"lifecycle":{
+			"getInstanceGroups":{
+				"_arg0":"String",
+				"_arg1":"String",
+				"_arg2":"String"
+			}
+		}
+	}
+}

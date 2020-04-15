@@ -1,0 +1,29 @@
+{
+	"metadata":{
+		"name":"describeinvocationsrequest",
+		"namespace":"aliyunc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunC",
+	"spec":{
+		"lifecycle":{
+			"describeInvocationsRequest":{
+				"invokeId":"String",
+				"commandType":"String",
+				"pageNumber":1,
+				"timed":true,
+				"invokeStatus":"String",
+				"pageSize":1,
+				"ownerAccount":"String",
+				"ownerId":1,
+				"commandId":"String",
+				"includeOutput":true,
+				"commandName":"String",
+				"instanceId":"String",
+				"contentEncoding":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1
+			}
+		}
+	}
+}

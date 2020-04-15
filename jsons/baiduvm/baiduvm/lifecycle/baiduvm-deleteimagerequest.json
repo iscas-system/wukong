@@ -1,0 +1,15 @@
+{
+	"metadata":{
+		"name":"deleteimagerequest",
+		"namespace":"baiduvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"BaiduVM",
+	"spec":{
+		"lifecycle":{
+			"deleteImageRequest":{
+				"imageId":"String"
+			}
+		}
+	}
+}

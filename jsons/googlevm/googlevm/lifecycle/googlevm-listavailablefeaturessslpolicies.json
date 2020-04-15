@@ -1,0 +1,15 @@
+{
+	"metadata":{
+		"name":"listavailablefeaturessslpolicies",
+		"namespace":"googlevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"GoogleVM",
+	"spec":{
+		"lifecycle":{
+			"listAvailableFeaturesSslPolicies":{
+				"_arg0":"String"
+			}
+		}
+	}
+}

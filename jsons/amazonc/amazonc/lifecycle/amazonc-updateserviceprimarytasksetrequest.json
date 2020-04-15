@@ -1,0 +1,17 @@
+{
+	"metadata":{
+		"name":"updateserviceprimarytasksetrequest",
+		"namespace":"amazonc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonC",
+	"spec":{
+		"lifecycle":{
+			"updateServicePrimaryTaskSetRequest":{
+				"cluster":"String",
+				"service":"String",
+				"primaryTaskSet":"String"
+			}
+		}
+	}
+}

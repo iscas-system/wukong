@@ -1,0 +1,22 @@
+{
+	"metadata":{
+		"name":"exportimagerequest",
+		"namespace":"aliyunc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunC",
+	"spec":{
+		"lifecycle":{
+			"exportImageRequest":{
+				"imageFormat":"String",
+				"imageId":"String",
+				"roleName":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"oSSBucket":"String",
+				"ownerId":1,
+				"oSSPrefix":"String"
+			}
+		}
+	}
+}

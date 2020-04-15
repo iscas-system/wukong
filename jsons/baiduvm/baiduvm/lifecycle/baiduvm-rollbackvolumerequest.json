@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"rollbackvolumerequest",
+		"namespace":"baiduvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"BaiduVM",
+	"spec":{
+		"lifecycle":{
+			"rollbackVolumeRequest":{
+				"snapshotId":"String",
+				"volumeId":"String"
+			}
+		}
+	}
+}

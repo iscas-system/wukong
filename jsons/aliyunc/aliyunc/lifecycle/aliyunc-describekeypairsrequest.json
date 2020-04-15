@@ -1,0 +1,22 @@
+{
+	"metadata":{
+		"name":"describekeypairsrequest",
+		"namespace":"aliyunc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunC",
+	"spec":{
+		"lifecycle":{
+			"describeKeyPairsRequest":{
+				"pageNumber":1,
+				"pageSize":1,
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"resourceGroupId":"String",
+				"keyPairFingerPrint":"String",
+				"ownerId":1,
+				"keyPairName":"String"
+			}
+		}
+	}
+}

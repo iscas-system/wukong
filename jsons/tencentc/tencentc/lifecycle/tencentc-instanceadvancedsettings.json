@@ -1,0 +1,18 @@
+{
+	"metadata":{
+		"name":"instanceadvancedsettings",
+		"namespace":"tencentc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentC",
+	"spec":{
+		"lifecycle":{
+			"instanceAdvancedSettings":{
+				"MountTarget":"String",
+				"DockerGraphPath":"String",
+				"Unschedulable":1,
+				"UserScript":"String"
+			}
+		}
+	}
+}

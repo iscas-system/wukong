@@ -1,0 +1,15 @@
+{
+	"metadata":{
+		"name":"listlicenses",
+		"namespace":"googlevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"GoogleVM",
+	"spec":{
+		"lifecycle":{
+			"listLicenses":{
+				"_arg0":"String"
+			}
+		}
+	}
+}

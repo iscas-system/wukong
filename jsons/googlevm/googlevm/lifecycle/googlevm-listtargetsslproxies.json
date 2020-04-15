@@ -1,0 +1,15 @@
+{
+	"metadata":{
+		"name":"listtargetsslproxies",
+		"namespace":"googlevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"GoogleVM",
+	"spec":{
+		"lifecycle":{
+			"listTargetSslProxies":{
+				"_arg0":"String"
+			}
+		}
+	}
+}

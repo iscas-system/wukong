@@ -1,0 +1,19 @@
+{
+	"metadata":{
+		"name":"getlogsrequest",
+		"namespace":"jdc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"JDC",
+	"spec":{
+		"lifecycle":{
+			"getLogsRequest":{
+				"tailLines":1,
+				"regionId":"String",
+				"limitBytes":1,
+				"sinceSeconds":1,
+				"containerId":"String"
+			}
+		}
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"metadata":{
+		"name":"deletecommandrequest",
+		"namespace":"aliyunc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunC",
+	"spec":{
+		"lifecycle":{
+			"deleteCommandRequest":{
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerAccount":"String",
+				"ownerId":1,
+				"commandId":"String"
+			}
+		}
+	}
+}

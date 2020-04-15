@@ -8,10 +8,7 @@
 	"spec":{
 		"lifecycle":{
 			"getPostOrDeleteResultWithHeadersAsyncAzureClient":{
-				"_arg0":{},
-				"_arg1":{
-					"finalStateVia":{}
-				}
+				"_arg0":{}
 			}
 		}
 	}

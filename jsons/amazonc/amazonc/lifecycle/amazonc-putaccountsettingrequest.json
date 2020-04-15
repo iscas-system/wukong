@@ -1,0 +1,17 @@
+{
+	"metadata":{
+		"name":"putaccountsettingrequest",
+		"namespace":"amazonc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonC",
+	"spec":{
+		"lifecycle":{
+			"putAccountSettingRequest":{
+				"name":"String",
+				"value":"String",
+				"principalArn":"String"
+			}
+		}
+	}
+}

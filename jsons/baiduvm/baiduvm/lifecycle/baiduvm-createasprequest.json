@@ -1,0 +1,17 @@
+{
+	"metadata":{
+		"name":"createasprequest",
+		"namespace":"baiduvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"BaiduVM",
+	"spec":{
+		"lifecycle":{
+			"createAspRequest":{
+				"retentionDays":"String",
+				"clientToken":"String",
+				"name":"String"
+			}
+		}
+	}
+}

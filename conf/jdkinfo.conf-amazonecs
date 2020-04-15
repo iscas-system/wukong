@@ -1,0 +1,5 @@
+{
+	"client":"com.amazonaws.services.ecs.AmazonECSClient",
+	"analyzer": "io.github.cloudpluslab.wukong.analyzer.RequestWithObjectPatternAnalyzer",
+	"kind":"AmazonC"
+}

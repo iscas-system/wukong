@@ -1,0 +1,5 @@
+{
+	"client":"com.jdcloud.sdk.service.nativecontainer.client.NativecontainerClient",
+	"analyzer": "io.github.cloudpluslab.wukong.analyzer.RequestWithObjectPatternAnalyzer",
+	"kind":"JDC"
+}

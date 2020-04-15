@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"describeexistedinstancesresponse",
+		"namespace":"tencentc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentC",
+	"spec":{
+		"lifecycle":{
+			"describeExistedInstancesResponse":{
+				"TotalCount":1,
+				"RequestId":"String"
+			}
+		}
+	}
+}

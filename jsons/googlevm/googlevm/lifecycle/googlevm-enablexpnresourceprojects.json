@@ -1,0 +1,21 @@
+{
+	"metadata":{
+		"name":"enablexpnresourceprojects",
+		"namespace":"googlevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"GoogleVM",
+	"spec":{
+		"lifecycle":{
+			"enableXpnResourceProjects":{
+				"_arg0":"String",
+				"_arg1":{
+					"xpnResource":{
+						"id":"String",
+						"type":"String"
+					}
+				}
+			}
+		}
+	}
+}

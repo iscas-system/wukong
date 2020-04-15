@@ -1,0 +1,17 @@
+{
+	"metadata":{
+		"name":"disassociateelasticiprequest",
+		"namespace":"jdc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"JDC",
+	"spec":{
+		"lifecycle":{
+			"disassociateElasticIpRequest":{
+				"regionId":"String",
+				"elasticIpId":"String",
+				"containerId":"String"
+			}
+		}
+	}
+}

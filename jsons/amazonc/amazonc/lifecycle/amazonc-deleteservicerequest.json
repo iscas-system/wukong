@@ -1,0 +1,17 @@
+{
+	"metadata":{
+		"name":"deleteservicerequest",
+		"namespace":"amazonc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonC",
+	"spec":{
+		"lifecycle":{
+			"deleteServiceRequest":{
+				"cluster":"String",
+				"service":"String",
+				"force":true
+			}
+		}
+	}
+}

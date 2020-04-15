@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"listaspsrequest",
+		"namespace":"baiduvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"BaiduVM",
+	"spec":{
+		"lifecycle":{
+			"listAspsRequest":{
+				"aspName":"String",
+				"volumeName":"String"
+			}
+		}
+	}
+}

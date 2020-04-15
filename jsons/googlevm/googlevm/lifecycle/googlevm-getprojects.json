@@ -1,0 +1,15 @@
+{
+	"metadata":{
+		"name":"getprojects",
+		"namespace":"googlevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"GoogleVM",
+	"spec":{
+		"lifecycle":{
+			"getProjects":{
+				"_arg0":"String"
+			}
+		}
+	}
+}

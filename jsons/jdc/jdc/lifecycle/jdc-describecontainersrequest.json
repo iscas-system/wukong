@@ -1,0 +1,17 @@
+{
+	"metadata":{
+		"name":"describecontainersrequest",
+		"namespace":"jdc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"JDC",
+	"spec":{
+		"lifecycle":{
+			"describeContainersRequest":{
+				"pageNumber":1,
+				"regionId":"String",
+				"pageSize":1
+			}
+		}
+	}
+}

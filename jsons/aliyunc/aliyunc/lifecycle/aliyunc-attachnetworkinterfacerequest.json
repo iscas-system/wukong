@@ -1,0 +1,20 @@
+{
+	"metadata":{
+		"name":"attachnetworkinterfacerequest",
+		"namespace":"aliyunc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunC",
+	"spec":{
+		"lifecycle":{
+			"attachNetworkInterfaceRequest":{
+				"networkInterfaceId":"String",
+				"instanceId":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerAccount":"String",
+				"ownerId":1
+			}
+		}
+	}
+}

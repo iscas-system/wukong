@@ -1,0 +1,22 @@
+{
+	"metadata":{
+		"name":"clusterbasicsettings",
+		"namespace":"tencentc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentC",
+	"spec":{
+		"lifecycle":{
+			"clusterBasicSettings":{
+				"ClusterVersion":"String",
+				"VpcId":"String",
+				"NeedWorkSecurityGroup":true,
+				"ProjectId":1,
+				"ClusterName":"String",
+				"ClusterDescription":"String",
+				"ClusterOs":"String",
+				"OsCustomizeType":"String"
+			}
+		}
+	}
+}

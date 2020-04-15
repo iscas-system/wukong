@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"describequotarequest",
+		"namespace":"jdc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"JDC",
+	"spec":{
+		"lifecycle":{
+			"describeQuotaRequest":{
+				"regionId":"String",
+				"resourceType":"String"
+			}
+		}
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"metadata":{
+		"name":"deleteclusterinstancesrequest",
+		"namespace":"tencentc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentC",
+	"spec":{
+		"lifecycle":{
+			"deleteClusterInstancesRequest":{
+				"ClusterId":"String",
+				"ForceDelete":true,
+				"InstanceDeleteMode":"String"
+			}
+		}
+	}
+}

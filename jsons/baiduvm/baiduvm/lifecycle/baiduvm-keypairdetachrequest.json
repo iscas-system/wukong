@@ -1,0 +1,15 @@
+{
+	"metadata":{
+		"name":"keypairdetachrequest",
+		"namespace":"baiduvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"BaiduVM",
+	"spec":{
+		"lifecycle":{
+			"keypairDetachRequest":{
+				"keypairId":"String"
+			}
+		}
+	}
+}

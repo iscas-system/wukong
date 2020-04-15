@@ -1,0 +1,17 @@
+{
+	"metadata":{
+		"name":"stoptaskrequest",
+		"namespace":"amazonc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonC",
+	"spec":{
+		"lifecycle":{
+			"stopTaskRequest":{
+				"cluster":"String",
+				"reason":"String",
+				"task":"String"
+			}
+		}
+	}
+}

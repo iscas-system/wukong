@@ -1,0 +1,27 @@
+{
+	"metadata":{
+		"name":"updateaccessconfiginstances",
+		"namespace":"googlevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"GoogleVM",
+	"spec":{
+		"lifecycle":{
+			"updateAccessConfigInstances":{
+				"_arg0":"String",
+				"_arg1":"String",
+				"_arg2":"String",
+				"_arg3":"String",
+				"_arg4":{
+					"natIP":"String",
+					"networkTier":"String",
+					"kind":"String",
+					"name":"String",
+					"publicPtrDomainName":"String",
+					"setPublicPtr":true,
+					"type":"String"
+				}
+			}
+		}
+	}
+}

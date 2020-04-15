@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"putattributesrequest",
+		"namespace":"amazonc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonC",
+	"spec":{
+		"lifecycle":{
+			"putAttributesRequest":{
+				"cluster":"String",
+				"attributes":{}
+			}
+		}
+	}
+}

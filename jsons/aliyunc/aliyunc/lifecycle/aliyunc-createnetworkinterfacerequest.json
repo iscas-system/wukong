@@ -1,0 +1,27 @@
+{
+	"metadata":{
+		"name":"createnetworkinterfacerequest",
+		"namespace":"aliyunc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunC",
+	"spec":{
+		"lifecycle":{
+			"createNetworkInterfaceRequest":{
+				"visible":true,
+				"clientToken":"String",
+				"description":"String",
+				"ownerAccount":"String",
+				"ownerId":1,
+				"networkInterfaceName":"String",
+				"securityGroupId":"String",
+				"vSwitchId":"String",
+				"primaryIpAddress":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"resourceGroupId":"String",
+				"businessType":"String"
+			}
+		}
+	}
+}

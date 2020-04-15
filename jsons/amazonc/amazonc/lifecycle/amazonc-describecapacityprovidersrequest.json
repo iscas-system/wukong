@@ -1,0 +1,18 @@
+{
+	"metadata":{
+		"name":"describecapacityprovidersrequest",
+		"namespace":"amazonc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonC",
+	"spec":{
+		"lifecycle":{
+			"describeCapacityProvidersRequest":{
+				"include":{},
+				"capacityProviders":{},
+				"maxResults":1,
+				"nextToken":"String"
+			}
+		}
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"metadata":{
+		"name":"aggregatedlistnetworkendpointgroups",
+		"namespace":"googlevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"GoogleVM",
+	"spec":{
+		"lifecycle":{
+			"aggregatedListNetworkEndpointGroups":{
+				"_arg0":"String"
+			}
+		}
+	}
+}

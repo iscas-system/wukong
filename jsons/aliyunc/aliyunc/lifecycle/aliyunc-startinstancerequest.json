@@ -1,0 +1,22 @@
+{
+	"metadata":{
+		"name":"startinstancerequest",
+		"namespace":"aliyunc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunC",
+	"spec":{
+		"lifecycle":{
+			"startInstanceRequest":{
+				"dryRun":true,
+				"instanceId":"String",
+				"initLocalDisk":true,
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerAccount":"String",
+				"ownerId":1,
+				"sourceRegionId":"String"
+			}
+		}
+	}
+}

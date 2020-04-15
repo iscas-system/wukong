@@ -1,0 +1,18 @@
+{
+	"metadata":{
+		"name":"datadisk",
+		"namespace":"tencentc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentC",
+	"spec":{
+		"lifecycle":{
+			"dataDisk":{
+				"DiskType":"String",
+				"FileSystem":"String",
+				"DiskSize":1,
+				"AutuFormatAndMount":true
+			}
+		}
+	}
+}

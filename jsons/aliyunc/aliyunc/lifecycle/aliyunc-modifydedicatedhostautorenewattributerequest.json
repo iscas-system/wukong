@@ -1,0 +1,23 @@
+{
+	"metadata":{
+		"name":"modifydedicatedhostautorenewattributerequest",
+		"namespace":"aliyunc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunC",
+	"spec":{
+		"lifecycle":{
+			"modifyDedicatedHostAutoRenewAttributeRequest":{
+				"duration":1,
+				"renewalStatus":"String",
+				"dedicatedHostIds":"String",
+				"resourceOwnerAccount":"String",
+				"autoRenew":true,
+				"resourceOwnerId":1,
+				"ownerAccount":"String",
+				"ownerId":1,
+				"periodUnit":"String"
+			}
+		}
+	}
+}

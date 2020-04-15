@@ -1,0 +1,17 @@
+{
+	"metadata":{
+		"name":"describetasksetsrequest",
+		"namespace":"amazonc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonC",
+	"spec":{
+		"lifecycle":{
+			"describeTaskSetsRequest":{
+				"cluster":"String",
+				"service":"String",
+				"taskSets":{}
+			}
+		}
+	}
+}

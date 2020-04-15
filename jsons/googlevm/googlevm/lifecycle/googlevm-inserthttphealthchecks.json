@@ -1,0 +1,35 @@
+{
+	"metadata":{
+		"name":"inserthttphealthchecks",
+		"namespace":"googlevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"GoogleVM",
+	"spec":{
+		"lifecycle":{
+			"insertHttpHealthChecks":{
+				"_arg0":"String",
+				"_arg1":{
+					"checkIntervalSec":1,
+					"kind":"String",
+					"description":"String",
+					"timeoutSec":1,
+					"selfLink":"String",
+					"port":1,
+					"creationTimestamp":"String",
+					"host":"String",
+					"name":"String",
+					"unhealthyThreshold":1,
+					"healthyThreshold":1,
+					"id":{
+						"bitLength":1,
+						"lowestSetBit":1,
+						"bitCount":1,
+						"firstNonzeroIntNum":1
+					},
+					"requestPath":"String"
+				}
+			}
+		}
+	}
+}

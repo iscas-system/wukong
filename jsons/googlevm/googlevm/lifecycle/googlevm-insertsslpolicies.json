@@ -1,0 +1,31 @@
+{
+	"metadata":{
+		"name":"insertsslpolicies",
+		"namespace":"googlevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"GoogleVM",
+	"spec":{
+		"lifecycle":{
+			"insertSslPolicies":{
+				"_arg0":"String",
+				"_arg1":{
+					"kind":"String",
+					"minTlsVersion":"String",
+					"profile":"String",
+					"creationTimestamp":"String",
+					"fingerprint":"String",
+					"name":"String",
+					"description":"String",
+					"id":{
+						"bitLength":1,
+						"lowestSetBit":1,
+						"bitCount":1,
+						"firstNonzeroIntNum":1
+					},
+					"selfLink":"String"
+				}
+			}
+		}
+	}
+}

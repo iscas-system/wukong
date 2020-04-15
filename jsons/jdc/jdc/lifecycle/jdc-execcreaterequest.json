@@ -1,0 +1,17 @@
+{
+	"metadata":{
+		"name":"execcreaterequest",
+		"namespace":"jdc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"JDC",
+	"spec":{
+		"lifecycle":{
+			"execCreateRequest":{
+				"regionId":"String",
+				"tty":true,
+				"containerId":"String"
+			}
+		}
+	}
+}

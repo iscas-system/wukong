@@ -1,0 +1,15 @@
+{
+	"metadata":{
+		"name":"runmonitorserviceenabled",
+		"namespace":"tencentc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentC",
+	"spec":{
+		"lifecycle":{
+			"runMonitorServiceEnabled":{
+				"Enabled":true
+			}
+		}
+	}
+}

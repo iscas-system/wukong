@@ -1,0 +1,15 @@
+{
+	"metadata":{
+		"name":"listflavorspecrequest",
+		"namespace":"baiduvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"BaiduVM",
+	"spec":{
+		"lifecycle":{
+			"listFlavorSpecRequest":{
+				"zoneName":"String"
+			}
+		}
+	}
+}

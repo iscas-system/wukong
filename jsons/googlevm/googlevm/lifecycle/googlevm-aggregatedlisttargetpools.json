@@ -1,0 +1,15 @@
+{
+	"metadata":{
+		"name":"aggregatedlisttargetpools",
+		"namespace":"googlevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"GoogleVM",
+	"spec":{
+		"lifecycle":{
+			"aggregatedListTargetPools":{
+				"_arg0":"String"
+			}
+		}
+	}
+}

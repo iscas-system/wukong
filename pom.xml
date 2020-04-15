@@ -119,6 +119,14 @@
 			<version>1.2.5</version>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/com.jdcloud.sdk/nc -->
+		<dependency>
+			<groupId>com.jdcloud.sdk</groupId>
+			<artifactId>nativecontainer</artifactId>
+			<version>2.1.0</version>
+		</dependency>
+
+
 		<!-- https://mvnrepository.com/artifact/com.tencentcloudapi/tencentcloud-sdk-java -->
 		<dependency>
 			<groupId>com.tencentcloudapi</groupId>
@@ -148,6 +156,13 @@
 			<version>1.11.692</version>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-ecs -->
+		<dependency>
+			<groupId>com.amazonaws</groupId>
+			<artifactId>aws-java-sdk-ecs</artifactId>
+			<version>1.11.692</version>
+		</dependency>
+
 		<!-- https://mvnrepository.com/artifact/com.aliyun/aliyun-java-sdk-core -->
 		<dependency>
 			<groupId>com.aliyun</groupId>
@@ -160,6 +175,12 @@
 			<groupId>com.aliyun</groupId>
 			<artifactId>aliyun-java-sdk-ecs</artifactId>
 			<version>4.17.8</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.aliyun</groupId>
+			<artifactId>aliyun-java-sdk-cs</artifactId>
+			<version>4.7.15</version>
 		</dependency>
 
 		<!-- ****************************** -->

@@ -1,0 +1,15 @@
+{
+	"metadata":{
+		"name":"aggregatedlistnodetemplates",
+		"namespace":"googlevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"GoogleVM",
+	"spec":{
+		"lifecycle":{
+			"aggregatedListNodeTemplates":{
+				"_arg0":"String"
+			}
+		}
+	}
+}

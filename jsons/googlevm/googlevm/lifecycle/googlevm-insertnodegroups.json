@@ -1,0 +1,34 @@
+{
+	"metadata":{
+		"name":"insertnodegroups",
+		"namespace":"googlevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"GoogleVM",
+	"spec":{
+		"lifecycle":{
+			"insertNodeGroups":{
+				"_arg0":"String",
+				"_arg1":"String",
+				"_arg2":1,
+				"_arg3":{
+					"size":1,
+					"zone":"String",
+					"kind":"String",
+					"creationTimestamp":"String",
+					"name":"String",
+					"description":"String",
+					"id":{
+						"bitLength":1,
+						"lowestSetBit":1,
+						"bitCount":1,
+						"firstNonzeroIntNum":1
+					},
+					"nodeTemplate":"String",
+					"selfLink":"String",
+					"status":"String"
+				}
+			}
+		}
+	}
+}

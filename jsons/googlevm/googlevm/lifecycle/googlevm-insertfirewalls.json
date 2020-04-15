@@ -1,0 +1,35 @@
+{
+	"metadata":{
+		"name":"insertfirewalls",
+		"namespace":"googlevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"GoogleVM",
+	"spec":{
+		"lifecycle":{
+			"insertFirewalls":{
+				"_arg0":"String",
+				"_arg1":{
+					"logConfig":{
+						"enable":true
+					},
+					"kind":"String",
+					"creationTimestamp":"String",
+					"name":"String",
+					"description":"String",
+					"disabled":true,
+					"id":{
+						"bitLength":1,
+						"lowestSetBit":1,
+						"bitCount":1,
+						"firstNonzeroIntNum":1
+					},
+					"priority":1,
+					"direction":"String",
+					"network":"String",
+					"selfLink":"String"
+				}
+			}
+		}
+	}
+}

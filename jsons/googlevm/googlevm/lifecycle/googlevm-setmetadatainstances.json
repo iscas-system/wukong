@@ -1,0 +1,21 @@
+{
+	"metadata":{
+		"name":"setmetadatainstances",
+		"namespace":"googlevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"GoogleVM",
+	"spec":{
+		"lifecycle":{
+			"setMetadataInstances":{
+				"_arg0":"String",
+				"_arg1":"String",
+				"_arg2":"String",
+				"_arg3":{
+					"kind":"String",
+					"fingerprint":"String"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"metadata":{
+		"name":"listzones",
+		"namespace":"googlevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"GoogleVM",
+	"spec":{
+		"lifecycle":{
+			"listZones":{
+				"_arg0":"String"
+			}
+		}
+	}
+}

@@ -7,12 +7,12 @@
 	"spec":{
 		"lifecycle":[
 			{
-				"name":"listNextAsyncGalleriesInner",
-				"value":"galleries-listNextAsync"
-			},
-			{
 				"name":"listByResourceGroupNextDisksInner",
 				"value":"disks-listByResourceGroupNext"
+			},
+			{
+				"name":"listNextAsyncGalleriesInner",
+				"value":"galleries-listNextAsync"
 			},
 			{
 				"name":"listByResourceGroupNextVirtualMachinesInner",
@@ -35,12 +35,12 @@
 				"value":"dedicatedHostGroups-getByResourceGroup"
 			},
 			{
-				"name":"beginCreateOrUpdateGalleryApplicationVersionsInner",
-				"value":"galleryApplicationVersions-beginCreateOrUpdate"
-			},
-			{
 				"name":"listSinglePageAsyncVirtualMachinesInner",
 				"value":"virtualMachines-listSinglePageAsync"
+			},
+			{
+				"name":"beginCreateOrUpdateGalleryApplicationVersionsInner",
+				"value":"galleryApplicationVersions-beginCreateOrUpdate"
 			},
 			{
 				"name":"getAsyncVirtualMachineScaleSetVMsInner",
@@ -75,12 +75,12 @@
 				"value":"virtualMachines-listNext"
 			},
 			{
-				"name":"beginDeleteInstancesAsyncVirtualMachineScaleSetsInner",
-				"value":"virtualMachineScaleSets-beginDeleteInstancesAsync"
-			},
-			{
 				"name":"deallocateWithServiceResponseAsyncVirtualMachinesInner",
 				"value":"virtualMachines-deallocateWithServiceResponseAsync"
+			},
+			{
+				"name":"beginDeleteInstancesAsyncVirtualMachineScaleSetsInner",
+				"value":"virtualMachineScaleSets-beginDeleteInstancesAsync"
 			},
 			{
 				"name":"listByResourceGroupNextContainerServicesInner",
@@ -159,20 +159,20 @@
 				"value":"availabilitySets-listByResourceGroupSinglePageAsync"
 			},
 			{
-				"name":"listByGalleryNextAsyncGalleryImagesInner",
-				"value":"galleryImages-listByGalleryNextAsync"
-			},
-			{
 				"name":"listAsyncResourceSkusInner",
 				"value":"resourceSkus-listAsync"
 			},
 			{
-				"name":"listByGalleryNextGalleryImagesInner",
-				"value":"galleryImages-listByGalleryNext"
+				"name":"listByGalleryNextAsyncGalleryImagesInner",
+				"value":"galleryImages-listByGalleryNextAsync"
 			},
 			{
 				"name":"listNextWithServiceResponseAsyncSnapshotsInner",
 				"value":"snapshots-listNextWithServiceResponseAsync"
+			},
+			{
+				"name":"listByGalleryNextGalleryImagesInner",
+				"value":"galleryImages-listByGalleryNext"
 			},
 			{
 				"name":"powerOffAsyncVirtualMachineScaleSetsInner",
@@ -211,16 +211,16 @@
 				"value":"galleries-createOrUpdateAsync"
 			},
 			{
-				"name":"deleteAsyncGalleryApplicationsInner",
-				"value":"galleryApplications-deleteAsync"
-			},
-			{
 				"name":"beginDeallocateAsyncVirtualMachineScaleSetsInner",
 				"value":"virtualMachineScaleSets-beginDeallocateAsync"
 			},
 			{
 				"name":"beginCreateOrUpdateAsyncGalleriesInner",
 				"value":"galleries-beginCreateOrUpdateAsync"
+			},
+			{
+				"name":"deleteAsyncGalleryApplicationsInner",
+				"value":"galleryApplications-deleteAsync"
 			},
 			{
 				"name":"beginDeallocateWithServiceResponseAsyncVirtualMachinesInner",
@@ -231,28 +231,28 @@
 				"value":"availabilitySets-deleteWithServiceResponseAsync"
 			},
 			{
-				"name":"redeployAsyncVirtualMachineScaleSetVMsInner",
-				"value":"virtualMachineScaleSetVMs-redeployAsync"
+				"name":"beginCreateOrUpdateAsyncVirtualMachinesInner",
+				"value":"virtualMachines-beginCreateOrUpdateAsync"
 			},
 			{
 				"name":"beginRestartWithServiceResponseAsyncVirtualMachineScaleSetVMsInner",
 				"value":"virtualMachineScaleSetVMs-beginRestartWithServiceResponseAsync"
 			},
 			{
-				"name":"beginCreateOrUpdateAsyncVirtualMachinesInner",
-				"value":"virtualMachines-beginCreateOrUpdateAsync"
+				"name":"redeployAsyncVirtualMachineScaleSetVMsInner",
+				"value":"virtualMachineScaleSetVMs-redeployAsync"
 			},
 			{
 				"name":"getPutOrPatchResultWithHeadersAsyncAzureClient",
 				"value":"getAzureClient-getPutOrPatchResultWithHeadersAsync"
 			},
 			{
-				"name":"listTypesAsyncVirtualMachineExtensionImagesInner",
-				"value":"virtualMachineExtensionImages-listTypesAsync"
-			},
-			{
 				"name":"createOrUpdateDedicatedHostsInner",
 				"value":"dedicatedHosts-createOrUpdate"
+			},
+			{
+				"name":"listTypesAsyncVirtualMachineExtensionImagesInner",
+				"value":"virtualMachineExtensionImages-listTypesAsync"
 			},
 			{
 				"name":"beginReimageWithServiceResponseAsyncVirtualMachinesInner",
@@ -303,12 +303,12 @@
 				"value":"snapshots-listNext"
 			},
 			{
-				"name":"listVirtualMachineScaleSetExtensionsInner",
-				"value":"virtualMachineScaleSetExtensions-list"
-			},
-			{
 				"name":"createOrUpdateVirtualMachinesInner",
 				"value":"virtualMachines-createOrUpdate"
+			},
+			{
+				"name":"listVirtualMachineScaleSetExtensionsInner",
+				"value":"virtualMachineScaleSetExtensions-list"
 			},
 			{
 				"name":"listNextSinglePageAsyncImagesInner",
@@ -327,56 +327,56 @@
 				"value":"usages-listNextWithServiceResponseAsync"
 			},
 			{
-				"name":"listByResourceGroupNextAsyncContainerServicesInner",
-				"value":"containerServices-listByResourceGroupNextAsync"
+				"name":"beginUpdateSnapshotsInner",
+				"value":"snapshots-beginUpdate"
 			},
 			{
 				"name":"beginDeleteWithServiceResponseAsyncGalleryApplicationVersionsInner",
 				"value":"galleryApplicationVersions-beginDeleteWithServiceResponseAsync"
 			},
 			{
-				"name":"beginUpdateSnapshotsInner",
-				"value":"snapshots-beginUpdate"
-			},
-			{
-				"name":"getGalleryApplicationVersionsInner",
-				"value":"galleryApplicationVersions-get"
+				"name":"listByResourceGroupNextAsyncContainerServicesInner",
+				"value":"containerServices-listByResourceGroupNextAsync"
 			},
 			{
 				"name":"getByResourceGroupAsyncAvailabilitySetsInner",
 				"value":"availabilitySets-getByResourceGroupAsync"
 			},
 			{
-				"name":"restartAsyncVirtualMachineScaleSetsInner",
-				"value":"virtualMachineScaleSets-restartAsync"
+				"name":"getGalleryApplicationVersionsInner",
+				"value":"galleryApplicationVersions-get"
 			},
 			{
-				"name":"listByResourceGroupAsyncAvailabilitySetsInner",
-				"value":"availabilitySets-listByResourceGroupAsync"
+				"name":"restartAsyncVirtualMachineScaleSetsInner",
+				"value":"virtualMachineScaleSets-restartAsync"
 			},
 			{
 				"name":"listImagesInner",
 				"value":"images-list"
 			},
 			{
-				"name":"getVirtualMachineExtensionImagesInner",
-				"value":"virtualMachineExtensionImages-get"
+				"name":"listByResourceGroupAsyncAvailabilitySetsInner",
+				"value":"availabilitySets-listByResourceGroupAsync"
 			},
 			{
-				"name":"beginDeallocateWithServiceResponseAsyncVirtualMachineScaleSetVMsInner",
-				"value":"virtualMachineScaleSetVMs-beginDeallocateWithServiceResponseAsync"
+				"name":"getVirtualMachineExtensionImagesInner",
+				"value":"virtualMachineExtensionImages-get"
 			},
 			{
 				"name":"redeployWithServiceResponseAsyncVirtualMachinesInner",
 				"value":"virtualMachines-redeployWithServiceResponseAsync"
 			},
 			{
-				"name":"listByGalleryApplicationWithServiceResponseAsyncGalleryApplicationVersionsInner",
-				"value":"galleryApplicationVersions-listByGalleryApplicationWithServiceResponseAsync"
+				"name":"beginDeallocateWithServiceResponseAsyncVirtualMachineScaleSetVMsInner",
+				"value":"virtualMachineScaleSetVMs-beginDeallocateWithServiceResponseAsync"
 			},
 			{
 				"name":"listByHostGroupDedicatedHostsInner",
 				"value":"dedicatedHosts-listByHostGroup"
+			},
+			{
+				"name":"listByGalleryApplicationWithServiceResponseAsyncGalleryApplicationVersionsInner",
+				"value":"galleryApplicationVersions-listByGalleryApplicationWithServiceResponseAsync"
 			},
 			{
 				"name":"listByGalleryGalleryImagesInner",
@@ -463,10 +463,6 @@
 				"value":"virtualMachineExtensions-createOrUpdateWithServiceResponseAsync"
 			},
 			{
-				"name":"beginRunCommandWithServiceResponseAsyncVirtualMachineScaleSetVMsInner",
-				"value":"virtualMachineScaleSetVMs-beginRunCommandWithServiceResponseAsync"
-			},
-			{
 				"name":"listNextWithServiceResponseAsyncAvailabilitySetsInner",
 				"value":"availabilitySets-listNextWithServiceResponseAsync"
 			},
@@ -475,16 +471,20 @@
 				"value":"dedicatedHosts-getAsync"
 			},
 			{
-				"name":"listByResourceGroupContainerServicesInner",
-				"value":"containerServices-listByResourceGroup"
+				"name":"beginRunCommandWithServiceResponseAsyncVirtualMachineScaleSetVMsInner",
+				"value":"virtualMachineScaleSetVMs-beginRunCommandWithServiceResponseAsync"
+			},
+			{
+				"name":"listDisksInner",
+				"value":"disks-list"
 			},
 			{
 				"name":"beginExportThrottledRequestsAsyncLogAnalyticsInner",
 				"value":"logAnalytics-beginExportThrottledRequestsAsync"
 			},
 			{
-				"name":"listDisksInner",
-				"value":"disks-list"
+				"name":"listByResourceGroupContainerServicesInner",
+				"value":"containerServices-listByResourceGroup"
 			},
 			{
 				"name":"pollSingleAsyncAzureClient",
@@ -559,16 +559,16 @@
 				"value":"containerServices-listByResourceGroupNextWithServiceResponseAsync"
 			},
 			{
-				"name":"getByResourceGroupContainerServicesInner",
-				"value":"containerServices-getByResourceGroup"
+				"name":"listAsyncSnapshotsInner",
+				"value":"snapshots-listAsync"
 			},
 			{
 				"name":"listSinglePageAsyncGalleriesInner",
 				"value":"galleries-listSinglePageAsync"
 			},
 			{
-				"name":"listAsyncSnapshotsInner",
-				"value":"snapshots-listAsync"
+				"name":"getByResourceGroupContainerServicesInner",
+				"value":"containerServices-getByResourceGroup"
 			},
 			{
 				"name":"beginRunCommandWithServiceResponseAsyncVirtualMachinesInner",
@@ -603,24 +603,24 @@
 				"value":"virtualMachines-powerOffWithServiceResponseAsync"
 			},
 			{
-				"name":"startWithServiceResponseAsyncVirtualMachineScaleSetsInner",
-				"value":"virtualMachineScaleSets-startWithServiceResponseAsync"
-			},
-			{
 				"name":"beginCreateOrUpdateWithServiceResponseAsyncImagesInner",
 				"value":"images-beginCreateOrUpdateWithServiceResponseAsync"
+			},
+			{
+				"name":"startWithServiceResponseAsyncVirtualMachineScaleSetsInner",
+				"value":"virtualMachineScaleSets-startWithServiceResponseAsync"
 			},
 			{
 				"name":"listByResourceGroupNextSinglePageAsyncVirtualMachinesInner",
 				"value":"virtualMachines-listByResourceGroupNextSinglePageAsync"
 			},
 			{
-				"name":"listVirtualMachineScaleSetsInner",
-				"value":"virtualMachineScaleSets-list"
-			},
-			{
 				"name":"beginCaptureWithServiceResponseAsyncVirtualMachinesInner",
 				"value":"virtualMachines-beginCaptureWithServiceResponseAsync"
+			},
+			{
+				"name":"listVirtualMachineScaleSetsInner",
+				"value":"virtualMachineScaleSets-list"
 			},
 			{
 				"name":"listByGalleryNextSinglePageAsyncGalleryImagesInner",
@@ -647,12 +647,12 @@
 				"value":"dedicatedHostGroups-listByResourceGroupNext"
 			},
 			{
-				"name":"createOrUpdateWithServiceResponseAsyncContainerServicesInner",
-				"value":"containerServices-createOrUpdateWithServiceResponseAsync"
-			},
-			{
 				"name":"beginUpdateWithServiceResponseAsyncSnapshotsInner",
 				"value":"snapshots-beginUpdateWithServiceResponseAsync"
+			},
+			{
+				"name":"createOrUpdateWithServiceResponseAsyncContainerServicesInner",
+				"value":"containerServices-createOrUpdateWithServiceResponseAsync"
 			},
 			{
 				"name":"createOrUpdateAsyncSnapshotsInner",
@@ -671,12 +671,12 @@
 				"value":"virtualMachineScaleSets-listByResourceGroupSinglePageAsync"
 			},
 			{
-				"name":"performMaintenanceAsyncVirtualMachineScaleSetVMsInner",
-				"value":"virtualMachineScaleSetVMs-performMaintenanceAsync"
-			},
-			{
 				"name":"reimageWithServiceResponseAsyncVirtualMachineScaleSetVMsInner",
 				"value":"virtualMachineScaleSetVMs-reimageWithServiceResponseAsync"
+			},
+			{
+				"name":"performMaintenanceAsyncVirtualMachineScaleSetVMsInner",
+				"value":"virtualMachineScaleSetVMs-performMaintenanceAsync"
 			},
 			{
 				"name":"beginRunCommandVirtualMachinesInner",
@@ -763,12 +763,12 @@
 				"value":"virtualMachines-deleteAsync"
 			},
 			{
-				"name":"deleteAsyncVirtualMachineScaleSetExtensionsInner",
-				"value":"virtualMachineScaleSetExtensions-deleteAsync"
-			},
-			{
 				"name":"listSkusWithServiceResponseAsyncVirtualMachineImagesInner",
 				"value":"virtualMachineImages-listSkusWithServiceResponseAsync"
+			},
+			{
+				"name":"deleteAsyncVirtualMachineScaleSetExtensionsInner",
+				"value":"virtualMachineScaleSetExtensions-deleteAsync"
 			},
 			{
 				"name":"listSinglePageAsyncSnapshotsInner",
@@ -791,16 +791,16 @@
 				"value":"virtualMachineScaleSetRollingUpgrades-startExtensionUpgradeWithServiceResponseAsync"
 			},
 			{
-				"name":"listSinglePageAsyncVirtualMachineRunCommandsInner",
-				"value":"virtualMachineRunCommands-listSinglePageAsync"
-			},
-			{
 				"name":"updateAsyncAvailabilitySetsInner",
 				"value":"availabilitySets-updateAsync"
 			},
 			{
 				"name":"captureVirtualMachinesInner",
 				"value":"virtualMachines-capture"
+			},
+			{
+				"name":"listSinglePageAsyncVirtualMachineRunCommandsInner",
+				"value":"virtualMachineRunCommands-listSinglePageAsync"
 			},
 			{
 				"name":"listByResourceGroupNextAsyncDisksInner",
@@ -811,24 +811,24 @@
 				"value":"proximityPlacementGroups-listWithServiceResponseAsync"
 			},
 			{
-				"name":"listByResourceGroupAsyncVirtualMachinesInner",
-				"value":"virtualMachines-listByResourceGroupAsync"
-			},
-			{
 				"name":"listAsyncImagesInner",
 				"value":"images-listAsync"
+			},
+			{
+				"name":"listByResourceGroupAsyncVirtualMachinesInner",
+				"value":"virtualMachines-listByResourceGroupAsync"
 			},
 			{
 				"name":"listByResourceGroupWithServiceResponseAsyncSnapshotsInner",
 				"value":"snapshots-listByResourceGroupWithServiceResponseAsync"
 			},
 			{
-				"name":"beginCreateOrUpdateGalleryApplicationsInner",
-				"value":"galleryApplications-beginCreateOrUpdate"
-			},
-			{
 				"name":"beginCreateOrUpdateVirtualMachineExtensionsInner",
 				"value":"virtualMachineExtensions-beginCreateOrUpdate"
+			},
+			{
+				"name":"beginCreateOrUpdateGalleryApplicationsInner",
+				"value":"galleryApplications-beginCreateOrUpdate"
 			},
 			{
 				"name":"listSkusWithServiceResponseAsyncVirtualMachineScaleSetsInner",
@@ -839,12 +839,12 @@
 				"value":"virtualMachineScaleSets-restartWithServiceResponseAsync"
 			},
 			{
-				"name":"beginDeleteAsyncVirtualMachineScaleSetVMsInner",
-				"value":"virtualMachineScaleSetVMs-beginDeleteAsync"
-			},
-			{
 				"name":"restartWithServiceResponseAsyncVirtualMachinesInner",
 				"value":"virtualMachines-restartWithServiceResponseAsync"
+			},
+			{
+				"name":"beginDeleteAsyncVirtualMachineScaleSetVMsInner",
+				"value":"virtualMachineScaleSetVMs-beginDeleteAsync"
 			},
 			{
 				"name":"beginDeleteWithServiceResponseAsyncVirtualMachineExtensionsInner",
@@ -911,12 +911,12 @@
 				"value":"virtualMachineImages-listWithServiceResponseAsync"
 			},
 			{
-				"name":"createOrUpdateGalleryImageVersionsInner",
-				"value":"galleryImageVersions-createOrUpdate"
-			},
-			{
 				"name":"deleteAsyncGalleriesInner",
 				"value":"galleries-deleteAsync"
+			},
+			{
+				"name":"createOrUpdateGalleryImageVersionsInner",
+				"value":"galleryImageVersions-createOrUpdate"
 			},
 			{
 				"name":"beginRevokeAccessAsyncSnapshotsInner",
@@ -927,28 +927,28 @@
 				"value":"proximityPlacementGroups-listByResourceGroupAsync"
 			},
 			{
-				"name":"beginStartOSUpgradeAsyncVirtualMachineScaleSetRollingUpgradesInner",
-				"value":"virtualMachineScaleSetRollingUpgrades-beginStartOSUpgradeAsync"
-			},
-			{
 				"name":"listByResourceGroupDisksInner",
 				"value":"disks-listByResourceGroup"
+			},
+			{
+				"name":"beginStartOSUpgradeAsyncVirtualMachineScaleSetRollingUpgradesInner",
+				"value":"virtualMachineScaleSetRollingUpgrades-beginStartOSUpgradeAsync"
 			},
 			{
 				"name":"deleteWithServiceResponseAsyncGalleryImagesInner",
 				"value":"galleryImages-deleteWithServiceResponseAsync"
 			},
 			{
-				"name":"listByResourceGroupNextWithServiceResponseAsyncVirtualMachineScaleSetsInner",
-				"value":"virtualMachineScaleSets-listByResourceGroupNextWithServiceResponseAsync"
+				"name":"beginCreateOrUpdateAsyncVirtualMachineExtensionsInner",
+				"value":"virtualMachineExtensions-beginCreateOrUpdateAsync"
 			},
 			{
 				"name":"getByResourceGroupAsyncVirtualMachineScaleSetsInner",
 				"value":"virtualMachineScaleSets-getByResourceGroupAsync"
 			},
 			{
-				"name":"beginCreateOrUpdateAsyncVirtualMachineExtensionsInner",
-				"value":"virtualMachineExtensions-beginCreateOrUpdateAsync"
+				"name":"listByResourceGroupNextWithServiceResponseAsyncVirtualMachineScaleSetsInner",
+				"value":"virtualMachineScaleSets-listByResourceGroupNextWithServiceResponseAsync"
 			},
 			{
 				"name":"beginDeleteAsyncGalleryImageVersionsInner",
@@ -971,24 +971,24 @@
 				"value":"virtualMachineScaleSets-redeployWithServiceResponseAsync"
 			},
 			{
-				"name":"beginCreateOrUpdateVirtualMachineScaleSetExtensionsInner",
-				"value":"virtualMachineScaleSetExtensions-beginCreateOrUpdate"
+				"name":"beginCreateOrUpdateWithServiceResponseAsyncDisksInner",
+				"value":"disks-beginCreateOrUpdateWithServiceResponseAsync"
 			},
 			{
 				"name":"listByResourceGroupVirtualMachineScaleSetsInner",
 				"value":"virtualMachineScaleSets-listByResourceGroup"
 			},
 			{
-				"name":"beginCreateOrUpdateWithServiceResponseAsyncDisksInner",
-				"value":"disks-beginCreateOrUpdateWithServiceResponseAsync"
-			},
-			{
-				"name":"getByResourceGroupAsyncContainerServicesInner",
-				"value":"containerServices-getByResourceGroupAsync"
+				"name":"beginCreateOrUpdateVirtualMachineScaleSetExtensionsInner",
+				"value":"virtualMachineScaleSetExtensions-beginCreateOrUpdate"
 			},
 			{
 				"name":"beginRestartWithServiceResponseAsyncVirtualMachinesInner",
 				"value":"virtualMachines-beginRestartWithServiceResponseAsync"
+			},
+			{
+				"name":"getByResourceGroupAsyncContainerServicesInner",
+				"value":"containerServices-getByResourceGroupAsync"
 			},
 			{
 				"name":"listWithServiceResponseAsyncVirtualMachineExtensionsInner",
@@ -999,12 +999,12 @@
 				"value":"virtualMachineRunCommands-listNextSinglePageAsync"
 			},
 			{
-				"name":"beginReimageWithServiceResponseAsyncVirtualMachineScaleSetVMsInner",
-				"value":"virtualMachineScaleSetVMs-beginReimageWithServiceResponseAsync"
-			},
-			{
 				"name":"beginDeleteWithServiceResponseAsyncDisksInner",
 				"value":"disks-beginDeleteWithServiceResponseAsync"
+			},
+			{
+				"name":"beginReimageWithServiceResponseAsyncVirtualMachineScaleSetVMsInner",
+				"value":"virtualMachineScaleSetVMs-beginReimageWithServiceResponseAsync"
 			},
 			{
 				"name":"listNextAsyncUsagesInner",
@@ -1019,12 +1019,12 @@
 				"value":"getAzureClient-getPutOrPatchResultAsync"
 			},
 			{
-				"name":"createOrUpdateGalleryApplicationsInner",
-				"value":"galleryApplications-createOrUpdate"
-			},
-			{
 				"name":"updateWithServiceResponseAsyncAvailabilitySetsInner",
 				"value":"availabilitySets-updateWithServiceResponseAsync"
+			},
+			{
+				"name":"createOrUpdateGalleryApplicationsInner",
+				"value":"galleryApplications-createOrUpdate"
 			},
 			{
 				"name":"getInstanceViewVirtualMachineScaleSetsInner",
@@ -1051,12 +1051,12 @@
 				"value":"virtualMachineScaleSets-updateInstancesAsync"
 			},
 			{
-				"name":"beginDeleteAsyncVirtualMachineScaleSetsInner",
-				"value":"virtualMachineScaleSets-beginDeleteAsync"
-			},
-			{
 				"name":"getByResourceGroupAsyncImagesInner",
 				"value":"images-getByResourceGroupAsync"
+			},
+			{
+				"name":"beginDeleteAsyncVirtualMachineScaleSetsInner",
+				"value":"virtualMachineScaleSets-beginDeleteAsync"
 			},
 			{
 				"name":"beginPostOrDeleteAsyncAzureClient",
@@ -1071,28 +1071,28 @@
 				"value":"snapshots-beginRevokeAccessWithServiceResponseAsync"
 			},
 			{
-				"name":"listByResourceGroupSinglePageAsyncContainerServicesInner",
-				"value":"containerServices-listByResourceGroupSinglePageAsync"
-			},
-			{
 				"name":"performMaintenanceAsyncVirtualMachineScaleSetsInner",
 				"value":"virtualMachineScaleSets-performMaintenanceAsync"
 			},
 			{
-				"name":"beginCreateOrUpdateWithServiceResponseAsyncGalleryImageVersionsInner",
-				"value":"galleryImageVersions-beginCreateOrUpdateWithServiceResponseAsync"
+				"name":"listByResourceGroupSinglePageAsyncContainerServicesInner",
+				"value":"containerServices-listByResourceGroupSinglePageAsync"
 			},
 			{
 				"name":"grantAccessAsyncSnapshotsInner",
 				"value":"snapshots-grantAccessAsync"
 			},
 			{
-				"name":"listByResourceGroupAsyncGalleriesInner",
-				"value":"galleries-listByResourceGroupAsync"
+				"name":"beginCreateOrUpdateWithServiceResponseAsyncGalleryImageVersionsInner",
+				"value":"galleryImageVersions-beginCreateOrUpdateWithServiceResponseAsync"
 			},
 			{
 				"name":"listNextAsyncImagesInner",
 				"value":"images-listNextAsync"
+			},
+			{
+				"name":"listByResourceGroupAsyncGalleriesInner",
+				"value":"galleries-listByResourceGroupAsync"
 			},
 			{
 				"name":"getByResourceGroupImagesInner",
@@ -1183,16 +1183,16 @@
 				"value":"virtualMachineScaleSetExtensions-createOrUpdateWithServiceResponseAsync"
 			},
 			{
-				"name":"listAsyncVirtualMachineScaleSetVMsInner",
-				"value":"virtualMachineScaleSetVMs-listAsync"
+				"name":"listNextSinglePageAsyncVirtualMachinesInner",
+				"value":"virtualMachines-listNextSinglePageAsync"
 			},
 			{
 				"name":"forceRecoveryServiceFabricPlatformUpdateDomainWalkAsyncVirtualMachineScaleSetsInner",
 				"value":"virtualMachineScaleSets-forceRecoveryServiceFabricPlatformUpdateDomainWalkAsync"
 			},
 			{
-				"name":"listNextSinglePageAsyncVirtualMachinesInner",
-				"value":"virtualMachines-listNextSinglePageAsync"
+				"name":"listAsyncVirtualMachineScaleSetVMsInner",
+				"value":"virtualMachineScaleSetVMs-listAsync"
 			},
 			{
 				"name":"listByResourceGroupNextWithServiceResponseAsyncImagesInner",
@@ -1255,28 +1255,28 @@
 				"value":"galleryImageVersions-beginDeleteWithServiceResponseAsync"
 			},
 			{
-				"name":"getInstanceViewAsyncVirtualMachineScaleSetsInner",
-				"value":"virtualMachineScaleSets-getInstanceViewAsync"
-			},
-			{
 				"name":"createOrUpdateAsyncVirtualMachinesInner",
 				"value":"virtualMachines-createOrUpdateAsync"
 			},
 			{
-				"name":"listByGalleryApplicationAsyncGalleryApplicationVersionsInner",
-				"value":"galleryApplicationVersions-listByGalleryApplicationAsync"
+				"name":"getInstanceViewAsyncVirtualMachineScaleSetsInner",
+				"value":"virtualMachineScaleSets-getInstanceViewAsync"
 			},
 			{
 				"name":"beginDeleteWithServiceResponseAsyncGalleryImagesInner",
 				"value":"galleryImages-beginDeleteWithServiceResponseAsync"
 			},
 			{
-				"name":"listAvailableSizesWithServiceResponseAsyncVirtualMachinesInner",
-				"value":"virtualMachines-listAvailableSizesWithServiceResponseAsync"
+				"name":"listByGalleryApplicationAsyncGalleryApplicationVersionsInner",
+				"value":"galleryApplicationVersions-listByGalleryApplicationAsync"
 			},
 			{
 				"name":"listByResourceGroupNextSinglePageAsyncImagesInner",
 				"value":"images-listByResourceGroupNextSinglePageAsync"
+			},
+			{
+				"name":"listAvailableSizesWithServiceResponseAsyncVirtualMachinesInner",
+				"value":"virtualMachines-listAvailableSizesWithServiceResponseAsync"
 			},
 			{
 				"name":"listNextWithServiceResponseAsyncDisksInner",
@@ -1287,12 +1287,12 @@
 				"value":"virtualMachineScaleSetVMs-deleteAsync"
 			},
 			{
-				"name":"runCommandVirtualMachineScaleSetVMsInner",
-				"value":"virtualMachineScaleSetVMs-runCommand"
-			},
-			{
 				"name":"deleteWithServiceResponseAsyncVirtualMachineScaleSetExtensionsInner",
 				"value":"virtualMachineScaleSetExtensions-deleteWithServiceResponseAsync"
+			},
+			{
+				"name":"runCommandVirtualMachineScaleSetVMsInner",
+				"value":"virtualMachineScaleSetVMs-runCommand"
 			},
 			{
 				"name":"getByResourceGroupWithServiceResponseAsyncGalleriesInner",
@@ -1331,10 +1331,6 @@
 				"value":"snapshots-getByResourceGroupWithServiceResponseAsync"
 			},
 			{
-				"name":"listByGalleryImageNextAsyncGalleryImageVersionsInner",
-				"value":"galleryImageVersions-listByGalleryImageNextAsync"
-			},
-			{
 				"name":"listByHostGroupAsyncDedicatedHostsInner",
 				"value":"dedicatedHosts-listByHostGroupAsync"
 			},
@@ -1343,16 +1339,20 @@
 				"value":"snapshots-grantAccess"
 			},
 			{
-				"name":"getWithServiceResponseAsyncGalleryApplicationsInner",
-				"value":"galleryApplications-getWithServiceResponseAsync"
+				"name":"listByGalleryImageNextAsyncGalleryImageVersionsInner",
+				"value":"galleryImageVersions-listByGalleryImageNextAsync"
+			},
+			{
+				"name":"updateSnapshotsInner",
+				"value":"snapshots-update"
 			},
 			{
 				"name":"listGalleriesInner",
 				"value":"galleries-list"
 			},
 			{
-				"name":"updateSnapshotsInner",
-				"value":"snapshots-update"
+				"name":"getWithServiceResponseAsyncGalleryApplicationsInner",
+				"value":"galleryApplications-getWithServiceResponseAsync"
 			},
 			{
 				"name":"deleteAsyncSnapshotsInner",
@@ -1423,20 +1423,20 @@
 				"value":"disks-beginUpdateWithServiceResponseAsync"
 			},
 			{
-				"name":"createOrUpdateAsyncVirtualMachineScaleSetExtensionsInner",
-				"value":"virtualMachineScaleSetExtensions-createOrUpdateAsync"
-			},
-			{
 				"name":"beginPowerOffAsyncVirtualMachineScaleSetsInner",
 				"value":"virtualMachineScaleSets-beginPowerOffAsync"
 			},
 			{
-				"name":"beginUpdateVirtualMachineScaleSetVMsInner",
-				"value":"virtualMachineScaleSetVMs-beginUpdate"
+				"name":"createOrUpdateAsyncVirtualMachineScaleSetExtensionsInner",
+				"value":"virtualMachineScaleSetExtensions-createOrUpdateAsync"
 			},
 			{
 				"name":"getDedicatedHostsInner",
 				"value":"dedicatedHosts-get"
+			},
+			{
+				"name":"beginUpdateVirtualMachineScaleSetVMsInner",
+				"value":"virtualMachineScaleSetVMs-beginUpdate"
 			},
 			{
 				"name":"listAsyncDisksInner",
@@ -1475,28 +1475,28 @@
 				"value":"images-listByResourceGroupNext"
 			},
 			{
-				"name":"listWithServiceResponseAsyncVirtualMachineScaleSetVMsInner",
-				"value":"virtualMachineScaleSetVMs-listWithServiceResponseAsync"
-			},
-			{
 				"name":"listByLocationNextVirtualMachinesInner",
 				"value":"virtualMachines-listByLocationNext"
 			},
 			{
-				"name":"beginReimageWithServiceResponseAsyncVirtualMachineScaleSetsInner",
-				"value":"virtualMachineScaleSets-beginReimageWithServiceResponseAsync"
+				"name":"listWithServiceResponseAsyncVirtualMachineScaleSetVMsInner",
+				"value":"virtualMachineScaleSetVMs-listWithServiceResponseAsync"
 			},
 			{
 				"name":"listByResourceGroupNextWithServiceResponseAsyncDisksInner",
 				"value":"disks-listByResourceGroupNextWithServiceResponseAsync"
 			},
 			{
-				"name":"runCommandAsyncVirtualMachineScaleSetVMsInner",
-				"value":"virtualMachineScaleSetVMs-runCommandAsync"
+				"name":"beginReimageWithServiceResponseAsyncVirtualMachineScaleSetsInner",
+				"value":"virtualMachineScaleSets-beginReimageWithServiceResponseAsync"
 			},
 			{
 				"name":"beginUpdateInstancesWithServiceResponseAsyncVirtualMachineScaleSetsInner",
 				"value":"virtualMachineScaleSets-beginUpdateInstancesWithServiceResponseAsync"
+			},
+			{
+				"name":"runCommandAsyncVirtualMachineScaleSetVMsInner",
+				"value":"virtualMachineScaleSetVMs-runCommandAsync"
 			},
 			{
 				"name":"updateWithServiceResponseAsyncVirtualMachinesInner",
@@ -1511,12 +1511,12 @@
 				"value":"proximityPlacementGroups-list"
 			},
 			{
-				"name":"beginRedeployWithServiceResponseAsyncVirtualMachineScaleSetVMsInner",
-				"value":"virtualMachineScaleSetVMs-beginRedeployWithServiceResponseAsync"
-			},
-			{
 				"name":"listByHostGroupSinglePageAsyncDedicatedHostsInner",
 				"value":"dedicatedHosts-listByHostGroupSinglePageAsync"
+			},
+			{
+				"name":"beginRedeployWithServiceResponseAsyncVirtualMachineScaleSetVMsInner",
+				"value":"virtualMachineScaleSetVMs-beginRedeployWithServiceResponseAsync"
 			},
 			{
 				"name":"exportRequestRateByIntervalLogAnalyticsInner",
@@ -1559,24 +1559,24 @@
 				"value":"dedicatedHostGroups-createOrUpdateAsync"
 			},
 			{
-				"name":"beginRedeployAsyncVirtualMachineScaleSetVMsInner",
-				"value":"virtualMachineScaleSetVMs-beginRedeployAsync"
+				"name":"updateWithServiceResponseAsyncImagesInner",
+				"value":"images-updateWithServiceResponseAsync"
 			},
 			{
 				"name":"performMaintenanceAsyncVirtualMachinesInner",
 				"value":"virtualMachines-performMaintenanceAsync"
 			},
 			{
-				"name":"updateWithServiceResponseAsyncImagesInner",
-				"value":"images-updateWithServiceResponseAsync"
-			},
-			{
-				"name":"getWithServiceResponseAsyncVirtualMachineScaleSetExtensionsInner",
-				"value":"virtualMachineScaleSetExtensions-getWithServiceResponseAsync"
+				"name":"beginRedeployAsyncVirtualMachineScaleSetVMsInner",
+				"value":"virtualMachineScaleSetVMs-beginRedeployAsync"
 			},
 			{
 				"name":"beginPerformMaintenanceWithServiceResponseAsyncVirtualMachineScaleSetsInner",
 				"value":"virtualMachineScaleSets-beginPerformMaintenanceWithServiceResponseAsync"
+			},
+			{
+				"name":"getWithServiceResponseAsyncVirtualMachineScaleSetExtensionsInner",
+				"value":"virtualMachineScaleSetExtensions-getWithServiceResponseAsync"
 			},
 			{
 				"name":"deleteWithServiceResponseAsyncGalleryApplicationsInner",
@@ -1595,12 +1595,12 @@
 				"value":"containerServices-listByResourceGroupAsync"
 			},
 			{
-				"name":"beginUpdateWithServiceResponseAsyncVirtualMachineExtensionsInner",
-				"value":"virtualMachineExtensions-beginUpdateWithServiceResponseAsync"
-			},
-			{
 				"name":"deleteAsyncAvailabilitySetsInner",
 				"value":"availabilitySets-deleteAsync"
+			},
+			{
+				"name":"beginUpdateWithServiceResponseAsyncVirtualMachineExtensionsInner",
+				"value":"virtualMachineExtensions-beginUpdateWithServiceResponseAsync"
 			},
 			{
 				"name":"reimageAllAsyncVirtualMachineScaleSetsInner",
@@ -1639,12 +1639,12 @@
 				"value":"virtualMachineScaleSetRollingUpgrades-beginCancelAsync"
 			},
 			{
-				"name":"deleteWithServiceResponseAsyncDedicatedHostsInner",
-				"value":"dedicatedHosts-deleteWithServiceResponseAsync"
-			},
-			{
 				"name":"listWithServiceResponseAsyncImagesInner",
 				"value":"images-listWithServiceResponseAsync"
+			},
+			{
+				"name":"deleteWithServiceResponseAsyncDedicatedHostsInner",
+				"value":"dedicatedHosts-deleteWithServiceResponseAsync"
 			},
 			{
 				"name":"getAsyncVirtualMachineRunCommandsInner",
@@ -1683,12 +1683,12 @@
 				"value":"virtualMachineExtensionImages-getAsync"
 			},
 			{
-				"name":"listByResourceGroupNextSinglePageAsyncContainerServicesInner",
-				"value":"containerServices-listByResourceGroupNextSinglePageAsync"
-			},
-			{
 				"name":"beginUpdateWithServiceResponseAsyncVirtualMachineScaleSetsInner",
 				"value":"virtualMachineScaleSets-beginUpdateWithServiceResponseAsync"
+			},
+			{
+				"name":"listByResourceGroupNextSinglePageAsyncContainerServicesInner",
+				"value":"containerServices-listByResourceGroupNextSinglePageAsync"
 			},
 			{
 				"name":"updateVirtualMachineScaleSetVMsInner",
@@ -1703,12 +1703,12 @@
 				"value":"virtualMachineScaleSets-listByResourceGroupNextAsync"
 			},
 			{
-				"name":"createOrUpdateWithServiceResponseAsyncGalleryImageVersionsInner",
-				"value":"galleryImageVersions-createOrUpdateWithServiceResponseAsync"
-			},
-			{
 				"name":"beginStartWithServiceResponseAsyncVirtualMachineScaleSetsInner",
 				"value":"virtualMachineScaleSets-beginStartWithServiceResponseAsync"
+			},
+			{
+				"name":"createOrUpdateWithServiceResponseAsyncGalleryImageVersionsInner",
+				"value":"galleryImageVersions-createOrUpdateWithServiceResponseAsync"
 			},
 			{
 				"name":"listVersionsAsyncVirtualMachineExtensionImagesInner",
@@ -1727,48 +1727,48 @@
 				"value":"virtualMachineScaleSetVMs-getInstanceViewWithServiceResponseAsync"
 			},
 			{
-				"name":"deallocateAsyncVirtualMachineScaleSetsInner",
-				"value":"virtualMachineScaleSets-deallocateAsync"
+				"name":"updateAsyncVirtualMachineExtensionsInner",
+				"value":"virtualMachineExtensions-updateAsync"
 			},
 			{
 				"name":"getAsyncVirtualMachineExtensionsInner",
 				"value":"virtualMachineExtensions-getAsync"
 			},
 			{
-				"name":"updateAsyncVirtualMachineExtensionsInner",
-				"value":"virtualMachineExtensions-updateAsync"
+				"name":"deallocateAsyncVirtualMachineScaleSetsInner",
+				"value":"virtualMachineScaleSets-deallocateAsync"
 			},
 			{
 				"name":"revokeAccessAsyncSnapshotsInner",
 				"value":"snapshots-revokeAccessAsync"
 			},
 			{
-				"name":"beginStartWithServiceResponseAsyncVirtualMachineScaleSetVMsInner",
-				"value":"virtualMachineScaleSetVMs-beginStartWithServiceResponseAsync"
-			},
-			{
 				"name":"createOrUpdateAsyncDedicatedHostsInner",
 				"value":"dedicatedHosts-createOrUpdateAsync"
 			},
 			{
-				"name":"beginReimageAsyncVirtualMachineScaleSetVMsInner",
-				"value":"virtualMachineScaleSetVMs-beginReimageAsync"
+				"name":"beginStartWithServiceResponseAsyncVirtualMachineScaleSetVMsInner",
+				"value":"virtualMachineScaleSetVMs-beginStartWithServiceResponseAsync"
 			},
 			{
 				"name":"getAsyncVirtualMachineScaleSetExtensionsInner",
 				"value":"virtualMachineScaleSetExtensions-getAsync"
 			},
 			{
+				"name":"beginReimageAsyncVirtualMachineScaleSetVMsInner",
+				"value":"virtualMachineScaleSetVMs-beginReimageAsync"
+			},
+			{
 				"name":"beginDeallocateAsyncVirtualMachineScaleSetVMsInner",
 				"value":"virtualMachineScaleSetVMs-beginDeallocateAsync"
 			},
 			{
-				"name":"getByResourceGroupProximityPlacementGroupsInner",
-				"value":"proximityPlacementGroups-getByResourceGroup"
-			},
-			{
 				"name":"listAsyncAvailabilitySetsInner",
 				"value":"availabilitySets-listAsync"
+			},
+			{
+				"name":"getByResourceGroupProximityPlacementGroupsInner",
+				"value":"proximityPlacementGroups-getByResourceGroup"
 			},
 			{
 				"name":"restartAsyncVirtualMachineScaleSetVMsInner",
@@ -1787,12 +1787,12 @@
 				"value":"getAzureClient-httpClient"
 			},
 			{
-				"name":"redeployAsyncVirtualMachineScaleSetsInner",
-				"value":"virtualMachineScaleSets-redeployAsync"
-			},
-			{
 				"name":"beginDeleteWithServiceResponseAsyncDedicatedHostsInner",
 				"value":"dedicatedHosts-beginDeleteWithServiceResponseAsync"
+			},
+			{
+				"name":"redeployAsyncVirtualMachineScaleSetsInner",
+				"value":"virtualMachineScaleSets-redeployAsync"
 			},
 			{
 				"name":"updateAsyncProximityPlacementGroupsInner",
@@ -1811,16 +1811,16 @@
 				"value":"operations-listAsync"
 			},
 			{
+				"name":"listAvailableSizesAsyncAvailabilitySetsInner",
+				"value":"availabilitySets-listAvailableSizesAsync"
+			},
+			{
 				"name":"beginCreateOrUpdateWithServiceResponseAsyncVirtualMachineExtensionsInner",
 				"value":"virtualMachineExtensions-beginCreateOrUpdateWithServiceResponseAsync"
 			},
 			{
 				"name":"cancelAsyncVirtualMachineScaleSetRollingUpgradesInner",
 				"value":"virtualMachineScaleSetRollingUpgrades-cancelAsync"
-			},
-			{
-				"name":"listAvailableSizesAsyncAvailabilitySetsInner",
-				"value":"availabilitySets-listAvailableSizesAsync"
 			},
 			{
 				"name":"retrofitAzureClient",
@@ -1907,16 +1907,16 @@
 				"value":"containerServices-listNextWithServiceResponseAsync"
 			},
 			{
-				"name":"beginDeleteWithServiceResponseAsyncGalleriesInner",
-				"value":"galleries-beginDeleteWithServiceResponseAsync"
-			},
-			{
 				"name":"listByResourceGroupAsyncDisksInner",
 				"value":"disks-listByResourceGroupAsync"
 			},
 			{
 				"name":"listNextSinglePageAsyncResourceSkusInner",
 				"value":"resourceSkus-listNextSinglePageAsync"
+			},
+			{
+				"name":"beginDeleteWithServiceResponseAsyncGalleriesInner",
+				"value":"galleries-beginDeleteWithServiceResponseAsync"
 			},
 			{
 				"name":"listDedicatedHostGroupsInner",
@@ -1935,12 +1935,12 @@
 				"value":"virtualMachineScaleSetVMs-redeployWithServiceResponseAsync"
 			},
 			{
-				"name":"getByResourceGroupAvailabilitySetsInner",
-				"value":"availabilitySets-getByResourceGroup"
-			},
-			{
 				"name":"beginGrantAccessDisksInner",
 				"value":"disks-beginGrantAccess"
+			},
+			{
+				"name":"getByResourceGroupAvailabilitySetsInner",
+				"value":"availabilitySets-getByResourceGroup"
 			},
 			{
 				"name":"beginDeleteAsyncGalleryApplicationVersionsInner",
@@ -1951,20 +1951,20 @@
 				"value":"virtualMachineScaleSets-getOSUpgradeHistorySinglePageAsync"
 			},
 			{
-				"name":"listByLocationNextWithServiceResponseAsyncVirtualMachinesInner",
-				"value":"virtualMachines-listByLocationNextWithServiceResponseAsync"
-			},
-			{
 				"name":"updateAsyncVirtualMachinesInner",
 				"value":"virtualMachines-updateAsync"
 			},
 			{
-				"name":"listContainerServicesInner",
-				"value":"containerServices-list"
+				"name":"listByLocationNextWithServiceResponseAsyncVirtualMachinesInner",
+				"value":"virtualMachines-listByLocationNextWithServiceResponseAsync"
 			},
 			{
 				"name":"beginGrantAccessWithServiceResponseAsyncSnapshotsInner",
 				"value":"snapshots-beginGrantAccessWithServiceResponseAsync"
+			},
+			{
+				"name":"listContainerServicesInner",
+				"value":"containerServices-list"
 			},
 			{
 				"name":"deleteWithServiceResponseAsyncVirtualMachinesInner",
@@ -1975,12 +1975,12 @@
 				"value":"logAnalytics-exportThrottledRequestsWithServiceResponseAsync"
 			},
 			{
-				"name":"powerOffWithServiceResponseAsyncVirtualMachineScaleSetsInner",
-				"value":"virtualMachineScaleSets-powerOffWithServiceResponseAsync"
-			},
-			{
 				"name":"getByResourceGroupWithServiceResponseAsyncImagesInner",
 				"value":"images-getByResourceGroupWithServiceResponseAsync"
+			},
+			{
+				"name":"powerOffWithServiceResponseAsyncVirtualMachineScaleSetsInner",
+				"value":"virtualMachineScaleSets-powerOffWithServiceResponseAsync"
 			},
 			{
 				"name":"getOSUpgradeHistoryVirtualMachineScaleSetsInner",
@@ -1999,12 +1999,12 @@
 				"value":"galleryImages-beginDeleteAsync"
 			},
 			{
-				"name":"listByGalleryImageAsyncGalleryImageVersionsInner",
-				"value":"galleryImageVersions-listByGalleryImageAsync"
-			},
-			{
 				"name":"listNextAvailabilitySetsInner",
 				"value":"availabilitySets-listNext"
+			},
+			{
+				"name":"listByGalleryImageAsyncGalleryImageVersionsInner",
+				"value":"galleryImageVersions-listByGalleryImageAsync"
 			},
 			{
 				"name":"powerOffAsyncVirtualMachinesInner",
@@ -2043,20 +2043,20 @@
 				"value":"virtualMachineScaleSets-deleteAsync"
 			},
 			{
-				"name":"beginCreateOrUpdateAsyncGalleryImageVersionsInner",
-				"value":"galleryImageVersions-beginCreateOrUpdateAsync"
-			},
-			{
 				"name":"getByResourceGroupVirtualMachinesInner",
 				"value":"virtualMachines-getByResourceGroup"
 			},
 			{
-				"name":"listTypesWithServiceResponseAsyncVirtualMachineExtensionImagesInner",
-				"value":"virtualMachineExtensionImages-listTypesWithServiceResponseAsync"
+				"name":"beginCreateOrUpdateAsyncGalleryImageVersionsInner",
+				"value":"galleryImageVersions-beginCreateOrUpdateAsync"
 			},
 			{
 				"name":"listByResourceGroupProximityPlacementGroupsInner",
 				"value":"proximityPlacementGroups-listByResourceGroup"
+			},
+			{
+				"name":"listTypesWithServiceResponseAsyncVirtualMachineExtensionImagesInner",
+				"value":"virtualMachineExtensionImages-listTypesWithServiceResponseAsync"
 			},
 			{
 				"name":"getWithServiceResponseAsyncVirtualMachineImagesInner",
@@ -2071,28 +2071,28 @@
 				"value":"resourceSkus-listNextWithServiceResponseAsync"
 			},
 			{
-				"name":"deleteInstancesWithServiceResponseAsyncVirtualMachineScaleSetsInner",
-				"value":"virtualMachineScaleSets-deleteInstancesWithServiceResponseAsync"
-			},
-			{
 				"name":"listNextDisksInner",
 				"value":"disks-listNext"
 			},
 			{
-				"name":"listSinglePageAsyncContainerServicesInner",
-				"value":"containerServices-listSinglePageAsync"
+				"name":"deleteInstancesWithServiceResponseAsyncVirtualMachineScaleSetsInner",
+				"value":"virtualMachineScaleSets-deleteInstancesWithServiceResponseAsync"
 			},
 			{
 				"name":"beginRestartAsyncVirtualMachinesInner",
 				"value":"virtualMachines-beginRestartAsync"
 			},
 			{
-				"name":"beginCreateOrUpdateContainerServicesInner",
-				"value":"containerServices-beginCreateOrUpdate"
+				"name":"listSinglePageAsyncContainerServicesInner",
+				"value":"containerServices-listSinglePageAsync"
 			},
 			{
 				"name":"updateWithServiceResponseAsyncDedicatedHostsInner",
 				"value":"dedicatedHosts-updateWithServiceResponseAsync"
+			},
+			{
+				"name":"beginCreateOrUpdateContainerServicesInner",
+				"value":"containerServices-beginCreateOrUpdate"
 			},
 			{
 				"name":"createOrUpdateGalleryImagesInner",
@@ -2111,12 +2111,12 @@
 				"value":"galleryImages-getAsync"
 			},
 			{
-				"name":"beginDeleteWithServiceResponseAsyncGalleryApplicationsInner",
-				"value":"galleryApplications-beginDeleteWithServiceResponseAsync"
-			},
-			{
 				"name":"beginPerformMaintenanceAsyncVirtualMachineScaleSetsInner",
 				"value":"virtualMachineScaleSets-beginPerformMaintenanceAsync"
+			},
+			{
+				"name":"beginDeleteWithServiceResponseAsyncGalleryApplicationsInner",
+				"value":"galleryApplications-beginDeleteWithServiceResponseAsync"
 			},
 			{
 				"name":"beginRunCommandAsyncVirtualMachineScaleSetVMsInner",
@@ -2143,12 +2143,12 @@
 				"value":"proximityPlacementGroups-listNextSinglePageAsync"
 			},
 			{
-				"name":"beginDeallocateWithServiceResponseAsyncVirtualMachineScaleSetsInner",
-				"value":"virtualMachineScaleSets-beginDeallocateWithServiceResponseAsync"
-			},
-			{
 				"name":"listNextSinglePageAsyncDisksInner",
 				"value":"disks-listNextSinglePageAsync"
+			},
+			{
+				"name":"beginDeallocateWithServiceResponseAsyncVirtualMachineScaleSetsInner",
+				"value":"virtualMachineScaleSets-beginDeallocateWithServiceResponseAsync"
 			},
 			{
 				"name":"listByResourceGroupDedicatedHostGroupsInner",
@@ -2211,12 +2211,12 @@
 				"value":"virtualMachineScaleSetVMs-powerOffAsync"
 			},
 			{
-				"name":"beginPerformMaintenanceWithServiceResponseAsyncVirtualMachineScaleSetVMsInner",
-				"value":"virtualMachineScaleSetVMs-beginPerformMaintenanceWithServiceResponseAsync"
-			},
-			{
 				"name":"reimageAllWithServiceResponseAsyncVirtualMachineScaleSetsInner",
 				"value":"virtualMachineScaleSets-reimageAllWithServiceResponseAsync"
+			},
+			{
+				"name":"beginPerformMaintenanceWithServiceResponseAsyncVirtualMachineScaleSetVMsInner",
+				"value":"virtualMachineScaleSetVMs-beginPerformMaintenanceWithServiceResponseAsync"
 			},
 			{
 				"name":"getVirtualMachineImagesInner",
@@ -2227,16 +2227,16 @@
 				"value":"virtualMachineScaleSets-listWithServiceResponseAsync"
 			},
 			{
-				"name":"listNextSinglePageAsyncVirtualMachineScaleSetVMsInner",
-				"value":"virtualMachineScaleSetVMs-listNextSinglePageAsync"
-			},
-			{
 				"name":"listByHostGroupNextDedicatedHostsInner",
 				"value":"dedicatedHosts-listByHostGroupNext"
 			},
 			{
 				"name":"beginStartAsyncVirtualMachinesInner",
 				"value":"virtualMachines-beginStartAsync"
+			},
+			{
+				"name":"listNextSinglePageAsyncVirtualMachineScaleSetVMsInner",
+				"value":"virtualMachineScaleSetVMs-listNextSinglePageAsync"
 			},
 			{
 				"name":"convertToManagedDisksAsyncVirtualMachinesInner",
@@ -2255,12 +2255,12 @@
 				"value":"dedicatedHostGroups-listByResourceGroupSinglePageAsync"
 			},
 			{
-				"name":"listByGalleryWithServiceResponseAsyncGalleryApplicationsInner",
-				"value":"galleryApplications-listByGalleryWithServiceResponseAsync"
-			},
-			{
 				"name":"beginCreateOrUpdateWithServiceResponseAsyncGalleriesInner",
 				"value":"galleries-beginCreateOrUpdateWithServiceResponseAsync"
+			},
+			{
+				"name":"listByGalleryWithServiceResponseAsyncGalleryApplicationsInner",
+				"value":"galleryApplications-listByGalleryWithServiceResponseAsync"
 			},
 			{
 				"name":"listSinglePageAsyncVirtualMachineScaleSetExtensionsInner",
@@ -2359,28 +2359,28 @@
 				"value":"virtualMachineScaleSetExtensions-listAsync"
 			},
 			{
-				"name":"createOrUpdateAsyncContainerServicesInner",
-				"value":"containerServices-createOrUpdateAsync"
-			},
-			{
 				"name":"getByResourceGroupAsyncSnapshotsInner",
 				"value":"snapshots-getByResourceGroupAsync"
 			},
 			{
-				"name":"listByResourceGroupVirtualMachinesInner",
-				"value":"virtualMachines-listByResourceGroup"
+				"name":"createOrUpdateAsyncContainerServicesInner",
+				"value":"containerServices-createOrUpdateAsync"
 			},
 			{
 				"name":"createOrUpdateDisksInner",
 				"value":"disks-createOrUpdate"
 			},
 			{
-				"name":"listByResourceGroupNextWithServiceResponseAsyncGalleriesInner",
-				"value":"galleries-listByResourceGroupNextWithServiceResponseAsync"
+				"name":"listByResourceGroupVirtualMachinesInner",
+				"value":"virtualMachines-listByResourceGroup"
 			},
 			{
 				"name":"beginGrantAccessSnapshotsInner",
 				"value":"snapshots-beginGrantAccess"
+			},
+			{
+				"name":"listByResourceGroupNextWithServiceResponseAsyncGalleriesInner",
+				"value":"galleries-listByResourceGroupNextWithServiceResponseAsync"
 			},
 			{
 				"name":"listSinglePageAsyncProximityPlacementGroupsInner",
@@ -2435,32 +2435,32 @@
 				"value":"virtualMachineScaleSets-getOSUpgradeHistoryAsync"
 			},
 			{
-				"name":"beginUpdateWithServiceResponseAsyncVirtualMachineScaleSetVMsInner",
-				"value":"virtualMachineScaleSetVMs-beginUpdateWithServiceResponseAsync"
+				"name":"revokeAccessAsyncDisksInner",
+				"value":"disks-revokeAccessAsync"
 			},
 			{
 				"name":"listByResourceGroupNextAvailabilitySetsInner",
 				"value":"availabilitySets-listByResourceGroupNext"
 			},
 			{
-				"name":"revokeAccessAsyncDisksInner",
-				"value":"disks-revokeAccessAsync"
+				"name":"beginUpdateWithServiceResponseAsyncVirtualMachineScaleSetVMsInner",
+				"value":"virtualMachineScaleSetVMs-beginUpdateWithServiceResponseAsync"
 			},
 			{
 				"name":"beginCreateOrUpdateAsyncGalleryImagesInner",
 				"value":"galleryImages-beginCreateOrUpdateAsync"
 			},
 			{
-				"name":"runCommandWithServiceResponseAsyncVirtualMachineScaleSetVMsInner",
-				"value":"virtualMachineScaleSetVMs-runCommandWithServiceResponseAsync"
+				"name":"listByResourceGroupNextAsyncAvailabilitySetsInner",
+				"value":"availabilitySets-listByResourceGroupNextAsync"
 			},
 			{
 				"name":"reimageAsyncVirtualMachineScaleSetsInner",
 				"value":"virtualMachineScaleSets-reimageAsync"
 			},
 			{
-				"name":"listByResourceGroupNextAsyncAvailabilitySetsInner",
-				"value":"availabilitySets-listByResourceGroupNextAsync"
+				"name":"runCommandWithServiceResponseAsyncVirtualMachineScaleSetVMsInner",
+				"value":"virtualMachineScaleSetVMs-runCommandWithServiceResponseAsync"
 			},
 			{
 				"name":"updateWithServiceResponseAsyncSnapshotsInner",
@@ -2479,24 +2479,24 @@
 				"value":"galleryApplicationVersions-createOrUpdateAsync"
 			},
 			{
-				"name":"listByGalleryApplicationSinglePageAsyncGalleryApplicationVersionsInner",
-				"value":"galleryApplicationVersions-listByGalleryApplicationSinglePageAsync"
-			},
-			{
 				"name":"beginExportRequestRateByIntervalWithServiceResponseAsyncLogAnalyticsInner",
 				"value":"logAnalytics-beginExportRequestRateByIntervalWithServiceResponseAsync"
+			},
+			{
+				"name":"listByGalleryApplicationSinglePageAsyncGalleryApplicationVersionsInner",
+				"value":"galleryApplicationVersions-listByGalleryApplicationSinglePageAsync"
 			},
 			{
 				"name":"listAsyncDedicatedHostGroupsInner",
 				"value":"dedicatedHostGroups-listAsync"
 			},
 			{
-				"name":"listAsyncVirtualMachineSizesInner",
-				"value":"virtualMachineSizes-listAsync"
-			},
-			{
 				"name":"createOrUpdateWithServiceResponseAsyncProximityPlacementGroupsInner",
 				"value":"proximityPlacementGroups-createOrUpdateWithServiceResponseAsync"
+			},
+			{
+				"name":"listAsyncVirtualMachineSizesInner",
+				"value":"virtualMachineSizes-listAsync"
 			},
 			{
 				"name":"beginConvertToManagedDisksAsyncVirtualMachinesInner",
@@ -2507,12 +2507,12 @@
 				"value":"disks-beginUpdate"
 			},
 			{
-				"name":"listByGalleryNextGalleryApplicationsInner",
-				"value":"galleryApplications-listByGalleryNext"
-			},
-			{
 				"name":"listByGalleryImageWithServiceResponseAsyncGalleryImageVersionsInner",
 				"value":"galleryImageVersions-listByGalleryImageWithServiceResponseAsync"
+			},
+			{
+				"name":"listByGalleryNextGalleryApplicationsInner",
+				"value":"galleryApplications-listByGalleryNext"
 			},
 			{
 				"name":"createOrUpdateProximityPlacementGroupsInner",
@@ -2551,16 +2551,20 @@
 				"value":"disks-beginDeleteAsync"
 			},
 			{
-				"name":"beginUpdateAsyncVirtualMachineScaleSetsInner",
-				"value":"virtualMachineScaleSets-beginUpdateAsync"
+				"name":"listByResourceGroupAsyncImagesInner",
+				"value":"images-listByResourceGroupAsync"
 			},
 			{
 				"name":"beginUpdateDedicatedHostsInner",
 				"value":"dedicatedHosts-beginUpdate"
 			},
 			{
-				"name":"listByResourceGroupAsyncImagesInner",
-				"value":"images-listByResourceGroupAsync"
+				"name":"beginUpdateAsyncVirtualMachineScaleSetsInner",
+				"value":"virtualMachineScaleSets-beginUpdateAsync"
+			},
+			{
+				"name":"beginPowerOffAsyncVirtualMachinesInner",
+				"value":"virtualMachines-beginPowerOffAsync"
 			},
 			{
 				"name":"deallocateWithServiceResponseAsyncVirtualMachineScaleSetVMsInner",
@@ -2571,10 +2575,6 @@
 				"value":"virtualMachineScaleSetVMs-powerOffWithServiceResponseAsync"
 			},
 			{
-				"name":"beginPowerOffAsyncVirtualMachinesInner",
-				"value":"virtualMachines-beginPowerOffAsync"
-			},
-			{
 				"name":"listPublishersAsyncVirtualMachineImagesInner",
 				"value":"virtualMachineImages-listPublishersAsync"
 			},
@@ -2583,40 +2583,40 @@
 				"value":"containerServices-deleteAsync"
 			},
 			{
-				"name":"forceRecoveryServiceFabricPlatformUpdateDomainWalkVirtualMachineScaleSetsInner",
-				"value":"virtualMachineScaleSets-forceRecoveryServiceFabricPlatformUpdateDomainWalk"
-			},
-			{
 				"name":"beginStartAsyncVirtualMachineScaleSetsInner",
 				"value":"virtualMachineScaleSets-beginStartAsync"
+			},
+			{
+				"name":"forceRecoveryServiceFabricPlatformUpdateDomainWalkVirtualMachineScaleSetsInner",
+				"value":"virtualMachineScaleSets-forceRecoveryServiceFabricPlatformUpdateDomainWalk"
 			},
 			{
 				"name":"listByGalleryImageNextWithServiceResponseAsyncGalleryImageVersionsInner",
 				"value":"galleryImageVersions-listByGalleryImageNextWithServiceResponseAsync"
 			},
 			{
-				"name":"getOSUpgradeHistoryWithServiceResponseAsyncVirtualMachineScaleSetsInner",
-				"value":"virtualMachineScaleSets-getOSUpgradeHistoryWithServiceResponseAsync"
+				"name":"listByResourceGroupSinglePageAsyncImagesInner",
+				"value":"images-listByResourceGroupSinglePageAsync"
 			},
 			{
 				"name":"listByLocationWithServiceResponseAsyncVirtualMachinesInner",
 				"value":"virtualMachines-listByLocationWithServiceResponseAsync"
 			},
 			{
-				"name":"listByResourceGroupSinglePageAsyncImagesInner",
-				"value":"images-listByResourceGroupSinglePageAsync"
+				"name":"getOSUpgradeHistoryWithServiceResponseAsyncVirtualMachineScaleSetsInner",
+				"value":"virtualMachineScaleSets-getOSUpgradeHistoryWithServiceResponseAsync"
 			},
 			{
 				"name":"beginCreateOrUpdateVirtualMachinesInner",
 				"value":"virtualMachines-beginCreateOrUpdate"
 			},
 			{
-				"name":"deallocateAsyncVirtualMachineScaleSetVMsInner",
-				"value":"virtualMachineScaleSetVMs-deallocateAsync"
-			},
-			{
 				"name":"deallocateWithServiceResponseAsyncVirtualMachineScaleSetsInner",
 				"value":"virtualMachineScaleSets-deallocateWithServiceResponseAsync"
+			},
+			{
+				"name":"deallocateAsyncVirtualMachineScaleSetVMsInner",
+				"value":"virtualMachineScaleSetVMs-deallocateAsync"
 			},
 			{
 				"name":"getByResourceGroupAsyncGalleriesInner",
@@ -2643,12 +2643,12 @@
 				"value":"virtualMachineRunCommands-listAsync"
 			},
 			{
-				"name":"listByGalleryApplicationNextAsyncGalleryApplicationVersionsInner",
-				"value":"galleryApplicationVersions-listByGalleryApplicationNextAsync"
-			},
-			{
 				"name":"listByLocationAsyncVirtualMachinesInner",
 				"value":"virtualMachines-listByLocationAsync"
+			},
+			{
+				"name":"listByGalleryApplicationNextAsyncGalleryApplicationVersionsInner",
+				"value":"galleryApplicationVersions-listByGalleryApplicationNextAsync"
 			},
 			{
 				"name":"reimageWithServiceResponseAsyncVirtualMachineScaleSetsInner",
@@ -2667,16 +2667,16 @@
 				"value":"virtualMachineExtensions-getWithServiceResponseAsync"
 			},
 			{
-				"name":"createOrUpdateContainerServicesInner",
-				"value":"containerServices-createOrUpdate"
-			},
-			{
 				"name":"updateAsyncDedicatedHostsInner",
 				"value":"dedicatedHosts-updateAsync"
 			},
 			{
 				"name":"beginStartWithServiceResponseAsyncVirtualMachinesInner",
 				"value":"virtualMachines-beginStartWithServiceResponseAsync"
+			},
+			{
+				"name":"createOrUpdateContainerServicesInner",
+				"value":"containerServices-createOrUpdate"
 			},
 			{
 				"name":"createOrUpdateWithServiceResponseAsyncImagesInner",
@@ -2687,12 +2687,12 @@
 				"value":"virtualMachines-getByResourceGroupAsync"
 			},
 			{
-				"name":"listAsyncContainerServicesInner",
-				"value":"containerServices-listAsync"
-			},
-			{
 				"name":"beginRestartWithServiceResponseAsyncVirtualMachineScaleSetsInner",
 				"value":"virtualMachineScaleSets-beginRestartWithServiceResponseAsync"
+			},
+			{
+				"name":"listAsyncContainerServicesInner",
+				"value":"containerServices-listAsync"
 			},
 			{
 				"name":"listAvailabilitySetsInner",
@@ -2755,12 +2755,12 @@
 				"value":"snapshots-listByResourceGroup"
 			},
 			{
-				"name":"restartWithServiceResponseAsyncVirtualMachineScaleSetVMsInner",
-				"value":"virtualMachineScaleSetVMs-restartWithServiceResponseAsync"
-			},
-			{
 				"name":"beginDeleteAsyncVirtualMachinesInner",
 				"value":"virtualMachines-beginDeleteAsync"
+			},
+			{
+				"name":"restartWithServiceResponseAsyncVirtualMachineScaleSetVMsInner",
+				"value":"virtualMachineScaleSetVMs-restartWithServiceResponseAsync"
 			},
 			{
 				"name":"beginDeleteAsyncSnapshotsInner",
@@ -2823,12 +2823,12 @@
 				"value":"snapshots-listByResourceGroupNext"
 			},
 			{
-				"name":"createOrUpdateVirtualMachineScaleSetExtensionsInner",
-				"value":"virtualMachineScaleSetExtensions-createOrUpdate"
-			},
-			{
 				"name":"reimageAsyncVirtualMachinesInner",
 				"value":"virtualMachines-reimageAsync"
+			},
+			{
+				"name":"createOrUpdateVirtualMachineScaleSetExtensionsInner",
+				"value":"virtualMachineScaleSetExtensions-createOrUpdate"
 			},
 			{
 				"name":"listWithServiceResponseAsyncDisksInner",
@@ -2867,12 +2867,12 @@
 				"value":"availabilitySets-createOrUpdate"
 			},
 			{
-				"name":"createOrUpdateAsyncGalleryImageVersionsInner",
-				"value":"galleryImageVersions-createOrUpdateAsync"
-			},
-			{
 				"name":"getByResourceGroupSnapshotsInner",
 				"value":"snapshots-getByResourceGroup"
+			},
+			{
+				"name":"createOrUpdateAsyncGalleryImageVersionsInner",
+				"value":"galleryImageVersions-createOrUpdateAsync"
 			},
 			{
 				"name":"listNextAsyncVirtualMachineRunCommandsInner",
@@ -2899,6 +2899,10 @@
 				"value":"dedicatedHostGroups-getByResourceGroupWithServiceResponseAsync"
 			},
 			{
+				"name":"listByHostGroupNextSinglePageAsyncDedicatedHostsInner",
+				"value":"dedicatedHosts-listByHostGroupNextSinglePageAsync"
+			},
+			{
 				"name":"beginReimageAsyncVirtualMachineScaleSetsInner",
 				"value":"virtualMachineScaleSets-beginReimageAsync"
 			},
@@ -2907,12 +2911,8 @@
 				"value":"galleryApplicationVersions-getWithServiceResponseAsync"
 			},
 			{
-				"name":"listByHostGroupNextSinglePageAsyncDedicatedHostsInner",
-				"value":"dedicatedHosts-listByHostGroupNextSinglePageAsync"
-			},
-			{
-				"name":"createOrUpdateAsyncGalleryApplicationsInner",
-				"value":"galleryApplications-createOrUpdateAsync"
+				"name":"beginGrantAccessWithServiceResponseAsyncDisksInner",
+				"value":"disks-beginGrantAccessWithServiceResponseAsync"
 			},
 			{
 				"name":"listWithServiceResponseAsyncOperationsInner",
@@ -2923,28 +2923,28 @@
 				"value":"virtualMachines-beginCaptureAsync"
 			},
 			{
-				"name":"beginGrantAccessWithServiceResponseAsyncDisksInner",
-				"value":"disks-beginGrantAccessWithServiceResponseAsync"
-			},
-			{
-				"name":"performMaintenanceWithServiceResponseAsyncVirtualMachineScaleSetVMsInner",
-				"value":"virtualMachineScaleSetVMs-performMaintenanceWithServiceResponseAsync"
+				"name":"createOrUpdateAsyncGalleryApplicationsInner",
+				"value":"galleryApplications-createOrUpdateAsync"
 			},
 			{
 				"name":"updateVirtualMachineExtensionsInner",
 				"value":"virtualMachineExtensions-update"
 			},
 			{
+				"name":"performMaintenanceWithServiceResponseAsyncVirtualMachineScaleSetVMsInner",
+				"value":"virtualMachineScaleSetVMs-performMaintenanceWithServiceResponseAsync"
+			},
+			{
 				"name":"listByGalleryAsyncGalleryImagesInner",
 				"value":"galleryImages-listByGalleryAsync"
 			},
 			{
-				"name":"listByResourceGroupGalleriesInner",
-				"value":"galleries-listByResourceGroup"
-			},
-			{
 				"name":"getByResourceGroupWithServiceResponseAsyncDisksInner",
 				"value":"disks-getByResourceGroupWithServiceResponseAsync"
+			},
+			{
+				"name":"listByResourceGroupGalleriesInner",
+				"value":"galleries-listByResourceGroup"
 			},
 			{
 				"name":"getOSUpgradeHistoryNextVirtualMachineScaleSetsInner",
@@ -2967,32 +2967,32 @@
 				"value":"dedicatedHostGroups-listByResourceGroupWithServiceResponseAsync"
 			},
 			{
-				"name":"deleteWithServiceResponseAsyncGalleryApplicationVersionsInner",
-				"value":"galleryApplicationVersions-deleteWithServiceResponseAsync"
-			},
-			{
 				"name":"startOSUpgradeAsyncVirtualMachineScaleSetRollingUpgradesInner",
 				"value":"virtualMachineScaleSetRollingUpgrades-startOSUpgradeAsync"
 			},
 			{
-				"name":"listByGalleryGalleryApplicationsInner",
-				"value":"galleryApplications-listByGallery"
+				"name":"deleteWithServiceResponseAsyncGalleryApplicationVersionsInner",
+				"value":"galleryApplicationVersions-deleteWithServiceResponseAsync"
 			},
 			{
 				"name":"listByResourceGroupNextAsyncGalleriesInner",
 				"value":"galleries-listByResourceGroupNextAsync"
 			},
 			{
+				"name":"listByGalleryGalleryApplicationsInner",
+				"value":"galleryApplications-listByGallery"
+			},
+			{
 				"name":"exportThrottledRequestsAsyncLogAnalyticsInner",
 				"value":"logAnalytics-exportThrottledRequestsAsync"
 			},
 			{
-				"name":"beginPowerOffWithServiceResponseAsyncVirtualMachineScaleSetsInner",
-				"value":"virtualMachineScaleSets-beginPowerOffWithServiceResponseAsync"
-			},
-			{
 				"name":"listByResourceGroupNextAsyncImagesInner",
 				"value":"images-listByResourceGroupNextAsync"
+			},
+			{
+				"name":"beginPowerOffWithServiceResponseAsyncVirtualMachineScaleSetsInner",
+				"value":"virtualMachineScaleSets-beginPowerOffWithServiceResponseAsync"
 			},
 			{
 				"name":"createOrUpdateWithServiceResponseAsyncVirtualMachineScaleSetsInner",
@@ -3011,32 +3011,32 @@
 				"value":"snapshots-listByResourceGroupNextSinglePageAsync"
 			},
 			{
-				"name":"listByResourceGroupWithServiceResponseAsyncProximityPlacementGroupsInner",
-				"value":"proximityPlacementGroups-listByResourceGroupWithServiceResponseAsync"
-			},
-			{
 				"name":"deleteAsyncDisksInner",
 				"value":"disks-deleteAsync"
 			},
 			{
-				"name":"beginCreateOrUpdateWithServiceResponseAsyncVirtualMachineScaleSetExtensionsInner",
-				"value":"virtualMachineScaleSetExtensions-beginCreateOrUpdateWithServiceResponseAsync"
+				"name":"listByResourceGroupWithServiceResponseAsyncProximityPlacementGroupsInner",
+				"value":"proximityPlacementGroups-listByResourceGroupWithServiceResponseAsync"
 			},
 			{
 				"name":"listByResourceGroupNextSinglePageAsyncDisksInner",
 				"value":"disks-listByResourceGroupNextSinglePageAsync"
 			},
 			{
+				"name":"beginCreateOrUpdateWithServiceResponseAsyncVirtualMachineScaleSetExtensionsInner",
+				"value":"virtualMachineScaleSetExtensions-beginCreateOrUpdateWithServiceResponseAsync"
+			},
+			{
 				"name":"deleteWithServiceResponseAsyncGalleryImageVersionsInner",
 				"value":"galleryImageVersions-deleteWithServiceResponseAsync"
 			},
 			{
-				"name":"listSkusVirtualMachineScaleSetsInner",
-				"value":"virtualMachineScaleSets-listSkus"
-			},
-			{
 				"name":"listAsyncVirtualMachinesInner",
 				"value":"virtualMachines-listAsync"
+			},
+			{
+				"name":"listSkusVirtualMachineScaleSetsInner",
+				"value":"virtualMachineScaleSets-listSkus"
 			},
 			{
 				"name":"listNextImagesInner",

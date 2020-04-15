@@ -1,0 +1,15 @@
+{
+	"metadata":{
+		"name":"listsnapshotsrequest",
+		"namespace":"baiduvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"BaiduVM",
+	"spec":{
+		"lifecycle":{
+			"listSnapshotsRequest":{
+				"volumeId":"String"
+			}
+		}
+	}
+}

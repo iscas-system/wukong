@@ -1,0 +1,15 @@
+{
+	"metadata":{
+		"name":"aggregatedlistvpntunnels",
+		"namespace":"googlevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"GoogleVM",
+	"spec":{
+		"lifecycle":{
+			"aggregatedListVpnTunnels":{
+				"_arg0":"String"
+			}
+		}
+	}
+}

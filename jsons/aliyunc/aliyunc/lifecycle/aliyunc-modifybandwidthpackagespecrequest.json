@@ -1,0 +1,20 @@
+{
+	"metadata":{
+		"name":"modifybandwidthpackagespecrequest",
+		"namespace":"aliyunc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunC",
+	"spec":{
+		"lifecycle":{
+			"modifyBandwidthPackageSpecRequest":{
+				"bandwidthPackageId":"String",
+				"bandwidth":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerAccount":"String",
+				"ownerId":1
+			}
+		}
+	}
+}

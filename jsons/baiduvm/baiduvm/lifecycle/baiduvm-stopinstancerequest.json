@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"stopinstancerequest",
+		"namespace":"baiduvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"BaiduVM",
+	"spec":{
+		"lifecycle":{
+			"stopInstanceRequest":{
+				"instanceId":"String",
+				"forceStop":true
+			}
+		}
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"metadata":{
+		"name":"attachnetworkendpointsnetworkendpointgroups",
+		"namespace":"googlevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"GoogleVM",
+	"spec":{
+		"lifecycle":{
+			"attachNetworkEndpointsNetworkEndpointGroups":{
+				"_arg0":"String",
+				"_arg1":"String",
+				"_arg2":"String",
+				"_arg3":{}
+			}
+		}
+	}
+}

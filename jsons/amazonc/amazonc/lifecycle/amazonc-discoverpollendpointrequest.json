@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"discoverpollendpointrequest",
+		"namespace":"amazonc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonC",
+	"spec":{
+		"lifecycle":{
+			"discoverPollEndpointRequest":{
+				"cluster":"String",
+				"containerInstance":"String"
+			}
+		}
+	}
+}

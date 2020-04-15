@@ -1,0 +1,15 @@
+{
+	"metadata":{
+		"name":"listsnapshots",
+		"namespace":"googlevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"GoogleVM",
+	"spec":{
+		"lifecycle":{
+			"listSnapshots":{
+				"_arg0":"String"
+			}
+		}
+	}
+}

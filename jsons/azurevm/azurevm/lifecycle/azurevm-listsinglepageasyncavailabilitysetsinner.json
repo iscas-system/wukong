@@ -7,9 +7,7 @@
 	"kind":"AzureVM",
 	"spec":{
 		"lifecycle":{
-			"listSinglePageAsyncAvailabilitySetsInner":{
-				"_arg0":"String"
-			}
+			"listSinglePageAsyncAvailabilitySetsInner":{}
 		}
 	}
 }

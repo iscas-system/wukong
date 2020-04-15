@@ -1,0 +1,27 @@
+{
+	"metadata":{
+		"name":"patchrulesecuritypolicies",
+		"namespace":"googlevm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"GoogleVM",
+	"spec":{
+		"lifecycle":{
+			"patchRuleSecurityPolicies":{
+				"_arg0":"String",
+				"_arg1":"String",
+				"_arg2":{
+					"preview":true,
+					"kind":"String",
+					"match":{
+						"versionedExpr":"String",
+						"config":{}
+					},
+					"action":"String",
+					"description":"String",
+					"priority":1
+				}
+			}
+		}
+	}
+}

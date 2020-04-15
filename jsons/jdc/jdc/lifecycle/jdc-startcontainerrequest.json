@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"startcontainerrequest",
+		"namespace":"jdc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"JDC",
+	"spec":{
+		"lifecycle":{
+			"startContainerRequest":{
+				"regionId":"String",
+				"containerId":"String"
+			}
+		}
+	}
+}

@@ -1,0 +1,18 @@
+{
+	"metadata":{
+		"name":"deleteautosnapshotpolicyrequest",
+		"namespace":"aliyunc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunC",
+	"spec":{
+		"lifecycle":{
+			"deleteAutoSnapshotPolicyRequest":{
+				"autoSnapshotPolicyId":"String",
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerId":1
+			}
+		}
+	}
+}

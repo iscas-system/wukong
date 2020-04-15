@@ -1,0 +1,20 @@
+{
+	"metadata":{
+		"name":"assignipv6addressesrequest",
+		"namespace":"aliyunc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunC",
+	"spec":{
+		"lifecycle":{
+			"assignIpv6AddressesRequest":{
+				"networkInterfaceId":"String",
+				"ipv6AddressCount":1,
+				"resourceOwnerAccount":"String",
+				"resourceOwnerId":1,
+				"ownerAccount":"String",
+				"ownerId":1
+			}
+		}
+	}
+}

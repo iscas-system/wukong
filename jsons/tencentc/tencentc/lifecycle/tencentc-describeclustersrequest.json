@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"describeclustersrequest",
+		"namespace":"tencentc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentC",
+	"spec":{
+		"lifecycle":{
+			"describeClustersRequest":{
+				"Limit":1,
+				"Offset":1
+			}
+		}
+	}
+}

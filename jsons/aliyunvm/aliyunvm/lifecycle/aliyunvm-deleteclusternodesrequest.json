@@ -1,0 +1,15 @@
+{
+	"metadata":{
+		"name":"deleteclusternodesrequest",
+		"namespace":"aliyunvm"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AliyunVM",
+	"spec":{
+		"lifecycle":{
+			"deleteClusterNodesRequest":{
+				"clusterId":"String"
+			}
+		}
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"untagresourcerequest",
+		"namespace":"amazonc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonC",
+	"spec":{
+		"lifecycle":{
+			"untagResourceRequest":{
+				"tagKeys":{},
+				"resourceArn":"String"
+			}
+		}
+	}
+}

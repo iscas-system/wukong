@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"deleteaccountsettingrequest",
+		"namespace":"amazonc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonC",
+	"spec":{
+		"lifecycle":{
+			"deleteAccountSettingRequest":{
+				"name":"String",
+				"principalArn":"String"
+			}
+		}
+	}
+}

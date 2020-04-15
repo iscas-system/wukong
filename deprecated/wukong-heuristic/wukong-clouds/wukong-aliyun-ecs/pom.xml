@@ -37,6 +37,16 @@
 			<artifactId>aliyun-java-sdk-ecs</artifactId>
 			<version>${aliyun.ecs.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>com.aliyun</groupId>
+			<artifactId>aliyun-java-sdk-core</artifactId>
+			<version>4.4.1</version>
+		</dependency>
+		<dependency>
+			<groupId>com.aliyun</groupId>
+			<artifactId>aliyun-java-sdk-ecs</artifactId>
+			<version>4.16.7</version>
+		</dependency>
 
 	</dependencies>
 

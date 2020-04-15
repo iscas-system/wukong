@@ -1,0 +1,18 @@
+{
+	"metadata":{
+		"name":"instance",
+		"namespace":"tencentc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"TencentC",
+	"spec":{
+		"lifecycle":{
+			"instance":{
+				"InstanceState":"String",
+				"InstanceId":"String",
+				"FailedReason":"String",
+				"InstanceRole":"String"
+			}
+		}
+	}
+}

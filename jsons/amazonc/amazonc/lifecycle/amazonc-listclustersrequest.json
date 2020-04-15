@@ -1,0 +1,16 @@
+{
+	"metadata":{
+		"name":"listclustersrequest",
+		"namespace":"amazonc"
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AmazonC",
+	"spec":{
+		"lifecycle":{
+			"listClustersRequest":{
+				"nextToken":"String",
+				"maxResults":1
+			}
+		}
+	}
+}
