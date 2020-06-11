@@ -1,7 +1,7 @@
 /**
  * Copyright (2018-2019) Institute of Software, Chinese Academy of Sciences
  */
-package io.github.cloudpluslab.wukong;
+package io.github.pdoslab.wukong;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -14,17 +14,17 @@ import java.util.Map;
 
 import com.alibaba.fastjson.JSON;
 
-import io.github.cloudpluslab.wukong.model.JDKInfo;
-import io.github.cloudpluslab.wukong.utils.ClassUtils;
-import io.github.cloudpluslab.wukong.utils.JSONUtils;
-import io.github.cloudpluslab.wukong.utils.JavaUtils;
+import io.github.pdoslab.wukong.model.JDKInfo;
+import io.github.pdoslab.wukong.utils.ClassUtils;
+import io.github.pdoslab.wukong.utils.JSONUtils;
+import io.github.pdoslab.wukong.utils.JavaUtils;
 
 /**
  * @author tangting18@otcaix.iscas.ac.cn
  * @author wuheng@iscas.ac.cn
  * @since 2019.12.10
  */
-public class Main {
+public class Starter {
 
 	public final static String JDKINFO_FILE = "conf/jdkinfo.conf-aliyunecs";
 
@@ -78,7 +78,6 @@ public class Main {
 		return json;
 	}
 
-	@SuppressWarnings("unchecked")
 	protected static List<String> findGenericStyleObjectJSON(JDKInfo info, Method[] methods) throws Exception {
 		String superclass = getGenericStyleSuperclass(methods);
 		return superclass == null ? new ArrayList<>()

@@ -1,7 +1,7 @@
 /**
  * Copyright (2020, ) Institute of Software, Chinese Academy of Sciences
  */
-package io.github.cloudpluslab.wukong.model;
+package io.github.pdoslab.wukong.model;
 
 /**
  * @author tangting18@otcaix.iscas.ac.cn
