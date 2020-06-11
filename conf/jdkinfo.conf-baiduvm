@@ -1,0 +1,5 @@
+{
+	"client":"com.baidubce.services.bcc.BccClient",
+	"analyzer": "io.github.cloudpluslab.wukong.analyzer.RequestWithObjectPatternAnalyzer",
+	"kind":"BaiduVM"
+}

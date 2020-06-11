@@ -1,0 +1,6 @@
+<!-- https://mvnrepository.com/artifact/com.microsoft.azure/azure -->
+<dependency>
+	<groupId>com.microsoft.azure</groupId>
+	<artifactId>azure</artifactId>
+	<version>1.28.0</version>
+</dependency>

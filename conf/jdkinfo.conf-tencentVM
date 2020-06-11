@@ -1,0 +1,5 @@
+{
+	"client":"com.tencentcloudapi.cvm.v20170312.CvmClient",
+	"analyzer": "io.github.cloudpluslab.wukong.analyzer.RequestWithObjectPatternAnalyzer",
+	"kind":"TencentVM"
+}

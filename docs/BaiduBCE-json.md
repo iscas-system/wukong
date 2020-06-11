@@ -1,0 +1,744 @@
+## BindInstanceToTags parameterss:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"setChangeTags":[
+			"ref1-com.baidubce.services.bcc.model.TagModel"
+		],
+		"withInstanceId":"java.lang.String",
+		"withChangeTags":[
+			"ref2-com.baidubce.services.bcc.model.TagModel"
+		]
+	},
+	"ref1-com.baidubce.services.bcc.model.TagModel":{
+		"setTagValue":"java.lang.String",
+		"setTagKey":"java.lang.String",
+		"withTagKey":"java.lang.String",
+		"withTagValue":"java.lang.String"
+	},
+	"ref2-com.baidubce.services.bcc.model.TagModel":{
+		"setTagValue":"java.lang.String",
+		"setTagKey":"java.lang.String",
+		"withTagKey":"java.lang.String",
+		"withTagValue":"java.lang.String"
+	}
+}
+```
+## AttachVolume parameterss:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"setVolumeId":"java.lang.String",
+		"withInstanceId":"java.lang.String",
+		"withVolumeId":"java.lang.String"
+	}
+}
+```
+## DeleteImage parameterss:
+
+```
+{
+	"main":{
+		"setImageId":"java.lang.String",
+		"withImageId":"java.lang.String"
+	}
+}
+```
+## GetVolume parameterss:
+
+```
+{
+	"main":{
+		"setVolumeId":"java.lang.String",
+		"withVolumeId":"java.lang.String"
+	}
+}
+```
+## ModifyInstancePassword parameterss:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"setAdminPass":"java.lang.String",
+		"withInstanceId":"java.lang.String",
+		"withAdminPass":"java.lang.String"
+	}
+}
+```
+## ModifyInstanceAttributes parameterss:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"withInstanceId":"java.lang.String",
+		"withName":"java.lang.String",
+		"setName":"java.lang.String"
+	}
+}
+```
+## RebootInstance parameterss:
+
+```
+{
+	"main":{
+		"setForceStop":"boolean",
+		"setInstanceId":"java.lang.String",
+		"withInstanceId":"java.lang.String",
+		"withForceStop":"boolean"
+	}
+}
+```
+## CreateInstance parameterss:
+
+```
+{
+	"main":{
+		"setImageId":"java.lang.String",
+		"setPurchaseCount":"int",
+		"withClientToken":"java.lang.String",
+		"setCpuCount":"int",
+		"withCpuCount":"int",
+		"setMemoryCapacityInGB":"int",
+		"withMemoryCapacityInGB":"int",
+		"setSecurityGroupId":"java.lang.String",
+		"withPurchaseCount":"int",
+		"withInstanceType":"java.lang.String",
+		"setInstanceType":"java.lang.String",
+		"withEphemeralDisks":[
+			"ref1-com.baidubce.services.bcc.model.volume.EphemeralDisk"
+		],
+		"setEphemeralDisks":[
+			"ref2-com.baidubce.services.bcc.model.volume.EphemeralDisk"
+		],
+		"setLocalDiskSizeInGB":"int",
+		"withLocalDiskSizeInGB":"int",
+		"setCreateCdsList":[
+			"ref3-com.baidubce.services.bcc.model.CreateCdsModel"
+		],
+		"setClientToken":"java.lang.String",
+		"setBilling-setPaymentTiming":"java.lang.String",
+		"setBilling-withReservation-withReservationLength":"int",
+		"setBilling-withReservation-withReservationTimeUnit":"java.lang.String",
+		"setBilling-withReservation-setReservationLength":"int",
+		"setBilling-withReservation-setReservationTimeUnit":"java.lang.String",
+		"setBilling-withPaymentTiming":"java.lang.String",
+		"setBilling-setReservation-withReservationLength":"int",
+		"setBilling-setReservation-withReservationTimeUnit":"java.lang.String",
+		"setBilling-setReservation-setReservationLength":"int",
+		"setBilling-setReservation-setReservationTimeUnit":"java.lang.String",
+		"setAdminPass":"java.lang.String",
+		"withAdminPass":"java.lang.String",
+		"withImageId":"java.lang.String",
+		"withSecurityGroupId":"java.lang.String",
+		"withBilling-setPaymentTiming":"java.lang.String",
+		"withBilling-withReservation-withReservationLength":"int",
+		"withBilling-withReservation-withReservationTimeUnit":"java.lang.String",
+		"withBilling-withReservation-setReservationLength":"int",
+		"withBilling-withReservation-setReservationTimeUnit":"java.lang.String",
+		"withBilling-withPaymentTiming":"java.lang.String",
+		"withBilling-setReservation-withReservationLength":"int",
+		"withBilling-setReservation-withReservationTimeUnit":"java.lang.String",
+		"withBilling-setReservation-setReservationLength":"int",
+		"withBilling-setReservation-setReservationTimeUnit":"java.lang.String",
+		"withName":"java.lang.String",
+		"setDedicatedHostId":"java.lang.String",
+		"setZoneName":"java.lang.String",
+		"withDedicatedHostId":"java.lang.String",
+		"withZoneName":"java.lang.String",
+		"withCreateCdsList":[
+			"ref4-com.baidubce.services.bcc.model.CreateCdsModel"
+		],
+		"setNetworkCapacityInMbps":"int",
+		"withNetworkCapacityInMbps":"int",
+		"setRelationTag":"boolean",
+		"withRelationTag":"boolean",
+		"setTags":[
+			"ref5-com.baidubce.services.bcc.model.TagModel"
+		],
+		"withTags":[
+			"ref6-com.baidubce.services.bcc.model.TagModel"
+		],
+		"withSubnetId":"java.lang.String",
+		"setSubnetId":"java.lang.String",
+		"setCardCount":"int",
+		"withCardCount":"int",
+		"setName":"java.lang.String"
+	},
+	"ref1-com.baidubce.services.bcc.model.volume.EphemeralDisk":{
+		"setStorageType":"java.lang.String",
+		"withStorageType":"java.lang.String",
+		"setSizeInGB":"int",
+		"setFreeSizeInGB":"int",
+		"withSizeInGB":"int"
+	},
+	"ref2-com.baidubce.services.bcc.model.volume.EphemeralDisk":{
+		"setStorageType":"java.lang.String",
+		"withStorageType":"java.lang.String",
+		"setSizeInGB":"int",
+		"setFreeSizeInGB":"int",
+		"withSizeInGB":"int"
+	},
+	"ref3-com.baidubce.services.bcc.model.CreateCdsModel":{
+		"withCdsSizeInGB":"int",
+		"setStorageType":"java.lang.String",
+		"withStorageType":"java.lang.String",
+		"setSnapshotId":"java.lang.String",
+		"setCdsSizeInGB":"int",
+		"withSnapshotId":"java.lang.String"
+	},
+	"ref4-com.baidubce.services.bcc.model.CreateCdsModel":{
+		"withCdsSizeInGB":"int",
+		"setStorageType":"java.lang.String",
+		"withStorageType":"java.lang.String",
+		"setSnapshotId":"java.lang.String",
+		"setCdsSizeInGB":"int",
+		"withSnapshotId":"java.lang.String"
+	},
+	"ref5-com.baidubce.services.bcc.model.TagModel":{
+		"setTagValue":"java.lang.String",
+		"setTagKey":"java.lang.String",
+		"withTagKey":"java.lang.String",
+		"withTagValue":"java.lang.String"
+	},
+	"ref6-com.baidubce.services.bcc.model.TagModel":{
+		"setTagValue":"java.lang.String",
+		"setTagKey":"java.lang.String",
+		"withTagKey":"java.lang.String",
+		"withTagValue":"java.lang.String"
+	}
+}
+```
+## DeleteSnapshot parameterss:
+
+```
+{
+	"main":{
+		"setSnapshotId":"java.lang.String",
+		"withSnapshotId":"java.lang.String"
+	}
+}
+```
+## ResizeInstance parameterss:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"withClientToken":"java.lang.String",
+		"setCpuCount":"int",
+		"withCpuCount":"int",
+		"setMemoryCapacityInGB":"int",
+		"withMemoryCapacityInGB":"int",
+		"setClientToken":"java.lang.String",
+		"withInstanceId":"java.lang.String"
+	}
+}
+```
+## RollbackVolume parameterss:
+
+```
+{
+	"main":{
+		"setSnapshotId":"java.lang.String",
+		"setVolumeId":"java.lang.String",
+		"withVolumeId":"java.lang.String",
+		"withSnapshotId":"java.lang.String"
+	}
+}
+```
+## DeleteSecurityGroup parameterss:
+
+```
+{
+	"main":{
+		"setSecurityGroupId":"java.lang.String",
+		"withSecurityGroupId":"java.lang.String"
+	}
+}
+```
+## GetInstanceVnc parameterss:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"withInstanceId":"java.lang.String"
+	}
+}
+```
+## PurchaseReservedVolume parameterss:
+
+```
+{
+	"main":{
+		"withClientToken":"java.lang.String",
+		"setVolumeId":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setBilling-setPaymentTiming":"java.lang.String",
+		"setBilling-withReservation-withReservationLength":"int",
+		"setBilling-withReservation-withReservationTimeUnit":"java.lang.String",
+		"setBilling-withReservation-setReservationLength":"int",
+		"setBilling-withReservation-setReservationTimeUnit":"java.lang.String",
+		"setBilling-withPaymentTiming":"java.lang.String",
+		"setBilling-setReservation-withReservationLength":"int",
+		"setBilling-setReservation-withReservationTimeUnit":"java.lang.String",
+		"setBilling-setReservation-setReservationLength":"int",
+		"setBilling-setReservation-setReservationTimeUnit":"java.lang.String",
+		"withBilling-setPaymentTiming":"java.lang.String",
+		"withBilling-withReservation-withReservationLength":"int",
+		"withBilling-withReservation-withReservationTimeUnit":"java.lang.String",
+		"withBilling-withReservation-setReservationLength":"int",
+		"withBilling-withReservation-setReservationTimeUnit":"java.lang.String",
+		"withBilling-withPaymentTiming":"java.lang.String",
+		"withBilling-setReservation-withReservationLength":"int",
+		"withBilling-setReservation-withReservationTimeUnit":"java.lang.String",
+		"withBilling-setReservation-setReservationLength":"int",
+		"withBilling-setReservation-setReservationTimeUnit":"java.lang.String",
+		"withVolumeId":"java.lang.String"
+	}
+}
+```
+## CreateImage parameterss:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"withClientToken":"java.lang.String",
+		"setSnapshotId":"java.lang.String",
+		"setImageName":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"withInstanceId":"java.lang.String",
+		"withSnapshotId":"java.lang.String",
+		"withImageName":"java.lang.String"
+	}
+}
+```
+## ReleaseVolume parameterss:
+
+```
+{
+	"main":{
+		"setVolumeId":"java.lang.String",
+		"withVolumeId":"java.lang.String"
+	}
+}
+```
+## PurchaseReservedInstance parameterss:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"withClientToken":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setBilling-setPaymentTiming":"java.lang.String",
+		"setBilling-withReservation-withReservationLength":"int",
+		"setBilling-withReservation-withReservationTimeUnit":"java.lang.String",
+		"setBilling-withReservation-setReservationLength":"int",
+		"setBilling-withReservation-setReservationTimeUnit":"java.lang.String",
+		"setBilling-withPaymentTiming":"java.lang.String",
+		"setBilling-setReservation-withReservationLength":"int",
+		"setBilling-setReservation-withReservationTimeUnit":"java.lang.String",
+		"setBilling-setReservation-setReservationLength":"int",
+		"setBilling-setReservation-setReservationTimeUnit":"java.lang.String",
+		"withInstanceId":"java.lang.String",
+		"withBilling-setPaymentTiming":"java.lang.String",
+		"withBilling-withReservation-withReservationLength":"int",
+		"withBilling-withReservation-withReservationTimeUnit":"java.lang.String",
+		"withBilling-withReservation-setReservationLength":"int",
+		"withBilling-withReservation-setReservationTimeUnit":"java.lang.String",
+		"withBilling-withPaymentTiming":"java.lang.String",
+		"withBilling-setReservation-withReservationLength":"int",
+		"withBilling-setReservation-withReservationTimeUnit":"java.lang.String",
+		"withBilling-setReservation-setReservationLength":"int",
+		"withBilling-setReservation-setReservationTimeUnit":"java.lang.String"
+	}
+}
+```
+## DetachVolume parameterss:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"setVolumeId":"java.lang.String",
+		"withInstanceId":"java.lang.String",
+		"withVolumeId":"java.lang.String"
+	}
+}
+```
+## StopInstance parameterss:
+
+```
+{
+	"main":{
+		"setForceStop":"boolean",
+		"setInstanceId":"java.lang.String",
+		"withInstanceId":"java.lang.String",
+		"withForceStop":"boolean"
+	}
+}
+```
+## GetSnapshot parameterss:
+
+```
+{
+	"main":{
+		"setSnapshotId":"java.lang.String",
+		"withSnapshotId":"java.lang.String"
+	}
+}
+```
+## RebuildInstance parameterss:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"setImageId":"java.lang.String",
+		"setAdminPass":"java.lang.String",
+		"withInstanceId":"java.lang.String",
+		"withAdminPass":"java.lang.String",
+		"withImageId":"java.lang.String"
+	}
+}
+```
+## ReleaseInstance parameterss:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"withInstanceId":"java.lang.String"
+	}
+}
+```
+## UnbindInstanceFromTags parameterss:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"setChangeTags":[
+			"ref1-com.baidubce.services.bcc.model.TagModel"
+		],
+		"withInstanceId":"java.lang.String",
+		"withChangeTags":[
+			"ref2-com.baidubce.services.bcc.model.TagModel"
+		]
+	},
+	"ref1-com.baidubce.services.bcc.model.TagModel":{
+		"setTagValue":"java.lang.String",
+		"setTagKey":"java.lang.String",
+		"withTagKey":"java.lang.String",
+		"withTagValue":"java.lang.String"
+	},
+	"ref2-com.baidubce.services.bcc.model.TagModel":{
+		"setTagValue":"java.lang.String",
+		"setTagKey":"java.lang.String",
+		"withTagKey":"java.lang.String",
+		"withTagValue":"java.lang.String"
+	}
+}
+```
+## ResizeVolume parameterss:
+
+```
+{
+	"main":{
+		"withClientToken":"java.lang.String",
+		"setVolumeId":"java.lang.String",
+		"setNewCdsSizeInGB":"int",
+		"setClientToken":"java.lang.String",
+		"withVolumeId":"java.lang.String",
+		"withNewCdsSizeInGB":"int"
+	}
+}
+```
+## GetInstance parameterss:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"withInstanceId":"java.lang.String"
+	}
+}
+```
+## CreateSecurityGroup parameterss:
+
+```
+{
+	"main":{
+		"withClientToken":"java.lang.String",
+		"withRules":[
+			"ref1-com.baidubce.services.bcc.model.SecurityGroupRuleModel"
+		],
+		"setRules":[
+			"ref2-com.baidubce.services.bcc.model.SecurityGroupRuleModel"
+		],
+		"setVpcId":"java.lang.String",
+		"withVpcId":"java.lang.String",
+		"setDesc":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"withDesc":"java.lang.String",
+		"withName":"java.lang.String",
+		"setName":"java.lang.String"
+	},
+	"ref1-com.baidubce.services.bcc.model.SecurityGroupRuleModel":{
+		"setSecurityGroupId":"java.lang.String",
+		"setProtocol":"java.lang.String",
+		"withProtocol":"java.lang.String",
+		"withSecurityGroupId":"java.lang.String",
+		"setDirection":"java.lang.String",
+		"withDirection":"java.lang.String",
+		"setEthertype":"java.lang.String",
+		"withEthertype":"java.lang.String",
+		"setPortRange":"java.lang.String",
+		"withPortRange":"java.lang.String",
+		"setSourceGroupId":"java.lang.String",
+		"withSourceGroupId":"java.lang.String",
+		"setSourceIp":"java.lang.String",
+		"withSourceIp":"java.lang.String",
+		"setDestGroupId":"java.lang.String",
+		"withDestGroupId":"java.lang.String",
+		"setDestIp":"java.lang.String",
+		"withDestIp":"java.lang.String",
+		"setRemark":"java.lang.String",
+		"withRemark":"java.lang.String"
+	},
+	"ref2-com.baidubce.services.bcc.model.SecurityGroupRuleModel":{
+		"setSecurityGroupId":"java.lang.String",
+		"setProtocol":"java.lang.String",
+		"withProtocol":"java.lang.String",
+		"withSecurityGroupId":"java.lang.String",
+		"setDirection":"java.lang.String",
+		"withDirection":"java.lang.String",
+		"setEthertype":"java.lang.String",
+		"withEthertype":"java.lang.String",
+		"setPortRange":"java.lang.String",
+		"withPortRange":"java.lang.String",
+		"setSourceGroupId":"java.lang.String",
+		"withSourceGroupId":"java.lang.String",
+		"setSourceIp":"java.lang.String",
+		"withSourceIp":"java.lang.String",
+		"setDestGroupId":"java.lang.String",
+		"withDestGroupId":"java.lang.String",
+		"setDestIp":"java.lang.String",
+		"withDestIp":"java.lang.String",
+		"setRemark":"java.lang.String",
+		"withRemark":"java.lang.String"
+	}
+}
+```
+## AuthorizeSecurityGroupRule parameterss:
+
+```
+{
+	"main":{
+		"withClientToken":"java.lang.String",
+		"setSecurityGroupId":"java.lang.String",
+		"setRule-setSecurityGroupId":"java.lang.String",
+		"setRule-setProtocol":"java.lang.String",
+		"setRule-withProtocol":"java.lang.String",
+		"setRule-withSecurityGroupId":"java.lang.String",
+		"setRule-setDirection":"java.lang.String",
+		"setRule-withDirection":"java.lang.String",
+		"setRule-setEthertype":"java.lang.String",
+		"setRule-withEthertype":"java.lang.String",
+		"setRule-setPortRange":"java.lang.String",
+		"setRule-withPortRange":"java.lang.String",
+		"setRule-setSourceGroupId":"java.lang.String",
+		"setRule-withSourceGroupId":"java.lang.String",
+		"setRule-setSourceIp":"java.lang.String",
+		"setRule-withSourceIp":"java.lang.String",
+		"setRule-setDestGroupId":"java.lang.String",
+		"setRule-withDestGroupId":"java.lang.String",
+		"setRule-setDestIp":"java.lang.String",
+		"setRule-withDestIp":"java.lang.String",
+		"setRule-setRemark":"java.lang.String",
+		"setRule-withRemark":"java.lang.String",
+		"withRule-setSecurityGroupId":"java.lang.String",
+		"withRule-setProtocol":"java.lang.String",
+		"withRule-withProtocol":"java.lang.String",
+		"withRule-withSecurityGroupId":"java.lang.String",
+		"withRule-setDirection":"java.lang.String",
+		"withRule-withDirection":"java.lang.String",
+		"withRule-setEthertype":"java.lang.String",
+		"withRule-withEthertype":"java.lang.String",
+		"withRule-setPortRange":"java.lang.String",
+		"withRule-withPortRange":"java.lang.String",
+		"withRule-setSourceGroupId":"java.lang.String",
+		"withRule-withSourceGroupId":"java.lang.String",
+		"withRule-setSourceIp":"java.lang.String",
+		"withRule-withSourceIp":"java.lang.String",
+		"withRule-setDestGroupId":"java.lang.String",
+		"withRule-withDestGroupId":"java.lang.String",
+		"withRule-setDestIp":"java.lang.String",
+		"withRule-withDestIp":"java.lang.String",
+		"withRule-setRemark":"java.lang.String",
+		"withRule-withRemark":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"withSecurityGroupId":"java.lang.String"
+	}
+}
+```
+## BindInstanceToSecurityGroup parameterss:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"setSecurityGroupId":"java.lang.String",
+		"withInstanceId":"java.lang.String",
+		"withSecurityGroupId":"java.lang.String"
+	}
+}
+```
+## GetImage parameterss:
+
+```
+{
+	"main":{
+		"setImageId":"java.lang.String",
+		"withImageId":"java.lang.String"
+	}
+}
+```
+## UnbindInstanceFromSecurityGroup parameterss:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"setSecurityGroupId":"java.lang.String",
+		"withInstanceId":"java.lang.String",
+		"withSecurityGroupId":"java.lang.String"
+	}
+}
+```
+## CreateVolume parameterss:
+
+```
+{
+	"main":{
+		"setPurchaseCount":"int",
+		"withClientToken":"java.lang.String",
+		"withCdsSizeInGB":"int",
+		"setStorageType":"java.lang.String",
+		"withStorageType":"java.lang.String",
+		"setSnapshotId":"java.lang.String",
+		"withPurchaseCount":"int",
+		"setCdsSizeInGB":"int",
+		"setClientToken":"java.lang.String",
+		"setBilling-setPaymentTiming":"java.lang.String",
+		"setBilling-withReservation-withReservationLength":"int",
+		"setBilling-withReservation-withReservationTimeUnit":"java.lang.String",
+		"setBilling-withReservation-setReservationLength":"int",
+		"setBilling-withReservation-setReservationTimeUnit":"java.lang.String",
+		"setBilling-withPaymentTiming":"java.lang.String",
+		"setBilling-setReservation-withReservationLength":"int",
+		"setBilling-setReservation-withReservationTimeUnit":"java.lang.String",
+		"setBilling-setReservation-setReservationLength":"int",
+		"setBilling-setReservation-setReservationTimeUnit":"java.lang.String",
+		"withBilling-setPaymentTiming":"java.lang.String",
+		"withBilling-withReservation-withReservationLength":"int",
+		"withBilling-withReservation-withReservationTimeUnit":"java.lang.String",
+		"withBilling-withReservation-setReservationLength":"int",
+		"withBilling-withReservation-setReservationTimeUnit":"java.lang.String",
+		"withBilling-withPaymentTiming":"java.lang.String",
+		"withBilling-setReservation-withReservationLength":"int",
+		"withBilling-setReservation-withReservationTimeUnit":"java.lang.String",
+		"withBilling-setReservation-setReservationLength":"int",
+		"withBilling-setReservation-setReservationTimeUnit":"java.lang.String",
+		"withSnapshotId":"java.lang.String",
+		"setZoneName":"java.lang.String",
+		"withZoneName":"java.lang.String"
+	}
+}
+```
+## RevokeSecurityGroupRule parameterss:
+
+```
+{
+	"main":{
+		"withClientToken":"java.lang.String",
+		"setSecurityGroupId":"java.lang.String",
+		"setRule-setSecurityGroupId":"java.lang.String",
+		"setRule-setProtocol":"java.lang.String",
+		"setRule-withProtocol":"java.lang.String",
+		"setRule-withSecurityGroupId":"java.lang.String",
+		"setRule-setDirection":"java.lang.String",
+		"setRule-withDirection":"java.lang.String",
+		"setRule-setEthertype":"java.lang.String",
+		"setRule-withEthertype":"java.lang.String",
+		"setRule-setPortRange":"java.lang.String",
+		"setRule-withPortRange":"java.lang.String",
+		"setRule-setSourceGroupId":"java.lang.String",
+		"setRule-withSourceGroupId":"java.lang.String",
+		"setRule-setSourceIp":"java.lang.String",
+		"setRule-withSourceIp":"java.lang.String",
+		"setRule-setDestGroupId":"java.lang.String",
+		"setRule-withDestGroupId":"java.lang.String",
+		"setRule-setDestIp":"java.lang.String",
+		"setRule-withDestIp":"java.lang.String",
+		"setRule-setRemark":"java.lang.String",
+		"setRule-withRemark":"java.lang.String",
+		"withRule-setSecurityGroupId":"java.lang.String",
+		"withRule-setProtocol":"java.lang.String",
+		"withRule-withProtocol":"java.lang.String",
+		"withRule-withSecurityGroupId":"java.lang.String",
+		"withRule-setDirection":"java.lang.String",
+		"withRule-withDirection":"java.lang.String",
+		"withRule-setEthertype":"java.lang.String",
+		"withRule-withEthertype":"java.lang.String",
+		"withRule-setPortRange":"java.lang.String",
+		"withRule-withPortRange":"java.lang.String",
+		"withRule-setSourceGroupId":"java.lang.String",
+		"withRule-withSourceGroupId":"java.lang.String",
+		"withRule-setSourceIp":"java.lang.String",
+		"withRule-withSourceIp":"java.lang.String",
+		"withRule-setDestGroupId":"java.lang.String",
+		"withRule-withDestGroupId":"java.lang.String",
+		"withRule-setDestIp":"java.lang.String",
+		"withRule-withDestIp":"java.lang.String",
+		"withRule-setRemark":"java.lang.String",
+		"withRule-withRemark":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"withSecurityGroupId":"java.lang.String"
+	}
+}
+```
+## StartInstance parameterss:
+
+```
+{
+	"main":{
+		"setInstanceId":"java.lang.String",
+		"withInstanceId":"java.lang.String"
+	}
+}
+```
+## CreateSnapshot parameterss:
+
+```
+{
+	"main":{
+		"withClientToken":"java.lang.String",
+		"setVolumeId":"java.lang.String",
+		"setSnapshotName":"java.lang.String",
+		"setDesc":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"withVolumeId":"java.lang.String",
+		"withSnapshotName":"java.lang.String",
+		"withDesc":"java.lang.String"
+	}
+}
+```

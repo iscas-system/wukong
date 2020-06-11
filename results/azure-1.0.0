@@ -1,0 +1,8400 @@
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinesinner.createorupdateasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":{
+				"availabilitySet":{
+					"id":"String"
+				},
+				"licenseType":"String",
+				"instanceView":{
+					"bootDiagnostics":{
+						"consoleScreenshotBlobUri":"String",
+						"serialConsoleLogBlobUri":"String"
+					},
+					"platformUpdateDomain":1,
+					"vmAgent":{
+						"vmAgentVersion":"String"
+					},
+					"platformFaultDomain":1,
+					"rdpThumbPrint":"String"
+				},
+				"hardwareProfile":{
+					"vmSize":{
+						"value":"String"
+					}
+				},
+				"vmId":"String",
+				"identity":{
+					"tenantId":"String",
+  
+ 
+   
+ 
+			 
+							
+				  
+					 
+									
+					  
+   
+									  
+				  
+		 
+				
+  
+ 
+   
+ 
+			 
+							
+				  
+					 
+										   
+					  
+   
+									  
+				  
+		 
+			   
+					"principalId":"String",
+					
+			
+					"type":{
+						"value":"String"
+					}
+				},
+				"storageProfile":{
+										  
+				   
+	  
+		   
+					 
+			  
+	  
+				  
+	
+   
+  
+ 
+   
+ 
+			 
+							
+				  
+					 
+										   
+					  
+   
+									  
+				  
+		 
+			   
+					
+					
+			
+				
+						 
+	
+   
+  
+ 
+   
+ 
+			 
+							
+				  
+					 
+															  
+					  
+   
+									  
+				  
+		 
+			   
+					
+				   
+   
+  
+ 
+   
+ 
+			 
+							
+				  
+					 
+																	  
+					  
+   
+									  
+				  
+		 
+			   
+					
+					
+			
+						 
+			  
+					 
+	  
+					
+								 
+						 
+						  
+							   
+					"imageReference":{
+						"offer":"String",
+						"publisher":"String",
+						"sku":"String",
+						"version":"String"
+					},
+					"osDisk":{
+						"image":{
+							"uri":"String"
+						},
+						"vhd":{
+							"uri":"String"
+						},
+						"managedDisk":{
+							"storageAccountType":{
+								"value":"String"
+							}
+						},
+						"osType":{
+							"value":"String"
+						},
+						"name":"String",
+						"caching":{
+							"value":"String"
+						},
+						"createOption":{
+							"value":"String"
+						},
+						"encryptionSettings":{
+							"diskEncryptionKey":{
+								"secretUrl":"String",
+								"sourceVault":{
+									"id":"String"
+								}
+							},
+							"keyEncryptionKey":{
+								"sourceVault":{
+									"id":"String"
+								},
+								"keyUrl":"String"
+							},
+							"enabled":true
+						},
+						"diskSizeGB":1
+					}
+				},
+				"networkProfile":{},
+				"diagnosticsProfile":{
+					"bootDiagnostics":{
+						"storageUri":"String",
+						"enabled":true
+					}
+				},
+						  
+					 
+				"provisioningState":"String",
+					   
+				"plan":{
+					"product":"String",
+					"name":"String",
+					"promotionCode":"String",
+					"publisher":"String"
+				},
+				"osProfile":{
+									
+					"adminUsername":"String",
+				   
+	  
+					"computerName":"String",
+					"linuxConfiguration":{
+						"disablePasswordAuthentication":true,
+						"ssh":{}
+  
+ 
+   
+ 
+			 
+							
+				  
+					 
+															  
+					  
+   
+									  
+				  
+		 
+			   
+					
+					
+			
+				
+						 
+	
+   
+  
+ 
+   
+ 
+			 
+							
+				  
+					 
+																 
+					  
+					},
+									  
+				  
+		 
+			   
+					
+					
+			
+					"customData":"String",
+					"windowsConfiguration":{
+						"provisionVMAgent":true,
+	  
+					
+								 
+						 
+						"timeZone":"String",
+						"winRM":{},
+						"enableAutomaticUpdates":true
+			  
+				   
+					},
+					   
+					"adminPassword":"String"
+				}
+						  
+					 
+								 
+					   
+		   
+					 
+			  
+	  
+					  
+									
+										  
+				   
+	  
+						
+				  
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"usagesinner.listasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"usagesinner.listnextasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"usagesinner.listwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"usagesinner.listnextwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"usagesinner.listsinglepageasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"usagesinner.listnextsinglepageasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"imagesinner.listasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"imagesinner.deleteasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"imagesinner.begindeleteasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"imagesinner.listnextasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"imagesinner.createorupdateasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":{
+				"sourceVirtualMachine":{
+					"id":"String"
+				},
+				"storageProfile":{
+					"osDisk":{
+						"osState":{
+							"value":"String"
+						},
+						"managedDisk":{
+							"id":"String"
+						},
+						"blobUri":"String",
+						"osType":{
+							"value":"String"
+						},
+						"caching":{
+							"value":"String"
+						},
+						"snapshot":{
+							"id":"String"
+						},
+						"diskSizeGB":1
+					}
+				},
+				"provisioningState":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"imagesinner.listwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"imagesinner.listnextwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"imagesinner.listsinglepageasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"imagesinner.listnextsinglepageasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"imagesinner.listbyresourcegroupnextasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"imagesinner.listbyresourcegroupasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"imagesinner.deletewithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"imagesinner.getbyresourcegroupasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"imagesinner.getbyresourcegroupasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"imagesinner.begincreateorupdateasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":{
+				"sourceVirtualMachine":{
+					"id":"String"
+				},
+				"storageProfile":{
+					"osDisk":{
+						"osState":{
+							"value":"String"
+						},
+						"managedDisk":{
+							"id":"String"
+						},
+						"blobUri":"String",
+						"osType":{
+							"value":"String"
+						},
+						"caching":{
+							"value":"String"
+						},
+						"snapshot":{
+							"id":"String"
+						},
+						"diskSizeGB":1
+					}
+				},
+				"provisioningState":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"imagesinner.getbyresourcegroupwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"imagesinner.getbyresourcegroupwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"imagesinner.createorupdatewithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":{
+				"sourceVirtualMachine":{
+					"id":"String"
+				},
+				"storageProfile":{
+					"osDisk":{
+						"osState":{
+							"value":"String"
+						},
+						"managedDisk":{
+							"id":"String"
+						},
+						"blobUri":"String",
+						"osType":{
+							"value":"String"
+						},
+						"caching":{
+							"value":"String"
+						},
+						"snapshot":{
+							"id":"String"
+						},
+						"diskSizeGB":1
+					}
+				},
+				"provisioningState":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"imagesinner.listbyresourcegroupnextwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"imagesinner.listbyresourcegroupnextsinglepageasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"imagesinner.listbyresourcegroupsinglepageasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"imagesinner.begindeletewithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"imagesinner.listbyresourcegroupwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"imagesinner.begincreateorupdatewithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":{
+				"sourceVirtualMachine":{
+					"id":"String"
+				},
+				"storageProfile":{
+					"osDisk":{
+						"osState":{
+							"value":"String"
+						},
+						"managedDisk":{
+							"id":"String"
+						},
+						"blobUri":"String",
+						"osType":{
+							"value":"String"
+						},
+						"caching":{
+							"value":"String"
+						},
+						"snapshot":{
+							"id":"String"
+						},
+						"diskSizeGB":1
+					}
+				},
+				"provisioningState":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"disksinner.beginupdatewithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":{
+				"accountType":{
+					"value":"String"
+				},
+				"osType":{
+					"value":"String"
+				},
+				"creationData":{
+					"storageAccountId":"String",
+					"sourceUri":"String",
+					"imageReference":{
+						"lun":1,
+						"id":"String"
+					},
+					"createOption":{
+						"value":"String"
+					},
+					"sourceResourceId":"String"
+				},
+				"diskSizeGB":1,
+				"encryptionSettings":{
+					"diskEncryptionKey":{
+						"secretUrl":"String",
+						"sourceVault":{
+							"id":"String"
+						}
+					},
+					"enabled":true,
+					"keyEncryptionKey":{
+						"sourceVault":{
+							"id":"String"
+						},
+						"keyUrl":"String"
+					}
+				}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"disksinner.beginupdateasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":{
+				"accountType":{
+					"value":"String"
+				},
+				"osType":{
+					"value":"String"
+				},
+				"creationData":{
+					"storageAccountId":"String",
+					"sourceUri":"String",
+					"imageReference":{
+						"lun":1,
+						"id":"String"
+					},
+					"createOption":{
+						"value":"String"
+					},
+					"sourceResourceId":"String"
+				},
+				"diskSizeGB":1,
+				"encryptionSettings":{
+					"diskEncryptionKey":{
+						"secretUrl":"String",
+						"sourceVault":{
+							"id":"String"
+						}
+					},
+					"enabled":true,
+					"keyEncryptionKey":{
+						"sourceVault":{
+							"id":"String"
+						},
+						"keyUrl":"String"
+					}
+				}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"disksinner.grantaccessasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":{
+				"access":{
+					"value":"String"
+				},
+				"durationInSeconds":1
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"disksinner.updateasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":{
+				"accountType":{
+					"value":"String"
+				},
+				"osType":{
+					"value":"String"
+				},
+				"creationData":{
+					"storageAccountId":"String",
+					"sourceUri":"String",
+					"imageReference":{
+						"lun":1,
+						"id":"String"
+					},
+					"createOption":{
+						"value":"String"
+					},
+					"sourceResourceId":"String"
+				},
+				"diskSizeGB":1,
+				"encryptionSettings":{
+					"diskEncryptionKey":{
+						"secretUrl":"String",
+						"sourceVault":{
+							"id":"String"
+						}
+					},
+					"enabled":true,
+					"keyEncryptionKey":{
+						"sourceVault":{
+							"id":"String"
+						},
+						"keyUrl":"String"
+					}
+				}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"disksinner.listasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"disksinner.deleteasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"disksinner.begindeleteasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"disksinner.listnextasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"disksinner.createorupdateasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":{
+				"accountType":{
+					"value":"String"
+				},
+				"osType":{
+					"value":"String"
+				},
+				"creationData":{
+					"storageAccountId":"String",
+					"sourceUri":"String",
+					"imageReference":{
+						"lun":1,
+						"id":"String"
+					},
+					"createOption":{
+						"value":"String"
+					},
+					"sourceResourceId":"String"
+				},
+				"timeCreated":{},
+				"provisioningState":"String",
+				"ownerId":"String",
+				"diskSizeGB":1,
+				"encryptionSettings":{
+					"diskEncryptionKey":{
+						"secretUrl":"String",
+						"sourceVault":{
+							"id":"String"
+						}
+					},
+					"enabled":true,
+					"keyEncryptionKey":{
+						"sourceVault":{
+							"id":"String"
+						},
+						"keyUrl":"String"
+					}
+				}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"disksinner.listwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"disksinner.listnextwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"disksinner.listsinglepageasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"disksinner.listnextsinglepageasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"disksinner.listbyresourcegroupnextasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"disksinner.begingrantaccessasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":{
+				"access":{
+					"value":"String"
+				},
+				"durationInSeconds":1
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"disksinner.listbyresourcegroupasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"disksinner.deletewithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"disksinner.getbyresourcegroupasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"disksinner.begincreateorupdateasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":{
+				"accountType":{
+					"value":"String"
+				},
+				"osType":{
+					"value":"String"
+				},
+				"creationData":{
+					"storageAccountId":"String",
+					"sourceUri":"String",
+					"imageReference":{
+						"lun":1,
+						"id":"String"
+					},
+					"createOption":{
+						"value":"String"
+					},
+					"sourceResourceId":"String"
+				},
+				"timeCreated":{},
+				"provisioningState":"String",
+				"ownerId":"String",
+				"diskSizeGB":1,
+				"encryptionSettings":{
+					"diskEncryptionKey":{
+						"secretUrl":"String",
+						"sourceVault":{
+							"id":"String"
+						}
+					},
+					"enabled":true,
+					"keyEncryptionKey":{
+						"sourceVault":{
+							"id":"String"
+						},
+						"keyUrl":"String"
+					}
+				}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"disksinner.beginrevokeaccessasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"disksinner.revokeaccessasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"disksinner.updatewithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":{
+				"accountType":{
+					"value":"String"
+				},
+				"osType":{
+					"value":"String"
+				},
+				"creationData":{
+					"storageAccountId":"String",
+					"sourceUri":"String",
+					"imageReference":{
+						"lun":1,
+						"id":"String"
+					},
+					"createOption":{
+						"value":"String"
+					},
+					"sourceResourceId":"String"
+				},
+				"diskSizeGB":1,
+				"encryptionSettings":{
+					"diskEncryptionKey":{
+						"secretUrl":"String",
+						"sourceVault":{
+							"id":"String"
+						}
+					},
+					"enabled":true,
+					"keyEncryptionKey":{
+						"sourceVault":{
+							"id":"String"
+						},
+						"keyUrl":"String"
+					}
+				}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"disksinner.beginrevokeaccesswithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"disksinner.begingrantaccesswithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":{
+				"access":{
+					"value":"String"
+				},
+				"durationInSeconds":1
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"disksinner.revokeaccesswithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"disksinner.grantaccesswithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":{
+				"access":{
+					"value":"String"
+				},
+				"durationInSeconds":1
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"disksinner.getbyresourcegroupwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"disksinner.createorupdatewithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":{
+				"accountType":{
+					"value":"String"
+				},
+				"osType":{
+					"value":"String"
+				},
+				"creationData":{
+					"storageAccountId":"String",
+					"sourceUri":"String",
+					"imageReference":{
+						"lun":1,
+						"id":"String"
+					},
+					"createOption":{
+						"value":"String"
+					},
+					"sourceResourceId":"String"
+				},
+				"timeCreated":{},
+				"provisioningState":"String",
+				"ownerId":"String",
+				"diskSizeGB":1,
+				"encryptionSettings":{
+					"diskEncryptionKey":{
+						"secretUrl":"String",
+						"sourceVault":{
+							"id":"String"
+						}
+					},
+					"enabled":true,
+					"keyEncryptionKey":{
+						"sourceVault":{
+							"id":"String"
+						},
+						"keyUrl":"String"
+					}
+				}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"disksinner.listbyresourcegroupnextwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"disksinner.listbyresourcegroupnextsinglepageasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"disksinner.listbyresourcegroupsinglepageasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"disksinner.begindeletewithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"disksinner.listbyresourcegroupwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"disksinner.begincreateorupdatewithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":{
+				"accountType":{
+					"value":"String"
+				},
+				"osType":{
+					"value":"String"
+				},
+				"creationData":{
+					"storageAccountId":"String",
+					"sourceUri":"String",
+					"imageReference":{
+						"lun":1,
+						"id":"String"
+					},
+					"createOption":{
+						"value":"String"
+					},
+					"sourceResourceId":"String"
+				},
+				"timeCreated":{},
+				"provisioningState":"String",
+				"ownerId":"String",
+				"diskSizeGB":1,
+				"encryptionSettings":{
+					"diskEncryptionKey":{
+						"secretUrl":"String",
+						"sourceVault":{
+							"id":"String"
+						}
+					},
+					"enabled":true,
+					"keyEncryptionKey":{
+						"sourceVault":{
+							"id":"String"
+						},
+						"keyUrl":"String"
+					}
+				}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"snapshotsinner.beginupdatewithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":{
+				"accountType":{
+					"value":"String"
+				},
+				"osType":{
+					"value":"String"
+				},
+				"creationData":{
+					"storageAccountId":"String",
+					"sourceUri":"String",
+					"imageReference":{
+						"lun":1,
+						"id":"String"
+					},
+					"createOption":{
+						"value":"String"
+					},
+					"sourceResourceId":"String"
+				},
+				"diskSizeGB":1,
+				"encryptionSettings":{
+					"diskEncryptionKey":{
+						"secretUrl":"String",
+						"sourceVault":{
+							"id":"String"
+						}
+					},
+					"enabled":true,
+					"keyEncryptionKey":{
+						"sourceVault":{
+							"id":"String"
+						},
+						"keyUrl":"String"
+					}
+				}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"snapshotsinner.beginupdateasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":{
+				"accountType":{
+					"value":"String"
+				},
+				"osType":{
+					"value":"String"
+				},
+				"creationData":{
+					"storageAccountId":"String",
+					"sourceUri":"String",
+					"imageReference":{
+						"lun":1,
+						"id":"String"
+					},
+					"createOption":{
+						"value":"String"
+					},
+					"sourceResourceId":"String"
+				},
+				"diskSizeGB":1,
+				"encryptionSettings":{
+					"diskEncryptionKey":{
+						"secretUrl":"String",
+						"sourceVault":{
+							"id":"String"
+						}
+					},
+					"enabled":true,
+					"keyEncryptionKey":{
+						"sourceVault":{
+							"id":"String"
+						},
+						"keyUrl":"String"
+					}
+				}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"snapshotsinner.grantaccessasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":{
+				"access":{
+					"value":"String"
+				},
+				"durationInSeconds":1
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"snapshotsinner.updateasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":{
+				"accountType":{
+					"value":"String"
+				},
+				"osType":{
+					"value":"String"
+				},
+				"creationData":{
+					"storageAccountId":"String",
+					"sourceUri":"String",
+					"imageReference":{
+						"lun":1,
+						"id":"String"
+					},
+					"createOption":{
+						"value":"String"
+					},
+					"sourceResourceId":"String"
+				},
+				"diskSizeGB":1,
+				"encryptionSettings":{
+					"diskEncryptionKey":{
+						"secretUrl":"String",
+						"sourceVault":{
+							"id":"String"
+						}
+					},
+					"enabled":true,
+					"keyEncryptionKey":{
+						"sourceVault":{
+							"id":"String"
+						},
+						"keyUrl":"String"
+					}
+				}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"snapshotsinner.listasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"snapshotsinner.deleteasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"snapshotsinner.begindeleteasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"snapshotsinner.listnextasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"snapshotsinner.createorupdateasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":{
+				"accountType":{
+					"value":"String"
+				},
+				"osType":{
+					"value":"String"
+				},
+				"creationData":{
+					"storageAccountId":"String",
+					"sourceUri":"String",
+					"imageReference":{
+						"lun":1,
+						"id":"String"
+					},
+					"createOption":{
+						"value":"String"
+					},
+					"sourceResourceId":"String"
+				},
+				"timeCreated":{},
+				"provisioningState":"String",
+				"ownerId":"String",
+				"diskSizeGB":1,
+				"encryptionSettings":{
+					"diskEncryptionKey":{
+						"secretUrl":"String",
+						"sourceVault":{
+							"id":"String"
+						}
+					},
+					"enabled":true,
+					"keyEncryptionKey":{
+						"sourceVault":{
+							"id":"String"
+						},
+						"keyUrl":"String"
+					}
+				}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"snapshotsinner.listwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"snapshotsinner.listnextwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"snapshotsinner.listsinglepageasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"snapshotsinner.listnextsinglepageasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"snapshotsinner.listbyresourcegroupnextasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"snapshotsinner.begingrantaccessasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":{
+				"access":{
+					"value":"String"
+				},
+				"durationInSeconds":1
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"snapshotsinner.listbyresourcegroupasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"snapshotsinner.deletewithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"snapshotsinner.getbyresourcegroupasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"snapshotsinner.begincreateorupdateasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":{
+				"accountType":{
+					"value":"String"
+				},
+				"osType":{
+					"value":"String"
+				},
+				"creationData":{
+					"storageAccountId":"String",
+					"sourceUri":"String",
+					"imageReference":{
+						"lun":1,
+						"id":"String"
+					},
+					"createOption":{
+						"value":"String"
+					},
+					"sourceResourceId":"String"
+				},
+				"timeCreated":{},
+				"provisioningState":"String",
+				"ownerId":"String",
+				"diskSizeGB":1,
+				"encryptionSettings":{
+					"diskEncryptionKey":{
+						"secretUrl":"String",
+						"sourceVault":{
+							"id":"String"
+						}
+					},
+					"enabled":true,
+					"keyEncryptionKey":{
+						"sourceVault":{
+							"id":"String"
+						},
+						"keyUrl":"String"
+					}
+				}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"snapshotsinner.beginrevokeaccessasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"snapshotsinner.revokeaccessasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"snapshotsinner.updatewithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":{
+				"accountType":{
+					"value":"String"
+				},
+				"osType":{
+					"value":"String"
+				},
+				"creationData":{
+					"storageAccountId":"String",
+					"sourceUri":"String",
+					"imageReference":{
+						"lun":1,
+						"id":"String"
+					},
+					"createOption":{
+						"value":"String"
+					},
+					"sourceResourceId":"String"
+				},
+				"diskSizeGB":1,
+				"encryptionSettings":{
+					"diskEncryptionKey":{
+						"secretUrl":"String",
+						"sourceVault":{
+							"id":"String"
+						}
+					},
+					"enabled":true,
+					"keyEncryptionKey":{
+						"sourceVault":{
+							"id":"String"
+						},
+						"keyUrl":"String"
+					}
+				}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"snapshotsinner.beginrevokeaccesswithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"snapshotsinner.begingrantaccesswithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":{
+				"access":{
+					"value":"String"
+				},
+				"durationInSeconds":1
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"snapshotsinner.revokeaccesswithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"snapshotsinner.grantaccesswithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":{
+				"access":{
+					"value":"String"
+				},
+				"durationInSeconds":1
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"snapshotsinner.getbyresourcegroupwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"snapshotsinner.createorupdatewithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":{
+				"accountType":{
+					"value":"String"
+				},
+				"osType":{
+					"value":"String"
+				},
+				"creationData":{
+					"storageAccountId":"String",
+					"sourceUri":"String",
+					"imageReference":{
+						"lun":1,
+						"id":"String"
+					},
+					"createOption":{
+						"value":"String"
+					},
+					"sourceResourceId":"String"
+				},
+				"timeCreated":{},
+				"provisioningState":"String",
+				"ownerId":"String",
+				"diskSizeGB":1,
+				"encryptionSettings":{
+					"diskEncryptionKey":{
+						"secretUrl":"String",
+						"sourceVault":{
+							"id":"String"
+						}
+					},
+					"enabled":true,
+					"keyEncryptionKey":{
+						"sourceVault":{
+							"id":"String"
+						},
+						"keyUrl":"String"
+					}
+				}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"snapshotsinner.listbyresourcegroupnextwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"snapshotsinner.listbyresourcegroupnextsinglepageasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"snapshotsinner.listbyresourcegroupsinglepageasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"snapshotsinner.begindeletewithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"snapshotsinner.listbyresourcegroupwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"snapshotsinner.begincreateorupdatewithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":{
+				"accountType":{
+					"value":"String"
+				},
+				"osType":{
+					"value":"String"
+				},
+				"creationData":{
+					"storageAccountId":"String",
+					"sourceUri":"String",
+					"imageReference":{
+						"lun":1,
+						"id":"String"
+					},
+					"createOption":{
+						"value":"String"
+					},
+					"sourceResourceId":"String"
+				},
+				"timeCreated":{},
+				"provisioningState":"String",
+				"ownerId":"String",
+				"diskSizeGB":1,
+				"encryptionSettings":{
+					"diskEncryptionKey":{
+						"secretUrl":"String",
+						"sourceVault":{
+							"id":"String"
+						}
+					},
+					"enabled":true,
+					"keyEncryptionKey":{
+						"sourceVault":{
+							"id":"String"
+						},
+						"keyUrl":"String"
+					}
+				}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"azureclient.access$100",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":{
+				"longRunningOperationRetryTimeout":1
+			},
+			"_arg1":{
+				"retryTimeout":1,
+				"response":{},
+				"locationHeaderLink":"String",
+				"serializerAdapter":{},
+				"error":{
+					"code":"String",
+					"message":"String",
+					"target":"String"
+				},
+				"azureAsyncOperationHeaderLink":"String",
+				"status":"String"
+			},
+			"_arg2":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"azureclient.access$200",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":{
+				"longRunningOperationRetryTimeout":1
+			},
+			"_arg1":{
+				"retryTimeout":1,
+				"response":{},
+				"locationHeaderLink":"String",
+				"serializerAdapter":{},
+				"error":{
+					"code":"String",
+					"message":"String",
+					"target":"String"
+				},
+				"azureAsyncOperationHeaderLink":"String",
+				"status":"String"
+			},
+			"_arg2":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"azureclient.access$300",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":{
+				"longRunningOperationRetryTimeout":1
+			},
+			"_arg1":{
+				"retryTimeout":1,
+				"response":{},
+				"locationHeaderLink":"String",
+				"serializerAdapter":{},
+				"error":{
+					"code":"String",
+					"message":"String",
+					"target":"String"
+				},
+				"azureAsyncOperationHeaderLink":"String",
+				"status":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"azureclient.updatestatefromazureasyncoperationheaderonpostordeleteasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":{
+				"retryTimeout":1,
+				"response":{},
+				"locationHeaderLink":"String",
+				"serializerAdapter":{},
+				"error":{
+					"code":"String",
+					"message":"String",
+					"target":"String"
+				},
+				"azureAsyncOperationHeaderLink":"String",
+				"status":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"azureclient.updatestatefromazureasyncoperationheaderonputasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":{
+				"retryTimeout":1,
+				"response":{},
+				"locationHeaderLink":"String",
+				"serializerAdapter":{},
+				"error":{
+					"code":"String",
+					"message":"String",
+					"target":"String"
+				},
+				"azureAsyncOperationHeaderLink":"String",
+				"status":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"azureclient.pollasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"azureclient.putorpatchpollingdispatcher",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":{
+				"retryTimeout":1,
+				"response":{},
+				"locationHeaderLink":"String",
+				"serializerAdapter":{},
+				"error":{
+					"code":"String",
+					"message":"String",
+					"target":"String"
+				},
+				"azureAsyncOperationHeaderLink":"String",
+				"status":"String"
+			},
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"azureclient.getpostordeleteresultasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":{},
+			"_arg1":{}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"azureclient.postordeletepollingdispatcher",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":{
+				"retryTimeout":1,
+				"response":{},
+				"locationHeaderLink":"String",
+				"serializerAdapter":{},
+				"error":{
+					"code":"String",
+					"message":"String",
+					"target":"String"
+				},
+				"azureAsyncOperationHeaderLink":"String",
+				"status":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"azureclient.getputorpatchresultasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":{},
+			"_arg1":{}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"azureclient.updatestatefromlocationheaderonpostordeleteasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":{
+				"retryTimeout":1,
+				"response":{},
+				"locationHeaderLink":"String",
+				"serializerAdapter":{},
+				"error":{
+					"code":"String",
+					"message":"String",
+					"target":"String"
+				},
+				"azureAsyncOperationHeaderLink":"String",
+				"status":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"azureclient.getpostordeleteresultwithheadersasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":{},
+			"_arg1":{},
+			"_arg2":{
+				"genericInfo":{},
+				"classRedefinedCount":1,
+				"name":"String",
+				"annotationType":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"azureclient.updatestatefromgetresourceoperationasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":{
+				"retryTimeout":1,
+				"response":{},
+				"locationHeaderLink":"String",
+				"serializerAdapter":{},
+				"error":{
+					"code":"String",
+					"message":"String",
+					"target":"String"
+				},
+				"azureAsyncOperationHeaderLink":"String",
+				"status":"String"
+			},
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"azureclient.updatestatefromlocationheaderonputasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":{
+				"retryTimeout":1,
+				"response":{},
+				"locationHeaderLink":"String",
+				"serializerAdapter":{},
+				"error":{
+					"code":"String",
+					"message":"String",
+					"target":"String"
+				},
+				"azureAsyncOperationHeaderLink":"String",
+				"status":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"azureclient.getputorpatchresultwithheadersasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":{},
+			"_arg1":{},
+			"_arg2":{
+				"genericInfo":{},
+				"classRedefinedCount":1,
+				"name":"String",
+				"annotationType":{}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"availabilitysetsinner.deleteasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"availabilitysetsinner.createorupdateasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":{
+				"platformFaultDomainCount":1,
+				"managed":true,
+				"platformUpdateDomainCount":1,
+				"sku":{
+					"tier":"String",
+					"name":"String",
+					"capacity":1
+				}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"availabilitysetsinner.listbyresourcegroupasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"availabilitysetsinner.deletewithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"availabilitysetsinner.getbyresourcegroupasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"availabilitysetsinner.listavailablesizesasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"availabilitysetsinner.listavailablesizeswithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"availabilitysetsinner.getbyresourcegroupwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"availabilitysetsinner.createorupdatewithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":{
+				"platformFaultDomainCount":1,
+				"managed":true,
+				"platformUpdateDomainCount":1,
+				"sku":{
+					"tier":"String",
+					"name":"String",
+					"capacity":1
+				}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"availabilitysetsinner.listbyresourcegroupwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinesinner.beginconverttomanageddiskswithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinesinner.captureasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":{
+				"overwriteVhds":true,
+				"vhdPrefix":"String",
+				"destinationContainerName":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinesinner.deallocateasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinesinner.generalizeasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinesinner.poweroffasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinesinner.startasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinesinner.restartasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinesinner.beginstartasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinesinner.redeployasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinesinner.listasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinesinner.deleteasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinesinner.begindeleteasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinesinner.listnextasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinesinner.listwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinesinner.listnextwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinesinner.listsinglepageasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinesinner.listnextsinglepageasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinesinner.listbyresourcegroupnextasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinesinner.listbyresourcegroupasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinesinner.deletewithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinesinner.getbyresourcegroupasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinesinner.getbyresourcegroupasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":{
+				"value":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinesinner.begincreateorupdateasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":{
+				"availabilitySet":{
+					"id":"String"
+				},
+				"licenseType":"String",
+				"instanceView":{
+					"bootDiagnostics":{
+						"consoleScreenshotBlobUri":"String",
+						"serialConsoleLogBlobUri":"String"
+					},
+					"platformUpdateDomain":1,
+					"vmAgent":{
+						"vmAgentVersion":"String"
+					},
+					"platformFaultDomain":1,
+					"rdpThumbPrint":"String"
+				},
+				"hardwareProfile":{
+					"vmSize":{
+						"value":"String"
+					}
+				},
+				"vmId":"String",
+				"identity":{
+					"tenantId":"String",
+					"principalId":"String",
+					"type":{
+						"value":"String"
+					}
+				},
+				"storageProfile":{
+					"imageReference":{
+						"offer":"String",
+						"publisher":"String",
+						"sku":"String",
+						"version":"String"
+					},
+					"osDisk":{
+						"image":{
+							"uri":"String"
+						},
+						"vhd":{
+							"uri":"String"
+						},
+						"managedDisk":{
+							"storageAccountType":{
+								"value":"String"
+							}
+						},
+						"osType":{
+							"value":"String"
+						},
+						"name":"String",
+						"caching":{
+							"value":"String"
+						},
+						"createOption":{
+							"value":"String"
+						},
+						"encryptionSettings":{
+							"diskEncryptionKey":{
+								"secretUrl":"String",
+								"sourceVault":{
+									"id":"String"
+								}
+							},
+							"keyEncryptionKey":{
+								"sourceVault":{
+									"id":"String"
+								},
+								"keyUrl":"String"
+							},
+							"enabled":true
+						},
+						"diskSizeGB":1
+					}
+				},
+				"networkProfile":{},
+				"diagnosticsProfile":{
+					"bootDiagnostics":{
+						"storageUri":"String",
+						"enabled":true
+					}
+				},
+				"provisioningState":"String",
+				"plan":{
+					"product":"String",
+					"name":"String",
+					"promotionCode":"String",
+					"publisher":"String"
+				},
+				"osProfile":{
+					"adminUsername":"String",
+					"computerName":"String",
+					"linuxConfiguration":{
+						"disablePasswordAuthentication":true,
+						"ssh":{}
+					},
+					"customData":"String",
+					"windowsConfiguration":{
+						"provisionVMAgent":true,
+						"timeZone":"String",
+						"winRM":{},
+						"enableAutomaticUpdates":true
+					},
+					"adminPassword":"String"
+				}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinesinner.startwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinesinner.converttomanageddisksasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinesinner.beginpoweroffasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinesinner.beginrestartasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinesinner.restartwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinesinner.capturewithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":{
+				"overwriteVhds":true,
+				"vhdPrefix":"String",
+				"destinationContainerName":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinesinner.beginconverttomanageddisksasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinesinner.redeploywithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinesinner.beginredeployasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinesinner.listavailablesizesasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinesinner.begincaptureasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":{
+				"overwriteVhds":true,
+				"vhdPrefix":"String",
+				"destinationContainerName":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinesinner.poweroffwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinesinner.begindeallocateasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinesinner.begincapturewithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":{
+				"overwriteVhds":true,
+				"vhdPrefix":"String",
+				"destinationContainerName":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinesinner.begindeallocatewithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinesinner.listavailablesizeswithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinesinner.converttomanageddiskswithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinesinner.beginrestartwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinesinner.beginstartwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinesinner.beginredeploywithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinesinner.beginpoweroffwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinesinner.deallocatewithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinesinner.generalizewithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinesinner.getbyresourcegroupwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":{
+				"value":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinesinner.getbyresourcegroupwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinesinner.createorupdatewithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":{
+				"availabilitySet":{
+					"id":"String"
+				},
+				"licenseType":"String",
+				"instanceView":{
+					"bootDiagnostics":{
+						"consoleScreenshotBlobUri":"String",
+						"serialConsoleLogBlobUri":"String"
+					},
+					"platformUpdateDomain":1,
+					"vmAgent":{
+						"vmAgentVersion":"String"
+					},
+					"platformFaultDomain":1,
+					"rdpThumbPrint":"String"
+				},
+				"hardwareProfile":{
+					"vmSize":{
+						"value":"String"
+					}
+				},
+				"vmId":"String",
+				"identity":{
+					"tenantId":"String",
+					"principalId":"String",
+					"type":{
+						"value":"String"
+					}
+				},
+				"storageProfile":{
+					"imageReference":{
+						"offer":"String",
+						"publisher":"String",
+						"sku":"String",
+						"version":"String"
+					},
+					"osDisk":{
+						"image":{
+							"uri":"String"
+						},
+						"vhd":{
+							"uri":"String"
+						},
+						"managedDisk":{
+							"storageAccountType":{
+								"value":"String"
+							}
+						},
+						"osType":{
+							"value":"String"
+						},
+						"name":"String",
+						"caching":{
+							"value":"String"
+						},
+						"createOption":{
+							"value":"String"
+						},
+						"encryptionSettings":{
+							"diskEncryptionKey":{
+								"secretUrl":"String",
+								"sourceVault":{
+									"id":"String"
+								}
+							},
+							"keyEncryptionKey":{
+								"sourceVault":{
+									"id":"String"
+								},
+								"keyUrl":"String"
+							},
+							"enabled":true
+						},
+						"diskSizeGB":1
+					}
+				},
+				"networkProfile":{},
+				"diagnosticsProfile":{
+					"bootDiagnostics":{
+						"storageUri":"String",
+						"enabled":true
+					}
+				},
+				"provisioningState":"String",
+				"plan":{
+					"product":"String",
+					"name":"String",
+					"promotionCode":"String",
+					"publisher":"String"
+				},
+				"osProfile":{
+					"adminUsername":"String",
+					"computerName":"String",
+					"linuxConfiguration":{
+						"disablePasswordAuthentication":true,
+						"ssh":{}
+					},
+					"customData":"String",
+					"windowsConfiguration":{
+						"provisionVMAgent":true,
+						"timeZone":"String",
+						"winRM":{},
+						"enableAutomaticUpdates":true
+					},
+					"adminPassword":"String"
+				}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinesinner.listbyresourcegroupnextwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinesinner.listbyresourcegroupnextsinglepageasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinesinner.listbyresourcegroupsinglepageasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinesinner.begindeletewithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinesinner.listbyresourcegroupwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinesinner.begincreateorupdatewithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":{
+				"availabilitySet":{
+					"id":"String"
+				},
+				"licenseType":"String",
+				"instanceView":{
+					"bootDiagnostics":{
+						"consoleScreenshotBlobUri":"String",
+						"serialConsoleLogBlobUri":"String"
+					},
+					"platformUpdateDomain":1,
+					"vmAgent":{
+						"vmAgentVersion":"String"
+					},
+					"platformFaultDomain":1,
+					"rdpThumbPrint":"String"
+				},
+				"hardwareProfile":{
+					"vmSize":{
+						"value":"String"
+					}
+				},
+				"vmId":"String",
+				"identity":{
+					"tenantId":"String",
+					"principalId":"String",
+					"type":{
+						"value":"String"
+					}
+				},
+				"storageProfile":{
+					"imageReference":{
+						"offer":"String",
+						"publisher":"String",
+						"sku":"String",
+						"version":"String"
+					},
+					"osDisk":{
+						"image":{
+							"uri":"String"
+						},
+						"vhd":{
+							"uri":"String"
+						},
+						"managedDisk":{
+							"storageAccountType":{
+								"value":"String"
+							}
+						},
+						"osType":{
+							"value":"String"
+						},
+						"name":"String",
+						"caching":{
+							"value":"String"
+						},
+						"createOption":{
+							"value":"String"
+						},
+						"encryptionSettings":{
+							"diskEncryptionKey":{
+								"secretUrl":"String",
+								"sourceVault":{
+									"id":"String"
+								}
+							},
+							"keyEncryptionKey":{
+								"sourceVault":{
+									"id":"String"
+								},
+								"keyUrl":"String"
+							},
+							"enabled":true
+						},
+						"diskSizeGB":1
+					}
+				},
+				"networkProfile":{},
+				"diagnosticsProfile":{
+					"bootDiagnostics":{
+						"storageUri":"String",
+						"enabled":true
+					}
+				},
+				"provisioningState":"String",
+				"plan":{
+					"product":"String",
+					"name":"String",
+					"promotionCode":"String",
+					"publisher":"String"
+				},
+				"osProfile":{
+					"adminUsername":"String",
+					"computerName":"String",
+					"linuxConfiguration":{
+						"disablePasswordAuthentication":true,
+						"ssh":{}
+					},
+					"customData":"String",
+					"windowsConfiguration":{
+						"provisionVMAgent":true,
+						"timeZone":"String",
+						"winRM":{},
+						"enableAutomaticUpdates":true
+					},
+					"adminPassword":"String"
+				}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachineextensionimagesinner.getasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String",
+			"_arg3":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachineextensionimagesinner.listtypesasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachineextensionimagesinner.getwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String",
+			"_arg3":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachineextensionimagesinner.listversionsasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachineextensionimagesinner.listversionsasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String",
+			"_arg3":"String",
+			"_arg4":1,
+			"_arg5":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachineextensionimagesinner.listversionswithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachineextensionimagesinner.listversionswithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String",
+			"_arg3":"String",
+			"_arg4":1,
+			"_arg5":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachineextensionimagesinner.listtypeswithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachineimagesinner.listskusasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachineimagesinner.listoffersasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachineimagesinner.getasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String",
+			"_arg3":"String",
+			"_arg4":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachineimagesinner.listasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String",
+			"_arg3":"String",
+			"_arg4":"String",
+			"_arg5":1,
+			"_arg6":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachineimagesinner.listasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String",
+			"_arg3":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachineimagesinner.listwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String",
+			"_arg3":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachineimagesinner.listwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String",
+			"_arg3":"String",
+			"_arg4":"String",
+			"_arg5":1,
+			"_arg6":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachineimagesinner.getwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String",
+			"_arg3":"String",
+			"_arg4":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachineimagesinner.listpublishersasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachineimagesinner.listskuswithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachineimagesinner.listpublisherswithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachineimagesinner.listofferswithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinesizesinner.listasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinesizesinner.listwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.listskusasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.deallocateasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"java.util.List"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.deallocateasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.poweroffasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"java.util.List"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.poweroffasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.startasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"java.util.List"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.startasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.restartasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.restartasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"java.util.List"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.beginstartasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.beginstartasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"java.util.List"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.listasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.deleteasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.begindeleteasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.listnextasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.createorupdateasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":{
+				"upgradePolicy":{
+					"mode":{
+						"value":"String"
+					}
+				},
+				"overprovision":true,
+				"identity":{
+					"tenantId":"String",
+					"principalId":"String",
+					"type":{
+						"value":"String"
+					}
+				},
+				"provisioningState":"String",
+				"sku":{
+					"tier":"String",
+					"name":"String",
+					"capacity":1
+				},
+				"plan":{
+					"product":"String",
+					"name":"String",
+					"promotionCode":"String",
+					"publisher":"String"
+				},
+				"virtualMachineProfile":{
+					"extensionProfile":{},
+					"storageProfile":{
+						"imageReference":{
+							"offer":"String",
+							"publisher":"String",
+							"sku":"String",
+							"version":"String"
+						},
+						"osDisk":{
+							"image":{
+								"uri":"String"
+							},
+							"managedDisk":{
+								"storageAccountType":{
+									"value":"String"
+								}
+							},
+							"name":"String",
+							"osType":{
+								"value":"String"
+							},
+							"caching":{
+								"value":"String"
+							},
+							"createOption":{
+								"value":"String"
+							}
+						}
+					},
+					"networkProfile":{},
+					"osProfile":{
+						"adminUsername":"String",
+						"linuxConfiguration":{
+							"disablePasswordAuthentication":true,
+							"ssh":{}
+						},
+						"customData":"String",
+						"computerNamePrefix":"String",
+						"windowsConfiguration":{
+							"provisionVMAgent":true,
+							"timeZone":"String",
+							"winRM":{},
+							"enableAutomaticUpdates":true
+						},
+						"adminPassword":"String"
+					}
+				},
+				"singlePlacementGroup":true
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.listwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.listnextwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.listsinglepageasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.listnextsinglepageasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.listskusnextasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.deleteinstancesasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"java.util.List"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.beginreimageallasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.reimagewithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.begindeleteinstancesasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"java.util.List"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.beginreimageasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.listskussinglepageasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.beginupdateinstancesasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"java.util.List"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.getinstanceviewasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.updateinstancesasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"java.util.List"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.listskusnextsinglepageasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.listbyresourcegroupnextasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.listbyresourcegroupasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.deletewithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.getbyresourcegroupasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.begincreateorupdateasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":{
+				"upgradePolicy":{
+					"mode":{
+						"value":"String"
+					}
+				},
+				"overprovision":true,
+				"identity":{
+					"tenantId":"String",
+					"principalId":"String",
+					"type":{
+						"value":"String"
+					}
+				},
+				"provisioningState":"String",
+				"sku":{
+					"tier":"String",
+					"name":"String",
+					"capacity":1
+				},
+				"plan":{
+					"product":"String",
+					"name":"String",
+					"promotionCode":"String",
+					"publisher":"String"
+				},
+				"virtualMachineProfile":{
+					"extensionProfile":{},
+					"storageProfile":{
+						"imageReference":{
+							"offer":"String",
+							"publisher":"String",
+							"sku":"String",
+							"version":"String"
+						},
+						"osDisk":{
+							"image":{
+								"uri":"String"
+							},
+							"managedDisk":{
+								"storageAccountType":{
+									"value":"String"
+								}
+							},
+							"name":"String",
+							"osType":{
+								"value":"String"
+							},
+							"caching":{
+								"value":"String"
+							},
+							"createOption":{
+								"value":"String"
+							}
+						}
+					},
+					"networkProfile":{},
+					"osProfile":{
+						"adminUsername":"String",
+						"linuxConfiguration":{
+							"disablePasswordAuthentication":true,
+							"ssh":{}
+						},
+						"customData":"String",
+						"computerNamePrefix":"String",
+						"windowsConfiguration":{
+							"provisionVMAgent":true,
+							"timeZone":"String",
+							"winRM":{},
+							"enableAutomaticUpdates":true
+						},
+						"adminPassword":"String"
+					}
+				},
+				"singlePlacementGroup":true
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.startwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.startwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"java.util.List"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.beginpoweroffasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.beginpoweroffasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"java.util.List"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.beginrestartasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.beginrestartasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"java.util.List"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.restartwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.restartwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"java.util.List"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.poweroffwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.poweroffwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"java.util.List"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.begindeallocateasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.begindeallocateasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"java.util.List"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.listskuswithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.reimageallasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.reimageasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.beginupdateinstanceswithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"java.util.List"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.begindeallocatewithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"java.util.List"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.begindeallocatewithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.beginreimagewithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.beginrestartwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.beginrestartwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"java.util.List"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.beginstartwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.beginstartwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"java.util.List"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.beginpoweroffwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.beginpoweroffwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"java.util.List"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.getinstanceviewwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.updateinstanceswithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"java.util.List"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.reimageallwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.beginreimageallwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.listskusnextwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.deallocatewithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.deallocatewithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"java.util.List"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.deleteinstanceswithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"java.util.List"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.begindeleteinstanceswithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"java.util.List"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.getbyresourcegroupwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.createorupdatewithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":{
+				"upgradePolicy":{
+					"mode":{
+						"value":"String"
+					}
+				},
+				"overprovision":true,
+				"identity":{
+					"tenantId":"String",
+					"principalId":"String",
+					"type":{
+						"value":"String"
+					}
+				},
+				"provisioningState":"String",
+				"sku":{
+					"tier":"String",
+					"name":"String",
+					"capacity":1
+				},
+				"plan":{
+					"product":"String",
+					"name":"String",
+					"promotionCode":"String",
+					"publisher":"String"
+				},
+				"virtualMachineProfile":{
+					"extensionProfile":{},
+					"storageProfile":{
+						"imageReference":{
+							"offer":"String",
+							"publisher":"String",
+							"sku":"String",
+							"version":"String"
+						},
+						"osDisk":{
+							"image":{
+								"uri":"String"
+							},
+							"managedDisk":{
+								"storageAccountType":{
+									"value":"String"
+								}
+							},
+							"name":"String",
+							"osType":{
+								"value":"String"
+							},
+							"caching":{
+								"value":"String"
+							},
+							"createOption":{
+								"value":"String"
+							}
+						}
+					},
+					"networkProfile":{},
+					"osProfile":{
+						"adminUsername":"String",
+						"linuxConfiguration":{
+							"disablePasswordAuthentication":true,
+							"ssh":{}
+						},
+						"customData":"String",
+						"computerNamePrefix":"String",
+						"windowsConfiguration":{
+							"provisionVMAgent":true,
+							"timeZone":"String",
+							"winRM":{},
+							"enableAutomaticUpdates":true
+						},
+						"adminPassword":"String"
+					}
+				},
+				"singlePlacementGroup":true
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.listbyresourcegroupnextwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.listbyresourcegroupnextsinglepageasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.listbyresourcegroupsinglepageasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.begindeletewithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.listbyresourcegroupwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetsinner.begincreateorupdatewithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":{
+				"upgradePolicy":{
+					"mode":{
+						"value":"String"
+					}
+				},
+				"overprovision":true,
+				"identity":{
+					"tenantId":"String",
+					"principalId":"String",
+					"type":{
+						"value":"String"
+					}
+				},
+				"provisioningState":"String",
+				"sku":{
+					"tier":"String",
+					"name":"String",
+					"capacity":1
+				},
+				"plan":{
+					"product":"String",
+					"name":"String",
+					"promotionCode":"String",
+					"publisher":"String"
+				},
+				"virtualMachineProfile":{
+					"extensionProfile":{},
+					"storageProfile":{
+						"imageReference":{
+							"offer":"String",
+							"publisher":"String",
+							"sku":"String",
+							"version":"String"
+						},
+						"osDisk":{
+							"image":{
+								"uri":"String"
+							},
+							"managedDisk":{
+								"storageAccountType":{
+									"value":"String"
+								}
+							},
+							"name":"String",
+							"osType":{
+								"value":"String"
+							},
+							"caching":{
+								"value":"String"
+							},
+							"createOption":{
+								"value":"String"
+							}
+						}
+					},
+					"networkProfile":{},
+					"osProfile":{
+						"adminUsername":"String",
+						"linuxConfiguration":{
+							"disablePasswordAuthentication":true,
+							"ssh":{}
+						},
+						"customData":"String",
+						"computerNamePrefix":"String",
+						"windowsConfiguration":{
+							"provisionVMAgent":true,
+							"timeZone":"String",
+							"winRM":{},
+							"enableAutomaticUpdates":true
+						},
+						"adminPassword":"String"
+					}
+				},
+				"singlePlacementGroup":true
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetvmsinner.getasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetvmsinner.deallocateasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetvmsinner.poweroffasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetvmsinner.startasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetvmsinner.restartasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetvmsinner.beginstartasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetvmsinner.listasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetvmsinner.listasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String",
+			"_arg3":"String",
+			"_arg4":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetvmsinner.deleteasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetvmsinner.begindeleteasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetvmsinner.listnextasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetvmsinner.listwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String",
+			"_arg3":"String",
+			"_arg4":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetvmsinner.listwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetvmsinner.listnextwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetvmsinner.listsinglepageasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String",
+			"_arg3":"String",
+			"_arg4":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetvmsinner.listsinglepageasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetvmsinner.listnextsinglepageasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetvmsinner.beginreimageallasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetvmsinner.reimagewithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetvmsinner.beginreimageasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetvmsinner.getinstanceviewasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetvmsinner.deletewithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetvmsinner.startwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetvmsinner.getwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetvmsinner.beginpoweroffasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetvmsinner.beginrestartasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetvmsinner.restartwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetvmsinner.poweroffwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetvmsinner.begindeallocateasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetvmsinner.reimageallasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetvmsinner.reimageasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetvmsinner.begindeallocatewithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetvmsinner.beginreimagewithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetvmsinner.beginrestartwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetvmsinner.beginstartwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetvmsinner.beginpoweroffwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetvmsinner.getinstanceviewwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetvmsinner.reimageallwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetvmsinner.beginreimageallwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetvmsinner.deallocatewithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachinescalesetvmsinner.begindeletewithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"containerservicesinner.listasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"containerservicesinner.deleteasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"containerservicesinner.begindeleteasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"containerservicesinner.listnextasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"containerservicesinner.createorupdateasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":{
+				"orchestratorProfile":{
+					"orchestratorType":{
+						"value":"String"
+					}
+				},
+				"windowsProfile":{
+					"adminUsername":"String",
+					"adminPassword":"String"
+				},
+				"servicePrincipalProfile":{
+					"clientId":"String",
+					"secret":"String"
+				},
+				"diagnosticsProfile":{
+					"vmDiagnostics":{
+						"storageUri":"String",
+						"enabled":true
+					}
+				},
+				"provisioningState":"String",
+				"customProfile":{
+					"orchestrator":"String"
+				},
+				"linuxProfile":{
+					"adminUsername":"String",
+					"ssh":{}
+				},
+				"masterProfile":{
+					"fqdn":"String",
+					"count":1,
+					"dnsPrefix":"String"
+				}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"containerservicesinner.listwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"containerservicesinner.listnextwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"containerservicesinner.listsinglepageasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"containerservicesinner.listnextsinglepageasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"containerservicesinner.listbyresourcegroupnextasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"containerservicesinner.listbyresourcegroupasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"containerservicesinner.deletewithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"containerservicesinner.getbyresourcegroupasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"containerservicesinner.begincreateorupdateasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":{
+				"orchestratorProfile":{
+					"orchestratorType":{
+						"value":"String"
+					}
+				},
+				"windowsProfile":{
+					"adminUsername":"String",
+					"adminPassword":"String"
+				},
+				"servicePrincipalProfile":{
+					"clientId":"String",
+					"secret":"String"
+				},
+				"diagnosticsProfile":{
+					"vmDiagnostics":{
+						"storageUri":"String",
+						"enabled":true
+					}
+				},
+				"provisioningState":"String",
+				"customProfile":{
+					"orchestrator":"String"
+				},
+				"linuxProfile":{
+					"adminUsername":"String",
+					"ssh":{}
+				},
+				"masterProfile":{
+					"fqdn":"String",
+					"count":1,
+					"dnsPrefix":"String"
+				}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"containerservicesinner.getbyresourcegroupwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"containerservicesinner.createorupdatewithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":{
+				"orchestratorProfile":{
+					"orchestratorType":{
+						"value":"String"
+					}
+				},
+				"windowsProfile":{
+					"adminUsername":"String",
+					"adminPassword":"String"
+				},
+				"servicePrincipalProfile":{
+					"clientId":"String",
+					"secret":"String"
+				},
+				"diagnosticsProfile":{
+					"vmDiagnostics":{
+						"storageUri":"String",
+						"enabled":true
+					}
+				},
+				"provisioningState":"String",
+				"customProfile":{
+					"orchestrator":"String"
+				},
+				"linuxProfile":{
+					"adminUsername":"String",
+					"ssh":{}
+				},
+				"masterProfile":{
+					"fqdn":"String",
+					"count":1,
+					"dnsPrefix":"String"
+				}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"containerservicesinner.listbyresourcegroupnextwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"containerservicesinner.listbyresourcegroupnextsinglepageasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"containerservicesinner.listbyresourcegroupsinglepageasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"containerservicesinner.begindeletewithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"containerservicesinner.listbyresourcegroupwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"containerservicesinner.begincreateorupdatewithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":{
+				"orchestratorProfile":{
+					"orchestratorType":{
+						"value":"String"
+					}
+				},
+				"windowsProfile":{
+					"adminUsername":"String",
+					"adminPassword":"String"
+				},
+				"servicePrincipalProfile":{
+					"clientId":"String",
+					"secret":"String"
+				},
+				"diagnosticsProfile":{
+					"vmDiagnostics":{
+						"storageUri":"String",
+						"enabled":true
+					}
+				},
+				"provisioningState":"String",
+				"customProfile":{
+					"orchestrator":"String"
+				},
+				"linuxProfile":{
+					"adminUsername":"String",
+					"ssh":{}
+				},
+				"masterProfile":{
+					"fqdn":"String",
+					"count":1,
+					"dnsPrefix":"String"
+				}
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachineextensionsinner.getasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String",
+			"_arg3":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachineextensionsinner.getasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachineextensionsinner.deleteasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachineextensionsinner.begindeleteasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachineextensionsinner.createorupdateasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String",
+			"_arg3":{
+				"instanceView":{
+					"name":"String",
+					"type":"String",
+					"typeHandlerVersion":"String"
+				},
+				"virtualMachineExtensionType":"String",
+				"publisher":"String",
+				"autoUpgradeMinorVersion":true,
+				"provisioningState":"String",
+				"forceUpdateTag":"String",
+				"typeHandlerVersion":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachineextensionsinner.deletewithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachineextensionsinner.begincreateorupdateasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String",
+			"_arg3":{
+				"instanceView":{
+					"name":"String",
+					"type":"String",
+					"typeHandlerVersion":"String"
+				},
+				"virtualMachineExtensionType":"String",
+				"publisher":"String",
+				"autoUpgradeMinorVersion":true,
+				"provisioningState":"String",
+				"forceUpdateTag":"String",
+				"typeHandlerVersion":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachineextensionsinner.getwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachineextensionsinner.getwithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String",
+			"_arg3":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachineextensionsinner.createorupdatewithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String",
+			"_arg3":{
+				"instanceView":{
+					"name":"String",
+					"type":"String",
+					"typeHandlerVersion":"String"
+				},
+				"virtualMachineExtensionType":"String",
+				"publisher":"String",
+				"autoUpgradeMinorVersion":true,
+				"provisioningState":"String",
+				"forceUpdateTag":"String",
+				"typeHandlerVersion":"String"
+			}
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachineextensionsinner.begindeletewithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String"
+		}
+	}
+}
+---
+{
+	"metadata":{
+		"additionalProperties":{},
+		"finalizers":[],
+		"managedFields":[],
+		"name":"virtualmachineextensionsinner.begincreateorupdatewithserviceresponseasync",
+		"ownerReferences":[]
+	},
+	"apiVersion":"cloudplus.io/v1alpha3",
+	"kind":"AzureVM",
+	"spec":{
+		"lifecycle":{
+			"_arg0":"String",
+			"_arg1":"String",
+			"_arg2":"String",
+			"_arg3":{
+				"instanceView":{
+					"name":"String",
+					"type":"String",
+					"typeHandlerVersion":"String"
+				},
+				"virtualMachineExtensionType":"String",
+				"publisher":"String",
+				"autoUpgradeMinorVersion":true,
+				"provisioningState":"String",
+				"forceUpdateTag":"String",
+				"typeHandlerVersion":"String"
+			}
+		}
+	}
+}

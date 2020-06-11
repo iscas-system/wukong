@@ -1,0 +1,5 @@
+{
+	"client":"com.jdcloud.sdk.service.vm.client.VmClient",
+	"analyzer": "io.github.cloudpluslab.wukong.analyzer.RequestWithObjectPatternAnalyzer",
+	"kind":"JDVM"
+}

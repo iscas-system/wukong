@@ -1,0 +1,7504 @@
+## ModifySnapshotAttribute parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setSnapshotName":"java.lang.String",
+		"setSnapshotId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## JoinSecurityGroup parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setInstanceId":"java.lang.String",
+		"setSecurityGroupId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeDedicatedHostTypes parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setDedicatedHostType":"java.lang.String",
+		"setSupportedInstanceTypeFamily":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeSnapshots parameterss:
+
+```
+{
+	"main":{
+		"setTags":[
+			"ref1-com.aliyuncs.ecs.model.v20140526.DescribeSnapshotsRequest$Tag"
+		],
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceGroupId":"java.lang.String",
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setInstanceId":"java.lang.String",
+		"setFilter2Value":"java.lang.String",
+		"setSnapshotIds":"java.lang.String",
+		"setUsage":"java.lang.String",
+		"setSnapshotLinkId":"java.lang.String",
+		"setSnapshotName":"java.lang.String",
+		"setFilter1Key":"java.lang.String",
+		"setDiskId":"java.lang.String",
+		"setDryRun":"java.lang.Boolean",
+		"setSourceDiskType":"java.lang.String",
+		"setFilter1Value":"java.lang.String",
+		"setFilter2Key":"java.lang.String",
+		"setEncrypted":"java.lang.Boolean",
+		"setSnapshotType":"java.lang.String",
+		"setStatus":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	},
+	"ref1-com.aliyuncs.ecs.model.v20140526.DescribeSnapshotsRequest$Tag":{
+		"setKey":"java.lang.String",
+		"setValue":"java.lang.String"
+	}
+}
+```
+## ModifyBandwidthPackageSpec parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setBandwidth":"java.lang.String",
+		"setBandwidthPackageId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## ModifyInstanceVncPasswd parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setInstanceId":"java.lang.String",
+		"setVncPassword":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## CreateNatGateway parameterss:
+
+```
+{
+	"main":{
+		"setVpcId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setBandwidthPackages":[
+			"ref1-com.aliyuncs.ecs.model.v20140526.CreateNatGatewayRequest$BandwidthPackage"
+		],
+		"setName":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	},
+	"ref1-com.aliyuncs.ecs.model.v20140526.CreateNatGatewayRequest$BandwidthPackage":{
+		"setBandwidth":"java.lang.Integer",
+		"setIpCount":"java.lang.Integer",
+		"setZone":"java.lang.String"
+	}
+}
+```
+## AttachDisk parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setInstanceId":"java.lang.String",
+		"setDiskId":"java.lang.String",
+		"setDeleteWithInstance":"java.lang.Boolean",
+		"setDevice":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeEniMonitorData parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setStartTime":"java.lang.String",
+		"setPeriod":"java.lang.Integer",
+		"setEndTime":"java.lang.String",
+		"setEniId":"java.lang.String",
+		"setInstanceId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## ReInitDisk parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setKeyPairName":"java.lang.String",
+		"setPassword":"java.lang.String",
+		"setDiskId":"java.lang.String",
+		"setSecurityEnhancementStrategy":"java.lang.String",
+		"setAutoStartInstance":"java.lang.Boolean",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## CreateHaVip parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setVSwitchId":"java.lang.String",
+		"setIpAddress":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## ModifyAutoSnapshotPolicy parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setDataDiskPolicyEnabled":"java.lang.Boolean",
+		"setDataDiskPolicyRetentionDays":"java.lang.Integer",
+		"setSystemDiskPolicyRetentionLastWeek":"java.lang.Boolean",
+		"setSystemDiskPolicyTimePeriod":"java.lang.Integer",
+		"setDataDiskPolicyRetentionLastWeek":"java.lang.Boolean",
+		"setSystemDiskPolicyRetentionDays":"java.lang.Integer",
+		"setDataDiskPolicyTimePeriod":"java.lang.Integer",
+		"setSystemDiskPolicyEnabled":"java.lang.Boolean",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AssociateEipAddress parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setInstanceId":"java.lang.String",
+		"setAllocationId":"java.lang.String",
+		"setInstanceType":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## RevokeSecurityGroupEgress parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setNicType":"java.lang.String",
+		"setSourcePortRange":"java.lang.String",
+		"setIpv6DestCidrIp":"java.lang.String",
+		"setIpv6SourceCidrIp":"java.lang.String",
+		"setPolicy":"java.lang.String",
+		"setPortRange":"java.lang.String",
+		"setIpProtocol":"java.lang.String",
+		"setSourceCidrIp":"java.lang.String",
+		"setDestCidrIp":"java.lang.String",
+		"setSecurityGroupId":"java.lang.String",
+		"setDestGroupId":"java.lang.String",
+		"setDestGroupOwnerAccount":"java.lang.String",
+		"setDestGroupOwnerId":"java.lang.Long",
+		"setPriority":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeEipAddresses parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setFilter2Value":"java.lang.String",
+		"setFilter1Key":"java.lang.String",
+		"setFilter1Value":"java.lang.String",
+		"setFilter2Key":"java.lang.String",
+		"setStatus":"java.lang.String",
+		"setAllocationId":"java.lang.String",
+		"setLockReason":"java.lang.String",
+		"setChargeType":"java.lang.String",
+		"setEipAddress":"java.lang.String",
+		"setAssociatedInstanceType":"java.lang.String",
+		"setAssociatedInstanceId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## ActivateRouterInterface parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setRouterInterfaceId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeSpotPriceHistory parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setStartTime":"java.lang.String",
+		"setEndTime":"java.lang.String",
+		"setNetworkType":"java.lang.String",
+		"setZoneId":"java.lang.String",
+		"setInstanceType":"java.lang.String",
+		"setIoOptimized":"java.lang.String",
+		"setOSType":"java.lang.String",
+		"setOffset":"java.lang.Integer",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## TerminateVirtualBorderRouter parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setUserCidr":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setVbrId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## StopInstance parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setInstanceId":"java.lang.String",
+		"setForceStop":"java.lang.Boolean",
+		"setConfirmStop":"java.lang.Boolean",
+		"setStoppedMode":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeInstanceHistoryEvents parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setInstanceId":"java.lang.String",
+		"setEventIds":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setEventType":"java.lang.String",
+		"setEventCycleStatus":"java.lang.String",
+		"setInstanceEventCycleStatuss":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setEventPublishTimeEnd":"java.lang.String",
+		"setInstanceEventTypes":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setNotBeforeStart":"java.lang.String",
+		"setEventPublishTimeStart":"java.lang.String",
+		"setNotBeforeEnd":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeInstanceTopology parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setInstanceIds":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DeletePhysicalConnection parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPhysicalConnectionId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## RevokeSecurityGroup parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setNicType":"java.lang.String",
+		"setSourcePortRange":"java.lang.String",
+		"setSourceGroupOwnerId":"java.lang.Long",
+		"setSourceGroupOwnerAccount":"java.lang.String",
+		"setIpv6DestCidrIp":"java.lang.String",
+		"setIpv6SourceCidrIp":"java.lang.String",
+		"setPolicy":"java.lang.String",
+		"setPortRange":"java.lang.String",
+		"setIpProtocol":"java.lang.String",
+		"setSourceCidrIp":"java.lang.String",
+		"setDestCidrIp":"java.lang.String",
+		"setSourceGroupId":"java.lang.String",
+		"setSecurityGroupId":"java.lang.String",
+		"setPriority":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeTaskAttribute parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setTaskId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## CreateAutoSnapshotPolicy parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setTimePoints":"java.lang.String",
+		"setRetentionDays":"java.lang.Integer",
+		"setRepeatWeekdays":"java.lang.String",
+		"setAutoSnapshotPolicyName":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## ReActivateInstances parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setInstanceId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeForwardTableEntries parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setForwardEntryId":"java.lang.String",
+		"setForwardTableId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeInstances parameterss:
+
+```
+{
+	"main":{
+		"setVpcId":"java.lang.String",
+		"setTags":[
+			"ref1-com.aliyuncs.ecs.model.v20140526.DescribeInstancesRequest$Tag"
+		],
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceGroupId":"java.lang.String",
+		"setPageSize":"java.lang.Integer",
+		"setKeyPairName":"java.lang.String",
+		"setPageNumber":"java.lang.Integer",
+		"setVSwitchId":"java.lang.String",
+		"setInstanceName":"java.lang.String",
+		"setImageId":"java.lang.String",
+		"setFilter2Value":"java.lang.String",
+		"setFilter1Key":"java.lang.String",
+		"setDryRun":"java.lang.Boolean",
+		"setFilter1Value":"java.lang.String",
+		"setFilter2Key":"java.lang.String",
+		"setStatus":"java.lang.String",
+		"setInstanceIds":"java.lang.String",
+		"setSecurityGroupId":"java.lang.String",
+		"setLockReason":"java.lang.String",
+		"setZoneId":"java.lang.String",
+		"setInstanceType":"java.lang.String",
+		"setInstanceChargeType":"java.lang.String",
+		"setInnerIpAddresses":"java.lang.String",
+		"setPrivateIpAddresses":"java.lang.String",
+		"setHpcClusterId":"java.lang.String",
+		"setFilter4Value":"java.lang.String",
+		"setIoOptimized":"java.lang.Boolean",
+		"setFilter4Key":"java.lang.String",
+		"setRdmaIpAddresses":"java.lang.String",
+		"setDeviceAvailable":"java.lang.Boolean",
+		"setPublicIpAddresses":"java.lang.String",
+		"setFilter3Value":"java.lang.String",
+		"setInstanceTypeFamily":"java.lang.String",
+		"setNeedSaleCycle":"java.lang.Boolean",
+		"setEipAddresses":"java.lang.String",
+		"setInternetChargeType":"java.lang.String",
+		"setFilter3Key":"java.lang.String",
+		"setInstanceNetworkType":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	},
+	"ref1-com.aliyuncs.ecs.model.v20140526.DescribeInstancesRequest$Tag":{
+		"setKey":"java.lang.String",
+		"setValue":"java.lang.String"
+	}
+}
+```
+## DescribeSecurityGroupReferences parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setSecurityGroupIds":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AllocateDedicatedHosts parameterss:
+
+```
+{
+	"main":{
+		"setTags":[
+			"ref1-com.aliyuncs.ecs.model.v20140526.AllocateDedicatedHostsRequest$Tag"
+		],
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceGroupId":"java.lang.String",
+		"setPeriod":"java.lang.Integer",
+		"setDedicatedHostName":"java.lang.String",
+		"setZoneId":"java.lang.String",
+		"setDedicatedHostType":"java.lang.String",
+		"setAutoReleaseTime":"java.lang.String",
+		"setAutoRenewPeriod":"java.lang.Integer",
+		"setPeriodUnit":"java.lang.String",
+		"setAutoRenew":"java.lang.Boolean",
+		"setActionOnMaintenance":"java.lang.String",
+		"setNetworkAttributesSlbUdpTimeout":"java.lang.Integer",
+		"setNetworkAttributesUdpTimeout":"java.lang.Integer",
+		"setQuantity":"java.lang.Integer",
+		"setChargeType":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	},
+	"ref1-com.aliyuncs.ecs.model.v20140526.AllocateDedicatedHostsRequest$Tag":{
+		"setKey":"java.lang.String",
+		"setValue":"java.lang.String"
+	}
+}
+```
+## DeleteRouterInterface parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setUserCidr":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setRouterInterfaceId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DetachInstanceRamRole parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setInstanceIds":"java.lang.String",
+		"setRamRoleName":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AllocatePublicIpAddress parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setInstanceId":"java.lang.String",
+		"setVlanId":"java.lang.String",
+		"setIpAddress":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## ModifyDedicatedHostAutoRenewAttribute parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setDedicatedHostIds":"java.lang.String",
+		"setPeriodUnit":"java.lang.String",
+		"setAutoRenew":"java.lang.Boolean",
+		"setRenewalStatus":"java.lang.String",
+		"setDuration":"java.lang.Integer",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeEipMonitorData parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setStartTime":"java.lang.String",
+		"setPeriod":"java.lang.Integer",
+		"setEndTime":"java.lang.String",
+		"setAllocationId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeDisksFullStatus parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setDiskIds":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setEventIds":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setEventTimeStart":"java.lang.String",
+		"setEventTimeEnd":"java.lang.String",
+		"setHealthStatus":"java.lang.String",
+		"setEventType":"java.lang.String",
+		"setStatus":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## CancelAutoSnapshotPolicy parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setDiskIds":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DeleteNetworkInterface parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setNetworkInterfaceId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## ModifyInstanceSpec parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setInstanceId":"java.lang.String",
+		"setInstanceType":"java.lang.String",
+		"setInternetMaxBandwidthOut":"java.lang.Integer",
+		"setInternetMaxBandwidthIn":"java.lang.Integer",
+		"setSystemDiskCategory":"java.lang.String",
+		"setAllowMigrateAcrossZone":"java.lang.Boolean",
+		"setTemporaryInternetMaxBandwidthOut":"java.lang.Integer",
+		"setTemporaryStartTime":"java.lang.String",
+		"setAsync":"java.lang.Boolean",
+		"setTemporaryEndTime":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AssignPrivateIpAddresses parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setNetworkInterfaceId":"java.lang.String",
+		"setSecondaryPrivateIpAddressCount":"java.lang.Integer",
+		"setPrivateIpAddresss":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DeleteSnapshot parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setForce":"java.lang.Boolean",
+		"setSnapshotId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DeleteKeyPairs parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setKeyPairNames":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AuthorizeSecurityGroup parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setNicType":"java.lang.String",
+		"setSourcePortRange":"java.lang.String",
+		"setSourceGroupOwnerId":"java.lang.Long",
+		"setSourceGroupOwnerAccount":"java.lang.String",
+		"setIpv6DestCidrIp":"java.lang.String",
+		"setIpv6SourceCidrIp":"java.lang.String",
+		"setPolicy":"java.lang.String",
+		"setPortRange":"java.lang.String",
+		"setIpProtocol":"java.lang.String",
+		"setSourceCidrIp":"java.lang.String",
+		"setDestCidrIp":"java.lang.String",
+		"setSourceGroupId":"java.lang.String",
+		"setSecurityGroupId":"java.lang.String",
+		"setPriority":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeSnapshotMonitorData parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setStartTime":"java.lang.String",
+		"setPeriod":"java.lang.Integer",
+		"setEndTime":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DeleteSecurityGroup parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setSecurityGroupId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## ConnectRouterInterface parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setRouterInterfaceId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## GetInstanceConsoleOutput parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setInstanceId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## CreateSimulatedSystemEvents parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setEventType":"java.lang.String",
+		"setInstanceIds":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setNotBefore":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## RedeployInstance parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setInstanceId":"java.lang.String",
+		"setForceStop":"java.lang.Boolean",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## CancelTask parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setTaskId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## ModifyCommand parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setWorkingDir":"java.lang.String",
+		"setCommandId":"java.lang.String",
+		"setCommandContent":"java.lang.String",
+		"setTimeout":"java.lang.Long",
+		"setName":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## ModifyPhysicalConnectionAttribute parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setUserCidr":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setRedundantPhysicalConnectionId":"java.lang.String",
+		"setPeerLocation":"java.lang.String",
+		"setPortType":"java.lang.String",
+		"setCircuitCode":"java.lang.String",
+		"setBandwidth":"java.lang.Integer",
+		"setLineOperator":"java.lang.String",
+		"setPhysicalConnectionId":"java.lang.String",
+		"setName":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## ModifyVSwitchAttribute parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setVSwitchId":"java.lang.String",
+		"setVSwitchName":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## ModifyInstanceAttribute parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setInstanceId":"java.lang.String",
+		"setRecyclable":"java.lang.Boolean",
+		"setCreditSpecification":"java.lang.String",
+		"setDeletionProtection":"java.lang.Boolean",
+		"setUserData":"java.lang.String",
+		"setPassword":"java.lang.String",
+		"setHostName":"java.lang.String",
+		"setInstanceName":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DeleteHaVip parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setHaVipId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeSecurityGroups parameterss:
+
+```
+{
+	"main":{
+		"setVpcId":"java.lang.String",
+		"setTags":[
+			"ref1-com.aliyuncs.ecs.model.v20140526.DescribeSecurityGroupsRequest$Tag"
+		],
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceGroupId":"java.lang.String",
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setNetworkType":"java.lang.String",
+		"setDryRun":"java.lang.Boolean",
+		"setSecurityGroupId":"java.lang.String",
+		"setFuzzyQuery":"java.lang.Boolean",
+		"setIsQueryEcsCount":"java.lang.Boolean",
+		"setSecurityGroupName":"java.lang.String",
+		"setSecurityGroupIds":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	},
+	"ref1-com.aliyuncs.ecs.model.v20140526.DescribeSecurityGroupsRequest$Tag":{
+		"setKey":"java.lang.String",
+		"setValue":"java.lang.String"
+	}
+}
+```
+## ResizeDisk parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setDiskId":"java.lang.String",
+		"setType":"java.lang.String",
+		"setNewSize":"java.lang.Integer",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## ModifyDedicatedHostAttribute parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setDedicatedHostId":"java.lang.String",
+		"setDedicatedHostName":"java.lang.String",
+		"setActionOnMaintenance":"java.lang.String",
+		"setNetworkAttributesSlbUdpTimeout":"java.lang.Integer",
+		"setNetworkAttributesUdpTimeout":"java.lang.Integer",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## CreateRouteEntry parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setDestinationCidrBlock":"java.lang.String",
+		"setNextHopId":"java.lang.String",
+		"setNextHopLists":[
+			"ref1-com.aliyuncs.ecs.model.v20140526.CreateRouteEntryRequest$NextHopList"
+		],
+		"setRouteTableId":"java.lang.String",
+		"setNextHopType":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	},
+	"ref1-com.aliyuncs.ecs.model.v20140526.CreateRouteEntryRequest$NextHopList":{
+		"setNextHopId":"java.lang.String",
+		"setNextHopType":"java.lang.String"
+	}
+}
+```
+## AttachKeyPair parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setKeyPairName":"java.lang.String",
+		"setInstanceIds":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeInvocations parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPageSize":"java.lang.Long",
+		"setPageNumber":"java.lang.Long",
+		"setCommandId":"java.lang.String",
+		"setInstanceId":"java.lang.String",
+		"setTimed":"java.lang.Boolean",
+		"setInvokeId":"java.lang.String",
+		"setInvokeStatus":"java.lang.String",
+		"setCommandName":"java.lang.String",
+		"setCommandType":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## CreateRouterInterface parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setUserCidr":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPeriod":"java.lang.Integer",
+		"setInstanceChargeType":"java.lang.String",
+		"setAutoPay":"java.lang.Boolean",
+		"setAccessPointId":"java.lang.String",
+		"setSpec":"java.lang.String",
+		"setOppositeRouterId":"java.lang.String",
+		"setHealthCheckTargetIp":"java.lang.String",
+		"setOppositeInterfaceOwnerId":"java.lang.String",
+		"setHealthCheckSourceIp":"java.lang.String",
+		"setOppositeRouterType":"java.lang.String",
+		"setOppositeInterfaceId":"java.lang.String",
+		"setRouterType":"java.lang.String",
+		"setRouterId":"java.lang.String",
+		"setOppositeAccessPointId":"java.lang.String",
+		"setRole":"java.lang.String",
+		"setOppositeRegionId":"java.lang.String",
+		"setPricingCycle":"java.lang.String",
+		"setName":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## RunInstances parameterss:
+
+```
+{
+	"main":{
+		"setTags":[
+			"ref1-com.aliyuncs.ecs.model.v20140526.RunInstancesRequest$Tag"
+		],
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceGroupId":"java.lang.String",
+		"setKeyPairName":"java.lang.String",
+		"setVSwitchId":"java.lang.String",
+		"setPeriod":"java.lang.Integer",
+		"setDeploymentSetId":"java.lang.String",
+		"setDedicatedHostId":"java.lang.String",
+		"setCreditSpecification":"java.lang.String",
+		"setDeletionProtection":"java.lang.Boolean",
+		"setUserData":"java.lang.String",
+		"setPassword":"java.lang.String",
+		"setHostName":"java.lang.String",
+		"setInstanceName":"java.lang.String",
+		"setImageId":"java.lang.String",
+		"setLaunchTemplateName":"java.lang.String",
+		"setLaunchTemplateId":"java.lang.String",
+		"setDryRun":"java.lang.Boolean",
+		"setSecurityGroupId":"java.lang.String",
+		"setZoneId":"java.lang.String",
+		"setAutoReleaseTime":"java.lang.String",
+		"setInstanceType":"java.lang.String",
+		"setSpotStrategy":"java.lang.String",
+		"setInstanceChargeType":"java.lang.String",
+		"setInternetMaxBandwidthOut":"java.lang.Integer",
+		"setInternetMaxBandwidthIn":"java.lang.Integer",
+		"setHpcClusterId":"java.lang.String",
+		"setIoOptimized":"java.lang.String",
+		"setSecurityEnhancementStrategy":"java.lang.String",
+		"setSpotPriceLimit":"java.lang.Float",
+		"setSystemDiskCategory":"java.lang.String",
+		"setNetworkInterfaces":[
+			"ref2-com.aliyuncs.ecs.model.v20140526.RunInstancesRequest$NetworkInterface"
+		],
+		"setSystemDiskDiskName":"java.lang.String",
+		"setRamRoleName":"java.lang.String",
+		"setDataDisks":[
+			"ref3-com.aliyuncs.ecs.model.v20140526.RunInstancesRequest$DataDisk"
+		],
+		"setSystemDiskSize":"java.lang.String",
+		"setSystemDiskDescription":"java.lang.String",
+		"setInternetChargeType":"java.lang.String",
+		"setUniqueSuffix":"java.lang.Boolean",
+		"setAutoRenewPeriod":"java.lang.Integer",
+		"setIpv6AddressCount":"java.lang.Integer",
+		"setPrivateIpAddress":"java.lang.String",
+		"setPeriodUnit":"java.lang.String",
+		"setAutoRenew":"java.lang.Boolean",
+		"setIpv6Addresss":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setSpotInterruptionBehavior":"java.lang.String",
+		"setPasswordInherit":"java.lang.Boolean",
+		"setAmount":"java.lang.Integer",
+		"setLaunchTemplateVersion":"java.lang.Long",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	},
+	"ref1-com.aliyuncs.ecs.model.v20140526.RunInstancesRequest$Tag":{
+		"setKey":"java.lang.String",
+		"setValue":"java.lang.String"
+	},
+	"ref2-com.aliyuncs.ecs.model.v20140526.RunInstancesRequest$NetworkInterface":{
+		"setDescription":"java.lang.String",
+		"setVSwitchId":"java.lang.String",
+		"setSecurityGroupId":"java.lang.String",
+		"setNetworkInterfaceName":"java.lang.String",
+		"setPrimaryIpAddress":"java.lang.String"
+	},
+	"ref3-com.aliyuncs.ecs.model.v20140526.RunInstancesRequest$DataDisk":{
+		"setDescription":"java.lang.String",
+		"setEncrypted":"java.lang.String",
+		"setDiskName":"java.lang.String",
+		"setDeleteWithInstance":"java.lang.Boolean",
+		"setSnapshotId":"java.lang.String",
+		"setCategory":"java.lang.String",
+		"setDevice":"java.lang.String",
+		"setSize":"java.lang.Integer"
+	}
+}
+```
+## ModifyLaunchTemplateDefaultVersion parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setLaunchTemplateName":"java.lang.String",
+		"setLaunchTemplateId":"java.lang.String",
+		"setDefaultVersionNumber":"java.lang.Long",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## CreateLaunchTemplateVersion parameterss:
+
+```
+{
+	"main":{
+		"setVpcId":"java.lang.String",
+		"setTags":[
+			"ref1-com.aliyuncs.ecs.model.v20140526.CreateLaunchTemplateVersionRequest$Tag"
+		],
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceGroupId":"java.lang.String",
+		"setKeyPairName":"java.lang.String",
+		"setVSwitchId":"java.lang.String",
+		"setPeriod":"java.lang.Integer",
+		"setNetworkType":"java.lang.String",
+		"setUserData":"java.lang.String",
+		"setHostName":"java.lang.String",
+		"setInstanceName":"java.lang.String",
+		"setImageId":"java.lang.String",
+		"setLaunchTemplateName":"java.lang.String",
+		"setLaunchTemplateId":"java.lang.String",
+		"setSecurityGroupId":"java.lang.String",
+		"setZoneId":"java.lang.String",
+		"setAutoReleaseTime":"java.lang.String",
+		"setInstanceType":"java.lang.String",
+		"setSpotStrategy":"java.lang.String",
+		"setInstanceChargeType":"java.lang.String",
+		"setInternetMaxBandwidthOut":"java.lang.Integer",
+		"setInternetMaxBandwidthIn":"java.lang.Integer",
+		"setIoOptimized":"java.lang.String",
+		"setSecurityEnhancementStrategy":"java.lang.String",
+		"setSpotPriceLimit":"java.lang.Float",
+		"setImageOwnerAlias":"java.lang.String",
+		"setSystemDiskIops":"java.lang.Integer",
+		"setVersionDescription":"java.lang.String",
+		"setSystemDiskCategory":"java.lang.String",
+		"setEnableVmOsConfig":"java.lang.Boolean",
+		"setNetworkInterfaces":[
+			"ref2-com.aliyuncs.ecs.model.v20140526.CreateLaunchTemplateVersionRequest$NetworkInterface"
+		],
+		"setSystemDiskDiskName":"java.lang.String",
+		"setRamRoleName":"java.lang.String",
+		"setSpotDuration":"java.lang.Integer",
+		"setDataDisks":[
+			"ref3-com.aliyuncs.ecs.model.v20140526.CreateLaunchTemplateVersionRequest$DataDisk"
+		],
+		"setSystemDiskSize":"java.lang.Integer",
+		"setSystemDiskDescription":"java.lang.String",
+		"setInternetChargeType":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	},
+	"ref1-com.aliyuncs.ecs.model.v20140526.CreateLaunchTemplateVersionRequest$Tag":{
+		"setKey":"java.lang.String",
+		"setValue":"java.lang.String"
+	},
+	"ref2-com.aliyuncs.ecs.model.v20140526.CreateLaunchTemplateVersionRequest$NetworkInterface":{
+		"setDescription":"java.lang.String",
+		"setVSwitchId":"java.lang.String",
+		"setSecurityGroupId":"java.lang.String",
+		"setNetworkInterfaceName":"java.lang.String",
+		"setPrimaryIpAddress":"java.lang.String"
+	},
+	"ref3-com.aliyuncs.ecs.model.v20140526.CreateLaunchTemplateVersionRequest$DataDisk":{
+		"setDescription":"java.lang.String",
+		"setEncrypted":"java.lang.String",
+		"setDiskName":"java.lang.String",
+		"setDeleteWithInstance":"java.lang.Boolean",
+		"setSnapshotId":"java.lang.String",
+		"setCategory":"java.lang.String",
+		"setSize":"java.lang.Integer"
+	}
+}
+```
+## StopInvocation parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setInstanceIds":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setInvokeId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## ModifyInstanceNetworkSpec parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setStartTime":"java.lang.String",
+		"setEndTime":"java.lang.String",
+		"setInstanceId":"java.lang.String",
+		"setAutoPay":"java.lang.Boolean",
+		"setInternetMaxBandwidthOut":"java.lang.Integer",
+		"setNetworkChargeType":"java.lang.String",
+		"setInternetMaxBandwidthIn":"java.lang.Integer",
+		"setAllocatePublicIp":"java.lang.Boolean",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## ModifyInstanceDeployment parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setDeploymentSetId":"java.lang.String",
+		"setDedicatedHostId":"java.lang.String",
+		"setInstanceId":"java.lang.String",
+		"setForce":"java.lang.Boolean",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## ModifyDiskAttribute parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setDiskId":"java.lang.String",
+		"setDiskName":"java.lang.String",
+		"setDeleteAutoSnapshot":"java.lang.Boolean",
+		"setEnableAutoSnapshot":"java.lang.Boolean",
+		"setDeleteWithInstance":"java.lang.Boolean",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## CreateVSwitch parameterss:
+
+```
+{
+	"main":{
+		"setVpcId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setCidrBlock":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setVSwitchName":"java.lang.String",
+		"setZoneId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## ModifyEipAddressAttribute parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setBandwidth":"java.lang.String",
+		"setAllocationId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeBandwidthLimitation parameterss:
+
+```
+{
+	"main":{
+		"setResourceId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setInstanceType":"java.lang.String",
+		"setSpotStrategy":"java.lang.String",
+		"setInstanceChargeType":"java.lang.String",
+		"setOperationType":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## RemoveTags parameterss:
+
+```
+{
+	"main":{
+		"setResourceId":"java.lang.String",
+		"setTags":[
+			"ref1-com.aliyuncs.ecs.model.v20140526.RemoveTagsRequest$Tag"
+		],
+		"setResourceType":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	},
+	"ref1-com.aliyuncs.ecs.model.v20140526.RemoveTagsRequest$Tag":{
+		"setKey":"java.lang.String",
+		"setValue":"java.lang.String"
+	}
+}
+```
+## RenewDedicatedHosts parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPeriod":"java.lang.Integer",
+		"setDedicatedHostIds":"java.lang.String",
+		"setPeriodUnit":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## ModifySecurityGroupAttribute parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setSecurityGroupId":"java.lang.String",
+		"setSecurityGroupName":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## CancelSimulatedSystemEvents parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setEventIds":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## ModifyInstanceAutoReleaseTime parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setInstanceId":"java.lang.String",
+		"setAutoReleaseTime":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DeleteNatGateway parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setNatGatewayId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeZones parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setSpotStrategy":"java.lang.String",
+		"setInstanceChargeType":"java.lang.String",
+		"setVerbose":"java.lang.Boolean",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DeactivateRouterInterface parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setRouterInterfaceId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeAvailableResource parameterss:
+
+```
+{
+	"main":{
+		"setResourceType":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setDedicatedHostId":"java.lang.String",
+		"setZoneId":"java.lang.String",
+		"setInstanceType":"java.lang.String",
+		"setDataDiskCategory":"java.lang.String",
+		"setNetworkCategory":"java.lang.String",
+		"setSpotStrategy":"java.lang.String",
+		"setInstanceChargeType":"java.lang.String",
+		"setIoOptimized":"java.lang.String",
+		"setSystemDiskCategory":"java.lang.String",
+		"setDestinationResource":"java.lang.String",
+		"setCores":"java.lang.Integer",
+		"setMemory":"java.lang.Float",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeAccessPoints parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setFilters":[
+			"ref1-com.aliyuncs.ecs.model.v20140526.DescribeAccessPointsRequest$Filter"
+		],
+		"setType":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	},
+	"ref1-com.aliyuncs.ecs.model.v20140526.DescribeAccessPointsRequest$Filter":{
+		"setValues":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setKey":"java.lang.String"
+	}
+}
+```
+## CreateCommand parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setWorkingDir":"java.lang.String",
+		"setCommandContent":"java.lang.String",
+		"setTimeout":"java.lang.Long",
+		"setType":"java.lang.String",
+		"setName":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeInstancesFullStatus parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setEventIds":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setHealthStatus":"java.lang.String",
+		"setEventType":"java.lang.String",
+		"setStatus":"java.lang.String",
+		"setInstanceIds":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setEventPublishTimeEnd":"java.lang.String",
+		"setInstanceEventTypes":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setNotBeforeStart":"java.lang.String",
+		"setEventPublishTimeStart":"java.lang.String",
+		"setNotBeforeEnd":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeDedicatedHosts parameterss:
+
+```
+{
+	"main":{
+		"setTags":[
+			"ref1-com.aliyuncs.ecs.model.v20140526.DescribeDedicatedHostsRequest$Tag"
+		],
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceGroupId":"java.lang.String",
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setStatus":"java.lang.String",
+		"setDedicatedHostIds":"java.lang.String",
+		"setDedicatedHostName":"java.lang.String",
+		"setLockReason":"java.lang.String",
+		"setZoneId":"java.lang.String",
+		"setDedicatedHostType":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	},
+	"ref1-com.aliyuncs.ecs.model.v20140526.DescribeDedicatedHostsRequest$Tag":{
+		"setKey":"java.lang.String",
+		"setValue":"java.lang.String"
+	}
+}
+```
+## ReleaseEipAddress parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setAllocationId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DetachClassicLinkVpc parameterss:
+
+```
+{
+	"main":{
+		"setVpcId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setInstanceId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeVSwitches parameterss:
+
+```
+{
+	"main":{
+		"setVpcId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setVSwitchId":"java.lang.String",
+		"setZoneId":"java.lang.String",
+		"setIsDefault":"java.lang.Boolean",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## ModifyRouterInterfaceSpec parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setUserCidr":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setRouterInterfaceId":"java.lang.String",
+		"setSpec":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## ExportImage parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setImageId":"java.lang.String",
+		"setRoleName":"java.lang.String",
+		"setOSSBucket":"java.lang.String",
+		"setOSSPrefix":"java.lang.String",
+		"setImageFormat":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeVpcs parameterss:
+
+```
+{
+	"main":{
+		"setVpcId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setIsDefault":"java.lang.Boolean",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeDiskMonitorData parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setStartTime":"java.lang.String",
+		"setPeriod":"java.lang.Integer",
+		"setEndTime":"java.lang.String",
+		"setDiskId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## ModifyDeploymentSetAttribute parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setDeploymentSetId":"java.lang.String",
+		"setDeploymentSetName":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## ModifyRouterInterfaceAttribute parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setRouterInterfaceId":"java.lang.String",
+		"setOppositeRouterId":"java.lang.String",
+		"setHealthCheckTargetIp":"java.lang.String",
+		"setOppositeInterfaceOwnerId":"java.lang.Long",
+		"setHealthCheckSourceIp":"java.lang.String",
+		"setOppositeRouterType":"java.lang.String",
+		"setOppositeInterfaceId":"java.lang.String",
+		"setName":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeVirtualBorderRoutersForPhysicalConnection parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setPhysicalConnectionId":"java.lang.String",
+		"setFilters":[
+			"ref1-com.aliyuncs.ecs.model.v20140526.DescribeVirtualBorderRoutersForPhysicalConnectionRequest$Filter"
+		],
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	},
+	"ref1-com.aliyuncs.ecs.model.v20140526.DescribeVirtualBorderRoutersForPhysicalConnectionRequest$Filter":{
+		"setValues":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setKey":"java.lang.String"
+	}
+}
+```
+## StartInstance parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setInstanceId":"java.lang.String",
+		"setInitLocalDisk":"java.lang.Boolean",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## CreateDisk parameterss:
+
+```
+{
+	"main":{
+		"setTags":[
+			"ref1-com.aliyuncs.ecs.model.v20140526.CreateDiskRequest$Tag"
+		],
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceGroupId":"java.lang.String",
+		"setEncrypted":"java.lang.Boolean",
+		"setZoneId":"java.lang.String",
+		"setDiskName":"java.lang.String",
+		"setSnapshotId":"java.lang.String",
+		"setDiskCategory":"java.lang.String",
+		"setSize":"java.lang.Integer",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	},
+	"ref1-com.aliyuncs.ecs.model.v20140526.CreateDiskRequest$Tag":{
+		"setKey":"java.lang.String",
+		"setValue":"java.lang.String"
+	}
+}
+```
+## DescribeInstanceTypes parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setInstanceTypeFamily":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeSnapshotPackage parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## RebootInstance parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setInstanceId":"java.lang.String",
+		"setForceStop":"java.lang.Boolean",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## InvokeCommand parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setCommandId":"java.lang.String",
+		"setFrequency":"java.lang.String",
+		"setTimed":"java.lang.Boolean",
+		"setInstanceIds":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## ModifyUserBusinessBehavior parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setStatusValue":"java.lang.String",
+		"setStatusKey":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DeleteForwardEntry parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setForwardEntryId":"java.lang.String",
+		"setForwardTableId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeHpcClusters parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setHpcClusterIds":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## ModifyInstanceChargeType parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPeriod":"java.lang.Integer",
+		"setDryRun":"java.lang.Boolean",
+		"setInstanceIds":"java.lang.String",
+		"setInstanceChargeType":"java.lang.String",
+		"setAutoPay":"java.lang.Boolean",
+		"setPeriodUnit":"java.lang.String",
+		"setIncludeDataDisks":"java.lang.Boolean",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## ModifyInstanceAutoRenewAttribute parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setInstanceId":"java.lang.String",
+		"setPeriodUnit":"java.lang.String",
+		"setAutoRenew":"java.lang.Boolean",
+		"setRenewalStatus":"java.lang.String",
+		"setDuration":"java.lang.Integer",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeVirtualBorderRouters parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setFilters":[
+			"ref1-com.aliyuncs.ecs.model.v20140526.DescribeVirtualBorderRoutersRequest$Filter"
+		],
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	},
+	"ref1-com.aliyuncs.ecs.model.v20140526.DescribeVirtualBorderRoutersRequest$Filter":{
+		"setValues":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setKey":"java.lang.String"
+	}
+}
+```
+## ModifyDedicatedHostAutoReleaseTime parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setDedicatedHostId":"java.lang.String",
+		"setAutoReleaseTime":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## ModifyHpcClusterAttribute parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setHpcClusterId":"java.lang.String",
+		"setName":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeLimitation parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setLimitation":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribePrice parameterss:
+
+```
+{
+	"main":{
+		"setResourceType":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPeriod":"java.lang.Integer",
+		"setImageId":"java.lang.String",
+		"setInstanceType":"java.lang.String",
+		"setInternetMaxBandwidthOut":"java.lang.Integer",
+		"setIoOptimized":"java.lang.String",
+		"setSystemDiskCategory":"java.lang.String",
+		"setSystemDiskSize":"java.lang.Integer",
+		"setInternetChargeType":"java.lang.String",
+		"setInstanceNetworkType":"java.lang.String",
+		"setAmount":"java.lang.Integer",
+		"setPriceUnit":"java.lang.String",
+		"setDataDisk3Size":"java.lang.Integer",
+		"setDataDisk3Category":"java.lang.String",
+		"setDataDisk4Category":"java.lang.String",
+		"setDataDisk4Size":"java.lang.Integer",
+		"setDataDisk2Category":"java.lang.String",
+		"setDataDisk1Size":"java.lang.Integer",
+		"setDataDisk2Size":"java.lang.Integer",
+		"setDataDisk1Category":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DeleteDeploymentSet parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setDeploymentSetId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## ModifyInstanceVpcAttribute parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setVSwitchId":"java.lang.String",
+		"setInstanceId":"java.lang.String",
+		"setPrivateIpAddress":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## ReleaseDedicatedHost parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setDedicatedHostId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AddTags parameterss:
+
+```
+{
+	"main":{
+		"setResourceId":"java.lang.String",
+		"setTags":[
+			"ref1-com.aliyuncs.ecs.model.v20140526.AddTagsRequest$Tag"
+		],
+		"setResourceType":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	},
+	"ref1-com.aliyuncs.ecs.model.v20140526.AddTagsRequest$Tag":{
+		"setKey":"java.lang.String",
+		"setValue":"java.lang.String"
+	}
+}
+```
+## CreateHpcCluster parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setName":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeUserBusinessBehavior parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setStatusKey":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeCommands parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPageSize":"java.lang.Long",
+		"setPageNumber":"java.lang.Long",
+		"setCommandId":"java.lang.String",
+		"setType":"java.lang.String",
+		"setName":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DeleteImage parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setForce":"java.lang.Boolean",
+		"setImageId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeNetworkInterfacePermissions parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setNetworkInterfacePermissionIds":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setNetworkInterfaceId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeDisks parameterss:
+
+```
+{
+	"main":{
+		"setTags":[
+			"ref1-com.aliyuncs.ecs.model.v20140526.DescribeDisksRequest$Tag"
+		],
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceGroupId":"java.lang.String",
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setDiskIds":"java.lang.String",
+		"setInstanceId":"java.lang.String",
+		"setFilter2Value":"java.lang.String",
+		"setAutoSnapshotPolicyId":"java.lang.String",
+		"setFilter1Key":"java.lang.String",
+		"setDryRun":"java.lang.Boolean",
+		"setFilter1Value":"java.lang.String",
+		"setFilter2Key":"java.lang.String",
+		"setEncrypted":"java.lang.Boolean",
+		"setStatus":"java.lang.String",
+		"setLockReason":"java.lang.String",
+		"setZoneId":"java.lang.String",
+		"setDiskName":"java.lang.String",
+		"setDeleteAutoSnapshot":"java.lang.Boolean",
+		"setEnableAutoSnapshot":"java.lang.Boolean",
+		"setDeleteWithInstance":"java.lang.Boolean",
+		"setSnapshotId":"java.lang.String",
+		"setDiskChargeType":"java.lang.String",
+		"setPortable":"java.lang.Boolean",
+		"setEnableAutomatedSnapshotPolicy":"java.lang.Boolean",
+		"setDiskType":"java.lang.String",
+		"setAdditionalAttributess":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setEnableShared":"java.lang.Boolean",
+		"setCategory":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	},
+	"ref1-com.aliyuncs.ecs.model.v20140526.DescribeDisksRequest$Tag":{
+		"setKey":"java.lang.String",
+		"setValue":"java.lang.String"
+	}
+}
+```
+## DeleteVpc parameterss:
+
+```
+{
+	"main":{
+		"setVpcId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DeleteCommand parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setCommandId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeImageSupportInstanceTypes parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setImageId":"java.lang.String",
+		"setFilters":[
+			"ref1-com.aliyuncs.ecs.model.v20140526.DescribeImageSupportInstanceTypesRequest$Filter"
+		],
+		"setActionType":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	},
+	"ref1-com.aliyuncs.ecs.model.v20140526.DescribeImageSupportInstanceTypesRequest$Filter":{
+		"setKey":"java.lang.String",
+		"setValue":"java.lang.String"
+	}
+}
+```
+## ReplaceSystemDisk parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setKeyPairName":"java.lang.String",
+		"setInstanceId":"java.lang.String",
+		"setPassword":"java.lang.String",
+		"setImageId":"java.lang.String",
+		"setDiskId":"java.lang.String",
+		"setSecurityEnhancementStrategy":"java.lang.String",
+		"setSystemDiskSize":"java.lang.Integer",
+		"setPasswordInherit":"java.lang.Boolean",
+		"setArchitecture":"java.lang.String",
+		"setUseAdditionalService":"java.lang.Boolean",
+		"setPlatform":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DeleteVSwitch parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setVSwitchId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## ModifyImageShareGroupPermission parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setImageId":"java.lang.String",
+		"setAddGroup1":"java.lang.String",
+		"setRemoveGroup1":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeInstanceVncUrl parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setInstanceId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## RecoverVirtualBorderRouter parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setUserCidr":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setVbrId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeResourceByTags parameterss:
+
+```
+{
+	"main":{
+		"setTags":[
+			"ref1-com.aliyuncs.ecs.model.v20140526.DescribeResourceByTagsRequest$Tag"
+		],
+		"setResourceType":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	},
+	"ref1-com.aliyuncs.ecs.model.v20140526.DescribeResourceByTagsRequest$Tag":{
+		"setKey":"java.lang.String",
+		"setValue":"java.lang.String"
+	}
+}
+```
+## DescribeClusters parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DeleteBandwidthPackage parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setBandwidthPackageId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeTags parameterss:
+
+```
+{
+	"main":{
+		"setResourceId":"java.lang.String",
+		"setTags":[
+			"ref1-com.aliyuncs.ecs.model.v20140526.DescribeTagsRequest$Tag"
+		],
+		"setResourceType":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	},
+	"ref1-com.aliyuncs.ecs.model.v20140526.DescribeTagsRequest$Tag":{
+		"setKey":"java.lang.String",
+		"setValue":"java.lang.String"
+	}
+}
+```
+## DescribeImages parameterss:
+
+```
+{
+	"main":{
+		"setTags":[
+			"ref1-com.aliyuncs.ecs.model.v20140526.DescribeImagesRequest$Tag"
+		],
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceGroupId":"java.lang.String",
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setImageId":"java.lang.String",
+		"setUsage":"java.lang.String",
+		"setFilters":[
+			"ref2-com.aliyuncs.ecs.model.v20140526.DescribeImagesRequest$Filter"
+		],
+		"setDryRun":"java.lang.Boolean",
+		"setStatus":"java.lang.String",
+		"setInstanceType":"java.lang.String",
+		"setImageOwnerAlias":"java.lang.String",
+		"setSnapshotId":"java.lang.String",
+		"setActionType":"java.lang.String",
+		"setIsSupportIoOptimized":"java.lang.Boolean",
+		"setImageName":"java.lang.String",
+		"setIsSupportCloudinit":"java.lang.Boolean",
+		"setArchitecture":"java.lang.String",
+		"setShowExpired":"java.lang.Boolean",
+		"setOSType":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	},
+	"ref1-com.aliyuncs.ecs.model.v20140526.DescribeImagesRequest$Tag":{
+		"setKey":"java.lang.String",
+		"setValue":"java.lang.String"
+	},
+	"ref2-com.aliyuncs.ecs.model.v20140526.DescribeImagesRequest$Filter":{
+		"setKey":"java.lang.String",
+		"setValue":"java.lang.String"
+	}
+}
+```
+## AuthorizeSecurityGroupEgress parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setNicType":"java.lang.String",
+		"setSourcePortRange":"java.lang.String",
+		"setIpv6DestCidrIp":"java.lang.String",
+		"setIpv6SourceCidrIp":"java.lang.String",
+		"setPolicy":"java.lang.String",
+		"setPortRange":"java.lang.String",
+		"setIpProtocol":"java.lang.String",
+		"setSourceCidrIp":"java.lang.String",
+		"setDestCidrIp":"java.lang.String",
+		"setSecurityGroupId":"java.lang.String",
+		"setDestGroupId":"java.lang.String",
+		"setDestGroupOwnerAccount":"java.lang.String",
+		"setDestGroupOwnerId":"java.lang.Long",
+		"setPriority":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## ImportImage parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setImageName":"java.lang.String",
+		"setArchitecture":"java.lang.String",
+		"setOSType":"java.lang.String",
+		"setDiskDeviceMappings":[
+			"ref1-com.aliyuncs.ecs.model.v20140526.ImportImageRequest$DiskDeviceMapping"
+		],
+		"setRoleName":"java.lang.String",
+		"setPlatform":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	},
+	"ref1-com.aliyuncs.ecs.model.v20140526.ImportImageRequest$DiskDeviceMapping":{
+		"setDevice":"java.lang.String",
+		"setOSSBucket":"java.lang.String",
+		"setFormat":"java.lang.String",
+		"setOSSObject":"java.lang.String",
+		"setDiskImageSize":"java.lang.Integer",
+		"setDiskImSize":"java.lang.Integer"
+	}
+}
+```
+## ModifyForwardEntry parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setIpProtocol":"java.lang.String",
+		"setForwardEntryId":"java.lang.String",
+		"setForwardTableId":"java.lang.String",
+		"setInternalPort":"java.lang.String",
+		"setExternalIp":"java.lang.String",
+		"setExternalPort":"java.lang.String",
+		"setInternalIp":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## RenewInstance parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPeriod":"java.lang.Integer",
+		"setInstanceId":"java.lang.String",
+		"setPeriodUnit":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## CopyImage parameterss:
+
+```
+{
+	"main":{
+		"setTags":[
+			"ref1-com.aliyuncs.ecs.model.v20140526.CopyImageRequest$Tag"
+		],
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setImageId":"java.lang.String",
+		"setEncrypted":"java.lang.Boolean",
+		"setDestinationImageName":"java.lang.String",
+		"setDestinationRegionId":"java.lang.String",
+		"setDestinationDescription":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	},
+	"ref1-com.aliyuncs.ecs.model.v20140526.CopyImageRequest$Tag":{
+		"setKey":"java.lang.String",
+		"setValue":"java.lang.String"
+	}
+}
+```
+## CreateVpc parameterss:
+
+```
+{
+	"main":{
+		"setVpcName":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setCidrBlock":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setUserCidr":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeInstanceMonitorData parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setStartTime":"java.lang.String",
+		"setPeriod":"java.lang.Integer",
+		"setEndTime":"java.lang.String",
+		"setInstanceId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## UnassociateEipAddress parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setInstanceId":"java.lang.String",
+		"setAllocationId":"java.lang.String",
+		"setInstanceType":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## CreateSnapshot parameterss:
+
+```
+{
+	"main":{
+		"setTags":[
+			"ref1-com.aliyuncs.ecs.model.v20140526.CreateSnapshotRequest$Tag"
+		],
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setSnapshotName":"java.lang.String",
+		"setDiskId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	},
+	"ref1-com.aliyuncs.ecs.model.v20140526.CreateSnapshotRequest$Tag":{
+		"setKey":"java.lang.String",
+		"setValue":"java.lang.String"
+	}
+}
+```
+## ModifyVirtualBorderRouterAttribute parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setUserCidr":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setCircuitCode":"java.lang.String",
+		"setVlanId":"java.lang.Integer",
+		"setVbrId":"java.lang.String",
+		"setPeerGatewayIp":"java.lang.String",
+		"setPeeringSubnetMask":"java.lang.String",
+		"setLocalGatewayIp":"java.lang.String",
+		"setName":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DetachKeyPair parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setKeyPairName":"java.lang.String",
+		"setInstanceIds":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeTasks parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setStartTime":"java.lang.String",
+		"setEndTime":"java.lang.String",
+		"setTaskIds":"java.lang.String",
+		"setTaskStatus":"java.lang.String",
+		"setTaskAction":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeRenewalPrice parameterss:
+
+```
+{
+	"main":{
+		"setResourceId":"java.lang.String",
+		"setResourceType":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPeriod":"java.lang.Integer",
+		"setPriceUnit":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## LeaveSecurityGroup parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setInstanceId":"java.lang.String",
+		"setSecurityGroupId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## UnassignPrivateIpAddresses parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setNetworkInterfaceId":"java.lang.String",
+		"setPrivateIpAddresss":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeInstanceVncPasswd parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setInstanceId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeInstanceAutoRenewAttribute parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPageSize":"java.lang.String",
+		"setPageNumber":"java.lang.String",
+		"setInstanceId":"java.lang.String",
+		"setRenewalStatus":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## ModifySecurityGroupRule parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setNicType":"java.lang.String",
+		"setSourcePortRange":"java.lang.String",
+		"setSourceGroupOwnerId":"java.lang.Long",
+		"setSourceGroupOwnerAccount":"java.lang.String",
+		"setIpv6DestCidrIp":"java.lang.String",
+		"setIpv6SourceCidrIp":"java.lang.String",
+		"setPolicy":"java.lang.String",
+		"setPortRange":"java.lang.String",
+		"setIpProtocol":"java.lang.String",
+		"setSourceCidrIp":"java.lang.String",
+		"setDestCidrIp":"java.lang.String",
+		"setSourceGroupId":"java.lang.String",
+		"setSecurityGroupId":"java.lang.String",
+		"setPriority":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeResourcesModification parameterss:
+
+```
+{
+	"main":{
+		"setResourceId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setInstanceType":"java.lang.String",
+		"setOperationType":"java.lang.String",
+		"setDestinationResource":"java.lang.String",
+		"setCores":"java.lang.Integer",
+		"setMigrateAcrossZone":"java.lang.Boolean",
+		"setMemory":"java.lang.Float",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## ImportKeyPair parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setKeyPairName":"java.lang.String",
+		"setPublicKeyBody":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DeleteLaunchTemplate parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setLaunchTemplateName":"java.lang.String",
+		"setLaunchTemplateId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeNewProjectEipMonitorData parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setStartTime":"java.lang.String",
+		"setPeriod":"java.lang.Integer",
+		"setEndTime":"java.lang.String",
+		"setAllocationId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeInstanceRamRole parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setInstanceIds":"java.lang.String",
+		"setRamRoleName":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## CreateImage parameterss:
+
+```
+{
+	"main":{
+		"setTags":[
+			"ref1-com.aliyuncs.ecs.model.v20140526.CreateImageRequest$Tag"
+		],
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceGroupId":"java.lang.String",
+		"setInstanceId":"java.lang.String",
+		"setSnapshotId":"java.lang.String",
+		"setImageName":"java.lang.String",
+		"setArchitecture":"java.lang.String",
+		"setDiskDeviceMappings":[
+			"ref2-com.aliyuncs.ecs.model.v20140526.CreateImageRequest$DiskDeviceMapping"
+		],
+		"setPlatform":"java.lang.String",
+		"setImageVersion":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	},
+	"ref1-com.aliyuncs.ecs.model.v20140526.CreateImageRequest$Tag":{
+		"setKey":"java.lang.String",
+		"setValue":"java.lang.String"
+	},
+	"ref2-com.aliyuncs.ecs.model.v20140526.CreateImageRequest$DiskDeviceMapping":{
+		"setSnapshotId":"java.lang.String",
+		"setDiskType":"java.lang.String",
+		"setDevice":"java.lang.String",
+		"setSize":"java.lang.Integer"
+	}
+}
+```
+## DescribeHaVips parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setFilters":[
+			"ref1-com.aliyuncs.ecs.model.v20140526.DescribeHaVipsRequest$Filter"
+		],
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	},
+	"ref1-com.aliyuncs.ecs.model.v20140526.DescribeHaVipsRequest$Filter":{
+		"setValues":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setKey":"java.lang.String"
+	}
+}
+```
+## DescribeInstanceAttribute parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setInstanceId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DetachDisk parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setInstanceId":"java.lang.String",
+		"setDiskId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## ModifyImageAttribute parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setImageId":"java.lang.String",
+		"setImageName":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AddBandwidthPackageIps parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setBandwidthPackageId":"java.lang.String",
+		"setIpCount":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeInstanceStatus parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setZoneId":"java.lang.String",
+		"setClusterId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeNatGateways parameterss:
+
+```
+{
+	"main":{
+		"setVpcId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setNatGatewayId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DeleteHpcCluster parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setHpcClusterId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## ResetDisk parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setDiskId":"java.lang.String",
+		"setSnapshotId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## ModifyDiskChargeType parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setDiskIds":"java.lang.String",
+		"setInstanceId":"java.lang.String",
+		"setAutoPay":"java.lang.Boolean",
+		"setDiskChargeType":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeBandwidthPackages parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setBandwidthPackageId":"java.lang.String",
+		"setNatGatewayId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## ApplyAutoSnapshotPolicy parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setDiskIds":"java.lang.String",
+		"setAutoSnapshotPolicyId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeSnapshotLinks parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setSnapshotLinkIds":"java.lang.String",
+		"setDiskIds":"java.lang.String",
+		"setInstanceId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## CreateSecurityGroup parameterss:
+
+```
+{
+	"main":{
+		"setVpcId":"java.lang.String",
+		"setTags":[
+			"ref1-com.aliyuncs.ecs.model.v20140526.CreateSecurityGroupRequest$Tag"
+		],
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceGroupId":"java.lang.String",
+		"setSecurityGroupName":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	},
+	"ref1-com.aliyuncs.ecs.model.v20140526.CreateSecurityGroupRequest$Tag":{
+		"setKey":"java.lang.String",
+		"setValue":"java.lang.String"
+	}
+}
+```
+## DescribeInvocationResults parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPageSize":"java.lang.Long",
+		"setPageNumber":"java.lang.Long",
+		"setCommandId":"java.lang.String",
+		"setInstanceId":"java.lang.String",
+		"setInvokeId":"java.lang.String",
+		"setInvokeRecordStatus":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeRecommendInstanceType parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setNetworkType":"java.lang.String",
+		"setChannel":"java.lang.String",
+		"setOperator":"java.lang.String",
+		"setToken":"java.lang.String",
+		"setScene":"java.lang.String",
+		"setInstanceType":"java.lang.String",
+		"setProxyId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeDedicatedHostAutoRenew parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setDedicatedHostIds":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DeleteInstance parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setInstanceId":"java.lang.String",
+		"setForce":"java.lang.Boolean",
+		"setTerminateSubscription":"java.lang.Boolean",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## CreateLaunchTemplate parameterss:
+
+```
+{
+	"main":{
+		"setVpcId":"java.lang.String",
+		"setTags":[
+			"ref1-com.aliyuncs.ecs.model.v20140526.CreateLaunchTemplateRequest$Tag"
+		],
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceGroupId":"java.lang.String",
+		"setKeyPairName":"java.lang.String",
+		"setVSwitchId":"java.lang.String",
+		"setPeriod":"java.lang.Integer",
+		"setNetworkType":"java.lang.String",
+		"setUserData":"java.lang.String",
+		"setHostName":"java.lang.String",
+		"setInstanceName":"java.lang.String",
+		"setImageId":"java.lang.String",
+		"setLaunchTemplateName":"java.lang.String",
+		"setSecurityGroupId":"java.lang.String",
+		"setZoneId":"java.lang.String",
+		"setAutoReleaseTime":"java.lang.String",
+		"setInstanceType":"java.lang.String",
+		"setSpotStrategy":"java.lang.String",
+		"setInstanceChargeType":"java.lang.String",
+		"setInternetMaxBandwidthOut":"java.lang.Integer",
+		"setInternetMaxBandwidthIn":"java.lang.Integer",
+		"setTemplateTags":[
+			"ref2-com.aliyuncs.ecs.model.v20140526.CreateLaunchTemplateRequest$TemplateTag"
+		],
+		"setTemplateResourceGroupId":"java.lang.String",
+		"setIoOptimized":"java.lang.String",
+		"setSecurityEnhancementStrategy":"java.lang.String",
+		"setSpotPriceLimit":"java.lang.Float",
+		"setImageOwnerAlias":"java.lang.String",
+		"setSystemDiskIops":"java.lang.Integer",
+		"setVersionDescription":"java.lang.String",
+		"setSystemDiskCategory":"java.lang.String",
+		"setEnableVmOsConfig":"java.lang.Boolean",
+		"setNetworkInterfaces":[
+			"ref3-com.aliyuncs.ecs.model.v20140526.CreateLaunchTemplateRequest$NetworkInterface"
+		],
+		"setSystemDiskDiskName":"java.lang.String",
+		"setRamRoleName":"java.lang.String",
+		"setSpotDuration":"java.lang.Integer",
+		"setDataDisks":[
+			"ref4-com.aliyuncs.ecs.model.v20140526.CreateLaunchTemplateRequest$DataDisk"
+		],
+		"setSystemDiskSize":"java.lang.Integer",
+		"setSystemDiskDescription":"java.lang.String",
+		"setInternetChargeType":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	},
+	"ref1-com.aliyuncs.ecs.model.v20140526.CreateLaunchTemplateRequest$Tag":{
+		"setKey":"java.lang.String",
+		"setValue":"java.lang.String"
+	},
+	"ref2-com.aliyuncs.ecs.model.v20140526.CreateLaunchTemplateRequest$TemplateTag":{
+		"setKey":"java.lang.String",
+		"setValue":"java.lang.String"
+	},
+	"ref3-com.aliyuncs.ecs.model.v20140526.CreateLaunchTemplateRequest$NetworkInterface":{
+		"setDescription":"java.lang.String",
+		"setVSwitchId":"java.lang.String",
+		"setSecurityGroupId":"java.lang.String",
+		"setNetworkInterfaceName":"java.lang.String",
+		"setPrimaryIpAddress":"java.lang.String"
+	},
+	"ref4-com.aliyuncs.ecs.model.v20140526.CreateLaunchTemplateRequest$DataDisk":{
+		"setDescription":"java.lang.String",
+		"setEncrypted":"java.lang.String",
+		"setDiskName":"java.lang.String",
+		"setDeleteWithInstance":"java.lang.Boolean",
+		"setSnapshotId":"java.lang.String",
+		"setCategory":"java.lang.String",
+		"setSize":"java.lang.Integer"
+	}
+}
+```
+## CreateNetworkInterfacePermission parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setNetworkInterfaceId":"java.lang.String",
+		"setAccountId":"java.lang.Long",
+		"setPermission":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## ModifyVpcAttribute parameterss:
+
+```
+{
+	"main":{
+		"setVpcId":"java.lang.String",
+		"setVpcName":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setCidrBlock":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setUserCidr":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## RemoveBandwidthPackageIps parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setBandwidthPackageId":"java.lang.String",
+		"setRemovedIpAddressess":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeSnapshotsUsage parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DeleteAutoSnapshotPolicy parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setAutoSnapshotPolicyId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## ModifySecurityGroupEgressRule parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setNicType":"java.lang.String",
+		"setSourcePortRange":"java.lang.String",
+		"setIpv6DestCidrIp":"java.lang.String",
+		"setIpv6SourceCidrIp":"java.lang.String",
+		"setPolicy":"java.lang.String",
+		"setPortRange":"java.lang.String",
+		"setIpProtocol":"java.lang.String",
+		"setSourceCidrIp":"java.lang.String",
+		"setDestCidrIp":"java.lang.String",
+		"setSecurityGroupId":"java.lang.String",
+		"setDestGroupId":"java.lang.String",
+		"setDestGroupOwnerAccount":"java.lang.String",
+		"setDestGroupOwnerId":"java.lang.Long",
+		"setPriority":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## CreateInstance parameterss:
+
+```
+{
+	"main":{
+		"setTags":[
+			"ref1-com.aliyuncs.ecs.model.v20140526.CreateInstanceRequest$Tag"
+		],
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceGroupId":"java.lang.String",
+		"setKeyPairName":"java.lang.String",
+		"setVSwitchId":"java.lang.String",
+		"setPeriod":"java.lang.Integer",
+		"setDeploymentSetId":"java.lang.String",
+		"setDedicatedHostId":"java.lang.String",
+		"setCreditSpecification":"java.lang.String",
+		"setDeletionProtection":"java.lang.Boolean",
+		"setUserData":"java.lang.String",
+		"setPassword":"java.lang.String",
+		"setHostName":"java.lang.String",
+		"setInstanceName":"java.lang.String",
+		"setImageId":"java.lang.String",
+		"setDryRun":"java.lang.Boolean",
+		"setSecurityGroupId":"java.lang.String",
+		"setZoneId":"java.lang.String",
+		"setVlanId":"java.lang.String",
+		"setInstanceType":"java.lang.String",
+		"setSpotStrategy":"java.lang.String",
+		"setInstanceChargeType":"java.lang.String",
+		"setInternetMaxBandwidthOut":"java.lang.Integer",
+		"setInternetMaxBandwidthIn":"java.lang.Integer",
+		"setHpcClusterId":"java.lang.String",
+		"setIoOptimized":"java.lang.String",
+		"setSecurityEnhancementStrategy":"java.lang.String",
+		"setSpotPriceLimit":"java.lang.Float",
+		"setSystemDiskCategory":"java.lang.String",
+		"setSystemDiskDiskName":"java.lang.String",
+		"setRamRoleName":"java.lang.String",
+		"setDataDisks":[
+			"ref2-com.aliyuncs.ecs.model.v20140526.CreateInstanceRequest$DataDisk"
+		],
+		"setSystemDiskSize":"java.lang.Integer",
+		"setSystemDiskDescription":"java.lang.String",
+		"setInternetChargeType":"java.lang.String",
+		"setAutoRenewPeriod":"java.lang.Integer",
+		"setPrivateIpAddress":"java.lang.String",
+		"setPeriodUnit":"java.lang.String",
+		"setAutoRenew":"java.lang.Boolean",
+		"setSpotInterruptionBehavior":"java.lang.String",
+		"setPasswordInherit":"java.lang.Boolean",
+		"setNodeControllerId":"java.lang.String",
+		"setUseAdditionalService":"java.lang.Boolean",
+		"setInnerIpAddress":"java.lang.String",
+		"setClusterId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	},
+	"ref1-com.aliyuncs.ecs.model.v20140526.CreateInstanceRequest$Tag":{
+		"setKey":"java.lang.String",
+		"setValue":"java.lang.String"
+	},
+	"ref2-com.aliyuncs.ecs.model.v20140526.CreateInstanceRequest$DataDisk":{
+		"setDescription":"java.lang.String",
+		"setEncrypted":"java.lang.Boolean",
+		"setDiskName":"java.lang.String",
+		"setDeleteWithInstance":"java.lang.Boolean",
+		"setSnapshotId":"java.lang.String",
+		"setCategory":"java.lang.String",
+		"setDevice":"java.lang.String",
+		"setSize":"java.lang.Integer"
+	}
+}
+```
+## EnablePhysicalConnection parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setUserCidr":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPhysicalConnectionId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeInstanceTypeFamilies parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setGeneration":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeRouterInterfaces parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setFilters":[
+			"ref1-com.aliyuncs.ecs.model.v20140526.DescribeRouterInterfacesRequest$Filter"
+		],
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	},
+	"ref1-com.aliyuncs.ecs.model.v20140526.DescribeRouterInterfacesRequest$Filter":{
+		"setValues":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setKey":"java.lang.String"
+	}
+}
+```
+## CreateForwardEntry parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setIpProtocol":"java.lang.String",
+		"setForwardTableId":"java.lang.String",
+		"setInternalPort":"java.lang.String",
+		"setExternalIp":"java.lang.String",
+		"setExternalPort":"java.lang.String",
+		"setInternalIp":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeLaunchTemplates parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setLaunchTemplateNames":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setTemplateTags":[
+			"ref1-com.aliyuncs.ecs.model.v20140526.DescribeLaunchTemplatesRequest$TemplateTag"
+		],
+		"setLaunchTemplateIds":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setTemplateResourceGroupId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	},
+	"ref1-com.aliyuncs.ecs.model.v20140526.DescribeLaunchTemplatesRequest$TemplateTag":{
+		"setKey":"java.lang.String",
+		"setValue":"java.lang.String"
+	}
+}
+```
+## EipNotifyPaid parameterss:
+
+```
+{
+	"main":{
+		"setData":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setUserCidr":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## ReleasePublicIpAddress parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setInstanceId":"java.lang.String",
+		"setPublicIpAddress":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## CreateVirtualBorderRouter parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setUserCidr":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setCircuitCode":"java.lang.String",
+		"setPhysicalConnectionId":"java.lang.String",
+		"setVlanId":"java.lang.Integer",
+		"setPeerGatewayIp":"java.lang.String",
+		"setPeeringSubnetMask":"java.lang.String",
+		"setLocalGatewayIp":"java.lang.String",
+		"setVbrOwnerId":"java.lang.Long",
+		"setName":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeAccountAttributes parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setZoneId":"java.lang.String",
+		"setAttributeNames":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## EipFillParams parameterss:
+
+```
+{
+	"main":{
+		"setData":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setUserCidr":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## ModifyPrepayInstanceSpec parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setInstanceId":"java.lang.String",
+		"setInstanceType":"java.lang.String",
+		"setAutoPay":"java.lang.Boolean",
+		"setSystemDiskCategory":"java.lang.String",
+		"setMigrateAcrossZone":"java.lang.Boolean",
+		"setOperatorType":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## EipFillProduct parameterss:
+
+```
+{
+	"main":{
+		"setData":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setUserCidr":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeRouteTables parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setRouteTableId":"java.lang.String",
+		"setVRouterId":"java.lang.String",
+		"setRouterType":"java.lang.String",
+		"setRouteTableName":"java.lang.String",
+		"setRouterId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeUserData parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setInstanceId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## ModifyAutoSnapshotPolicyEx parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setAutoSnapshotPolicyId":"java.lang.String",
+		"setTimePoints":"java.lang.String",
+		"setRetentionDays":"java.lang.Integer",
+		"setRepeatWeekdays":"java.lang.String",
+		"setAutoSnapshotPolicyName":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## JoinResourceGroup parameterss:
+
+```
+{
+	"main":{
+		"setResourceId":"java.lang.String",
+		"setResourceType":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceGroupId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## CreatePhysicalConnection parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setUserCidr":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setRedundantPhysicalConnectionId":"java.lang.String",
+		"setPeerLocation":"java.lang.String",
+		"setPortType":"java.lang.String",
+		"setCircuitCode":"java.lang.String",
+		"setBandwidth":"java.lang.Integer",
+		"setLineOperator":"java.lang.String",
+		"setType":"java.lang.String",
+		"setAccessPointId":"java.lang.String",
+		"setName":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeKeyPairs parameterss:
+
+```
+{
+	"main":{
+		"setTags":[
+			"ref1-com.aliyuncs.ecs.model.v20140526.DescribeKeyPairsRequest$Tag"
+		],
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceGroupId":"java.lang.String",
+		"setKeyPairFingerPrint":"java.lang.String",
+		"setPageSize":"java.lang.Integer",
+		"setKeyPairName":"java.lang.String",
+		"setPageNumber":"java.lang.Integer",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	},
+	"ref1-com.aliyuncs.ecs.model.v20140526.DescribeKeyPairsRequest$Tag":{
+		"setKey":"java.lang.String",
+		"setValue":"java.lang.String"
+	}
+}
+```
+## AssociateHaVip parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setInstanceId":"java.lang.String",
+		"setHaVipId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## ModifySecurityGroupPolicy parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setSecurityGroupId":"java.lang.String",
+		"setInnerAccessPolicy":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## ConvertNatPublicIpToEip parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setInstanceId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AssignIpv6Addresses parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setNetworkInterfaceId":"java.lang.String",
+		"setIpv6AddressCount":"java.lang.Integer",
+		"setIpv6Addresss":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DeleteRouteEntry parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setDestinationCidrBlock":"java.lang.String",
+		"setNextHopId":"java.lang.String",
+		"setNextHopLists":[
+			"ref1-com.aliyuncs.ecs.model.v20140526.DeleteRouteEntryRequest$NextHopList"
+		],
+		"setRouteTableId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	},
+	"ref1-com.aliyuncs.ecs.model.v20140526.DeleteRouteEntryRequest$NextHopList":{
+		"setNextHopId":"java.lang.String",
+		"setNextHopType":"java.lang.String"
+	}
+}
+```
+## DeleteVirtualBorderRouter parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setUserCidr":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setVbrId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeCloudAssistantStatus parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setInstanceIds":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeInstancePhysicalAttribute parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setInstanceId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## UnassignIpv6Addresses parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setNetworkInterfaceId":"java.lang.String",
+		"setIpv6Addresss":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## TerminatePhysicalConnection parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setUserCidr":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPhysicalConnectionId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AttachNetworkInterface parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setInstanceId":"java.lang.String",
+		"setNetworkInterfaceId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## ModifyImageSharePermission parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setImageId":"java.lang.String",
+		"setAddAccounts":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setRemoveAccounts":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeSecurityGroupAttribute parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setNicType":"java.lang.String",
+		"setSecurityGroupId":"java.lang.String",
+		"setDirection":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeAutoSnapshotPolicyEx parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setAutoSnapshotPolicyId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## CancelCopyImage parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setImageId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeImageSharePermission parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setImageId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## CreateDeploymentSet parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setDeploymentSetName":"java.lang.String",
+		"setGranularity":"java.lang.String",
+		"setDomain":"java.lang.String",
+		"setStrategy":"java.lang.String",
+		"setOnUnableToRedeployFailedInstance":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DeleteLaunchTemplateVersion parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setLaunchTemplateName":"java.lang.String",
+		"setDeleteVersions":[
+			"ref1-java.lang.Long"
+		],
+		"setLaunchTemplateId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeRegions parameterss:
+
+```
+{
+	"main":{
+		"setResourceType":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setInstanceChargeType":"java.lang.String",
+		"setAcceptLanguage":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeClassicLinkInstances parameterss:
+
+```
+{
+	"main":{
+		"setVpcId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPageSize":"java.lang.String",
+		"setPageNumber":"java.lang.String",
+		"setInstanceId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribePhysicalConnections parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setUserCidr":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setFilters":[
+			"ref1-com.aliyuncs.ecs.model.v20140526.DescribePhysicalConnectionsRequest$Filter"
+		],
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	},
+	"ref1-com.aliyuncs.ecs.model.v20140526.DescribePhysicalConnectionsRequest$Filter":{
+		"setValues":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setKey":"java.lang.String"
+	}
+}
+```
+## CreateNetworkInterface parameterss:
+
+```
+{
+	"main":{
+		"setTags":[
+			"ref1-com.aliyuncs.ecs.model.v20140526.CreateNetworkInterfaceRequest$Tag"
+		],
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceGroupId":"java.lang.String",
+		"setVSwitchId":"java.lang.String",
+		"setSecurityGroupId":"java.lang.String",
+		"setNetworkInterfaceName":"java.lang.String",
+		"setPrimaryIpAddress":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	},
+	"ref1-com.aliyuncs.ecs.model.v20140526.CreateNetworkInterfaceRequest$Tag":{
+		"setKey":"java.lang.String",
+		"setValue":"java.lang.String"
+	}
+}
+```
+## DeleteNetworkInterfacePermission parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setForce":"java.lang.Boolean",
+		"setNetworkInterfacePermissionId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## CancelPhysicalConnection parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setUserCidr":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPhysicalConnectionId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeVRouters parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setVRouterId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DescribeNetworkInterfaces parameterss:
+
+```
+{
+	"main":{
+		"setVpcId":"java.lang.String",
+		"setTags":[
+			"ref1-com.aliyuncs.ecs.model.v20140526.DescribeNetworkInterfacesRequest$Tag"
+		],
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceGroupId":"java.lang.String",
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setVSwitchId":"java.lang.String",
+		"setInstanceId":"java.lang.String",
+		"setSecurityGroupId":"java.lang.String",
+		"setNetworkInterfaceName":"java.lang.String",
+		"setPrimaryIpAddress":"java.lang.String",
+		"setType":"java.lang.String",
+		"setNetworkInterfaceIds":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	},
+	"ref1-com.aliyuncs.ecs.model.v20140526.DescribeNetworkInterfacesRequest$Tag":{
+		"setKey":"java.lang.String",
+		"setValue":"java.lang.String"
+	}
+}
+```
+## DescribeLaunchTemplateVersions parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setLaunchTemplateName":"java.lang.String",
+		"setLaunchTemplateId":"java.lang.String",
+		"setMaxVersion":"java.lang.Long",
+		"setDefaultVersion":"java.lang.Boolean",
+		"setMinVersion":"java.lang.Long",
+		"setLaunchTemplateVersions":[
+			"ref1-java.lang.Long"
+		],
+		"setDetailFlag":"java.lang.Boolean",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DetachNetworkInterface parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setInstanceId":"java.lang.String",
+		"setNetworkInterfaceId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## ModifyNetworkInterfaceAttribute parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setNetworkInterfaceId":"java.lang.String",
+		"setNetworkInterfaceName":"java.lang.String",
+		"setSecurityGroupIds":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AllocateEipAddress parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setBandwidth":"java.lang.String",
+		"setInternetChargeType":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## DeleteDisk parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setDiskId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## UnassociateHaVip parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setInstanceId":"java.lang.String",
+		"setForce":"java.lang.String",
+		"setHaVipId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## ModifyHaVipAttribute parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setClientToken":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setHaVipId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## CreateKeyPair parameterss:
+
+```
+{
+	"main":{
+		"setTags":[
+			"ref1-com.aliyuncs.ecs.model.v20140526.CreateKeyPairRequest$Tag"
+		],
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setResourceGroupId":"java.lang.String",
+		"setKeyPairName":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	},
+	"ref1-com.aliyuncs.ecs.model.v20140526.CreateKeyPairRequest$Tag":{
+		"setKey":"java.lang.String",
+		"setValue":"java.lang.String"
+	}
+}
+```
+## DescribeDeploymentSets parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setPageSize":"java.lang.Integer",
+		"setPageNumber":"java.lang.Integer",
+		"setNetworkType":"java.lang.String",
+		"setDeploymentSetName":"java.lang.String",
+		"setDeploymentSetIds":"java.lang.String",
+		"setGranularity":"java.lang.String",
+		"setDomain":"java.lang.String",
+		"setStrategy":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AttachClassicLinkVpc parameterss:
+
+```
+{
+	"main":{
+		"setVpcId":"java.lang.String",
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setInstanceId":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## GetInstanceScreenshot parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setInstanceId":"java.lang.String",
+		"setWakeUp":"java.lang.Boolean",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## AttachInstanceRamRole parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setInstanceIds":"java.lang.String",
+		"setRamRoleName":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## InstallCloudAssistant parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setInstanceIds":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```
+## ModifyVRouterAttribute parameterss:
+
+```
+{
+	"main":{
+		"setResourceOwnerId":"java.lang.Long",
+		"setResourceOwnerAccount":"java.lang.String",
+		"setOwnerAccount":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setOwnerId":"java.lang.Long",
+		"setVRouterId":"java.lang.String",
+		"setVRouterName":"java.lang.String",
+		"setSecurityToken":"java.lang.String",
+		"setVersion":"java.lang.String",
+		"setActionName":"java.lang.String",
+		"setLocationProduct":"java.lang.String",
+		"setEndpointType":"java.lang.String",
+		"setProductDomain-setProductName":"java.lang.String",
+		"setProductDomain-setDomianName":"java.lang.String",
+		"setEndpoint":"java.lang.String",
+		"setRegionId":"java.lang.String",
+		"setConnectTimeout":"java.lang.Integer",
+		"setReadTimeout":"java.lang.Integer",
+		"setEncoding":"java.lang.String"
+	}
+}
+```

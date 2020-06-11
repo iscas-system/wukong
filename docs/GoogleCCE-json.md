@@ -1,0 +1,7840 @@
+## ListVpnTunnels parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String"
+	}
+}
+```
+## GetRegionCommitments parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setCommitment":"java.lang.String"
+	}
+}
+```
+## GetXpnHostProjects parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String"
+	}
+}
+```
+## GetAcceleratorTypes parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setAcceleratorType":"java.lang.String"
+	}
+}
+```
+## DeleteHttpHealthChecks parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setHttpHealthCheck":"java.lang.String"
+	}
+}
+```
+## InsertInstanceGroups parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setContent-setNamedPorts":[
+			"ref1-com.google.api.services.compute.model.NamedPort"
+		],
+		"setContent-setRegion":"java.lang.String",
+		"setContent-setZone":"java.lang.String",
+		"setContent-setNetwork":"java.lang.String",
+		"setContent-setSubnetwork":"java.lang.String",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setFingerprint":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setName":"java.lang.String",
+		"setContent-setSize":"java.lang.Integer",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref3-java.lang.Object"
+		}
+	},
+	"ref1-com.google.api.services.compute.model.NamedPort":{
+		"setPort":"java.lang.Integer",
+		"setName":"java.lang.String",
+		"setContent-setNamedPorts-setUnknownKeys":{
+			"java.lang.String0":"ref2-java.lang.Object"
+		}
+	}
+}
+```
+## DeleteInterconnects parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setInterconnect":"java.lang.String"
+	}
+}
+```
+## InsertRegionBackendServices parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setSecurityPolicy":"java.lang.String",
+		"setContent-setRegion":"java.lang.String",
+		"setContent-setPort":"java.lang.Integer",
+		"setContent-setIap-setOauth2ClientId":"java.lang.String",
+		"setContent-setIap-setOauth2ClientSecret":"java.lang.String",
+		"setContent-setIap-setOauth2ClientSecretSha256":"java.lang.String",
+		"setContent-setIap-setEnabled":"java.lang.Boolean",
+		"setContent-setIap-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setContent-setLoadBalancingScheme":"java.lang.String",
+		"setContent-setPortName":"java.lang.String",
+		"setContent-setProtocol":"java.lang.String",
+		"setContent-setSessionAffinity":"java.lang.String",
+		"setContent-setTimeoutSec":"java.lang.Integer",
+		"setContent-setEnableCDN":"java.lang.Boolean",
+		"setContent-setHealthChecks":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setAffinityCookieTtlSec":"java.lang.Integer",
+		"setContent-setBackends":[
+			"ref2-com.google.api.services.compute.model.Backend"
+		],
+		"setContent-setCdnPolicy-setCacheKeyPolicy-setIncludeQueryString":"java.lang.Boolean",
+		"setContent-setCdnPolicy-setCacheKeyPolicy-setQueryStringBlacklist":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setCdnPolicy-setCacheKeyPolicy-setQueryStringWhitelist":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setCdnPolicy-setCacheKeyPolicy-setIncludeHost":"java.lang.Boolean",
+		"setContent-setCdnPolicy-setCacheKeyPolicy-setIncludeProtocol":"java.lang.Boolean",
+		"setContent-setCdnPolicy-setCacheKeyPolicy-setUnknownKeys":{
+			"java.lang.String0":"ref4-java.lang.Object"
+		},
+		"setContent-setCdnPolicy-setSignedUrlCacheMaxAgeSec":"java.lang.Long",
+		"setContent-setCdnPolicy-setSignedUrlKeyNames":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setCdnPolicy-setUnknownKeys":{
+			"java.lang.String0":"ref5-java.lang.Object"
+		},
+		"setContent-setConnectionDraining-setDrainingTimeoutSec":"java.lang.Integer",
+		"setContent-setConnectionDraining-setUnknownKeys":{
+			"java.lang.String0":"ref6-java.lang.Object"
+		},
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setFingerprint":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref7-java.lang.Object"
+		}
+	},
+	"ref2-com.google.api.services.compute.model.Backend":{
+		"setBalancingMode":"java.lang.String",
+		"setCapacityScaler":"java.lang.Float",
+		"setGroup":"java.lang.String",
+		"setMaxConnections":"java.lang.Integer",
+		"setMaxConnectionsPerInstance":"java.lang.Integer",
+		"setMaxRate":"java.lang.Integer",
+		"setMaxRatePerInstance":"java.lang.Float",
+		"setMaxUtilization":"java.lang.Float",
+		"setDescription":"java.lang.String",
+		"setContent-setBackends-setUnknownKeys":{
+			"java.lang.String0":"ref3-java.lang.Object"
+		}
+	}
+}
+```
+## ListInstanceGroupManagers parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String"
+	}
+}
+```
+## ListSubnetworks parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String"
+	}
+}
+```
+## ResizeInstanceGroupManagers parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setInstanceGroupManager":"java.lang.String",
+		"setSize":"java.lang.Integer"
+	}
+}
+```
+## AggregatedListAddresses parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String"
+	}
+}
+```
+## InsertForwardingRules parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setBackendService":"java.lang.String",
+		"setContent-setRegion":"java.lang.String",
+		"setContent-setNetwork":"java.lang.String",
+		"setContent-setSubnetwork":"java.lang.String",
+		"setContent-setLoadBalancingScheme":"java.lang.String",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setIPProtocol":"java.lang.String",
+		"setContent-setIpVersion":"java.lang.String",
+		"setContent-setNetworkTier":"java.lang.String",
+		"setContent-setPortRange":"java.lang.String",
+		"setContent-setPorts":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setIPAddress":"java.lang.String",
+		"setContent-setName":"java.lang.String",
+		"setContent-setTarget":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		}
+	}
+}
+```
+## MoveDiskProjects parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setContent-setTargetDisk":"java.lang.String",
+		"setContent-setDestinationZone":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		}
+	}
+}
+```
+## AggregatedListNodeGroups parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String"
+	}
+}
+```
+## DeleteHttpsHealthChecks parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setHttpsHealthCheck":"java.lang.String"
+	}
+}
+```
+## ListTargetInstances parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String"
+	}
+}
+```
+## AggregatedListAcceleratorTypes parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String"
+	}
+}
+```
+## DeleteGlobalAddresses parameterss:
+
+```
+{
+	"main":{
+		"setAddress":"java.lang.String",
+		"setProject":"java.lang.String"
+	}
+}
+```
+## InsertInstanceGroupManagers parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setContent-setInstanceTemplate":"java.lang.String",
+		"setContent-setTargetPools":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setNamedPorts":[
+			"ref1-com.google.api.services.compute.model.NamedPort"
+		],
+		"setContent-setRegion":"java.lang.String",
+		"setContent-setZone":"java.lang.String",
+		"setContent-setInstanceGroup":"java.lang.String",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setFingerprint":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setBaseInstanceName":"java.lang.String",
+		"setContent-setCurrentActions-setAbandoning":"java.lang.Integer",
+		"setContent-setCurrentActions-setCreating":"java.lang.Integer",
+		"setContent-setCurrentActions-setCreatingWithoutRetries":"java.lang.Integer",
+		"setContent-setCurrentActions-setDeleting":"java.lang.Integer",
+		"setContent-setCurrentActions-setNone":"java.lang.Integer",
+		"setContent-setCurrentActions-setRecreating":"java.lang.Integer",
+		"setContent-setCurrentActions-setRefreshing":"java.lang.Integer",
+		"setContent-setCurrentActions-setRestarting":"java.lang.Integer",
+		"setContent-setCurrentActions-setVerifying":"java.lang.Integer",
+		"setContent-setCurrentActions-setUnknownKeys":{
+			"java.lang.String0":"ref3-java.lang.Object"
+		},
+		"setContent-setDistributionPolicy-setZones":[
+			"ref4-com.google.api.services.compute.model.DistributionPolicyZoneConfiguration"
+		],
+		"setContent-setDistributionPolicy-setUnknownKeys":{
+			"java.lang.String0":"ref6-java.lang.Object"
+		},
+		"setContent-setTargetSize":"java.lang.Integer",
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref7-java.lang.Object"
+		}
+	},
+	"ref1-com.google.api.services.compute.model.NamedPort":{
+		"setPort":"java.lang.Integer",
+		"setName":"java.lang.String",
+		"setContent-setNamedPorts-setUnknownKeys":{
+			"java.lang.String0":"ref2-java.lang.Object"
+		}
+	},
+	"ref4-com.google.api.services.compute.model.DistributionPolicyZoneConfiguration":{
+		"setZone":"java.lang.String",
+		"setContent-setDistributionPolicy-setZones-setUnknownKeys":{
+			"java.lang.String0":"ref5-java.lang.Object"
+		}
+	}
+}
+```
+## InsertTargetTcpProxies parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setContent-setProxyHeader":"java.lang.String",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setService":"java.lang.String",
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		}
+	}
+}
+```
+## ListZones parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String"
+	}
+}
+```
+## DeleteTargetVpnGateways parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setTargetVpnGateway":"java.lang.String"
+	}
+}
+```
+## ListNodeTemplates parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String"
+	}
+}
+```
+## CreateSnapshotDisks parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setContent-setLabels":{
+			"java.lang.String0":"java.lang.String0",
+			"java.lang.String1":"java.lang.String1"
+		},
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setLicenseCodes":[
+			"ref1-java.lang.Long"
+		],
+		"setContent-setLicenses":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setSnapshotEncryptionKey-setKmsKeyName":"java.lang.String",
+		"setContent-setSnapshotEncryptionKey-setRawKey":"java.lang.String",
+		"setContent-setSnapshotEncryptionKey-setSha256":"java.lang.String",
+		"setContent-setSnapshotEncryptionKey-setUnknownKeys":{
+			"java.lang.String0":"ref2-java.lang.Object"
+		},
+		"setContent-setSourceDisk":"java.lang.String",
+		"setContent-setSourceDiskEncryptionKey-setKmsKeyName":"java.lang.String",
+		"setContent-setSourceDiskEncryptionKey-setRawKey":"java.lang.String",
+		"setContent-setSourceDiskEncryptionKey-setSha256":"java.lang.String",
+		"setContent-setSourceDiskEncryptionKey-setUnknownKeys":{
+			"java.lang.String0":"ref3-java.lang.Object"
+		},
+		"setContent-setSourceDiskId":"java.lang.String",
+		"setContent-setStatus":"java.lang.String",
+		"setContent-setStorageBytes":"java.lang.Long",
+		"setContent-setStorageBytesStatus":"java.lang.String",
+		"setContent-setDiskSizeGb":"java.lang.Long",
+		"setContent-setLabelFingerprint":"java.lang.String",
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref4-java.lang.Object"
+		},
+		"setDisk":"java.lang.String"
+	}
+}
+```
+## DeleteInstances parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setInstance":"java.lang.String"
+	}
+}
+```
+## AggregatedListNodeTemplates parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String"
+	}
+}
+```
+## DeleteSubnetworks parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setSubnetwork":"java.lang.String"
+	}
+}
+```
+## ListFirewalls parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String"
+	}
+}
+```
+## SetMachineTypeInstances parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setContent-setMachineType":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setInstance":"java.lang.String"
+	}
+}
+```
+## AttachDiskInstances parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setContent-setType":"java.lang.String",
+		"setContent-setAutoDelete":"java.lang.Boolean",
+		"setContent-setDeviceName":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setLicenses":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setDiskEncryptionKey-setKmsKeyName":"java.lang.String",
+		"setContent-setDiskEncryptionKey-setRawKey":"java.lang.String",
+		"setContent-setDiskEncryptionKey-setSha256":"java.lang.String",
+		"setContent-setDiskEncryptionKey-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setContent-setGuestOsFeatures":[
+			"ref2-com.google.api.services.compute.model.GuestOsFeature"
+		],
+		"setContent-setInitializeParams-setLabels":{
+			"java.lang.String0":"java.lang.String0",
+			"java.lang.String1":"java.lang.String1"
+		},
+		"setContent-setInitializeParams-setDiskType":"java.lang.String",
+		"setContent-setInitializeParams-setSourceImage":"java.lang.String",
+		"setContent-setInitializeParams-setDescription":"java.lang.String",
+		"setContent-setInitializeParams-setDiskSizeGb":"java.lang.Long",
+		"setContent-setInitializeParams-setDiskName":"java.lang.String",
+		"setContent-setInitializeParams-setSourceImageEncryptionKey-setKmsKeyName":"java.lang.String",
+		"setContent-setInitializeParams-setSourceImageEncryptionKey-setRawKey":"java.lang.String",
+		"setContent-setInitializeParams-setSourceImageEncryptionKey-setSha256":"java.lang.String",
+		"setContent-setInitializeParams-setSourceImageEncryptionKey-setUnknownKeys":{
+			"java.lang.String0":"ref4-java.lang.Object"
+		},
+		"setContent-setInitializeParams-setUnknownKeys":{
+			"java.lang.String0":"ref5-java.lang.Object"
+		},
+		"setContent-setBoot":"java.lang.Boolean",
+		"setContent-setIndex":"java.lang.Integer",
+		"setContent-setInterface":"java.lang.String",
+		"setContent-setMode":"java.lang.String",
+		"setContent-setSource":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref6-java.lang.Object"
+		},
+		"setInstance":"java.lang.String"
+	},
+	"ref2-com.google.api.services.compute.model.GuestOsFeature":{
+		"setType":"java.lang.String",
+		"setContent-setGuestOsFeatures-setUnknownKeys":{
+			"java.lang.String0":"ref3-java.lang.Object"
+		}
+	}
+}
+```
+## GetInterconnects parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setInterconnect":"java.lang.String"
+	}
+}
+```
+## GetGlobalAddresses parameterss:
+
+```
+{
+	"main":{
+		"setAddress":"java.lang.String",
+		"setProject":"java.lang.String"
+	}
+}
+```
+## UpdateFirewalls parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setContent-setNetwork":"java.lang.String",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setDestinationRanges":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setDirection":"java.lang.String",
+		"setContent-setDisabled":"java.lang.Boolean",
+		"setContent-setSourceRanges":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setSourceServiceAccounts":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setSourceTags":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setTargetServiceAccounts":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setTargetTags":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setAllowed":[
+			"ref1-com.google.api.services.compute.model.Firewall$Allowed"
+		],
+		"setContent-setDenied":[
+			"ref3-com.google.api.services.compute.model.Firewall$Denied"
+		],
+		"setContent-setPriority":"java.lang.Integer",
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref5-java.lang.Object"
+		},
+		"setFirewall":"java.lang.String"
+	},
+	"ref1-com.google.api.services.compute.model.Firewall$Allowed":{
+		"setIPProtocol":"java.lang.String",
+		"setPorts":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setAllowed-setUnknownKeys":{
+			"java.lang.String0":"ref2-java.lang.Object"
+		}
+	},
+	"ref3-com.google.api.services.compute.model.Firewall$Denied":{
+		"setIPProtocol":"java.lang.String",
+		"setPorts":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setDenied-setUnknownKeys":{
+			"java.lang.String0":"ref4-java.lang.Object"
+		}
+	}
+}
+```
+## RecreateInstancesInstanceGroupManagers parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setContent-setInstances":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setInstanceGroupManager":"java.lang.String"
+	}
+}
+```
+## UpdateRouters parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setRegion":"java.lang.String",
+		"setContent-setNetwork":"java.lang.String",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setBgp-setAdvertisedIpRanges":[
+			"ref1-com.google.api.services.compute.model.RouterAdvertisedIpRange"
+		],
+		"setContent-setBgp-setAsn":"java.lang.Long",
+		"setContent-setBgp-setAdvertiseMode":"java.lang.String",
+		"setContent-setBgp-setAdvertisedGroups":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setBgp-setUnknownKeys":{
+			"java.lang.String0":"ref3-java.lang.Object"
+		},
+		"setContent-setBgpPeers":[
+			"ref4-com.google.api.services.compute.model.RouterBgpPeer"
+		],
+		"setContent-setBgpPeers-setAdvertiseMode":"java.lang.String",
+		"setContent-setBgpPeers-setAdvertisedGroups":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setBgpPeers-setName":"java.lang.String",
+		"setContent-setBgpPeers-setUnknownKeys":{
+			"java.lang.String0":"ref7-java.lang.Object"
+		},
+		"setContent-setInterfaces":[
+			"ref8-com.google.api.services.compute.model.RouterInterface"
+		],
+		"setContent-setNats":[
+			"ref10-com.google.api.services.compute.model.RouterNat"
+		],
+		"setContent-setNats-setTcpEstablishedIdleTimeoutSec":"java.lang.Integer",
+		"setContent-setNats-setTcpTransitoryIdleTimeoutSec":"java.lang.Integer",
+		"setContent-setNats-setUdpIdleTimeoutSec":"java.lang.Integer",
+		"setContent-setNats-setName":"java.lang.String",
+		"setContent-setNats-setUnknownKeys":{
+			"java.lang.String0":"ref13-java.lang.Object"
+		},
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref14-java.lang.Object"
+		},
+		"setRouter":"java.lang.String"
+	},
+	"ref1-com.google.api.services.compute.model.RouterAdvertisedIpRange":{
+		"setDescription":"java.lang.String",
+		"setRange":"java.lang.String",
+		"setContent-setBgp-setAdvertisedIpRanges-setUnknownKeys":{
+			"java.lang.String0":"ref2-java.lang.Object"
+		}
+	},
+	"ref4-com.google.api.services.compute.model.RouterBgpPeer":{
+		"setAdvertisedRoutePriority":"java.lang.Long",
+		"setInterfaceName":"java.lang.String",
+		"setIpAddress":"java.lang.String",
+		"setManagementType":"java.lang.String",
+		"setPeerAsn":"java.lang.Long",
+		"setPeerIpAddress":"java.lang.String",
+		"setContent-setBgpPeers-setAdvertisedIpRanges":[
+			"ref5-com.google.api.services.compute.model.RouterAdvertisedIpRange"
+		]
+	},
+	"ref5-com.google.api.services.compute.model.RouterAdvertisedIpRange":{
+		"setDescription":"java.lang.String",
+		"setRange":"java.lang.String",
+		"setContent-setBgpPeers-setAdvertisedIpRanges-setUnknownKeys":{
+			"java.lang.String0":"ref6-java.lang.Object"
+		}
+	},
+	"ref8-com.google.api.services.compute.model.RouterInterface":{
+		"setManagementType":"java.lang.String",
+		"setIpRange":"java.lang.String",
+		"setLinkedInterconnectAttachment":"java.lang.String",
+		"setLinkedVpnTunnel":"java.lang.String",
+		"setName":"java.lang.String",
+		"setContent-setInterfaces-setUnknownKeys":{
+			"java.lang.String0":"ref9-java.lang.Object"
+		}
+	},
+	"ref10-com.google.api.services.compute.model.RouterNat":{
+		"setIcmpIdleTimeoutSec":"java.lang.Integer",
+		"setMinPortsPerVm":"java.lang.Integer",
+		"setNatIpAllocateOption":"java.lang.String",
+		"setNatIps":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setSourceSubnetworkIpRangesToNat":"java.lang.String",
+		"setContent-setNats-setSubnetworks":[
+			"ref11-com.google.api.services.compute.model.RouterNatSubnetworkToNat"
+		]
+	},
+	"ref11-com.google.api.services.compute.model.RouterNatSubnetworkToNat":{
+		"setSecondaryIpRangeNames":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setSourceIpRangesToNat":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setName":"java.lang.String",
+		"setContent-setNats-setSubnetworks-setUnknownKeys":{
+			"java.lang.String0":"ref12-java.lang.Object"
+		}
+	}
+}
+```
+## PatchRegionBackendServices parameterss:
+
+```
+{
+	"main":{
+		"setBackendService":"java.lang.String",
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setSecurityPolicy":"java.lang.String",
+		"setContent-setRegion":"java.lang.String",
+		"setContent-setPort":"java.lang.Integer",
+		"setContent-setIap-setOauth2ClientId":"java.lang.String",
+		"setContent-setIap-setOauth2ClientSecret":"java.lang.String",
+		"setContent-setIap-setOauth2ClientSecretSha256":"java.lang.String",
+		"setContent-setIap-setEnabled":"java.lang.Boolean",
+		"setContent-setIap-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setContent-setLoadBalancingScheme":"java.lang.String",
+		"setContent-setPortName":"java.lang.String",
+		"setContent-setProtocol":"java.lang.String",
+		"setContent-setSessionAffinity":"java.lang.String",
+		"setContent-setTimeoutSec":"java.lang.Integer",
+		"setContent-setEnableCDN":"java.lang.Boolean",
+		"setContent-setHealthChecks":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setAffinityCookieTtlSec":"java.lang.Integer",
+		"setContent-setBackends":[
+			"ref2-com.google.api.services.compute.model.Backend"
+		],
+		"setContent-setCdnPolicy-setCacheKeyPolicy-setIncludeQueryString":"java.lang.Boolean",
+		"setContent-setCdnPolicy-setCacheKeyPolicy-setQueryStringBlacklist":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setCdnPolicy-setCacheKeyPolicy-setQueryStringWhitelist":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setCdnPolicy-setCacheKeyPolicy-setIncludeHost":"java.lang.Boolean",
+		"setContent-setCdnPolicy-setCacheKeyPolicy-setIncludeProtocol":"java.lang.Boolean",
+		"setContent-setCdnPolicy-setCacheKeyPolicy-setUnknownKeys":{
+			"java.lang.String0":"ref4-java.lang.Object"
+		},
+		"setContent-setCdnPolicy-setSignedUrlCacheMaxAgeSec":"java.lang.Long",
+		"setContent-setCdnPolicy-setSignedUrlKeyNames":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setCdnPolicy-setUnknownKeys":{
+			"java.lang.String0":"ref5-java.lang.Object"
+		},
+		"setContent-setConnectionDraining-setDrainingTimeoutSec":"java.lang.Integer",
+		"setContent-setConnectionDraining-setUnknownKeys":{
+			"java.lang.String0":"ref6-java.lang.Object"
+		},
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setFingerprint":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref7-java.lang.Object"
+		}
+	},
+	"ref2-com.google.api.services.compute.model.Backend":{
+		"setBalancingMode":"java.lang.String",
+		"setCapacityScaler":"java.lang.Float",
+		"setGroup":"java.lang.String",
+		"setMaxConnections":"java.lang.Integer",
+		"setMaxConnectionsPerInstance":"java.lang.Integer",
+		"setMaxRate":"java.lang.Integer",
+		"setMaxRatePerInstance":"java.lang.Float",
+		"setMaxUtilization":"java.lang.Float",
+		"setDescription":"java.lang.String",
+		"setContent-setBackends-setUnknownKeys":{
+			"java.lang.String0":"ref3-java.lang.Object"
+		}
+	}
+}
+```
+## GetHealthTargetPools parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setInstance":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setTargetPool":"java.lang.String"
+	}
+}
+```
+## PatchRouters parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setRegion":"java.lang.String",
+		"setContent-setNetwork":"java.lang.String",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setBgp-setAdvertisedIpRanges":[
+			"ref1-com.google.api.services.compute.model.RouterAdvertisedIpRange"
+		],
+		"setContent-setBgp-setAsn":"java.lang.Long",
+		"setContent-setBgp-setAdvertiseMode":"java.lang.String",
+		"setContent-setBgp-setAdvertisedGroups":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setBgp-setUnknownKeys":{
+			"java.lang.String0":"ref3-java.lang.Object"
+		},
+		"setContent-setBgpPeers":[
+			"ref4-com.google.api.services.compute.model.RouterBgpPeer"
+		],
+		"setContent-setBgpPeers-setAdvertiseMode":"java.lang.String",
+		"setContent-setBgpPeers-setAdvertisedGroups":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setBgpPeers-setName":"java.lang.String",
+		"setContent-setBgpPeers-setUnknownKeys":{
+			"java.lang.String0":"ref7-java.lang.Object"
+		},
+		"setContent-setInterfaces":[
+			"ref8-com.google.api.services.compute.model.RouterInterface"
+		],
+		"setContent-setNats":[
+			"ref10-com.google.api.services.compute.model.RouterNat"
+		],
+		"setContent-setNats-setTcpEstablishedIdleTimeoutSec":"java.lang.Integer",
+		"setContent-setNats-setTcpTransitoryIdleTimeoutSec":"java.lang.Integer",
+		"setContent-setNats-setUdpIdleTimeoutSec":"java.lang.Integer",
+		"setContent-setNats-setName":"java.lang.String",
+		"setContent-setNats-setUnknownKeys":{
+			"java.lang.String0":"ref13-java.lang.Object"
+		},
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref14-java.lang.Object"
+		},
+		"setRouter":"java.lang.String"
+	},
+	"ref1-com.google.api.services.compute.model.RouterAdvertisedIpRange":{
+		"setDescription":"java.lang.String",
+		"setRange":"java.lang.String",
+		"setContent-setBgp-setAdvertisedIpRanges-setUnknownKeys":{
+			"java.lang.String0":"ref2-java.lang.Object"
+		}
+	},
+	"ref4-com.google.api.services.compute.model.RouterBgpPeer":{
+		"setAdvertisedRoutePriority":"java.lang.Long",
+		"setInterfaceName":"java.lang.String",
+		"setIpAddress":"java.lang.String",
+		"setManagementType":"java.lang.String",
+		"setPeerAsn":"java.lang.Long",
+		"setPeerIpAddress":"java.lang.String",
+		"setContent-setBgpPeers-setAdvertisedIpRanges":[
+			"ref5-com.google.api.services.compute.model.RouterAdvertisedIpRange"
+		]
+	},
+	"ref5-com.google.api.services.compute.model.RouterAdvertisedIpRange":{
+		"setDescription":"java.lang.String",
+		"setRange":"java.lang.String",
+		"setContent-setBgpPeers-setAdvertisedIpRanges-setUnknownKeys":{
+			"java.lang.String0":"ref6-java.lang.Object"
+		}
+	},
+	"ref8-com.google.api.services.compute.model.RouterInterface":{
+		"setManagementType":"java.lang.String",
+		"setIpRange":"java.lang.String",
+		"setLinkedInterconnectAttachment":"java.lang.String",
+		"setLinkedVpnTunnel":"java.lang.String",
+		"setName":"java.lang.String",
+		"setContent-setInterfaces-setUnknownKeys":{
+			"java.lang.String0":"ref9-java.lang.Object"
+		}
+	},
+	"ref10-com.google.api.services.compute.model.RouterNat":{
+		"setIcmpIdleTimeoutSec":"java.lang.Integer",
+		"setMinPortsPerVm":"java.lang.Integer",
+		"setNatIpAllocateOption":"java.lang.String",
+		"setNatIps":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setSourceSubnetworkIpRangesToNat":"java.lang.String",
+		"setContent-setNats-setSubnetworks":[
+			"ref11-com.google.api.services.compute.model.RouterNatSubnetworkToNat"
+		]
+	},
+	"ref11-com.google.api.services.compute.model.RouterNatSubnetworkToNat":{
+		"setSecondaryIpRangeNames":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setSourceIpRangesToNat":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setName":"java.lang.String",
+		"setContent-setNats-setSubnetworks-setUnknownKeys":{
+			"java.lang.String0":"ref12-java.lang.Object"
+		}
+	}
+}
+```
+## ResetInstances parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setInstance":"java.lang.String"
+	}
+}
+```
+## DeleteSnapshots parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setSnapshot":"java.lang.String"
+	}
+}
+```
+## DeleteTargetSslProxies parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setTargetSslProxy":"java.lang.String"
+	}
+}
+```
+## PatchHttpsHealthChecks parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setContent-setPort":"java.lang.Integer",
+		"setContent-setTimeoutSec":"java.lang.Integer",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setCheckIntervalSec":"java.lang.Integer",
+		"setContent-setHealthyThreshold":"java.lang.Integer",
+		"setContent-setRequestPath":"java.lang.String",
+		"setContent-setUnhealthyThreshold":"java.lang.Integer",
+		"setContent-setHost":"java.lang.String",
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setHttpsHealthCheck":"java.lang.String"
+	}
+}
+```
+## DisableXpnHostProjects parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String"
+	}
+}
+```
+## SetLabelsDisks parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setContent-setLabels":{
+			"java.lang.String0":"java.lang.String0",
+			"java.lang.String1":"java.lang.String1"
+		},
+		"setContent-setLabelFingerprint":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setResource":"java.lang.String"
+	}
+}
+```
+## ResizeRegionInstanceGroupManagers parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setInstanceGroupManager":"java.lang.String",
+		"setSize":"java.lang.Integer"
+	}
+}
+```
+## GetRegionDiskTypes parameterss:
+
+```
+{
+	"main":{
+		"setDiskType":"java.lang.String",
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String"
+	}
+}
+```
+## ListTargetTcpProxies parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String"
+	}
+}
+```
+## GetSecurityPolicies parameterss:
+
+```
+{
+	"main":{
+		"setSecurityPolicy":"java.lang.String",
+		"setProject":"java.lang.String"
+	}
+}
+```
+## ListZoneOperations parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String"
+	}
+}
+```
+## SetMinCpuPlatformInstances parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setContent-setMinCpuPlatform":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setInstance":"java.lang.String"
+	}
+}
+```
+## RemovePeeringNetworks parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setNetwork":"java.lang.String"
+	}
+}
+```
+## DeleteInstancesRegionInstanceGroupManagers parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setInstances":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setInstanceGroupManager":"java.lang.String"
+	}
+}
+```
+## UpdateNetworkInterfaceInstances parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setContent-setNetwork":"java.lang.String",
+		"setContent-setSubnetwork":"java.lang.String",
+		"setContent-setFingerprint":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setAliasIpRanges":[
+			"ref1-com.google.api.services.compute.model.AliasIpRange"
+		],
+		"setContent-setAccessConfigs":[
+			"ref3-com.google.api.services.compute.model.AccessConfig"
+		],
+		"setContent-setNetworkIP":"java.lang.String",
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref5-java.lang.Object"
+		},
+		"setInstance":"java.lang.String",
+		"setNetworkInterface":"java.lang.String"
+	},
+	"ref1-com.google.api.services.compute.model.AliasIpRange":{
+		"setIpCidrRange":"java.lang.String",
+		"setSubnetworkRangeName":"java.lang.String",
+		"setContent-setAliasIpRanges-setUnknownKeys":{
+			"java.lang.String0":"ref2-java.lang.Object"
+		}
+	},
+	"ref3-com.google.api.services.compute.model.AccessConfig":{
+		"setType":"java.lang.String",
+		"setKind":"java.lang.String",
+		"setNetworkTier":"java.lang.String",
+		"setPublicPtrDomainName":"java.lang.String",
+		"setSetPublicPtr":"java.lang.Boolean",
+		"setNatIP":"java.lang.String",
+		"setName":"java.lang.String",
+		"setContent-setAccessConfigs-setUnknownKeys":{
+			"java.lang.String0":"ref4-java.lang.Object"
+		}
+	}
+}
+```
+## InsertNodeGroups parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setContent-setNodeTemplate":"java.lang.String",
+		"setContent-setZone":"java.lang.String",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setStatus":"java.lang.String",
+		"setContent-setName":"java.lang.String",
+		"setContent-setSize":"java.lang.Integer",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setInitialNodeCount":"java.lang.Integer"
+	}
+}
+```
+## GetInstanceGroups parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setInstanceGroup":"java.lang.String"
+	}
+}
+```
+## SetSslCertificatesTargetHttpsProxies parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setContent-setSslCertificates":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setTargetHttpsProxy":"java.lang.String"
+	}
+}
+```
+## SetDiskAutoDeleteInstances parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setInstance":"java.lang.String",
+		"setAutoDelete":"java.lang.Boolean",
+		"setDeviceName":"java.lang.String"
+	}
+}
+```
+## SetSslPolicyTargetHttpsProxies parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setContent-setSslPolicy":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setTargetHttpsProxy":"java.lang.String"
+	}
+}
+```
+## SetDeletionProtectionInstances parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setResource":"java.lang.String"
+	}
+}
+```
+## ListNetworks parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String"
+	}
+}
+```
+## ListManagedInstancesRegionInstanceGroupManagers parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setInstanceGroupManager":"java.lang.String"
+	}
+}
+```
+## AggregatedListSubnetworks parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String"
+	}
+}
+```
+## GetAddresses parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setAddress":"java.lang.String",
+		"setProject":"java.lang.String"
+	}
+}
+```
+## InsertRegionCommitments parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setRegion":"java.lang.String",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setStatus":"java.lang.String",
+		"setContent-setResources":[
+			"ref1-com.google.api.services.compute.model.ResourceCommitment"
+		],
+		"setContent-setStartTimestamp":"java.lang.String",
+		"setContent-setStatusMessage":"java.lang.String",
+		"setContent-setEndTimestamp":"java.lang.String",
+		"setContent-setPlan":"java.lang.String",
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref3-java.lang.Object"
+		}
+	},
+	"ref1-com.google.api.services.compute.model.ResourceCommitment":{
+		"setType":"java.lang.String",
+		"setAmount":"java.lang.Long",
+		"setContent-setResources-setUnknownKeys":{
+			"java.lang.String0":"ref2-java.lang.Object"
+		}
+	}
+}
+```
+## InsertGlobalAddresses parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setContent-setRegion":"java.lang.String",
+		"setContent-setAddress":"java.lang.String",
+		"setContent-setSubnetwork":"java.lang.String",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setIpVersion":"java.lang.String",
+		"setContent-setNetworkTier":"java.lang.String",
+		"setContent-setStatus":"java.lang.String",
+		"setContent-setAddressType":"java.lang.String",
+		"setContent-setUsers":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		}
+	}
+}
+```
+## GetHealthChecks parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setHealthCheck":"java.lang.String"
+	}
+}
+```
+## ResizeDisks parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setContent-setSizeGb":"java.lang.Long",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setDisk":"java.lang.String"
+	}
+}
+```
+## DeleteRegionBackendServices parameterss:
+
+```
+{
+	"main":{
+		"setBackendService":"java.lang.String",
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String"
+	}
+}
+```
+## SetBackendServiceTargetTcpProxies parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setContent-setService":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setTargetTcpProxy":"java.lang.String"
+	}
+}
+```
+## GetHttpHealthChecks parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setHttpHealthCheck":"java.lang.String"
+	}
+}
+```
+## SetTargetPoolsRegionInstanceGroupManagers parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setTargetPools":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setFingerprint":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setInstanceGroupManager":"java.lang.String"
+	}
+}
+```
+## DeleteTargetInstances parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setTargetInstance":"java.lang.String"
+	}
+}
+```
+## DeleteSecurityPolicies parameterss:
+
+```
+{
+	"main":{
+		"setSecurityPolicy":"java.lang.String",
+		"setProject":"java.lang.String"
+	}
+}
+```
+## DeleteDisks parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setDisk":"java.lang.String"
+	}
+}
+```
+## GetForwardingRules parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setForwardingRule":"java.lang.String"
+	}
+}
+```
+## PatchRegionAutoscalers parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setRegion":"java.lang.String",
+		"setContent-setZone":"java.lang.String",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setStatus":"java.lang.String",
+		"setContent-setAutoscalingPolicy-setCoolDownPeriodSec":"java.lang.Integer",
+		"setContent-setAutoscalingPolicy-setCpuUtilization-setUtilizationTarget":"java.lang.Double",
+		"setContent-setAutoscalingPolicy-setCpuUtilization-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setContent-setAutoscalingPolicy-setCustomMetricUtilizations":[
+			"ref2-com.google.api.services.compute.model.AutoscalingPolicyCustomMetricUtilization"
+		],
+		"setContent-setAutoscalingPolicy-setLoadBalancingUtilization-setUtilizationTarget":"java.lang.Double",
+		"setContent-setAutoscalingPolicy-setLoadBalancingUtilization-setUnknownKeys":{
+			"java.lang.String0":"ref4-java.lang.Object"
+		},
+		"setContent-setAutoscalingPolicy-setMaxNumReplicas":"java.lang.Integer",
+		"setContent-setAutoscalingPolicy-setMinNumReplicas":"java.lang.Integer",
+		"setContent-setAutoscalingPolicy-setUnknownKeys":{
+			"java.lang.String0":"ref5-java.lang.Object"
+		},
+		"setContent-setStatusDetails":[
+			"ref6-com.google.api.services.compute.model.AutoscalerStatusDetails"
+		],
+		"setContent-setName":"java.lang.String",
+		"setContent-setTarget":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref8-java.lang.Object"
+		}
+	},
+	"ref2-com.google.api.services.compute.model.AutoscalingPolicyCustomMetricUtilization":{
+		"setMetric":"java.lang.String",
+		"setUtilizationTarget":"java.lang.Double",
+		"setUtilizationTargetType":"java.lang.String",
+		"setContent-setAutoscalingPolicy-setCustomMetricUtilizations-setUnknownKeys":{
+			"java.lang.String0":"ref3-java.lang.Object"
+		}
+	},
+	"ref6-com.google.api.services.compute.model.AutoscalerStatusDetails":{
+		"setType":"java.lang.String",
+		"setMessage":"java.lang.String",
+		"setContent-setStatusDetails-setUnknownKeys":{
+			"java.lang.String0":"ref7-java.lang.Object"
+		}
+	}
+}
+```
+## SetProxyHeaderTargetSslProxies parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setContent-setProxyHeader":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setTargetSslProxy":"java.lang.String"
+	}
+}
+```
+## ValidateUrlMaps parameterss:
+
+```
+{
+	"main":{
+		"setUrlMap":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setResource-setCreationTimestamp":"java.lang.String",
+		"setContent-setResource-setDescription":"java.lang.String",
+		"setContent-setResource-setFingerprint":"java.lang.String",
+		"setContent-setResource-setKind":"java.lang.String",
+		"setContent-setResource-setSelfLink":"java.lang.String",
+		"setContent-setResource-setPathMatchers":[
+			"ref1-com.google.api.services.compute.model.PathMatcher"
+		],
+		"setContent-setResource-setPathMatchers-setName":"java.lang.String",
+		"setContent-setResource-setPathMatchers-setUnknownKeys":{
+			"java.lang.String0":"ref4-java.lang.Object"
+		},
+		"setContent-setResource-setTests":[
+			"ref5-com.google.api.services.compute.model.UrlMapTest"
+		],
+		"setContent-setResource-setDefaultService":"java.lang.String",
+		"setContent-setResource-setHostRules":[
+			"ref7-com.google.api.services.compute.model.HostRule"
+		],
+		"setContent-setResource-setName":"java.lang.String",
+		"setContent-setResource-setUnknownKeys":{
+			"java.lang.String0":"ref9-java.lang.Object"
+		},
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref10-java.lang.Object"
+		}
+	},
+	"ref1-com.google.api.services.compute.model.PathMatcher":{
+		"setDescription":"java.lang.String",
+		"setDefaultService":"java.lang.String",
+		"setContent-setResource-setPathMatchers-setPathRules":[
+			"ref2-com.google.api.services.compute.model.PathRule"
+		]
+	},
+	"ref2-com.google.api.services.compute.model.PathRule":{
+		"setService":"java.lang.String",
+		"setPaths":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setResource-setPathMatchers-setPathRules-setUnknownKeys":{
+			"java.lang.String0":"ref3-java.lang.Object"
+		}
+	},
+	"ref5-com.google.api.services.compute.model.UrlMapTest":{
+		"setDescription":"java.lang.String",
+		"setService":"java.lang.String",
+		"setHost":"java.lang.String",
+		"setPath":"java.lang.String",
+		"setContent-setResource-setTests-setUnknownKeys":{
+			"java.lang.String0":"ref6-java.lang.Object"
+		}
+	},
+	"ref7-com.google.api.services.compute.model.HostRule":{
+		"setDescription":"java.lang.String",
+		"setHosts":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setPathMatcher":"java.lang.String",
+		"setContent-setResource-setHostRules-setUnknownKeys":{
+			"java.lang.String0":"ref8-java.lang.Object"
+		}
+	}
+}
+```
+## GetHealthBackendServices parameterss:
+
+```
+{
+	"main":{
+		"setBackendService":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setGroup":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		}
+	}
+}
+```
+## DeleteInstanceGroupManagers parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setInstanceGroupManager":"java.lang.String"
+	}
+}
+```
+## DeleteNodeGroups parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setNodeGroup":"java.lang.String"
+	}
+}
+```
+## GetProjects parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String"
+	}
+}
+```
+## GetDiskTypes parameterss:
+
+```
+{
+	"main":{
+		"setDiskType":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String"
+	}
+}
+```
+## ListGlobalOperations parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String"
+	}
+}
+```
+## SetLabelsSnapshots parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setContent-setLabels":{
+			"java.lang.String0":"java.lang.String0",
+			"java.lang.String1":"java.lang.String1"
+		},
+		"setContent-setLabelFingerprint":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setResource":"java.lang.String"
+	}
+}
+```
+## SetQuicOverrideTargetHttpsProxies parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setContent-setQuicOverride":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setTargetHttpsProxy":"java.lang.String"
+	}
+}
+```
+## AddHealthCheckTargetPools parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setHealthChecks":[
+			"ref1-com.google.api.services.compute.model.HealthCheckReference"
+		],
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref3-java.lang.Object"
+		},
+		"setTargetPool":"java.lang.String"
+	},
+	"ref1-com.google.api.services.compute.model.HealthCheckReference":{
+		"setHealthCheck":"java.lang.String",
+		"setContent-setHealthChecks-setUnknownKeys":{
+			"java.lang.String0":"ref2-java.lang.Object"
+		}
+	}
+}
+```
+## DeleteRoutes parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setRoute":"java.lang.String"
+	}
+}
+```
+## SetTargetPoolsInstanceGroupManagers parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setContent-setTargetPools":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setFingerprint":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setInstanceGroupManager":"java.lang.String"
+	}
+}
+```
+## ListInterconnects parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String"
+	}
+}
+```
+## InvalidateCacheUrlMaps parameterss:
+
+```
+{
+	"main":{
+		"setUrlMap":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setHost":"java.lang.String",
+		"setContent-setPath":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		}
+	}
+}
+```
+## InsertTargetPools parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setRegion":"java.lang.String",
+		"setContent-setFailoverRatio":"java.lang.Float",
+		"setContent-setSessionAffinity":"java.lang.String",
+		"setContent-setHealthChecks":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setInstances":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setBackupPool":"java.lang.String",
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		}
+	}
+}
+```
+## SetCommonInstanceMetadataProjects parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setContent-setFingerprint":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setItems":[
+			"ref1-com.google.api.services.compute.model.Metadata$Items"
+		],
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref3-java.lang.Object"
+		}
+	},
+	"ref1-com.google.api.services.compute.model.Metadata$Items":{
+		"setKey":"java.lang.String",
+		"setValue":"java.lang.String",
+		"setContent-setItems-setUnknownKeys":{
+			"java.lang.String0":"ref2-java.lang.Object"
+		}
+	}
+}
+```
+## DeleteTargetPools parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setTargetPool":"java.lang.String"
+	}
+}
+```
+## SetServiceAccountInstances parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setContent-setEmail":"java.lang.String",
+		"setContent-setScopes":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setInstance":"java.lang.String"
+	}
+}
+```
+## PatchInterconnectAttachments parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setType":"java.lang.String",
+		"setContent-setRegion":"java.lang.String",
+		"setContent-setState":"java.lang.String",
+		"setContent-setInterconnect":"java.lang.String",
+		"setContent-setRouter":"java.lang.String",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setAdminEnabled":"java.lang.Boolean",
+		"setContent-setBandwidth":"java.lang.String",
+		"setContent-setCandidateSubnets":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setCloudRouterIpAddress":"java.lang.String",
+		"setContent-setCustomerRouterIpAddress":"java.lang.String",
+		"setContent-setEdgeAvailabilityDomain":"java.lang.String",
+		"setContent-setGoogleReferenceId":"java.lang.String",
+		"setContent-setOperationalStatus":"java.lang.String",
+		"setContent-setPairingKey":"java.lang.String",
+		"setContent-setPartnerMetadata-setInterconnectName":"java.lang.String",
+		"setContent-setPartnerMetadata-setPartnerName":"java.lang.String",
+		"setContent-setPartnerMetadata-setPortalUrl":"java.lang.String",
+		"setContent-setPartnerMetadata-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setContent-setPrivateInterconnectInfo-setTag8021q":"java.lang.Long",
+		"setContent-setPrivateInterconnectInfo-setUnknownKeys":{
+			"java.lang.String0":"ref2-java.lang.Object"
+		},
+		"setContent-setVlanTag8021q":"java.lang.Integer",
+		"setContent-setPartnerAsn":"java.lang.Long",
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref3-java.lang.Object"
+		},
+		"setInterconnectAttachment":"java.lang.String"
+	}
+}
+```
+## InsertInterconnectAttachments parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setType":"java.lang.String",
+		"setContent-setRegion":"java.lang.String",
+		"setContent-setState":"java.lang.String",
+		"setContent-setInterconnect":"java.lang.String",
+		"setContent-setRouter":"java.lang.String",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setAdminEnabled":"java.lang.Boolean",
+		"setContent-setBandwidth":"java.lang.String",
+		"setContent-setCandidateSubnets":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setCloudRouterIpAddress":"java.lang.String",
+		"setContent-setCustomerRouterIpAddress":"java.lang.String",
+		"setContent-setEdgeAvailabilityDomain":"java.lang.String",
+		"setContent-setGoogleReferenceId":"java.lang.String",
+		"setContent-setOperationalStatus":"java.lang.String",
+		"setContent-setPairingKey":"java.lang.String",
+		"setContent-setPartnerMetadata-setInterconnectName":"java.lang.String",
+		"setContent-setPartnerMetadata-setPartnerName":"java.lang.String",
+		"setContent-setPartnerMetadata-setPortalUrl":"java.lang.String",
+		"setContent-setPartnerMetadata-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setContent-setPrivateInterconnectInfo-setTag8021q":"java.lang.Long",
+		"setContent-setPrivateInterconnectInfo-setUnknownKeys":{
+			"java.lang.String0":"ref2-java.lang.Object"
+		},
+		"setContent-setVlanTag8021q":"java.lang.Integer",
+		"setContent-setPartnerAsn":"java.lang.Long",
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref3-java.lang.Object"
+		}
+	}
+}
+```
+## PatchBackendServices parameterss:
+
+```
+{
+	"main":{
+		"setBackendService":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setSecurityPolicy":"java.lang.String",
+		"setContent-setRegion":"java.lang.String",
+		"setContent-setPort":"java.lang.Integer",
+		"setContent-setIap-setOauth2ClientId":"java.lang.String",
+		"setContent-setIap-setOauth2ClientSecret":"java.lang.String",
+		"setContent-setIap-setOauth2ClientSecretSha256":"java.lang.String",
+		"setContent-setIap-setEnabled":"java.lang.Boolean",
+		"setContent-setIap-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setContent-setLoadBalancingScheme":"java.lang.String",
+		"setContent-setPortName":"java.lang.String",
+		"setContent-setProtocol":"java.lang.String",
+		"setContent-setSessionAffinity":"java.lang.String",
+		"setContent-setTimeoutSec":"java.lang.Integer",
+		"setContent-setEnableCDN":"java.lang.Boolean",
+		"setContent-setHealthChecks":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setAffinityCookieTtlSec":"java.lang.Integer",
+		"setContent-setBackends":[
+			"ref2-com.google.api.services.compute.model.Backend"
+		],
+		"setContent-setCdnPolicy-setCacheKeyPolicy-setIncludeQueryString":"java.lang.Boolean",
+		"setContent-setCdnPolicy-setCacheKeyPolicy-setQueryStringBlacklist":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setCdnPolicy-setCacheKeyPolicy-setQueryStringWhitelist":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setCdnPolicy-setCacheKeyPolicy-setIncludeHost":"java.lang.Boolean",
+		"setContent-setCdnPolicy-setCacheKeyPolicy-setIncludeProtocol":"java.lang.Boolean",
+		"setContent-setCdnPolicy-setCacheKeyPolicy-setUnknownKeys":{
+			"java.lang.String0":"ref4-java.lang.Object"
+		},
+		"setContent-setCdnPolicy-setSignedUrlCacheMaxAgeSec":"java.lang.Long",
+		"setContent-setCdnPolicy-setSignedUrlKeyNames":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setCdnPolicy-setUnknownKeys":{
+			"java.lang.String0":"ref5-java.lang.Object"
+		},
+		"setContent-setConnectionDraining-setDrainingTimeoutSec":"java.lang.Integer",
+		"setContent-setConnectionDraining-setUnknownKeys":{
+			"java.lang.String0":"ref6-java.lang.Object"
+		},
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setFingerprint":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref7-java.lang.Object"
+		}
+	},
+	"ref2-com.google.api.services.compute.model.Backend":{
+		"setBalancingMode":"java.lang.String",
+		"setCapacityScaler":"java.lang.Float",
+		"setGroup":"java.lang.String",
+		"setMaxConnections":"java.lang.Integer",
+		"setMaxConnectionsPerInstance":"java.lang.Integer",
+		"setMaxRate":"java.lang.Integer",
+		"setMaxRatePerInstance":"java.lang.Float",
+		"setMaxUtilization":"java.lang.Float",
+		"setDescription":"java.lang.String",
+		"setContent-setBackends-setUnknownKeys":{
+			"java.lang.String0":"ref3-java.lang.Object"
+		}
+	}
+}
+```
+## DeleteFirewalls parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setFirewall":"java.lang.String"
+	}
+}
+```
+## GetAutoscalers parameterss:
+
+```
+{
+	"main":{
+		"setAutoscaler":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String"
+	}
+}
+```
+## ListInstanceGroups parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String"
+	}
+}
+```
+## InsertRouters parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setRegion":"java.lang.String",
+		"setContent-setNetwork":"java.lang.String",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setBgp-setAdvertisedIpRanges":[
+			"ref1-com.google.api.services.compute.model.RouterAdvertisedIpRange"
+		],
+		"setContent-setBgp-setAsn":"java.lang.Long",
+		"setContent-setBgp-setAdvertiseMode":"java.lang.String",
+		"setContent-setBgp-setAdvertisedGroups":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setBgp-setUnknownKeys":{
+			"java.lang.String0":"ref3-java.lang.Object"
+		},
+		"setContent-setBgpPeers":[
+			"ref4-com.google.api.services.compute.model.RouterBgpPeer"
+		],
+		"setContent-setBgpPeers-setAdvertiseMode":"java.lang.String",
+		"setContent-setBgpPeers-setAdvertisedGroups":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setBgpPeers-setName":"java.lang.String",
+		"setContent-setBgpPeers-setUnknownKeys":{
+			"java.lang.String0":"ref7-java.lang.Object"
+		},
+		"setContent-setInterfaces":[
+			"ref8-com.google.api.services.compute.model.RouterInterface"
+		],
+		"setContent-setNats":[
+			"ref10-com.google.api.services.compute.model.RouterNat"
+		],
+		"setContent-setNats-setTcpEstablishedIdleTimeoutSec":"java.lang.Integer",
+		"setContent-setNats-setTcpTransitoryIdleTimeoutSec":"java.lang.Integer",
+		"setContent-setNats-setUdpIdleTimeoutSec":"java.lang.Integer",
+		"setContent-setNats-setName":"java.lang.String",
+		"setContent-setNats-setUnknownKeys":{
+			"java.lang.String0":"ref13-java.lang.Object"
+		},
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref14-java.lang.Object"
+		}
+	},
+	"ref1-com.google.api.services.compute.model.RouterAdvertisedIpRange":{
+		"setDescription":"java.lang.String",
+		"setRange":"java.lang.String",
+		"setContent-setBgp-setAdvertisedIpRanges-setUnknownKeys":{
+			"java.lang.String0":"ref2-java.lang.Object"
+		}
+	},
+	"ref4-com.google.api.services.compute.model.RouterBgpPeer":{
+		"setAdvertisedRoutePriority":"java.lang.Long",
+		"setInterfaceName":"java.lang.String",
+		"setIpAddress":"java.lang.String",
+		"setManagementType":"java.lang.String",
+		"setPeerAsn":"java.lang.Long",
+		"setPeerIpAddress":"java.lang.String",
+		"setContent-setBgpPeers-setAdvertisedIpRanges":[
+			"ref5-com.google.api.services.compute.model.RouterAdvertisedIpRange"
+		]
+	},
+	"ref5-com.google.api.services.compute.model.RouterAdvertisedIpRange":{
+		"setDescription":"java.lang.String",
+		"setRange":"java.lang.String",
+		"setContent-setBgpPeers-setAdvertisedIpRanges-setUnknownKeys":{
+			"java.lang.String0":"ref6-java.lang.Object"
+		}
+	},
+	"ref8-com.google.api.services.compute.model.RouterInterface":{
+		"setManagementType":"java.lang.String",
+		"setIpRange":"java.lang.String",
+		"setLinkedInterconnectAttachment":"java.lang.String",
+		"setLinkedVpnTunnel":"java.lang.String",
+		"setName":"java.lang.String",
+		"setContent-setInterfaces-setUnknownKeys":{
+			"java.lang.String0":"ref9-java.lang.Object"
+		}
+	},
+	"ref10-com.google.api.services.compute.model.RouterNat":{
+		"setIcmpIdleTimeoutSec":"java.lang.Integer",
+		"setMinPortsPerVm":"java.lang.Integer",
+		"setNatIpAllocateOption":"java.lang.String",
+		"setNatIps":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setSourceSubnetworkIpRangesToNat":"java.lang.String",
+		"setContent-setNats-setSubnetworks":[
+			"ref11-com.google.api.services.compute.model.RouterNatSubnetworkToNat"
+		]
+	},
+	"ref11-com.google.api.services.compute.model.RouterNatSubnetworkToNat":{
+		"setSecondaryIpRangeNames":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setSourceIpRangesToNat":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setName":"java.lang.String",
+		"setContent-setNats-setSubnetworks-setUnknownKeys":{
+			"java.lang.String0":"ref12-java.lang.Object"
+		}
+	}
+}
+```
+## DeleteRegionInstanceGroupManagers parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setInstanceGroupManager":"java.lang.String"
+	}
+}
+```
+## ListSnapshots parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String"
+	}
+}
+```
+## InsertTargetHttpProxies parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setContent-setUrlMap":"java.lang.String",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		}
+	}
+}
+```
+## InsertNetworks parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setSubnetworks":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setIPv4Range":"java.lang.String",
+		"setContent-setAutoCreateSubnetworks":"java.lang.Boolean",
+		"setContent-setGatewayIPv4":"java.lang.String",
+		"setContent-setPeerings":[
+			"ref1-com.google.api.services.compute.model.NetworkPeering"
+		],
+		"setContent-setRoutingConfig-setRoutingMode":"java.lang.String",
+		"setContent-setRoutingConfig-setUnknownKeys":{
+			"java.lang.String0":"ref3-java.lang.Object"
+		},
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref4-java.lang.Object"
+		}
+	},
+	"ref1-com.google.api.services.compute.model.NetworkPeering":{
+		"setState":"java.lang.String",
+		"setNetwork":"java.lang.String",
+		"setAutoCreateRoutes":"java.lang.Boolean",
+		"setStateDetails":"java.lang.String",
+		"setName":"java.lang.String",
+		"setContent-setPeerings-setUnknownKeys":{
+			"java.lang.String0":"ref2-java.lang.Object"
+		}
+	}
+}
+```
+## InsertSslCertificates parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setCertificate":"java.lang.String",
+		"setContent-setPrivateKey":"java.lang.String",
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		}
+	}
+}
+```
+## GetVpnTunnels parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setVpnTunnel":"java.lang.String"
+	}
+}
+```
+## DeleteHealthChecks parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setHealthCheck":"java.lang.String"
+	}
+}
+```
+## ListDiskTypes parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String"
+	}
+}
+```
+## ListInstances parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String"
+	}
+}
+```
+## GetNodeTemplates parameterss:
+
+```
+{
+	"main":{
+		"setNodeTemplate":"java.lang.String",
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String"
+	}
+}
+```
+## GetInterconnectAttachments parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setInterconnectAttachment":"java.lang.String"
+	}
+}
+```
+## ListBackendServices parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String"
+	}
+}
+```
+## ListGlobalForwardingRules parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String"
+	}
+}
+```
+## AddNodesNodeGroups parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setContent-setAdditionalNodeCount":"java.lang.Integer",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setNodeGroup":"java.lang.String"
+	}
+}
+```
+## SetTagsInstances parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setContent-setFingerprint":"java.lang.String",
+		"setContent-setItems":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setInstance":"java.lang.String"
+	}
+}
+```
+## InsertTargetHttpsProxies parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setContent-setUrlMap":"java.lang.String",
+		"setContent-setSslCertificates":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setSslPolicy":"java.lang.String",
+		"setContent-setQuicOverride":"java.lang.String",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		}
+	}
+}
+```
+## InsertSecurityPolicies parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setFingerprint":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setRules":[
+			"ref1-com.google.api.services.compute.model.SecurityPolicyRule"
+		],
+		"setContent-setRules-setMatch-setVersionedExpr":"java.lang.String",
+		"setContent-setRules-setMatch-setUnknownKeys":{
+			"java.lang.String0":"ref3-java.lang.Object"
+		},
+		"setContent-setRules-setPreview":"java.lang.Boolean",
+		"setContent-setRules-setPriority":"java.lang.Integer",
+		"setContent-setRules-setUnknownKeys":{
+			"java.lang.String0":"ref4-java.lang.Object"
+		},
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref5-java.lang.Object"
+		}
+	},
+	"ref1-com.google.api.services.compute.model.SecurityPolicyRule":{
+		"setDescription":"java.lang.String",
+		"setKind":"java.lang.String",
+		"setAction":"java.lang.String",
+		"setMatch-setConfig-setSrcIpRanges":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setRules-setMatch-setConfig-setUnknownKeys":{
+			"java.lang.String0":"ref2-java.lang.Object"
+		}
+	}
+}
+```
+## InsertSslPolicies parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setFingerprint":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setCustomFeatures":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setEnabledFeatures":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setMinTlsVersion":"java.lang.String",
+		"setContent-setProfile":"java.lang.String",
+		"setContent-setWarnings":[
+			"ref1-com.google.api.services.compute.model.SslPolicy$Warnings"
+		],
+		"setContent-setWarnings-setMessage":"java.lang.String",
+		"setContent-setWarnings-setCode":"java.lang.String",
+		"setContent-setWarnings-setUnknownKeys":{
+			"java.lang.String0":"ref4-java.lang.Object"
+		},
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref5-java.lang.Object"
+		}
+	},
+	"ref1-com.google.api.services.compute.model.SslPolicy$Warnings":{
+		"setContent-setWarnings-setData":[
+			"ref2-com.google.api.services.compute.model.SslPolicy$Warnings$Data"
+		]
+	},
+	"ref2-com.google.api.services.compute.model.SslPolicy$Warnings$Data":{
+		"setKey":"java.lang.String",
+		"setValue":"java.lang.String",
+		"setContent-setWarnings-setData-setUnknownKeys":{
+			"java.lang.String0":"ref3-java.lang.Object"
+		}
+	}
+}
+```
+## ListDisks parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String"
+	}
+}
+```
+## InsertRegionAutoscalers parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setRegion":"java.lang.String",
+		"setContent-setZone":"java.lang.String",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setStatus":"java.lang.String",
+		"setContent-setAutoscalingPolicy-setCoolDownPeriodSec":"java.lang.Integer",
+		"setContent-setAutoscalingPolicy-setCpuUtilization-setUtilizationTarget":"java.lang.Double",
+		"setContent-setAutoscalingPolicy-setCpuUtilization-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setContent-setAutoscalingPolicy-setCustomMetricUtilizations":[
+			"ref2-com.google.api.services.compute.model.AutoscalingPolicyCustomMetricUtilization"
+		],
+		"setContent-setAutoscalingPolicy-setLoadBalancingUtilization-setUtilizationTarget":"java.lang.Double",
+		"setContent-setAutoscalingPolicy-setLoadBalancingUtilization-setUnknownKeys":{
+			"java.lang.String0":"ref4-java.lang.Object"
+		},
+		"setContent-setAutoscalingPolicy-setMaxNumReplicas":"java.lang.Integer",
+		"setContent-setAutoscalingPolicy-setMinNumReplicas":"java.lang.Integer",
+		"setContent-setAutoscalingPolicy-setUnknownKeys":{
+			"java.lang.String0":"ref5-java.lang.Object"
+		},
+		"setContent-setStatusDetails":[
+			"ref6-com.google.api.services.compute.model.AutoscalerStatusDetails"
+		],
+		"setContent-setName":"java.lang.String",
+		"setContent-setTarget":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref8-java.lang.Object"
+		}
+	},
+	"ref2-com.google.api.services.compute.model.AutoscalingPolicyCustomMetricUtilization":{
+		"setMetric":"java.lang.String",
+		"setUtilizationTarget":"java.lang.Double",
+		"setUtilizationTargetType":"java.lang.String",
+		"setContent-setAutoscalingPolicy-setCustomMetricUtilizations-setUnknownKeys":{
+			"java.lang.String0":"ref3-java.lang.Object"
+		}
+	},
+	"ref6-com.google.api.services.compute.model.AutoscalerStatusDetails":{
+		"setType":"java.lang.String",
+		"setMessage":"java.lang.String",
+		"setContent-setStatusDetails-setUnknownKeys":{
+			"java.lang.String0":"ref7-java.lang.Object"
+		}
+	}
+}
+```
+## ExpandIpCidrRangeSubnetworks parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setIpCidrRange":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setSubnetwork":"java.lang.String"
+	}
+}
+```
+## CreateSnapshotRegionDisks parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setLabels":{
+			"java.lang.String0":"java.lang.String0",
+			"java.lang.String1":"java.lang.String1"
+		},
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setLicenseCodes":[
+			"ref1-java.lang.Long"
+		],
+		"setContent-setLicenses":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setSnapshotEncryptionKey-setKmsKeyName":"java.lang.String",
+		"setContent-setSnapshotEncryptionKey-setRawKey":"java.lang.String",
+		"setContent-setSnapshotEncryptionKey-setSha256":"java.lang.String",
+		"setContent-setSnapshotEncryptionKey-setUnknownKeys":{
+			"java.lang.String0":"ref2-java.lang.Object"
+		},
+		"setContent-setSourceDisk":"java.lang.String",
+		"setContent-setSourceDiskEncryptionKey-setKmsKeyName":"java.lang.String",
+		"setContent-setSourceDiskEncryptionKey-setRawKey":"java.lang.String",
+		"setContent-setSourceDiskEncryptionKey-setSha256":"java.lang.String",
+		"setContent-setSourceDiskEncryptionKey-setUnknownKeys":{
+			"java.lang.String0":"ref3-java.lang.Object"
+		},
+		"setContent-setSourceDiskId":"java.lang.String",
+		"setContent-setStatus":"java.lang.String",
+		"setContent-setStorageBytes":"java.lang.Long",
+		"setContent-setStorageBytesStatus":"java.lang.String",
+		"setContent-setDiskSizeGb":"java.lang.Long",
+		"setContent-setLabelFingerprint":"java.lang.String",
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref4-java.lang.Object"
+		},
+		"setDisk":"java.lang.String"
+	}
+}
+```
+## UpdateRegionAutoscalers parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setRegion":"java.lang.String",
+		"setContent-setZone":"java.lang.String",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setStatus":"java.lang.String",
+		"setContent-setAutoscalingPolicy-setCoolDownPeriodSec":"java.lang.Integer",
+		"setContent-setAutoscalingPolicy-setCpuUtilization-setUtilizationTarget":"java.lang.Double",
+		"setContent-setAutoscalingPolicy-setCpuUtilization-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setContent-setAutoscalingPolicy-setCustomMetricUtilizations":[
+			"ref2-com.google.api.services.compute.model.AutoscalingPolicyCustomMetricUtilization"
+		],
+		"setContent-setAutoscalingPolicy-setLoadBalancingUtilization-setUtilizationTarget":"java.lang.Double",
+		"setContent-setAutoscalingPolicy-setLoadBalancingUtilization-setUnknownKeys":{
+			"java.lang.String0":"ref4-java.lang.Object"
+		},
+		"setContent-setAutoscalingPolicy-setMaxNumReplicas":"java.lang.Integer",
+		"setContent-setAutoscalingPolicy-setMinNumReplicas":"java.lang.Integer",
+		"setContent-setAutoscalingPolicy-setUnknownKeys":{
+			"java.lang.String0":"ref5-java.lang.Object"
+		},
+		"setContent-setStatusDetails":[
+			"ref6-com.google.api.services.compute.model.AutoscalerStatusDetails"
+		],
+		"setContent-setName":"java.lang.String",
+		"setContent-setTarget":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref8-java.lang.Object"
+		}
+	},
+	"ref2-com.google.api.services.compute.model.AutoscalingPolicyCustomMetricUtilization":{
+		"setMetric":"java.lang.String",
+		"setUtilizationTarget":"java.lang.Double",
+		"setUtilizationTargetType":"java.lang.String",
+		"setContent-setAutoscalingPolicy-setCustomMetricUtilizations-setUnknownKeys":{
+			"java.lang.String0":"ref3-java.lang.Object"
+		}
+	},
+	"ref6-com.google.api.services.compute.model.AutoscalerStatusDetails":{
+		"setType":"java.lang.String",
+		"setMessage":"java.lang.String",
+		"setContent-setStatusDetails-setUnknownKeys":{
+			"java.lang.String0":"ref7-java.lang.Object"
+		}
+	}
+}
+```
+## GetImages parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setImage":"java.lang.String"
+	}
+}
+```
+## GetLicenseCodes parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setLicenseCode":"java.lang.String"
+	}
+}
+```
+## AggregatedListTargetPools parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String"
+	}
+}
+```
+## AggregatedListTargetVpnGateways parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String"
+	}
+}
+```
+## SetNamedPortsRegionInstanceGroups parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setNamedPorts":[
+			"ref1-com.google.api.services.compute.model.NamedPort"
+		],
+		"setContent-setFingerprint":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref3-java.lang.Object"
+		},
+		"setInstanceGroup":"java.lang.String"
+	},
+	"ref1-com.google.api.services.compute.model.NamedPort":{
+		"setPort":"java.lang.Integer",
+		"setName":"java.lang.String",
+		"setContent-setNamedPorts-setUnknownKeys":{
+			"java.lang.String0":"ref2-java.lang.Object"
+		}
+	}
+}
+```
+## GetRegions parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String"
+	}
+}
+```
+## SetInstanceTemplateInstanceGroupManagers parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setContent-setInstanceTemplate":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setInstanceGroupManager":"java.lang.String"
+	}
+}
+```
+## TestIamPermissionsRegionDisks parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setPermissions":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setResource":"java.lang.String"
+	}
+}
+```
+## AddRuleSecurityPolicies parameterss:
+
+```
+{
+	"main":{
+		"setSecurityPolicy":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setAction":"java.lang.String",
+		"setContent-setMatch-setConfig-setSrcIpRanges":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setMatch-setConfig-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setContent-setMatch-setVersionedExpr":"java.lang.String",
+		"setContent-setMatch-setUnknownKeys":{
+			"java.lang.String0":"ref2-java.lang.Object"
+		},
+		"setContent-setPreview":"java.lang.Boolean",
+		"setContent-setPriority":"java.lang.Integer",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref3-java.lang.Object"
+		}
+	}
+}
+```
+## GetRuleSecurityPolicies parameterss:
+
+```
+{
+	"main":{
+		"setSecurityPolicy":"java.lang.String",
+		"setProject":"java.lang.String"
+	}
+}
+```
+## GetTargetHttpProxies parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setTargetHttpProxy":"java.lang.String"
+	}
+}
+```
+## GetMachineTypes parameterss:
+
+```
+{
+	"main":{
+		"setMachineType":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String"
+	}
+}
+```
+## GetTargetPools parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setTargetPool":"java.lang.String"
+	}
+}
+```
+## InsertInstances parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setContent-setLabels":{
+			"java.lang.String0":"java.lang.String0",
+			"java.lang.String1":"java.lang.String1"
+		},
+		"setContent-setTags-setFingerprint":"java.lang.String",
+		"setContent-setTags-setItems":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setTags-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setContent-setDeletionProtection":"java.lang.Boolean",
+		"setContent-setMinCpuPlatform":"java.lang.String",
+		"setContent-setMachineType":"java.lang.String",
+		"setContent-setScheduling-setAutomaticRestart":"java.lang.Boolean",
+		"setContent-setScheduling-setNodeAffinities":[
+			"ref2-com.google.api.services.compute.model.SchedulingNodeAffinity"
+		],
+		"setContent-setScheduling-setOnHostMaintenance":"java.lang.String",
+		"setContent-setScheduling-setPreemptible":"java.lang.Boolean",
+		"setContent-setScheduling-setUnknownKeys":{
+			"java.lang.String0":"ref4-java.lang.Object"
+		},
+		"setContent-setMetadata-setFingerprint":"java.lang.String",
+		"setContent-setMetadata-setKind":"java.lang.String",
+		"setContent-setMetadata-setItems":[
+			"ref5-com.google.api.services.compute.model.Metadata$Items"
+		],
+		"setContent-setMetadata-setUnknownKeys":{
+			"java.lang.String0":"ref7-java.lang.Object"
+		},
+		"setContent-setZone":"java.lang.String",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setStatus":"java.lang.String",
+		"setContent-setLabelFingerprint":"java.lang.String",
+		"setContent-setStatusMessage":"java.lang.String",
+		"setContent-setCanIpForward":"java.lang.Boolean",
+		"setContent-setCpuPlatform":"java.lang.String",
+		"setContent-setDisks":[
+			"ref8-com.google.api.services.compute.model.AttachedDisk"
+		],
+		"setContent-setDisks-setGuestOsFeatures":[
+			"ref10-com.google.api.services.compute.model.GuestOsFeature"
+		],
+		"setContent-setDisks-setInitializeParams-setLabels":{
+			"java.lang.String0":"java.lang.String0",
+			"java.lang.String1":"java.lang.String1"
+		},
+		"setContent-setDisks-setInitializeParams-setDiskType":"java.lang.String",
+		"setContent-setDisks-setInitializeParams-setSourceImage":"java.lang.String",
+		"setContent-setDisks-setInitializeParams-setDescription":"java.lang.String",
+		"setContent-setDisks-setInitializeParams-setDiskSizeGb":"java.lang.Long",
+		"setContent-setDisks-setInitializeParams-setDiskName":"java.lang.String",
+		"setContent-setDisks-setInitializeParams-setSourceImageEncryptionKey-setKmsKeyName":"java.lang.String",
+		"setContent-setDisks-setInitializeParams-setSourceImageEncryptionKey-setRawKey":"java.lang.String",
+		"setContent-setDisks-setInitializeParams-setSourceImageEncryptionKey-setSha256":"java.lang.String",
+		"setContent-setDisks-setInitializeParams-setSourceImageEncryptionKey-setUnknownKeys":{
+			"java.lang.String0":"ref12-java.lang.Object"
+		},
+		"setContent-setDisks-setInitializeParams-setUnknownKeys":{
+			"java.lang.String0":"ref13-java.lang.Object"
+		},
+		"setContent-setDisks-setBoot":"java.lang.Boolean",
+		"setContent-setDisks-setIndex":"java.lang.Integer",
+		"setContent-setDisks-setInterface":"java.lang.String",
+		"setContent-setDisks-setMode":"java.lang.String",
+		"setContent-setDisks-setSource":"java.lang.String",
+		"setContent-setDisks-setUnknownKeys":{
+			"java.lang.String0":"ref14-java.lang.Object"
+		},
+		"setContent-setServiceAccounts":[
+			"ref15-com.google.api.services.compute.model.ServiceAccount"
+		],
+		"setContent-setStartRestricted":"java.lang.Boolean",
+		"setContent-setGuestAccelerators":[
+			"ref17-com.google.api.services.compute.model.AcceleratorConfig"
+		],
+		"setContent-setNetworkInterfaces":[
+			"ref19-com.google.api.services.compute.model.NetworkInterface"
+		],
+		"setContent-setNetworkInterfaces-setAccessConfigs":[
+			"ref22-com.google.api.services.compute.model.AccessConfig"
+		],
+		"setContent-setNetworkInterfaces-setNetworkIP":"java.lang.String",
+		"setContent-setNetworkInterfaces-setName":"java.lang.String",
+		"setContent-setNetworkInterfaces-setUnknownKeys":{
+			"java.lang.String0":"ref24-java.lang.Object"
+		},
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref25-java.lang.Object"
+		}
+	},
+	"ref2-com.google.api.services.compute.model.SchedulingNodeAffinity":{
+		"setKey":"java.lang.String",
+		"setOperator":"java.lang.String",
+		"setValues":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setScheduling-setNodeAffinities-setUnknownKeys":{
+			"java.lang.String0":"ref3-java.lang.Object"
+		}
+	},
+	"ref5-com.google.api.services.compute.model.Metadata$Items":{
+		"setKey":"java.lang.String",
+		"setValue":"java.lang.String",
+		"setContent-setMetadata-setItems-setUnknownKeys":{
+			"java.lang.String0":"ref6-java.lang.Object"
+		}
+	},
+	"ref8-com.google.api.services.compute.model.AttachedDisk":{
+		"setType":"java.lang.String",
+		"setAutoDelete":"java.lang.Boolean",
+		"setDeviceName":"java.lang.String",
+		"setKind":"java.lang.String",
+		"setLicenses":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setDiskEncryptionKey-setKmsKeyName":"java.lang.String",
+		"setDiskEncryptionKey-setRawKey":"java.lang.String",
+		"setDiskEncryptionKey-setSha256":"java.lang.String",
+		"setContent-setDisks-setDiskEncryptionKey-setUnknownKeys":{
+			"java.lang.String0":"ref9-java.lang.Object"
+		}
+	},
+	"ref10-com.google.api.services.compute.model.GuestOsFeature":{
+		"setType":"java.lang.String",
+		"setContent-setDisks-setGuestOsFeatures-setUnknownKeys":{
+			"java.lang.String0":"ref11-java.lang.Object"
+		}
+	},
+	"ref15-com.google.api.services.compute.model.ServiceAccount":{
+		"setEmail":"java.lang.String",
+		"setScopes":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setServiceAccounts-setUnknownKeys":{
+			"java.lang.String0":"ref16-java.lang.Object"
+		}
+	},
+	"ref17-com.google.api.services.compute.model.AcceleratorConfig":{
+		"setAcceleratorType":"java.lang.String",
+		"setAcceleratorCount":"java.lang.Integer",
+		"setContent-setGuestAccelerators-setUnknownKeys":{
+			"java.lang.String0":"ref18-java.lang.Object"
+		}
+	},
+	"ref19-com.google.api.services.compute.model.NetworkInterface":{
+		"setNetwork":"java.lang.String",
+		"setSubnetwork":"java.lang.String",
+		"setFingerprint":"java.lang.String",
+		"setKind":"java.lang.String",
+		"setContent-setNetworkInterfaces-setAliasIpRanges":[
+			"ref20-com.google.api.services.compute.model.AliasIpRange"
+		]
+	},
+	"ref20-com.google.api.services.compute.model.AliasIpRange":{
+		"setIpCidrRange":"java.lang.String",
+		"setSubnetworkRangeName":"java.lang.String",
+		"setContent-setNetworkInterfaces-setAliasIpRanges-setUnknownKeys":{
+			"java.lang.String0":"ref21-java.lang.Object"
+		}
+	},
+	"ref22-com.google.api.services.compute.model.AccessConfig":{
+		"setType":"java.lang.String",
+		"setKind":"java.lang.String",
+		"setNetworkTier":"java.lang.String",
+		"setPublicPtrDomainName":"java.lang.String",
+		"setSetPublicPtr":"java.lang.Boolean",
+		"setNatIP":"java.lang.String",
+		"setName":"java.lang.String",
+		"setContent-setNetworkInterfaces-setAccessConfigs-setUnknownKeys":{
+			"java.lang.String0":"ref23-java.lang.Object"
+		}
+	}
+}
+```
+## SimulateMaintenanceEventInstances parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setInstance":"java.lang.String"
+	}
+}
+```
+## GetGlobalOperations parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setOperation":"java.lang.String"
+	}
+}
+```
+## InsertInterconnects parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setContent-setState":"java.lang.String",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setPeerIpAddress":"java.lang.String",
+		"setContent-setAdminEnabled":"java.lang.Boolean",
+		"setContent-setGoogleReferenceId":"java.lang.String",
+		"setContent-setOperationalStatus":"java.lang.String",
+		"setContent-setCircuitInfos":[
+			"ref1-com.google.api.services.compute.model.InterconnectCircuitInfo"
+		],
+		"setContent-setCustomerName":"java.lang.String",
+		"setContent-setExpectedOutages":[
+			"ref3-com.google.api.services.compute.model.InterconnectOutageNotification"
+		],
+		"setContent-setGoogleIpAddress":"java.lang.String",
+		"setContent-setInterconnectAttachments":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setInterconnectType":"java.lang.String",
+		"setContent-setLinkType":"java.lang.String",
+		"setContent-setLocation":"java.lang.String",
+		"setContent-setNocContactEmail":"java.lang.String",
+		"setContent-setProvisionedLinkCount":"java.lang.Integer",
+		"setContent-setRequestedLinkCount":"java.lang.Integer",
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref5-java.lang.Object"
+		}
+	},
+	"ref1-com.google.api.services.compute.model.InterconnectCircuitInfo":{
+		"setCustomerDemarcId":"java.lang.String",
+		"setGoogleCircuitId":"java.lang.String",
+		"setGoogleDemarcId":"java.lang.String",
+		"setContent-setCircuitInfos-setUnknownKeys":{
+			"java.lang.String0":"ref2-java.lang.Object"
+		}
+	},
+	"ref3-com.google.api.services.compute.model.InterconnectOutageNotification":{
+		"setState":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setSource":"java.lang.String",
+		"setAffectedCircuits":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setEndTime":"java.lang.Long",
+		"setIssueType":"java.lang.String",
+		"setStartTime":"java.lang.Long",
+		"setName":"java.lang.String",
+		"setContent-setExpectedOutages-setUnknownKeys":{
+			"java.lang.String0":"ref4-java.lang.Object"
+		}
+	}
+}
+```
+## AggregatedListVpnTunnels parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String"
+	}
+}
+```
+## GetRegionInstanceGroups parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setInstanceGroup":"java.lang.String"
+	}
+}
+```
+## UpdateBackendBuckets parameterss:
+
+```
+{
+	"main":{
+		"setBackendBucket":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setCdnPolicy-setSignedUrlCacheMaxAgeSec":"java.lang.Long",
+		"setContent-setCdnPolicy-setSignedUrlKeyNames":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setCdnPolicy-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setBucketName":"java.lang.String",
+		"setContent-setEnableCdn":"java.lang.Boolean",
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref2-java.lang.Object"
+		}
+	}
+}
+```
+## DeleteZoneOperations parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setOperation":"java.lang.String"
+	}
+}
+```
+## SetNodeTemplateNodeGroups parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setContent-setNodeTemplate":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setNodeGroup":"java.lang.String"
+	}
+}
+```
+## StartInstances parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setInstance":"java.lang.String"
+	}
+}
+```
+## GetTargetHttpsProxies parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setTargetHttpsProxy":"java.lang.String"
+	}
+}
+```
+## DeleteVpnTunnels parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setVpnTunnel":"java.lang.String"
+	}
+}
+```
+## StartWithEncryptionKeyInstances parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setContent-setDisks":[
+			"ref1-com.google.api.services.compute.model.CustomerEncryptionKeyProtectedDisk"
+		],
+		"setContent-setDisks-setSource":"java.lang.String",
+		"setContent-setDisks-setUnknownKeys":{
+			"java.lang.String0":"ref3-java.lang.Object"
+		},
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref4-java.lang.Object"
+		},
+		"setInstance":"java.lang.String"
+	},
+	"ref1-com.google.api.services.compute.model.CustomerEncryptionKeyProtectedDisk":{
+		"setDiskEncryptionKey-setKmsKeyName":"java.lang.String",
+		"setDiskEncryptionKey-setRawKey":"java.lang.String",
+		"setDiskEncryptionKey-setSha256":"java.lang.String",
+		"setContent-setDisks-setDiskEncryptionKey-setUnknownKeys":{
+			"java.lang.String0":"ref2-java.lang.Object"
+		}
+	}
+}
+```
+## DeleteNetworks parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setNetwork":"java.lang.String"
+	}
+}
+```
+## DeleteRegionAutoscalers parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setAutoscaler":"java.lang.String",
+		"setProject":"java.lang.String"
+	}
+}
+```
+## ListTargetHttpsProxies parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String"
+	}
+}
+```
+## PatchSecurityPolicies parameterss:
+
+```
+{
+	"main":{
+		"setSecurityPolicy":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setFingerprint":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setRules":[
+			"ref1-com.google.api.services.compute.model.SecurityPolicyRule"
+		],
+		"setContent-setRules-setMatch-setVersionedExpr":"java.lang.String",
+		"setContent-setRules-setMatch-setUnknownKeys":{
+			"java.lang.String0":"ref3-java.lang.Object"
+		},
+		"setContent-setRules-setPreview":"java.lang.Boolean",
+		"setContent-setRules-setPriority":"java.lang.Integer",
+		"setContent-setRules-setUnknownKeys":{
+			"java.lang.String0":"ref4-java.lang.Object"
+		},
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref5-java.lang.Object"
+		}
+	},
+	"ref1-com.google.api.services.compute.model.SecurityPolicyRule":{
+		"setDescription":"java.lang.String",
+		"setKind":"java.lang.String",
+		"setAction":"java.lang.String",
+		"setMatch-setConfig-setSrcIpRanges":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setRules-setMatch-setConfig-setUnknownKeys":{
+			"java.lang.String0":"ref2-java.lang.Object"
+		}
+	}
+}
+```
+## GetDisks parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setDisk":"java.lang.String"
+	}
+}
+```
+## AggregatedListInstanceGroups parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String"
+	}
+}
+```
+## GetLicenses parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setLicense":"java.lang.String"
+	}
+}
+```
+## DeleteForwardingRules parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setForwardingRule":"java.lang.String"
+	}
+}
+```
+## DeleteSignedUrlKeyBackendServices parameterss:
+
+```
+{
+	"main":{
+		"setBackendService":"java.lang.String",
+		"setKeyName":"java.lang.String",
+		"setProject":"java.lang.String"
+	}
+}
+```
+## InsertAutoscalers parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setContent-setRegion":"java.lang.String",
+		"setContent-setZone":"java.lang.String",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setStatus":"java.lang.String",
+		"setContent-setAutoscalingPolicy-setCoolDownPeriodSec":"java.lang.Integer",
+		"setContent-setAutoscalingPolicy-setCpuUtilization-setUtilizationTarget":"java.lang.Double",
+		"setContent-setAutoscalingPolicy-setCpuUtilization-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setContent-setAutoscalingPolicy-setCustomMetricUtilizations":[
+			"ref2-com.google.api.services.compute.model.AutoscalingPolicyCustomMetricUtilization"
+		],
+		"setContent-setAutoscalingPolicy-setLoadBalancingUtilization-setUtilizationTarget":"java.lang.Double",
+		"setContent-setAutoscalingPolicy-setLoadBalancingUtilization-setUnknownKeys":{
+			"java.lang.String0":"ref4-java.lang.Object"
+		},
+		"setContent-setAutoscalingPolicy-setMaxNumReplicas":"java.lang.Integer",
+		"setContent-setAutoscalingPolicy-setMinNumReplicas":"java.lang.Integer",
+		"setContent-setAutoscalingPolicy-setUnknownKeys":{
+			"java.lang.String0":"ref5-java.lang.Object"
+		},
+		"setContent-setStatusDetails":[
+			"ref6-com.google.api.services.compute.model.AutoscalerStatusDetails"
+		],
+		"setContent-setName":"java.lang.String",
+		"setContent-setTarget":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref8-java.lang.Object"
+		}
+	},
+	"ref2-com.google.api.services.compute.model.AutoscalingPolicyCustomMetricUtilization":{
+		"setMetric":"java.lang.String",
+		"setUtilizationTarget":"java.lang.Double",
+		"setUtilizationTargetType":"java.lang.String",
+		"setContent-setAutoscalingPolicy-setCustomMetricUtilizations-setUnknownKeys":{
+			"java.lang.String0":"ref3-java.lang.Object"
+		}
+	},
+	"ref6-com.google.api.services.compute.model.AutoscalerStatusDetails":{
+		"setType":"java.lang.String",
+		"setMessage":"java.lang.String",
+		"setContent-setStatusDetails-setUnknownKeys":{
+			"java.lang.String0":"ref7-java.lang.Object"
+		}
+	}
+}
+```
+## GetSerialPortOutputInstances parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setInstance":"java.lang.String"
+	}
+}
+```
+## ListTargetSslProxies parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String"
+	}
+}
+```
+## PatchRuleSecurityPolicies parameterss:
+
+```
+{
+	"main":{
+		"setSecurityPolicy":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setAction":"java.lang.String",
+		"setContent-setMatch-setConfig-setSrcIpRanges":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setMatch-setConfig-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setContent-setMatch-setVersionedExpr":"java.lang.String",
+		"setContent-setMatch-setUnknownKeys":{
+			"java.lang.String0":"ref2-java.lang.Object"
+		},
+		"setContent-setPreview":"java.lang.Boolean",
+		"setContent-setPriority":"java.lang.Integer",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref3-java.lang.Object"
+		}
+	}
+}
+```
+## SetBackupTargetPools parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setTarget":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setTargetPool":"java.lang.String"
+	}
+}
+```
+## GetNetworks parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setNetwork":"java.lang.String"
+	}
+}
+```
+## GetRouterStatusRouters parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setRouter":"java.lang.String"
+	}
+}
+```
+## ListAddresses parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String"
+	}
+}
+```
+## SetSchedulingInstances parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setContent-setAutomaticRestart":"java.lang.Boolean",
+		"setContent-setNodeAffinities":[
+			"ref1-com.google.api.services.compute.model.SchedulingNodeAffinity"
+		],
+		"setContent-setOnHostMaintenance":"java.lang.String",
+		"setContent-setPreemptible":"java.lang.Boolean",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref3-java.lang.Object"
+		},
+		"setInstance":"java.lang.String"
+	},
+	"ref1-com.google.api.services.compute.model.SchedulingNodeAffinity":{
+		"setKey":"java.lang.String",
+		"setOperator":"java.lang.String",
+		"setValues":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setNodeAffinities-setUnknownKeys":{
+			"java.lang.String0":"ref2-java.lang.Object"
+		}
+	}
+}
+```
+## DeleteRegionDisks parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setDisk":"java.lang.String"
+	}
+}
+```
+## InsertDisks parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setContent-setType":"java.lang.String",
+		"setContent-setLabels":{
+			"java.lang.String0":"java.lang.String0",
+			"java.lang.String1":"java.lang.String1"
+		},
+		"setContent-setRegion":"java.lang.String",
+		"setContent-setZone":"java.lang.String",
+		"setContent-setSourceImage":"java.lang.String",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setLicenseCodes":[
+			"ref1-java.lang.Long"
+		],
+		"setContent-setLicenses":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setStatus":"java.lang.String",
+		"setContent-setLabelFingerprint":"java.lang.String",
+		"setContent-setDiskEncryptionKey-setKmsKeyName":"java.lang.String",
+		"setContent-setDiskEncryptionKey-setRawKey":"java.lang.String",
+		"setContent-setDiskEncryptionKey-setSha256":"java.lang.String",
+		"setContent-setDiskEncryptionKey-setUnknownKeys":{
+			"java.lang.String0":"ref2-java.lang.Object"
+		},
+		"setContent-setGuestOsFeatures":[
+			"ref3-com.google.api.services.compute.model.GuestOsFeature"
+		],
+		"setContent-setSourceImageEncryptionKey-setKmsKeyName":"java.lang.String",
+		"setContent-setSourceImageEncryptionKey-setRawKey":"java.lang.String",
+		"setContent-setSourceImageEncryptionKey-setSha256":"java.lang.String",
+		"setContent-setSourceImageEncryptionKey-setUnknownKeys":{
+			"java.lang.String0":"ref5-java.lang.Object"
+		},
+		"setContent-setUsers":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setSizeGb":"java.lang.Long",
+		"setContent-setLastAttachTimestamp":"java.lang.String",
+		"setContent-setLastDetachTimestamp":"java.lang.String",
+		"setContent-setOptions":"java.lang.String",
+		"setContent-setReplicaZones":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setSourceImageId":"java.lang.String",
+		"setContent-setSourceSnapshot":"java.lang.String",
+		"setContent-setSourceSnapshotEncryptionKey-setKmsKeyName":"java.lang.String",
+		"setContent-setSourceSnapshotEncryptionKey-setRawKey":"java.lang.String",
+		"setContent-setSourceSnapshotEncryptionKey-setSha256":"java.lang.String",
+		"setContent-setSourceSnapshotEncryptionKey-setUnknownKeys":{
+			"java.lang.String0":"ref6-java.lang.Object"
+		},
+		"setContent-setSourceSnapshotId":"java.lang.String",
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref7-java.lang.Object"
+		}
+	},
+	"ref3-com.google.api.services.compute.model.GuestOsFeature":{
+		"setType":"java.lang.String",
+		"setContent-setGuestOsFeatures-setUnknownKeys":{
+			"java.lang.String0":"ref4-java.lang.Object"
+		}
+	}
+}
+```
+## AggregatedListRegionCommitments parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String"
+	}
+}
+```
+## InsertBackendServices parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setContent-setSecurityPolicy":"java.lang.String",
+		"setContent-setRegion":"java.lang.String",
+		"setContent-setPort":"java.lang.Integer",
+		"setContent-setIap-setOauth2ClientId":"java.lang.String",
+		"setContent-setIap-setOauth2ClientSecret":"java.lang.String",
+		"setContent-setIap-setOauth2ClientSecretSha256":"java.lang.String",
+		"setContent-setIap-setEnabled":"java.lang.Boolean",
+		"setContent-setIap-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setContent-setLoadBalancingScheme":"java.lang.String",
+		"setContent-setPortName":"java.lang.String",
+		"setContent-setProtocol":"java.lang.String",
+		"setContent-setSessionAffinity":"java.lang.String",
+		"setContent-setTimeoutSec":"java.lang.Integer",
+		"setContent-setEnableCDN":"java.lang.Boolean",
+		"setContent-setHealthChecks":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setAffinityCookieTtlSec":"java.lang.Integer",
+		"setContent-setBackends":[
+			"ref2-com.google.api.services.compute.model.Backend"
+		],
+		"setContent-setCdnPolicy-setCacheKeyPolicy-setIncludeQueryString":"java.lang.Boolean",
+		"setContent-setCdnPolicy-setCacheKeyPolicy-setQueryStringBlacklist":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setCdnPolicy-setCacheKeyPolicy-setQueryStringWhitelist":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setCdnPolicy-setCacheKeyPolicy-setIncludeHost":"java.lang.Boolean",
+		"setContent-setCdnPolicy-setCacheKeyPolicy-setIncludeProtocol":"java.lang.Boolean",
+		"setContent-setCdnPolicy-setCacheKeyPolicy-setUnknownKeys":{
+			"java.lang.String0":"ref4-java.lang.Object"
+		},
+		"setContent-setCdnPolicy-setSignedUrlCacheMaxAgeSec":"java.lang.Long",
+		"setContent-setCdnPolicy-setSignedUrlKeyNames":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setCdnPolicy-setUnknownKeys":{
+			"java.lang.String0":"ref5-java.lang.Object"
+		},
+		"setContent-setConnectionDraining-setDrainingTimeoutSec":"java.lang.Integer",
+		"setContent-setConnectionDraining-setUnknownKeys":{
+			"java.lang.String0":"ref6-java.lang.Object"
+		},
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setFingerprint":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref7-java.lang.Object"
+		}
+	},
+	"ref2-com.google.api.services.compute.model.Backend":{
+		"setBalancingMode":"java.lang.String",
+		"setCapacityScaler":"java.lang.Float",
+		"setGroup":"java.lang.String",
+		"setMaxConnections":"java.lang.Integer",
+		"setMaxConnectionsPerInstance":"java.lang.Integer",
+		"setMaxRate":"java.lang.Integer",
+		"setMaxRatePerInstance":"java.lang.Float",
+		"setMaxUtilization":"java.lang.Float",
+		"setDescription":"java.lang.String",
+		"setContent-setBackends-setUnknownKeys":{
+			"java.lang.String0":"ref3-java.lang.Object"
+		}
+	}
+}
+```
+## SetLabelsInstances parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setContent-setLabels":{
+			"java.lang.String0":"java.lang.String0",
+			"java.lang.String1":"java.lang.String1"
+		},
+		"setContent-setLabelFingerprint":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setInstance":"java.lang.String"
+	}
+}
+```
+## ListRegionDiskTypes parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String"
+	}
+}
+```
+## InsertHealthChecks parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setContent-setType":"java.lang.String",
+		"setContent-setHttpHealthCheck-setProxyHeader":"java.lang.String",
+		"setContent-setHttpHealthCheck-setPort":"java.lang.Integer",
+		"setContent-setHttpHealthCheck-setPortName":"java.lang.String",
+		"setContent-setHttpHealthCheck-setRequestPath":"java.lang.String",
+		"setContent-setHttpHealthCheck-setHost":"java.lang.String",
+		"setContent-setHttpHealthCheck-setResponse":"java.lang.String",
+		"setContent-setHttpHealthCheck-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setContent-setHttpsHealthCheck-setProxyHeader":"java.lang.String",
+		"setContent-setHttpsHealthCheck-setPort":"java.lang.Integer",
+		"setContent-setHttpsHealthCheck-setPortName":"java.lang.String",
+		"setContent-setHttpsHealthCheck-setRequestPath":"java.lang.String",
+		"setContent-setHttpsHealthCheck-setHost":"java.lang.String",
+		"setContent-setHttpsHealthCheck-setResponse":"java.lang.String",
+		"setContent-setHttpsHealthCheck-setUnknownKeys":{
+			"java.lang.String0":"ref2-java.lang.Object"
+		},
+		"setContent-setTimeoutSec":"java.lang.Integer",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setCheckIntervalSec":"java.lang.Integer",
+		"setContent-setHealthyThreshold":"java.lang.Integer",
+		"setContent-setUnhealthyThreshold":"java.lang.Integer",
+		"setContent-setSslHealthCheck-setProxyHeader":"java.lang.String",
+		"setContent-setSslHealthCheck-setPort":"java.lang.Integer",
+		"setContent-setSslHealthCheck-setPortName":"java.lang.String",
+		"setContent-setSslHealthCheck-setRequest":"java.lang.String",
+		"setContent-setSslHealthCheck-setResponse":"java.lang.String",
+		"setContent-setSslHealthCheck-setUnknownKeys":{
+			"java.lang.String0":"ref3-java.lang.Object"
+		},
+		"setContent-setTcpHealthCheck-setProxyHeader":"java.lang.String",
+		"setContent-setTcpHealthCheck-setPort":"java.lang.Integer",
+		"setContent-setTcpHealthCheck-setPortName":"java.lang.String",
+		"setContent-setTcpHealthCheck-setRequest":"java.lang.String",
+		"setContent-setTcpHealthCheck-setResponse":"java.lang.String",
+		"setContent-setTcpHealthCheck-setUnknownKeys":{
+			"java.lang.String0":"ref4-java.lang.Object"
+		},
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref5-java.lang.Object"
+		}
+	}
+}
+```
+## ListGlobalAddresses parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String"
+	}
+}
+```
+## ListRegionBackendServices parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String"
+	}
+}
+```
+## GetUrlMaps parameterss:
+
+```
+{
+	"main":{
+		"setUrlMap":"java.lang.String",
+		"setProject":"java.lang.String"
+	}
+}
+```
+## GetInterconnectLocations parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setInterconnectLocation":"java.lang.String"
+	}
+}
+```
+## RecreateInstancesRegionInstanceGroupManagers parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setInstances":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setInstanceGroupManager":"java.lang.String"
+	}
+}
+```
+## SetUrlMapTargetHttpsProxies parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setContent-setUrlMap":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setTargetHttpsProxy":"java.lang.String"
+	}
+}
+```
+## AggregatedListInstanceGroupManagers parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String"
+	}
+}
+```
+## GetRegionAutoscalers parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setAutoscaler":"java.lang.String",
+		"setProject":"java.lang.String"
+	}
+}
+```
+## GetTargetTcpProxies parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setTargetTcpProxy":"java.lang.String"
+	}
+}
+```
+## GetTargetSslProxies parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setTargetSslProxy":"java.lang.String"
+	}
+}
+```
+## GetZoneOperations parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setOperation":"java.lang.String"
+	}
+}
+```
+## ResizeRegionDisks parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setSizeGb":"java.lang.Long",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setDisk":"java.lang.String"
+	}
+}
+```
+## ListReferrersInstances parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setInstance":"java.lang.String"
+	}
+}
+```
+## ListTargetHttpProxies parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String"
+	}
+}
+```
+## DeleteRegionOperations parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setOperation":"java.lang.String"
+	}
+}
+```
+## SetSecurityPolicyBackendServices parameterss:
+
+```
+{
+	"main":{
+		"setBackendService":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setSecurityPolicy":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		}
+	}
+}
+```
+## AggregatedListBackendServices parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String"
+	}
+}
+```
+## ListBackendBuckets parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String"
+	}
+}
+```
+## PatchInterconnects parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setContent-setState":"java.lang.String",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setPeerIpAddress":"java.lang.String",
+		"setContent-setAdminEnabled":"java.lang.Boolean",
+		"setContent-setGoogleReferenceId":"java.lang.String",
+		"setContent-setOperationalStatus":"java.lang.String",
+		"setContent-setCircuitInfos":[
+			"ref1-com.google.api.services.compute.model.InterconnectCircuitInfo"
+		],
+		"setContent-setCustomerName":"java.lang.String",
+		"setContent-setExpectedOutages":[
+			"ref3-com.google.api.services.compute.model.InterconnectOutageNotification"
+		],
+		"setContent-setGoogleIpAddress":"java.lang.String",
+		"setContent-setInterconnectAttachments":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setInterconnectType":"java.lang.String",
+		"setContent-setLinkType":"java.lang.String",
+		"setContent-setLocation":"java.lang.String",
+		"setContent-setNocContactEmail":"java.lang.String",
+		"setContent-setProvisionedLinkCount":"java.lang.Integer",
+		"setContent-setRequestedLinkCount":"java.lang.Integer",
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref5-java.lang.Object"
+		},
+		"setInterconnect":"java.lang.String"
+	},
+	"ref1-com.google.api.services.compute.model.InterconnectCircuitInfo":{
+		"setCustomerDemarcId":"java.lang.String",
+		"setGoogleCircuitId":"java.lang.String",
+		"setGoogleDemarcId":"java.lang.String",
+		"setContent-setCircuitInfos-setUnknownKeys":{
+			"java.lang.String0":"ref2-java.lang.Object"
+		}
+	},
+	"ref3-com.google.api.services.compute.model.InterconnectOutageNotification":{
+		"setState":"java.lang.String",
+		"setDescription":"java.lang.String",
+		"setSource":"java.lang.String",
+		"setAffectedCircuits":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setEndTime":"java.lang.Long",
+		"setIssueType":"java.lang.String",
+		"setStartTime":"java.lang.Long",
+		"setName":"java.lang.String",
+		"setContent-setExpectedOutages-setUnknownKeys":{
+			"java.lang.String0":"ref4-java.lang.Object"
+		}
+	}
+}
+```
+## InsertFirewalls parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setContent-setNetwork":"java.lang.String",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setDestinationRanges":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setDirection":"java.lang.String",
+		"setContent-setDisabled":"java.lang.Boolean",
+		"setContent-setSourceRanges":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setSourceServiceAccounts":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setSourceTags":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setTargetServiceAccounts":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setTargetTags":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setAllowed":[
+			"ref1-com.google.api.services.compute.model.Firewall$Allowed"
+		],
+		"setContent-setDenied":[
+			"ref3-com.google.api.services.compute.model.Firewall$Denied"
+		],
+		"setContent-setPriority":"java.lang.Integer",
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref5-java.lang.Object"
+		}
+	},
+	"ref1-com.google.api.services.compute.model.Firewall$Allowed":{
+		"setIPProtocol":"java.lang.String",
+		"setPorts":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setAllowed-setUnknownKeys":{
+			"java.lang.String0":"ref2-java.lang.Object"
+		}
+	},
+	"ref3-com.google.api.services.compute.model.Firewall$Denied":{
+		"setIPProtocol":"java.lang.String",
+		"setPorts":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setDenied-setUnknownKeys":{
+			"java.lang.String0":"ref4-java.lang.Object"
+		}
+	}
+}
+```
+## GetSnapshots parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setSnapshot":"java.lang.String"
+	}
+}
+```
+## GetRouters parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setRouter":"java.lang.String"
+	}
+}
+```
+## InsertInstanceTemplates parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setSourceInstance":"java.lang.String",
+		"setContent-setSourceInstanceParams-setDiskConfigs":[
+			"ref1-com.google.api.services.compute.model.DiskInstantiationConfig"
+		],
+		"setContent-setSourceInstanceParams-setUnknownKeys":{
+			"java.lang.String0":"ref3-java.lang.Object"
+		},
+		"setContent-setProperties-setLabels":{
+			"java.lang.String0":"java.lang.String0",
+			"java.lang.String1":"java.lang.String1"
+		},
+		"setContent-setProperties-setTags-setFingerprint":"java.lang.String",
+		"setContent-setProperties-setTags-setItems":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setProperties-setTags-setUnknownKeys":{
+			"java.lang.String0":"ref4-java.lang.Object"
+		},
+		"setContent-setProperties-setMinCpuPlatform":"java.lang.String",
+		"setContent-setProperties-setMachineType":"java.lang.String",
+		"setContent-setProperties-setScheduling-setAutomaticRestart":"java.lang.Boolean",
+		"setContent-setProperties-setScheduling-setNodeAffinities":[
+			"ref5-com.google.api.services.compute.model.SchedulingNodeAffinity"
+		],
+		"setContent-setProperties-setScheduling-setOnHostMaintenance":"java.lang.String",
+		"setContent-setProperties-setScheduling-setPreemptible":"java.lang.Boolean",
+		"setContent-setProperties-setScheduling-setUnknownKeys":{
+			"java.lang.String0":"ref7-java.lang.Object"
+		},
+		"setContent-setProperties-setMetadata-setFingerprint":"java.lang.String",
+		"setContent-setProperties-setMetadata-setKind":"java.lang.String",
+		"setContent-setProperties-setMetadata-setItems":[
+			"ref8-com.google.api.services.compute.model.Metadata$Items"
+		],
+		"setContent-setProperties-setMetadata-setUnknownKeys":{
+			"java.lang.String0":"ref10-java.lang.Object"
+		},
+		"setContent-setProperties-setDescription":"java.lang.String",
+		"setContent-setProperties-setCanIpForward":"java.lang.Boolean",
+		"setContent-setProperties-setDisks":[
+			"ref11-com.google.api.services.compute.model.AttachedDisk"
+		],
+		"setContent-setProperties-setDisks-setGuestOsFeatures":[
+			"ref13-com.google.api.services.compute.model.GuestOsFeature"
+		],
+		"setContent-setProperties-setDisks-setInitializeParams-setLabels":{
+			"java.lang.String0":"java.lang.String0",
+			"java.lang.String1":"java.lang.String1"
+		},
+		"setContent-setProperties-setDisks-setInitializeParams-setDiskType":"java.lang.String",
+		"setContent-setProperties-setDisks-setInitializeParams-setSourceImage":"java.lang.String",
+		"setContent-setProperties-setDisks-setInitializeParams-setDescription":"java.lang.String",
+		"setContent-setProperties-setDisks-setInitializeParams-setDiskSizeGb":"java.lang.Long",
+		"setContent-setProperties-setDisks-setInitializeParams-setDiskName":"java.lang.String",
+		"setContent-setProperties-setDisks-setInitializeParams-setSourceImageEncryptionKey-setKmsKeyName":"java.lang.String",
+		"setContent-setProperties-setDisks-setInitializeParams-setSourceImageEncryptionKey-setRawKey":"java.lang.String",
+		"setContent-setProperties-setDisks-setInitializeParams-setSourceImageEncryptionKey-setSha256":"java.lang.String",
+		"setContent-setProperties-setDisks-setInitializeParams-setSourceImageEncryptionKey-setUnknownKeys":{
+			"java.lang.String0":"ref15-java.lang.Object"
+		},
+		"setContent-setProperties-setDisks-setInitializeParams-setUnknownKeys":{
+			"java.lang.String0":"ref16-java.lang.Object"
+		},
+		"setContent-setProperties-setDisks-setBoot":"java.lang.Boolean",
+		"setContent-setProperties-setDisks-setIndex":"java.lang.Integer",
+		"setContent-setProperties-setDisks-setInterface":"java.lang.String",
+		"setContent-setProperties-setDisks-setMode":"java.lang.String",
+		"setContent-setProperties-setDisks-setSource":"java.lang.String",
+		"setContent-setProperties-setDisks-setUnknownKeys":{
+			"java.lang.String0":"ref17-java.lang.Object"
+		},
+		"setContent-setProperties-setServiceAccounts":[
+			"ref18-com.google.api.services.compute.model.ServiceAccount"
+		],
+		"setContent-setProperties-setGuestAccelerators":[
+			"ref20-com.google.api.services.compute.model.AcceleratorConfig"
+		],
+		"setContent-setProperties-setNetworkInterfaces":[
+			"ref22-com.google.api.services.compute.model.NetworkInterface"
+		],
+		"setContent-setProperties-setNetworkInterfaces-setAccessConfigs":[
+			"ref25-com.google.api.services.compute.model.AccessConfig"
+		],
+		"setContent-setProperties-setNetworkInterfaces-setNetworkIP":"java.lang.String",
+		"setContent-setProperties-setNetworkInterfaces-setName":"java.lang.String",
+		"setContent-setProperties-setNetworkInterfaces-setUnknownKeys":{
+			"java.lang.String0":"ref27-java.lang.Object"
+		},
+		"setContent-setProperties-setUnknownKeys":{
+			"java.lang.String0":"ref28-java.lang.Object"
+		},
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref29-java.lang.Object"
+		}
+	},
+	"ref1-com.google.api.services.compute.model.DiskInstantiationConfig":{
+		"setAutoDelete":"java.lang.Boolean",
+		"setDeviceName":"java.lang.String",
+		"setCustomImage":"java.lang.String",
+		"setInstantiateFrom":"java.lang.String",
+		"setContent-setSourceInstanceParams-setDiskConfigs-setUnknownKeys":{
+			"java.lang.String0":"ref2-java.lang.Object"
+		}
+	},
+	"ref5-com.google.api.services.compute.model.SchedulingNodeAffinity":{
+		"setKey":"java.lang.String",
+		"setOperator":"java.lang.String",
+		"setValues":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setProperties-setScheduling-setNodeAffinities-setUnknownKeys":{
+			"java.lang.String0":"ref6-java.lang.Object"
+		}
+	},
+	"ref8-com.google.api.services.compute.model.Metadata$Items":{
+		"setKey":"java.lang.String",
+		"setValue":"java.lang.String",
+		"setContent-setProperties-setMetadata-setItems-setUnknownKeys":{
+			"java.lang.String0":"ref9-java.lang.Object"
+		}
+	},
+	"ref11-com.google.api.services.compute.model.AttachedDisk":{
+		"setType":"java.lang.String",
+		"setAutoDelete":"java.lang.Boolean",
+		"setDeviceName":"java.lang.String",
+		"setKind":"java.lang.String",
+		"setLicenses":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setDiskEncryptionKey-setKmsKeyName":"java.lang.String",
+		"setDiskEncryptionKey-setRawKey":"java.lang.String",
+		"setDiskEncryptionKey-setSha256":"java.lang.String",
+		"setContent-setProperties-setDisks-setDiskEncryptionKey-setUnknownKeys":{
+			"java.lang.String0":"ref12-java.lang.Object"
+		}
+	},
+	"ref13-com.google.api.services.compute.model.GuestOsFeature":{
+		"setType":"java.lang.String",
+		"setContent-setProperties-setDisks-setGuestOsFeatures-setUnknownKeys":{
+			"java.lang.String0":"ref14-java.lang.Object"
+		}
+	},
+	"ref18-com.google.api.services.compute.model.ServiceAccount":{
+		"setEmail":"java.lang.String",
+		"setScopes":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setProperties-setServiceAccounts-setUnknownKeys":{
+			"java.lang.String0":"ref19-java.lang.Object"
+		}
+	},
+	"ref20-com.google.api.services.compute.model.AcceleratorConfig":{
+		"setAcceleratorType":"java.lang.String",
+		"setAcceleratorCount":"java.lang.Integer",
+		"setContent-setProperties-setGuestAccelerators-setUnknownKeys":{
+			"java.lang.String0":"ref21-java.lang.Object"
+		}
+	},
+	"ref22-com.google.api.services.compute.model.NetworkInterface":{
+		"setNetwork":"java.lang.String",
+		"setSubnetwork":"java.lang.String",
+		"setFingerprint":"java.lang.String",
+		"setKind":"java.lang.String",
+		"setContent-setProperties-setNetworkInterfaces-setAliasIpRanges":[
+			"ref23-com.google.api.services.compute.model.AliasIpRange"
+		]
+	},
+	"ref23-com.google.api.services.compute.model.AliasIpRange":{
+		"setIpCidrRange":"java.lang.String",
+		"setSubnetworkRangeName":"java.lang.String",
+		"setContent-setProperties-setNetworkInterfaces-setAliasIpRanges-setUnknownKeys":{
+			"java.lang.String0":"ref24-java.lang.Object"
+		}
+	},
+	"ref25-com.google.api.services.compute.model.AccessConfig":{
+		"setType":"java.lang.String",
+		"setKind":"java.lang.String",
+		"setNetworkTier":"java.lang.String",
+		"setPublicPtrDomainName":"java.lang.String",
+		"setSetPublicPtr":"java.lang.Boolean",
+		"setNatIP":"java.lang.String",
+		"setName":"java.lang.String",
+		"setContent-setProperties-setNetworkInterfaces-setAccessConfigs-setUnknownKeys":{
+			"java.lang.String0":"ref26-java.lang.Object"
+		}
+	}
+}
+```
+## AggregatedListInterconnectAttachments parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String"
+	}
+}
+```
+## RemoveRuleSecurityPolicies parameterss:
+
+```
+{
+	"main":{
+		"setSecurityPolicy":"java.lang.String",
+		"setProject":"java.lang.String"
+	}
+}
+```
+## ListHttpHealthChecks parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String"
+	}
+}
+```
+## DeleteGlobalForwardingRules parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setForwardingRule":"java.lang.String"
+	}
+}
+```
+## ListTargetVpnGateways parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String"
+	}
+}
+```
+## AggregatedListNodeTypes parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String"
+	}
+}
+```
+## PatchAutoscalers parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setContent-setRegion":"java.lang.String",
+		"setContent-setZone":"java.lang.String",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setStatus":"java.lang.String",
+		"setContent-setAutoscalingPolicy-setCoolDownPeriodSec":"java.lang.Integer",
+		"setContent-setAutoscalingPolicy-setCpuUtilization-setUtilizationTarget":"java.lang.Double",
+		"setContent-setAutoscalingPolicy-setCpuUtilization-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setContent-setAutoscalingPolicy-setCustomMetricUtilizations":[
+			"ref2-com.google.api.services.compute.model.AutoscalingPolicyCustomMetricUtilization"
+		],
+		"setContent-setAutoscalingPolicy-setLoadBalancingUtilization-setUtilizationTarget":"java.lang.Double",
+		"setContent-setAutoscalingPolicy-setLoadBalancingUtilization-setUnknownKeys":{
+			"java.lang.String0":"ref4-java.lang.Object"
+		},
+		"setContent-setAutoscalingPolicy-setMaxNumReplicas":"java.lang.Integer",
+		"setContent-setAutoscalingPolicy-setMinNumReplicas":"java.lang.Integer",
+		"setContent-setAutoscalingPolicy-setUnknownKeys":{
+			"java.lang.String0":"ref5-java.lang.Object"
+		},
+		"setContent-setStatusDetails":[
+			"ref6-com.google.api.services.compute.model.AutoscalerStatusDetails"
+		],
+		"setContent-setName":"java.lang.String",
+		"setContent-setTarget":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref8-java.lang.Object"
+		}
+	},
+	"ref2-com.google.api.services.compute.model.AutoscalingPolicyCustomMetricUtilization":{
+		"setMetric":"java.lang.String",
+		"setUtilizationTarget":"java.lang.Double",
+		"setUtilizationTargetType":"java.lang.String",
+		"setContent-setAutoscalingPolicy-setCustomMetricUtilizations-setUnknownKeys":{
+			"java.lang.String0":"ref3-java.lang.Object"
+		}
+	},
+	"ref6-com.google.api.services.compute.model.AutoscalerStatusDetails":{
+		"setType":"java.lang.String",
+		"setMessage":"java.lang.String",
+		"setContent-setStatusDetails-setUnknownKeys":{
+			"java.lang.String0":"ref7-java.lang.Object"
+		}
+	}
+}
+```
+## StopInstances parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setInstance":"java.lang.String"
+	}
+}
+```
+## InsertLicenses parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setChargesUseFee":"java.lang.Boolean",
+		"setContent-setResourceRequirements-setMinGuestCpuCount":"java.lang.Integer",
+		"setContent-setResourceRequirements-setMinMemoryMb":"java.lang.Integer",
+		"setContent-setResourceRequirements-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setContent-setTransferable":"java.lang.Boolean",
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref2-java.lang.Object"
+		}
+	}
+}
+```
+## SetSslCertificatesTargetSslProxies parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setContent-setSslCertificates":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setTargetSslProxy":"java.lang.String"
+	}
+}
+```
+## InsertTargetSslProxies parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setContent-setSslCertificates":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setSslPolicy":"java.lang.String",
+		"setContent-setProxyHeader":"java.lang.String",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setService":"java.lang.String",
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		}
+	}
+}
+```
+## RemoveInstanceTargetPools parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setInstances":[
+			"ref1-com.google.api.services.compute.model.InstanceReference"
+		],
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref3-java.lang.Object"
+		},
+		"setTargetPool":"java.lang.String"
+	},
+	"ref1-com.google.api.services.compute.model.InstanceReference":{
+		"setInstance":"java.lang.String",
+		"setContent-setInstances-setUnknownKeys":{
+			"java.lang.String0":"ref2-java.lang.Object"
+		}
+	}
+}
+```
+## DeleteTargetHttpsProxies parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setTargetHttpsProxy":"java.lang.String"
+	}
+}
+```
+## SetLabelsImages parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setContent-setLabels":{
+			"java.lang.String0":"java.lang.String0",
+			"java.lang.String1":"java.lang.String1"
+		},
+		"setContent-setLabelFingerprint":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setResource":"java.lang.String"
+	}
+}
+```
+## AddSignedUrlKeyBackendServices parameterss:
+
+```
+{
+	"main":{
+		"setBackendService":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setKeyName":"java.lang.String",
+		"setContent-setKeyValue":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		}
+	}
+}
+```
+## DeleteSslPolicies parameterss:
+
+```
+{
+	"main":{
+		"setSslPolicy":"java.lang.String",
+		"setProject":"java.lang.String"
+	}
+}
+```
+## DeleteUrlMaps parameterss:
+
+```
+{
+	"main":{
+		"setUrlMap":"java.lang.String",
+		"setProject":"java.lang.String"
+	}
+}
+```
+## ListNodeTypes parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String"
+	}
+}
+```
+## ListHttpsHealthChecks parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String"
+	}
+}
+```
+## GetInstances parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setInstance":"java.lang.String"
+	}
+}
+```
+## DeleteImages parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setImage":"java.lang.String"
+	}
+}
+```
+## GetSslCertificates parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setSslCertificate":"java.lang.String"
+	}
+}
+```
+## EnableXpnHostProjects parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String"
+	}
+}
+```
+## DeleteInterconnectAttachments parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setInterconnectAttachment":"java.lang.String"
+	}
+}
+```
+## InsertHttpHealthChecks parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setContent-setPort":"java.lang.Integer",
+		"setContent-setTimeoutSec":"java.lang.Integer",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setCheckIntervalSec":"java.lang.Integer",
+		"setContent-setHealthyThreshold":"java.lang.Integer",
+		"setContent-setRequestPath":"java.lang.String",
+		"setContent-setUnhealthyThreshold":"java.lang.Integer",
+		"setContent-setHost":"java.lang.String",
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		}
+	}
+}
+```
+## ListInstancesRegionInstanceGroups parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setPortName":"java.lang.String",
+		"setContent-setInstanceState":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setInstanceGroup":"java.lang.String"
+	}
+}
+```
+## UpdateHttpsHealthChecks parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setContent-setPort":"java.lang.Integer",
+		"setContent-setTimeoutSec":"java.lang.Integer",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setCheckIntervalSec":"java.lang.Integer",
+		"setContent-setHealthyThreshold":"java.lang.Integer",
+		"setContent-setRequestPath":"java.lang.String",
+		"setContent-setUnhealthyThreshold":"java.lang.Integer",
+		"setContent-setHost":"java.lang.String",
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setHttpsHealthCheck":"java.lang.String"
+	}
+}
+```
+## ListInterconnectLocations parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String"
+	}
+}
+```
+## DetachDiskInstances parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setInstance":"java.lang.String",
+		"setDeviceName":"java.lang.String"
+	}
+}
+```
+## SwitchToCustomModeNetworks parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setNetwork":"java.lang.String"
+	}
+}
+```
+## DeleteAccessConfigInstances parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setInstance":"java.lang.String",
+		"setNetworkInterface":"java.lang.String",
+		"setAccessConfig":"java.lang.String"
+	}
+}
+```
+## PatchUrlMaps parameterss:
+
+```
+{
+	"main":{
+		"setUrlMap":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setFingerprint":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setPathMatchers":[
+			"ref1-com.google.api.services.compute.model.PathMatcher"
+		],
+		"setContent-setPathMatchers-setName":"java.lang.String",
+		"setContent-setPathMatchers-setUnknownKeys":{
+			"java.lang.String0":"ref4-java.lang.Object"
+		},
+		"setContent-setTests":[
+			"ref5-com.google.api.services.compute.model.UrlMapTest"
+		],
+		"setContent-setDefaultService":"java.lang.String",
+		"setContent-setHostRules":[
+			"ref7-com.google.api.services.compute.model.HostRule"
+		],
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref9-java.lang.Object"
+		}
+	},
+	"ref1-com.google.api.services.compute.model.PathMatcher":{
+		"setDescription":"java.lang.String",
+		"setDefaultService":"java.lang.String",
+		"setContent-setPathMatchers-setPathRules":[
+			"ref2-com.google.api.services.compute.model.PathRule"
+		]
+	},
+	"ref2-com.google.api.services.compute.model.PathRule":{
+		"setService":"java.lang.String",
+		"setPaths":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setPathMatchers-setPathRules-setUnknownKeys":{
+			"java.lang.String0":"ref3-java.lang.Object"
+		}
+	},
+	"ref5-com.google.api.services.compute.model.UrlMapTest":{
+		"setDescription":"java.lang.String",
+		"setService":"java.lang.String",
+		"setHost":"java.lang.String",
+		"setPath":"java.lang.String",
+		"setContent-setTests-setUnknownKeys":{
+			"java.lang.String0":"ref6-java.lang.Object"
+		}
+	},
+	"ref7-com.google.api.services.compute.model.HostRule":{
+		"setDescription":"java.lang.String",
+		"setHosts":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setPathMatcher":"java.lang.String",
+		"setContent-setHostRules-setUnknownKeys":{
+			"java.lang.String0":"ref8-java.lang.Object"
+		}
+	}
+}
+```
+## DisableXpnResourceProjects parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setContent-setXpnResource-setType":"java.lang.String",
+		"setContent-setXpnResource-setId":"java.lang.String",
+		"setContent-setXpnResource-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref2-java.lang.Object"
+		}
+	}
+}
+```
+## DeleteTargetHttpProxies parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setTargetHttpProxy":"java.lang.String"
+	}
+}
+```
+## ListRoutes parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String"
+	}
+}
+```
+## UpdateUrlMaps parameterss:
+
+```
+{
+	"main":{
+		"setUrlMap":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setFingerprint":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setPathMatchers":[
+			"ref1-com.google.api.services.compute.model.PathMatcher"
+		],
+		"setContent-setPathMatchers-setName":"java.lang.String",
+		"setContent-setPathMatchers-setUnknownKeys":{
+			"java.lang.String0":"ref4-java.lang.Object"
+		},
+		"setContent-setTests":[
+			"ref5-com.google.api.services.compute.model.UrlMapTest"
+		],
+		"setContent-setDefaultService":"java.lang.String",
+		"setContent-setHostRules":[
+			"ref7-com.google.api.services.compute.model.HostRule"
+		],
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref9-java.lang.Object"
+		}
+	},
+	"ref1-com.google.api.services.compute.model.PathMatcher":{
+		"setDescription":"java.lang.String",
+		"setDefaultService":"java.lang.String",
+		"setContent-setPathMatchers-setPathRules":[
+			"ref2-com.google.api.services.compute.model.PathRule"
+		]
+	},
+	"ref2-com.google.api.services.compute.model.PathRule":{
+		"setService":"java.lang.String",
+		"setPaths":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setPathMatchers-setPathRules-setUnknownKeys":{
+			"java.lang.String0":"ref3-java.lang.Object"
+		}
+	},
+	"ref5-com.google.api.services.compute.model.UrlMapTest":{
+		"setDescription":"java.lang.String",
+		"setService":"java.lang.String",
+		"setHost":"java.lang.String",
+		"setPath":"java.lang.String",
+		"setContent-setTests-setUnknownKeys":{
+			"java.lang.String0":"ref6-java.lang.Object"
+		}
+	},
+	"ref7-com.google.api.services.compute.model.HostRule":{
+		"setDescription":"java.lang.String",
+		"setHosts":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setPathMatcher":"java.lang.String",
+		"setContent-setHostRules-setUnknownKeys":{
+			"java.lang.String0":"ref8-java.lang.Object"
+		}
+	}
+}
+```
+## ListSslPolicies parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String"
+	}
+}
+```
+## DeleteSignedUrlKeyBackendBuckets parameterss:
+
+```
+{
+	"main":{
+		"setKeyName":"java.lang.String",
+		"setBackendBucket":"java.lang.String",
+		"setProject":"java.lang.String"
+	}
+}
+```
+## DeleteLicenses parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setLicense":"java.lang.String"
+	}
+}
+```
+## ListRouters parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String"
+	}
+}
+```
+## AddInstancesInstanceGroups parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setContent-setInstances":[
+			"ref1-com.google.api.services.compute.model.InstanceReference"
+		],
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref3-java.lang.Object"
+		},
+		"setInstanceGroup":"java.lang.String"
+	},
+	"ref1-com.google.api.services.compute.model.InstanceReference":{
+		"setInstance":"java.lang.String",
+		"setContent-setInstances-setUnknownKeys":{
+			"java.lang.String0":"ref2-java.lang.Object"
+		}
+	}
+}
+```
+## ListHealthChecks parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String"
+	}
+}
+```
+## ListNodesNodeGroups parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setNodeGroup":"java.lang.String"
+	}
+}
+```
+## InsertRegionInstanceGroupManagers parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setInstanceTemplate":"java.lang.String",
+		"setContent-setTargetPools":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setNamedPorts":[
+			"ref1-com.google.api.services.compute.model.NamedPort"
+		],
+		"setContent-setRegion":"java.lang.String",
+		"setContent-setZone":"java.lang.String",
+		"setContent-setInstanceGroup":"java.lang.String",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setFingerprint":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setBaseInstanceName":"java.lang.String",
+		"setContent-setCurrentActions-setAbandoning":"java.lang.Integer",
+		"setContent-setCurrentActions-setCreating":"java.lang.Integer",
+		"setContent-setCurrentActions-setCreatingWithoutRetries":"java.lang.Integer",
+		"setContent-setCurrentActions-setDeleting":"java.lang.Integer",
+		"setContent-setCurrentActions-setNone":"java.lang.Integer",
+		"setContent-setCurrentActions-setRecreating":"java.lang.Integer",
+		"setContent-setCurrentActions-setRefreshing":"java.lang.Integer",
+		"setContent-setCurrentActions-setRestarting":"java.lang.Integer",
+		"setContent-setCurrentActions-setVerifying":"java.lang.Integer",
+		"setContent-setCurrentActions-setUnknownKeys":{
+			"java.lang.String0":"ref3-java.lang.Object"
+		},
+		"setContent-setDistributionPolicy-setZones":[
+			"ref4-com.google.api.services.compute.model.DistributionPolicyZoneConfiguration"
+		],
+		"setContent-setDistributionPolicy-setUnknownKeys":{
+			"java.lang.String0":"ref6-java.lang.Object"
+		},
+		"setContent-setTargetSize":"java.lang.Integer",
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref7-java.lang.Object"
+		}
+	},
+	"ref1-com.google.api.services.compute.model.NamedPort":{
+		"setPort":"java.lang.Integer",
+		"setName":"java.lang.String",
+		"setContent-setNamedPorts-setUnknownKeys":{
+			"java.lang.String0":"ref2-java.lang.Object"
+		}
+	},
+	"ref4-com.google.api.services.compute.model.DistributionPolicyZoneConfiguration":{
+		"setZone":"java.lang.String",
+		"setContent-setDistributionPolicy-setZones-setUnknownKeys":{
+			"java.lang.String0":"ref5-java.lang.Object"
+		}
+	}
+}
+```
+## ListRegionAutoscalers parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String"
+	}
+}
+```
+## GetRegionOperations parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setOperation":"java.lang.String"
+	}
+}
+```
+## InsertRoutes parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setContent-setTags":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setNetwork":"java.lang.String",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setWarnings":[
+			"ref1-com.google.api.services.compute.model.Route$Warnings"
+		],
+		"setContent-setWarnings-setMessage":"java.lang.String",
+		"setContent-setWarnings-setCode":"java.lang.String",
+		"setContent-setWarnings-setUnknownKeys":{
+			"java.lang.String0":"ref4-java.lang.Object"
+		},
+		"setContent-setNextHopVpnTunnel":"java.lang.String",
+		"setContent-setDestRange":"java.lang.String",
+		"setContent-setNextHopGateway":"java.lang.String",
+		"setContent-setNextHopInstance":"java.lang.String",
+		"setContent-setNextHopIp":"java.lang.String",
+		"setContent-setNextHopNetwork":"java.lang.String",
+		"setContent-setNextHopPeering":"java.lang.String",
+		"setContent-setPriority":"java.lang.Long",
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref5-java.lang.Object"
+		}
+	},
+	"ref1-com.google.api.services.compute.model.Route$Warnings":{
+		"setContent-setWarnings-setData":[
+			"ref2-com.google.api.services.compute.model.Route$Warnings$Data"
+		]
+	},
+	"ref2-com.google.api.services.compute.model.Route$Warnings$Data":{
+		"setKey":"java.lang.String",
+		"setValue":"java.lang.String",
+		"setContent-setWarnings-setData-setUnknownKeys":{
+			"java.lang.String0":"ref3-java.lang.Object"
+		}
+	}
+}
+```
+## PreviewRouters parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setRegion":"java.lang.String",
+		"setContent-setNetwork":"java.lang.String",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setBgp-setAdvertisedIpRanges":[
+			"ref1-com.google.api.services.compute.model.RouterAdvertisedIpRange"
+		],
+		"setContent-setBgp-setAsn":"java.lang.Long",
+		"setContent-setBgp-setAdvertiseMode":"java.lang.String",
+		"setContent-setBgp-setAdvertisedGroups":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setBgp-setUnknownKeys":{
+			"java.lang.String0":"ref3-java.lang.Object"
+		},
+		"setContent-setBgpPeers":[
+			"ref4-com.google.api.services.compute.model.RouterBgpPeer"
+		],
+		"setContent-setBgpPeers-setAdvertiseMode":"java.lang.String",
+		"setContent-setBgpPeers-setAdvertisedGroups":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setBgpPeers-setName":"java.lang.String",
+		"setContent-setBgpPeers-setUnknownKeys":{
+			"java.lang.String0":"ref7-java.lang.Object"
+		},
+		"setContent-setInterfaces":[
+			"ref8-com.google.api.services.compute.model.RouterInterface"
+		],
+		"setContent-setNats":[
+			"ref10-com.google.api.services.compute.model.RouterNat"
+		],
+		"setContent-setNats-setTcpEstablishedIdleTimeoutSec":"java.lang.Integer",
+		"setContent-setNats-setTcpTransitoryIdleTimeoutSec":"java.lang.Integer",
+		"setContent-setNats-setUdpIdleTimeoutSec":"java.lang.Integer",
+		"setContent-setNats-setName":"java.lang.String",
+		"setContent-setNats-setUnknownKeys":{
+			"java.lang.String0":"ref13-java.lang.Object"
+		},
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref14-java.lang.Object"
+		},
+		"setRouter":"java.lang.String"
+	},
+	"ref1-com.google.api.services.compute.model.RouterAdvertisedIpRange":{
+		"setDescription":"java.lang.String",
+		"setRange":"java.lang.String",
+		"setContent-setBgp-setAdvertisedIpRanges-setUnknownKeys":{
+			"java.lang.String0":"ref2-java.lang.Object"
+		}
+	},
+	"ref4-com.google.api.services.compute.model.RouterBgpPeer":{
+		"setAdvertisedRoutePriority":"java.lang.Long",
+		"setInterfaceName":"java.lang.String",
+		"setIpAddress":"java.lang.String",
+		"setManagementType":"java.lang.String",
+		"setPeerAsn":"java.lang.Long",
+		"setPeerIpAddress":"java.lang.String",
+		"setContent-setBgpPeers-setAdvertisedIpRanges":[
+			"ref5-com.google.api.services.compute.model.RouterAdvertisedIpRange"
+		]
+	},
+	"ref5-com.google.api.services.compute.model.RouterAdvertisedIpRange":{
+		"setDescription":"java.lang.String",
+		"setRange":"java.lang.String",
+		"setContent-setBgpPeers-setAdvertisedIpRanges-setUnknownKeys":{
+			"java.lang.String0":"ref6-java.lang.Object"
+		}
+	},
+	"ref8-com.google.api.services.compute.model.RouterInterface":{
+		"setManagementType":"java.lang.String",
+		"setIpRange":"java.lang.String",
+		"setLinkedInterconnectAttachment":"java.lang.String",
+		"setLinkedVpnTunnel":"java.lang.String",
+		"setName":"java.lang.String",
+		"setContent-setInterfaces-setUnknownKeys":{
+			"java.lang.String0":"ref9-java.lang.Object"
+		}
+	},
+	"ref10-com.google.api.services.compute.model.RouterNat":{
+		"setIcmpIdleTimeoutSec":"java.lang.Integer",
+		"setMinPortsPerVm":"java.lang.Integer",
+		"setNatIpAllocateOption":"java.lang.String",
+		"setNatIps":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setSourceSubnetworkIpRangesToNat":"java.lang.String",
+		"setContent-setNats-setSubnetworks":[
+			"ref11-com.google.api.services.compute.model.RouterNatSubnetworkToNat"
+		]
+	},
+	"ref11-com.google.api.services.compute.model.RouterNatSubnetworkToNat":{
+		"setSecondaryIpRangeNames":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setSourceIpRangesToNat":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setName":"java.lang.String",
+		"setContent-setNats-setSubnetworks-setUnknownKeys":{
+			"java.lang.String0":"ref12-java.lang.Object"
+		}
+	}
+}
+```
+## ListMachineTypes parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String"
+	}
+}
+```
+## ListRegionCommitments parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String"
+	}
+}
+```
+## DeleteInstanceGroups parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setInstanceGroup":"java.lang.String"
+	}
+}
+```
+## GetRoutes parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setRoute":"java.lang.String"
+	}
+}
+```
+## DeleteAddresses parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setAddress":"java.lang.String",
+		"setProject":"java.lang.String"
+	}
+}
+```
+## ListInstancesInstanceGroups parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setContent-setInstanceState":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setInstanceGroup":"java.lang.String"
+	}
+}
+```
+## InsertAddresses parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setRegion":"java.lang.String",
+		"setContent-setAddress":"java.lang.String",
+		"setContent-setSubnetwork":"java.lang.String",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setIpVersion":"java.lang.String",
+		"setContent-setNetworkTier":"java.lang.String",
+		"setContent-setStatus":"java.lang.String",
+		"setContent-setAddressType":"java.lang.String",
+		"setContent-setUsers":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		}
+	}
+}
+```
+## ListRegionDisks parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String"
+	}
+}
+```
+## UpdateAutoscalers parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setContent-setRegion":"java.lang.String",
+		"setContent-setZone":"java.lang.String",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setStatus":"java.lang.String",
+		"setContent-setAutoscalingPolicy-setCoolDownPeriodSec":"java.lang.Integer",
+		"setContent-setAutoscalingPolicy-setCpuUtilization-setUtilizationTarget":"java.lang.Double",
+		"setContent-setAutoscalingPolicy-setCpuUtilization-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setContent-setAutoscalingPolicy-setCustomMetricUtilizations":[
+			"ref2-com.google.api.services.compute.model.AutoscalingPolicyCustomMetricUtilization"
+		],
+		"setContent-setAutoscalingPolicy-setLoadBalancingUtilization-setUtilizationTarget":"java.lang.Double",
+		"setContent-setAutoscalingPolicy-setLoadBalancingUtilization-setUnknownKeys":{
+			"java.lang.String0":"ref4-java.lang.Object"
+		},
+		"setContent-setAutoscalingPolicy-setMaxNumReplicas":"java.lang.Integer",
+		"setContent-setAutoscalingPolicy-setMinNumReplicas":"java.lang.Integer",
+		"setContent-setAutoscalingPolicy-setUnknownKeys":{
+			"java.lang.String0":"ref5-java.lang.Object"
+		},
+		"setContent-setStatusDetails":[
+			"ref6-com.google.api.services.compute.model.AutoscalerStatusDetails"
+		],
+		"setContent-setName":"java.lang.String",
+		"setContent-setTarget":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref8-java.lang.Object"
+		}
+	},
+	"ref2-com.google.api.services.compute.model.AutoscalingPolicyCustomMetricUtilization":{
+		"setMetric":"java.lang.String",
+		"setUtilizationTarget":"java.lang.Double",
+		"setUtilizationTargetType":"java.lang.String",
+		"setContent-setAutoscalingPolicy-setCustomMetricUtilizations-setUnknownKeys":{
+			"java.lang.String0":"ref3-java.lang.Object"
+		}
+	},
+	"ref6-com.google.api.services.compute.model.AutoscalerStatusDetails":{
+		"setType":"java.lang.String",
+		"setMessage":"java.lang.String",
+		"setContent-setStatusDetails-setUnknownKeys":{
+			"java.lang.String0":"ref7-java.lang.Object"
+		}
+	}
+}
+```
+## AggregatedListDisks parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String"
+	}
+}
+```
+## PatchFirewalls parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setContent-setNetwork":"java.lang.String",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setDestinationRanges":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setDirection":"java.lang.String",
+		"setContent-setDisabled":"java.lang.Boolean",
+		"setContent-setSourceRanges":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setSourceServiceAccounts":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setSourceTags":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setTargetServiceAccounts":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setTargetTags":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setAllowed":[
+			"ref1-com.google.api.services.compute.model.Firewall$Allowed"
+		],
+		"setContent-setDenied":[
+			"ref3-com.google.api.services.compute.model.Firewall$Denied"
+		],
+		"setContent-setPriority":"java.lang.Integer",
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref5-java.lang.Object"
+		},
+		"setFirewall":"java.lang.String"
+	},
+	"ref1-com.google.api.services.compute.model.Firewall$Allowed":{
+		"setIPProtocol":"java.lang.String",
+		"setPorts":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setAllowed-setUnknownKeys":{
+			"java.lang.String0":"ref2-java.lang.Object"
+		}
+	},
+	"ref3-com.google.api.services.compute.model.Firewall$Denied":{
+		"setIPProtocol":"java.lang.String",
+		"setPorts":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setDenied-setUnknownKeys":{
+			"java.lang.String0":"ref4-java.lang.Object"
+		}
+	}
+}
+```
+## AggregatedListTargetInstances parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String"
+	}
+}
+```
+## DeleteBackendServices parameterss:
+
+```
+{
+	"main":{
+		"setBackendService":"java.lang.String",
+		"setProject":"java.lang.String"
+	}
+}
+```
+## UpdateRegionBackendServices parameterss:
+
+```
+{
+	"main":{
+		"setBackendService":"java.lang.String",
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setSecurityPolicy":"java.lang.String",
+		"setContent-setRegion":"java.lang.String",
+		"setContent-setPort":"java.lang.Integer",
+		"setContent-setIap-setOauth2ClientId":"java.lang.String",
+		"setContent-setIap-setOauth2ClientSecret":"java.lang.String",
+		"setContent-setIap-setOauth2ClientSecretSha256":"java.lang.String",
+		"setContent-setIap-setEnabled":"java.lang.Boolean",
+		"setContent-setIap-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setContent-setLoadBalancingScheme":"java.lang.String",
+		"setContent-setPortName":"java.lang.String",
+		"setContent-setProtocol":"java.lang.String",
+		"setContent-setSessionAffinity":"java.lang.String",
+		"setContent-setTimeoutSec":"java.lang.Integer",
+		"setContent-setEnableCDN":"java.lang.Boolean",
+		"setContent-setHealthChecks":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setAffinityCookieTtlSec":"java.lang.Integer",
+		"setContent-setBackends":[
+			"ref2-com.google.api.services.compute.model.Backend"
+		],
+		"setContent-setCdnPolicy-setCacheKeyPolicy-setIncludeQueryString":"java.lang.Boolean",
+		"setContent-setCdnPolicy-setCacheKeyPolicy-setQueryStringBlacklist":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setCdnPolicy-setCacheKeyPolicy-setQueryStringWhitelist":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setCdnPolicy-setCacheKeyPolicy-setIncludeHost":"java.lang.Boolean",
+		"setContent-setCdnPolicy-setCacheKeyPolicy-setIncludeProtocol":"java.lang.Boolean",
+		"setContent-setCdnPolicy-setCacheKeyPolicy-setUnknownKeys":{
+			"java.lang.String0":"ref4-java.lang.Object"
+		},
+		"setContent-setCdnPolicy-setSignedUrlCacheMaxAgeSec":"java.lang.Long",
+		"setContent-setCdnPolicy-setSignedUrlKeyNames":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setCdnPolicy-setUnknownKeys":{
+			"java.lang.String0":"ref5-java.lang.Object"
+		},
+		"setContent-setConnectionDraining-setDrainingTimeoutSec":"java.lang.Integer",
+		"setContent-setConnectionDraining-setUnknownKeys":{
+			"java.lang.String0":"ref6-java.lang.Object"
+		},
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setFingerprint":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref7-java.lang.Object"
+		}
+	},
+	"ref2-com.google.api.services.compute.model.Backend":{
+		"setBalancingMode":"java.lang.String",
+		"setCapacityScaler":"java.lang.Float",
+		"setGroup":"java.lang.String",
+		"setMaxConnections":"java.lang.Integer",
+		"setMaxConnectionsPerInstance":"java.lang.Integer",
+		"setMaxRate":"java.lang.Integer",
+		"setMaxRatePerInstance":"java.lang.Float",
+		"setMaxUtilization":"java.lang.Float",
+		"setDescription":"java.lang.String",
+		"setContent-setBackends-setUnknownKeys":{
+			"java.lang.String0":"ref3-java.lang.Object"
+		}
+	}
+}
+```
+## GetSslPolicies parameterss:
+
+```
+{
+	"main":{
+		"setSslPolicy":"java.lang.String",
+		"setProject":"java.lang.String"
+	}
+}
+```
+## SetInstanceTemplateRegionInstanceGroupManagers parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setInstanceTemplate":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setInstanceGroupManager":"java.lang.String"
+	}
+}
+```
+## GetBackendServices parameterss:
+
+```
+{
+	"main":{
+		"setBackendService":"java.lang.String",
+		"setProject":"java.lang.String"
+	}
+}
+```
+## AggregatedListInstances parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String"
+	}
+}
+```
+## DeleteSslCertificates parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setSslCertificate":"java.lang.String"
+	}
+}
+```
+## TestIamPermissionsLicenses parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setContent-setPermissions":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setResource":"java.lang.String"
+	}
+}
+```
+## DeleteNodesNodeGroups parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setContent-setNodes":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setNodeGroup":"java.lang.String"
+	}
+}
+```
+## DeleteTargetTcpProxies parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setTargetTcpProxy":"java.lang.String"
+	}
+}
+```
+## PatchHealthChecks parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setContent-setType":"java.lang.String",
+		"setContent-setHttpHealthCheck-setProxyHeader":"java.lang.String",
+		"setContent-setHttpHealthCheck-setPort":"java.lang.Integer",
+		"setContent-setHttpHealthCheck-setPortName":"java.lang.String",
+		"setContent-setHttpHealthCheck-setRequestPath":"java.lang.String",
+		"setContent-setHttpHealthCheck-setHost":"java.lang.String",
+		"setContent-setHttpHealthCheck-setResponse":"java.lang.String",
+		"setContent-setHttpHealthCheck-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setContent-setHttpsHealthCheck-setProxyHeader":"java.lang.String",
+		"setContent-setHttpsHealthCheck-setPort":"java.lang.Integer",
+		"setContent-setHttpsHealthCheck-setPortName":"java.lang.String",
+		"setContent-setHttpsHealthCheck-setRequestPath":"java.lang.String",
+		"setContent-setHttpsHealthCheck-setHost":"java.lang.String",
+		"setContent-setHttpsHealthCheck-setResponse":"java.lang.String",
+		"setContent-setHttpsHealthCheck-setUnknownKeys":{
+			"java.lang.String0":"ref2-java.lang.Object"
+		},
+		"setContent-setTimeoutSec":"java.lang.Integer",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setCheckIntervalSec":"java.lang.Integer",
+		"setContent-setHealthyThreshold":"java.lang.Integer",
+		"setContent-setUnhealthyThreshold":"java.lang.Integer",
+		"setContent-setSslHealthCheck-setProxyHeader":"java.lang.String",
+		"setContent-setSslHealthCheck-setPort":"java.lang.Integer",
+		"setContent-setSslHealthCheck-setPortName":"java.lang.String",
+		"setContent-setSslHealthCheck-setRequest":"java.lang.String",
+		"setContent-setSslHealthCheck-setResponse":"java.lang.String",
+		"setContent-setSslHealthCheck-setUnknownKeys":{
+			"java.lang.String0":"ref3-java.lang.Object"
+		},
+		"setContent-setTcpHealthCheck-setProxyHeader":"java.lang.String",
+		"setContent-setTcpHealthCheck-setPort":"java.lang.Integer",
+		"setContent-setTcpHealthCheck-setPortName":"java.lang.String",
+		"setContent-setTcpHealthCheck-setRequest":"java.lang.String",
+		"setContent-setTcpHealthCheck-setResponse":"java.lang.String",
+		"setContent-setTcpHealthCheck-setUnknownKeys":{
+			"java.lang.String0":"ref4-java.lang.Object"
+		},
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref5-java.lang.Object"
+		},
+		"setHealthCheck":"java.lang.String"
+	}
+}
+```
+## AddSignedUrlKeyBackendBuckets parameterss:
+
+```
+{
+	"main":{
+		"setBackendBucket":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setKeyName":"java.lang.String",
+		"setContent-setKeyValue":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		}
+	}
+}
+```
+## AbandonInstancesRegionInstanceGroupManagers parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setInstances":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setInstanceGroupManager":"java.lang.String"
+	}
+}
+```
+## GetBackendBuckets parameterss:
+
+```
+{
+	"main":{
+		"setBackendBucket":"java.lang.String",
+		"setProject":"java.lang.String"
+	}
+}
+```
+## InsertTargetInstances parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setContent-setZone":"java.lang.String",
+		"setContent-setInstance":"java.lang.String",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setNatPolicy":"java.lang.String",
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		}
+	}
+}
+```
+## ListRegionInstanceGroups parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String"
+	}
+}
+```
+## GetDiagnosticsInterconnects parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setInterconnect":"java.lang.String"
+	}
+}
+```
+## AggregatedListGlobalOperations parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String"
+	}
+}
+```
+## PatchHttpHealthChecks parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setContent-setPort":"java.lang.Integer",
+		"setContent-setTimeoutSec":"java.lang.Integer",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setCheckIntervalSec":"java.lang.Integer",
+		"setContent-setHealthyThreshold":"java.lang.Integer",
+		"setContent-setRequestPath":"java.lang.String",
+		"setContent-setUnhealthyThreshold":"java.lang.Integer",
+		"setContent-setHost":"java.lang.String",
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setHttpHealthCheck":"java.lang.String"
+	}
+}
+```
+## GetNodeTypes parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setNodeType":"java.lang.String"
+	}
+}
+```
+## ListSecurityPolicies parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String"
+	}
+}
+```
+## SetProxyHeaderTargetTcpProxies parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setContent-setProxyHeader":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setTargetTcpProxy":"java.lang.String"
+	}
+}
+```
+## GetFromFamilyImages parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setFamily":"java.lang.String"
+	}
+}
+```
+## DeleteGlobalOperations parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setOperation":"java.lang.String"
+	}
+}
+```
+## SetPrivateIpGoogleAccessSubnetworks parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setPrivateIpGoogleAccess":"java.lang.Boolean",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setSubnetwork":"java.lang.String"
+	}
+}
+```
+## EnableXpnResourceProjects parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setContent-setXpnResource-setType":"java.lang.String",
+		"setContent-setXpnResource-setId":"java.lang.String",
+		"setContent-setXpnResource-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref2-java.lang.Object"
+		}
+	}
+}
+```
+## PatchNetworks parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setSubnetworks":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setIPv4Range":"java.lang.String",
+		"setContent-setAutoCreateSubnetworks":"java.lang.Boolean",
+		"setContent-setGatewayIPv4":"java.lang.String",
+		"setContent-setPeerings":[
+			"ref1-com.google.api.services.compute.model.NetworkPeering"
+		],
+		"setContent-setRoutingConfig-setRoutingMode":"java.lang.String",
+		"setContent-setRoutingConfig-setUnknownKeys":{
+			"java.lang.String0":"ref3-java.lang.Object"
+		},
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref4-java.lang.Object"
+		},
+		"setNetwork":"java.lang.String"
+	},
+	"ref1-com.google.api.services.compute.model.NetworkPeering":{
+		"setState":"java.lang.String",
+		"setNetwork":"java.lang.String",
+		"setAutoCreateRoutes":"java.lang.Boolean",
+		"setStateDetails":"java.lang.String",
+		"setName":"java.lang.String",
+		"setContent-setPeerings-setUnknownKeys":{
+			"java.lang.String0":"ref2-java.lang.Object"
+		}
+	}
+}
+```
+## InsertUrlMaps parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setFingerprint":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setPathMatchers":[
+			"ref1-com.google.api.services.compute.model.PathMatcher"
+		],
+		"setContent-setPathMatchers-setName":"java.lang.String",
+		"setContent-setPathMatchers-setUnknownKeys":{
+			"java.lang.String0":"ref4-java.lang.Object"
+		},
+		"setContent-setTests":[
+			"ref5-com.google.api.services.compute.model.UrlMapTest"
+		],
+		"setContent-setDefaultService":"java.lang.String",
+		"setContent-setHostRules":[
+			"ref7-com.google.api.services.compute.model.HostRule"
+		],
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref9-java.lang.Object"
+		}
+	},
+	"ref1-com.google.api.services.compute.model.PathMatcher":{
+		"setDescription":"java.lang.String",
+		"setDefaultService":"java.lang.String",
+		"setContent-setPathMatchers-setPathRules":[
+			"ref2-com.google.api.services.compute.model.PathRule"
+		]
+	},
+	"ref2-com.google.api.services.compute.model.PathRule":{
+		"setService":"java.lang.String",
+		"setPaths":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setPathMatchers-setPathRules-setUnknownKeys":{
+			"java.lang.String0":"ref3-java.lang.Object"
+		}
+	},
+	"ref5-com.google.api.services.compute.model.UrlMapTest":{
+		"setDescription":"java.lang.String",
+		"setService":"java.lang.String",
+		"setHost":"java.lang.String",
+		"setPath":"java.lang.String",
+		"setContent-setTests-setUnknownKeys":{
+			"java.lang.String0":"ref6-java.lang.Object"
+		}
+	},
+	"ref7-com.google.api.services.compute.model.HostRule":{
+		"setDescription":"java.lang.String",
+		"setHosts":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setPathMatcher":"java.lang.String",
+		"setContent-setHostRules-setUnknownKeys":{
+			"java.lang.String0":"ref8-java.lang.Object"
+		}
+	}
+}
+```
+## ListAcceleratorTypes parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String"
+	}
+}
+```
+## UpdateAccessConfigInstances parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setContent-setType":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setNetworkTier":"java.lang.String",
+		"setContent-setPublicPtrDomainName":"java.lang.String",
+		"setContent-setSetPublicPtr":"java.lang.Boolean",
+		"setContent-setNatIP":"java.lang.String",
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setInstance":"java.lang.String",
+		"setNetworkInterface":"java.lang.String"
+	}
+}
+```
+## GetNatMappingInfoRouters parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setRouter":"java.lang.String"
+	}
+}
+```
+## ListSslCertificates parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String"
+	}
+}
+```
+## TestIamPermissionsLicenseCodes parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setContent-setPermissions":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setResource":"java.lang.String"
+	}
+}
+```
+## GetHealthRegionBackendServices parameterss:
+
+```
+{
+	"main":{
+		"setBackendService":"java.lang.String",
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setGroup":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		}
+	}
+}
+```
+## ListAutoscalers parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String"
+	}
+}
+```
+## RemoveInstancesInstanceGroups parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setContent-setInstances":[
+			"ref1-com.google.api.services.compute.model.InstanceReference"
+		],
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref3-java.lang.Object"
+		},
+		"setInstanceGroup":"java.lang.String"
+	},
+	"ref1-com.google.api.services.compute.model.InstanceReference":{
+		"setInstance":"java.lang.String",
+		"setContent-setInstances-setUnknownKeys":{
+			"java.lang.String0":"ref2-java.lang.Object"
+		}
+	}
+}
+```
+## GetRegionDisks parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setDisk":"java.lang.String"
+	}
+}
+```
+## DeleteNodeTemplates parameterss:
+
+```
+{
+	"main":{
+		"setNodeTemplate":"java.lang.String",
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String"
+	}
+}
+```
+## ListInstanceTemplates parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String"
+	}
+}
+```
+## InsertSubnetworks parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setPrivateIpGoogleAccess":"java.lang.Boolean",
+		"setContent-setRegion":"java.lang.String",
+		"setContent-setNetwork":"java.lang.String",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setFingerprint":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setIpCidrRange":"java.lang.String",
+		"setContent-setEnableFlowLogs":"java.lang.Boolean",
+		"setContent-setGatewayAddress":"java.lang.String",
+		"setContent-setSecondaryIpRanges":[
+			"ref1-com.google.api.services.compute.model.SubnetworkSecondaryRange"
+		],
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref3-java.lang.Object"
+		}
+	},
+	"ref1-com.google.api.services.compute.model.SubnetworkSecondaryRange":{
+		"setIpCidrRange":"java.lang.String",
+		"setRangeName":"java.lang.String",
+		"setContent-setSecondaryIpRanges-setUnknownKeys":{
+			"java.lang.String0":"ref2-java.lang.Object"
+		}
+	}
+}
+```
+## InsertTargetVpnGateways parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setRegion":"java.lang.String",
+		"setContent-setNetwork":"java.lang.String",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setStatus":"java.lang.String",
+		"setContent-setForwardingRules":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setTunnels":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		}
+	}
+}
+```
+## AggregatedListRouters parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String"
+	}
+}
+```
+## SetTargetGlobalForwardingRules parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setContent-setTarget":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setForwardingRule":"java.lang.String"
+	}
+}
+```
+## ListForwardingRules parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String"
+	}
+}
+```
+## InsertHttpsHealthChecks parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setContent-setPort":"java.lang.Integer",
+		"setContent-setTimeoutSec":"java.lang.Integer",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setCheckIntervalSec":"java.lang.Integer",
+		"setContent-setHealthyThreshold":"java.lang.Integer",
+		"setContent-setRequestPath":"java.lang.String",
+		"setContent-setUnhealthyThreshold":"java.lang.Integer",
+		"setContent-setHost":"java.lang.String",
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		}
+	}
+}
+```
+## AbandonInstancesInstanceGroupManagers parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setContent-setInstances":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setInstanceGroupManager":"java.lang.String"
+	}
+}
+```
+## SetUsageExportBucketProjects parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setContent-setBucketName":"java.lang.String",
+		"setContent-setReportNamePrefix":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		}
+	}
+}
+```
+## GetGlobalForwardingRules parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setForwardingRule":"java.lang.String"
+	}
+}
+```
+## ListAvailableFeaturesSslPolicies parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String"
+	}
+}
+```
+## SetDefaultNetworkTierProjects parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setContent-setNetworkTier":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		}
+	}
+}
+```
+## SetSslPolicyTargetSslProxies parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setContent-setSslPolicy":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setTargetSslProxy":"java.lang.String"
+	}
+}
+```
+## AggregatedListForwardingRules parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String"
+	}
+}
+```
+## GetRegionInstanceGroupManagers parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setInstanceGroupManager":"java.lang.String"
+	}
+}
+```
+## ListNodeGroups parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String"
+	}
+}
+```
+## GetRegionBackendServices parameterss:
+
+```
+{
+	"main":{
+		"setBackendService":"java.lang.String",
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String"
+	}
+}
+```
+## InsertBackendBuckets parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setContent-setCdnPolicy-setSignedUrlCacheMaxAgeSec":"java.lang.Long",
+		"setContent-setCdnPolicy-setSignedUrlKeyNames":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setCdnPolicy-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setBucketName":"java.lang.String",
+		"setContent-setEnableCdn":"java.lang.Boolean",
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref2-java.lang.Object"
+		}
+	}
+}
+```
+## SetBackendServiceTargetSslProxies parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setContent-setService":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setTargetSslProxy":"java.lang.String"
+	}
+}
+```
+## AddInstanceTargetPools parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setInstances":[
+			"ref1-com.google.api.services.compute.model.InstanceReference"
+		],
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref3-java.lang.Object"
+		},
+		"setTargetPool":"java.lang.String"
+	},
+	"ref1-com.google.api.services.compute.model.InstanceReference":{
+		"setInstance":"java.lang.String",
+		"setContent-setInstances-setUnknownKeys":{
+			"java.lang.String0":"ref2-java.lang.Object"
+		}
+	}
+}
+```
+## DeleteInstancesInstanceGroupManagers parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setContent-setInstances":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setInstanceGroupManager":"java.lang.String"
+	}
+}
+```
+## GetFirewalls parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setFirewall":"java.lang.String"
+	}
+}
+```
+## DeleteInstanceTemplates parameterss:
+
+```
+{
+	"main":{
+		"setInstanceTemplate":"java.lang.String",
+		"setProject":"java.lang.String"
+	}
+}
+```
+## PatchSslPolicies parameterss:
+
+```
+{
+	"main":{
+		"setSslPolicy":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setFingerprint":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setCustomFeatures":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setEnabledFeatures":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setMinTlsVersion":"java.lang.String",
+		"setContent-setProfile":"java.lang.String",
+		"setContent-setWarnings":[
+			"ref1-com.google.api.services.compute.model.SslPolicy$Warnings"
+		],
+		"setContent-setWarnings-setMessage":"java.lang.String",
+		"setContent-setWarnings-setCode":"java.lang.String",
+		"setContent-setWarnings-setUnknownKeys":{
+			"java.lang.String0":"ref4-java.lang.Object"
+		},
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref5-java.lang.Object"
+		}
+	},
+	"ref1-com.google.api.services.compute.model.SslPolicy$Warnings":{
+		"setContent-setWarnings-setData":[
+			"ref2-com.google.api.services.compute.model.SslPolicy$Warnings$Data"
+		]
+	},
+	"ref2-com.google.api.services.compute.model.SslPolicy$Warnings$Data":{
+		"setKey":"java.lang.String",
+		"setValue":"java.lang.String",
+		"setContent-setWarnings-setData-setUnknownKeys":{
+			"java.lang.String0":"ref3-java.lang.Object"
+		}
+	}
+}
+```
+## UpdateHealthChecks parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setContent-setType":"java.lang.String",
+		"setContent-setHttpHealthCheck-setProxyHeader":"java.lang.String",
+		"setContent-setHttpHealthCheck-setPort":"java.lang.Integer",
+		"setContent-setHttpHealthCheck-setPortName":"java.lang.String",
+		"setContent-setHttpHealthCheck-setRequestPath":"java.lang.String",
+		"setContent-setHttpHealthCheck-setHost":"java.lang.String",
+		"setContent-setHttpHealthCheck-setResponse":"java.lang.String",
+		"setContent-setHttpHealthCheck-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setContent-setHttpsHealthCheck-setProxyHeader":"java.lang.String",
+		"setContent-setHttpsHealthCheck-setPort":"java.lang.Integer",
+		"setContent-setHttpsHealthCheck-setPortName":"java.lang.String",
+		"setContent-setHttpsHealthCheck-setRequestPath":"java.lang.String",
+		"setContent-setHttpsHealthCheck-setHost":"java.lang.String",
+		"setContent-setHttpsHealthCheck-setResponse":"java.lang.String",
+		"setContent-setHttpsHealthCheck-setUnknownKeys":{
+			"java.lang.String0":"ref2-java.lang.Object"
+		},
+		"setContent-setTimeoutSec":"java.lang.Integer",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setCheckIntervalSec":"java.lang.Integer",
+		"setContent-setHealthyThreshold":"java.lang.Integer",
+		"setContent-setUnhealthyThreshold":"java.lang.Integer",
+		"setContent-setSslHealthCheck-setProxyHeader":"java.lang.String",
+		"setContent-setSslHealthCheck-setPort":"java.lang.Integer",
+		"setContent-setSslHealthCheck-setPortName":"java.lang.String",
+		"setContent-setSslHealthCheck-setRequest":"java.lang.String",
+		"setContent-setSslHealthCheck-setResponse":"java.lang.String",
+		"setContent-setSslHealthCheck-setUnknownKeys":{
+			"java.lang.String0":"ref3-java.lang.Object"
+		},
+		"setContent-setTcpHealthCheck-setProxyHeader":"java.lang.String",
+		"setContent-setTcpHealthCheck-setPort":"java.lang.Integer",
+		"setContent-setTcpHealthCheck-setPortName":"java.lang.String",
+		"setContent-setTcpHealthCheck-setRequest":"java.lang.String",
+		"setContent-setTcpHealthCheck-setResponse":"java.lang.String",
+		"setContent-setTcpHealthCheck-setUnknownKeys":{
+			"java.lang.String0":"ref4-java.lang.Object"
+		},
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref5-java.lang.Object"
+		},
+		"setHealthCheck":"java.lang.String"
+	}
+}
+```
+## ListLicenses parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String"
+	}
+}
+```
+## UpdateHttpHealthChecks parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setContent-setPort":"java.lang.Integer",
+		"setContent-setTimeoutSec":"java.lang.Integer",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setCheckIntervalSec":"java.lang.Integer",
+		"setContent-setHealthyThreshold":"java.lang.Integer",
+		"setContent-setRequestPath":"java.lang.String",
+		"setContent-setUnhealthyThreshold":"java.lang.Integer",
+		"setContent-setHost":"java.lang.String",
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setHttpHealthCheck":"java.lang.String"
+	}
+}
+```
+## InsertGlobalForwardingRules parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setContent-setBackendService":"java.lang.String",
+		"setContent-setRegion":"java.lang.String",
+		"setContent-setNetwork":"java.lang.String",
+		"setContent-setSubnetwork":"java.lang.String",
+		"setContent-setLoadBalancingScheme":"java.lang.String",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setIPProtocol":"java.lang.String",
+		"setContent-setIpVersion":"java.lang.String",
+		"setContent-setNetworkTier":"java.lang.String",
+		"setContent-setPortRange":"java.lang.String",
+		"setContent-setPorts":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setIPAddress":"java.lang.String",
+		"setContent-setName":"java.lang.String",
+		"setContent-setTarget":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		}
+	}
+}
+```
+## PatchSubnetworks parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setPrivateIpGoogleAccess":"java.lang.Boolean",
+		"setContent-setRegion":"java.lang.String",
+		"setContent-setNetwork":"java.lang.String",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setFingerprint":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setIpCidrRange":"java.lang.String",
+		"setContent-setEnableFlowLogs":"java.lang.Boolean",
+		"setContent-setGatewayAddress":"java.lang.String",
+		"setContent-setSecondaryIpRanges":[
+			"ref1-com.google.api.services.compute.model.SubnetworkSecondaryRange"
+		],
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref3-java.lang.Object"
+		},
+		"setSubnetwork":"java.lang.String"
+	},
+	"ref1-com.google.api.services.compute.model.SubnetworkSecondaryRange":{
+		"setIpCidrRange":"java.lang.String",
+		"setRangeName":"java.lang.String",
+		"setContent-setSecondaryIpRanges-setUnknownKeys":{
+			"java.lang.String0":"ref2-java.lang.Object"
+		}
+	}
+}
+```
+## AggregatedListAutoscalers parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String"
+	}
+}
+```
+## AddAccessConfigInstances parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setContent-setType":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setNetworkTier":"java.lang.String",
+		"setContent-setPublicPtrDomainName":"java.lang.String",
+		"setContent-setSetPublicPtr":"java.lang.Boolean",
+		"setContent-setNatIP":"java.lang.String",
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setInstance":"java.lang.String",
+		"setNetworkInterface":"java.lang.String"
+	}
+}
+```
+## ListXpnHostsProjects parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setContent-setOrganization":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		}
+	}
+}
+```
+## MoveInstanceProjects parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setContent-setTargetInstance":"java.lang.String",
+		"setContent-setDestinationZone":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		}
+	}
+}
+```
+## GetInstanceGroupManagers parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setInstanceGroupManager":"java.lang.String"
+	}
+}
+```
+## GetTargetVpnGateways parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setTargetVpnGateway":"java.lang.String"
+	}
+}
+```
+## GetNodeGroups parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setNodeGroup":"java.lang.String"
+	}
+}
+```
+## GetSubnetworks parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setSubnetwork":"java.lang.String"
+	}
+}
+```
+## DeleteBackendBuckets parameterss:
+
+```
+{
+	"main":{
+		"setBackendBucket":"java.lang.String",
+		"setProject":"java.lang.String"
+	}
+}
+```
+## GetHttpsHealthChecks parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setHttpsHealthCheck":"java.lang.String"
+	}
+}
+```
+## GetTargetInstances parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setTargetInstance":"java.lang.String"
+	}
+}
+```
+## SetMachineResourcesInstances parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setContent-setGuestAccelerators":[
+			"ref1-com.google.api.services.compute.model.AcceleratorConfig"
+		],
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref3-java.lang.Object"
+		},
+		"setInstance":"java.lang.String"
+	},
+	"ref1-com.google.api.services.compute.model.AcceleratorConfig":{
+		"setAcceleratorType":"java.lang.String",
+		"setAcceleratorCount":"java.lang.Integer",
+		"setContent-setGuestAccelerators-setUnknownKeys":{
+			"java.lang.String0":"ref2-java.lang.Object"
+		}
+	}
+}
+```
+## ListImages parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String"
+	}
+}
+```
+## ListRegionOperations parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String"
+	}
+}
+```
+## GetZones parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String"
+	}
+}
+```
+## ListUrlMaps parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String"
+	}
+}
+```
+## InsertNodeTemplates parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setRegion":"java.lang.String",
+		"setContent-setNodeType":"java.lang.String",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setStatus":"java.lang.String",
+		"setContent-setStatusMessage":"java.lang.String",
+		"setContent-setNodeAffinityLabels":{
+			"java.lang.String0":"java.lang.String0",
+			"java.lang.String1":"java.lang.String1"
+		},
+		"setContent-setNodeTypeFlexibility-setCpus":"java.lang.String",
+		"setContent-setNodeTypeFlexibility-setLocalSsd":"java.lang.String",
+		"setContent-setNodeTypeFlexibility-setMemory":"java.lang.String",
+		"setContent-setNodeTypeFlexibility-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref2-java.lang.Object"
+		}
+	}
+}
+```
+## RemoveHealthCheckTargetPools parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setHealthChecks":[
+			"ref1-com.google.api.services.compute.model.HealthCheckReference"
+		],
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref3-java.lang.Object"
+		},
+		"setTargetPool":"java.lang.String"
+	},
+	"ref1-com.google.api.services.compute.model.HealthCheckReference":{
+		"setHealthCheck":"java.lang.String",
+		"setContent-setHealthChecks-setUnknownKeys":{
+			"java.lang.String0":"ref2-java.lang.Object"
+		}
+	}
+}
+```
+## SetTargetForwardingRules parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setTarget":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setForwardingRule":"java.lang.String"
+	}
+}
+```
+## GetInstanceTemplates parameterss:
+
+```
+{
+	"main":{
+		"setInstanceTemplate":"java.lang.String",
+		"setProject":"java.lang.String"
+	}
+}
+```
+## AggregatedListMachineTypes parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String"
+	}
+}
+```
+## InsertRegionDisks parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setType":"java.lang.String",
+		"setContent-setLabels":{
+			"java.lang.String0":"java.lang.String0",
+			"java.lang.String1":"java.lang.String1"
+		},
+		"setContent-setRegion":"java.lang.String",
+		"setContent-setZone":"java.lang.String",
+		"setContent-setSourceImage":"java.lang.String",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setLicenseCodes":[
+			"ref1-java.lang.Long"
+		],
+		"setContent-setLicenses":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setStatus":"java.lang.String",
+		"setContent-setLabelFingerprint":"java.lang.String",
+		"setContent-setDiskEncryptionKey-setKmsKeyName":"java.lang.String",
+		"setContent-setDiskEncryptionKey-setRawKey":"java.lang.String",
+		"setContent-setDiskEncryptionKey-setSha256":"java.lang.String",
+		"setContent-setDiskEncryptionKey-setUnknownKeys":{
+			"java.lang.String0":"ref2-java.lang.Object"
+		},
+		"setContent-setGuestOsFeatures":[
+			"ref3-com.google.api.services.compute.model.GuestOsFeature"
+		],
+		"setContent-setSourceImageEncryptionKey-setKmsKeyName":"java.lang.String",
+		"setContent-setSourceImageEncryptionKey-setRawKey":"java.lang.String",
+		"setContent-setSourceImageEncryptionKey-setSha256":"java.lang.String",
+		"setContent-setSourceImageEncryptionKey-setUnknownKeys":{
+			"java.lang.String0":"ref5-java.lang.Object"
+		},
+		"setContent-setUsers":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setSizeGb":"java.lang.Long",
+		"setContent-setLastAttachTimestamp":"java.lang.String",
+		"setContent-setLastDetachTimestamp":"java.lang.String",
+		"setContent-setOptions":"java.lang.String",
+		"setContent-setReplicaZones":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setSourceImageId":"java.lang.String",
+		"setContent-setSourceSnapshot":"java.lang.String",
+		"setContent-setSourceSnapshotEncryptionKey-setKmsKeyName":"java.lang.String",
+		"setContent-setSourceSnapshotEncryptionKey-setRawKey":"java.lang.String",
+		"setContent-setSourceSnapshotEncryptionKey-setSha256":"java.lang.String",
+		"setContent-setSourceSnapshotEncryptionKey-setUnknownKeys":{
+			"java.lang.String0":"ref6-java.lang.Object"
+		},
+		"setContent-setSourceSnapshotId":"java.lang.String",
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref7-java.lang.Object"
+		}
+	},
+	"ref3-com.google.api.services.compute.model.GuestOsFeature":{
+		"setType":"java.lang.String",
+		"setContent-setGuestOsFeatures-setUnknownKeys":{
+			"java.lang.String0":"ref4-java.lang.Object"
+		}
+	}
+}
+```
+## SetNamedPortsInstanceGroups parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setContent-setNamedPorts":[
+			"ref1-com.google.api.services.compute.model.NamedPort"
+		],
+		"setContent-setFingerprint":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref3-java.lang.Object"
+		},
+		"setInstanceGroup":"java.lang.String"
+	},
+	"ref1-com.google.api.services.compute.model.NamedPort":{
+		"setPort":"java.lang.Integer",
+		"setName":"java.lang.String",
+		"setContent-setNamedPorts-setUnknownKeys":{
+			"java.lang.String0":"ref2-java.lang.Object"
+		}
+	}
+}
+```
+## ListRegions parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String"
+	}
+}
+```
+## UpdateBackendServices parameterss:
+
+```
+{
+	"main":{
+		"setBackendService":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setSecurityPolicy":"java.lang.String",
+		"setContent-setRegion":"java.lang.String",
+		"setContent-setPort":"java.lang.Integer",
+		"setContent-setIap-setOauth2ClientId":"java.lang.String",
+		"setContent-setIap-setOauth2ClientSecret":"java.lang.String",
+		"setContent-setIap-setOauth2ClientSecretSha256":"java.lang.String",
+		"setContent-setIap-setEnabled":"java.lang.Boolean",
+		"setContent-setIap-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setContent-setLoadBalancingScheme":"java.lang.String",
+		"setContent-setPortName":"java.lang.String",
+		"setContent-setProtocol":"java.lang.String",
+		"setContent-setSessionAffinity":"java.lang.String",
+		"setContent-setTimeoutSec":"java.lang.Integer",
+		"setContent-setEnableCDN":"java.lang.Boolean",
+		"setContent-setHealthChecks":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setAffinityCookieTtlSec":"java.lang.Integer",
+		"setContent-setBackends":[
+			"ref2-com.google.api.services.compute.model.Backend"
+		],
+		"setContent-setCdnPolicy-setCacheKeyPolicy-setIncludeQueryString":"java.lang.Boolean",
+		"setContent-setCdnPolicy-setCacheKeyPolicy-setQueryStringBlacklist":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setCdnPolicy-setCacheKeyPolicy-setQueryStringWhitelist":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setCdnPolicy-setCacheKeyPolicy-setIncludeHost":"java.lang.Boolean",
+		"setContent-setCdnPolicy-setCacheKeyPolicy-setIncludeProtocol":"java.lang.Boolean",
+		"setContent-setCdnPolicy-setCacheKeyPolicy-setUnknownKeys":{
+			"java.lang.String0":"ref4-java.lang.Object"
+		},
+		"setContent-setCdnPolicy-setSignedUrlCacheMaxAgeSec":"java.lang.Long",
+		"setContent-setCdnPolicy-setSignedUrlKeyNames":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setCdnPolicy-setUnknownKeys":{
+			"java.lang.String0":"ref5-java.lang.Object"
+		},
+		"setContent-setConnectionDraining-setDrainingTimeoutSec":"java.lang.Integer",
+		"setContent-setConnectionDraining-setUnknownKeys":{
+			"java.lang.String0":"ref6-java.lang.Object"
+		},
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setFingerprint":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref7-java.lang.Object"
+		}
+	},
+	"ref2-com.google.api.services.compute.model.Backend":{
+		"setBalancingMode":"java.lang.String",
+		"setCapacityScaler":"java.lang.Float",
+		"setGroup":"java.lang.String",
+		"setMaxConnections":"java.lang.Integer",
+		"setMaxConnectionsPerInstance":"java.lang.Integer",
+		"setMaxRate":"java.lang.Integer",
+		"setMaxRatePerInstance":"java.lang.Float",
+		"setMaxUtilization":"java.lang.Float",
+		"setDescription":"java.lang.String",
+		"setContent-setBackends-setUnknownKeys":{
+			"java.lang.String0":"ref3-java.lang.Object"
+		}
+	}
+}
+```
+## ListTargetPools parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String"
+	}
+}
+```
+## AddPeeringNetworks parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setContent-setAutoCreateRoutes":"java.lang.Boolean",
+		"setContent-setPeerNetwork":"java.lang.String",
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setNetwork":"java.lang.String"
+	}
+}
+```
+## SetUrlMapTargetHttpProxies parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setContent-setUrlMap":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setTargetHttpProxy":"java.lang.String"
+	}
+}
+```
+## GetXpnResourcesProjects parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String"
+	}
+}
+```
+## SetLabelsRegionDisks parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setLabels":{
+			"java.lang.String0":"java.lang.String0",
+			"java.lang.String1":"java.lang.String1"
+		},
+		"setContent-setLabelFingerprint":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setResource":"java.lang.String"
+	}
+}
+```
+## ListInterconnectAttachments parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String"
+	}
+}
+```
+## DeprecateImages parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setContent-setState":"java.lang.String",
+		"setContent-setReplacement":"java.lang.String",
+		"setContent-setDeleted":"java.lang.String",
+		"setContent-setDeprecated":"java.lang.String",
+		"setContent-setObsolete":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setImage":"java.lang.String"
+	}
+}
+```
+## SetMetadataInstances parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setContent-setFingerprint":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setItems":[
+			"ref1-com.google.api.services.compute.model.Metadata$Items"
+		],
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref3-java.lang.Object"
+		},
+		"setInstance":"java.lang.String"
+	},
+	"ref1-com.google.api.services.compute.model.Metadata$Items":{
+		"setKey":"java.lang.String",
+		"setValue":"java.lang.String",
+		"setContent-setItems-setUnknownKeys":{
+			"java.lang.String0":"ref2-java.lang.Object"
+		}
+	}
+}
+```
+## ListManagedInstancesInstanceGroupManagers parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String",
+		"setInstanceGroupManager":"java.lang.String"
+	}
+}
+```
+## DeleteAutoscalers parameterss:
+
+```
+{
+	"main":{
+		"setAutoscaler":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setZone":"java.lang.String"
+	}
+}
+```
+## InsertVpnTunnels parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setRegion":"java.lang.String",
+		"setContent-setRouter":"java.lang.String",
+		"setContent-setTargetVpnGateway":"java.lang.String",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setStatus":"java.lang.String",
+		"setContent-setPeerIp":"java.lang.String",
+		"setContent-setRemoteTrafficSelector":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setSharedSecret":"java.lang.String",
+		"setContent-setSharedSecretHash":"java.lang.String",
+		"setContent-setDetailedStatus":"java.lang.String",
+		"setContent-setIkeVersion":"java.lang.Integer",
+		"setContent-setLocalTrafficSelector":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		}
+	}
+}
+```
+## InsertImages parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String",
+		"setContent-setLabels":{
+			"java.lang.String0":"java.lang.String0",
+			"java.lang.String1":"java.lang.String1"
+		},
+		"setContent-setSourceImage":"java.lang.String",
+		"setContent-setFamily":"java.lang.String",
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setLicenseCodes":[
+			"ref1-java.lang.Long"
+		],
+		"setContent-setLicenses":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setSourceDisk":"java.lang.String",
+		"setContent-setSourceDiskEncryptionKey-setKmsKeyName":"java.lang.String",
+		"setContent-setSourceDiskEncryptionKey-setRawKey":"java.lang.String",
+		"setContent-setSourceDiskEncryptionKey-setSha256":"java.lang.String",
+		"setContent-setSourceDiskEncryptionKey-setUnknownKeys":{
+			"java.lang.String0":"ref2-java.lang.Object"
+		},
+		"setContent-setSourceDiskId":"java.lang.String",
+		"setContent-setStatus":"java.lang.String",
+		"setContent-setDiskSizeGb":"java.lang.Long",
+		"setContent-setLabelFingerprint":"java.lang.String",
+		"setContent-setGuestOsFeatures":[
+			"ref3-com.google.api.services.compute.model.GuestOsFeature"
+		],
+		"setContent-setSourceImageEncryptionKey-setKmsKeyName":"java.lang.String",
+		"setContent-setSourceImageEncryptionKey-setRawKey":"java.lang.String",
+		"setContent-setSourceImageEncryptionKey-setSha256":"java.lang.String",
+		"setContent-setSourceImageEncryptionKey-setUnknownKeys":{
+			"java.lang.String0":"ref5-java.lang.Object"
+		},
+		"setContent-setSourceImageId":"java.lang.String",
+		"setContent-setSourceSnapshot":"java.lang.String",
+		"setContent-setSourceSnapshotEncryptionKey-setKmsKeyName":"java.lang.String",
+		"setContent-setSourceSnapshotEncryptionKey-setRawKey":"java.lang.String",
+		"setContent-setSourceSnapshotEncryptionKey-setSha256":"java.lang.String",
+		"setContent-setSourceSnapshotEncryptionKey-setUnknownKeys":{
+			"java.lang.String0":"ref6-java.lang.Object"
+		},
+		"setContent-setSourceSnapshotId":"java.lang.String",
+		"setContent-setRawDisk-setSource":"java.lang.String",
+		"setContent-setRawDisk-setContainerType":"java.lang.String",
+		"setContent-setRawDisk-setSha1Checksum":"java.lang.String",
+		"setContent-setRawDisk-setUnknownKeys":{
+			"java.lang.String0":"ref7-java.lang.Object"
+		},
+		"setContent-setSourceType":"java.lang.String",
+		"setContent-setArchiveSizeBytes":"java.lang.Long",
+		"setContent-setImageEncryptionKey-setKmsKeyName":"java.lang.String",
+		"setContent-setImageEncryptionKey-setRawKey":"java.lang.String",
+		"setContent-setImageEncryptionKey-setSha256":"java.lang.String",
+		"setContent-setImageEncryptionKey-setUnknownKeys":{
+			"java.lang.String0":"ref8-java.lang.Object"
+		},
+		"setContent-setDeprecated-setState":"java.lang.String",
+		"setContent-setDeprecated-setReplacement":"java.lang.String",
+		"setContent-setDeprecated-setDeleted":"java.lang.String",
+		"setContent-setDeprecated-setDeprecated":"java.lang.String",
+		"setContent-setDeprecated-setObsolete":"java.lang.String",
+		"setContent-setDeprecated-setUnknownKeys":{
+			"java.lang.String0":"ref9-java.lang.Object"
+		},
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref10-java.lang.Object"
+		}
+	},
+	"ref3-com.google.api.services.compute.model.GuestOsFeature":{
+		"setType":"java.lang.String",
+		"setContent-setGuestOsFeatures-setUnknownKeys":{
+			"java.lang.String0":"ref4-java.lang.Object"
+		}
+	}
+}
+```
+## ListRegionInstanceGroupManagers parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String"
+	}
+}
+```
+## PatchBackendBuckets parameterss:
+
+```
+{
+	"main":{
+		"setBackendBucket":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setContent-setCdnPolicy-setSignedUrlCacheMaxAgeSec":"java.lang.Long",
+		"setContent-setCdnPolicy-setSignedUrlKeyNames":[
+			"java.lang.String0",
+			"java.lang.String1"
+		],
+		"setContent-setCdnPolicy-setUnknownKeys":{
+			"java.lang.String0":"ref1-java.lang.Object"
+		},
+		"setContent-setCreationTimestamp":"java.lang.String",
+		"setContent-setDescription":"java.lang.String",
+		"setContent-setKind":"java.lang.String",
+		"setContent-setSelfLink":"java.lang.String",
+		"setContent-setBucketName":"java.lang.String",
+		"setContent-setEnableCdn":"java.lang.Boolean",
+		"setContent-setName":"java.lang.String",
+		"setContent-setUnknownKeys":{
+			"java.lang.String0":"ref2-java.lang.Object"
+		}
+	}
+}
+```
+## AggregatedListDiskTypes parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String"
+	}
+}
+```
+## ListUsableSubnetworks parameterss:
+
+```
+{
+	"main":{
+		"setProject":"java.lang.String"
+	}
+}
+```
+## DeleteRouters parameterss:
+
+```
+{
+	"main":{
+		"setRegion":"java.lang.String",
+		"setProject":"java.lang.String",
+		"setRouter":"java.lang.String"
+	}
+}
+```

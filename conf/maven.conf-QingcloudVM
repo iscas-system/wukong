@@ -1,0 +1,6 @@
+<!-- https://mvnrepository.com/artifact/com.qingcloud/qingcloud-sdk-java -->
+<dependency>
+    <groupId>com.qingcloud</groupId>
+    <artifactId>qingcloud-sdk-java</artifactId>
+    <version>1.2.0</version>
+</dependency>
