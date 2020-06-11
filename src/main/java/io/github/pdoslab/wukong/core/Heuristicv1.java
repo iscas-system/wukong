@@ -1,10 +1,8 @@
 /**
  * Copyright (2018-2019) Institute of Software, Chinese Academy of Sciences
  */
-package io.github.pdoslab.wukong;
+package io.github.pdoslab.wukong.core;
 
-import java.io.File;
-import java.io.FileInputStream;
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
 import java.util.ArrayList;
@@ -12,56 +10,32 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.alibaba.fastjson.JSON;
+import com.aliyuncs.AcsRequest;
+import com.aliyuncs.AcsResponse;
+import com.aliyuncs.exceptions.ClientException;
+import com.aliyuncs.exceptions.ServerException;
+import com.amazonaws.services.ec2.model.CreateClientVpnEndpointRequest;
+import com.amazonaws.services.ec2.model.CreateClientVpnEndpointResult;
 
 import io.github.pdoslab.wukong.model.JDKInfo;
 import io.github.pdoslab.wukong.utils.ClassUtils;
 import io.github.pdoslab.wukong.utils.JSONUtils;
 import io.github.pdoslab.wukong.utils.JavaUtils;
+import retrofit2.http.Header;
+import retrofit2.http.Path;
+import retrofit2.http.Query;
 
 /**
  * @author tangting18@otcaix.iscas.ac.cn
  * @author wuheng@iscas.ac.cn
  * @since 2019.12.10
  */
-public class Starter {
-
-	public final static String JDKINFO_FILE = "conf/jdkinfo.conf-aliyunecs";
-
-	public final static StringBuffer sb = new StringBuffer();
+public class Heuristicv1 {
 	
-
-	public static void main(String[] args) throws Exception {
-
-		long start = System.currentTimeMillis();
-		JDKInfo info = JSON.parseObject(new FileInputStream(new File(JDKINFO_FILE)), JDKInfo.class);
-
-		generate(JSONUtils.metaInfo(info.getKind()));
-
-		Class<?> clientClass = Class.forName(info.getClient());
-		List<String> objStrs = findObjectJSON(info, clientClass.getDeclaredMethods());
+	
+	private Heuristicv1() {
 		
-		for (String strJson : objStrs) {
-			generate(strJson);
-		}
-		long end = System.currentTimeMillis();
-		System.out.println(end-start);
-		
-		System.out.println(objStrs.size());
-		System.out.println(sb);
 	}
-
-	private static void generate(String jsonStr) {
-		sb.append("---\n");
-		sb.append(jsonStr);
-		sb.append("\n");
-	}
-
-	private static String getPackage(String fullname) {
-		int pos = fullname.lastIndexOf(".");
-		return fullname.substring(0, pos);
-	}
-
 
 	/*************************************************************
 	 * 
@@ -69,11 +43,16 @@ public class Starter {
 	 * 
 	 *************************************************************/
 
-	protected static List<String> findObjectJSON(JDKInfo info, Method[] methods) throws Exception {
-		List<String> json = new ArrayList<String>();
+	public static List<String> findObjectJSON(JDKInfo info, Method[] methods) throws Exception {
+		List<String> json = new ArrayList<>();
+		// Aliyun: public <T extends AcsResponse> T getAcsResponse(AcsRequest<T> request) throws ServerException, ClientException {
 		json.addAll(findGenericStyleObjectJSON(info, methods));
+		// Amazon:  public CreateClientVpnEndpointResult createClientVpnEndpoint(CreateClientVpnEndpointRequest request) {
 		json.addAll(findDirectStyleObjectJSON(info, methods));
+		// Azure: ComputeManagementClientImpl.virtualMachineScaleSetRollingUpgradesInner();
+		//        VirtualMachineScaleSetRollingUpgradesInner. beginStartOSUpgrade(String resourceGroupName, String vmScaleSetName, String subscriptionId);
 		json.addAll(findPostCatalogStyleObjectJSON(info, methods));
+		//
 		json.addAll(findPreCatalogStyleObjectJSON(info, methods));
 		return json;
 	}
@@ -126,7 +105,7 @@ public class Starter {
 	private static List<String> getGenericStyleJSON(String kind, String superclass, List<Class<?>> classes)
 			throws Exception {
 
-		List<String> targetObjects = new ArrayList<String>();
+		List<String> targetObjects = new ArrayList<>();
 		for (Class<?> targetClass : getGenericStyleClasses(superclass, classes)) {
 			targetObjects.add(JSONUtils.objInfo(kind, targetClass));
 		}
@@ -135,7 +114,7 @@ public class Starter {
 	}
 
 	private static List<Class<?>> getGenericStyleClasses(String superclass, List<Class<?>> classes) {
-		List<Class<?>> targetClasses = new ArrayList<Class<?>>();
+		List<Class<?>> targetClasses = new ArrayList<>();
 		for (Class<?> clz : classes) {
 			String typename = Modifier.isAbstract(clz.getSuperclass().getModifiers())
 					? (clz.getSuperclass().getSuperclass() == null ? null
@@ -277,7 +256,7 @@ public class Starter {
 	}
 	
 	private static List<String> getPreCatalogStyleJSON(String kind, String superclass, Method[] methods) throws Exception {
-		List<String> targetObjects = new ArrayList<String>();
+		List<String> targetObjects = new ArrayList<>();
 		for (Method targetMethod : getPreCatalogStyleClasses(superclass, methods)) {
 			targetObjects.add(JSONUtils.paramInfo(kind, targetMethod));
 		}
@@ -286,7 +265,7 @@ public class Starter {
 	}
 
 	private static List<Method> getPreCatalogStyleClasses(String superclass, Method[] methods) {
-		List<Method> targetClasses = new ArrayList<Method>();
+		List<Method> targetClasses = new ArrayList<>();
 		for (Method m1 : methods) {
 			for (Method m2 : m1.getReturnType().getDeclaredMethods()) {
 				if (m2.getReturnType().getSuperclass().getName().equals(superclass)) {
@@ -296,5 +275,9 @@ public class Starter {
 		}
 		return targetClasses;
 	}
-
+	
+	private static String getPackage(String fullname) {
+		int pos = fullname.lastIndexOf(".");
+		return fullname.substring(0, pos);
+	}
 }

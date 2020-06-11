@@ -6,9 +6,24 @@
   
   - [Case studies](https://ieeexplore.ieee.org/document/8705827): Yuanjia Xu, Heng Wu, Haijun Li, Yuewen Wu, Shijun Qin, Tianze Huang:
 Wukong: Heuristic-Based Framework for Generating Generic-API for JointCloud. SOSE 2019
-  
 
-##  2. Analysis
+
+##  2. Usage
+
+### 2.1 command
+
+```
+java -jar wukong-1.0.0-SNAPSHOT-jar-with-dependencies.jar jdkinfo.conf
+```
+
+- the jar can be get from   https://github.com/pdos-lab/Wukong/releases/download/v1.0.0/wukong-1.0.0-SNAPSHOT-jar-with-dependencies.jar
+- the file can be get from  https://github.com/pdos-lab/Wukong/tree/master/conf
+
+then you can see the output
+
+### 2.2 Http proxy
+
+##  3. Analysis
 
 We describe the [operations](docs/Operations.md).suppoted by the system mentioned below.
 Then, we give the parameters of each system in detail.

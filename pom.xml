@@ -258,7 +258,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>io.github.cloudpluslab.wukong.discover.Main</mainClass>
+							<mainClass>io.github.pdoslab.wukong.StartAnalyzer.java</mainClass>
 						</manifest>
 						<manifestEntries>
 							<Class-Path>.</Class-Path>

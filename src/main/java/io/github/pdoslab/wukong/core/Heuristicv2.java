@@ -22,7 +22,7 @@ import io.github.pdoslab.wukong.utils.JavaUtils;
  * @author wuheng@iscas.ac.cn
  * @since 2019.12.10
  */
-public class Heuristic {
+public class Heuristicv2 {
 
 	protected final Class<?> clientClass;
 
@@ -32,7 +32,7 @@ public class Heuristic {
 	
 	protected final Map<String, Integer> allSuperclasses;
 	
-	public Heuristic(String classname) throws Exception {
+	public Heuristicv2(String classname) throws Exception {
 		super();
 		this.clientClass = Class.forName(classname);
 		this.blacklist   = new HashSet<String>();
@@ -105,9 +105,9 @@ public class Heuristic {
 	
 	
 	public static void main(String[] args) throws Exception {
-		Heuristic h = new Heuristic("com.aliyuncs.DefaultAcsClient");
+//		Heuristic h = new Heuristic("com.aliyuncs.DefaultAcsClient");
 //		Heuristic h = new Heuristic("com.amazonaws.services.ec2.AmazonEC2Client");
-//		Heuristic h = new Heuristic("com.microsoft.azure.management.compute.implementation.ComputeManagementClientImpl");
+		Heuristicv2 h = new Heuristicv2("com.microsoft.azure.management.compute.implementation.ComputeManagementClientImpl");
 		h.findAll();
 	}
 }
