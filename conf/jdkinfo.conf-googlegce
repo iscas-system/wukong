@@ -1,5 +1,0 @@
-{
-	"client":"com.google.api.services.compute.Compute",
-	"analyzer": "io.github.cloudpluslab.wukong.analyzer.RequestWithParameterPatternAnalyzer",
-	"kind":"GoogleVM"
-}
