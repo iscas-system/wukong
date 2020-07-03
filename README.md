@@ -6,6 +6,7 @@
   
   - [Case studies](https://ieeexplore.ieee.org/document/8705827): Yuanjia Xu, Heng Wu, Haijun Li, Yuewen Wu, Shijun Qin, Tianze Huang:
 Wukong: Heuristic-Based Framework for Generating Generic-API for JointCloud. SOSE 2019
+  - [System](): Ting Tang, Heng Wu and Wenbo Zhang. A framework to support multi-cloud collaboration
 
 
 ##  2. Usage
