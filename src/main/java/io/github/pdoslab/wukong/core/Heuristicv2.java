@@ -48,7 +48,6 @@ public class Heuristicv2 {
 		return allObjects;
 	}
 
-	@SuppressWarnings("unchecked")
 	protected List<Class<?>> getClassWithSuperclass(Set<String> supperclassSet) {
 		List<Class<?>> targetClasses = new ArrayList<Class<?>>();
 		for (Class<?> targetClass : ClassUtils.scan(clientClass.getPackage().getName())) {

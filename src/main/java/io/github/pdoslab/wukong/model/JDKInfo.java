@@ -20,7 +20,7 @@ public class JDKInfo
     protected String client;
     
     protected String blacklist;
-
+    
 	public String getBlacklist() {
 		return blacklist;
 	}

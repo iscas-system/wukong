@@ -10,20 +10,11 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.aliyuncs.AcsRequest;
-import com.aliyuncs.AcsResponse;
-import com.aliyuncs.exceptions.ClientException;
-import com.aliyuncs.exceptions.ServerException;
-import com.amazonaws.services.ec2.model.CreateClientVpnEndpointRequest;
-import com.amazonaws.services.ec2.model.CreateClientVpnEndpointResult;
 
 import io.github.pdoslab.wukong.model.JDKInfo;
 import io.github.pdoslab.wukong.utils.ClassUtils;
 import io.github.pdoslab.wukong.utils.JSONUtils;
 import io.github.pdoslab.wukong.utils.JavaUtils;
-import retrofit2.http.Header;
-import retrofit2.http.Path;
-import retrofit2.http.Query;
 
 /**
  * @author tangting18@otcaix.iscas.ac.cn

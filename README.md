@@ -40,6 +40,13 @@ TABLE I: The list of supported System for VM service
 |  China    |     VM    |   Tencent   |    Yes    |   tencentcloud-sdk-java(3.0.112)                   | [Tencent](https://intl.cloud.tencent.com/product/api)               |
 
 
+TABLE I: The list of supported System for Kubernetes service
+
+|  Country  |   Type    |   Name    |  Offical  |  Version  |      Document       |
+| :-------: | :-------: | :-------: | :-------: | :-------: |      :-------:      |
+|  China    |     VM    |   Aliyun    |    Yes    |   aliyun-java-sdk-cs(4.8.0)                      | [aliyun](https://help.aliyun.com/product/85222.html)        |
+
+
 **Node that the value of "No" in column "Support" just means the related APIs
 of target system does not satisfy our assumptions, we should reengineer the APIs**
 
