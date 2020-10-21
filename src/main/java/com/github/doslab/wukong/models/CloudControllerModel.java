@@ -40,6 +40,9 @@ public class CloudControllerModel {
 	 * 
 	 ***************************************************************/
 	
+	/**
+	 * @return               owner
+	 */
 	public String getOwner() {
 		return owner;
 	}
@@ -122,6 +125,9 @@ public class CloudControllerModel {
 		 *    Setter and Getter
 		 * 
 		 ***************************************************************/
+		/**
+		 * @return           item
+		 */
 		public String getItem() {
 			return item;
 		}
@@ -193,6 +199,9 @@ public class CloudControllerModel {
 		 *    Setter and Getter
 		 * 
 		 ***************************************************************/
+		/**
+		 * @return           groupId
+		 */
 		public String getGroupId() {
 			return groupId;
 		}

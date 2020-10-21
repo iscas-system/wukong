@@ -10,8 +10,6 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.List;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.JsonMappingException;
 import com.github.doslab.wukong.analyzer.CrossCloudAPIAnalyzer;
 import com.github.doslab.wukong.models.CloudControllerModel;
 import com.github.doslab.wukong.models.CloudControllerModel.Dependency;
@@ -112,6 +110,9 @@ public class AdapterGenerator {
 	 * 
 	 ***************************************************************/
 	
+	/**
+	 * @param ccm                    ccm
+	 */
 	public AdapterGenerator(CloudControllerModel ccm) {
 		this.ccm = ccm;
 	}
@@ -121,6 +122,9 @@ public class AdapterGenerator {
 	 *    Core
 	 * 
 	 ***************************************************************/
+	/**
+	 * @throws Exception           exception
+	 */
 	public void exec() throws Exception {
 		File rootDir = CrossCloudAPIAnalyzer.getRootDir(ccm);
 		generatePomForMavenProject(rootDir);

@@ -212,10 +212,6 @@ public class JavaUtils {
 		return isSet(typename) && !isStringSet(typename);
 	}
 
-	/**
-	 * @param typename
-	 * @return Map中对�?
-	 */
 	public static String getClassNameForMapStyle(String typename) {
 		if (!isMap(typename)) {
 			throw new InvalidParameterException("typename shoule be Map");
@@ -223,13 +219,13 @@ public class JavaUtils {
 		int start = typename.indexOf(",");
 		int end = typename.indexOf(">");
 		return (start == -1) ? typename 
-				: typename.substring(start + 1, end).trim(); // <String, Object>�?,后有�?个空�?
+				: typename.substring(start + 1, end).trim(); // <String, Object>
 	}
 
 	/**
 	 * @param typename
 	 *            名字
-	 * @return List中对�?
+	 * @return List
 	 */
 	public static String getClassNameForListOrSetStyle(String typename) {
 		if (!isList(typename) && !isSet(typename)) {

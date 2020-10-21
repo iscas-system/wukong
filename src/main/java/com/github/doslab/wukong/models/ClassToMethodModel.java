@@ -21,6 +21,10 @@ public class ClassToMethodModel {
 	 *    Constructor
 	 * 
 	 ***************************************************************/
+	/**
+	 * @param parent                    parent
+	 * @param method                    method
+	 */
 	public ClassToMethodModel(Class<?> parent, Method method) {
 		super();
 		this.parent = parent;
@@ -32,6 +36,9 @@ public class ClassToMethodModel {
 	 *    Setter and Getter
 	 * 
 	 ***************************************************************/
+	/**
+	 * @return              parent
+	 */
 	public Class<?> getParent() {
 		return parent;
 	}

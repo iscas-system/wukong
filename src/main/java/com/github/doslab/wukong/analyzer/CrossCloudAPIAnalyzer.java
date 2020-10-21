@@ -71,6 +71,11 @@ public abstract class CrossCloudAPIAnalyzer {
 	 * 
 	 ***************************************************************/
 	
+	/**
+	 * @param kind                      kind
+	 * @param client                    client
+	 * @throws Exception                exception
+	 */
 	public CrossCloudAPIAnalyzer(String kind, String client) throws Exception {
 		this(kind, client, CrossCloudAPIAnalyzer.class.getClassLoader());
 	}
@@ -91,7 +96,9 @@ public abstract class CrossCloudAPIAnalyzer {
 	 *    Core
 	 * 
 	 ***************************************************************/
-	@SuppressWarnings("rawtypes")
+	/**
+	 * @return                 list
+	 */ 
 	public abstract List extraCloudAPIs();
 	
 	protected static String getUrl(CloudControllerModel ccm) {
@@ -126,6 +133,9 @@ public abstract class CrossCloudAPIAnalyzer {
 	 *    Getters
 	 * 
 	 ***************************************************************/
+	/**
+	 * @return               kind
+	 */
 	public String getKind() {
 		return kind;
 	}
