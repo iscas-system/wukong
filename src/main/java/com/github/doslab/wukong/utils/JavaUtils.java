@@ -1,7 +1,7 @@
 /**
  * Copyrigt (2019, ) Institute of Software, Chinese Academy of Sciences
  */
-package io.github.pdoslab.wukong.utils;
+package com.github.doslab.wukong.utils;
 
 import java.security.InvalidParameterException;
 import java.util.HashMap;
@@ -214,7 +214,7 @@ public class JavaUtils {
 
 	/**
 	 * @param typename
-	 * @return Map中对象
+	 * @return Map中对�?
 	 */
 	public static String getClassNameForMapStyle(String typename) {
 		if (!isMap(typename)) {
@@ -223,13 +223,13 @@ public class JavaUtils {
 		int start = typename.indexOf(",");
 		int end = typename.indexOf(">");
 		return (start == -1) ? typename 
-				: typename.substring(start + 1, end).trim(); // <String, Object>的,后有一个空格
+				: typename.substring(start + 1, end).trim(); // <String, Object>�?,后有�?个空�?
 	}
 
 	/**
 	 * @param typename
 	 *            名字
-	 * @return List中对象
+	 * @return List中对�?
 	 */
 	public static String getClassNameForListOrSetStyle(String typename) {
 		if (!isList(typename) && !isSet(typename)) {

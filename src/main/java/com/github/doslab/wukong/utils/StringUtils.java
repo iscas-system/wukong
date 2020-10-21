@@ -1,7 +1,7 @@
 /**
  * Copyrigt (2019, ) Institute of Software, Chinese Academy of Sciences
  */
-package io.github.pdoslab.wukong.utils;
+package com.github.doslab.wukong.utils;
 
 import java.util.HashSet;
 import java.util.Set;
