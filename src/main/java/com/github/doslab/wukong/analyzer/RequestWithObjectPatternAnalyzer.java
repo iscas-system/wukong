@@ -11,6 +11,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
+import com.github.doslab.wukong.models.CloudControllerModel;
 import com.github.doslab.wukong.utils.ClassUtils;
 import com.github.doslab.wukong.utils.JavaUtils;
 
@@ -23,7 +24,14 @@ import com.github.doslab.wukong.utils.JavaUtils;
  */
 public class RequestWithObjectPatternAnalyzer extends CrossCloudAPIAnalyzer {
 
-	
+	public RequestWithObjectPatternAnalyzer(CloudControllerModel ccm) throws Exception {
+		super(ccm);
+	}
+
+	public RequestWithObjectPatternAnalyzer(String kind, String client) throws Exception {
+		super(kind, client);
+	}
+
 	public RequestWithObjectPatternAnalyzer(String kind, String client, ClassLoader loader) throws Exception {
 		super(kind, client, loader);
 	}

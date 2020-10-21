@@ -3,10 +3,14 @@
  */
 package com.github.doslab.wukong.analyzer;
 
-import java.lang.reflect.Constructor;
+import java.io.File;
+import java.net.URL;
+import java.net.URLClassLoader;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
+import com.github.doslab.wukong.models.CloudControllerModel;
 
 
 /**
@@ -16,6 +20,26 @@ import java.util.Map;
  */
 public abstract class CrossCloudAPIAnalyzer {
 
+	/**
+	 * target dir
+	 */
+	protected static final String TARGET_DIR = "target/";
+	
+	/**
+	 * lib dir
+	 */
+	protected static final String LIB_DIR = "lib";
+	
+	/**
+	 * file prefix
+	 */
+	protected static final String JAR_NAME_PREFIX = "crosscloud-";
+	
+	/**
+	 * file postfix
+	 */
+	protected static final String JAR_NAME_POSTFIX = "jar-with-dependencies.jar";
+	
 	/**
 	 * Method mapper
 	 */
@@ -51,6 +75,10 @@ public abstract class CrossCloudAPIAnalyzer {
 		this(kind, client, CrossCloudAPIAnalyzer.class.getClassLoader());
 	}
 	
+	public CrossCloudAPIAnalyzer(CloudControllerModel ccm) throws Exception {
+		this(ccm.getKind(), ccm.getClient(), new URLClassLoader(toURLs(getUrl(ccm))));
+	}
+	
 	public CrossCloudAPIAnalyzer(String kind, String client, ClassLoader loader) throws Exception {
 		super();
 		this.kind = kind;
@@ -66,6 +94,33 @@ public abstract class CrossCloudAPIAnalyzer {
 	@SuppressWarnings("rawtypes")
 	public abstract List extraCloudAPIs();
 	
+	protected static String getUrl(CloudControllerModel ccm) {
+		File jarFile = new File(getRootDir(ccm), TARGET_DIR + JAR_NAME_PREFIX 
+				+ ccm.getKind().toLowerCase() + "-"
+				+ ccm.getVersion() + "-" + JAR_NAME_POSTFIX);
+		return "file:" + jarFile.getAbsolutePath();
+	}
+	
+	protected static URL[] toURLs(String url) {
+		try {
+			URL[] urls = new URL[1];
+			urls[0] = new URL(url);
+			return urls;
+		} catch (Exception ex) {
+			return null;
+		}
+	}
+	
+	public static File getRootDir(CloudControllerModel ccm) {
+		File rootDir = new File(new File(LIB_DIR),
+			JAR_NAME_PREFIX + ccm.getKind().toLowerCase());
+
+		if (!rootDir.exists()) {
+			rootDir.mkdirs();
+		}
+		
+		return rootDir;
+	}
 	/***************************************************************
 	 * 
 	 *    Getters
@@ -87,20 +142,4 @@ public abstract class CrossCloudAPIAnalyzer {
 		return methodMappers;
 	}
 	
-	
-	/***************************************************************
-	 * 
-	 *    Utils
-	 * 
-	 ***************************************************************/
-	
-	public static void main(String[] args) throws Exception {
-		Class<?> aClass =  Class.forName(RequestWithObjectPatternAnalyzer.class.getName());
-		for (Constructor<?> c : aClass.getConstructors()) {
-			System.out.println(c.getName());
-			for (Class<?> clz :  c.getParameterTypes()) {
-				System.out.println(clz.getTypeName());
-			}
-		}
-	}
 }

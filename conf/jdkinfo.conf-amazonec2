@@ -1,5 +1,0 @@
-{
-	"client":"com.amazonaws.services.ec2.AmazonEC2Client",
-	"analyzer": "io.github.cloudpluslab.wukong.analyzer.RequestWithObjectPatternAnalyzer",
-	"kind":"AmazonVM"
-}

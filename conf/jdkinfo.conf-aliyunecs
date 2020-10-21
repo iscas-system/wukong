@@ -1,7 +1,0 @@
-{
-	"client":"com.aliyuncs.DefaultAcsClient",
-	"analyzer": "io.github.cloudpluslab.wukong.analyzer.RequestWithObjectPatternAnalyzer",
-	"kind":"AliyunAKS",
-	"group": "bocloud.github.com",
-	"version": "v1"
-}

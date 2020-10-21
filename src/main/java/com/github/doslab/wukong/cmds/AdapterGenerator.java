@@ -12,6 +12,7 @@ import java.util.List;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonMappingException;
+import com.github.doslab.wukong.analyzer.CrossCloudAPIAnalyzer;
 import com.github.doslab.wukong.models.CloudControllerModel;
 import com.github.doslab.wukong.models.CloudControllerModel.Dependency;
 import com.github.doslab.wukong.utils.FileUtils;
@@ -26,21 +27,6 @@ import com.github.doslab.wukong.utils.FileUtils;
 public class AdapterGenerator {
 
 	/**
-	 * pom
-	 */
-	public static final String POM       = "/POM";
-	
-	/**
-	 * client
-	 */
-	public static final String CLIENT    = "/CLIENT";
-	
-	/**
-	 * lib dir
-	 */
-	protected static final String LIB_DIR = "lib";
-	
-	/**
 	 * target dir
 	 */
 	protected static final String TARGET_DIR = "target/";
@@ -51,9 +37,14 @@ public class AdapterGenerator {
 	protected static final String JAR_NAME_PREFIX = "crosscloud-";
 	
 	/**
-	 * file postfix
+	 * pom
 	 */
-	protected static final String JAR_NAME_POSTFIX = "jar-with-dependencies.jar";
+	public static final String POM       = "/POM";
+	
+	/**
+	 * client
+	 */
+	public static final String CLIENT    = "/CLIENT";
 	
 	/**
 	 * pom.xml
@@ -101,6 +92,11 @@ public class AdapterGenerator {
 	protected static final String CMD_POSTFIX  = ":/usr/src/mymaven -w /usr/src/mymaven maven:3.6.3-jdk-8 mvn clean install -DskipTests";
 	
 	/**
+	 * file postfix
+	 */
+	protected static final String JAR_NAME_POSTFIX = "jar-with-dependencies.jar";
+	
+	/**
 	 * model
 	 */
 	protected final CloudControllerModel ccm;
@@ -126,7 +122,7 @@ public class AdapterGenerator {
 	 * 
 	 ***************************************************************/
 	public void exec() throws Exception {
-		File rootDir = getRootDir();
+		File rootDir = CrossCloudAPIAnalyzer.getRootDir(ccm);
 		generatePomForMavenProject(rootDir);
 		generateCodesForMavenProject(rootDir);
 		String os = System.getProperty("os.name");
@@ -210,17 +206,6 @@ public class AdapterGenerator {
 				.replace(KEY_DEP, toDependencies(ccm.getDependency()));
 		fw.write(content);
 		fw.close();
-	}
-
-	protected File getRootDir() {
-		File rootDir = new File(new File(LIB_DIR),
-			JAR_NAME_PREFIX + ccm.getKind().toLowerCase());
-
-		if (!rootDir.exists()) {
-			rootDir.mkdirs();
-		}
-		
-		return rootDir;
 	}
 
 	protected String toDependencies(List<Dependency> deps) {

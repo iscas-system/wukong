@@ -26,7 +26,7 @@ public class AdapterGeneratorWithConifgTest {
 	 ***************************************************************/
 	
 	public static void main(String[] args) throws Exception {
-		AdapterGenerator cmd = new AdapterGenerator(new ObjectMapper().readValue(
+		AdapterGenerator cmd  = new AdapterGenerator(new ObjectMapper().readValue(
 							new File("conf/amazoneks.json"), 
 							CloudControllerModel.class));
 		cmd.exec();
