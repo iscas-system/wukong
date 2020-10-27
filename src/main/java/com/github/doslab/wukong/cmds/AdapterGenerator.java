@@ -11,8 +11,8 @@ import java.io.InputStreamReader;
 import java.util.List;
 
 import com.github.doslab.wukong.analyzer.CrossCloudAPIAnalyzer;
-import com.github.doslab.wukong.models.CloudControllerModel;
-import com.github.doslab.wukong.models.CloudControllerModel.Dependency;
+import com.github.doslab.wukong.models.CloudMetadataModel;
+import com.github.doslab.wukong.models.CloudMetadataModel.Dependency;
 import com.github.doslab.wukong.utils.FileUtils;
 
 /**
@@ -97,7 +97,7 @@ public class AdapterGenerator {
 	/**
 	 * model
 	 */
-	protected final CloudControllerModel ccm;
+	protected final CloudMetadataModel ccm;
 	
 	
 
@@ -113,7 +113,7 @@ public class AdapterGenerator {
 	/**
 	 * @param ccm                    ccm
 	 */
-	public AdapterGenerator(CloudControllerModel ccm) {
+	public AdapterGenerator(CloudMetadataModel ccm) {
 		this.ccm = ccm;
 	}
 

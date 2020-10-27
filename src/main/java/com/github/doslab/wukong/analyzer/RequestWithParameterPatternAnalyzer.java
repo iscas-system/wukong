@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Map;
 
 import com.github.doslab.wukong.models.ClassToMethodModel;
-import com.github.doslab.wukong.models.CloudControllerModel;
+import com.github.doslab.wukong.models.CloudMetadataModel;
 import com.github.doslab.wukong.utils.JavaUtils;
 
 /**
@@ -23,7 +23,7 @@ import com.github.doslab.wukong.utils.JavaUtils;
  */
 public class RequestWithParameterPatternAnalyzer extends CrossCloudAPIAnalyzer {
 
-	public RequestWithParameterPatternAnalyzer(CloudControllerModel ccm) throws Exception {
+	public RequestWithParameterPatternAnalyzer(CloudMetadataModel ccm) throws Exception {
 		super(ccm);
 	}
 

@@ -10,7 +10,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.github.doslab.wukong.models.CloudControllerModel;
+import com.github.doslab.wukong.models.CloudMetadataModel;
 
 
 /**
@@ -80,7 +80,7 @@ public abstract class CrossCloudAPIAnalyzer {
 		this(kind, client, CrossCloudAPIAnalyzer.class.getClassLoader());
 	}
 	
-	public CrossCloudAPIAnalyzer(CloudControllerModel ccm) throws Exception {
+	public CrossCloudAPIAnalyzer(CloudMetadataModel ccm) throws Exception {
 		this(ccm.getKind(), ccm.getClient(), new URLClassLoader(toURLs(getUrl(ccm))));
 	}
 	
@@ -99,9 +99,9 @@ public abstract class CrossCloudAPIAnalyzer {
 	/**
 	 * @return                 list
 	 */ 
-	public abstract List extraCloudAPIs();
+	public abstract List<Object> extraCloudAPIs();
 	
-	protected static String getUrl(CloudControllerModel ccm) {
+	protected static String getUrl(CloudMetadataModel ccm) {
 		File jarFile = new File(getRootDir(ccm), TARGET_DIR + JAR_NAME_PREFIX 
 				+ ccm.getKind().toLowerCase() + "-"
 				+ ccm.getVersion() + "-" + JAR_NAME_POSTFIX);
@@ -118,7 +118,7 @@ public abstract class CrossCloudAPIAnalyzer {
 		}
 	}
 	
-	public static File getRootDir(CloudControllerModel ccm) {
+	public static File getRootDir(CloudMetadataModel ccm) {
 		File rootDir = new File(new File(LIB_DIR),
 			JAR_NAME_PREFIX + ccm.getKind().toLowerCase());
 

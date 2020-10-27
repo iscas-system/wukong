@@ -8,8 +8,8 @@ import java.util.List;
 
 import com.github.doslab.wukong.analyzer.RequestWithObjectPatternAnalyzer;
 import com.github.doslab.wukong.cmds.AdapterGenerator;
-import com.github.doslab.wukong.models.CloudControllerModel;
-import com.github.doslab.wukong.models.CloudControllerModel.Dependency;
+import com.github.doslab.wukong.models.CloudMetadataModel;
+import com.github.doslab.wukong.models.CloudMetadataModel.Dependency;
 
 /**
  * @author wuheng@otcaix.iscas.ac.cn
@@ -28,7 +28,7 @@ public class AdapterGeneratorWithHardCodingTest {
 	 ***************************************************************/
 	
 	public static void main(String[] args) throws Exception {
-		CloudControllerModel cc = new CloudControllerModel();
+		CloudMetadataModel cc = new CloudMetadataModel();
 		cc.setKind("AmazonEKS");
 		cc.setClient("com.amazonaws.services.eks.AmazonEKS");
 		cc.setAnalyzer(RequestWithObjectPatternAnalyzer.class.getName());

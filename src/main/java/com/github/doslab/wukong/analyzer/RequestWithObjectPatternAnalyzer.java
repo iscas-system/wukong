@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import com.github.doslab.wukong.models.CloudControllerModel;
+import com.github.doslab.wukong.models.CloudMetadataModel;
 import com.github.doslab.wukong.utils.ClassUtils;
 import com.github.doslab.wukong.utils.JavaUtils;
 
@@ -24,7 +24,7 @@ import com.github.doslab.wukong.utils.JavaUtils;
  */
 public class RequestWithObjectPatternAnalyzer extends CrossCloudAPIAnalyzer {
 
-	public RequestWithObjectPatternAnalyzer(CloudControllerModel ccm) throws Exception {
+	public RequestWithObjectPatternAnalyzer(CloudMetadataModel ccm) throws Exception {
 		super(ccm);
 	}
 
@@ -46,7 +46,7 @@ public class RequestWithObjectPatternAnalyzer extends CrossCloudAPIAnalyzer {
 			if (method.getParameters().length != 1
 					|| method.getParameterTypes()[0].isInterface()
 					|| method.getParameterTypes()[0].getSuperclass() == null
-					|| method.getParameterTypes()[0].getSuperclass().getName().equals(Object.class.getName())
+					|| method.getParameterTypes()[0].isAssignableFrom(Object.class)
 					|| JavaUtils.isBasic(method.getReturnType())
 					|| method.getReturnType().isInterface() 
 					|| method.getReturnType().getTypeName().startsWith("java")

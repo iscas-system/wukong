@@ -4,8 +4,6 @@
 package com.github.doslab.wukong.models;
 
 import java.util.List;
-import java.util.Map;
-
 
 /**
  * @author wuheng@otcaix.iscas.ac.cn
@@ -14,10 +12,8 @@ import java.util.Map;
  * @since 2020.2.15
  * 
  **/
-public class CloudControllerModel {
+public class CloudMetadataModel {
 
-	protected String owner;
-	
 	protected String version = "1.0.0";
 	
 	protected String kind;
@@ -30,27 +26,12 @@ public class CloudControllerModel {
 	
 	protected List<Dependency> dependency;
 	
-	protected Map<String, String> account;
-	
-	protected Callback callback;
-	
 	/***************************************************************
 	 * 
 	 *    Setter and Getter
 	 * 
 	 ***************************************************************/
 	
-	/**
-	 * @return               owner
-	 */
-	public String getOwner() {
-		return owner;
-	}
-
-	public void setOwner(String owner) {
-		this.owner = owner;
-	}
-
 	public String getKind() {
 		return kind;
 	}
@@ -89,15 +70,6 @@ public class CloudControllerModel {
 
 	public void setDependency(List<Dependency> dependency) {
 		this.dependency = dependency;
-	}
-	
-
-	public Callback getCallback() {
-		return callback;
-	}
-
-	public void setCallback(Callback callback) {
-		this.callback = callback;
 	}
 	
 
@@ -226,14 +198,6 @@ public class CloudControllerModel {
 			this.version = version;
 		}
 		
-	}
-	
-	public Map<String, String> getAccount() {
-		return account;
-	}
-
-	public void setAccount(Map<String, String> account) {
-		this.account = account;
 	}
 
 }

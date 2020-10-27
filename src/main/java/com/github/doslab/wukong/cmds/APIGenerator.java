@@ -14,7 +14,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import com.github.doslab.wukong.analyzer.CrossCloudAPIAnalyzer;
 import com.github.doslab.wukong.models.ClassToMethodModel;
-import com.github.doslab.wukong.models.CloudControllerModel;
+import com.github.doslab.wukong.models.CloudMetadataModel;
 import com.github.doslab.wukong.utils.JSONUtils;
 
 /**
@@ -28,16 +28,16 @@ public class APIGenerator extends AdapterGenerator {
 
 	protected final CrossCloudAPIAnalyzer analyzer;
 
-	public APIGenerator(CloudControllerModel ccm) {
+	public APIGenerator(CloudMetadataModel ccm) {
 		super(ccm);
 		this.kind = ccm.getKind();
 		this.analyzer = getAnalyzer(ccm);
 	}
 
-	protected CrossCloudAPIAnalyzer getAnalyzer(CloudControllerModel ccm) {
+	protected CrossCloudAPIAnalyzer getAnalyzer(CloudMetadataModel ccm) {
 		try {
 			Class<?> clazz = getClass().getClassLoader().loadClass(ccm.getAnalyzer());
-			Constructor<?> cons = clazz.getConstructor(CloudControllerModel.class);
+			Constructor<?> cons = clazz.getConstructor(CloudMetadataModel.class);
 			return (CrossCloudAPIAnalyzer) cons.newInstance(ccm);
 		} catch (Exception ex) {
 			ex.printStackTrace();
@@ -46,7 +46,7 @@ public class APIGenerator extends AdapterGenerator {
 	}
 	
 
-	public APIGenerator(CloudControllerModel ccm, String kind, CrossCloudAPIAnalyzer analyzer) {
+	public APIGenerator(CloudMetadataModel ccm, String kind, CrossCloudAPIAnalyzer analyzer) {
 		super(ccm);
 		this.kind = kind;
 		this.analyzer = analyzer;

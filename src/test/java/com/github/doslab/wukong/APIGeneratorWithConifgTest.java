@@ -7,7 +7,7 @@ import java.io.File;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.github.doslab.wukong.cmds.APIGenerator;
-import com.github.doslab.wukong.models.CloudControllerModel;
+import com.github.doslab.wukong.models.CloudMetadataModel;
 
 /**
  * @author wuheng@otcaix.iscas.ac.cn
@@ -28,7 +28,7 @@ public class APIGeneratorWithConifgTest {
 	public static void main(String[] args) throws Exception {
 		APIGenerator cmd = new APIGenerator(new ObjectMapper().readValue(
 							new File("conf/amazoneks.json"), 
-							CloudControllerModel.class));
+							CloudMetadataModel.class));
 		cmd.exec();
 	}
 
