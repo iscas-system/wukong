@@ -6,9 +6,6 @@ package com.github.doslab.wukong;
 import java.io.File;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.github.doslab.wukong.analyzer.CrossCloudAPIAnalyzer;
-import com.github.doslab.wukong.analyzer.RequestWithObjectPatternAnalyzer;
-import com.github.doslab.wukong.models.CloudMetadataModel;
 
 /**
  * @author wuheng@otcaix.iscas.ac.cn
@@ -17,7 +14,7 @@ import com.github.doslab.wukong.models.CloudMetadataModel;
  * @since 2020.2.15
  * 
  **/
-public class APIAnalyzerTest {
+public class CloudAPIAnalyzerWithConifgTest {
 
 	
 	/***************************************************************
@@ -27,11 +24,10 @@ public class APIAnalyzerTest {
 	 ***************************************************************/
 	
 	public static void main(String[] args) throws Exception {
-		CrossCloudAPIAnalyzer api = new RequestWithObjectPatternAnalyzer(
-						new ObjectMapper().readValue(
+		CloudGenerator cmd  = new CloudGenerator(new ObjectMapper().readValue(
 							new File("conf/amazoneks.json"), 
-							CloudMetadataModel.class));
-		System.out.println(api.extraCloudAPIs());
+							CloudMetadata.class));
+		cmd.exec();
 	}
 
 	

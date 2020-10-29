@@ -1,7 +1,7 @@
 /**
  * Copyright (2020, ) Institute of Software, Chinese Academy of Sciences
  */
-package com.github.doslab.wukong.cmds;
+package com.github.doslab.wukong;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -10,9 +10,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.List;
 
-import com.github.doslab.wukong.analyzer.CrossCloudAPIAnalyzer;
-import com.github.doslab.wukong.models.CloudMetadataModel;
-import com.github.doslab.wukong.models.CloudMetadataModel.Dependency;
+import com.github.doslab.wukong.CloudMetadata.Dependency;
 import com.github.doslab.wukong.utils.FileUtils;
 
 /**
@@ -22,7 +20,7 @@ import com.github.doslab.wukong.utils.FileUtils;
  * @since 2020.2.15
  * 
  **/
-public class AdapterGenerator {
+public class CloudGenerator {
 
 	/**
 	 * target dir
@@ -97,7 +95,7 @@ public class AdapterGenerator {
 	/**
 	 * model
 	 */
-	protected final CloudMetadataModel ccm;
+	protected final CloudMetadata ccm;
 	
 	
 
@@ -113,7 +111,7 @@ public class AdapterGenerator {
 	/**
 	 * @param ccm                    ccm
 	 */
-	public AdapterGenerator(CloudMetadataModel ccm) {
+	public CloudGenerator(CloudMetadata ccm) {
 		this.ccm = ccm;
 	}
 
@@ -126,7 +124,7 @@ public class AdapterGenerator {
 	 * @throws Exception           exception
 	 */
 	public void exec() throws Exception {
-		File rootDir = CrossCloudAPIAnalyzer.getRootDir(ccm);
+		File rootDir = CloudAPIAnalyzer.getRootDir(ccm);
 		generatePomForMavenProject(rootDir);
 		generateCodesForMavenProject(rootDir);
 		String os = System.getProperty("os.name");

@@ -4,10 +4,10 @@
 package com.github.doslab.wukong;
 
 import java.io.File;
+import java.util.Map;
 
+import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.github.doslab.wukong.cmds.APIGenerator;
-import com.github.doslab.wukong.models.CloudMetadataModel;
 
 /**
  * @author wuheng@otcaix.iscas.ac.cn
@@ -16,7 +16,7 @@ import com.github.doslab.wukong.models.CloudMetadataModel;
  * @since 2020.2.15
  * 
  **/
-public class APIGeneratorWithConifgTest {
+public class CloudGeneratorWithConifgTest {
 
 	
 	/***************************************************************
@@ -26,10 +26,13 @@ public class APIGeneratorWithConifgTest {
 	 ***************************************************************/
 	
 	public static void main(String[] args) throws Exception {
-		APIGenerator cmd = new APIGenerator(new ObjectMapper().readValue(
+		CloudAPIAnalyzer cmd = new CloudAPIAnalyzer(new ObjectMapper().readValue(
 							new File("conf/amazoneks.json"), 
-							CloudMetadataModel.class));
-		cmd.exec();
+							CloudMetadata.class));
+		Map<String, JsonNode> nodes = cmd.extraCloudAPIs();
+		for (String key: nodes.keySet()) {
+			System.out.println(key + ":" + nodes.get(key).toPrettyString());
+		}
 	}
 
 	

@@ -24,14 +24,13 @@ public class JSONUtils {
 	public static ObjectNode paramInfo(Method method) throws Exception {
 		ObjectNode obj = new ObjectMapper().createObjectNode();
 		for (Parameter p : method.getParameters()) {
-//			obj.put("_" + p.getName(), objInfo(p.getType()));
 			toJSON(obj, p.getType().getName(), "_" + p.getName());
 		}
 		return obj;
 	}
 	
 
-	public static ObjectNode objInfo(Class<?> cls) throws Exception {
+	public static ObjectNode objInfo(Class<?> cls)  {
 
 		ObjectNode obj = new ObjectMapper().createObjectNode();
 

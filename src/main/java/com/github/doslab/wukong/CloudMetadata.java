@@ -1,7 +1,7 @@
 /**
  * Copyright (2020, ) Institute of Software, Chinese Academy of Sciences
  */
-package com.github.doslab.wukong.models;
+package com.github.doslab.wukong;
 
 import java.util.List;
 
@@ -9,22 +9,40 @@ import java.util.List;
  * @author wuheng@otcaix.iscas.ac.cn
  * 
  * @version 2.3.0
- * @since 2020.2.15
+ * @since 2020.10.15
  * 
  **/
-public class CloudMetadataModel {
+public class CloudMetadata {
 
-	protected String version = "1.0.0";
-	
+	/**
+	 * kind
+	 */
 	protected String kind;
 	
+	/**
+	 * version
+	 */
+	protected String version = "1.2.0";
+	
+	/**
+	 * client
+	 */
 	protected String client;
 	
-	protected String analyzer;
-	
+	/**
+	 * initClient
+	 */
 	protected String initClient;
 	
+	/**
+	 * dependency
+	 */
 	protected List<Dependency> dependency;
+	
+	/**
+	 * analyzer
+	 */
+	protected String analyzer = CloudAPIAnalyzer.class.getName();
 	
 	/***************************************************************
 	 * 
@@ -32,138 +50,110 @@ public class CloudMetadataModel {
 	 * 
 	 ***************************************************************/
 	
+	/**
+	 * @return                kind
+	 */
 	public String getKind() {
 		return kind;
 	}
 
+	/**
+	 * @param kind            kind
+	 */
 	public void setKind(String kind) {
 		this.kind = kind;
 	}
 
+	/**
+	 * @return                client
+	 */
 	public String getClient() {
 		return client;
 	}
 
+	/**
+	 * @param client          client
+	 */
 	public void setClient(String client) {
 		this.client = client;
 	}
 
+	/**
+	 * @return               analyzer
+	 */
 	public String getAnalyzer() {
 		return analyzer;
 	}
 
+	/**
+	 * @param analyzer       analyzer
+	 */
 	public void setAnalyzer(String analyzer) {
 		this.analyzer = analyzer;
 	}
 
+	/**
+	 * @return              initClient
+	 */
 	public String getInitClient() {
 		return initClient;
 	}
 
+	/**
+	 * @param initClient   initClient
+	 */
 	public void setInitClient(String initClient) {
 		this.initClient = initClient;
 	}
 
+	/**
+	 * @return             dependency
+	 */
 	public List<Dependency> getDependency() {
 		return dependency;
 	}
 
+	/**
+	 * @param dependency   dependency
+	 */
 	public void setDependency(List<Dependency> dependency) {
 		this.dependency = dependency;
 	}
 	
 
+	/**
+	 * @return             version
+	 */
 	public String getVersion() {
 		return version;
 	}
 
+	/**
+	 * @param version       version
+	 */
 	public void setVersion(String version) {
 		this.version = version;
 	}
 
-
-	public static class Callback {
-		
-		protected String item;
-		
-		protected String key;
-		
-		protected String request;
-		
-		protected List<KeyValue> parameters;
-
-		/***************************************************************
-		 * 
-		 *    Setter and Getter
-		 * 
-		 ***************************************************************/
-		/**
-		 * @return           item
-		 */
-		public String getItem() {
-			return item;
-		}
-
-		public void setItem(String item) {
-			this.item = item;
-		}
-
-		public String getKey() {
-			return key;
-		}
-
-		public void setKey(String key) {
-			this.key = key;
-		}
-
-		public String getRequest() {
-			return request;
-		}
-
-		public void setRequest(String request) {
-			this.request = request;
-		}
-
-		public List<KeyValue> getParameters() {
-			return parameters;
-		}
-
-		public void setParameters(List<KeyValue> parameters) {
-			this.parameters = parameters;
-		}
-
-		public static class KeyValue {
-			
-			protected String key;
-			
-			protected String value;
-
-			public String getKey() {
-				return key;
-			}
-
-			public void setKey(String key) {
-				this.key = key;
-			}
-
-			public String getValue() {
-				return value;
-			}
-
-			public void setValue(String value) {
-				this.value = value;
-			}
-			
-		}
-		
-	}
-
+	/**
+	 * @author wuheng@iscas.ac.cn
+	 *
+	 */
 	public static class Dependency {
 		
+		/**
+		 *  groupId
+		 */
 		protected String groupId;
 		
+		/**
+		 *  artifactId
+		 */
 		protected String artifactId;
 		
+		/**
+		 *  version
+		 */
 		protected String version;
 
 		/***************************************************************
@@ -178,22 +168,37 @@ public class CloudMetadataModel {
 			return groupId;
 		}
 
+		/**
+		 * @param groupId     groupId
+		 */
 		public void setGroupId(String groupId) {
 			this.groupId = groupId;
 		}
 
+		/**
+		 * @return           artifactId
+		 */
 		public String getArtifactId() {
 			return artifactId;
 		}
 
+		/**
+		 * @param artifactId artifactId
+		 */
 		public void setArtifactId(String artifactId) {
 			this.artifactId = artifactId;
 		}
 
+		/**
+		 * @return           version
+		 */
 		public String getVersion() {
 			return version;
 		}
 
+		/**
+		 * @param version    version
+		 */
 		public void setVersion(String version) {
 			this.version = version;
 		}
