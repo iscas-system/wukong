@@ -26,10 +26,11 @@ public class CloudAPIAnalyzerWithConifgTest {
 	 ***************************************************************/
 	
 	public static void main(String[] args) throws Exception {
-		CloudAPIAnalyzer cmd = new CloudAPIAnalyzer(new ObjectMapper().readValue(
+		CloudMetadata ccm = new ObjectMapper().readValue(
 							new File("conf/amazoneks.json"), 
-							CloudMetadata.class));
-		Map<String, JsonNode> nodes = cmd.extraCloudAPIs();
+							CloudMetadata.class);
+		CloudAPIAnalyzer cmd = new CloudAPIAnalyzer(ccm, new CloudClassloader(ccm));
+		Map<String, JsonNode> nodes = cmd.extractCloudAPIs();
 		for (String key: nodes.keySet()) {
 			System.out.println(key + ":" + nodes.get(key).toPrettyString());
 		}

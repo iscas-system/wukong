@@ -7,11 +7,11 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.List;
 
 import com.github.doslab.wukong.CloudMetadata.Dependency;
-import com.github.doslab.wukong.utils.FileUtils;
 
 /**
  * @author wuheng@otcaix.iscas.ac.cn
@@ -28,7 +28,10 @@ public class CloudGenerator {
 	 */
 	protected final CloudMetadata ccm;
 	
-	
+	/**
+	 * classloader
+	 */
+	protected final CloudClassloader loader;
 
 	/***************************************************************
 	 * 
@@ -42,8 +45,9 @@ public class CloudGenerator {
 	/**
 	 * @param ccm                    ccm
 	 */
-	public CloudGenerator(CloudMetadata ccm) {
+	public CloudGenerator(CloudMetadata ccm, CloudClassloader loader) {
 		this.ccm = ccm;
+		this.loader = loader;
 	}
 
 	/***************************************************************
@@ -55,7 +59,7 @@ public class CloudGenerator {
 	 * @throws Exception           exception
 	 */
 	public void exec() throws Exception {
-		File rootDir = CloudAPIAnalyzer.getRootDir(ccm);
+		File rootDir = this.loader.getRootDir();
 		generatePomForMavenProject(rootDir);
 		generateCodesForMavenProject(rootDir);
 		String os = System.getProperty("os.name");
@@ -125,7 +129,7 @@ public class CloudGenerator {
 		}
 		
 		FileWriter fw = new FileWriter(new File(pkg, CloudConstants.CLASS_NAME));
-		String content = FileUtils.read(CloudConstants.CLIENT)
+		String content = read(CloudConstants.CLIENT)
 				.replace(CloudConstants.KEY_VALUE, ccm.getInitClient());
 		fw.write(content);
 		fw.close();
@@ -133,7 +137,7 @@ public class CloudGenerator {
 
 	protected void generatePomForMavenProject(File rootDir) throws Exception {
 		FileWriter fw = new FileWriter(new File(rootDir, CloudConstants.FILE_POM));
-		String content = FileUtils.read(CloudConstants.POM)
+		String content = read(CloudConstants.POM)
 				.replace(CloudConstants.KEY_NAME, CloudConstants.JAR_NAME_PREFIX + ccm.getKind().toLowerCase())
 				.replace(CloudConstants.KEY_VERSION, ccm.getVersion())
 				.replace(CloudConstants.KEY_DEP, toDependencies(ccm.getDependency()));
@@ -151,4 +155,18 @@ public class CloudGenerator {
 		return sb.toString();
 	}
 	
+	public static String read(String filename) throws Exception {
+		return read(CloudGenerator.class.getResourceAsStream(filename));
+	}
+
+	public static String read(InputStream fis) throws Exception {
+		StringBuilder sb = new StringBuilder();
+		BufferedReader br = new BufferedReader(new InputStreamReader(fis));
+		String line = null;
+		while ((line = br.readLine()) != null) {
+			sb.append(line).append("\n");
+		}
+		br.close();
+		return sb.toString();
+	}
 }

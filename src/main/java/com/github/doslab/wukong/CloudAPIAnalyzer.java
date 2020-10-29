@@ -3,11 +3,9 @@
  */
 package com.github.doslab.wukong;
 
-import java.io.File;
+import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import java.lang.reflect.Modifier;
-import java.net.URL;
-import java.net.URLClassLoader;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -16,9 +14,9 @@ import java.util.Set;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import com.github.doslab.wukong.utils.ClassUtils;
-import com.github.doslab.wukong.utils.JSONUtils;
 import com.github.doslab.wukong.utils.JavaUtils;
 
 /**
@@ -50,7 +48,7 @@ public class CloudAPIAnalyzer {
 	/**
 	 * classloader
 	 */
-	protected final ClassLoader loader;
+	protected final CloudClassloader loader;
 
 	/***************************************************************
 	 * 
@@ -58,25 +56,12 @@ public class CloudAPIAnalyzer {
 	 * 
 	 ***************************************************************/
 
-	/**
-	 * @param kind   kind
-	 * @param client client
-	 * @throws Exception exception
-	 */
-	public CloudAPIAnalyzer(String kind, String client) throws Exception {
-		this(kind, client, CloudAPIAnalyzer.class.getClassLoader());
-	}
-
-	public CloudAPIAnalyzer(CloudMetadata ccm) throws Exception {
-		this(ccm.getKind(), ccm.getClient(), new URLClassLoader(toURLs(getUrl(ccm))));
-	}
-
-	public CloudAPIAnalyzer(String kind, String client, ClassLoader loader) throws Exception {
-		super();
-		this.kind = kind;
+	public CloudAPIAnalyzer(CloudMetadata ccm, CloudClassloader loader) throws Exception {
+		this.kind = ccm.getKind();
 		this.loader = loader;
-		this.client = loader.loadClass(client);
+		this.client = loader.loadClass(ccm.getClient());
 	}
+
 
 	/***************************************************************
 	 * 
@@ -84,9 +69,9 @@ public class CloudAPIAnalyzer {
 	 * 
 	 ***************************************************************/
 	/**
-	 * @return list
+	 * @return                            apis
 	 */
-	public Map<String, JsonNode> extraCloudAPIs() {
+	public Map<String, JsonNode> extractCloudAPIs() {
 		Map<String, Integer> superClasses = new HashMap<String, Integer>();
 		Map<String, Integer> useMethods = new HashMap<String, Integer>();
 		boolean generic = false;
@@ -119,27 +104,9 @@ public class CloudAPIAnalyzer {
 
 		doAnalysisUseRegisterInfos(useMethods, generic, findAllRequestsBySuperClasses);
 
-		return generateLifecycle(findAllRequestsBySuperClasses);
+		return extractCloudAPIs(findAllRequestsBySuperClasses);
 	}
 
-	protected Map<String, JsonNode> generateLifecycle(List<?> list)  {
-		Map<String, JsonNode> map = new HashMap<>();
-		for (Object obj : list) {
-
-			ObjectNode spec = new ObjectMapper().createObjectNode();
-			
-			ObjectNode life = new ObjectMapper().createObjectNode();
-			Class<?> clz = (Class<?>) obj;
-			String str = clz.getSimpleName().substring(0, 1).toLowerCase() + clz.getSimpleName().substring(1);
-			life.set(str, JSONUtils.objInfo(clz));
-			
-			spec.set("lifecycle", life);
-
-			map.put(str, spec);
-		}
-		return map;
-	}
-	
 	protected void doAnalysisUseRegisterInfos(Map<String, Integer> useMethods, boolean generic,
 			List<Class<?>> findAllRequestsBySuperClasses) {
 
@@ -184,16 +151,13 @@ public class CloudAPIAnalyzer {
 	}
 
 	protected void searchingAllPossiblePackages(Set<String> superClasses, List<Class<?>> list, String pkgname) {
-		System.out.println("now at: " + pkgname);
 		for (Class<?> clz : ClassUtils.scan(pkgname, this.loader)) {
 			if (clz.getModifiers() == Modifier.PUBLIC && clz.getModifiers() != Modifier.ABSTRACT
 					&& clz.getAnnotation(Deprecated.class) == null) {
-				System.out.println("now class is " + clz);
 				Class<?> sc = clz.getSuperclass();
 				while (!sc.getName().equals(Object.class.getName())) {
 					if (superClasses.contains(sc.getName())
 							&& !clz.getPackage().getName().equals(client.getPackage().getName())) {
-						System.out.println("add: " + clz);
 						list.add(clz);
 						break;
 					}
@@ -202,33 +166,109 @@ public class CloudAPIAnalyzer {
 			}
 		}
 	}
+	
+	protected Map<String, JsonNode> extractCloudAPIs(List<?> list)  {
+		Map<String, JsonNode> map = new HashMap<>();
+		for (Object obj : list) {
+			ObjectNode spec = new ObjectMapper().createObjectNode();
+			
+			ObjectNode life = new ObjectMapper().createObjectNode();
+			Class<?> clz = (Class<?>) obj;
+			String str = clz.getSimpleName().substring(0, 1).toLowerCase() + clz.getSimpleName().substring(1);
+			life.set(str, objInfo(clz));
+			
+			spec.set("lifecycle", life);
 
-	protected static String getUrl(CloudMetadata ccm) {
-		File jarFile = new File(getRootDir(ccm), CloudConstants.TARGET_DIR + 
-				CloudConstants.JAR_NAME_PREFIX + ccm.getKind().toLowerCase() + "-"
-				+ ccm.getVersion() + "-" + CloudConstants.JAR_NAME_POSTFIX);
-		return "file:" + jarFile.getAbsolutePath();
+			map.put(str, spec);
+		}
+		return map;
 	}
+	
+	public static ObjectNode objInfo(Class<?> cls)  {
 
-	protected static URL[] toURLs(String url) {
-		try {
-			URL[] urls = new URL[1];
-			urls[0] = new URL(url);
-			return urls;
-		} catch (Exception ex) {
-			return null;
+		ObjectNode obj = new ObjectMapper().createObjectNode();
+
+		for (Field field : cls.getDeclaredFields()) {
+
+			if ((!Modifier.isPrivate(field.getModifiers()) && !Modifier.isProtected(field.getModifiers()))
+					|| Modifier.isFinal(field.getModifiers()) || Modifier.isStatic(field.getModifiers())) {
+				continue;
+			}
+
+			String type = field.getType().getTypeName();
+			String key = field.getName();
+
+			toJSON(obj, type, key);
+		}
+
+		return obj;
+	}
+	
+	protected static void toJSON(ObjectNode obj, String type, String key) {
+		if (JavaUtils.isPrimitive(type)) {
+			if (type.equals(Boolean.class.getName()) || type.equals("boolean")) {
+				obj.put(key, true);
+			} else if (type.equals(String.class.getName()) || type.equals("String")) {
+				obj.put(key, "String");
+			} else {
+				obj.put(key, 1);
+			}
+		} else if (JavaUtils.isStringList(type) || JavaUtils.isStringSet(type)) {
+			ArrayNode list = new ObjectMapper().createArrayNode();
+			list.add(String.class.getSimpleName());
+			list.add(String.class.getSimpleName());
+			obj.set(key, list);
+		} else if (JavaUtils.isStringStringMap(type)) {
+			ObjectNode map = new ObjectMapper().createObjectNode();
+			map.put(String.class.getName() + "0", String.class.getSimpleName());
+			map.put(String.class.getName() + "1", String.class.getSimpleName());
+			obj.set(key, map);
+		} else if (JavaUtils.isObjectList(type) || JavaUtils.isObjectSet(type)) {
+
+			int sidx = type.indexOf("<");
+			int eidx = type.indexOf(">");
+
+			try {
+				String newObjClass = type.substring(sidx + 1, eidx);
+				ArrayNode list = new ObjectMapper().createArrayNode();
+				list.add(objInfo(Class.forName(newObjClass)));
+				list.add(objInfo(Class.forName(newObjClass)));
+				obj.set(key, list);
+			} catch (Exception ex) {
+				return;
+			}
+
+		} else if (JavaUtils.isStringObjectMap(type)) {
+
+			int sidx = type.indexOf("<");
+			int eidx = type.indexOf(",");
+
+			try {
+				String newObjClass = type.substring(sidx + 1, eidx);
+				ObjectNode map = new ObjectMapper().createObjectNode();
+				map.set(String.class.getName() + "0", objInfo(Class.forName(newObjClass)));
+				map.set(String.class.getName() + "1", objInfo(Class.forName(newObjClass)));
+				obj.set(key, map);
+			} catch (Exception ex) {
+				return;
+			}
+
+		} else {
+			
+			if (type.contains("java.lang")) {
+				return;
+			}
+			
+			try {
+				obj.set(key, objInfo(Class.forName(type)));
+			} catch (Exception ex) {
+				// ignore here
+			}
 		}
 	}
+	
+	
 
-	public static File getRootDir(CloudMetadata ccm) {
-		File rootDir = new File(new File(CloudConstants.LIB_DIR), CloudConstants.JAR_NAME_PREFIX + ccm.getKind().toLowerCase());
-
-		if (!rootDir.exists()) {
-			rootDir.mkdirs();
-		}
-
-		return rootDir;
-	}
 
 	/***************************************************************
 	 * 

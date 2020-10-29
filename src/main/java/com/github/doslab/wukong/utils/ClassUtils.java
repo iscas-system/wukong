@@ -24,8 +24,6 @@ import java.util.jar.JarFile;
 public class ClassUtils {
 
 	public static Set<Class<?>> scan(String pkg, ClassLoader loader) {
-		System.out.println("pkg: " + pkg);
-		System.out.println(loader);
 		Set<Class<?>> classes = new LinkedHashSet<Class<?>>();
 		boolean recursive = true;
 		String packageName = pkg;

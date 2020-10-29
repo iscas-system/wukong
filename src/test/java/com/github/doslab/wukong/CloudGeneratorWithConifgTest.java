@@ -24,9 +24,11 @@ public class CloudGeneratorWithConifgTest {
 	 ***************************************************************/
 	
 	public static void main(String[] args) throws Exception {
-		CloudGenerator cmd  = new CloudGenerator(new ObjectMapper().readValue(
+		
+		CloudMetadata ccm = new ObjectMapper().readValue(
 							new File("conf/amazoneks.json"), 
-							CloudMetadata.class));
+							CloudMetadata.class);
+		CloudGenerator cmd  = new CloudGenerator(ccm, new CloudClassloader(ccm));
 		cmd.exec();
 	}
 
