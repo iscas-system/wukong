@@ -55,22 +55,66 @@ public class CloudGenerator {
 	 *    Core
 	 * 
 	 ***************************************************************/
+	
 	/**
-	 * @throws Exception           exception
+	 * @throws Exception             exception
 	 */
-	public void exec() throws Exception {
+	public void generateJar() throws Exception {
 		File rootDir = this.loader.getRootDir();
-		generatePomForMavenProject(rootDir);
-		generateCodesForMavenProject(rootDir);
+		generatePom(rootDir);
+		generateCodes(rootDir);
+		buildCodes(rootDir);
+	}
+
+	/**
+	 * @param rootDir                rootDir
+	 * @throws Exception             exception
+	 */
+	protected void generatePom(File rootDir) throws Exception {
+		FileWriter fw = new FileWriter(new File(rootDir, CloudConstants.FILE_POM));
+		String content = read(CloudConstants.POM)
+				.replace(CloudConstants.KEY_NAME, CloudConstants.JAR_NAME_PREFIX + ccm.getKind().toLowerCase())
+				.replace(CloudConstants.KEY_VERSION, ccm.getVersion())
+				.replace(CloudConstants.KEY_DEP, toDependencies(ccm.getDependency()));
+		fw.write(content);
+		fw.close();
+	}
+	
+	/**
+	 * @param rootDir                rootDir
+	 * @throws Exception             exception
+	 */
+	protected void generateCodes(File rootDir) throws Exception {
+		File pkg = new File(rootDir, CloudConstants.CODE_DIR);
+		if (!pkg.exists()) {
+			pkg.mkdirs();
+		}
+		
+		FileWriter fw = new FileWriter(new File(pkg, CloudConstants.CLASS_NAME));
+		String content = read(CloudConstants.CLIENT)
+				.replace(CloudConstants.KEY_VALUE, ccm.getInitClient());
+		fw.write(content);
+		fw.close();
+	}
+	
+	/**
+	 * @param rootDir                rootDir
+	 * @throws Exception             exception
+	 */
+	protected void buildCodes(File rootDir) throws Exception {
 		String os = System.getProperty("os.name");
 		if (os.toLowerCase().trim().startsWith("win")) {
-			buildMavenProjectLocal(rootDir);
+			buildLocal(rootDir);
 		} else {
-			buildMavenProjectUsingDocker(rootDir);
+			buildUsingDocker(rootDir);
 		}
 	}
 
-	protected void buildMavenProjectLocal(File rootDir) throws IOException {
+	/**
+	 * @param rootDir                rootDir
+	 * @throws Exception             exception
+	 */
+	protected void buildLocal(File rootDir) throws Exception {
 		Process p = Runtime.getRuntime().exec("cmd /c cd " + rootDir.getAbsolutePath() + " && mvn clean install");
 		
 		try {
@@ -94,7 +138,11 @@ public class CloudGenerator {
 		}
 	}
 
-	protected void buildMavenProjectUsingDocker(File rootDir) throws Exception {
+	/**
+	 * @param rootDir                rootDir
+	 * @throws Exception             exception
+	 */
+	protected void buildUsingDocker(File rootDir) throws Exception {
 		File jarFile = new File(rootDir, CloudConstants.TARGET_DIR + CloudConstants.JAR_NAME_PREFIX
 				+ ccm.getKind().toLowerCase() +"-" + ccm.getVersion() + "-" + CloudConstants.JAR_NAME_POSTFIX);
 		if (!jarFile.exists()) {
@@ -108,6 +156,9 @@ public class CloudGenerator {
 		
 	}
 
+	/**
+	 * @param jarFile                 jarFile
+	 */
 	protected void checkBuildStatus(File jarFile) {
 		if (!jarFile.exists()) {
 			System.out.println("fail to build cloud API.");
@@ -122,31 +173,10 @@ public class CloudGenerator {
 		}
 	}
 
-	protected void generateCodesForMavenProject(File rootDir) throws Exception {
-		File pkg = new File(rootDir, CloudConstants.CODE_DIR);
-		if (!pkg.exists()) {
-			pkg.mkdirs();
-		}
-		
-		FileWriter fw = new FileWriter(new File(pkg, CloudConstants.CLASS_NAME));
-		String content = read(CloudConstants.CLIENT)
-				.replace(CloudConstants.KEY_VALUE, ccm.getInitClient());
-		fw.write(content);
-		fw.close();
-	}
 
-	protected void generatePomForMavenProject(File rootDir) throws Exception {
-		FileWriter fw = new FileWriter(new File(rootDir, CloudConstants.FILE_POM));
-		String content = read(CloudConstants.POM)
-				.replace(CloudConstants.KEY_NAME, CloudConstants.JAR_NAME_PREFIX + ccm.getKind().toLowerCase())
-				.replace(CloudConstants.KEY_VERSION, ccm.getVersion())
-				.replace(CloudConstants.KEY_DEP, toDependencies(ccm.getDependency()));
-		fw.write(content);
-		fw.close();
-	}
 
 	protected String toDependencies(List<Dependency> deps) {
-		StringBuffer sb = new StringBuffer();
+		StringBuilder sb = new StringBuilder();
 		for (Dependency dep : deps) {
 			sb.append("<dependency>\n").append("<groupId>").append(dep.getGroupId()).append("</groupId>\n")
 					.append("<artifactId>").append(dep.getArtifactId()).append("</artifactId>\n").append("<version>")

@@ -56,6 +56,11 @@ public class CloudAPIAnalyzer {
 	 * 
 	 ***************************************************************/
 
+	/**
+	 * @param ccm                    ccm
+	 * @param loader                 loader
+	 * @throws Exception             exception  
+	 */
 	public CloudAPIAnalyzer(CloudMetadata ccm, CloudClassloader loader) throws Exception {
 		this.kind = ccm.getKind();
 		this.loader = loader;

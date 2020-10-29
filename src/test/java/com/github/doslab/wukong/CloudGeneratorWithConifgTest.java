@@ -29,7 +29,7 @@ public class CloudGeneratorWithConifgTest {
 							new File("conf/amazoneks.json"), 
 							CloudMetadata.class);
 		CloudGenerator cmd  = new CloudGenerator(ccm, new CloudClassloader(ccm));
-		cmd.exec();
+		cmd.generateJar();
 	}
 
 	
