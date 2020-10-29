@@ -22,31 +22,10 @@ import com.github.doslab.wukong.utils.JSONUtils;
 import com.github.doslab.wukong.utils.JavaUtils;
 
 /**
- * @author tangting18@otcaix.iscas.ac.cn
  * @author wuheng@otcaix.iscas.ac.cn
- * @since 2020.3.8
+ * @since  2020.10.29
  */
 public class CloudAPIAnalyzer {
-
-	/**
-	 * target dir
-	 */
-	protected static final String TARGET_DIR = "target/";
-
-	/**
-	 * lib dir
-	 */
-	protected static final String LIB_DIR = "lib";
-
-	/**
-	 * file prefix
-	 */
-	protected static final String JAR_NAME_PREFIX = "crosscloud-";
-
-	/**
-	 * file postfix
-	 */
-	protected static final String JAR_NAME_POSTFIX = "jar-with-dependencies.jar";
 
 	/**
 	 * Method mapper
@@ -225,8 +204,9 @@ public class CloudAPIAnalyzer {
 	}
 
 	protected static String getUrl(CloudMetadata ccm) {
-		File jarFile = new File(getRootDir(ccm), TARGET_DIR + JAR_NAME_PREFIX + ccm.getKind().toLowerCase() + "-"
-				+ ccm.getVersion() + "-" + JAR_NAME_POSTFIX);
+		File jarFile = new File(getRootDir(ccm), CloudConstants.TARGET_DIR + 
+				CloudConstants.JAR_NAME_PREFIX + ccm.getKind().toLowerCase() + "-"
+				+ ccm.getVersion() + "-" + CloudConstants.JAR_NAME_POSTFIX);
 		return "file:" + jarFile.getAbsolutePath();
 	}
 
@@ -241,7 +221,7 @@ public class CloudAPIAnalyzer {
 	}
 
 	public static File getRootDir(CloudMetadata ccm) {
-		File rootDir = new File(new File(LIB_DIR), JAR_NAME_PREFIX + ccm.getKind().toLowerCase());
+		File rootDir = new File(new File(CloudConstants.LIB_DIR), CloudConstants.JAR_NAME_PREFIX + ccm.getKind().toLowerCase());
 
 		if (!rootDir.exists()) {
 			rootDir.mkdirs();

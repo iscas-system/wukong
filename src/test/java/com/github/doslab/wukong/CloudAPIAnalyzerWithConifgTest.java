@@ -4,7 +4,9 @@
 package com.github.doslab.wukong;
 
 import java.io.File;
+import java.util.Map;
 
+import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 /**
@@ -24,10 +26,13 @@ public class CloudAPIAnalyzerWithConifgTest {
 	 ***************************************************************/
 	
 	public static void main(String[] args) throws Exception {
-		CloudGenerator cmd  = new CloudGenerator(new ObjectMapper().readValue(
+		CloudAPIAnalyzer cmd = new CloudAPIAnalyzer(new ObjectMapper().readValue(
 							new File("conf/amazoneks.json"), 
 							CloudMetadata.class));
-		cmd.exec();
+		Map<String, JsonNode> nodes = cmd.extraCloudAPIs();
+		for (String key: nodes.keySet()) {
+			System.out.println(key + ":" + nodes.get(key).toPrettyString());
+		}
 	}
 
 	

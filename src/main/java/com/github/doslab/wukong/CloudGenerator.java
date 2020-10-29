@@ -17,80 +17,11 @@ import com.github.doslab.wukong.utils.FileUtils;
  * @author wuheng@otcaix.iscas.ac.cn
  * 
  * @version 2.3.0
- * @since 2020.2.15
+ * @since 2020.10.29
  * 
  **/
 public class CloudGenerator {
 
-	/**
-	 * target dir
-	 */
-	protected static final String TARGET_DIR = "target/";
-	
-	/**
-	 * file prefix
-	 */
-	protected static final String JAR_NAME_PREFIX = "crosscloud-";
-	
-	/**
-	 * pom
-	 */
-	public static final String POM       = "/POM";
-	
-	/**
-	 * client
-	 */
-	public static final String CLIENT    = "/CLIENT";
-	
-	/**
-	 * pom.xml
-	 */
-	protected static final String FILE_POM = "pom.xml";
-	
-	/**
-	 * key NAME
-	 */
-	protected static final String KEY_NAME = "NAME";
-	
-	/**
-	 * key NAME
-	 */
-	protected static final String KEY_VERSION = "VERSION";
-	
-	/**
-	 * key DEP
-	 */
-	protected static final String KEY_DEP  = "DEP";
-	
-	/**
-	 * key VALUE
-	 */
-	protected static final String KEY_VALUE  = "VALUE";
-	
-	/**
-	 * code dir
-	 */
-	protected static final String CODE_DIR  = "src/main/java/com/github/kubesys/crosscloud";
-	
-	/**
-	 * code name
-	 */
-	protected static final String CLASS_NAME  = "Client.java";
-	
-	/**
-	 * build command
-	 */
-	protected static final String CMD_PREFIX  = "/usr/bin/docker run -i --rm -v ";
-	
-	/**
-	 * build command
-	 */
-	protected static final String CMD_POSTFIX  = ":/usr/src/mymaven -w /usr/src/mymaven maven:3.6.3-jdk-8 mvn clean install -DskipTests";
-	
-	/**
-	 * file postfix
-	 */
-	protected static final String JAR_NAME_POSTFIX = "jar-with-dependencies.jar";
 	
 	/**
 	 * model
@@ -160,10 +91,10 @@ public class CloudGenerator {
 	}
 
 	protected void buildMavenProjectUsingDocker(File rootDir) throws Exception {
-		File jarFile = new File(rootDir, TARGET_DIR + JAR_NAME_PREFIX
-				+ ccm.getKind().toLowerCase() +"-" + ccm.getVersion() + "-" + JAR_NAME_POSTFIX);
+		File jarFile = new File(rootDir, CloudConstants.TARGET_DIR + CloudConstants.JAR_NAME_PREFIX
+				+ ccm.getKind().toLowerCase() +"-" + ccm.getVersion() + "-" + CloudConstants.JAR_NAME_POSTFIX);
 		if (!jarFile.exists()) {
-			String command = CMD_PREFIX + rootDir.getAbsolutePath() + CMD_POSTFIX;
+			String command = CloudConstants.CMD_PREFIX + rootDir.getAbsolutePath() + CloudConstants.CMD_POSTFIX;
 			Process child =Runtime.getRuntime().exec(command);
 			doBuldingWithLogs(child);
 			checkBuildStatus(jarFile);
@@ -188,24 +119,24 @@ public class CloudGenerator {
 	}
 
 	protected void generateCodesForMavenProject(File rootDir) throws Exception {
-		File pkg = new File(rootDir, CODE_DIR);
+		File pkg = new File(rootDir, CloudConstants.CODE_DIR);
 		if (!pkg.exists()) {
 			pkg.mkdirs();
 		}
 		
-		FileWriter fw = new FileWriter(new File(pkg, CLASS_NAME));
-		String content = FileUtils.read(CLIENT)
-				.replace(KEY_VALUE, ccm.getInitClient());
+		FileWriter fw = new FileWriter(new File(pkg, CloudConstants.CLASS_NAME));
+		String content = FileUtils.read(CloudConstants.CLIENT)
+				.replace(CloudConstants.KEY_VALUE, ccm.getInitClient());
 		fw.write(content);
 		fw.close();
 	}
 
 	protected void generatePomForMavenProject(File rootDir) throws Exception {
-		FileWriter fw = new FileWriter(new File(rootDir, FILE_POM));
-		String content = FileUtils.read(POM)
-				.replace(KEY_NAME, JAR_NAME_PREFIX + ccm.getKind().toLowerCase())
-				.replace(KEY_VERSION, ccm.getVersion())
-				.replace(KEY_DEP, toDependencies(ccm.getDependency()));
+		FileWriter fw = new FileWriter(new File(rootDir, CloudConstants.FILE_POM));
+		String content = FileUtils.read(CloudConstants.POM)
+				.replace(CloudConstants.KEY_NAME, CloudConstants.JAR_NAME_PREFIX + ccm.getKind().toLowerCase())
+				.replace(CloudConstants.KEY_VERSION, ccm.getVersion())
+				.replace(CloudConstants.KEY_DEP, toDependencies(ccm.getDependency()));
 		fw.write(content);
 		fw.close();
 	}
