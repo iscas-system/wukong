@@ -70,15 +70,28 @@ public class CloudAPIAnalyzer {
 
 	/***************************************************************
 	 * 
-	 * Core
+	 * analyse
 	 * 
 	 ***************************************************************/
 	/**
 	 * @return                            apis
 	 */
 	public Map<String, JsonNode> extractCloudAPIs() {
-		Map<String, Integer> superClasses = new HashMap<String, Integer>();
-		Map<String, Integer> useMethods = new HashMap<String, Integer>();
+		Map<String, Integer> possibleSuperClasses = new HashMap<String, Integer>();
+		Map<String, Integer> possibleAPIs = new HashMap<String, Integer>();
+		
+		boolean generic = findPossibleSuperClassesAndAPIs(possibleSuperClasses, possibleAPIs);
+
+		List<Class<?>> findAllRequestsBySuperClasses = findAllRequestsBySuperClasses(possibleSuperClasses.keySet());
+
+		doAnalysisUseRegisterInfos(possibleAPIs, generic, findAllRequestsBySuperClasses);
+
+		return extractCloudAPIs(findAllRequestsBySuperClasses);
+	}
+
+
+	protected boolean findPossibleSuperClassesAndAPIs(Map<String, Integer> possibleSuperClasses,
+			Map<String, Integer> possibleAPIs) {
 		boolean generic = false;
 		for (Method method : client.getMethods()) {
 			if (method.getParameters().length != 1 || method.getParameterTypes()[0].isInterface()
@@ -92,24 +105,19 @@ public class CloudAPIAnalyzer {
 
 			if (!method.getParameterTypes()[0].getName().equals(method.getGenericParameterTypes()[0].getTypeName())) {
 				// Generic type
-				superClasses.put(method.getParameterTypes()[0].getTypeName(), 100);
-				useMethods.put(method.getName(), 100);
+				possibleSuperClasses.put(method.getParameterTypes()[0].getTypeName(), 100);
+				possibleAPIs.put(method.getName(), 100);
 				generic = true;
 			} else {
 				// Direct request
 				String typeName = method.getParameterTypes()[0].getSuperclass().getName();
-				Integer itr = superClasses.get(typeName);
+				Integer itr = possibleSuperClasses.get(typeName);
 				itr = (itr == null) ? 1 : itr + 1;
-				superClasses.put(typeName, itr);
+				possibleSuperClasses.put(typeName, itr);
 			}
 
 		}
-
-		List<Class<?>> findAllRequestsBySuperClasses = findAllRequestsBySuperClasses(superClasses.keySet());
-
-		doAnalysisUseRegisterInfos(useMethods, generic, findAllRequestsBySuperClasses);
-
-		return extractCloudAPIs(findAllRequestsBySuperClasses);
+		return generic;
 	}
 
 	protected void doAnalysisUseRegisterInfos(Map<String, Integer> useMethods, boolean generic,
@@ -144,10 +152,10 @@ public class CloudAPIAnalyzer {
 	}
 
 	public List<Class<?>> findAllRequestsBySuperClasses(Set<String> superClasses) {
-		List<Class<?>> list = new ArrayList<Class<?>>();
+		List<Class<?>> list = new ArrayList<>();
 		String pkgName = client.getPackage().getName();
 		searchingAllPossiblePackages(superClasses, list, pkgName);
-		if (list.size() == 0) {
+		if (list.isEmpty()) {
 			int idx = pkgName.lastIndexOf(".");
 			String basename = pkgName.substring(0, idx);
 			searchingAllPossiblePackages(superClasses, list, basename);
@@ -171,6 +179,12 @@ public class CloudAPIAnalyzer {
 			}
 		}
 	}
+	
+	/***************************************************************
+	 * 
+	 * analyse
+	 * 
+	 ***************************************************************/
 	
 	protected Map<String, JsonNode> extractCloudAPIs(List<?> list)  {
 		Map<String, JsonNode> map = new HashMap<>();

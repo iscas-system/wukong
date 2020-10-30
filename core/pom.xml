@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.github.dos-lab</groupId>
-	<artifactId>wukong</artifactId>
+	<artifactId>wukong-core</artifactId>
 	<version>1.2.0</version>
 	<packaging>jar</packaging>
 

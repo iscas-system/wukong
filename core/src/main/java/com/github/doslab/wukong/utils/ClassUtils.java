@@ -18,11 +18,25 @@ import java.util.jar.JarFile;
 /**
  * 
  * @author tangting18@otcaix.iscas.ac.cn
- * @author wuheng@iscas.ac.cn
  * @since 2019.12.10
+ * 
+ * This code comes from Internet, it works well in our case.
  */
 public class ClassUtils {
 
+	/**
+	 * @param pkg                           package
+	 * @return                              class set
+	 */
+	public static Set<Class<?>> scan(String pkg) {
+		return scan(pkg, Thread.currentThread().getContextClassLoader());
+	}
+	
+	/**
+	 * @param pkg                           package
+	 * @param loader                        loader
+	 * @return                              class set
+	 */
 	public static Set<Class<?>> scan(String pkg, ClassLoader loader) {
 		Set<Class<?>> classes = new LinkedHashSet<Class<?>>();
 		boolean recursive = true;
@@ -77,10 +91,14 @@ public class ClassUtils {
 		return classes;
 	}
 	
-	public static Set<Class<?>> scan(String pkg) {
-		return scan(pkg, Thread.currentThread().getContextClassLoader());
-	}
 
+	/**
+	 * @param packageName                         pkgName
+	 * @param packagePath                         path
+	 * @param recursive                           true or false
+	 * @param classes                             classes
+	 * @param loader                              loader
+	 */
 	public static void findAndAddClassesInPackageByFile(String packageName, String packagePath, final boolean recursive,
 			Set<Class<?>> classes, ClassLoader loader) {
 		File dir = new File(packagePath);

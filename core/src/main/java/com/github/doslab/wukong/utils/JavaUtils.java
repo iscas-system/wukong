@@ -32,6 +32,10 @@ public class JavaUtils {
 		typeMapping.put("double", Double.class.getName());
 	}
 	
+	/**
+	 * @param clazz                    clazz
+	 * @return                         name
+	 */
 	public static String getJavaType(Class<?> clazz) {
 		String type = typeMapping.get(clazz.getName());
 		return (type == null) ? clazz.getName() : type;
@@ -67,10 +71,18 @@ public class JavaUtils {
 		primitive.add("byte");
 	}
 	
+	/**
+	 * @param clz                      clz
+	 * @return                         true or false
+	 */
 	public static boolean isBasic(Class<?> clz) {
 		return isBasic(clz.getName());
 	}
 	
+	/**
+	 * @param typename                 typename
+	 * @return                         true or false
+	 */
 	public static boolean isBasic(String typename) {
 		return JavaUtils.isPrimitive(typename) || JavaUtils.isList(typename) 
 					|| JavaUtils.isMap(typename) || JavaUtils.isSet(typename) || typename.equals("void");

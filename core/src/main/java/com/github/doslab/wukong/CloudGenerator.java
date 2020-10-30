@@ -6,7 +6,6 @@ package com.github.doslab.wukong;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileWriter;
-import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.List;
@@ -43,7 +42,8 @@ public class CloudGenerator {
 	 ***************************************************************/
 	
 	/**
-	 * @param ccm                    ccm
+	 * @param ccm                     ccm
+	 * @param loader                  loader
 	 */
 	public CloudGenerator(CloudMetadata ccm, CloudClassloader loader) {
 		this.ccm = ccm;
@@ -71,13 +71,13 @@ public class CloudGenerator {
 	 * @throws Exception             exception
 	 */
 	protected void generatePom(File rootDir) throws Exception {
-		FileWriter fw = new FileWriter(new File(rootDir, CloudConstants.FILE_POM));
-		String content = read(CloudConstants.POM)
+		File file = new File(rootDir, CloudConstants.FILE_POM);
+		String content = read(CloudGenerator.class.getResourceAsStream(CloudConstants.POM))
 				.replace(CloudConstants.KEY_NAME, CloudConstants.JAR_NAME_PREFIX + ccm.getKind().toLowerCase())
 				.replace(CloudConstants.KEY_VERSION, ccm.getVersion())
 				.replace(CloudConstants.KEY_DEP, toDependencies(ccm.getDependency()));
-		fw.write(content);
-		fw.close();
+		
+		write(file, content);
 	}
 	
 	/**
@@ -85,16 +85,17 @@ public class CloudGenerator {
 	 * @throws Exception             exception
 	 */
 	protected void generateCodes(File rootDir) throws Exception {
+		
 		File pkg = new File(rootDir, CloudConstants.CODE_DIR);
 		if (!pkg.exists()) {
 			pkg.mkdirs();
 		}
 		
-		FileWriter fw = new FileWriter(new File(pkg, CloudConstants.CLASS_NAME));
-		String content = read(CloudConstants.CLIENT)
+		File file = new File(pkg, CloudConstants.CLASS_NAME);
+		String content = read(CloudGenerator.class.getResourceAsStream(CloudConstants.CLIENT))
 				.replace(CloudConstants.KEY_VALUE, ccm.getInitClient());
-		fw.write(content);
-		fw.close();
+		
+		write(file, content);
 	}
 	
 	/**
@@ -115,27 +116,10 @@ public class CloudGenerator {
 	 * @throws Exception             exception
 	 */
 	protected void buildLocal(File rootDir) throws Exception {
+		
 		Process p = Runtime.getRuntime().exec("cmd /c cd " + rootDir.getAbsolutePath() + " && mvn clean install");
-		
-		try {
-			BufferedReader br = new BufferedReader(new InputStreamReader(p.getInputStream()));
-			String line = null;
-			while ((line = br.readLine()) != null) {
-				System.out.println(line);
-			}
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-		
-		try {
-			BufferedReader br = new BufferedReader(new InputStreamReader(p.getErrorStream()));
-			String line = null;
-			while ((line = br.readLine()) != null) {
-				System.out.println(line);
-			}
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
+		print(p.getInputStream());
+		print(p.getErrorStream());
 	}
 
 	/**
@@ -145,35 +129,14 @@ public class CloudGenerator {
 	protected void buildUsingDocker(File rootDir) throws Exception {
 		File jarFile = new File(rootDir, CloudConstants.TARGET_DIR + CloudConstants.JAR_NAME_PREFIX
 				+ ccm.getKind().toLowerCase() +"-" + ccm.getVersion() + "-" + CloudConstants.JAR_NAME_POSTFIX);
+		
 		if (!jarFile.exists()) {
-			String command = CloudConstants.CMD_PREFIX + rootDir.getAbsolutePath() + CloudConstants.CMD_POSTFIX;
-			Process child =Runtime.getRuntime().exec(command);
-			doBuldingWithLogs(child);
-			checkBuildStatus(jarFile);
-		} else {
-			System.out.println("build cloud API successfully.");
-		}
+			Process p =Runtime.getRuntime().exec(CloudConstants.CMD_PREFIX + rootDir.getAbsolutePath() + CloudConstants.CMD_POSTFIX);
+			print(p.getInputStream());
+			print(p.getErrorStream());
+		} 
 		
 	}
-
-	/**
-	 * @param jarFile                 jarFile
-	 */
-	protected void checkBuildStatus(File jarFile) {
-		if (!jarFile.exists()) {
-			System.out.println("fail to build cloud API.");
-		}
-	}
-
-	protected void doBuldingWithLogs(Process child) throws IOException {
-		BufferedReader br = new BufferedReader(new InputStreamReader(child.getInputStream()));
-		String line = null;
-		while ((line = br.readLine()) != null) {
-			System.out.println(line);
-		}
-	}
-
-
 
 	protected String toDependencies(List<Dependency> deps) {
 		StringBuilder sb = new StringBuilder();
@@ -184,14 +147,35 @@ public class CloudGenerator {
 		}
 		return sb.toString();
 	}
-	
-	public static String read(String filename) throws Exception {
-		return read(CloudGenerator.class.getResourceAsStream(filename));
-	}
 
-	public static String read(InputStream fis) throws Exception {
+	/**************************************************
+	 * 
+	 *               utils
+	 * 
+	 **************************************************/
+	/**
+	 * @param is                     is
+	 */
+	public static void print(InputStream is) {
+		try {
+			BufferedReader br = new BufferedReader(new InputStreamReader(is));
+			String line = null;
+			while ((line = br.readLine()) != null) {
+				System.out.println(line);
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	/**
+	 * @param is                    is
+	 * @return                      string
+	 * @throws Exception            exception
+	 */
+	public static String read(InputStream is) throws Exception {
 		StringBuilder sb = new StringBuilder();
-		BufferedReader br = new BufferedReader(new InputStreamReader(fis));
+		BufferedReader br = new BufferedReader(new InputStreamReader(is));
 		String line = null;
 		while ((line = br.readLine()) != null) {
 			sb.append(line).append("\n");
@@ -199,4 +183,17 @@ public class CloudGenerator {
 		br.close();
 		return sb.toString();
 	}
+	
+	
+	/**
+	 * @param file                  file
+	 * @param content               content 
+	 * @throws Exception            exception
+	 */
+	public static void write(File file, String content) throws Exception {
+		FileWriter fw = new FileWriter(file);
+		fw.write(content);
+		fw.close();
+	}
+
 }
