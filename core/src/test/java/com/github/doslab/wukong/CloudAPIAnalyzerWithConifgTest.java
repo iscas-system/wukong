@@ -27,13 +27,17 @@ public class CloudAPIAnalyzerWithConifgTest {
 	
 	public static void main(String[] args) throws Exception {
 		CloudMetadata ccm = new ObjectMapper().readValue(
-							new File("conf/amazoneks.json"), 
+							new File("conf/aliyunecs.json"), 
 							CloudMetadata.class);
 		CloudAPIAnalyzer cmd = new CloudAPIAnalyzer(ccm, new CloudClassloader(ccm));
 		Map<String, JsonNode> nodes = cmd.extractCloudAPIs();
 		for (String key: nodes.keySet()) {
+			System.out.println("---");
+			System.out.println(cmd.getAPI(key));
+			System.out.println(cmd.getData(key));
 			System.out.println(key + ":" + nodes.get(key).toPrettyString());
 		}
+		
 	}
 
 	

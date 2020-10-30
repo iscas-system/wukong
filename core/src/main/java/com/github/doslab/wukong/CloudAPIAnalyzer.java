@@ -313,4 +313,11 @@ public class CloudAPIAnalyzer {
 		return methodMappers;
 	}
 
+	public String getAPI(String key) {
+		return methodMappers.get(key);
+	}
+	
+	public Class<?> getData(String key) {
+		return paramMappers.get(key);
+	}
 }

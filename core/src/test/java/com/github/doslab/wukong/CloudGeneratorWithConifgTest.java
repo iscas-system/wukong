@@ -26,7 +26,7 @@ public class CloudGeneratorWithConifgTest {
 	public static void main(String[] args) throws Exception {
 		
 		CloudMetadata ccm = new ObjectMapper().readValue(
-							new File("conf/amazoneks.json"), 
+							new File("conf/aliyunecs.json"), 
 							CloudMetadata.class);
 		CloudGenerator cmd  = new CloudGenerator(ccm, new CloudClassloader(ccm));
 		cmd.generateJar();
