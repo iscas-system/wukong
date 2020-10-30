@@ -186,6 +186,10 @@ public class CloudAPIAnalyzer {
 	 * 
 	 ***************************************************************/
 	
+	/**
+	 * @param list                               list
+	 * @return                                   map
+	 */
 	protected Map<String, JsonNode> extractCloudAPIs(List<?> list)  {
 		Map<String, JsonNode> map = new HashMap<>();
 		for (Object obj : list) {

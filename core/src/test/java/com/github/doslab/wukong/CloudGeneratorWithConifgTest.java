@@ -26,7 +26,7 @@ public class CloudGeneratorWithConifgTest {
 	public static void main(String[] args) throws Exception {
 		
 		CloudMetadata ccm = new ObjectMapper().readValue(
-							new File("conf/aliyunecs.json"), 
+							new File("conf/vm/jdcloud-vm.json"), 
 							CloudMetadata.class);
 		CloudGenerator cmd  = new CloudGenerator(ccm, new CloudClassloader(ccm));
 		cmd.generateJar();
