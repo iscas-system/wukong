@@ -1,0 +1,38 @@
+#! /bin/bash
+###############################################
+##
+##  Copyright (2020, ) Institute of Software
+##      Chinese Academy of Sciences
+##          wuheng@gmail.com
+##
+###############################################
+
+name=$1
+rname=${name/\//_}
+echo $rname
+
+if [[ ! -d /tmp/"$rname"_$2 ]]
+then
+
+  res=$(docker images | grep "$1" | grep "$2")
+  if [[ -z res ]]
+  then
+    docker pull $1:$2
+  fi
+  
+  mkdir -p /tmp/"$rname"_$2
+  docker save $1:$2 > /tmp/"$rname"_$2/image.tar
+  cd /tmp/"$rname"_$2
+  tar xvf image.tar
+  rm -rf image.tar
+
+  for dir in `ls`
+  do
+    if [[ -d $dir ]]
+    then
+      tar xvf $dir/layer.tar -C $dir/
+    fi
+  done
+fi
+
+
