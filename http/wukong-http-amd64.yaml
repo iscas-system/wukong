@@ -1,0 +1,54 @@
+--- 
+apiVersion: "apps/v1"
+kind: "Deployment"
+metadata: 
+  name: "wukong-http"
+  namespace: "kube-system"
+  labels: 
+    name: "wukong-http"
+spec: 
+  replicas: 1
+  selector: 
+    matchLabels:
+      name: "wukong-http"
+  template: 
+    metadata: 
+      labels: 
+        name: "wukong-http"
+    spec:
+      nodeSelector:
+        node-role.kubernetes.io/master: ""
+      tolerations:
+        - key: node-role.kubernetes.io/master
+          effect: NoSchedule
+      containers:
+      - name: "kube-api-mapper"
+        image: "registry.cn-beijing.aliyuncs.com/doslab/wukong-http:v1.0.0-amd64"
+        imagePullPolicy: "IfNotPresent"
+        env:
+        - name: kubeUrl
+          value: https://172.17.110.156:6443
+        - name: token
+          value: eyJhbGciOiJSUzI1NiIsImtpZCI6Ilg0dzJkS01TR1dybkVmZFhiS3dFTWxOdWo3X1k3TnkySi1UckFiWXBZRjgifQ.eyJpc3MiOiJrdWJlcm5ldGVzL3NlcnZpY2VhY2NvdW50Iiwia3ViZXJuZXRlcy5pby9zZXJ2aWNlYWNjb3VudC9uYW1lc3BhY2UiOiJrdWJlLXN5c3RlbSIsImt1YmVybmV0ZXMuaW8vc2VydmljZWFjY291bnQvc2VjcmV0Lm5hbWUiOiJrdWJlcm5ldGVzLWNsaWVudC10b2tlbi05Z2x6ZiIsImt1YmVybmV0ZXMuaW8vc2VydmljZWFjY291bnQvc2VydmljZS1hY2NvdW50Lm5hbWUiOiJrdWJlcm5ldGVzLWNsaWVudCIsImt1YmVybmV0ZXMuaW8vc2VydmljZWFjY291bnQvc2VydmljZS1hY2NvdW50LnVpZCI6IjY1NDk0ZmJiLTI4OTgtNDRlZi1hNmZlLWZlNTNmOGNhN2I5NiIsInN1YiI6InN5c3RlbTpzZXJ2aWNlYWNjb3VudDprdWJlLXN5c3RlbTprdWJlcm5ldGVzLWNsaWVudCJ9.VSe8o5MNgvCbSbvQPdrYoM4zHXAtpWmak5Env4tzBp1-ioKxn165V8nd2_FT6BrH5YlwHDbM-GOn3EWU8g4Lpcwoc_CsnE_uBMq577bWXe8Yo1zVLI_cpCLa1PYg74pFshzXcAvMahtQDOgc6Hix6MJC2s4Ncfivm52nmUJzsSNqLehrGOJEKOvyhZRMxP2Qz-iMl7oF_6LemaUifCh6NaCgIBTVgnAvq64GuRFJNZQcHqZdtesY8_ltuEhUz74xKPVJuBOOReA0kKb-rbigEtfWSBr9aWfT_ncjcz_UrcSsefbTc6gVQPV7v8EB_drB4t8lkwa_qCxCnagz6ymI7Q
+        command: 
+        - "java"
+        - "-jar"
+        - "wukong-http.jar"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: wukong-http
+  namespace: kube-system
+  labels: 
+    name: wukong-http
+spec:
+  type: NodePort
+  ports:
+  - port: 8080
+    protocol: TCP
+    targetPort: 8080
+    name: wukong-http
+    nodePort: 31100
+  selector:
+    name: wukong-http
