@@ -79,6 +79,7 @@ public class CrosscloudService extends HttpBodyHandler {
 		return true;
 	}
 	
+	@ServiceDescriber(shortName = "代理执行云服务请求", desc = "", prereq = "已创建Client")
 	public Object execRequest(
 			@ParamDescriber(required = true, 
 			desc = "client的Id",
@@ -102,6 +103,10 @@ public class CrosscloudService extends HttpBodyHandler {
 								lifecycle.get(key).toPrettyString(), analyser.getData(key)));
 	}
 
+	public String getStatus() {
+		return "Ready";
+	}
+	
 	protected Method getMethod(String id, String key, CloudAPIAnalyzer analyser) {
 		
 		Method method = null;
