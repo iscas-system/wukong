@@ -53,7 +53,11 @@ public class Command  {
 	
 	public static void main(String[] args) throws Exception {
 		JsonNode json = client.getResource("Account", "default", args[0]);
-		CloudMetadata ccm = new ObjectMapper().readValue(json.get("spec").asText(), CloudMetadata.class);
+		
+		CloudMetadata ccm = new ObjectMapper().readValue(
+						json.get("spec").toPrettyString(), 
+						CloudMetadata.class);
+		
 		if (args[1].trim().equals("generate")) {
 			generate(ccm);
 		} else if (args[1].trim().equals("register")) {
