@@ -1,0 +1,6 @@
+# General configuration
+server:
+  port: 31100
+  servlet:
+    context-path: /dos-lab
+    
