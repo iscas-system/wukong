@@ -129,7 +129,7 @@ public class CloudGenerator {
 	 */
 	protected void builUNIXLocal(File rootDir) throws Exception {
 		
-		Process p = Runtime.getRuntime().exec("cd " + rootDir.getAbsolutePath() + " && mvn clean install");
+		Process p = Runtime.getRuntime().exec("/usr/bin/cd " + rootDir.getAbsolutePath() + " && /usr/bin/mvn clean install");
 		print(p.getInputStream());
 		print(p.getErrorStream());
 	}
