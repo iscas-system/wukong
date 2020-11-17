@@ -1,0 +1,70 @@
+{
+  "apiVersion": "batch/v1",
+  "kind": "Job",
+  "metadata": {
+    "name": "JOBNAME",
+    "labels": {
+      "app": "wukong"
+    }
+  },
+  "spec": {
+    "template": {
+      "metadata": {
+        "labels": {
+          "app": "wukong"
+        }
+      },
+      "spec": {
+        "containers": [
+          {
+            "image": "registry.cn-beijing.aliyuncs.com/doslab/wukong-kube:v1.3.0-amd64",
+            "command": [
+              "java",
+              "jar",
+              "wukong-kube.jar",
+              "ACCOUNTNAME",
+              "CMDNAME"
+            ],
+            "imagePullPolicy": "IfNotPresent",
+            "name": "JOBNAME",
+            "env": [
+              {
+                "name": "kubeUrl",
+                "value": "URL"
+              },
+              {
+                "name": "token",
+                "value": "TOKEN"
+              }
+            ],
+            "volumeMounts": [
+              {
+                "name": "plugs",
+                "mountPath": "/home/wukong-kube/jsons"
+              },
+              {
+                "name": "kube",
+                "mountPath": "/usr/bin"
+              }
+            ]
+          }
+        ],
+        "volumes": [
+          {
+            "name": "plugs",
+            "hostPath": {
+              "path": "/var/lib/dos/wukong/jsons"
+            }
+          },
+          {
+            "name": "kube",
+            "hostPath": {
+              "path": "/usr/bin"
+            }
+          }
+        ],
+        "restartPolicy": "Never"
+      }
+    }
+  }
+}
