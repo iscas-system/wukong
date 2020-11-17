@@ -105,9 +105,9 @@ public class CloudGenerator {
 	protected void buildCodes(File rootDir) throws Exception {
 		String os = System.getProperty("os.name");
 		if (os.toLowerCase().trim().startsWith("win")) {
-			buildLocal(rootDir);
+			buildWinLocal(rootDir);
 		} else {
-			buildUsingDocker(rootDir);
+			builUNIXLocal(rootDir);
 		}
 	}
 
@@ -115,28 +115,39 @@ public class CloudGenerator {
 	 * @param rootDir                rootDir
 	 * @throws Exception             exception
 	 */
-	protected void buildLocal(File rootDir) throws Exception {
+	protected void buildWinLocal(File rootDir) throws Exception {
 		
 		Process p = Runtime.getRuntime().exec("cmd /c cd " + rootDir.getAbsolutePath() + " && mvn clean install");
 		print(p.getInputStream());
 		print(p.getErrorStream());
 	}
-
+	
 	/**
 	 * @param rootDir                rootDir
 	 * @throws Exception             exception
 	 */
-	protected void buildUsingDocker(File rootDir) throws Exception {
-		File jarFile = new File(rootDir, CloudConstants.TARGET_DIR + CloudConstants.JAR_NAME_PREFIX
-				+ ccm.getKind().toLowerCase() +"-" + ccm.getVersion() + "-" + CloudConstants.JAR_NAME_POSTFIX);
+	protected void builUNIXLocal(File rootDir) throws Exception {
 		
-		if (!jarFile.exists()) {
-			Process p =Runtime.getRuntime().exec(CloudConstants.CMD_PREFIX + rootDir.getAbsolutePath() + CloudConstants.CMD_POSTFIX);
-			print(p.getInputStream());
-			print(p.getErrorStream());
-		} 
-		
+		Process p = Runtime.getRuntime().exec("cd " + rootDir.getAbsolutePath() + " && mvn clean install");
+		print(p.getInputStream());
+		print(p.getErrorStream());
 	}
+
+//	/**
+//	 * @param rootDir                rootDir
+//	 * @throws Exception             exception
+//	 */
+//	protected void buildUsingDocker(File rootDir) throws Exception {
+//		File jarFile = new File(rootDir, CloudConstants.TARGET_DIR + CloudConstants.JAR_NAME_PREFIX
+//				+ ccm.getKind().toLowerCase() +"-" + ccm.getVersion() + "-" + CloudConstants.JAR_NAME_POSTFIX);
+//		
+//		if (!jarFile.exists()) {
+//			Process p = Runtime.getRuntime().exec(CloudConstants.CMD_PREFIX + rootDir.getAbsolutePath() + CloudConstants.CMD_POSTFIX);
+//			print(p.getInputStream());
+//			print(p.getErrorStream());
+//		} 
+//		
+//	}
 
 	protected String toDependencies(List<Dependency> deps) {
 		StringBuilder sb = new StringBuilder();

@@ -73,15 +73,6 @@ public class CloudConstants {
 	 */
 	public static final String CLASS_NAME  = "Client.java";
 	
-	/**
-	 * build command
-	 */
-	public static final String CMD_PREFIX  = "/usr/bin/docker run -i --rm -v ";
-	
-	/**
-	 * build command
-	 */
-	public static final String CMD_POSTFIX  = ":/usr/src/mymaven -w /usr/src/mymaven maven:3.6.3-jdk-8 mvn clean install -DskipTests";
 	
 	/**
 	 * file postfix
