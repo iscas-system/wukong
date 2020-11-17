@@ -1,0 +1,25 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-creatededicatedhostclusterrequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "createDedicatedHostClusterRequest" : {
+      "lifecycle" : {
+        "createDedicatedHostClusterRequest" : {
+          "dedicatedHostClusterName" : "String",
+          "resourceOwnerId" : 1,
+          "description" : "String",
+          "resourceGroupId" : "String",
+          "dryRun" : true,
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "ownerId" : 1,
+          "zoneId" : "String"
+        }
+      }
+    }
+  }
+}

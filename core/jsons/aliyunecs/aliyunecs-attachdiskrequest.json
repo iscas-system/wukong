@@ -1,0 +1,27 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-attachdiskrequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "attachDiskRequest" : {
+      "lifecycle" : {
+        "attachDiskRequest" : {
+          "resourceOwnerId" : 1,
+          "keyPairName" : "String",
+          "bootable" : true,
+          "password" : "String",
+          "diskId" : "String",
+          "deleteWithInstance" : true,
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "ownerId" : 1,
+          "instanceId" : "String",
+          "device" : "String"
+        }
+      }
+    }
+  }
+}

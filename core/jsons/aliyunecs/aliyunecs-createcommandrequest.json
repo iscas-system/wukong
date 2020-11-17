@@ -1,0 +1,27 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-createcommandrequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "createCommandRequest" : {
+      "lifecycle" : {
+        "createCommandRequest" : {
+          "resourceOwnerId" : 1,
+          "workingDir" : "String",
+          "description" : "String",
+          "type" : "String",
+          "commandContent" : "String",
+          "timeout" : 1,
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "ownerId" : 1,
+          "name" : "String",
+          "enableParameter" : true
+        }
+      }
+    }
+  }
+}

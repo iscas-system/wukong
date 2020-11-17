@@ -1,0 +1,18 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "tencentcvm-describeimagesresponse"
+  },
+  "type" : "TencentCVM",
+  "spec" : {
+    "describeImagesResponse" : {
+      "lifecycle" : {
+        "describeImagesResponse" : {
+          "TotalCount" : 1,
+          "RequestId" : "String"
+        }
+      }
+    }
+  }
+}

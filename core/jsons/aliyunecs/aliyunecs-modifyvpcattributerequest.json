@@ -1,0 +1,25 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-modifyvpcattributerequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "modifyVpcAttributeRequest" : {
+      "lifecycle" : {
+        "modifyVpcAttributeRequest" : {
+          "resourceOwnerId" : 1,
+          "description" : "String",
+          "vpcName" : "String",
+          "userCidr" : "String",
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "ownerId" : 1,
+          "vpcId" : "String",
+          "cidrBlock" : "String"
+        }
+      }
+    }
+  }
+}

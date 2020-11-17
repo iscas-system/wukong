@@ -1,0 +1,31 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-createvirtualborderrouterrequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "createVirtualBorderRouterRequest" : {
+      "lifecycle" : {
+        "createVirtualBorderRouterRequest" : {
+          "resourceOwnerId" : 1,
+          "circuitCode" : "String",
+          "vlanId" : 1,
+          "clientToken" : "String",
+          "description" : "String",
+          "peerGatewayIp" : "String",
+          "peeringSubnetMask" : "String",
+          "localGatewayIp" : "String",
+          "userCidr" : "String",
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "ownerId" : 1,
+          "physicalConnectionId" : "String",
+          "name" : "String",
+          "vbrOwnerId" : 1
+        }
+      }
+    }
+  }
+}

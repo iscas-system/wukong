@@ -1,0 +1,29 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-modifyinstancechargetyperequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "modifyInstanceChargeTypeRequest" : {
+      "lifecycle" : {
+        "modifyInstanceChargeTypeRequest" : {
+          "resourceOwnerId" : 1,
+          "clientToken" : "String",
+          "isDetailFee" : true,
+          "instanceChargeType" : "String",
+          "period" : 1,
+          "dryRun" : true,
+          "autoPay" : true,
+          "includeDataDisks" : true,
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "ownerId" : 1,
+          "periodUnit" : "String",
+          "instanceIds" : "String"
+        }
+      }
+    }
+  }
+}

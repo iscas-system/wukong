@@ -1,0 +1,23 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-modifyinstanceattachmentattributesrequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "modifyInstanceAttachmentAttributesRequest" : {
+      "lifecycle" : {
+        "modifyInstanceAttachmentAttributesRequest" : {
+          "resourceOwnerId" : 1,
+          "privatePoolOptionsMatchCriteria" : "String",
+          "privatePoolOptionsId" : "String",
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "ownerId" : 1,
+          "instanceId" : "String"
+        }
+      }
+    }
+  }
+}

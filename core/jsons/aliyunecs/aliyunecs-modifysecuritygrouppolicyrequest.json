@@ -1,0 +1,23 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-modifysecuritygrouppolicyrequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "modifySecurityGroupPolicyRequest" : {
+      "lifecycle" : {
+        "modifySecurityGroupPolicyRequest" : {
+          "resourceOwnerId" : 1,
+          "clientToken" : "String",
+          "securityGroupId" : "String",
+          "innerAccessPolicy" : "String",
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "ownerId" : 1
+        }
+      }
+    }
+  }
+}

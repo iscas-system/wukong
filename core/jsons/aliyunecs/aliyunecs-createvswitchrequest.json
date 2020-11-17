@@ -1,0 +1,26 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-createvswitchrequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "createVSwitchRequest" : {
+      "lifecycle" : {
+        "createVSwitchRequest" : {
+          "resourceOwnerId" : 1,
+          "clientToken" : "String",
+          "description" : "String",
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "ownerId" : 1,
+          "vpcId" : "String",
+          "vSwitchName" : "String",
+          "cidrBlock" : "String",
+          "zoneId" : "String"
+        }
+      }
+    }
+  }
+}

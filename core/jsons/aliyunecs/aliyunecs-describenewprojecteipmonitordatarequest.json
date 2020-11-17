@@ -1,0 +1,24 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-describenewprojecteipmonitordatarequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "describeNewProjectEipMonitorDataRequest" : {
+      "lifecycle" : {
+        "describeNewProjectEipMonitorDataRequest" : {
+          "resourceOwnerId" : 1,
+          "allocationId" : "String",
+          "startTime" : "String",
+          "period" : 1,
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "endTime" : "String",
+          "ownerId" : 1
+        }
+      }
+    }
+  }
+}

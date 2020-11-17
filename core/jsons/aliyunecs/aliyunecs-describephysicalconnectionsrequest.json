@@ -1,0 +1,24 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-describephysicalconnectionsrequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "describePhysicalConnectionsRequest" : {
+      "lifecycle" : {
+        "describePhysicalConnectionsRequest" : {
+          "resourceOwnerId" : 1,
+          "clientToken" : "String",
+          "pageNumber" : 1,
+          "pageSize" : 1,
+          "userCidr" : "String",
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "ownerId" : 1
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-deletevpcrequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "deleteVpcRequest" : {
+      "lifecycle" : {
+        "deleteVpcRequest" : {
+          "resourceOwnerId" : 1,
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "ownerId" : 1,
+          "vpcId" : "String"
+        }
+      }
+    }
+  }
+}

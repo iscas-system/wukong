@@ -1,0 +1,39 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-allocatededicatedhostsrequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "allocateDedicatedHostsRequest" : {
+      "lifecycle" : {
+        "allocateDedicatedHostsRequest" : {
+          "resourceOwnerId" : 1,
+          "clientToken" : "String",
+          "description" : "String",
+          "cpuOverCommitRatio" : 1,
+          "resourceGroupId" : "String",
+          "actionOnMaintenance" : "String",
+          "dedicatedHostClusterId" : "String",
+          "dedicatedHostType" : "String",
+          "autoRenewPeriod" : 1,
+          "period" : 1,
+          "quantity" : 1,
+          "dedicatedHostName" : "String",
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "autoReleaseTime" : "String",
+          "ownerId" : 1,
+          "periodUnit" : "String",
+          "autoRenew" : true,
+          "networkAttributesSlbUdpTimeout" : 1,
+          "zoneId" : "String",
+          "autoPlacement" : "String",
+          "chargeType" : "String",
+          "networkAttributesUdpTimeout" : 1
+        }
+      }
+    }
+  }
+}

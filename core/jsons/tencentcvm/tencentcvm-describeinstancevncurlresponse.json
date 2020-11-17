@@ -1,0 +1,18 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "tencentcvm-describeinstancevncurlresponse"
+  },
+  "type" : "TencentCVM",
+  "spec" : {
+    "describeInstanceVncUrlResponse" : {
+      "lifecycle" : {
+        "describeInstanceVncUrlResponse" : {
+          "InstanceVncUrl" : "String",
+          "RequestId" : "String"
+        }
+      }
+    }
+  }
+}

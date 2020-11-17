@@ -1,0 +1,49 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-describedisksrequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "describeDisksRequest" : {
+      "lifecycle" : {
+        "describeDisksRequest" : {
+          "resourceOwnerId" : 1,
+          "filter2Value" : "String",
+          "autoSnapshotPolicyId" : "String",
+          "diskName" : "String",
+          "deleteAutoSnapshot" : true,
+          "resourceGroupId" : "String",
+          "diskChargeType" : "String",
+          "lockReason" : "String",
+          "filter1Key" : "String",
+          "enableAutoSnapshot" : true,
+          "dryRun" : true,
+          "filter1Value" : "String",
+          "portable" : true,
+          "ownerId" : 1,
+          "instanceId" : "String",
+          "zoneId" : "String",
+          "maxResults" : 1,
+          "status" : "String",
+          "snapshotId" : "String",
+          "pageNumber" : 1,
+          "nextToken" : "String",
+          "pageSize" : 1,
+          "diskIds" : "String",
+          "deleteWithInstance" : true,
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "enableAutomatedSnapshotPolicy" : true,
+          "filter2Key" : "String",
+          "diskType" : "String",
+          "enableShared" : true,
+          "encrypted" : true,
+          "category" : "String",
+          "kMSKeyId" : "String"
+        }
+      }
+    }
+  }
+}

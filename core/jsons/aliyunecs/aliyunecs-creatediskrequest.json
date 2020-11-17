@@ -1,0 +1,36 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-creatediskrequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "createDiskRequest" : {
+      "lifecycle" : {
+        "createDiskRequest" : {
+          "resourceOwnerId" : 1,
+          "snapshotId" : "String",
+          "clientToken" : "String",
+          "encryptAlgorithm" : "String",
+          "description" : "String",
+          "diskName" : "String",
+          "resourceGroupId" : "String",
+          "diskCategory" : "String",
+          "storageSetPartitionNumber" : 1,
+          "advancedFeatures" : "String",
+          "resourceOwnerAccount" : "String",
+          "performanceLevel" : "String",
+          "ownerAccount" : "String",
+          "ownerId" : 1,
+          "instanceId" : "String",
+          "storageSetId" : "String",
+          "size" : 1,
+          "encrypted" : true,
+          "zoneId" : "String",
+          "kMSKeyId" : "String"
+        }
+      }
+    }
+  }
+}

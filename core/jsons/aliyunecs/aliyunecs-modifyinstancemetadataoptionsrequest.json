@@ -1,0 +1,23 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-modifyinstancemetadataoptionsrequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "modifyInstanceMetadataOptionsRequest" : {
+      "lifecycle" : {
+        "modifyInstanceMetadataOptionsRequest" : {
+          "resourceOwnerId" : 1,
+          "httpPutResponseHopLimit" : 1,
+          "httpEndpoint" : "String",
+          "resourceOwnerAccount" : "String",
+          "ownerId" : 1,
+          "instanceId" : "String",
+          "httpTokens" : "String"
+        }
+      }
+    }
+  }
+}

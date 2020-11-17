@@ -1,0 +1,21 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-unassignipv6addressesrequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "unassignIpv6AddressesRequest" : {
+      "lifecycle" : {
+        "unassignIpv6AddressesRequest" : {
+          "resourceOwnerId" : 1,
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "ownerId" : 1,
+          "networkInterfaceId" : "String"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "tencentcvm-localdisktype"
+  },
+  "type" : "TencentCVM",
+  "spec" : {
+    "localDiskType" : {
+      "lifecycle" : {
+        "localDiskType" : {
+          "Type" : "String",
+          "PartitionType" : "String",
+          "MinSize" : 1,
+          "MaxSize" : 1,
+          "Required" : "String"
+        }
+      }
+    }
+  }
+}

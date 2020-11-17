@@ -1,0 +1,23 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "tencentcvm-reservedinstancepriceitem"
+  },
+  "type" : "TencentCVM",
+  "spec" : {
+    "reservedInstancePriceItem" : {
+      "lifecycle" : {
+        "reservedInstancePriceItem" : {
+          "OfferingType" : "String",
+          "FixedPrice" : 1,
+          "UsagePrice" : 1,
+          "ReservedInstancesOfferingId" : "String",
+          "Zone" : "String",
+          "Duration" : 1,
+          "ProductDescription" : "String"
+        }
+      }
+    }
+  }
+}

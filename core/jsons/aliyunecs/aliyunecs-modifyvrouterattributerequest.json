@@ -1,0 +1,23 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-modifyvrouterattributerequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "modifyVRouterAttributeRequest" : {
+      "lifecycle" : {
+        "modifyVRouterAttributeRequest" : {
+          "resourceOwnerId" : 1,
+          "vRouterId" : "String",
+          "description" : "String",
+          "vRouterName" : "String",
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "ownerId" : 1
+        }
+      }
+    }
+  }
+}

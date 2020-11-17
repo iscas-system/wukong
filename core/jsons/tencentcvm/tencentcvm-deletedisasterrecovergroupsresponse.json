@@ -1,0 +1,17 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "tencentcvm-deletedisasterrecovergroupsresponse"
+  },
+  "type" : "TencentCVM",
+  "spec" : {
+    "deleteDisasterRecoverGroupsResponse" : {
+      "lifecycle" : {
+        "deleteDisasterRecoverGroupsResponse" : {
+          "RequestId" : "String"
+        }
+      }
+    }
+  }
+}

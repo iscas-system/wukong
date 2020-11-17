@@ -1,0 +1,24 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-describediskmonitordatarequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "describeDiskMonitorDataRequest" : {
+      "lifecycle" : {
+        "describeDiskMonitorDataRequest" : {
+          "resourceOwnerId" : 1,
+          "startTime" : "String",
+          "diskId" : "String",
+          "period" : 1,
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "endTime" : "String",
+          "ownerId" : 1
+        }
+      }
+    }
+  }
+}

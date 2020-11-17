@@ -1,0 +1,18 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "baidubce-modifyinstancedescrequest"
+  },
+  "type" : "BaiduBCE",
+  "spec" : {
+    "modifyInstanceDescRequest" : {
+      "lifecycle" : {
+        "modifyInstanceDescRequest" : {
+          "instanceId" : "String",
+          "desc" : "String"
+        }
+      }
+    }
+  }
+}

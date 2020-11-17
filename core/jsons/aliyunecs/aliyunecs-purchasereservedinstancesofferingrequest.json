@@ -1,0 +1,32 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-purchasereservedinstancesofferingrequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "purchaseReservedInstancesOfferingRequest" : {
+      "lifecycle" : {
+        "purchaseReservedInstancesOfferingRequest" : {
+          "resourceOwnerId" : 1,
+          "clientToken" : "String",
+          "description" : "String",
+          "platform" : "String",
+          "resourceGroupId" : "String",
+          "scope" : "String",
+          "instanceType" : "String",
+          "period" : 1,
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "ownerId" : 1,
+          "periodUnit" : "String",
+          "offeringType" : "String",
+          "zoneId" : "String",
+          "reservedInstanceName" : "String",
+          "instanceAmount" : 1
+        }
+      }
+    }
+  }
+}

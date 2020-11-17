@@ -1,0 +1,19 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "baidubce-createasprequest"
+  },
+  "type" : "BaiduBCE",
+  "spec" : {
+    "createAspRequest" : {
+      "lifecycle" : {
+        "createAspRequest" : {
+          "clientToken" : "String",
+          "name" : "String",
+          "retentionDays" : "String"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-getinstanceconsoleoutputrequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "getInstanceConsoleOutputRequest" : {
+      "lifecycle" : {
+        "getInstanceConsoleOutputRequest" : {
+          "resourceOwnerId" : 1,
+          "removeSymbols" : true,
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "ownerId" : 1,
+          "instanceId" : "String"
+        }
+      }
+    }
+  }
+}

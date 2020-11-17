@@ -1,0 +1,21 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-attachclassiclinkvpcrequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "attachClassicLinkVpcRequest" : {
+      "lifecycle" : {
+        "attachClassicLinkVpcRequest" : {
+          "resourceOwnerId" : 1,
+          "resourceOwnerAccount" : "String",
+          "ownerId" : 1,
+          "instanceId" : "String",
+          "vpcId" : "String"
+        }
+      }
+    }
+  }
+}

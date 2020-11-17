@@ -1,0 +1,23 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-deletedemandrequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "deleteDemandRequest" : {
+      "lifecycle" : {
+        "deleteDemandRequest" : {
+          "reason" : "String",
+          "resourceOwnerId" : 1,
+          "clientToken" : "String",
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "ownerId" : 1,
+          "demandId" : "String"
+        }
+      }
+    }
+  }
+}

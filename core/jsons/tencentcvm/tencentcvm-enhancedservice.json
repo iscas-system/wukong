@@ -1,0 +1,15 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "tencentcvm-enhancedservice"
+  },
+  "type" : "TencentCVM",
+  "spec" : {
+    "enhancedService" : {
+      "lifecycle" : {
+        "enhancedService" : { }
+      }
+    }
+  }
+}

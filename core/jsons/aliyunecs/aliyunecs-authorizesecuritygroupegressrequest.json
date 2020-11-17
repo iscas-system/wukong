@@ -1,0 +1,36 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-authorizesecuritygroupegressrequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "authorizeSecurityGroupEgressRequest" : {
+      "lifecycle" : {
+        "authorizeSecurityGroupEgressRequest" : {
+          "nicType" : "String",
+          "resourceOwnerId" : 1,
+          "sourcePortRange" : "String",
+          "clientToken" : "String",
+          "securityGroupId" : "String",
+          "description" : "String",
+          "ipv6DestCidrIp" : "String",
+          "ipv6SourceCidrIp" : "String",
+          "policy" : "String",
+          "portRange" : "String",
+          "resourceOwnerAccount" : "String",
+          "ipProtocol" : "String",
+          "ownerAccount" : "String",
+          "sourceCidrIp" : "String",
+          "destGroupId" : "String",
+          "ownerId" : 1,
+          "destGroupOwnerAccount" : "String",
+          "priority" : "String",
+          "destCidrIp" : "String",
+          "destGroupOwnerId" : 1
+        }
+      }
+    }
+  }
+}

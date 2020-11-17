@@ -1,0 +1,17 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "tencentcvm-inquirypricerenewinstancesresponse"
+  },
+  "type" : "TencentCVM",
+  "spec" : {
+    "inquiryPriceRenewInstancesResponse" : {
+      "lifecycle" : {
+        "inquiryPriceRenewInstancesResponse" : {
+          "RequestId" : "String"
+        }
+      }
+    }
+  }
+}

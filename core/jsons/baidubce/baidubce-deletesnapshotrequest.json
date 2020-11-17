@@ -1,0 +1,17 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "baidubce-deletesnapshotrequest"
+  },
+  "type" : "BaiduBCE",
+  "spec" : {
+    "deleteSnapshotRequest" : {
+      "lifecycle" : {
+        "deleteSnapshotRequest" : {
+          "snapshotId" : "String"
+        }
+      }
+    }
+  }
+}

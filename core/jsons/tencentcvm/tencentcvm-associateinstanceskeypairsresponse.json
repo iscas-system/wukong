@@ -1,0 +1,17 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "tencentcvm-associateinstanceskeypairsresponse"
+  },
+  "type" : "TencentCVM",
+  "spec" : {
+    "associateInstancesKeyPairsResponse" : {
+      "lifecycle" : {
+        "associateInstancesKeyPairsResponse" : {
+          "RequestId" : "String"
+        }
+      }
+    }
+  }
+}

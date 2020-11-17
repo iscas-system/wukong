@@ -1,0 +1,29 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-modifyinstancenetworkspecrequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "modifyInstanceNetworkSpecRequest" : {
+      "lifecycle" : {
+        "modifyInstanceNetworkSpecRequest" : {
+          "resourceOwnerId" : 1,
+          "clientToken" : "String",
+          "internetMaxBandwidthOut" : 1,
+          "startTime" : "String",
+          "autoPay" : true,
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "endTime" : "String",
+          "ownerId" : 1,
+          "instanceId" : "String",
+          "networkChargeType" : "String",
+          "internetMaxBandwidthIn" : 1,
+          "allocatePublicIp" : true
+        }
+      }
+    }
+  }
+}

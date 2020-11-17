@@ -1,0 +1,28 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-modifydedicatedhostschargetyperequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "modifyDedicatedHostsChargeTypeRequest" : {
+      "lifecycle" : {
+        "modifyDedicatedHostsChargeTypeRequest" : {
+          "dedicatedHostIds" : "String",
+          "resourceOwnerId" : 1,
+          "clientToken" : "String",
+          "dedicatedHostChargeType" : "String",
+          "period" : 1,
+          "dryRun" : true,
+          "autoPay" : true,
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "ownerId" : 1,
+          "detailFee" : true,
+          "periodUnit" : "String"
+        }
+      }
+    }
+  }
+}

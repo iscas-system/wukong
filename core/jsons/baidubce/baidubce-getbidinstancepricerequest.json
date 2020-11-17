@@ -1,0 +1,36 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "baidubce-getbidinstancepricerequest"
+  },
+  "type" : "BaiduBCE",
+  "spec" : {
+    "getBidInstancePriceRequest" : {
+      "lifecycle" : {
+        "getBidInstancePriceRequest" : {
+          "clientToken" : "String",
+          "instanceType" : "String",
+          "cpuCount" : 1,
+          "memoryCapacityInGB" : 1,
+          "rootDiskSizeInGb" : 1,
+          "rootDiskStorageType" : "String",
+          "purchaseCount" : 1,
+          "name" : "String",
+          "adminPass" : "String",
+          "keypairId" : "String",
+          "aspId" : "String",
+          "imageId" : "String",
+          "bidModel" : "String",
+          "bidPrice" : "String",
+          "networkCapacityInMbps" : 1,
+          "relationTag" : true,
+          "securityGroupId" : "String",
+          "subnetId" : "String",
+          "zoneName" : "String",
+          "internetChargeType" : "String"
+        }
+      }
+    }
+  }
+}

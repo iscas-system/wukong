@@ -1,0 +1,19 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "tencentcvm-regioninfo"
+  },
+  "type" : "TencentCVM",
+  "spec" : {
+    "regionInfo" : {
+      "lifecycle" : {
+        "regionInfo" : {
+          "Region" : "String",
+          "RegionName" : "String",
+          "RegionState" : "String"
+        }
+      }
+    }
+  }
+}

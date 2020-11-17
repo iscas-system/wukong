@@ -1,0 +1,25 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-modifydiskchargetyperequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "modifyDiskChargeTypeRequest" : {
+      "lifecycle" : {
+        "modifyDiskChargeTypeRequest" : {
+          "resourceOwnerId" : 1,
+          "clientToken" : "String",
+          "diskChargeType" : "String",
+          "diskIds" : "String",
+          "autoPay" : true,
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "ownerId" : 1,
+          "instanceId" : "String"
+        }
+      }
+    }
+  }
+}

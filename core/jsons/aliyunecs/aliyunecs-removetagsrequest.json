@@ -1,0 +1,21 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-removetagsrequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "removeTagsRequest" : {
+      "lifecycle" : {
+        "removeTagsRequest" : {
+          "resourceOwnerId" : 1,
+          "resourceId" : "String",
+          "resourceOwnerAccount" : "String",
+          "ownerId" : 1,
+          "resourceType" : "String"
+        }
+      }
+    }
+  }
+}

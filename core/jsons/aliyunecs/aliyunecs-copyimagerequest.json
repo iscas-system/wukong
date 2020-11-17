@@ -1,0 +1,28 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-copyimagerequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "copyImageRequest" : {
+      "lifecycle" : {
+        "copyImageRequest" : {
+          "resourceOwnerId" : 1,
+          "imageId" : "String",
+          "encryptAlgorithm" : "String",
+          "destinationRegionId" : "String",
+          "resourceGroupId" : "String",
+          "resourceOwnerAccount" : "String",
+          "destinationImageName" : "String",
+          "ownerAccount" : "String",
+          "ownerId" : 1,
+          "encrypted" : true,
+          "kMSKeyId" : "String",
+          "destinationDescription" : "String"
+        }
+      }
+    }
+  }
+}

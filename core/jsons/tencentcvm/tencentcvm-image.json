@@ -1,0 +1,30 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "tencentcvm-image"
+  },
+  "type" : "TencentCVM",
+  "spec" : {
+    "image" : {
+      "lifecycle" : {
+        "image" : {
+          "ImageId" : "String",
+          "OsName" : "String",
+          "ImageType" : "String",
+          "CreatedTime" : "String",
+          "ImageName" : "String",
+          "ImageDescription" : "String",
+          "ImageSize" : 1,
+          "Architecture" : "String",
+          "ImageState" : "String",
+          "Platform" : "String",
+          "ImageCreator" : "String",
+          "ImageSource" : "String",
+          "SyncPercent" : 1,
+          "IsSupportCloudinit" : true
+        }
+      }
+    }
+  }
+}

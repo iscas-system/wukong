@@ -1,0 +1,25 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-createrouteentryrequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "createRouteEntryRequest" : {
+      "lifecycle" : {
+        "createRouteEntryRequest" : {
+          "resourceOwnerId" : 1,
+          "clientToken" : "String",
+          "nextHopId" : "String",
+          "nextHopType" : "String",
+          "routeTableId" : "String",
+          "resourceOwnerAccount" : "String",
+          "destinationCidrBlock" : "String",
+          "ownerAccount" : "String",
+          "ownerId" : 1
+        }
+      }
+    }
+  }
+}

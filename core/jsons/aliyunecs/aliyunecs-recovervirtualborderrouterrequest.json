@@ -1,0 +1,23 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-recovervirtualborderrouterrequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "recoverVirtualBorderRouterRequest" : {
+      "lifecycle" : {
+        "recoverVirtualBorderRouterRequest" : {
+          "resourceOwnerId" : 1,
+          "clientToken" : "String",
+          "vbrId" : "String",
+          "userCidr" : "String",
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "ownerId" : 1
+        }
+      }
+    }
+  }
+}

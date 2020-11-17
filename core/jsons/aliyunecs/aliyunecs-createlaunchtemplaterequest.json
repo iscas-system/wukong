@@ -1,0 +1,56 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-createlaunchtemplaterequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "createLaunchTemplateRequest" : {
+      "lifecycle" : {
+        "createLaunchTemplateRequest" : {
+          "launchTemplateName" : "String",
+          "resourceOwnerId" : 1,
+          "securityEnhancementStrategy" : "String",
+          "networkType" : "String",
+          "keyPairName" : "String",
+          "spotPriceLimit" : 1,
+          "imageOwnerAlias" : "String",
+          "resourceGroupId" : "String",
+          "hostName" : "String",
+          "systemDiskIops" : 1,
+          "period" : 1,
+          "templateResourceGroupId" : "String",
+          "ownerId" : 1,
+          "vSwitchId" : "String",
+          "spotStrategy" : "String",
+          "instanceName" : "String",
+          "internetChargeType" : "String",
+          "zoneId" : "String",
+          "internetMaxBandwidthIn" : 1,
+          "versionDescription" : "String",
+          "imageId" : "String",
+          "ioOptimized" : "String",
+          "securityGroupId" : "String",
+          "internetMaxBandwidthOut" : 1,
+          "description" : "String",
+          "systemDiskCategory" : "String",
+          "userData" : "String",
+          "passwordInherit" : true,
+          "instanceType" : "String",
+          "instanceChargeType" : "String",
+          "enableVmOsConfig" : true,
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "systemDiskDiskName" : "String",
+          "ramRoleName" : "String",
+          "autoReleaseTime" : "String",
+          "spotDuration" : 1,
+          "systemDiskSize" : 1,
+          "vpcId" : "String",
+          "systemDiskDescription" : "String"
+        }
+      }
+    }
+  }
+}

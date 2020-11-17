@@ -1,0 +1,23 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-deleterouterinterfacerequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "deleteRouterInterfaceRequest" : {
+      "lifecycle" : {
+        "deleteRouterInterfaceRequest" : {
+          "resourceOwnerId" : 1,
+          "clientToken" : "String",
+          "userCidr" : "String",
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "routerInterfaceId" : "String",
+          "ownerId" : 1
+        }
+      }
+    }
+  }
+}

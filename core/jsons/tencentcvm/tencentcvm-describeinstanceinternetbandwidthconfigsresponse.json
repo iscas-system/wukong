@@ -1,0 +1,17 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "tencentcvm-describeinstanceinternetbandwidthconfigsresponse"
+  },
+  "type" : "TencentCVM",
+  "spec" : {
+    "describeInstanceInternetBandwidthConfigsResponse" : {
+      "lifecycle" : {
+        "describeInstanceInternetBandwidthConfigsResponse" : {
+          "RequestId" : "String"
+        }
+      }
+    }
+  }
+}

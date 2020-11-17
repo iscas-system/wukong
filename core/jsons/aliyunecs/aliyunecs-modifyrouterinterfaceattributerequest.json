@@ -1,0 +1,28 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-modifyrouterinterfaceattributerequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "modifyRouterInterfaceAttributeRequest" : {
+      "lifecycle" : {
+        "modifyRouterInterfaceAttributeRequest" : {
+          "oppositeRouterId" : "String",
+          "resourceOwnerId" : 1,
+          "description" : "String",
+          "healthCheckTargetIp" : "String",
+          "oppositeInterfaceId" : "String",
+          "resourceOwnerAccount" : "String",
+          "ownerId" : 1,
+          "routerInterfaceId" : "String",
+          "oppositeInterfaceOwnerId" : 1,
+          "healthCheckSourceIp" : "String",
+          "name" : "String",
+          "oppositeRouterType" : "String"
+        }
+      }
+    }
+  }
+}

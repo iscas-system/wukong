@@ -1,0 +1,19 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "baidubce-keypairimportrequest"
+  },
+  "type" : "BaiduBCE",
+  "spec" : {
+    "keypairImportRequest" : {
+      "lifecycle" : {
+        "keypairImportRequest" : {
+          "name" : "String",
+          "description" : "String",
+          "publicKey" : "String"
+        }
+      }
+    }
+  }
+}

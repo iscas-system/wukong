@@ -1,0 +1,24 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-modifynetworkinterfaceattributerequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "modifyNetworkInterfaceAttributeRequest" : {
+      "lifecycle" : {
+        "modifyNetworkInterfaceAttributeRequest" : {
+          "queueNumber" : 1,
+          "resourceOwnerId" : 1,
+          "description" : "String",
+          "networkInterfaceName" : "String",
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "ownerId" : 1,
+          "networkInterfaceId" : "String"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "tencentcvm-inquirepricepurchasereservedinstancesofferingrequest"
+  },
+  "type" : "TencentCVM",
+  "spec" : {
+    "inquirePricePurchaseReservedInstancesOfferingRequest" : {
+      "lifecycle" : {
+        "inquirePricePurchaseReservedInstancesOfferingRequest" : {
+          "InstanceCount" : 1,
+          "ReservedInstancesOfferingId" : "String",
+          "DryRun" : true,
+          "ClientToken" : "String",
+          "ReservedInstanceName" : "String"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-addtagsrequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "addTagsRequest" : {
+      "lifecycle" : {
+        "addTagsRequest" : {
+          "resourceOwnerId" : 1,
+          "resourceId" : "String",
+          "resourceOwnerAccount" : "String",
+          "ownerId" : 1,
+          "resourceType" : "String"
+        }
+      }
+    }
+  }
+}

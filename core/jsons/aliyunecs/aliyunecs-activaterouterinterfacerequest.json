@@ -1,0 +1,20 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-activaterouterinterfacerequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "activateRouterInterfaceRequest" : {
+      "lifecycle" : {
+        "activateRouterInterfaceRequest" : {
+          "resourceOwnerId" : 1,
+          "resourceOwnerAccount" : "String",
+          "ownerId" : 1,
+          "routerInterfaceId" : "String"
+        }
+      }
+    }
+  }
+}

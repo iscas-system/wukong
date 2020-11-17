@@ -1,0 +1,17 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "baidubce-unbindtagsrequest"
+  },
+  "type" : "BaiduBCE",
+  "spec" : {
+    "unbindTagsRequest" : {
+      "lifecycle" : {
+        "unbindTagsRequest" : {
+          "instanceId" : "String"
+        }
+      }
+    }
+  }
+}

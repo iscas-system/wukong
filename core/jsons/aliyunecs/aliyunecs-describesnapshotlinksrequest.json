@@ -1,0 +1,25 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-describesnapshotlinksrequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "describeSnapshotLinksRequest" : {
+      "lifecycle" : {
+        "describeSnapshotLinksRequest" : {
+          "resourceOwnerId" : 1,
+          "pageNumber" : 1,
+          "pageSize" : 1,
+          "diskIds" : "String",
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "snapshotLinkIds" : "String",
+          "ownerId" : 1,
+          "instanceId" : "String"
+        }
+      }
+    }
+  }
+}

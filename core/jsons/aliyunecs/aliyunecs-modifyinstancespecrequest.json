@@ -1,0 +1,31 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-modifyinstancespecrequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "modifyInstanceSpecRequest" : {
+      "lifecycle" : {
+        "modifyInstanceSpecRequest" : {
+          "resourceOwnerId" : 1,
+          "clientToken" : "String",
+          "allowMigrateAcrossZone" : true,
+          "internetMaxBandwidthOut" : 1,
+          "systemDiskCategory" : "String",
+          "instanceType" : "String",
+          "temporaryEndTime" : "String",
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "ownerId" : 1,
+          "temporaryInternetMaxBandwidthOut" : 1,
+          "temporaryStartTime" : "String",
+          "async" : true,
+          "instanceId" : "String",
+          "internetMaxBandwidthIn" : 1
+        }
+      }
+    }
+  }
+}

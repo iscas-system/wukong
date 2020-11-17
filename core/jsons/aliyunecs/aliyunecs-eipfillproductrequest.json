@@ -1,0 +1,23 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-eipfillproductrequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "eipFillProductRequest" : {
+      "lifecycle" : {
+        "eipFillProductRequest" : {
+          "resourceOwnerId" : 1,
+          "data" : "String",
+          "clientToken" : "String",
+          "userCidr" : "String",
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "ownerId" : 1
+        }
+      }
+    }
+  }
+}

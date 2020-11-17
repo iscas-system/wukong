@@ -1,0 +1,27 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-describeresourcesmodificationrequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "describeResourcesModificationRequest" : {
+      "lifecycle" : {
+        "describeResourcesModificationRequest" : {
+          "resourceOwnerId" : 1,
+          "memory" : 1,
+          "cores" : 1,
+          "migrateAcrossZone" : true,
+          "instanceType" : "String",
+          "resourceId" : "String",
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "operationType" : "String",
+          "ownerId" : 1,
+          "destinationResource" : "String"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "tencentcvm-resizeinstancedisksrequest"
+  },
+  "type" : "TencentCVM",
+  "spec" : {
+    "resizeInstanceDisksRequest" : {
+      "lifecycle" : {
+        "resizeInstanceDisksRequest" : {
+          "InstanceId" : "String",
+          "ForceStop" : true
+        }
+      }
+    }
+  }
+}

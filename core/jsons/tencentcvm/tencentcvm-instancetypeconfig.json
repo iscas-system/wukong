@@ -1,0 +1,23 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "tencentcvm-instancetypeconfig"
+  },
+  "type" : "TencentCVM",
+  "spec" : {
+    "instanceTypeConfig" : {
+      "lifecycle" : {
+        "instanceTypeConfig" : {
+          "Zone" : "String",
+          "InstanceType" : "String",
+          "InstanceFamily" : "String",
+          "GPU" : 1,
+          "CPU" : 1,
+          "Memory" : 1,
+          "FPGA" : 1
+        }
+      }
+    }
+  }
+}

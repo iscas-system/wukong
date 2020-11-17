@@ -1,0 +1,17 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "tencentcvm-runsecurityserviceenabled"
+  },
+  "type" : "TencentCVM",
+  "spec" : {
+    "runSecurityServiceEnabled" : {
+      "lifecycle" : {
+        "runSecurityServiceEnabled" : {
+          "Enabled" : true
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-describeavailableresourcerequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "describeAvailableResourceRequest" : {
+      "lifecycle" : {
+        "describeAvailableResourceRequest" : {
+          "resourceOwnerId" : 1,
+          "memory" : 1,
+          "ioOptimized" : "String",
+          "dataDiskCategory" : "String",
+          "cores" : 1,
+          "systemDiskCategory" : "String",
+          "scope" : "String",
+          "instanceType" : "String",
+          "networkCategory" : "String",
+          "instanceChargeType" : "String",
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "dedicatedHostId" : "String",
+          "ownerId" : 1,
+          "spotDuration" : 1,
+          "resourceType" : "String",
+          "spotStrategy" : "String",
+          "destinationResource" : "String",
+          "zoneId" : "String"
+        }
+      }
+    }
+  }
+}

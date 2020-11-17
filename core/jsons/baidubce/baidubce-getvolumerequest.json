@@ -1,0 +1,17 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "baidubce-getvolumerequest"
+  },
+  "type" : "BaiduBCE",
+  "spec" : {
+    "getVolumeRequest" : {
+      "lifecycle" : {
+        "getVolumeRequest" : {
+          "volumeId" : "String"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "tencentcvm-tag"
+  },
+  "type" : "TencentCVM",
+  "spec" : {
+    "tag" : {
+      "lifecycle" : {
+        "tag" : {
+          "Key" : "String",
+          "Value" : "String"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "tencentcvm-systemdisk"
+  },
+  "type" : "TencentCVM",
+  "spec" : {
+    "systemDisk" : {
+      "lifecycle" : {
+        "systemDisk" : {
+          "DiskType" : "String",
+          "DiskId" : "String",
+          "DiskSize" : 1
+        }
+      }
+    }
+  }
+}

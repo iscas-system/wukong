@@ -1,0 +1,19 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "baidubce-stopinstancerequest"
+  },
+  "type" : "BaiduBCE",
+  "spec" : {
+    "stopInstanceRequest" : {
+      "lifecycle" : {
+        "stopInstanceRequest" : {
+          "instanceId" : "String",
+          "forceStop" : true,
+          "stopWithNoCharge" : true
+        }
+      }
+    }
+  }
+}

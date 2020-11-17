@@ -1,0 +1,22 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-modifyeipaddressattributerequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "modifyEipAddressAttributeRequest" : {
+      "lifecycle" : {
+        "modifyEipAddressAttributeRequest" : {
+          "resourceOwnerId" : 1,
+          "allocationId" : "String",
+          "resourceOwnerAccount" : "String",
+          "bandwidth" : "String",
+          "ownerAccount" : "String",
+          "ownerId" : 1
+        }
+      }
+    }
+  }
+}

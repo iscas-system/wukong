@@ -1,0 +1,28 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-createdeploymentsetrequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "createDeploymentSetRequest" : {
+      "lifecycle" : {
+        "createDeploymentSetRequest" : {
+          "resourceOwnerId" : 1,
+          "clientToken" : "String",
+          "description" : "String",
+          "groupCount" : 1,
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "deploymentSetName" : "String",
+          "ownerId" : 1,
+          "onUnableToRedeployFailedInstance" : "String",
+          "granularity" : "String",
+          "domain" : "String",
+          "strategy" : "String"
+        }
+      }
+    }
+  }
+}

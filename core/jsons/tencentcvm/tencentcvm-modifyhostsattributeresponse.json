@@ -1,0 +1,17 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "tencentcvm-modifyhostsattributeresponse"
+  },
+  "type" : "TencentCVM",
+  "spec" : {
+    "modifyHostsAttributeResponse" : {
+      "lifecycle" : {
+        "modifyHostsAttributeResponse" : {
+          "RequestId" : "String"
+        }
+      }
+    }
+  }
+}

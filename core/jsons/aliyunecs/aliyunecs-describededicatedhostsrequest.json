@@ -1,0 +1,29 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-describededicatedhostsrequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "describeDedicatedHostsRequest" : {
+      "lifecycle" : {
+        "describeDedicatedHostsRequest" : {
+          "dedicatedHostIds" : "String",
+          "resourceOwnerId" : 1,
+          "pageNumber" : 1,
+          "resourceGroupId" : "String",
+          "lockReason" : "String",
+          "pageSize" : 1,
+          "dedicatedHostType" : "String",
+          "dedicatedHostName" : "String",
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "ownerId" : 1,
+          "zoneId" : "String",
+          "status" : "String"
+        }
+      }
+    }
+  }
+}

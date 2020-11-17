@@ -1,0 +1,29 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-describespotpricehistoryrequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "describeSpotPriceHistoryRequest" : {
+      "lifecycle" : {
+        "describeSpotPriceHistoryRequest" : {
+          "resourceOwnerId" : 1,
+          "ioOptimized" : "String",
+          "networkType" : "String",
+          "startTime" : "String",
+          "instanceType" : "String",
+          "offset" : 1,
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "endTime" : "String",
+          "oSType" : "String",
+          "ownerId" : 1,
+          "spotDuration" : 1,
+          "zoneId" : "String"
+        }
+      }
+    }
+  }
+}

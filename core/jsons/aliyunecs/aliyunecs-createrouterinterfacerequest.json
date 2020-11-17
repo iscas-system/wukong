@@ -1,0 +1,41 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-createrouterinterfacerequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "createRouterInterfaceRequest" : {
+      "lifecycle" : {
+        "createRouterInterfaceRequest" : {
+          "accessPointId" : "String",
+          "oppositeRouterId" : "String",
+          "oppositeAccessPointId" : "String",
+          "resourceOwnerId" : 1,
+          "role" : "String",
+          "clientToken" : "String",
+          "healthCheckTargetIp" : "String",
+          "description" : "String",
+          "spec" : "String",
+          "userCidr" : "String",
+          "oppositeInterfaceId" : "String",
+          "instanceChargeType" : "String",
+          "period" : 1,
+          "autoPay" : true,
+          "resourceOwnerAccount" : "String",
+          "oppositeRegionId" : "String",
+          "ownerAccount" : "String",
+          "ownerId" : 1,
+          "oppositeInterfaceOwnerId" : "String",
+          "routerType" : "String",
+          "healthCheckSourceIp" : "String",
+          "routerId" : "String",
+          "oppositeRouterType" : "String",
+          "name" : "String",
+          "pricingCycle" : "String"
+        }
+      }
+    }
+  }
+}

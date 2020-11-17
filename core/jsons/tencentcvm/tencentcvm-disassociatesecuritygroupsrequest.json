@@ -1,0 +1,15 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "tencentcvm-disassociatesecuritygroupsrequest"
+  },
+  "type" : "TencentCVM",
+  "spec" : {
+    "disassociateSecurityGroupsRequest" : {
+      "lifecycle" : {
+        "disassociateSecurityGroupsRequest" : { }
+      }
+    }
+  }
+}

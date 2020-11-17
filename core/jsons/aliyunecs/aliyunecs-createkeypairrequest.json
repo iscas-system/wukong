@@ -1,0 +1,21 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-createkeypairrequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "createKeyPairRequest" : {
+      "lifecycle" : {
+        "createKeyPairRequest" : {
+          "resourceOwnerId" : 1,
+          "keyPairName" : "String",
+          "resourceGroupId" : "String",
+          "resourceOwnerAccount" : "String",
+          "ownerId" : 1
+        }
+      }
+    }
+  }
+}

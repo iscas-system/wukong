@@ -1,0 +1,19 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "baidubce-changeinstancesubnetrequest"
+  },
+  "type" : "BaiduBCE",
+  "spec" : {
+    "changeInstanceSubnetRequest" : {
+      "lifecycle" : {
+        "changeInstanceSubnetRequest" : {
+          "instanceId" : "String",
+          "subnetId" : "String",
+          "reboot" : true
+        }
+      }
+    }
+  }
+}

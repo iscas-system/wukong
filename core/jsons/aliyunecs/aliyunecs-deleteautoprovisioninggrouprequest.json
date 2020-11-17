@@ -1,0 +1,22 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-deleteautoprovisioninggrouprequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "deleteAutoProvisioningGroupRequest" : {
+      "lifecycle" : {
+        "deleteAutoProvisioningGroupRequest" : {
+          "resourceOwnerId" : 1,
+          "terminateInstances" : true,
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "ownerId" : 1,
+          "autoProvisioningGroupId" : "String"
+        }
+      }
+    }
+  }
+}

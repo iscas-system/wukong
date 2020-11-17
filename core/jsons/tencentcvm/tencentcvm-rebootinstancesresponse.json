@@ -1,0 +1,17 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "tencentcvm-rebootinstancesresponse"
+  },
+  "type" : "TencentCVM",
+  "spec" : {
+    "rebootInstancesResponse" : {
+      "lifecycle" : {
+        "rebootInstancesResponse" : {
+          "RequestId" : "String"
+        }
+      }
+    }
+  }
+}

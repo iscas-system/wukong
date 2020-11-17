@@ -1,0 +1,26 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "tencentcvm-hostitem"
+  },
+  "type" : "TencentCVM",
+  "spec" : {
+    "hostItem" : {
+      "lifecycle" : {
+        "hostItem" : {
+          "HostId" : "String",
+          "HostType" : "String",
+          "HostName" : "String",
+          "HostChargeType" : "String",
+          "RenewFlag" : "String",
+          "CreatedTime" : "String",
+          "ExpiredTime" : "String",
+          "HostState" : "String",
+          "HostIp" : "String",
+          "CageId" : "String"
+        }
+      }
+    }
+  }
+}

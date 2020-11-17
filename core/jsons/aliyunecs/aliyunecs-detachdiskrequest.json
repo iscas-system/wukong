@@ -1,0 +1,23 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-detachdiskrequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "detachDiskRequest" : {
+      "lifecycle" : {
+        "detachDiskRequest" : {
+          "resourceOwnerId" : 1,
+          "diskId" : "String",
+          "deleteWithInstance" : true,
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "ownerId" : 1,
+          "instanceId" : "String"
+        }
+      }
+    }
+  }
+}

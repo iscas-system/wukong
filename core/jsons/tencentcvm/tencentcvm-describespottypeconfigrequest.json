@@ -1,0 +1,15 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "tencentcvm-describespottypeconfigrequest"
+  },
+  "type" : "TencentCVM",
+  "spec" : {
+    "describeSpotTypeConfigRequest" : {
+      "lifecycle" : {
+        "describeSpotTypeConfigRequest" : { }
+      }
+    }
+  }
+}

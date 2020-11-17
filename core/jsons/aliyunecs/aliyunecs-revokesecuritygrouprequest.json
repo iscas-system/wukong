@@ -1,0 +1,36 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-revokesecuritygrouprequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "revokeSecurityGroupRequest" : {
+      "lifecycle" : {
+        "revokeSecurityGroupRequest" : {
+          "nicType" : "String",
+          "resourceOwnerId" : 1,
+          "sourcePortRange" : "String",
+          "clientToken" : "String",
+          "securityGroupId" : "String",
+          "description" : "String",
+          "sourceGroupOwnerId" : 1,
+          "sourceGroupOwnerAccount" : "String",
+          "ipv6DestCidrIp" : "String",
+          "ipv6SourceCidrIp" : "String",
+          "policy" : "String",
+          "portRange" : "String",
+          "resourceOwnerAccount" : "String",
+          "ipProtocol" : "String",
+          "ownerAccount" : "String",
+          "sourceCidrIp" : "String",
+          "ownerId" : 1,
+          "priority" : "String",
+          "destCidrIp" : "String",
+          "sourceGroupId" : "String"
+        }
+      }
+    }
+  }
+}

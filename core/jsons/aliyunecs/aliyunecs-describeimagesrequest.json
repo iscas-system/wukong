@@ -1,0 +1,38 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-describeimagesrequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "describeImagesRequest" : {
+      "lifecycle" : {
+        "describeImagesRequest" : {
+          "actionType" : "String",
+          "resourceOwnerId" : 1,
+          "imageId" : "String",
+          "snapshotId" : "String",
+          "usage" : "String",
+          "pageNumber" : 1,
+          "imageOwnerAlias" : "String",
+          "resourceGroupId" : "String",
+          "isSupportIoOptimized" : true,
+          "imageName" : "String",
+          "isSupportCloudinit" : true,
+          "pageSize" : 1,
+          "instanceType" : "String",
+          "architecture" : "String",
+          "dryRun" : true,
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "showExpired" : true,
+          "oSType" : "String",
+          "ownerId" : 1,
+          "imageFamily" : "String",
+          "status" : "String"
+        }
+      }
+    }
+  }
+}

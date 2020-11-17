@@ -1,0 +1,33 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "tencentcvm-instancetypequotaitem"
+  },
+  "type" : "TencentCVM",
+  "spec" : {
+    "instanceTypeQuotaItem" : {
+      "lifecycle" : {
+        "instanceTypeQuotaItem" : {
+          "Zone" : "String",
+          "InstanceType" : "String",
+          "InstanceChargeType" : "String",
+          "NetworkCard" : 1,
+          "Cpu" : 1,
+          "Memory" : 1,
+          "InstanceFamily" : "String",
+          "TypeName" : "String",
+          "Status" : "String",
+          "SoldOutReason" : "String",
+          "InstanceBandwidth" : 1,
+          "InstancePps" : 1,
+          "StorageBlockAmount" : 1,
+          "CpuType" : "String",
+          "Gpu" : 1,
+          "Fpga" : 1,
+          "Remark" : "String"
+        }
+      }
+    }
+  }
+}

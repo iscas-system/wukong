@@ -1,0 +1,28 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-modifyautosnapshotpolicyrequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "modifyAutoSnapshotPolicyRequest" : {
+      "lifecycle" : {
+        "modifyAutoSnapshotPolicyRequest" : {
+          "dataDiskPolicyEnabled" : true,
+          "resourceOwnerId" : 1,
+          "dataDiskPolicyRetentionDays" : 1,
+          "systemDiskPolicyRetentionLastWeek" : true,
+          "systemDiskPolicyRetentionDays" : 1,
+          "dataDiskPolicyTimePeriod" : 1,
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "systemDiskPolicyTimePeriod" : 1,
+          "ownerId" : 1,
+          "dataDiskPolicyRetentionLastWeek" : true,
+          "systemDiskPolicyEnabled" : true
+        }
+      }
+    }
+  }
+}

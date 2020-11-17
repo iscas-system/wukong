@@ -1,0 +1,21 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-applyautosnapshotpolicyrequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "applyAutoSnapshotPolicyRequest" : {
+      "lifecycle" : {
+        "applyAutoSnapshotPolicyRequest" : {
+          "resourceOwnerId" : 1,
+          "autoSnapshotPolicyId" : "String",
+          "diskIds" : "String",
+          "resourceOwnerAccount" : "String",
+          "ownerId" : 1
+        }
+      }
+    }
+  }
+}

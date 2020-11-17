@@ -1,0 +1,24 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-createnatgatewayrequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "createNatGatewayRequest" : {
+      "lifecycle" : {
+        "createNatGatewayRequest" : {
+          "resourceOwnerId" : 1,
+          "clientToken" : "String",
+          "description" : "String",
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "ownerId" : 1,
+          "vpcId" : "String",
+          "name" : "String"
+        }
+      }
+    }
+  }
+}

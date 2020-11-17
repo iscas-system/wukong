@@ -1,0 +1,17 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "baidubce-listsnapshotsrequest"
+  },
+  "type" : "BaiduBCE",
+  "spec" : {
+    "listSnapshotsRequest" : {
+      "lifecycle" : {
+        "listSnapshotsRequest" : {
+          "volumeId" : "String"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "baidubce-deletesecuritygrouprequest"
+  },
+  "type" : "BaiduBCE",
+  "spec" : {
+    "deleteSecurityGroupRequest" : {
+      "lifecycle" : {
+        "deleteSecurityGroupRequest" : {
+          "securityGroupId" : "String"
+        }
+      }
+    }
+  }
+}

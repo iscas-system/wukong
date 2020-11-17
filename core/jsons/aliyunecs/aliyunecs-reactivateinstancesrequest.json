@@ -1,0 +1,21 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-reactivateinstancesrequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "reActivateInstancesRequest" : {
+      "lifecycle" : {
+        "reActivateInstancesRequest" : {
+          "resourceOwnerId" : 1,
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "ownerId" : 1,
+          "instanceId" : "String"
+        }
+      }
+    }
+  }
+}

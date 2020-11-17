@@ -1,0 +1,24 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-renewinstancerequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "renewInstanceRequest" : {
+      "lifecycle" : {
+        "renewInstanceRequest" : {
+          "resourceOwnerId" : 1,
+          "clientToken" : "String",
+          "period" : 1,
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "ownerId" : 1,
+          "periodUnit" : "String",
+          "instanceId" : "String"
+        }
+      }
+    }
+  }
+}

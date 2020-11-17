@@ -1,0 +1,21 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-deletenatgatewayrequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "deleteNatGatewayRequest" : {
+      "lifecycle" : {
+        "deleteNatGatewayRequest" : {
+          "resourceOwnerId" : 1,
+          "natGatewayId" : "String",
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "ownerId" : 1
+        }
+      }
+    }
+  }
+}

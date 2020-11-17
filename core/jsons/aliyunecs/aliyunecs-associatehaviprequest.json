@@ -1,0 +1,23 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-associatehaviprequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "associateHaVipRequest" : {
+      "lifecycle" : {
+        "associateHaVipRequest" : {
+          "resourceOwnerId" : 1,
+          "clientToken" : "String",
+          "haVipId" : "String",
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "ownerId" : 1,
+          "instanceId" : "String"
+        }
+      }
+    }
+  }
+}

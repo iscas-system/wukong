@@ -1,0 +1,19 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "baidubce-changetoprepaidrequest"
+  },
+  "type" : "BaiduBCE",
+  "spec" : {
+    "changeToPrepaidRequest" : {
+      "lifecycle" : {
+        "changeToPrepaidRequest" : {
+          "instanceId" : "String",
+          "duration" : 1,
+          "relationCds" : true
+        }
+      }
+    }
+  }
+}

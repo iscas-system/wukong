@@ -1,0 +1,27 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-describeelasticityassurancesrequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "describeElasticityAssurancesRequest" : {
+      "lifecycle" : {
+        "describeElasticityAssurancesRequest" : {
+          "resourceOwnerId" : 1,
+          "platform" : "String",
+          "nextToken" : "String",
+          "instanceType" : "String",
+          "instanceChargeType" : "String",
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "ownerId" : 1,
+          "privatePoolOptionsIds" : "String",
+          "maxResults" : 1,
+          "zoneId" : "String"
+        }
+      }
+    }
+  }
+}

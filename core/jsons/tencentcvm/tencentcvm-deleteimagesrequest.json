@@ -1,0 +1,15 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "tencentcvm-deleteimagesrequest"
+  },
+  "type" : "TencentCVM",
+  "spec" : {
+    "deleteImagesRequest" : {
+      "lifecycle" : {
+        "deleteImagesRequest" : { }
+      }
+    }
+  }
+}

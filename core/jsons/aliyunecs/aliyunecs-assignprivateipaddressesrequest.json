@@ -1,0 +1,23 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-assignprivateipaddressesrequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "assignPrivateIpAddressesRequest" : {
+      "lifecycle" : {
+        "assignPrivateIpAddressesRequest" : {
+          "resourceOwnerId" : 1,
+          "clientToken" : "String",
+          "secondaryPrivateIpAddressCount" : 1,
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "ownerId" : 1,
+          "networkInterfaceId" : "String"
+        }
+      }
+    }
+  }
+}

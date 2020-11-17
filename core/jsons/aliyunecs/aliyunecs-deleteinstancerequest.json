@@ -1,0 +1,23 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-deleteinstancerequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "deleteInstanceRequest" : {
+      "lifecycle" : {
+        "deleteInstanceRequest" : {
+          "resourceOwnerId" : 1,
+          "terminateSubscription" : true,
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "ownerId" : 1,
+          "instanceId" : "String",
+          "force" : true
+        }
+      }
+    }
+  }
+}

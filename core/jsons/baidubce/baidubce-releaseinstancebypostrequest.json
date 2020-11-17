@@ -1,0 +1,19 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "baidubce-releaseinstancebypostrequest"
+  },
+  "type" : "BaiduBCE",
+  "spec" : {
+    "releaseInstanceByPostRequest" : {
+      "lifecycle" : {
+        "releaseInstanceByPostRequest" : {
+          "instanceId" : "String",
+          "relatedReleaseFlag" : true,
+          "deleteCdsSnapshotFlag" : true
+        }
+      }
+    }
+  }
+}

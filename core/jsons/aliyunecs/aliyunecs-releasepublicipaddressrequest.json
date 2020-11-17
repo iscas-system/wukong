@@ -1,0 +1,22 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-releasepublicipaddressrequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "releasePublicIpAddressRequest" : {
+      "lifecycle" : {
+        "releasePublicIpAddressRequest" : {
+          "resourceOwnerId" : 1,
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "ownerId" : 1,
+          "publicIpAddress" : "String",
+          "instanceId" : "String"
+        }
+      }
+    }
+  }
+}

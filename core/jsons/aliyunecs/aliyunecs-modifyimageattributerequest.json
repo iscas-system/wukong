@@ -1,0 +1,26 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-modifyimageattributerequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "modifyImageAttributeRequest" : {
+      "lifecycle" : {
+        "modifyImageAttributeRequest" : {
+          "resourceOwnerId" : 1,
+          "imageId" : "String",
+          "description" : "String",
+          "bootMode" : "String",
+          "imageName" : "String",
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "ownerId" : 1,
+          "imageFamily" : "String",
+          "status" : "String"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-modifydiskattributerequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "modifyDiskAttributeRequest" : {
+      "lifecycle" : {
+        "modifyDiskAttributeRequest" : {
+          "resourceOwnerId" : 1,
+          "description" : "String",
+          "diskName" : "String",
+          "deleteAutoSnapshot" : true,
+          "diskId" : "String",
+          "deleteWithInstance" : true,
+          "enableAutoSnapshot" : true,
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "ownerId" : 1
+        }
+      }
+    }
+  }
+}

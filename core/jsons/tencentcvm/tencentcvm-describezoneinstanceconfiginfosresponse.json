@@ -1,0 +1,17 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "tencentcvm-describezoneinstanceconfiginfosresponse"
+  },
+  "type" : "TencentCVM",
+  "spec" : {
+    "describeZoneInstanceConfigInfosResponse" : {
+      "lifecycle" : {
+        "describeZoneInstanceConfigInfosResponse" : {
+          "RequestId" : "String"
+        }
+      }
+    }
+  }
+}

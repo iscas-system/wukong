@@ -1,0 +1,40 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-createautoprovisioninggrouprequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "createAutoProvisioningGroupRequest" : {
+      "lifecycle" : {
+        "createAutoProvisioningGroupRequest" : {
+          "resourceOwnerId" : 1,
+          "autoProvisioningGroupType" : "String",
+          "description" : "String",
+          "terminateInstancesWithExpiration" : true,
+          "resourceGroupId" : "String",
+          "spotAllocationStrategy" : "String",
+          "terminateInstances" : true,
+          "payAsYouGoAllocationStrategy" : "String",
+          "defaultTargetCapacityType" : "String",
+          "excessCapacityTerminationPolicy" : "String",
+          "validUntil" : "String",
+          "spotInstanceInterruptionBehavior" : "String",
+          "launchTemplateId" : "String",
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "spotInstancePoolsToUseCount" : 1,
+          "ownerId" : 1,
+          "launchTemplateVersion" : "String",
+          "payAsYouGoTargetCapacity" : "String",
+          "totalTargetCapacity" : "String",
+          "spotTargetCapacity" : "String",
+          "validFrom" : "String",
+          "autoProvisioningGroupName" : "String",
+          "maxSpotPrice" : 1
+        }
+      }
+    }
+  }
+}

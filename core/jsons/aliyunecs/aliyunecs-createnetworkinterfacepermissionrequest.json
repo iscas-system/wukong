@@ -1,0 +1,23 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-createnetworkinterfacepermissionrequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "createNetworkInterfacePermissionRequest" : {
+      "lifecycle" : {
+        "createNetworkInterfacePermissionRequest" : {
+          "resourceOwnerId" : 1,
+          "accountId" : 1,
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "permission" : "String",
+          "ownerId" : 1,
+          "networkInterfaceId" : "String"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "baidubce-listinstancesrequest"
+  },
+  "type" : "BaiduBCE",
+  "spec" : {
+    "listInstancesRequest" : {
+      "lifecycle" : {
+        "listInstancesRequest" : {
+          "internalIp" : "String",
+          "dedicatedHostId" : "String",
+          "zoneName" : "String",
+          "keypairId" : "String",
+          "autoRenew" : true
+        }
+      }
+    }
+  }
+}

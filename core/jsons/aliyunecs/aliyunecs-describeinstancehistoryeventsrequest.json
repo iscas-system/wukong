@@ -1,0 +1,30 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-describeinstancehistoryeventsrequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "describeInstanceHistoryEventsRequest" : {
+      "lifecycle" : {
+        "describeInstanceHistoryEventsRequest" : {
+          "resourceOwnerId" : 1,
+          "eventCycleStatus" : "String",
+          "pageNumber" : 1,
+          "impactLevel" : "String",
+          "pageSize" : 1,
+          "eventPublishTimeEnd" : "String",
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "notBeforeStart" : "String",
+          "ownerId" : 1,
+          "eventPublishTimeStart" : "String",
+          "instanceId" : "String",
+          "notBeforeEnd" : "String",
+          "eventType" : "String"
+        }
+      }
+    }
+  }
+}

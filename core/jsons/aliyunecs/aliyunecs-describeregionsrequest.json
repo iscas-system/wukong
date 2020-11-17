@@ -1,0 +1,23 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-describeregionsrequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "describeRegionsRequest" : {
+      "lifecycle" : {
+        "describeRegionsRequest" : {
+          "resourceOwnerId" : 1,
+          "instanceChargeType" : "String",
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "ownerId" : 1,
+          "resourceType" : "String",
+          "acceptLanguage" : "String"
+        }
+      }
+    }
+  }
+}

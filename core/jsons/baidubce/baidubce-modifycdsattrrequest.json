@@ -1,0 +1,19 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "baidubce-modifycdsattrrequest"
+  },
+  "type" : "BaiduBCE",
+  "spec" : {
+    "modifyCdsAttrRequest" : {
+      "lifecycle" : {
+        "modifyCdsAttrRequest" : {
+          "cdsId" : "String",
+          "cdsName" : "String",
+          "desc" : "String"
+        }
+      }
+    }
+  }
+}

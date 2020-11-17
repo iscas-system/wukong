@@ -1,0 +1,23 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-createhpcclusterrequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "createHpcClusterRequest" : {
+      "lifecycle" : {
+        "createHpcClusterRequest" : {
+          "resourceOwnerId" : 1,
+          "clientToken" : "String",
+          "description" : "String",
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "ownerId" : 1,
+          "name" : "String"
+        }
+      }
+    }
+  }
+}

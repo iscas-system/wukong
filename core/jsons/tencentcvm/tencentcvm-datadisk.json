@@ -1,0 +1,23 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "tencentcvm-datadisk"
+  },
+  "type" : "TencentCVM",
+  "spec" : {
+    "dataDisk" : {
+      "lifecycle" : {
+        "dataDisk" : {
+          "DiskSize" : 1,
+          "DiskType" : "String",
+          "DiskId" : "String",
+          "DeleteWithInstance" : true,
+          "SnapshotId" : "String",
+          "Encrypt" : true,
+          "KmsKeyId" : "String"
+        }
+      }
+    }
+  }
+}

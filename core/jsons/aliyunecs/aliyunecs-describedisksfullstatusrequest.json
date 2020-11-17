@@ -1,0 +1,27 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-describedisksfullstatusrequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "describeDisksFullStatusRequest" : {
+      "lifecycle" : {
+        "describeDisksFullStatusRequest" : {
+          "resourceOwnerId" : 1,
+          "pageNumber" : 1,
+          "eventTimeStart" : "String",
+          "pageSize" : 1,
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "ownerId" : 1,
+          "eventTimeEnd" : "String",
+          "healthStatus" : "String",
+          "eventType" : "String",
+          "status" : "String"
+        }
+      }
+    }
+  }
+}

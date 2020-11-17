@@ -1,0 +1,30 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-createimagerequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "createImageRequest" : {
+      "lifecycle" : {
+        "createImageRequest" : {
+          "resourceOwnerId" : 1,
+          "snapshotId" : "String",
+          "clientToken" : "String",
+          "description" : "String",
+          "platform" : "String",
+          "resourceGroupId" : "String",
+          "imageName" : "String",
+          "architecture" : "String",
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "ownerId" : 1,
+          "instanceId" : "String",
+          "imageFamily" : "String",
+          "imageVersion" : "String"
+        }
+      }
+    }
+  }
+}

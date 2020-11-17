@@ -1,0 +1,24 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-reportinstancesstatusrequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "reportInstancesStatusRequest" : {
+      "lifecycle" : {
+        "reportInstancesStatusRequest" : {
+          "reason" : "String",
+          "resourceOwnerId" : 1,
+          "description" : "String",
+          "startTime" : "String",
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "endTime" : "String",
+          "ownerId" : 1
+        }
+      }
+    }
+  }
+}

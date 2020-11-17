@@ -1,0 +1,22 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-createsimulatedsystemeventsrequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "createSimulatedSystemEventsRequest" : {
+      "lifecycle" : {
+        "createSimulatedSystemEventsRequest" : {
+          "resourceOwnerId" : 1,
+          "notBefore" : "String",
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "ownerId" : 1,
+          "eventType" : "String"
+        }
+      }
+    }
+  }
+}

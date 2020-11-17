@@ -1,0 +1,22 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-startinstancesrequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "startInstancesRequest" : {
+      "lifecycle" : {
+        "startInstancesRequest" : {
+          "resourceOwnerId" : 1,
+          "batchOptimization" : "String",
+          "dryRun" : true,
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "ownerId" : 1
+        }
+      }
+    }
+  }
+}

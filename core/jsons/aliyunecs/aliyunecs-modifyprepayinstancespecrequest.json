@@ -1,0 +1,30 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-modifyprepayinstancespecrequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "modifyPrepayInstanceSpecRequest" : {
+      "lifecycle" : {
+        "modifyPrepayInstanceSpecRequest" : {
+          "resourceOwnerId" : 1,
+          "clientToken" : "String",
+          "operatorType" : "String",
+          "systemDiskCategory" : "String",
+          "rebootTime" : "String",
+          "migrateAcrossZone" : true,
+          "instanceType" : "String",
+          "autoPay" : true,
+          "rebootWhenFinished" : true,
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "endTime" : "String",
+          "ownerId" : 1,
+          "instanceId" : "String"
+        }
+      }
+    }
+  }
+}

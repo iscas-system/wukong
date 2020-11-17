@@ -1,0 +1,21 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-describeinstanceattributerequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "describeInstanceAttributeRequest" : {
+      "lifecycle" : {
+        "describeInstanceAttributeRequest" : {
+          "resourceOwnerId" : 1,
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "ownerId" : 1,
+          "instanceId" : "String"
+        }
+      }
+    }
+  }
+}

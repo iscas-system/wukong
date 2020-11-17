@@ -1,0 +1,18 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "baidubce-renamevolumerequest"
+  },
+  "type" : "BaiduBCE",
+  "spec" : {
+    "renameVolumeRequest" : {
+      "lifecycle" : {
+        "renameVolumeRequest" : {
+          "volumeId" : "String",
+          "name" : "String"
+        }
+      }
+    }
+  }
+}

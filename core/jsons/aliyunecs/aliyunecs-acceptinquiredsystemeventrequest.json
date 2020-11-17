@@ -1,0 +1,21 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-acceptinquiredsystemeventrequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "acceptInquiredSystemEventRequest" : {
+      "lifecycle" : {
+        "acceptInquiredSystemEventRequest" : {
+          "eventId" : "String",
+          "resourceOwnerId" : 1,
+          "resourceOwnerAccount" : "String",
+          "ownerAccount" : "String",
+          "ownerId" : 1
+        }
+      }
+    }
+  }
+}

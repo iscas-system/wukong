@@ -1,0 +1,19 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "baidubce-rebuildbatchinstancerequest"
+  },
+  "type" : "BaiduBCE",
+  "spec" : {
+    "rebuildBatchInstanceRequest" : {
+      "lifecycle" : {
+        "rebuildBatchInstanceRequest" : {
+          "imageId" : "String",
+          "keypairId" : "String",
+          "adminPass" : "String"
+        }
+      }
+    }
+  }
+}

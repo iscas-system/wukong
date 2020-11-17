@@ -1,0 +1,19 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "tencentcvm-storageblock"
+  },
+  "type" : "TencentCVM",
+  "spec" : {
+    "storageBlock" : {
+      "lifecycle" : {
+        "storageBlock" : {
+          "Type" : "String",
+          "MinSize" : 1,
+          "MaxSize" : 1
+        }
+      }
+    }
+  }
+}

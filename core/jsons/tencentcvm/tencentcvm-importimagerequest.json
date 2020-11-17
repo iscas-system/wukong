@@ -1,0 +1,24 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "tencentcvm-importimagerequest"
+  },
+  "type" : "TencentCVM",
+  "spec" : {
+    "importImageRequest" : {
+      "lifecycle" : {
+        "importImageRequest" : {
+          "Architecture" : "String",
+          "OsType" : "String",
+          "OsVersion" : "String",
+          "ImageUrl" : "String",
+          "ImageName" : "String",
+          "ImageDescription" : "String",
+          "DryRun" : true,
+          "Force" : true
+        }
+      }
+    }
+  }
+}

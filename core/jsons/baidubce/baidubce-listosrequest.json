@@ -1,0 +1,17 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "baidubce-listosrequest"
+  },
+  "type" : "BaiduBCE",
+  "spec" : {
+    "listOsRequest" : {
+      "lifecycle" : {
+        "listOsRequest" : {
+          "clientToken" : "String"
+        }
+      }
+    }
+  }
+}

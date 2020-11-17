@@ -1,0 +1,18 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "baidubce-cancelautorenewvolumerequest"
+  },
+  "type" : "BaiduBCE",
+  "spec" : {
+    "cancelAutoRenewVolumeRequest" : {
+      "lifecycle" : {
+        "cancelAutoRenewVolumeRequest" : {
+          "clientToken" : "String",
+          "volumeId" : "String"
+        }
+      }
+    }
+  }
+}

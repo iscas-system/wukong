@@ -1,0 +1,23 @@
+{
+  "apiVersion" : "cloudplus.io/v1alpha3",
+  "kind" : "Template",
+  "metadata" : {
+    "name" : "aliyunecs-deleterouteentryrequest"
+  },
+  "type" : "AliyunECS",
+  "spec" : {
+    "deleteRouteEntryRequest" : {
+      "lifecycle" : {
+        "deleteRouteEntryRequest" : {
+          "resourceOwnerId" : 1,
+          "nextHopId" : "String",
+          "routeTableId" : "String",
+          "resourceOwnerAccount" : "String",
+          "destinationCidrBlock" : "String",
+          "ownerAccount" : "String",
+          "ownerId" : 1
+        }
+      }
+    }
+  }
+}
