@@ -103,6 +103,7 @@ public class CloudGenerator {
 	 * @throws Exception             exception
 	 */
 	protected void buildCodes(File rootDir) throws Exception {
+		System.out.println(rootDir.getAbsolutePath());
 		String os = System.getProperty("os.name");
 		if (os.toLowerCase().trim().startsWith("win")) {
 			buildWinLocal(rootDir);
