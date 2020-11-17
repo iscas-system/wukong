@@ -22,8 +22,8 @@ spec:
         - key: node-role.kubernetes.io/master
           effect: NoSchedule
       containers:
-      - name: "kube-api-mapper"
-        image: "registry.cn-beijing.aliyuncs.com/doslab/wukong-http:v1.0.0-amd64"
+      - name: "wukong-http"
+        image: "registry.cn-beijing.aliyuncs.com/doslab/wukong-http:v1.3.0-amd64"
         imagePullPolicy: "IfNotPresent"
         env:
         - name: kubeUrl
@@ -34,6 +34,13 @@ spec:
         - "java"
         - "-jar"
         - "wukong-http.jar"
+        volumeMounts: 
+        - name: "plugs"
+          mountPath: "/home/wukong-http/lib"
+      volumes: 
+      - name: "plugs"
+        hostPath:
+          path: "/var/lib/dos/wukong/lib"
 ---
 apiVersion: v1
 kind: Service
@@ -45,9 +52,9 @@ metadata:
 spec:
   type: NodePort
   ports:
-  - port: 8080
+  - port: 31100
     protocol: TCP
-    targetPort: 8080
+    targetPort: 31100
     name: wukong-http
     nodePort: 31100
   selector:

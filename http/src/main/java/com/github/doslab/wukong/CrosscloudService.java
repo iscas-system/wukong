@@ -103,6 +103,7 @@ public class CrosscloudService extends HttpBodyHandler {
 								lifecycle.get(key).toPrettyString(), analyser.getData(key)));
 	}
 
+	
 	public String getStatus() {
 		return "Ready";
 	}

@@ -93,7 +93,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>com.github.webfrk.ApplicationServer</mainClass>
+							<mainClass>com.github.doslab.wukong.Command</mainClass>
 						</manifest>
 						<manifestEntries>
 							<Class-Path>.</Class-Path>

@@ -20,7 +20,7 @@
             "image": "registry.cn-beijing.aliyuncs.com/doslab/wukong-kube:v1.3.0-amd64",
             "command": [
               "java",
-              "jar",
+              "-jar",
               "wukong-kube.jar",
               "ACCOUNTNAME",
               "CMDNAME"
