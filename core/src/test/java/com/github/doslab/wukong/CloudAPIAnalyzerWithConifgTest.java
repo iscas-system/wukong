@@ -28,7 +28,7 @@ public class CloudAPIAnalyzerWithConifgTest {
 	 ***************************************************************/
 	
 	
-	static String type = "TencentCVM";
+	static String type = "AliyunECS";
 	
 	public static void main(String[] args) throws Exception {
 		
@@ -39,7 +39,7 @@ public class CloudAPIAnalyzerWithConifgTest {
 		}
 		
 		CloudMetadata ccm = new ObjectMapper().readValue(
-							new File("conf/vm/tencent-cvm.json"), 
+							new File("conf/vm/aliyun-ecs.json"), 
 							CloudMetadata.class);
 		CloudAPIAnalyzer cmd = new CloudAPIAnalyzer(ccm, new CloudClassloader(ccm));
 		Map<String, JsonNode> nodes = cmd.extractCloudAPIs();
