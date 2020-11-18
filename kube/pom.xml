@@ -5,14 +5,14 @@
 
 	<groupId>com.github.dos-lab</groupId>
 	<artifactId>wukong-kube</artifactId>
-	<version>1.4.0</version>
+	<version>1.6.0</version>
 	<packaging>jar</packaging>
 
 	<name>wukong</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
-		<wukong-core-version>1.5.0</wukong-core-version>
+		<wukong-core-version>1.6.0</wukong-core-version>
 		<kubernetes-client-version>2.5.0</kubernetes-client-version>
 		<java.version>1.8</java.version>
 	</properties>
