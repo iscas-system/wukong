@@ -103,7 +103,6 @@ public class CloudGenerator {
 	 * @throws Exception             exception
 	 */
 	protected void buildCodes(File rootDir) throws Exception {
-		System.out.println(rootDir.getAbsolutePath());
 		String os = System.getProperty("os.name");
 		if (os.toLowerCase().trim().startsWith("win")) {
 			buildWinLocal(rootDir);
@@ -117,8 +116,9 @@ public class CloudGenerator {
 	 * @throws Exception             exception
 	 */
 	protected void buildWinLocal(File rootDir) throws Exception {
-		
-		Process p = Runtime.getRuntime().exec("cmd /c cd " + rootDir.getAbsolutePath() + " && mvn clean install");
+		String cmd = "cmd /c cd " + rootDir.getAbsolutePath() + " && mvn clean install";
+		System.out.println(cmd);
+		Process p = Runtime.getRuntime().exec(cmd);
 		print(p.getInputStream());
 		print(p.getErrorStream());
 	}
@@ -128,27 +128,12 @@ public class CloudGenerator {
 	 * @throws Exception             exception
 	 */
 	protected void builUNIXLocal(File rootDir) throws Exception {
-		
-		Process p = Runtime.getRuntime().exec("/usr/bin/cd " + rootDir.getAbsolutePath() + " && /usr/bin/mvn clean install");
+		String cmd = "bash /usr/bin/build.sh " + rootDir.getAbsolutePath();
+		System.out.println(cmd);
+		Process p = Runtime.getRuntime().exec(cmd);
 		print(p.getInputStream());
 		print(p.getErrorStream());
 	}
-
-//	/**
-//	 * @param rootDir                rootDir
-//	 * @throws Exception             exception
-//	 */
-//	protected void buildUsingDocker(File rootDir) throws Exception {
-//		File jarFile = new File(rootDir, CloudConstants.TARGET_DIR + CloudConstants.JAR_NAME_PREFIX
-//				+ ccm.getKind().toLowerCase() +"-" + ccm.getVersion() + "-" + CloudConstants.JAR_NAME_POSTFIX);
-//		
-//		if (!jarFile.exists()) {
-//			Process p = Runtime.getRuntime().exec(CloudConstants.CMD_PREFIX + rootDir.getAbsolutePath() + CloudConstants.CMD_POSTFIX);
-//			print(p.getInputStream());
-//			print(p.getErrorStream());
-//		} 
-//		
-//	}
 
 	protected String toDependencies(List<Dependency> deps) {
 		StringBuilder sb = new StringBuilder();
