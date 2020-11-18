@@ -23,7 +23,7 @@ spec:
           effect: NoSchedule
       containers:
       - name: "wukong-http"
-        image: "registry.cn-beijing.aliyuncs.com/doslab/wukong-http:v1.3.0-amd64"
+        image: "registry.cn-beijing.aliyuncs.com/doslab/wukong-http:v1.6.0-amd64"
         imagePullPolicy: "IfNotPresent"
         env:
         - name: kubeUrl
