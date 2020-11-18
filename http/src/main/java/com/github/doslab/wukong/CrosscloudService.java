@@ -9,6 +9,8 @@ import java.util.Map;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.node.ArrayNode;
+import com.fasterxml.jackson.databind.node.ObjectNode;
 import com.github.kubesys.httpfrk.core.HttpBodyHandler;
 import com.github.kubesys.tools.annotations.ServiceDefinition;
 import com.github.kubesys.tools.annotations.api.CatalogDescriber;
@@ -103,6 +105,56 @@ public class CrosscloudService extends HttpBodyHandler {
 								lifecycle.get(key).toPrettyString(), analyser.getData(key)));
 	}
 
+	public JsonNode execDiff(@ParamDescriber(required = true, 
+			desc = "描述代码生成的一些信息",
+			regexp = "JSON",
+			example = "描述代码生成的一些信息")
+			CloudMetadata v1, 
+			@ParamDescriber(required = true, 
+			desc = "描述代码生成的一些信息",
+			regexp = "JSON",
+			example = "描述代码生成的一些信息")
+			CloudMetadata v2) throws Exception {
+		
+		CloudClassloader lv1 = new CloudClassloader(v1);
+		CloudAPIAnalyzer av1 = new CloudAPIAnalyzer(v1, lv1);
+		Map<String, JsonNode> mv1 =  av1.extractCloudAPIs();
+		
+		CloudClassloader lv2 = new CloudClassloader(v2);
+		CloudAPIAnalyzer av2 = new CloudAPIAnalyzer(v2, lv2);
+		Map<String, JsonNode> mv2 =  av2.extractCloudAPIs();
+		
+		ObjectNode json = new ObjectMapper().createObjectNode();
+		
+		ArrayNode newAPI = new ObjectMapper().createArrayNode();
+		for (String api : mv2.keySet()) {
+			if (!mv1.containsKey(api)) {
+				newAPI.add(api);
+			}
+		}
+		json.set("newAPI", newAPI);
+		
+		ArrayNode depreactedAPI = new ObjectMapper().createArrayNode();
+		for (String api : mv1.keySet()) {
+			if (!mv2.containsKey(api)) {
+				depreactedAPI.add(api);
+			}
+		}
+		json.set("depreactedAPI", depreactedAPI);
+		
+		ObjectNode changedAPI = new ObjectMapper().createObjectNode();
+		for (String api : mv1.keySet()) {
+			if (!mv1.get(api).equals(mv2.get(api))) {
+				ObjectNode node = new ObjectMapper().createObjectNode();
+				node.set(v1.getVersion(), mv1.get(api));
+				node.set(v2.getVersion(), mv2.get(api));
+				changedAPI.set(api, node);
+			}
+		}
+		json.set("changedAPI", changedAPI);
+		
+		return json;
+	}
 	
 	public String getStatus() {
 		return "Ready";
