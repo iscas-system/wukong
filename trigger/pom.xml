@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.github.dos-lab</groupId>
-	<artifactId>wukong-core</artifactId>
+	<artifactId>wukong-trigger</artifactId>
 	<version>2.0.0</version>
 	<packaging>jar</packaging>
 
@@ -12,17 +12,25 @@
 	<url>http://maven.apache.org</url>
 
 	<properties>
-		<jackson.version>2.12.1</jackson.version>
+		<httpclient.version>4.5.13</httpclient.version>
+		<postgre.version>42.2.19</postgre.version>
 	</properties>
 
 	<dependencies>
-		<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core -->
+		<!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
 		<dependency>
-			<groupId>com.fasterxml.jackson.core</groupId>
-			<artifactId>jackson-databind</artifactId>
-			<version>${jackson.version}</version>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+			<version>${httpclient.version}</version>
 		</dependency>
 		
+		<!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<version>${postgre.version}</version>
+		</dependency>
+
 		<!-- https://mvnrepository.com/artifact/com.aliyun/aliyun-java-sdk-core -->
 		<!-- <dependency>
 			<groupId>com.aliyun</groupId>
