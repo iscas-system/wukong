@@ -17,10 +17,13 @@ import com.github.doslab.wukong.utils.SQLUtils;
  **/
 public abstract class AbstractAnalyzer {
 
-	protected final PreparedStatement ps;
+	protected  PreparedStatement ps;
 	
 	public AbstractAnalyzer() throws Exception {
-		this.ps = createStatement(SQLUtils.createConn());
+		try {
+			this.ps = createStatement(SQLUtils.createConn());
+		} catch (Exception ex) {
+		}
 	}
 
 	public PreparedStatement createStatement(Connection conn) throws Exception {

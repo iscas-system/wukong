@@ -46,6 +46,12 @@
 			<version>${postgre.version}</version>
 		</dependency>
 
+		<dependency>
+			<groupId>com.github.dos-lab</groupId>
+			<artifactId>wukong-core</artifactId>
+			<version>2.0.0</version>
+		</dependency>
+
 		<!-- https://mvnrepository.com/artifact/com.aliyun/aliyun-java-sdk-core -->
 		<!-- <dependency> <groupId>com.aliyun</groupId> <artifactId>aliyun-java-sdk-core</artifactId> 
 			<version>4.5.16</version> </dependency> -->
@@ -91,6 +97,9 @@
 				<artifactId>maven-assembly-plugin</artifactId>
 				<configuration>
 					<archive>
+						<manifest>
+							<mainClass>com.github.doslab.wukong.Main</mainClass>
+						</manifest>
 						<manifestEntries>
 							<Class-Path>.</Class-Path>
 						</manifestEntries>
@@ -168,4 +177,20 @@
 		</plugins>
 	</build>
 
+	<profiles>
+		<profile>
+			<id>sonar</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+			<properties>
+				<sonar.jdbc.url>jdbc:postgresql://39.106.40.190:30306/sonar</sonar.jdbc.url>
+				<sonar.jdbc.username>postgres</sonar.jdbc.username>
+				<sonar.jdbc.password>onceas</sonar.jdbc.password>
+				<sonar.host.url>http://39.106.40.190:31041</sonar.host.url>
+				<sonar.login>admin</sonar.login>
+				<sonar.password>admin123</sonar.password>
+			</properties>
+		</profile>
+	</profiles>
 </project>

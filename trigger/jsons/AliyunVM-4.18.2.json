@@ -1,5 +1,5 @@
 {
-  "version" : "2.0.0",
+  "version" : "4.18.2",
   "kind" : "AliyunVM",
   "client" : "com.aliyuncs.DefaultAcsClient",
   "initClient" : "new com.aliyuncs.DefaultAcsClient(com.aliyuncs.profile.DefaultProfile.getProfile(map.get(\"zone\"), map.get(\"accessKey\"), map.get(\"secretKey\")));",

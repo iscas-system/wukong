@@ -99,7 +99,7 @@ public class GenerateConfigAnalyzer extends AbstractAnalyzer {
 					
 					
 					ObjectNode node =  new ObjectMapper().createObjectNode();
-					node.put("version", "2.0.0");
+					node.put("version", version);
 					node.put("kind", json.get(groupId).get("name").asText());
 					node.put("client", json.get(groupId).get("client").asText());
 					node.put("initClient", json.get(groupId).get("initClient").asText());

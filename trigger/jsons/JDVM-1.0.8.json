@@ -1,5 +1,5 @@
 {
-  "version" : "2.0.0",
+  "version" : "1.0.8",
   "kind" : "JDVM",
   "client" : "com.jdcloud.sdk.service.vm.client.VmClient",
   "initClient" : "com.jdcloud.sdk.service.vm.client.VmClient.builder().credentialsProvider(new com.jdcloud.sdk.auth.StaticCredentialsProvider(map.get(\"accessKey\"), map.get(\"secretKey\"))).build();",
