@@ -24,17 +24,18 @@
 		</dependency>
 		
 		<!-- https://mvnrepository.com/artifact/com.aliyun/aliyun-java-sdk-core -->
-		<!-- <dependency>
+		<dependency>
 			<groupId>com.aliyun</groupId>
 			<artifactId>aliyun-java-sdk-core</artifactId>
 			<version>4.5.16</version>
-		</dependency> -->
+		</dependency>
+		
 		<!-- https://mvnrepository.com/artifact/com.aliyun/aliyun-java-sdk-ecs -->
-		<!-- <dependency>
+		<dependency>
 			<groupId>com.aliyun</groupId>
 			<artifactId>aliyun-java-sdk-ecs</artifactId>
 			<version>4.22.0</version>
-		</dependency> -->
+		</dependency>
 
 	</dependencies>
 

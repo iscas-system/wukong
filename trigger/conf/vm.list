@@ -1,0 +1,22 @@
+{
+  "com.baidubce": {
+    "name": "BaiduVM",
+    "client": "com.baidubce.services.bcc.BccClient",
+    "initClient": "new com.baidubce.services.bcc.BccClient(new com.baidubce.BceClientConfiguration().withCredentials(new com.baidubce.auth.DefaultBceCredentials(map.get(\"accessKey\"), map.get(\"secretKey\"))));"
+  },
+  "com.aliyun": {
+    "name": "AliyunVM",
+    "client": "com.aliyuncs.DefaultAcsClient",
+    "initClient": "new com.aliyuncs.DefaultAcsClient(com.aliyuncs.profile.DefaultProfile.getProfile(map.get(\"zone\"), map.get(\"accessKey\"), map.get(\"secretKey\")));"
+  },
+  "com.tencentcloudapi": {
+    "name": "TencentVM",
+    "client": "com.tencentcloudapi.cvm.v20170312.CvmClient",
+    "initClient": "new com.tencentcloudapi.cvm.v20170312.CvmClient(new com.tencentcloudapi.common.Credential(map.get(\"accessKey\"), map.get(\"secretKey\")) , map.get(\"zone\"));"
+  },
+  "com.jdcloud.sdk": {
+    "name": "JDVM",
+    "client": "com.jdcloud.sdk.service.vm.client.VmClient",
+    "initClient": "com.jdcloud.sdk.service.vm.client.VmClient.builder().credentialsProvider(new com.jdcloud.sdk.auth.StaticCredentialsProvider(map.get(\"accessKey\"), map.get(\"secretKey\"))).build();"
+  }
+}

@@ -12,18 +12,33 @@
 	<url>http://maven.apache.org</url>
 
 	<properties>
+		<jackson.version>2.12.1</jackson.version>
 		<httpclient.version>4.5.13</httpclient.version>
 		<postgre.version>42.2.19</postgre.version>
 	</properties>
 
 	<dependencies>
+		<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<version>${jackson.version}</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-xml -->
+		<dependency>
+			<groupId>com.fasterxml.jackson.dataformat</groupId>
+			<artifactId>jackson-dataformat-xml</artifactId>
+			<version>${jackson.version}</version>
+		</dependency>
+
 		<!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
 		<dependency>
 			<groupId>org.apache.httpcomponents</groupId>
 			<artifactId>httpclient</artifactId>
 			<version>${httpclient.version}</version>
 		</dependency>
-		
+
 		<!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
 		<dependency>
 			<groupId>org.postgresql</groupId>
@@ -32,17 +47,11 @@
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/com.aliyun/aliyun-java-sdk-core -->
-		<!-- <dependency>
-			<groupId>com.aliyun</groupId>
-			<artifactId>aliyun-java-sdk-core</artifactId>
-			<version>4.5.16</version>
-		</dependency> -->
+		<!-- <dependency> <groupId>com.aliyun</groupId> <artifactId>aliyun-java-sdk-core</artifactId> 
+			<version>4.5.16</version> </dependency> -->
 		<!-- https://mvnrepository.com/artifact/com.aliyun/aliyun-java-sdk-ecs -->
-		<!-- <dependency>
-			<groupId>com.aliyun</groupId>
-			<artifactId>aliyun-java-sdk-ecs</artifactId>
-			<version>4.22.0</version>
-		</dependency> -->
+		<!-- <dependency> <groupId>com.aliyun</groupId> <artifactId>aliyun-java-sdk-ecs</artifactId> 
+			<version>4.22.0</version> </dependency> -->
 
 	</dependencies>
 

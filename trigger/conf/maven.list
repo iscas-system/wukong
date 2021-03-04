@@ -1,10 +1,10 @@
 com.aliyun=aliyun-java-sdk-core
 com.aliyun=aliyun-java-sdk-ecs
 com.baidubce=bce-java-sdk
-com.jdcloud.sdk=vm
-com.jdcloud.sdk=core
 com.tencentcloudapi=tencentcloud-sdk-java
-com.amazonaws=aws-java-sdk-ec2
 com.qingcloud=qingcloud-sdk-java
+com.jdcloud.sdk=core
+com.jdcloud.sdk=vm
+com.amazonaws=aws-java-sdk-ec2
 com.google.apis=google-api-services-compute
 com.microsoft.azure=azure

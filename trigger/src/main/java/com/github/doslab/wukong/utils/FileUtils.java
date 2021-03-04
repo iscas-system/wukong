@@ -6,6 +6,7 @@ package com.github.doslab.wukong.utils;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
+import java.io.FileWriter;
 
 /**
  * 
@@ -20,5 +21,10 @@ public class FileUtils {
 		return new BufferedReader(new FileReader(new File(file)));
 	}
 
+	public static void write(File file, String content) throws Exception {
+		FileWriter fw = new FileWriter(file);
+		fw.write(content);
+		fw.close();
+	}
 	
 }

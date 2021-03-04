@@ -1,0 +1,15 @@
+{
+  "version" : "2.0.0",
+  "kind" : "JDVM",
+  "client" : "com.jdcloud.sdk.service.vm.client.VmClient",
+  "initClient" : "com.jdcloud.sdk.service.vm.client.VmClient.builder().credentialsProvider(new com.jdcloud.sdk.auth.StaticCredentialsProvider(map.get(\"accessKey\"), map.get(\"secretKey\"))).build();",
+  "dependency" : [ {
+    "groupId" : "com.jdcloud.sdk",
+    "artifactId" : "vm",
+    "version" : "0.7.5"
+  }, {
+    "groupId" : "com.jdcloud.sdk",
+    "artifactId" : "core",
+    "version" : "2.2.2"
+  } ]
+}

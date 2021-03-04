@@ -4,16 +4,10 @@
 package com.github.doslab.wukong;
 
 import java.io.BufferedReader;
-import java.io.IOException;
 import java.io.InputStreamReader;
-import java.net.URI;
-import java.sql.Connection;
-import java.sql.PreparedStatement;
 import java.sql.Timestamp;
 
 import org.apache.http.HttpEntity;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.impl.client.CloseableHttpClient;
 
 import com.github.doslab.wukong.utils.FileUtils;
 import com.github.doslab.wukong.utils.HttpUtils;
@@ -92,6 +86,5 @@ public class NewVersionAnalyzer extends AbstractAnalyzer {
 	public String sql() {
 		return "INSERT INTO versions(groupid,artifactid,version,release) values(?,?,?,?)";
 	}
-
 
 }
