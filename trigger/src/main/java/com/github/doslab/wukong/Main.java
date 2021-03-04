@@ -17,24 +17,24 @@ public class Main {
 			usage();
 			System.exit(1);
 		}
-		
+
 		int num = Integer.parseInt(args[0]);
-		switch(num){
-	    case 1 :
-	       new NewVersionAnalyzer().analyse();
-	       break; //可选
-	    case 2 :
-	       new GenerateConfigAnalyzer().analyse();
-	       break; //可选
-	    case 3 :
-		   new GenerateCloudletAnalyzer().analyse();
-		   break; //可选
-	    case 4 :
-		   new NewAPIAnalyzer().analyse();    //语句
-		   break; //可选
-	    default : //可选
-	       usage();
-	}
+		switch (num) {
+		case 1:
+			new NewVersionAnalyzer().analyse();
+			break;
+		case 2:
+			new GenerateConfigAnalyzer().analyse();
+			break;
+		case 3:
+			new GenerateCloudletAnalyzer().analyse();
+			break;
+		case 4:
+			new NewAPIAnalyzer().analyse();
+			break;
+		default:
+			usage();
+		}
 	}
 
 	private static void usage() {
