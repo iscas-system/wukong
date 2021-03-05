@@ -42,7 +42,7 @@ public class Main {
 		System.out.println("\t1:" + NewVersionAnalyzer.class.getSimpleName());
 		System.out.println("\t2:" + GenerateConfigAnalyzer.class.getSimpleName());
 		System.out.println("\t3:" + GenerateCloudletAnalyzer.class.getSimpleName());
-		System.out.println("\t3:" + NewAPIAnalyzer.class.getSimpleName());
+		System.out.println("\t4:" + NewAPIAnalyzer.class.getSimpleName());
 	}
 
 }
