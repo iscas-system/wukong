@@ -5,12 +5,14 @@ package com.github.doslab.wukong;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.sql.PreparedStatement;
 import java.sql.Timestamp;
 
 import org.apache.http.HttpEntity;
 
 import com.github.doslab.wukong.utils.FileUtils;
 import com.github.doslab.wukong.utils.HttpUtils;
+import com.github.doslab.wukong.utils.SQLUtils;
 
 /**
  * @author wuheng@otcaix.iscas.ac.cn
@@ -44,8 +46,8 @@ public class NewVersionAnalyzer extends AbstractAnalyzer {
 			String artifactId = strs[1];
 			String fullUrl = MAVEN_URL_PREFIX + groupId.replace(".", "/") + "/" + artifactId;
 			doAnalyse(groupId, artifactId, HttpUtils.getResponse(fullUrl));
-			
 		}
+		SQLUtils.closeConn(conn);
 		
 	}
 
@@ -58,6 +60,7 @@ public class NewVersionAnalyzer extends AbstractAnalyzer {
 						&& fullline.indexOf("..") == -1 
 						&& fullline.indexOf("xml") == -1) {
 				try {
+					PreparedStatement ps = createStatement(conn);
 					int stx = fullline.indexOf("\"");
 					int edx = fullline.indexOf("/\"");
 					String version = fullline.substring(stx + 1, edx);
@@ -66,16 +69,17 @@ public class NewVersionAnalyzer extends AbstractAnalyzer {
 					ps.setString(2, artifactId);
 					ps.setString(3, version);
 					
-					
 					String[] splits = datatime.split("-");
 					ps.setTimestamp(4, new Timestamp(
 							Integer.parseInt(splits[0].trim()) - 1900, 
 							Integer.parseInt(splits[1].trim()), 
 							Integer.parseInt(splits[2].trim()), 
 							0, 0, 0, 0));
-					ps.executeUpdate();
 					System.out.println("insert " + groupId + "," + artifactId + "," + version);
+					ps.executeUpdate();
+					ps.close();
 				} catch (Exception ex) {
+					System.out.println(ex);
 					break;
 				}
 			}

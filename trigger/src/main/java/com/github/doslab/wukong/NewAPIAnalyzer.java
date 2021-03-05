@@ -4,10 +4,12 @@
 package com.github.doslab.wukong;
 
 import java.io.File;
+import java.sql.PreparedStatement;
 import java.util.Map;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.github.doslab.wukong.utils.SQLUtils;
 
 /**
  * @author wuheng@otcaix.iscas.ac.cn
@@ -36,6 +38,7 @@ public class NewAPIAnalyzer extends AbstractAnalyzer {
 				Map<String, JsonNode> nodes = cmd.extractCloudAPIs();
 				for (String key : nodes.keySet()) {
 					try {
+						PreparedStatement ps = createStatement(conn);
 						ps.setString(1, ccm.kind);
 						String artifactId = ccm.getDependency().get(0).getArtifactId();
 						ps.setString(2, artifactId);
@@ -44,6 +47,7 @@ public class NewAPIAnalyzer extends AbstractAnalyzer {
 						ps.setString(4, key.toLowerCase());
 						ps.setInt(5, 0);
 						ps.executeUpdate();
+						ps.close();
 						System.out.println("insert " + ccm.kind + "," + version + "," + key.toLowerCase());
 					} catch (Exception ex) {
 						System.out.println(ex);
@@ -57,12 +61,12 @@ public class NewAPIAnalyzer extends AbstractAnalyzer {
 			}
 
 		}
-
+		SQLUtils.closeConn(conn);
 	}
 
 	@Override
 	public String sql() {
-		return "INSERT INTO apis(provider, artifactId, version, operator, used) values(?,?,?,?,?)";
+		return "INSERT INTO apis(provider, artifactid, version, operator, used) values(?,?,?,?,?)";
 	}
 
 }

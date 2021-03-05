@@ -25,4 +25,8 @@ public class SQLUtils {
 						"onceas" : System.getenv("password"));
 	}
 	
+	public static void closeConn(Connection conn) throws Exception {
+		conn.close();
+	}
+	
 }
