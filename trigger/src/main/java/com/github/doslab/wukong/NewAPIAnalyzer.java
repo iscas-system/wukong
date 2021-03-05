@@ -45,7 +45,8 @@ public class NewAPIAnalyzer extends AbstractAnalyzer {
 					ps.executeUpdate();
 					System.out.println("insert " + ccm.kind + "," + version + "," + key.toLowerCase());
 				} catch (Exception ex) {
-					ex.printStackTrace();
+					System.out.println(ex);
+					break;
 				}
 
 			}
