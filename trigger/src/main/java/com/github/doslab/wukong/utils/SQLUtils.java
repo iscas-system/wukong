@@ -19,7 +19,7 @@ public class SQLUtils {
 	public static Connection createConn() throws Exception {
 		Class.forName("org.postgresql.Driver").newInstance();
 		String url = System.getenv("jdbc") != null ? System.getenv("jdbc") 
-					: "jdbc:postgresql://124.70.64.232:30306/knowledge";
+					: "jdbc:postgresql://ip:port/knowledge";
 		return DriverManager.getConnection(url, "postgres", 
 					System.getenv("password") == null ? 
 						"onceas" : System.getenv("password"));
