@@ -23,48 +23,34 @@ public class Command  {
 	}
 	
 	public static void register(CloudMetadata ccm) throws Exception {
-		String type = ccm.getKind().toLowerCase();
-		
-		File root = new File("jsons", type);
-		
-		if (!root.exists()) {
-			root.mkdirs();
-		}
 		
 		CloudAPIAnalyzer cmd = new CloudAPIAnalyzer(ccm, new CloudClassloader(ccm));
 		Map<String, JsonNode> nodes = cmd.extractCloudAPIs();
 		for (String key: nodes.keySet()) {
 			ObjectNode json = new ObjectMapper().createObjectNode();
-			json.put("apiVersion", "cloudplus.io/v1alpha3");
-			json.put("kind", "Template");
+			json.put("apiVersion", "doslab.io/v1");
+			json.put("kind", "Api");
 			
 			ObjectNode meta = new ObjectMapper().createObjectNode();
-			meta.put("name", type.toLowerCase() + "-" + key.toLowerCase());
+			meta.put("name", ccm.getKind().toLowerCase() + "-" + key.toLowerCase());
 			json.set("metadata", meta);
-			json.put("type", type);
+			json.put("type", ccm.getKind());
 			
 			ObjectNode spec = new ObjectMapper().createObjectNode();
 			spec.set(key, nodes.get(key));
 			json.set("spec", spec);
 			
+			System.out.println(json.toPrettyString());
 			client.createResource(json);
 		}
 	}
 	
 	public static void main(String[] args) throws Exception {
-		JsonNode json = client.getResource("Account", "default", args[0]);
-		
 		CloudMetadata ccm = new ObjectMapper().readValue(
-						json.get("spec").toPrettyString(), 
-						CloudMetadata.class);
+				new File("conf/vm/aliyun-ecs.json"), 
+				CloudMetadata.class);
 		
-		if (args[1].trim().equals("generate")) {
-			generate(ccm);
-		} else if (args[1].trim().equals("register")) {
-			register(ccm);
-		} else {
-			throw new Exception("Only support generate and register commands");
-		}
+		register(ccm);
 	}
 
 }
