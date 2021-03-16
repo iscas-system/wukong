@@ -13,9 +13,6 @@ import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import com.github.kubesys.httpfrk.core.HttpBodyHandler;
 import com.github.kubesys.tools.annotations.ServiceDefinition;
-import com.github.kubesys.tools.annotations.api.CatalogDescriber;
-import com.github.kubesys.tools.annotations.api.ParamDescriber;
-import com.github.kubesys.tools.annotations.api.ServiceDescriber;
 
 /**
  * @author wuheng@otcaix.iscas.ac.cn
@@ -25,7 +22,6 @@ import com.github.kubesys.tools.annotations.api.ServiceDescriber;
  * 
  **/
 @ServiceDefinition
-@CatalogDescriber(desc = "跨云管理服务")
 public class CrosscloudService extends HttpBodyHandler {
 
 	/**
@@ -45,22 +41,9 @@ public class CrosscloudService extends HttpBodyHandler {
 	 * @return
 	 * @throws Exception
 	 */
-	@ServiceDescriber(shortName = "创建Client", desc = "", prereq = "无")
 	public boolean createClient(
-			@ParamDescriber(required = true, 
-			desc = "client的Id",
-			regexp = "小写字母、数字和中划线",
-			example = "id001")
 			String id, 
-			@ParamDescriber(required = true, 
-			desc = "描述代码生成的一些信息",
-			regexp = "JSON",
-			example = "描述代码生成的一些信息")
 			CloudMetadata metadata, 
-			@ParamDescriber(required = true, 
-			desc = "账户信息",
-			regexp = "具体看各个云的API描述",
-			example = "比如阿里云是zone, accessKey, secretKey")
 			Map<String, String> map) throws Exception {
 		
 		// init clients
@@ -81,17 +64,8 @@ public class CrosscloudService extends HttpBodyHandler {
 		return true;
 	}
 	
-	@ServiceDescriber(shortName = "代理执行云服务请求", desc = "", prereq = "已创建Client")
 	public Object execRequest(
-			@ParamDescriber(required = true, 
-			desc = "client的Id",
-			regexp = "小写字母、数字和中划线",
-			example = "id001")
 			String id, 
-			@ParamDescriber(required = true, 
-			desc = "请求的数据",
-			regexp = "JSON",
-			example = "描述代码生成的一些信息")
 			JsonNode lifecycle) throws Exception  {
 		
 		
@@ -101,19 +75,13 @@ public class CrosscloudService extends HttpBodyHandler {
 		
 		Method method = getMethod(id, key, analyser);
 		
-		return method.invoke(clients.get(id), new ObjectMapper().readValue(
-								lifecycle.get(key).toPrettyString(), analyser.getData(key)));
+		Class<?> obj = analyser.getData(key);
+		Object params = new ObjectMapper().readValue(lifecycle.get(key).toPrettyString(), obj);
+		return method.invoke(clients.get(id), params);
 	}
 
-	public JsonNode execDiff(@ParamDescriber(required = true, 
-			desc = "描述代码生成的一些信息",
-			regexp = "JSON",
-			example = "描述代码生成的一些信息")
+	public JsonNode execDiff(
 			CloudMetadata v1, 
-			@ParamDescriber(required = true, 
-			desc = "描述代码生成的一些信息",
-			regexp = "JSON",
-			example = "描述代码生成的一些信息")
 			CloudMetadata v2) throws Exception {
 		
 		CloudClassloader lv1 = new CloudClassloader(v1);

@@ -37,4 +37,24 @@ public class ApplicationServer extends HttpServer  {
 		SpringApplication.run(ApplicationServer.class, args);
 	}
 
+	@Override
+	public String getTitle() {
+		return "crosscloud";
+	}
+
+	@Override
+	public String getDesc() {
+		return "crosscloud";
+	}
+
+	@Override
+	public String getVersion() {
+		return "2.0.0";
+	}
+
+	@Override
+	public String getPackage() {
+		return "com.github.kubesys";
+	}
+
 }
