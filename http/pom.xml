@@ -12,15 +12,15 @@
 	<url>http://maven.apache.org</url>
 
 	<properties>
-		<kubernetes-httpfrk-core.version>1.24.0</kubernetes-httpfrk-core.version>
+		<kubernetes-httpfrk-core.version>2.2.0</kubernetes-httpfrk-core.version>
 		<wukong-core-version>2.0.0</wukong-core-version>
 		<java.version>1.8</java.version>
 	</properties>
 
 	<dependencies>
 		<dependency>
-			<groupId>com.github.kubesys</groupId>
-			<artifactId>kubernetes-httpfrk-core</artifactId>
+			<groupId>io.github.kubesys</groupId>
+			<artifactId>httpfrk-core</artifactId>
 			<version>${kubernetes-httpfrk-core.version}</version>
 		</dependency>
 		<dependency>
@@ -34,7 +34,7 @@
 		<repository>
 			<id>pdos-repos</id>
 			<name>PDOS Releases</name>
-			<url>http://39.106.40.190:8081/repository/maven-public/</url>
+			<url>http://182.92.208.39:31021/repository/maven-public/</url>
 		</repository>
 	</repositories>
 

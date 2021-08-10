@@ -22,20 +22,6 @@
 			<artifactId>jackson-databind</artifactId>
 			<version>${jackson.version}</version>
 		</dependency>
-		
-		<!-- https://mvnrepository.com/artifact/com.aliyun/aliyun-java-sdk-core -->
-		<dependency>
-			<groupId>com.aliyun</groupId>
-			<artifactId>aliyun-java-sdk-core</artifactId>
-			<version>4.5.16</version>
-		</dependency>
-		
-		<!-- https://mvnrepository.com/artifact/com.aliyun/aliyun-java-sdk-ecs -->
-		<dependency>
-			<groupId>com.aliyun</groupId>
-			<artifactId>aliyun-java-sdk-ecs</artifactId>
-			<version>4.22.0</version>
-		</dependency>
 
 	</dependencies>
 
