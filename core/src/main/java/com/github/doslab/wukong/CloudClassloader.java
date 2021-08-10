@@ -63,7 +63,11 @@ public class CloudClassloader extends URLClassLoader {
 	 */
 	public static File getParent(CloudMetadata ccm) {
 		
-		File rootDir = new File(new File(CloudConstants.LIB_DIR), 
+		String dir = System.getenv("rootDir") == null ?
+				new File(CloudConstants.LIB_DIR).getPath()
+				: System.getenv("rootDir");
+		
+		File rootDir = new File(dir, 
 				CloudConstants.JAR_NAME_PREFIX + 
 				ccm.getKind().toLowerCase() + "-" + 
 				ccm.getVersion());

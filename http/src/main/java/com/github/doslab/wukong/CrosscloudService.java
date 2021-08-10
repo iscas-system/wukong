@@ -34,6 +34,7 @@ public class CrosscloudService extends HttpBodyHandler {
 	 */
 	protected Map<String, CloudAPIAnalyzer> analyzers = new HashMap<>();
 	
+	
 	/**
 	 * @param id
 	 * @param metadata
@@ -41,7 +42,7 @@ public class CrosscloudService extends HttpBodyHandler {
 	 * @return
 	 * @throws Exception
 	 */
-	public boolean createClient(
+	public Map<String, JsonNode> createClient(
 			String id, 
 			CloudMetadata metadata, 
 			Map<String, String> map) throws Exception {
@@ -61,7 +62,7 @@ public class CrosscloudService extends HttpBodyHandler {
 		analyzers.put(id, analyzers.get(metadata.getKind()));
 		
 		
-		return true;
+		return analyzers.get(id).extractCloudAPIs();
 	}
 	
 	public Object execRequest(
