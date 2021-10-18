@@ -14,6 +14,10 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 import com.github.kubesys.httpfrk.core.HttpBodyHandler;
 import com.github.kubesys.tools.annotations.ServiceDefinition;
 
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+import io.swagger.annotations.ApiParam;
+
 /**
  * @author wuheng@otcaix.iscas.ac.cn
  * 
@@ -22,6 +26,7 @@ import com.github.kubesys.tools.annotations.ServiceDefinition;
  * 
  **/
 @ServiceDefinition
+@Api(value = "多云管理和演化接口")
 public class CrosscloudService extends HttpBodyHandler {
 
 	/**
@@ -42,10 +47,11 @@ public class CrosscloudService extends HttpBodyHandler {
 	 * @return
 	 * @throws Exception
 	 */
+	@ApiOperation(value = "创建云账户")
 	public Map<String, JsonNode> createClient(
-			String id, 
-			CloudMetadata metadata, 
-			Map<String, String> map) throws Exception {
+			@ApiParam(value = "公有云ID", required = true, example = "asasd") String id, 
+			@ApiParam(value = "公有云元模型", required = true, example = "查看com.github.doslab.wukong.CloudMetadata") CloudMetadata metadata, 
+			@ApiParam(value = "公有云元模型对应数值", required = true, example = "比如accesskey等，各个云不太一样")  Map<String, String> map) throws Exception {
 		
 		// init clients
 		CloudClassloader loader = new CloudClassloader(metadata);
@@ -65,9 +71,10 @@ public class CrosscloudService extends HttpBodyHandler {
 		return analyzers.get(id).extractCloudAPIs();
 	}
 	
+	@ApiOperation(value = "根据分析的接口进行访问")
 	public Object execRequest(
-			String id, 
-			JsonNode lifecycle) throws Exception  {
+			@ApiParam(value = "公有云账户ID", required = true, example = "asasd") String id, 
+			@ApiParam(value = "生命周期管理Json，每个Json不一样", required = true, example = "见createClient的输出") JsonNode lifecycle) throws Exception  {
 		
 		
 		String key = lifecycle.fields().next().getKey();
