@@ -26,7 +26,7 @@ import io.swagger.annotations.ApiParam;
  * 
  **/
 @ServiceDefinition
-@Api(value = "¶àÔÆ¹ÜÀíºÍÑİ»¯½Ó¿Ú")
+@Api(value = "å¤šäº‘ç®¡ç†å’Œæ¼”åŒ–æ¥å£")
 public class CrosscloudService extends HttpBodyHandler {
 
 	/**
@@ -47,11 +47,11 @@ public class CrosscloudService extends HttpBodyHandler {
 	 * @return
 	 * @throws Exception
 	 */
-	@ApiOperation(value = "´´½¨ÔÆÕË»§")
+	@ApiOperation(value = "åˆ›å»ºäº‘è´¦æˆ·")
 	public Map<String, JsonNode> createClient(
-			@ApiParam(value = "¹«ÓĞÔÆID", required = true, example = "asasd") String id, 
-			@ApiParam(value = "¹«ÓĞÔÆÔªÄ£ĞÍ", required = true, example = "²é¿´com.github.doslab.wukong.CloudMetadata") CloudMetadata metadata, 
-			@ApiParam(value = "¹«ÓĞÔÆÔªÄ£ĞÍ¶ÔÓ¦ÊıÖµ", required = true, example = "±ÈÈçaccesskeyµÈ£¬¸÷¸öÔÆ²»Ì«Ò»Ñù")  Map<String, String> map) throws Exception {
+			@ApiParam(value = "å…¬æœ‰äº‘è´¦æˆ·ID", required = true, example = "asasd") String id, 
+			@ApiParam(value = "å…¬æœ‰äº‘å…ƒæ¨¡å‹", required = true, example = "ï¿½é¿´com.github.doslab.wukong.CloudMetadata") CloudMetadata metadata, 
+			@ApiParam(value = "å…¬æœ‰äº‘å…ƒæ¨¡å‹å¯¹åº”æ•°å€¼", required = true, example = "æ¯”å¦‚accesskeyç­‰ï¼Œå„ä¸ªäº‘ä¸å¤ªä¸€æ ·")  Map<String, String> map) throws Exception {
 		
 		// init clients
 		CloudClassloader loader = new CloudClassloader(metadata);
@@ -71,10 +71,10 @@ public class CrosscloudService extends HttpBodyHandler {
 		return analyzers.get(id).extractCloudAPIs();
 	}
 	
-	@ApiOperation(value = "¸ù¾İ·ÖÎöµÄ½Ó¿Ú½øĞĞ·ÃÎÊ")
+	@ApiOperation(value = "æ ¹æ®åˆ†æçš„æ¥å£è¿›è¡Œè®¿é—®")
 	public Object execRequest(
-			@ApiParam(value = "¹«ÓĞÔÆÕË»§ID", required = true, example = "asasd") String id, 
-			@ApiParam(value = "ÉúÃüÖÜÆÚ¹ÜÀíJson£¬Ã¿¸öJson²»Ò»Ñù", required = true, example = "¼ûcreateClientµÄÊä³ö") JsonNode lifecycle) throws Exception  {
+			@ApiParam(value = "å…¬æœ‰äº‘è´¦æˆ·ID", required = true, example = "asasd") String id, 
+			@ApiParam(value = "ç”Ÿå‘½å‘¨æœŸç®¡ç†Jsonï¼Œæ¯ä¸ªJsonä¸ä¸€æ ·", required = true, example = "è§createClientçš„è¾“å‡º") JsonNode lifecycle) throws Exception  {
 		
 		
 		String key = lifecycle.fields().next().getKey();
@@ -88,8 +88,11 @@ public class CrosscloudService extends HttpBodyHandler {
 		return method.invoke(clients.get(id), params);
 	}
 
+	@ApiOperation(value = "å¯¹æ¯”ä¸¤æ¬¡äº‘APIçš„å·®å¼‚æ€§")
 	public JsonNode execDiff(
+			@ApiParam(value = "å…¬æœ‰äº‘å…ƒæ¨¡å‹", required = true, example = "ï¿½é¿´com.github.doslab.wukong.CloudMetadata")
 			CloudMetadata v1, 
+			@ApiParam(value = "å…¬æœ‰äº‘å…ƒæ¨¡å‹", required = true, example = "ï¿½é¿´com.github.doslab.wukong.CloudMetadata")
 			CloudMetadata v2) throws Exception {
 		
 		CloudClassloader lv1 = new CloudClassloader(v1);
