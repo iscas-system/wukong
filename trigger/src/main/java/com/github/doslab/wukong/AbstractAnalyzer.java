@@ -3,10 +3,7 @@
  */
 package com.github.doslab.wukong;
 
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-
-import com.github.doslab.wukong.utils.SQLUtils;
+import java.util.logging.Logger;
 
 /**
  * @author wuheng@otcaix.iscas.ac.cn
@@ -17,17 +14,8 @@ import com.github.doslab.wukong.utils.SQLUtils;
  **/
 public abstract class AbstractAnalyzer {
 
-	protected Connection conn;
-	
-	public AbstractAnalyzer() throws Exception {
-		this.conn = SQLUtils.createConn();
-	}
-
-	public PreparedStatement createStatement(Connection conn) throws Exception {
-		return conn.prepareStatement(sql());
-	}
-	
-	public abstract String sql(); 
+	protected static final Logger m_logger = Logger.getLogger(AbstractAnalyzer.class.getName());
 	
 	public abstract void analyse() throws Exception;
+	
 }

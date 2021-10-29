@@ -22,6 +22,9 @@ public class FileUtils {
 	}
 
 	public static void write(File file, String content) throws Exception {
+		if (!file.getParentFile().exists()) {
+			file.getParentFile().mkdirs();
+		}
 		FileWriter fw = new FileWriter(file);
 		fw.write(content);
 		fw.close();

@@ -21,7 +21,7 @@ public class Main {
 		int num = Integer.parseInt(args[0]);
 		switch (num) {
 		case 1:
-			new NewVersionAnalyzer().analyse();
+			new CloudVersionAnalyzer().analyse();
 			break;
 		case 2:
 			new GenerateConfigAnalyzer().analyse();
@@ -39,7 +39,7 @@ public class Main {
 
 	private static void usage() {
 		System.out.println("Usage: ");
-		System.out.println("\t1:" + NewVersionAnalyzer.class.getSimpleName());
+		System.out.println("\t1: analyze cloud version using conf/maven.list, see output results/versions.json" + CloudVersionAnalyzer.class.getSimpleName());
 		System.out.println("\t2:" + GenerateConfigAnalyzer.class.getSimpleName());
 		System.out.println("\t3:" + GenerateCloudletAnalyzer.class.getSimpleName());
 		System.out.println("\t4:" + NewAPIAnalyzer.class.getSimpleName());

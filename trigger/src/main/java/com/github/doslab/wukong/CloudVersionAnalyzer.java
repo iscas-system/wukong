@@ -4,15 +4,17 @@
 package com.github.doslab.wukong;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.InputStreamReader;
-import java.sql.PreparedStatement;
 import java.sql.Timestamp;
 
 import org.apache.http.HttpEntity;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.node.ArrayNode;
+import com.fasterxml.jackson.databind.node.ObjectNode;
 import com.github.doslab.wukong.utils.FileUtils;
 import com.github.doslab.wukong.utils.HttpUtils;
-import com.github.doslab.wukong.utils.SQLUtils;
 
 /**
  * @author wuheng@otcaix.iscas.ac.cn
@@ -21,20 +23,15 @@ import com.github.doslab.wukong.utils.SQLUtils;
  * @since 2021.2.15
  * 
  **/
-public class NewVersionAnalyzer extends AbstractAnalyzer {
+public class CloudVersionAnalyzer extends AbstractAnalyzer {
 
+	public static final String MAVEN_URL_PREFIX    = "https://repo.maven.apache.org/maven2/";
 	
-	public static final String MAVEN_URL_PREFIX = "https://repo.maven.apache.org/maven2/";
+	public static final String MAVEN_DEPEND_CONFIG = "conf/maven.list";
 	
-	public static final String MAVEN_DEPEND_CONFIG = "conf/maven.list";           
-
-	public NewVersionAnalyzer() throws Exception {
-		super();
-	}
+	public static final String OUTPUT              = "results/versions.json";
 	
-	public static void main(String[] args) throws Exception {
-		new NewVersionAnalyzer().analyse();
-	}
+	public final ArrayNode items = new ObjectMapper().createArrayNode();
 
 	@Override
 	public void analyse() throws Exception {
@@ -47,7 +44,6 @@ public class NewVersionAnalyzer extends AbstractAnalyzer {
 			String fullUrl = MAVEN_URL_PREFIX + groupId.replace(".", "/") + "/" + artifactId;
 			doAnalyse(groupId, artifactId, HttpUtils.getResponse(fullUrl));
 		}
-		SQLUtils.closeConn(conn);
 		
 	}
 
@@ -56,39 +52,35 @@ public class NewVersionAnalyzer extends AbstractAnalyzer {
 		BufferedReader br = new BufferedReader(new InputStreamReader(entity.getContent()));
 		String fullline = null;
 		while ((fullline = br.readLine()) != null) {
-			if (fullline.contains("href=") 
-						&& fullline.indexOf("..") == -1 
-						&& fullline.indexOf("xml") == -1) {
-				try {
-					PreparedStatement ps = createStatement(conn);
+			try {
+				if (fullline.contains("href=") 
+							&& fullline.indexOf("..") == -1 
+							&& fullline.indexOf("xml") == -1) {
+					ObjectNode item = new ObjectMapper().createObjectNode();
 					int stx = fullline.indexOf("\"");
 					int edx = fullline.indexOf("/\"");
 					String version = fullline.substring(stx + 1, edx);
-					String datatime = fullline.split("\\s+")[3].trim();
-					ps.setString(1, groupId);
-					ps.setString(2, artifactId);
-					ps.setString(3, version);
+					item.put("groupId", groupId);
+					item.put("artifactId", artifactId);
+					item.put("version", version);
 					
+					String datatime = fullline.split("\\s+")[3].trim();
 					String[] splits = datatime.split("-");
-					ps.setTimestamp(4, new Timestamp(
+					item.put("release", new Timestamp(
 							Integer.parseInt(splits[0].trim()) - 1900, 
 							Integer.parseInt(splits[1].trim()), 
 							Integer.parseInt(splits[2].trim()), 
-							0, 0, 0, 0));
-					System.out.println("insert " + groupId + "," + artifactId + "," + version);
-					ps.executeUpdate();
-					ps.close();
-				} catch (Exception ex) {
-					System.out.println(ex);
-					break;
+							0, 0, 0, 0).toLocaleString());
+					
+					m_logger.info(item.toPrettyString());
+					
+					items.add(item);
 				}
+			} catch (Exception ex) {
+				m_logger.warning("ignore " + fullline);
 			}
 		}
+		
+		FileUtils.write(new File(OUTPUT), items.toPrettyString());
 	}
-	
-	@Override
-	public String sql() {
-		return "INSERT INTO versions(groupid,artifactid,version,release) values(?,?,?,?)";
-	}
-
 }

@@ -29,7 +29,6 @@ import com.github.doslab.wukong.utils.HttpUtils;
  **/
 public class GenerateConfigAnalyzer extends AbstractAnalyzer {
 
-	
 	public static final String MAVEN_URL_PREFIX = "https://repo.maven.apache.org/maven2/";
 	
 	public static final String MAVEN_DEPEND_CONFIG = "conf/maven.list";
@@ -136,9 +135,4 @@ public class GenerateConfigAnalyzer extends AbstractAnalyzer {
 		}
 	}
 	
-	@Override
-	public String sql() {
-		return "INSERT INTO versions(groupid,artifactid,version,release) values(?,?,?,?)";
-	}
-
 }

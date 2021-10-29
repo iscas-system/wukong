@@ -41,9 +41,4 @@ public class GenerateCloudletAnalyzer extends AbstractAnalyzer {
 
 	}
 
-	@Override
-	public String sql() {
-		return null;
-	}
-
 }

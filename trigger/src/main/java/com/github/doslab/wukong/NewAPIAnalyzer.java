@@ -4,12 +4,12 @@
 package com.github.doslab.wukong;
 
 import java.io.File;
-import java.sql.PreparedStatement;
 import java.util.Map;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.github.doslab.wukong.utils.SQLUtils;
+import com.fasterxml.jackson.databind.node.ArrayNode;
+import com.fasterxml.jackson.databind.node.ObjectNode;
 
 /**
  * @author wuheng@otcaix.iscas.ac.cn
@@ -20,6 +20,8 @@ import com.github.doslab.wukong.utils.SQLUtils;
  **/
 public class NewAPIAnalyzer extends AbstractAnalyzer {
 
+	protected ArrayNode list = new ObjectMapper().createArrayNode();
+	
 	public NewAPIAnalyzer() throws Exception {
 		super();
 	}
@@ -36,37 +38,19 @@ public class NewAPIAnalyzer extends AbstractAnalyzer {
 				CloudMetadata ccm = new ObjectMapper().readValue(file, CloudMetadata.class);
 				CloudAPIAnalyzer cmd = new CloudAPIAnalyzer(ccm, new CloudClassloader(ccm));
 				Map<String, JsonNode> nodes = cmd.extractCloudAPIs();
+				ObjectNode item = new ObjectMapper().createObjectNode();
 				for (String key : nodes.keySet()) {
-					try {
-						PreparedStatement ps = createStatement(conn);
-						ps.setString(1, ccm.kind);
-						String artifactId = ccm.getDependency().get(0).getArtifactId();
-						ps.setString(2, artifactId);
-						String version = ccm.getDependency().get(0).getVersion();
-						ps.setString(3, version);
-						ps.setString(4, key.toLowerCase());
-						ps.setInt(5, 0);
-						ps.executeUpdate();
-						ps.close();
-						System.out.println("insert " + ccm.kind + "," + version + "," + key.toLowerCase());
-					} catch (Exception ex) {
-						System.out.println(ex);
-						break;
-					}
-
+					item.put("provider", ccm.kind);
+					item.put("artifactId", ccm.getDependency().get(0).getArtifactId());
+					item.put("version", ccm.getDependency().get(0).getVersion());
+					item.put("operator", key);
+					list.add(item);
 				}
 			} catch (Exception ex) {
 				System.out.println(ex);
 				continue;
 			}
-
 		}
-		SQLUtils.closeConn(conn);
-	}
-
-	@Override
-	public String sql() {
-		return "INSERT INTO apis(provider, artifactid, version, operator, used) values(?,?,?,?,?)";
 	}
 
 }
