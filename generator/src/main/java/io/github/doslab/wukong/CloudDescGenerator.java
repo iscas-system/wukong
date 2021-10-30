@@ -44,6 +44,7 @@ public class CloudDescGenerator extends AbstractGenerator {
 				item.put("initClient", meta.get("initClient").asText());
 				item.set("dependencies", node.get("dependencies"));
 				items.add(item);
+				m_logger.info("analysing " + node.toPrettyString());
 			} catch (Exception ex) {
 				m_logger.warning("ignore " + ex.toString());
 			}
@@ -53,8 +54,10 @@ public class CloudDescGenerator extends AbstractGenerator {
 	@Override
 	public void doGenerate() throws Exception {
 		for (JsonNode item : items) {
-			String file = "jsons/" + item.get("kind").asText() + "-" + item.get("version").asText() + ".json";
+			String file = "jsons/" + item.get("kind").asText() + 
+					"-" + item.get("version").asText() + ".json";
 			FileUtils.write(new File(file), item.toPrettyString());
+			m_logger.info("generating " + file);
 		}
 	}
 	

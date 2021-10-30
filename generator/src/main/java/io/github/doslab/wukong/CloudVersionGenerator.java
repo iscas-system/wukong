@@ -69,12 +69,13 @@ public class CloudVersionGenerator extends AbstractGenerator {
 				item.set("dependencies", deps);
 				
 				items.add(item);
-				m_logger.info("generating " + item.toPrettyString());
+				m_logger.info("analysing " + item.toPrettyString());
 			}
 		}
 	}
 
 	public void doGenerate() throws Exception {
 		FileUtils.write(new File(OUTPUT), items.toPrettyString());
+		m_logger.info("generating " + OUTPUT);
 	}
 }

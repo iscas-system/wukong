@@ -21,6 +21,7 @@ public class CloudletGenerator extends AbstractGenerator {
 	@Override
 	public void doAnalyse() throws Exception {
 		this.files = new File("jsons").listFiles();
+		m_logger.info("analysing jsons/");
 	}
 
 	@Override
@@ -30,7 +31,7 @@ public class CloudletGenerator extends AbstractGenerator {
 				CloudMetadata ccm = new ObjectMapper().readValue(file, CloudMetadata.class);
 				CloudGenerator cmd = new CloudGenerator(ccm, new CloudClassloader(ccm));
 				cmd.generateJar();
-				System.out.println("Generating cloudlet by " + file.getName());
+				m_logger.info("Generating cloudlet by " + file.getName());
 			} catch (Exception ex) {
 				
 			}

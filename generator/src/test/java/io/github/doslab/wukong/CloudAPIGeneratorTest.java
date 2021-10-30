@@ -3,9 +3,6 @@
  */
 package io.github.doslab.wukong;
 
-import java.io.File;
-
-import com.fasterxml.jackson.databind.ObjectMapper;
 
 /**
  * @author wuheng@otcaix.iscas.ac.cn
@@ -14,10 +11,9 @@ import com.fasterxml.jackson.databind.ObjectMapper;
  * @since 2021.2.15
  * 
  **/
-public class GenerateCloudletTest {
+public class CloudAPIGeneratorTest {
 
 	public static void main(String[] args) throws Exception {
-		new CloudletGenerator().generate();
+		new CloudAPIGenerator().generate();
 	}
-
 }
