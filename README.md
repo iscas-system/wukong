@@ -6,22 +6,20 @@
   
   - [Case studies](https://ieeexplore.ieee.org/document/8705827): Yuanjia Xu, Heng Wu, Haijun Li, Yuewen Wu, Shijun Qin, Tianze Huang:
 Wukong: Heuristic-Based Framework for Generating Generic-API for JointCloud. SOSE 2019
-  - [Design](): Lei HUA, Ting Tang, Heng WU, He LIU, Wenbo ZHANG. A framework to support multi-cloud collaboration. IEEE Services 2020
+  - [Design](https://ieeexplore.ieee.org/document/9284174): Lei HUA, Ting Tang, Heng WU, He LIU, Wenbo ZHANG. A framework to support multi-cloud collaboration. IEEE Services 2020
 
 
 ##  2. Usage
 
-### 2.1 Build
+### 2.1 Quick Start
 
 ```
-mvn package -Dmaven.test.skip spring-boot:repackage
-cp target/wukong-http[version].jar docker/wukong-http.jar
-docker build docker/ -t registry.cn-beijing.aliyuncs.com/dos-lab/wukong-http:[version]
-```
-### 2.2 Start
+cd core
+mvn clean install -DskipTests
 
-```
-docker run -it -p 5010:8080 -v /data:/home/wukong-http/lib
+cd generator
+mvn clean install -DskipTests
+java -jar targets/wukong-generator-[version]-jar-with-dependencies.jar [1 or 2 or 3 or 4]
 ```
 
 ## 3. Document
