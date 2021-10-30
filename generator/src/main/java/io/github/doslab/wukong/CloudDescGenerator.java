@@ -3,23 +3,14 @@
  */
 package io.github.doslab.wukong;
 
-import java.io.BufferedReader;
 import java.io.File;
-import java.io.InputStreamReader;
-import java.util.HashMap;
-import java.util.Map;
 
-import org.apache.http.HttpEntity;
-
-import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
-import com.fasterxml.jackson.dataformat.xml.XmlMapper;
 
 import io.github.doslab.wukong.utils.FileUtils;
-import io.github.doslab.wukong.utils.HttpUtils;
 
 /**
  * @author wuheng@otcaix.iscas.ac.cn
@@ -43,22 +34,28 @@ public class CloudDescGenerator extends AbstractGenerator {
 		JsonNode depends =  new ObjectMapper().readTree(new File(DEPEND_CONFIG));
 		
 		for (JsonNode node : depends) {
-			ObjectNode item = new ObjectMapper().createObjectNode();
-			
-			for (JsonNode meta: clients.get(depends.get("type").asText())) {
+			try {
+				ObjectNode item = new ObjectMapper().createObjectNode();
+				
+				JsonNode meta = clients.get(node.get("type").asText());
 				item.put("kind", meta.get("name").asText());
 				item.put("version", node.get("version").asText());
 				item.put("client", meta.get("client").asText());
 				item.put("initClient", meta.get("initClient").asText());
 				item.set("dependencies", node.get("dependencies"));
+				items.add(item);
+			} catch (Exception ex) {
+				m_logger.warning("ignore " + ex.toString());
 			}
-			
 		}
 	}
 
 	@Override
 	public void doGenerate() throws Exception {
-		
+		for (JsonNode item : items) {
+			String file = "jsons/" + item.get("kind").asText() + "-" + item.get("version").asText() + ".json";
+			FileUtils.write(new File(file), item.toPrettyString());
+		}
 	}
 	
 }

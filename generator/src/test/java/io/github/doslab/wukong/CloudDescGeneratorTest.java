@@ -3,8 +3,6 @@
  */
 package io.github.doslab.wukong;
 
-import io.github.doslab.wukong.CloudDescGenerator;
-
 /**
  * @author wuheng@otcaix.iscas.ac.cn
  * 
@@ -15,8 +13,7 @@ import io.github.doslab.wukong.CloudDescGenerator;
 public class CloudDescGeneratorTest {
 
 	public static void main(String[] args) throws Exception {
-		CloudDescGenerator desc = new CloudDescGenerator();
-		desc.generate();
+		new CloudDescGenerator().generate();
 	}
 
 }
