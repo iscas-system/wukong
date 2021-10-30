@@ -1,0 +1,5 @@
+com.aliyun=aliyun-java-sdk-core,aliyun-java-sdk-ecs
+com.baidubce=bce-java-sdk
+com.tencentcloudapi=tencentcloud-sdk-java
+com.qingcloud=qingcloud-sdk-java
+com.jdcloud.sdk=core,vm

@@ -1,0 +1,11 @@
+{
+  "version" : "0.10.165",
+  "kind" : "BaiduVM",
+  "client" : "com.baidubce.services.bcc.BccClient",
+  "initClient" : "new com.baidubce.services.bcc.BccClient(new com.baidubce.BceClientConfiguration().withCredentials(new com.baidubce.auth.DefaultBceCredentials(map.get(\"accessKey\"), map.get(\"secretKey\"))));",
+  "dependency" : [ {
+    "groupId" : "com.baidubce",
+    "artifactId" : "bce-java-sdk",
+    "version" : "0.10.165"
+  } ]
+}

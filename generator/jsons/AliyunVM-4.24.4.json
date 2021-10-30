@@ -1,0 +1,15 @@
+{
+  "version" : "4.24.4",
+  "kind" : "AliyunVM",
+  "client" : "com.aliyuncs.DefaultAcsClient",
+  "initClient" : "new com.aliyuncs.DefaultAcsClient(com.aliyuncs.profile.DefaultProfile.getProfile(map.get(\"zone\"), map.get(\"accessKey\"), map.get(\"secretKey\")));",
+  "dependency" : [ {
+    "groupId" : "com.aliyun",
+    "artifactId" : "aliyun-java-sdk-ecs",
+    "version" : "4.24.4"
+  }, {
+    "groupId" : "com.aliyun",
+    "artifactId" : "aliyun-java-sdk-core",
+    "version" : "4.5.25"
+  } ]
+}
