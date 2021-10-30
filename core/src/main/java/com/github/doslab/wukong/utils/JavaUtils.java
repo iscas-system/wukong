@@ -80,7 +80,7 @@ public class JavaUtils {
 	
 	/**
 	 * @param typename typename
-	 * @return  true if the typename is java.util.Map<String, String> with (String, String) style, otherwise return false
+	 * @return  true if the typename is java.util.Map(String, String) with (String, String) style, otherwise return false
 	 */
 	public static boolean isStringStringMap(String typename) {
 			try {
@@ -103,7 +103,7 @@ public class JavaUtils {
 	
 	/**
 	 * @param typename typename
-	 * @return return true if the typename is Map, but not java.util.MapM<String, String>, otherwise return false
+	 * @return return true if the typename is Map, but not java.util.MapM(String, String), otherwise return false
 	 */
 	public static boolean isStringObjectMap(String typename) {
 		return isMap(typename) && !isStringStringMap(typename);
@@ -117,7 +117,7 @@ public class JavaUtils {
 	
 	/**
 	 * @param typename typename
-	 * @return return true if the typename is java.util.List<String>, otherwise return false
+	 * @return return true if the typename is java.util.List(String), otherwise return false
 	 */
 	public static boolean isStringList(String typename) {
 		try {
@@ -141,7 +141,7 @@ public class JavaUtils {
 
 	/**
 	 * @param typename typename
-	 * @return return true if the typename is starts with java.util.List, but not java.util.List<String>
+	 * @return return true if the typename is starts with java.util.List, but not java.util.List(String)
 	 */
 	public static boolean isObjectList(String typename) {
 		return isList(typename) && !isStringList(typename);
@@ -154,7 +154,7 @@ public class JavaUtils {
 	
 	/**
 	 * @param typename typename
-	 * @return true if true if the typename is starts with java.util.Set<String>
+	 * @return true if true if the typename is starts with java.util.Set(String)
 	 */
 	public static boolean isStringSet(String typename) {
 		try {
@@ -178,7 +178,7 @@ public class JavaUtils {
 	
 	/**
 	 * @param typename  typename
-	 * @return true if the typename is starts with java.util.List, but not java.util.Set<String>
+	 * @return true if the typename is starts with java.util.List, but not java.util.Set(String)
 	 */
 	public static boolean isObjectSet(String typename) {
 		return isSet(typename) && !isStringSet(typename);
