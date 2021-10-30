@@ -1,15 +1,14 @@
 /**
- * Copyright (2020, ) Institute of Software, Chinese Academy of Sciences
+ * Copyright (2021, ) Institute of Software, Chinese Academy of Sciences
  */
 package com.github.doslab.wukong;
 
 import java.util.List;
 
 /**
- * @author wuheng@otcaix.iscas.ac.cn
+ * @author wuheng@iscas.ac.cn
  * 
- * @version 2.3.0
- * @since 2020.10.15
+ * @since 2021.10.30
  * 
  **/
 public class CloudMetadata {

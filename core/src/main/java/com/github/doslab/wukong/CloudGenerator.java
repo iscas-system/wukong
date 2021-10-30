@@ -9,6 +9,7 @@ import java.io.FileWriter;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.util.List;
+import java.util.logging.Logger;
 
 import com.github.doslab.wukong.CloudMetadata.Dependency;
 
@@ -21,6 +22,11 @@ import com.github.doslab.wukong.CloudMetadata.Dependency;
  **/
 public class CloudGenerator {
 
+	
+	/**
+	 * m_logger
+	 */
+	protected static final Logger m_logger = Logger.getLogger(CloudGenerator.class.getName());
 	
 	/**
 	 * model
@@ -117,7 +123,7 @@ public class CloudGenerator {
 	 */
 	protected void buildWinLocal(File rootDir) throws Exception {
 		String cmd = "cmd /c cd " + rootDir.getAbsolutePath() + " && mvn clean install";
-		System.out.println(cmd);
+		m_logger.info(cmd);
 		Process p = Runtime.getRuntime().exec(cmd);
 		print(p.getInputStream());
 		print(p.getErrorStream());
@@ -129,7 +135,7 @@ public class CloudGenerator {
 	 */
 	protected void builUNIXLocal(File rootDir) throws Exception {
 		String cmd = "bash /usr/bin/build.sh " + rootDir.getAbsolutePath();
-		System.out.println(cmd);
+		m_logger.info(cmd);
 		Process p = Runtime.getRuntime().exec(cmd);
 		print(p.getInputStream());
 		print(p.getErrorStream());
@@ -158,10 +164,10 @@ public class CloudGenerator {
 			BufferedReader br = new BufferedReader(new InputStreamReader(is));
 			String line = null;
 			while ((line = br.readLine()) != null) {
-				System.out.println(line);
+				m_logger.info(line);
 			}
 		} catch (Exception e) {
-			e.printStackTrace();
+			m_logger.severe(e.toString());
 		}
 	}
 	
