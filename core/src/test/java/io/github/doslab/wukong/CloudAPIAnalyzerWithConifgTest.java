@@ -1,7 +1,7 @@
 /**
  * Copyright (2020, ) Institute of Software, Chinese Academy of Sciences
  */
-package com.github.doslab.wukong;
+package io.github.doslab.wukong;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -10,6 +10,7 @@ import java.util.Map;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ObjectNode;
+
 
 /**
  * @author wuheng@otcaix.iscas.ac.cn

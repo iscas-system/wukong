@@ -1,7 +1,7 @@
 /**
  * Copyright (2021, ) Institute of Software, Chinese Academy of Sciences
  */
-package com.github.doslab.wukong;
+package io.github.doslab.wukong;
 
 import java.io.File;
 import java.net.URL;

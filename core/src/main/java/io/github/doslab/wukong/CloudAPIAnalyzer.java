@@ -1,7 +1,7 @@
 /**
  * Copyright (2018-2019) Institute of Software, Chinese Academy of Sciences
  */
-package com.github.doslab.wukong;
+package io.github.doslab.wukong;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
@@ -16,8 +16,9 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
-import com.github.doslab.wukong.utils.ClassUtils;
-import com.github.doslab.wukong.utils.JavaUtils;
+
+import io.github.doslab.wukong.utils.ClassUtils;
+import io.github.doslab.wukong.utils.JavaUtils;
 
 /**
  * @author wuheng@otcaix.iscas.ac.cn

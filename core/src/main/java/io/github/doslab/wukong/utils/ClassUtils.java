@@ -1,7 +1,7 @@
 /**
  * Copyright (2021, ) Institute of Software, Chinese Academy of Sciences
  */
-package com.github.doslab.wukong.utils;
+package io.github.doslab.wukong.utils;
 
 import java.io.File;
 import java.io.FileFilter;

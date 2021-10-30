@@ -1,7 +1,7 @@
 /**
  * Copyright (2020, ) Institute of Software, Chinese Academy of Sciences
  */
-package com.github.doslab.wukong;
+package io.github.doslab.wukong;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -11,7 +11,7 @@ import java.io.InputStreamReader;
 import java.util.List;
 import java.util.logging.Logger;
 
-import com.github.doslab.wukong.CloudMetadata.Dependency;
+import io.github.doslab.wukong.CloudMetadata.Dependency;
 
 /**
  * @author wuheng@otcaix.iscas.ac.cn
