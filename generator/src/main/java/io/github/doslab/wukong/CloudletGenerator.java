@@ -7,10 +7,6 @@ import java.io.File;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import io.github.doslab.wukong.CloudClassloader;
-import io.github.doslab.wukong.CloudGenerator;
-import io.github.doslab.wukong.CloudMetadata;
-
 /**
  * @author wuheng@otcaix.iscas.ac.cn
  * 
@@ -20,18 +16,16 @@ import io.github.doslab.wukong.CloudMetadata;
  **/
 public class CloudletGenerator extends AbstractGenerator {
 
+	protected File[] files;
 
-	public CloudletGenerator() throws Exception {
-		super();
-	}
-
-	public static void main(String[] args) throws Exception {
-		new CloudletGenerator().generate();
+	@Override
+	public void doAnalyse() throws Exception {
+		this.files = new File("jsons").listFiles();
 	}
 
 	@Override
-	public void generate() throws Exception {
-		for (File file : new File("jsons").listFiles()) {
+	public void doGenerate() throws Exception {
+		for (File file : this.files) {
 			try {
 				CloudMetadata ccm = new ObjectMapper().readValue(file, CloudMetadata.class);
 				CloudGenerator cmd = new CloudGenerator(ccm, new CloudClassloader(ccm));
@@ -41,19 +35,6 @@ public class CloudletGenerator extends AbstractGenerator {
 				
 			}
 		}
-
-	}
-
-	@Override
-	public void doAnalyse() throws Exception {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void doGenerate() throws Exception {
-		// TODO Auto-generated method stub
-		
 	}
 
 }

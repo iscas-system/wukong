@@ -3,13 +3,9 @@
  */
 package io.github.doslab.wukong;
 
-import java.io.File;
-import java.util.Map;
 
-import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ArrayNode;
-import com.fasterxml.jackson.databind.node.ObjectNode;
 
 /**
  * @author wuheng@otcaix.iscas.ac.cn
@@ -47,13 +43,11 @@ public class CloudAPIGenerator extends AbstractGenerator {
 
 	@Override
 	public void doAnalyse() throws Exception {
-		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
 	public void doGenerate() throws Exception {
-		// TODO Auto-generated method stub
 		
 	}
 

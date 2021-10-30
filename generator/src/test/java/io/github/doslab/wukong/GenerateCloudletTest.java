@@ -7,8 +7,6 @@ import java.io.File;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import io.github.doslab.wukong.CloudMetadata;
-
 /**
  * @author wuheng@otcaix.iscas.ac.cn
  * 
@@ -19,12 +17,7 @@ import io.github.doslab.wukong.CloudMetadata;
 public class GenerateCloudletTest {
 
 	public static void main(String[] args) throws Exception {
-		CloudMetadata ccm = new ObjectMapper().readValue(new File("jsons/AliyunVM-4.23.9.json"), CloudMetadata.class);
-//		CloudAPIAnalyzer cmd = new CloudAPIAnalyzer(ccm, new CloudClassloader(ccm));
-//		Map<String, JsonNode> nodes = cmd.extractCloudAPIs();
-//		for (String key: nodes.keySet()) {
-//			System.out.println(key);
-//		}
+		new CloudletGenerator().generate();
 	}
 
 }
