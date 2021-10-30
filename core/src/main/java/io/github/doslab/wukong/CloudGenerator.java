@@ -81,7 +81,7 @@ public class CloudGenerator {
 		String content = read(CloudGenerator.class.getResourceAsStream(CloudConstants.POM))
 				.replace(CloudConstants.KEY_NAME, CloudConstants.JAR_NAME_PREFIX + ccm.getKind().toLowerCase())
 				.replace(CloudConstants.KEY_VERSION, ccm.getVersion())
-				.replace(CloudConstants.KEY_DEP, toDependencies(ccm.getDependency()));
+				.replace(CloudConstants.KEY_DEP, toDependencies(ccm.getDependencies()));
 		
 		write(file, content);
 	}

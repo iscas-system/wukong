@@ -36,7 +36,7 @@ public class CloudMetadata {
 	/**
 	 * dependency
 	 */
-	protected List<Dependency> dependency;
+	protected List<Dependency> dependencies;
 	
 	/**
 	 * analyzer
@@ -106,19 +106,18 @@ public class CloudMetadata {
 	}
 
 	/**
-	 * @return             dependency
+	 * @return dependencies
 	 */
-	public List<Dependency> getDependency() {
-		return dependency;
+	public List<Dependency> getDependencies() {
+		return dependencies;
 	}
 
 	/**
-	 * @param dependency   dependency
+	 * @param dependencies dependencies
 	 */
-	public void setDependency(List<Dependency> dependency) {
-		this.dependency = dependency;
+	public void setDependencies(List<Dependency> dependencies) {
+		this.dependencies = dependencies;
 	}
-	
 
 	/**
 	 * @return             version
