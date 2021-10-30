@@ -21,16 +21,16 @@ public class Main {
 		int num = Integer.parseInt(args[0]);
 		switch (num) {
 		case 1:
-			new CloudVersionGenerator().doTask();
+			new CloudVersionGenerator().generate();
 			break;
 		case 2:
-			new CloudDescGenerator().doTask();
+			new CloudDescGenerator().generate();
 			break;
 		case 3:
-			new CloudletGenerator().doTask();
+			new CloudletGenerator().generate();
 			break;
 		case 4:
-			new CloudAPIGenerator().doTask();
+			new CloudAPIGenerator().generate();
 			break;
 		default:
 			usage();

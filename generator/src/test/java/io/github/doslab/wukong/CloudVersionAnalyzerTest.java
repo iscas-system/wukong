@@ -3,8 +3,6 @@
  */
 package io.github.doslab.wukong;
 
-import io.github.doslab.wukong.CloudVersionGenerator;
-
 /**
  * @author wuheng@otcaix.iscas.ac.cn
  * 
@@ -15,6 +13,6 @@ import io.github.doslab.wukong.CloudVersionGenerator;
 public class CloudVersionAnalyzerTest {
 
 	public static void main(String[] args) throws Exception {
-		new CloudVersionGenerator().doTask();
+		new CloudVersionGenerator().generate();
 	}
 }

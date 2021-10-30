@@ -76,7 +76,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<mainClass>com.github.doslab.wukong.Main</mainClass>
+							<mainClass>io.github.doslab.wukong.Main</mainClass>
 						</manifest>
 						<manifestEntries>
 							<Class-Path>.</Class-Path>

@@ -28,7 +28,7 @@ import io.github.doslab.wukong.utils.HttpUtils;
  * @since 2021.2.15
  * 
  **/
-public class CloudDescGenerator extends AbstractTask {
+public class CloudDescGenerator extends AbstractGenerator {
 
 	public static final String MAVEN_URL_PREFIX = "https://repo.maven.apache.org/maven2/";
 	
@@ -48,11 +48,11 @@ public class CloudDescGenerator extends AbstractTask {
 	}
 	
 	public static void main(String[] args) throws Exception {
-		new CloudDescGenerator().doTask();
+		new CloudDescGenerator().generate();
 	}
 
 	@Override
-	public void doTask() throws Exception {
+	public void generate() throws Exception {
 		BufferedReader br = FileUtils.read(DEPEND_CONFIG);
 		String line = null;
 		while ((line = br.readLine()) != null) {
@@ -132,6 +132,18 @@ public class CloudDescGenerator extends AbstractTask {
 				}
 			}
 		}
+	}
+
+	@Override
+	public void doAnalyse() throws Exception {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void doGenerate() throws Exception {
+		// TODO Auto-generated method stub
+		
 	}
 	
 }

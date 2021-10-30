@@ -7,6 +7,12 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+import org.apache.http.HttpEntity;
+
+import io.github.doslab.wukong.CloudVersionGenerator;
 
 /**
  * 
@@ -20,7 +26,17 @@ public class FileUtils {
 	public static BufferedReader read(String file) throws Exception {
 		return new BufferedReader(new FileReader(new File(file)));
 	}
-
+	
+	public static BufferedReader read(HttpEntity entity) throws Exception {
+		return new BufferedReader(new InputStreamReader(entity.getContent()));
+	}
+	
+	public static BufferedReader read(String groupId, String artifactId) throws IOException, Exception {
+		String pageUrl = CloudVersionGenerator.MAVEN_URL_PREFIX + groupId.replace(".", "/") + "/" + artifactId;
+		return FileUtils.read(HttpUtils.getResponse(pageUrl));
+	}
+	
+	
 	public static void write(File file, String content) throws Exception {
 		if (!file.getParentFile().exists()) {
 			file.getParentFile().mkdirs();

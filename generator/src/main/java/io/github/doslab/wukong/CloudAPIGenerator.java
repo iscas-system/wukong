@@ -18,12 +18,12 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
  * @since 2021.2.15
  * 
  **/
-public class CloudAPIGenerator extends AbstractTask {
+public class CloudAPIGenerator extends AbstractGenerator {
 
 	protected ArrayNode list = new ObjectMapper().createArrayNode();
 	
 	@Override
-	public void doTask() throws Exception {
+	public void generate() throws Exception {
 //		for (File file : new File("jsons").listFiles()) {
 //
 //			try {
@@ -43,6 +43,18 @@ public class CloudAPIGenerator extends AbstractTask {
 //				continue;
 //			}
 //		}
+	}
+
+	@Override
+	public void doAnalyse() throws Exception {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void doGenerate() throws Exception {
+		// TODO Auto-generated method stub
+		
 	}
 
 }

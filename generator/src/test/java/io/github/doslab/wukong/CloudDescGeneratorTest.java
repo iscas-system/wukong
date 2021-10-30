@@ -16,7 +16,7 @@ public class CloudDescGeneratorTest {
 
 	public static void main(String[] args) throws Exception {
 		CloudDescGenerator desc = new CloudDescGenerator();
-		desc.doTask();
+		desc.generate();
 	}
 
 }

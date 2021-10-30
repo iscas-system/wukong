@@ -18,7 +18,7 @@ import io.github.doslab.wukong.CloudMetadata;
  * @since 2021.2.15
  * 
  **/
-public class CloudletGenerator extends AbstractTask {
+public class CloudletGenerator extends AbstractGenerator {
 
 
 	public CloudletGenerator() throws Exception {
@@ -26,11 +26,11 @@ public class CloudletGenerator extends AbstractTask {
 	}
 
 	public static void main(String[] args) throws Exception {
-		new CloudletGenerator().doTask();
+		new CloudletGenerator().generate();
 	}
 
 	@Override
-	public void doTask() throws Exception {
+	public void generate() throws Exception {
 		for (File file : new File("jsons").listFiles()) {
 			try {
 				CloudMetadata ccm = new ObjectMapper().readValue(file, CloudMetadata.class);
@@ -42,6 +42,18 @@ public class CloudletGenerator extends AbstractTask {
 			}
 		}
 
+	}
+
+	@Override
+	public void doAnalyse() throws Exception {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void doGenerate() throws Exception {
+		// TODO Auto-generated method stub
+		
 	}
 
 }
