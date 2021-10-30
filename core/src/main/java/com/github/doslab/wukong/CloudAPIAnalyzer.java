@@ -28,12 +28,12 @@ public class CloudAPIAnalyzer {
 	/**
 	 * Method mapper
 	 */
-	protected final Map<String, String> methodMappers = new HashMap<String, String>();
+	protected final Map<String, String>  methodMappers = new HashMap<>();
 
 	/**
 	 * parameter mapper
 	 */
-	protected final Map<String, Class<?>> paramMappers = new HashMap<String, Class<?>>();
+	protected final Map<String, Class<?>> paramMappers = new HashMap<>();
 
 	/**
 	 * kind
@@ -97,7 +97,7 @@ public class CloudAPIAnalyzer {
 			if (method.getParameters().length != 1 || method.getParameterTypes()[0].isInterface()
 					|| method.getParameterTypes()[0].getSuperclass() == null
 					|| method.getParameterTypes()[0].isAssignableFrom(Object.class)
-					|| JavaUtils.isBasic(method.getReturnType()) || method.getReturnType().isInterface()
+					|| JavaUtils.isPrimitive(method.getReturnType()) || method.getReturnType().isInterface()
 					|| method.getReturnType().getTypeName().startsWith("java")
 					|| method.getReturnType().getTypeName().equals(client.getName())) {
 				continue;

@@ -5,14 +5,14 @@
 
 	<groupId>com.github.dos-lab</groupId>
 	<artifactId>wukong-core</artifactId>
-	<version>2.0.0</version>
+	<version>2.1.0</version>
 	<packaging>jar</packaging>
 
 	<name>wukong</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
-		<jackson.version>2.12.1</jackson.version>
+		<jackson.version>2.13.0</jackson.version>
 	</properties>
 
 	<dependencies>
@@ -22,7 +22,12 @@
 			<artifactId>jackson-databind</artifactId>
 			<version>${jackson.version}</version>
 		</dependency>
-
+		
+		<dependency>
+			<groupId>com.fasterxml.jackson.dataformat</groupId>
+			<artifactId>jackson-dataformat-xml</artifactId>
+			<version>${jackson.version}</version>
+		</dependency>
 	</dependencies>
 
 	<build>

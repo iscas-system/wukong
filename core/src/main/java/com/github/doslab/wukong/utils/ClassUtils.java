@@ -1,5 +1,5 @@
 /**
- * Copyright (2020, ) Institute of Software, Chinese Academy of Sciences
+ * Copyright (2021, ) Institute of Software, Chinese Academy of Sciences
  */
 package com.github.doslab.wukong.utils;
 
@@ -16,9 +16,9 @@ import java.util.jar.JarEntry;
 import java.util.jar.JarFile;
 
 /**
- * 
  * @author tangting18@otcaix.iscas.ac.cn
- * @since 2019.12.10
+ * @author wuheng@iscas.ac.cn
+ * @since  2021.10.30
  * 
  * This code comes from Internet, it works well in our case.
  */

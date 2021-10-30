@@ -61,12 +61,12 @@ public class CloudConstants {
 	/**
 	 * lib
 	 */
-	public static final String LIB_DIR    = "lib";
+	public static final String LIB_DIR    = "libs";
 	
 	/**
 	 * code dir
 	 */
-	public static final String CODE_DIR  = "src/main/java/com/github/kubesys/crosscloud";
+	public static final String CODE_DIR  = "src/main/java/io/github/kubesys/crosscloud";
 	
 	/**
 	 * code name

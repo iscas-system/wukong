@@ -1,5 +1,5 @@
 /**
- * Copyright (2018-2019) Institute of Software, Chinese Academy of Sciences
+ * Copyright (2021, ) Institute of Software, Chinese Academy of Sciences
  */
 package com.github.doslab.wukong;
 
@@ -8,8 +8,8 @@ import java.net.URL;
 import java.net.URLClassLoader;
 
 /**
- * @author wuheng@otcaix.iscas.ac.cn
- * @since  2020.10.29
+ * @author wuheng@iscas.ac.cn
+ * @since  2021.10.30
  */
 public class CloudClassloader extends URLClassLoader {
 
