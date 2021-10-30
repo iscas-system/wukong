@@ -27,11 +27,9 @@ public class JsonUtils {
 		XmlMapper mapper = new XmlMapper();
 	    mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
 	    JsonNode json = mapper.readValue(HttpUtils.getResponse(url).getContent(), JsonNode.class);
-	    String datetime = json.get("versioning").get("lastUpdated").asText();
 		return toDependency(json.get("groupId").asText(), 
 	    					json.get("artifactId").asText(), 
-	    					json.get("versioning").get("latest").asText(), 
-	    					new Timestamp(Long.parseLong(datetime)));
+	    					json.get("versioning").get("latest").asText(), null);
 	}
 	
 	public static ArrayNode depFromMavenPage(String groupId, String artifactId) throws Exception {
@@ -41,13 +39,13 @@ public class JsonUtils {
 		BufferedReader brs = FileUtils.read(groupId, artifactId);
 		while ((fullline = brs.readLine()) != null) {
 			try {
-				if (fullline.indexOf("href") != -1
-							&& fullline.indexOf("..") == -1 
-							&& fullline.indexOf("xml") == -1) {
-					list.add(toDependency(groupId, artifactId, 
-							versionFromMavenPage(fullline), 
-							timeFromMavenPage(fullline)));
-				}
+			if (fullline.indexOf("href") != -1
+						&& fullline.indexOf("..") == -1 
+						&& fullline.indexOf("xml") == -1) {
+				list.add(toDependency(groupId, artifactId, 
+						versionFromMavenPage(fullline), 
+						timeFromMavenPage(fullline)));
+			}
 			} catch (Exception ex) {
 				
 			}
@@ -78,7 +76,9 @@ public class JsonUtils {
 		node.put("groupId", groupId);
 		node.put("artifactId", artifactId);
 		node.put("version", version);
-		node.put("release", time.toLocaleString());
+		if (time != null) {
+			node.put("release", time.toLocaleString());
+		}
 	    return node;
 	}
 }

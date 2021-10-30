@@ -39,10 +39,10 @@ public class Main {
 
 	private static void usage() {
 		System.out.println("Usage: ");
-		System.out.println("\t1: analyze cloud version using conf/maven.list, see output results/versions.json" + CloudVersionGenerator.class.getSimpleName());
-		System.out.println("\t2: generate cloud desc using conf/client.list and results/versions.json, see output jsons/" + CloudDescGenerator.class.getSimpleName());
-		System.out.println("\t3: generate cloudlet using jsons/, see output libs/" + CloudletGenerator.class.getSimpleName());
-		System.out.println("\t4: generate cloudlet using jsons/ and libs/, see output apis/" + CloudAPIGenerator.class.getSimpleName());
+		System.out.println("\t1: generate cloud versions using conf/maven.list, see output results/versions.json" + CloudVersionGenerator.class.getSimpleName());
+		System.out.println("\t2: generate cloud descriptions using conf/client.list and results/versions.json, see output jsons/" + CloudDescGenerator.class.getSimpleName());
+		System.out.println("\t3: generate cloud agents using jsons/, see output libs/" + CloudletGenerator.class.getSimpleName());
+		System.out.println("\t4: generate cloud APIs using jsons/ and libs/, see output apis/" + CloudAPIGenerator.class.getSimpleName());
 	}
 
 }

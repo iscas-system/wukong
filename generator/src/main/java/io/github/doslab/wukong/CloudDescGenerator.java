@@ -30,119 +30,34 @@ import io.github.doslab.wukong.utils.HttpUtils;
  **/
 public class CloudDescGenerator extends AbstractGenerator {
 
-	public static final String MAVEN_URL_PREFIX = "https://repo.maven.apache.org/maven2/";
-	
-	public static final String DEPEND_CONFIG = "conf/maven.list";
+	public static final String DEPEND_CONFIG = "results/versions.json";
 	
 	public static final String CLIENT_CONFIG = "conf/client.list";
 	
-	public static final Map<String, String> coreMapper = new HashMap<>();
-	
-	public static final Map<String, String> coreVersionMapper = new HashMap<>();
-	
-	public final JsonNode json;
+	public final ArrayNode items = new ObjectMapper().createArrayNode();
 
-	public CloudDescGenerator() throws Exception {
-		super();
-		this.json = new ObjectMapper().readTree(new File(CLIENT_CONFIG));
-	}
-	
-	public static void main(String[] args) throws Exception {
-		new CloudDescGenerator().generate();
-	}
-
-	@Override
-	public void generate() throws Exception {
-		BufferedReader br = FileUtils.read(DEPEND_CONFIG);
-		String line = null;
-		while ((line = br.readLine()) != null) {
-			String[] strs = line.split("=");
-			String groupId = strs[0];
-			String artifactId = strs[1];
-			
-			if (!json.has(groupId)) {
-				continue;
-			}
-			
-			if (artifactId.contains("core")) {
-				XmlMapper mapper = new XmlMapper();
-			    mapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
-			    String fullUrl = MAVEN_URL_PREFIX + groupId.replace(".", "/") + "/" 
-			    								+ artifactId + "/maven-metadata.xml";
-			    JsonNode json = mapper.readValue(HttpUtils.getResponse(fullUrl).getContent(), JsonNode.class);
-				coreMapper.put(groupId, artifactId);
-				coreVersionMapper.put(groupId, json.get("versioning").get("latest").asText());
-				continue;
-			} else {
-				String fullUrl = MAVEN_URL_PREFIX + groupId.replace(".", "/") + "/" + artifactId;
-				doGenerate(groupId, artifactId, HttpUtils.getResponse(fullUrl));
-			}
-		}
-		
-	}
-
-	protected void doGenerate(String groupId, String artifactId, HttpEntity entity) throws Exception {
-		
-		BufferedReader br = new BufferedReader(new InputStreamReader(entity.getContent()));
-		String fullline = null;
-		while ((fullline = br.readLine()) != null) {
-			if (fullline.contains("href=") 
-						&& fullline.indexOf("..") == -1 
-						&& fullline.indexOf("xml") == -1) {
-				
-				try {
-					int stx = fullline.indexOf("\"");
-					int edx = fullline.indexOf("/\"");
-					String version = fullline.substring(stx + 1, edx);
-					
-					
-					ObjectNode node =  new ObjectMapper().createObjectNode();
-					node.put("version", version);
-					node.put("kind", json.get(groupId).get("name").asText());
-					node.put("client", json.get(groupId).get("client").asText());
-					node.put("initClient", json.get(groupId).get("initClient").asText());
-					
-					ArrayNode depends =  new ObjectMapper().createArrayNode();
-					ObjectNode item =  new ObjectMapper().createObjectNode();
-					item.put("groupId", groupId);
-					item.put("artifactId", artifactId);
-					item.put("version", version);
-					depends.add(item);
-					
-					if (coreMapper.containsKey(groupId)) {
-						ObjectNode item2 =  new ObjectMapper().createObjectNode();
-						item2.put("groupId", groupId);
-						item2.put("artifactId", coreMapper.get(groupId));
-						item2.put("version", coreVersionMapper.get(groupId));
-						depends.add(item2);
-					}
-					
-					node.set("dependency", depends);
-					
-					File file = new File("jsons", json.get(groupId).get("name").asText() 
-														+ "-" + version + ".json");
-					if (!file.exists()) {
-						FileUtils.write(file, node.toPrettyString());
-						
-					}
-					m_logger.info("generate jsons/" + file.getName() + ":" + node.toPrettyString());
-					
-				} catch (Exception ex) {
-					m_logger.warning("igore " + ex.toString());
-				}
-			}
-		}
-	}
 
 	@Override
 	public void doAnalyse() throws Exception {
-		// TODO Auto-generated method stub
+		JsonNode clients =  new ObjectMapper().readTree(new File(CLIENT_CONFIG));
+		JsonNode depends =  new ObjectMapper().readTree(new File(DEPEND_CONFIG));
 		
+		for (JsonNode node : depends) {
+			ObjectNode item = new ObjectMapper().createObjectNode();
+			
+			for (JsonNode meta: clients.get(depends.get("type").asText())) {
+				item.put("kind", meta.get("name").asText());
+				item.put("version", node.get("version").asText());
+				item.put("client", meta.get("client").asText());
+				item.put("initClient", meta.get("initClient").asText());
+				item.set("dependencies", node.get("dependencies"));
+			}
+			
+		}
 	}
 
 	@Override
 	public void doGenerate() throws Exception {
-		// TODO Auto-generated method stub
 		
 	}
 	

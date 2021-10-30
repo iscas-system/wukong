@@ -5,9 +5,6 @@ package io.github.doslab.wukong;
 
 import java.io.BufferedReader;
 import java.io.File;
-import java.io.IOException;
-
-import org.apache.http.HttpEntity;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -60,11 +57,14 @@ public class CloudVersionGenerator extends AbstractGenerator {
 				ObjectNode item = new ObjectMapper().createObjectNode();
 				item.put("type", groupId);
 				item.put("version", node.get("version").asText());
+				item.put("release", node.get("release").asText());
 				
 				ArrayNode deps = new ObjectMapper().createArrayNode();
 				if (core != null) {
 					deps.add(core);
 				}
+				
+				((ObjectNode) node).remove("release");
 				deps.add(node);
 				item.set("dependencies", deps);
 				
