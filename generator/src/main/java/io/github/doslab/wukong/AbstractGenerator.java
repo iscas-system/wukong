@@ -21,8 +21,8 @@ public abstract class AbstractGenerator {
 		doGenerate();
 	}
 	
-	public abstract void doAnalyse() throws Exception;
+	protected abstract void doAnalyse() throws Exception;
 	
-	public abstract void doGenerate() throws Exception;
+	protected abstract void doGenerate() throws Exception;
 	
 }

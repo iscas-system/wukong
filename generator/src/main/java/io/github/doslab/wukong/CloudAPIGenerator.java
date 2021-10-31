@@ -25,7 +25,7 @@ public class CloudAPIGenerator extends AbstractGenerator {
 	protected ArrayNode items = new ObjectMapper().createArrayNode();
 
 	@Override
-	public void doAnalyse() throws Exception {
+	protected void doAnalyse() throws Exception {
 		for (File file : new File("jsons").listFiles()) {
 			try {
 				CloudMetadata ccm = new ObjectMapper().readValue(file, CloudMetadata.class);
@@ -52,7 +52,7 @@ public class CloudAPIGenerator extends AbstractGenerator {
 	}
 
 	@Override
-	public void doGenerate() throws Exception {
+	protected void doGenerate() throws Exception {
 		for (JsonNode item : items) {
 			String file = "apis/" + item.get("kind").asText() + 
 					"-" + item.get("version").asText() + ".json";

@@ -29,7 +29,7 @@ public class CloudDescGenerator extends AbstractGenerator {
 
 
 	@Override
-	public void doAnalyse() throws Exception {
+	protected void doAnalyse() throws Exception {
 		JsonNode clients =  new ObjectMapper().readTree(new File(CLIENT_CONFIG));
 		JsonNode depends =  new ObjectMapper().readTree(new File(DEPEND_CONFIG));
 		
@@ -52,7 +52,7 @@ public class CloudDescGenerator extends AbstractGenerator {
 	}
 
 	@Override
-	public void doGenerate() throws Exception {
+	protected void doGenerate() throws Exception {
 		for (JsonNode item : items) {
 			String file = "jsons/" + item.get("kind").asText() + 
 					"-" + item.get("version").asText() + ".json";

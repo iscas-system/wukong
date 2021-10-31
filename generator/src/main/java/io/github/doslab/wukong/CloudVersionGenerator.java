@@ -31,13 +31,7 @@ public class CloudVersionGenerator extends AbstractGenerator {
 	
 	public final ArrayNode items = new ObjectMapper().createArrayNode();
 
-	@Override
-	public void generate() throws Exception {
-		doAnalyse();
-		doGenerate();
-	}
-
-	public void doAnalyse() throws Exception {
+	protected void doAnalyse() throws Exception {
 		BufferedReader br = FileUtils.read(MAVEN_DEPEND_CONFIG);
 		String line = null;
 		while ((line = br.readLine()) != null) {
@@ -74,7 +68,7 @@ public class CloudVersionGenerator extends AbstractGenerator {
 		}
 	}
 
-	public void doGenerate() throws Exception {
+	protected void doGenerate() throws Exception {
 		FileUtils.write(new File(OUTPUT), items.toPrettyString());
 		m_logger.info("generating " + OUTPUT);
 	}

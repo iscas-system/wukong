@@ -19,13 +19,13 @@ public class CloudletGenerator extends AbstractGenerator {
 	protected File[] files;
 
 	@Override
-	public void doAnalyse() throws Exception {
+	protected void doAnalyse() throws Exception {
 		this.files = new File("jsons").listFiles();
 		m_logger.info("analysing jsons/");
 	}
 
 	@Override
-	public void doGenerate() throws Exception {
+	protected void doGenerate() throws Exception {
 		for (File file : this.files) {
 			try {
 				CloudMetadata ccm = new ObjectMapper().readValue(file, CloudMetadata.class);
