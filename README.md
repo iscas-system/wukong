@@ -24,8 +24,6 @@ java -jar targets/wukong-generator-[version]-jar-with-dependencies.jar [1 or 2 o
 
 ## 3. Document
 
-- [API](docs/api.md)
-
 ##  4. Analysis
 
 We describe the [operations](docs/Operations.md).suppoted by the system mentioned below.
