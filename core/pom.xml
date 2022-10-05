@@ -12,7 +12,7 @@
 	<url>http://maven.apache.org</url>
 
 	<properties>
-		<jackson.version>2.13.0</jackson.version>
+		<jackson.version>2.13.2.1</jackson.version>
 	</properties>
 
 	<dependencies>
