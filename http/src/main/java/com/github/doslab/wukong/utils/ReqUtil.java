@@ -60,7 +60,7 @@ public class ReqUtil {
 			// ignore here
 		}
 		
-		url.addHeader("Connection", "keep-alive");
+		url.addHeader("cookie", cookie);
 		return url;
 	}
 	
@@ -97,8 +97,8 @@ public class ReqUtil {
 	 * @return request or null
 	 * @throws MalformedURLException MalformedURLException
 	 */
-	public static HttpPost post(KubernetesAdminConfig config, String uri, String body) throws MalformedURLException {
-		return (HttpPost) createRequest(new HttpPost(new URL(uri).toString()), config, body);
+	public static HttpPost post(String cookie, String uri, String body) throws MalformedURLException {
+		return (HttpPost) createRequest(new HttpPost(new URL(uri).toString()), cookie, body);
 	}
 
 	/**
@@ -108,8 +108,8 @@ public class ReqUtil {
 	 * @return request or null
 	 * @throws MalformedURLException MalformedURLException
 	 */
-	public static HttpPut put(KubernetesAdminConfig config, String uri, String body) throws MalformedURLException {
-		return (HttpPut) createRequest(new HttpPut(new URL(uri).toString()), config, body);
+	public static HttpPut put(String cookie, String uri, String body) throws MalformedURLException {
+		return (HttpPut) createRequest(new HttpPut(new URL(uri).toString()), cookie, body);
 	}
 
 	/**
@@ -118,8 +118,8 @@ public class ReqUtil {
 	 * @return request or null
 	 * @throws MalformedURLException MalformedURLException
 	 */
-	public static HttpDelete delete(KubernetesAdminConfig config, String uri) throws MalformedURLException {
-		return (HttpDelete) createRequest(new HttpDelete(new URL(uri).toString()), config, null);
+	public static HttpDelete delete(String cookie, String uri) throws MalformedURLException {
+		return (HttpDelete) createRequest(new HttpDelete(new URL(uri).toString()), cookie, null);
 	}
 
 	/**
@@ -128,8 +128,8 @@ public class ReqUtil {
 	 * @return request or null
 	 * @throws MalformedURLException MalformedURLException
 	 */
-	public static HttpGet get(KubernetesAdminConfig config, String uri) throws MalformedURLException {
-		return (HttpGet) createRequest(new HttpGet(new URL(uri).toString()), config, null);
+	public static HttpGet get(String cookie, String uri) throws MalformedURLException {
+		return (HttpGet) createRequest(new HttpGet(new URL(uri).toString()), cookie, null);
 	}
 
 }

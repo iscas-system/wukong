@@ -3,19 +3,22 @@
  */
 package com.github.doslab.wukong;
 
-import java.lang.reflect.Method;
 import java.util.HashMap;
 import java.util.Map;
+
+import org.apache.hc.client5.http.classic.methods.HttpGet;
+import org.apache.hc.client5.http.impl.classic.CloseableHttpClient;
+import org.apache.hc.client5.http.impl.classic.CloseableHttpResponse;
+import org.apache.hc.client5.http.impl.classic.HttpClients;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ArrayNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
+import com.github.doslab.wukong.utils.ReqUtil;
 
-import io.github.doslab.wukong.CloudAPIAnalyzer;
-import io.github.doslab.wukong.CloudClassloader;
-import io.github.doslab.wukong.CloudMetadata;
 import io.github.kubesys.devfrk.spring.cores.AbstractHttpHandler;
+import io.github.kubesys.devfrk.spring.resp.HttpResponse;
 import io.github.kubesys.devfrk.tools.annotations.ServiceDefinition;
 
 /**
@@ -6046,7 +6049,18 @@ public class DemoService extends AbstractHttpHandler {
 		
 		JsonNode json = config.get(lifecycle);
 		
+		String path = json.get("url").asText();
 		
+		String type = json.get("type").asText();
+		
+		if (type.equals("get")) {
+			CloseableHttpClient httpClient = HttpClients.createDefault();
+			HttpGet httpget = ReqUtil.get(cookies.get(id), urls.get(id) + path);
+			CloseableHttpResponse  resp = httpClient.execute(httpget);
+			return new ObjectMapper().readTree(resp.getEntity().getContent());
+		}
+		
+		return null;
 	}
 
 }
