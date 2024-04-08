@@ -60,7 +60,7 @@ public class ReqUtil {
 			// ignore here
 		}
 		
-		url.addHeader("cookie", cookie);
+		url.addHeader("Cookie", cookie);
 		return url;
 	}
 	
