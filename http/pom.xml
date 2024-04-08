@@ -12,7 +12,7 @@
 	<url>http://maven.apache.org</url>
 
 	<properties>
-		<kubernetes-httpfrk-core.version>2.2.7</kubernetes-httpfrk-core.version>
+		<kubernetes-httpfrk-core.version>2.2.8</kubernetes-httpfrk-core.version>
 		<httpclient.version>5.3.1</httpclient.version>
 		<wukong-core-version>2.2.0</wukong-core-version>
 		<java.version>1.8</java.version>
@@ -24,20 +24,6 @@
 			<groupId>org.apache.httpcomponents.client5</groupId>
 			<artifactId>httpclient5</artifactId>
 			<version>${httpclient.version}</version>
-			<exclusions>
-				<exclusion>
-					<groupId>org.apache.logging.log4j</groupId>
-					<artifactId>log4j-api</artifactId>
-				</exclusion>
-				<exclusion>
-					<groupId>org.slf4j</groupId>
-					<artifactId>slf4j-log4j12</artifactId>
-				</exclusion>
-				<exclusion>
-					<groupId>log4j</groupId>
-					<artifactId>log4j</artifactId>
-				</exclusion>
-			</exclusions>
 		</dependency>
 		<dependency>
 			<groupId>io.github.dos-lab</groupId>

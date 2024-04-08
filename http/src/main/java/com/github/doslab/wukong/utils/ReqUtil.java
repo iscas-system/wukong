@@ -17,7 +17,6 @@ package com.github.doslab.wukong.utils;
 
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.util.Base64;
 
 import org.apache.hc.client5.http.classic.methods.HttpDelete;
 import org.apache.hc.client5.http.classic.methods.HttpGet;
@@ -62,26 +61,6 @@ public class ReqUtil {
 		
 		url.addHeader("Cookie", cookie);
 		return url;
-	}
-	
-	/**
-	 * @param request request
-	 * @param token   token
-	 */
-	private static void setBearerHeader(HttpUriRequestBase request, String token) {
-		request.addHeader("Authorization", "Bearer " + token);
-		request.addHeader("Connection", "keep-alive");
-	}
-	
-	/**
-	 * @param request request
-	 * @param token   token
-	 */
-	private static void setBasicHeader(HttpUriRequestBase request, String username, String password) {
-		request.addHeader("Authorization", "Basic " 
-							+ Base64.getEncoder().encodeToString(
-								(username + ":" + password).getBytes()));
-		request.addHeader("Connection", "keep-alive");
 	}
 	
 
