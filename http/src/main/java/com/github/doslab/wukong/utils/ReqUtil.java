@@ -52,14 +52,18 @@ public class ReqUtil {
 	 * @param body  body
 	 * @return request
 	 */
-	private static HttpUriRequestBase createRequest(HttpUriRequestBase url, String cookie, String body) {
+	private static HttpUriRequestBase createRequest(HttpUriRequestBase url, String token, String cookie, String body) {
 		try {
 			url.setEntity(new StringEntity(body == null ? "" : body, ContentType.APPLICATION_JSON));
 		} catch (Exception ex) {
 			// ignore here
 		}
 		
-		url.addHeader("Cookie", cookie);
+		if (cookie != null) {
+			url.addHeader("Cookie", cookie);
+		} else {
+			url.addHeader("Authorization", "Bearer " + token);
+		}
 		return url;
 	}
 	
@@ -76,8 +80,8 @@ public class ReqUtil {
 	 * @return request or null
 	 * @throws MalformedURLException MalformedURLException
 	 */
-	public static HttpPost post(String cookie, String uri, String body) throws MalformedURLException {
-		return (HttpPost) createRequest(new HttpPost(new URL(uri).toString()), cookie, body);
+	public static HttpPost post(String token, String cookie, String uri, String body) throws MalformedURLException {
+		return (HttpPost) createRequest(new HttpPost(new URL(uri).toString()), token, cookie, body);
 	}
 
 	/**
@@ -87,8 +91,8 @@ public class ReqUtil {
 	 * @return request or null
 	 * @throws MalformedURLException MalformedURLException
 	 */
-	public static HttpPut put(String cookie, String uri, String body) throws MalformedURLException {
-		return (HttpPut) createRequest(new HttpPut(new URL(uri).toString()), cookie, body);
+	public static HttpPut put(String token, String cookie, String uri, String body) throws MalformedURLException {
+		return (HttpPut) createRequest(new HttpPut(new URL(uri).toString()), token, cookie, body);
 	}
 
 	/**
@@ -97,8 +101,8 @@ public class ReqUtil {
 	 * @return request or null
 	 * @throws MalformedURLException MalformedURLException
 	 */
-	public static HttpDelete delete(String cookie, String uri) throws MalformedURLException {
-		return (HttpDelete) createRequest(new HttpDelete(new URL(uri).toString()), cookie, null);
+	public static HttpDelete delete(String token, String cookie, String uri) throws MalformedURLException {
+		return (HttpDelete) createRequest(new HttpDelete(new URL(uri).toString()), token, cookie, null);
 	}
 
 	/**
@@ -107,8 +111,8 @@ public class ReqUtil {
 	 * @return request or null
 	 * @throws MalformedURLException MalformedURLException
 	 */
-	public static HttpGet get(String cookie, String uri) throws MalformedURLException {
-		return (HttpGet) createRequest(new HttpGet(new URL(uri).toString()), cookie, null);
+	public static HttpGet get(String token, String cookie, String uri) throws MalformedURLException {
+		return (HttpGet) createRequest(new HttpGet(uri), token, cookie, null);
 	}
 
 }
